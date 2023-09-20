@@ -1,6 +1,4 @@
 --
-
-
 cm:add_first_tick_callback_new(
     function()
         local faction = cm:get_faction("rhox_wef_far_away_forest");
