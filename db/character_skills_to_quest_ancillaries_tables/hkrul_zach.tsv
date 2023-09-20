@@ -1,0 +1,5 @@
+ancillary	skill	use_quest_for_prefix
+#character_skills_to_quest_ancillaries_tables;1;db/character_skills_to_quest_ancillaries_tables/hkrul_zach		
+hkrul_zach_banner	hkrul_zach_banner	true
+hkrul_zach_holz	hkrul_zach_holz	true
+hkrul_zach_sword	hkrul_zach_sword	true

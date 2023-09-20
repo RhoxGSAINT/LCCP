@@ -1,0 +1,5 @@
+agent_subtype	ancillary	rank	instant	is_quest_battle
+#character_ancillary_quest_ui_details_tables;2;db/character_ancillary_quest_ui_details_tables/hkrul_zach				
+hkrul_zach	hkrul_zach_banner	6	true	false
+hkrul_zach	hkrul_zach_holz	9	true	false
+hkrul_zach	hkrul_zach_sword	13	true	false
