@@ -1,0 +1,6 @@
+attribute	attribute_group
+#unit_attributes_to_groups_junctions_tables;2;db/unit_attributes_to_groups_junctions_tables/hkrul_sceolan	
+encourages	hkrul_sceolan_attr
+hide_forest	hkrul_sceolan_attr
+mounted_fire_move	hkrul_sceolan_attr
+ignore_trees	hkrul_sceolan_attr

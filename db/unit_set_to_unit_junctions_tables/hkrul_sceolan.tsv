@@ -1,0 +1,6 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/hkrul_sceolan					
+			hkrul_sceolan	mp_cap_group_heroes	false
+			hkrul_sceolan	emp_state_troops	false
+			hkrul_sceolan	wh2_dlc13_emp_elector_count_reward_units	false
+			hkrul_sceolan	emp_characters	false

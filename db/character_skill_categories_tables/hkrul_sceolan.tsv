@@ -1,0 +1,4 @@
+key	max_indent	min_indent	order	agent_subtype_override	col_hex
+#character_skill_categories_tables;2;db/character_skill_categories_tables/hkrul_sceolan					
+hkrul_sceolan_line1	0	0	1	hkrul_sceolan	FFF9F9
+hkrul_sceolan_line2	1	1	1	hkrul_sceolan	14B1D0
