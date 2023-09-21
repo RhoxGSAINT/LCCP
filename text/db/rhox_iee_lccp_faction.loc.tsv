@@ -1,0 +1,27 @@
+key	text	tooltip
+#Loc;1;text/db/rhox_iee_lccp_faction.loc		
+factions_attack_desc_rhox_brt_reveller_of_domance	You are attacking the Revellers of Dolmance!	false
+factions_defend_desc_rhox_brt_reveller_of_domance	You are defending against the Revellers of Dolmance!	false
+factions_screen_adjective_rhox_brt_reveller_of_domance		false
+factions_screen_name_rhox_brt_reveller_of_domance	Revellers of Dolmance	false
+factions_screen_name_when_rebels_rhox_brt_reveller_of_domance	Revellers of Dolmance Rebels	false
+factions_attack_desc_rhox_def_key_keepers	You are attacking the Keepers of the Keys!	false
+factions_defend_desc_rhox_def_key_keepers	You are defending against the Keepers of the Keys!	false
+factions_screen_adjective_rhox_def_key_keepers		false
+factions_screen_name_rhox_def_key_keepers	Keepers of the Keys	false
+factions_screen_name_when_rebels_rhox_def_key_keepers	Keepers of the Keys Rebels	false
+factions_attack_desc_rhox_kho_destroyers_of_khorne	You are attacking the Destroyers of Khorne!	false
+factions_defend_desc_rhox_kho_destroyers_of_khorne	You are defending against the Destroyers of Khorne!	false
+factions_screen_adjective_rhox_kho_destroyers_of_khorne		false
+factions_screen_name_rhox_kho_destroyers_of_khorne	Destroyers of Khorne	false
+factions_screen_name_when_rebels_rhox_kho_destroyers_of_khorne	Destroyers of Khorne Rebels	false
+factions_attack_desc_rhox_wef_far_away_forest	You are attacking the Exiles of Atylwytht!	false
+factions_defend_desc_rhox_wef_far_away_forest	You are defending against the Exiles of Atylwyth!	false
+factions_screen_adjective_rhox_wef_far_away_forest		false
+factions_screen_name_rhox_wef_far_away_forest	Exiles of Atylwyth	false
+factions_screen_name_when_rebels_rhox_wef_far_away_forest	Exiles of Atylwyth Rebels	false
+factions_attack_desc_rhox_vmp_the_everliving	You are attacking the Everliving!	false
+factions_defend_desc_rhox_vmp_the_everliving	You are defending against the Everliving!	false
+factions_screen_adjective_rhox_vmp_the_everliving		false
+factions_screen_name_rhox_vmp_the_everliving	Everliving	false
+factions_screen_name_when_rebels_rhox_vmp_the_everliving	Short and a merry life	false
