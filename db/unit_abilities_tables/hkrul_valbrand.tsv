@@ -1,0 +1,6 @@
+key	requires_effect_enabling	icon_name	overpower_option	type	video	uniqueness	is_unit_upgrade	is_hidden_in_ui	source_type	superseded_abilities_set	is_hidden_in_ui_for_enemy
+#unit_abilities_tables;17;db/unit_abilities_tables/hkrul_valbrand											
+hkrul_valbrand_helm	true	hkrul_valbrand_helm		wh_type_regeneration		wh_main_anc_group_rare	true	false	passive		false
+hkrul_valbrand_pal	true	hkrul_valbrand_pal		wh_type_area_of_augments		wh_main_anc_group_uncommon	true	false	passive		false
+hkrul_valbrand_sword	true	hkrul_valbrand_sword		wh_type_augment		wh_main_anc_group_rare	true	false	active		false
+hkrul_valbrand_eruption	true	hkrul_valbrand_eruption		wh_type_explosion		wh_main_anc_group_rare	true	false	active		false

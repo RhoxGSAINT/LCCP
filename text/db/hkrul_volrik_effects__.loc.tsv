@@ -1,0 +1,9 @@
+key	text	tooltip
+#Loc;1;text/db/hkrul_volrik_effects__.loc		
+effects_description_hkrul_volrik_helm	Ability: "Placeholder''	true
+effects_description_hkrul_volrik_pal	Ability: "Fortress Wardens''	true
+effects_description_hkrul_volrik_nordland_damage	Weapon Strength: %+n% for Greatsword units	true
+effects_description_hkrul_volrik_sword	Ability: "Helmgart's Brand''	true
+effects_description_hkrul_volrik_mount	Mount: "Barded Warhorse''	true
+effects_description_hkrul_volrik_mount_2	Mount: "Imperial Pegasus''	true
+effects_description_hkrul_volrik_mount_3	Mount: "Imperial Griffon''	true

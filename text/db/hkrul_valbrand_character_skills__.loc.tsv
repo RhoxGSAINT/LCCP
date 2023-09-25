@@ -1,0 +1,28 @@
+key	text	tooltip
+#Loc;1;text/db/hkrul_valbrand_character_skills__.loc		
+character_skills_localised_name_innate_hkrul_valbrand	Jarl Fireblade	true
+character_skills_localised_description_innate_hkrul_valbrand	The Jarl of the Dragonfleet haunts the seven sea’s in search of slaves and sacrifices to Khorne. His power immense and stature grand.	true
+character_skills_localised_description_hkrul_valbrand_special_0_3	With unstoppeable monentum Valbrand is the true juggernaut, a force with such velocity even his own feet have trouble carrying him.	true
+character_skills_localised_description_hkrul_valbrand_special_0_2	Jarl Firebrand feasts with more than just the blood of his victims alone, his unnatural diet only adding to his already unnatural physique.	true
+character_skills_localised_description_hkrul_valbrand_special_0_1	The Jarl of the Dragonfleet is as immense as he is powerful, it is apparent he has the blood gods watchful eye. 	true
+character_skills_localised_name_hkrul_valbrand_special_0_3	Unparalleled momentum	true
+character_skills_localised_name_hkrul_valbrand_special_0_2	Unnatural Diet	true
+character_skills_localised_name_hkrul_valbrand_special_0_1	The Dragon Fleet	true
+character_skills_localised_description_hkrul_valbrand_special_1_1	Only few Norscans travel as far as Valbrand, his endeavors proof valueable to Khorne as potential cultists join his ranks in search for blood.	true
+character_skills_localised_name_hkrul_valbrand_special_1_1	Servants of Khorne	true
+character_skills_localised_description_hkrul_valbrand_special_1_2	Of Graeling decent Valbrand Fireblade and his flaming blade have the ability to mobilise any Norse warrior by simply raising his sword in to the air	true
+character_skills_localised_name_hkrul_valbrand_special_1_2	Graeling Slaver	true
+character_skills_localised_description_hkrul_valbrand_special_1_0	Fireblade’s crew are as vicious as they are muscular. Only the finest and hardened raiders may call them part of his retinue. 	true
+character_skills_localised_name_hkrul_valbrand_special_1_0	Coastal Raiders	true
+character_skills_localised_description_hkrul_valbrand_special_1_3	A true servant of Khorne know’s his one decree: More skulls, more blood.	true
+character_skills_localised_name_hkrul_valbrand_special_1_3	Khorne Demands	false
+character_skills_localised_description_hkrul_valbrand_mount	Placeholder Text Placeholder Text	true
+character_skills_localised_name_hkrul_valbrand_mount	Barded Warhorse	true
+character_skills_localised_name_hkrul_valbrand_mount_2	Imperial Pegasus	false
+character_skills_localised_description_hkrul_valbrand_mount_2	Placeholder Text Placeholder Text	false
+character_skills_localised_name_hkrul_valbrand_mount_3	Imperial Griffon	false
+character_skills_localised_description_hkrul_valbrand_mount_3	Placeholder Text Placeholder Text	false
+character_skills_localised_description_hkrul_valbrand_special_1_4	Valbrand made a pact with the lesser Daemon Suthrond, where sacrificial slaves tempt the daemon to bestow upon Valbrand powerful boons. 	true
+character_skills_localised_name_hkrul_valbrand_special_1_4	Surthrond's Altar	true
+character_skills_localised_description_hkrul_valbrand_special_1_5	The band of blood thirsty raiders have devoted themselves to the one true god of slaughter.	true
+character_skills_localised_name_hkrul_valbrand_special_1_5	Dedicated Warriors	true

@@ -1,0 +1,12 @@
+key	text	tooltip
+#Loc;1;text/db/hkrul_valbrand_effects__.loc		
+effects_description_hkrul_valbrand_helm	Ability: "Suthrond's Blessing''	true
+effects_description_hkrul_valbrand_pal	Ability: "Fireblade's Raiders''	true
+effects_description_hkrul_valbrand_nordland_damage	Weapon Strength: %+n% for Greatsword units	true
+effects_description_hkrul_valbrand_sword	Ability: "The Dragonblade''	true
+effects_description_hkrul_valbrand_eruption	Ability: "Valbrand's Eruption''	true
+effects_description_hkrul_valbrand_mount	Mount: "Barded Warhorse''	true
+effects_description_hkrul_valbrand_mount_2	Mount: "Imperial Pegasus''	true
+effects_description_hkrul_valbrand_mount_3	Mount: "Imperial Griffon''	true
+effects_description_hkrul_valbrand_mass_dummy	Unit mass: %+n% for every concurrent war	true
+effects_description_effect_valbrand_size_dummy	Unit size: %+n%	true

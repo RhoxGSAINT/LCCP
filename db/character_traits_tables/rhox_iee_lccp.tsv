@@ -1,0 +1,6 @@
+key	no_going_back_level	hidden	precedence	icon	ui_priority	pre_battle_speech_parameter
+#character_traits_tables;2;db/character_traits_tables/rhox_iee_lccp						
+hkrul_defeated_trait_sceolan	1	false	1	hkrul_sceolan	1	
+hkrul_defeated_trait_valbrand	1	false	1	hkrul_valbrand	1	
+hkrul_defeated_trait_volrik	1	false	1	hkrul_volrik	1	
+hkrul_defeated_trait_zach	1	false	1	hkrul_zach	1	

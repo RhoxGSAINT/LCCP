@@ -1,0 +1,16 @@
+key	text	tooltip
+#Loc;1;text/db/hkrul_valbrand_generic__.loc		
+ancillaries_colour_text_hkrul_valbrand_banner	The banner that strikes fear in the hearths of those unlucky to live in one of the many coastal villages of the empire, Grand Cathay or even Ulthuan. Where it goes carnage and destruction follows. Norscans from many tribes, yet especially those from the Graeling tribe would kill, mane and ravage for a chance to wield it in to battle. 	true
+ancillaries_onscreen_name_hkrul_valbrand_banner	Fireblade's Banner	true
+effect_bundles_localised_title_hkrul_valbrand_banner	Fireblade's Banner	false
+character_trait_levels_onscreen_name_hkrul_defeated_trait_valbrand	The Dragonblade Extinguished	true
+character_trait_levels_colour_text_hkrul_defeated_trait_valbrand	Some flames? Some muscles? Not so useful when you're sleeping on the ocean floor, Valbrand.	true
+character_trait_levels_explanation_text_hkrul_defeated_trait_valbrand	Defeated Valbrand Fireblade	true
+ancillaries_colour_text_hkrul_valbrand_sword	It’s origins unclear, yet no one questions the power of the Dragonblade. Bestowed upon Valbrand by the lesser god Suthrond it holds both magical and daemonic properties. In chronicles it is said to be the size of a small ship, where other sources claim it weighs heavier than atleast a dozen men. It’s the source of Valbrand’s power, as it does not only make him a force to be reckoned with on the battlefield, it also inspires wandering norscans to join his cause as they view his sword proof of Valbrand’s status as a favoured of Khorne.	true
+ancillaries_onscreen_name_hkrul_valbrand_sword	The Dragonblade	true
+ancillaries_colour_text_hkrul_valbrand_mount	Placeholder Text Placeholder Text	true
+ancillaries_onscreen_name_hkrul_valbrand_mount	Barded Warhorse	true
+ancillaries_colour_text_hkrul_valbrand_mount_2	Placeholder Text Placeholder Text	true
+ancillaries_onscreen_name_hkrul_valbrand_mount_2	Imperial Pegasus	true
+ancillaries_colour_text_hkrul_valbrand_mount_3	Placeholder Text Placeholder Text	true
+ancillaries_onscreen_name_hkrul_valbrand_mount_3	Imperial Griffon	true
