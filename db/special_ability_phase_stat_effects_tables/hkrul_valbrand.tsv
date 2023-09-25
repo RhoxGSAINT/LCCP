@@ -1,0 +1,5 @@
+phase	stat	value	how
+#special_ability_phase_stat_effects_tables;3;db/special_ability_phase_stat_effects_tables/hkrul_valbrand			
+hkrul_valbrand_pal	scalar_bracing	1.2000	mult
+hkrul_valbrand_sword	scalar_splash_attack_power	1.8000	mult
+hkrul_valbrand_sword	scalar_dealt_collision_knocked_back_threshold_modifier	0.0250	mult

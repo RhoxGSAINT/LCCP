@@ -1,0 +1,10 @@
+key	text	tooltip
+#Loc;1;text/db/hkrul_valbrand_unit_abilities__.loc		
+unit_abilities_tooltip_text_hkrul_valbrand_helm	Suthrond can’t afford to lose his beloved champion, so he bestows his gifts on Valbrand.	true
+unit_abilities_onscreen_name_hkrul_valbrand_helm	Suthrond's Blessing	true
+unit_abilities_tooltip_text_hkrul_valbrand_pal	The sturdiest of norsemen may call themselves among Valbrand's retinue.	true
+unit_abilities_onscreen_name_hkrul_valbrand_pal	Fireblade's Raiders	true
+unit_abilities_tooltip_text_hkrul_valbrand_sword	Blessed by Suthrond the Dragonblade is as massive as it is deadly.	true
+unit_abilities_onscreen_name_hkrul_valbrand_sword	The Dragonblade	true
+unit_abilities_tooltip_text_hkrul_valbrand_eruption	With a powerful shout, smite and stomp Valbrand wades in to battle, crushing all dare step in his path.	true
+unit_abilities_onscreen_name_hkrul_valbrand_eruption	Valbrand's Eruption	true

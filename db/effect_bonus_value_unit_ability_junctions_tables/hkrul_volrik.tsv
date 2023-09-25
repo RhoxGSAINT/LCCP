@@ -1,0 +1,5 @@
+effect	bonus_value_id	unit_ability
+#effect_bonus_value_unit_ability_junctions_tables;0;db/effect_bonus_value_unit_ability_junctions_tables/hkrul_volrik		
+hkrul_volrik_helm	enable	hkrul_volrik_helm
+hkrul_volrik_pal	enable	hkrul_volrik_pal
+hkrul_volrik_sword	enable	hkrul_volrik_sword

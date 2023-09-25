@@ -1,0 +1,5 @@
+agent_subtype	ancillary	rank	instant	is_quest_battle
+#character_ancillary_quest_ui_details_tables;2;db/character_ancillary_quest_ui_details_tables/hkrul_volrik				
+hkrul_volrik	hkrul_volrik_banner	6	true	false
+hkrul_volrik	hkrul_volrik_holz	9	true	false
+hkrul_volrik	hkrul_volrik_sword	13	true	false

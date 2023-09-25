@@ -1,0 +1,5 @@
+agent_subtype	ancillary
+#ancillaries_included_agent_subtypes_tables;0;db/ancillaries_included_agent_subtypes_tables/hkrul_volrik	
+hkrul_volrik	hkrul_volrik_mount
+hkrul_volrik	hkrul_volrik_mount_3
+hkrul_volrik	hkrul_volrik_mount_2

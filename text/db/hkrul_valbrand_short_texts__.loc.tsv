@@ -1,0 +1,8 @@
+key	text	tooltip
+#Loc;1;text/db/hkrul_valbrand_short_texts__.loc		
+unit_description_short_texts_text_hkrul_valbrand	Valbrand Fireblade, patron of Khorne and dreaded slaver of the seven seas carries a sword the size of a dozen men.	false
+ui_unit_bullet_point_enums_onscreen_name_hkrul_valbrand	The Dragonblade	false
+loading_screen_quotes_bulletpoints_hkrul_valbrand	PLACEHOLDER	false
+loading_screen_quotes_description_hkrul_valbrand	Valbrand Fireblade, patron of Khorne and dreaded slaver of the seven seas carries a sword the size of a dozen men.	false
+loading_screen_quotes_title_hkrul_valbrand	Valbrand Fireblade	false
+land_units_concealed_name_hkrul_valbrand	Valbrand Fireblade	false
