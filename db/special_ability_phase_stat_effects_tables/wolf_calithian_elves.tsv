@@ -1,0 +1,4 @@
+phase	stat	value	how
+#special_ability_phase_stat_effects_tables;3;db/special_ability_phase_stat_effects_tables/wolf_calithian_elves			
+wh2_torinubar_kinetic_combat	stat_resistance_physical	10.0000	add
+wh2_torinubar_kinetic_combat	stat_resistance_missile	10.0000	add

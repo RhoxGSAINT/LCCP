@@ -1,0 +1,4 @@
+agent	faction	subtype
+#faction_agent_permitted_subtypes_tables;0;db/faction_agent_permitted_subtypes_tables/wolf_calithian_elves		
+general	cr_hef_gate_guards	hef_calith_torinubar
+general	cr_hef_gate_guards	rhox_torinubar_convoy

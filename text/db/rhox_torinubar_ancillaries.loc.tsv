@@ -1,0 +1,6 @@
+key	text	tooltip
+#Loc;1;text/db/rhox_torinubar_ancillaries.loc		
+ancillaries_colour_text_hef_calith_torinubar_eagle	Ulthuan's Great Eagles are the firm allies of the Elves, fighting their causes since the coming of Chaos.	false
+ancillaries_onscreen_name_hef_calith_torinubar_eagle	Great Eagle	false
+ancillaries_colour_text_hef_calith_torinubar_dragon	The eldest, most powerful Dragons can destroy entire units with a molten blast of their white-hot breath.	false
+ancillaries_onscreen_name_hef_calith_torinubar_dragon	Star Dragon	false

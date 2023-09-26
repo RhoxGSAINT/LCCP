@@ -1,0 +1,8 @@
+unique_id	factor	resource	minimum	maximum	specific_faction_set
+#pooled_resource_factor_junctions_tables;2;db/pooled_resource_factor_junctions_tables/rhox_torinubar					
+rhox_torinubar_east_buildings	buildings	rhox_torinubar_east	-2147483647	2147483647	
+rhox_torinubar_west_buildings	buildings	rhox_torinubar_west	-2147483647	2147483647	
+rhox_torinubar_east_convoy	wh3_dlc23_chd_convoy	rhox_torinubar_east	-2147483647	2147483647	
+rhox_torinubar_west_convoy	wh3_dlc23_chd_convoy	rhox_torinubar_west	-2147483647	2147483647	
+rhox_torinubar_east_upgrade	wh2_dlc15_resource_factor_unit_upgrade	rhox_torinubar_east	-2147483647	0	
+rhox_torinubar_west_upgrade	wh2_dlc15_resource_factor_unit_upgrade	rhox_torinubar_west	-2147483647	0	

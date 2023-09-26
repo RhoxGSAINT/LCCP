@@ -1,0 +1,4 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/wolf_calithian_elves					
+			hef_calith_torinubar	hef_casters	false
+			hef_calith_torinubar	wh2_dlc15_hef_martial_passives	false

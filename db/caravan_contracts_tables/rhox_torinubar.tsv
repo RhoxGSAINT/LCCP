@@ -1,0 +1,6 @@
+key	resource_sold	resource_bought	cargo_to_resource_sold_rate	cargo_to_resource_bought_rate	irrevocable	max_cargo
+#caravan_contracts_tables;0;db/caravan_contracts_tables/rhox_torinubar						
+rhox_torinubar_east_buy		rhox_torinubar_east	1.0000	0.0500	true	2000
+rhox_torinubar_east_sell	rhox_torinubar_east		1.0000	20.0000	true	200
+rhox_torinubar_west_buy		rhox_torinubar_west	1.0000	0.0500	true	2000
+rhox_torinubar_west_sell	rhox_torinubar_west		1.0000	20.0000	true	200

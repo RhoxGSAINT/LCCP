@@ -1,0 +1,6 @@
+key	text	tooltip
+#Loc;1;text/db/wolf_calithian_elves_land_units__.loc		
+land_units_onscreen_name_hef_calith_gatekeepers	Calith Gatekeepers	true
+land_units_onscreen_name_hef_calith_torinubar	High Mage Torinubar	true
+land_units_onscreen_name_hef_calith_torinubar_eagle	High Mage Torinubar	false
+land_units_onscreen_name_hef_calith_torinubar_dragon	High Mage Torinubar	false

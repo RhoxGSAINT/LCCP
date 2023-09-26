@@ -1,0 +1,6 @@
+key	text	tooltip
+#Loc;1;text/db/rhox_torinubar_mount.loc		
+units_custom_battle_mounts_localised_description_hef_calith_torinubarhef_calith_torinubar_eagle	Ulthuan's Great Eagles are the firm allies of the Elves, fighting their causes since the coming of Chaos.	false
+units_custom_battle_mounts_mount_name_hef_calith_torinubarhef_calith_torinubar_eagle	Great Eagle	false
+units_custom_battle_mounts_localised_description_hef_calith_torinubarhef_calith_torinubar_dragon	The eldest, most powerful Dragons can destroy entire units with a molten blast of their white-hot breath.	false
+units_custom_battle_mounts_mount_name_hef_calith_torinubarhef_calith_torinubar_dragon	Star Dragon	false

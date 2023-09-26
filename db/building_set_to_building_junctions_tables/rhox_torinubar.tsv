@@ -1,0 +1,5 @@
+building_chain	building_level	building_set	exclude
+#building_set_to_building_junctions_tables;0;db/building_set_to_building_junctions_tables/rhox_torinubar			
+rhox_torinubar_sound_toll		wh2_main_set_landmark	false
+rhox_torinubar_east_foreign		rhox_torinubar_trade	false
+rhox_torinubar_west_foreign		rhox_torinubar_trade	false

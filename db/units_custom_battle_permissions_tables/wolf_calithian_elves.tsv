@@ -1,0 +1,5 @@
+faction	general_unit	unit	siege_unit_attacker	siege_unit_defender	general_portrait	general_uniform	set_piece_character	campaign_exclusive	armory_item_set	supports_upgrades
+#units_custom_battle_permissions_tables;11;db/units_custom_battle_permissions_tables/wolf_calithian_elves										
+cr_hef_gate_guards	true	hef_calith_torinubar	true	true	ui/portraits/portholes/no_culture/hef_calith_torinubar.png	hef_calith_torinubar	wh2_dlc15_hef_cha_archmage_high_0	false		false
+cr_hef_gate_guards	true	hef_calith_torinubar_eagle	true	true	ui/portraits/portholes/no_culture/hef_calith_torinubar.png	hef_calith_torinubar	wh2_dlc15_hef_cha_archmage_high_0	false		false
+cr_hef_gate_guards	true	hef_calith_torinubar_dragon	true	true	ui/portraits/portholes/no_culture/hef_calith_torinubar.png	hef_calith_torinubar	wh2_dlc15_hef_cha_archmage_high_0	false		false

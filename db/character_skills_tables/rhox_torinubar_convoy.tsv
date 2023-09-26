@@ -1,0 +1,16 @@
+key	image_path	localised_description	localised_name	unlocked_at_rank	is_background_skill	is_female_only_background_skill	is_male_only_background_skill	background_weighting	influence_cost
+#character_skills_tables;5;db/character_skills_tables/rhox_torinubar_convoy									
+rhox_torinubar_convoy_skill_innate_hef_prince_army_3_competent	trait_high_elves.png	This one understands tactics, and how to vary them, well enough to generally defeat the foe.	Competent	0	true	false	false	10.0000	0
+rhox_torinubar_convoy_skill_innate_hef_prince_army_3_respectful	trait_high_elves.png	"Our forefathers followed the way and overcame great adversity. We should not ignore their lessons."	Respectful	0	true	false	false	10.0000	0
+rhox_torinubar_convoy_skill_innate_hef_prince_army_3_strong_willed	trait_high_elves.png	Some minds are more susceptible to magical influence than others, but this one is strong indeed.	Strong-Willed	0	true	false	false	10.0000	0
+rhox_torinubar_convoy_skill_innate_hef_prince_battle_3_elusive	trait_high_elves.png	This one moves like lightning, ducking and twisting to avoid their opponent's blows.	Elusive	0	true	false	false	10.0000	0
+rhox_torinubar_convoy_skill_innate_hef_prince_battle_3_hale_and_hearty	trait_high_elves.png	The very picture of good health. Clearly, there's many years still ahead of them.	Hale & Hearty	0	true	false	false	10.0000	0
+rhox_torinubar_convoy_skill_innate_hef_prince_battle_3_trained	trait_high_elves.png	Every action is executed seemingly without effort.	Trained	0	true	false	false	10.0000	0
+rhox_torinubar_convoy_skill_innate_hef_prince_campaign_3_observant	trait_high_elves.png	If you wish to live, it's best to keep your eyes open and your head down.	Observant	0	true	false	false	10.0000	0
+rhox_torinubar_convoy_skill_innate_hef_prince_army_7_doctrinal	trait_high_elves.png	"Right, are you listening? Good. There's only one way to do things and that's by the book."	Doctrinal	0	true	false	false	1.0000	0
+rhox_torinubar_convoy_skill_innate_hef_prince_army_7_dragon_willed	trait_high_elves.png	Immovable and resolute in their will, this one is as determined as the World Dragon himself!	Dragon-Willed	0	true	false	false	1.0000	0
+rhox_torinubar_convoy_skill_innate_hef_prince_army_7_resistant	trait_high_elves.png	Action, inaction, change - you name it, this one will work against the prevailing wind.	Resistant	0	true	false	false	1.0000	0
+rhox_torinubar_convoy_skill_innate_hef_prince_battle_7_dangerous	trait_high_elves.png	You really don't want to be on the receiving end of an attack made by this one. You really don’t.	Dangerous	0	true	false	false	1.0000	0
+rhox_torinubar_convoy_skill_innate_hef_prince_battle_7_resilient	trait_high_elves.png	Armour is just a formality when you're as hard as nails and as tough as old boots.	Resilient	0	true	false	false	1.0000	0
+rhox_torinubar_convoy_skill_innate_hef_prince_battle_7_vigorous	trait_high_elves.png	This one is not at all easy to kill, and many have tried, believe me.	Vigorous	0	true	false	false	1.0000	0
+rhox_torinubar_convoy_skill_innate_hef_prince_campaign_7_adept	trait_high_elves.png	More than skilled, this one shows great proficiency in matters of war.	Adept	0	true	false	false	1.0000	0
