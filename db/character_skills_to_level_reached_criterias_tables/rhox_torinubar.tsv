@@ -1,0 +1,4 @@
+character_skill	character_level	upgrade_to_skill_level
+#character_skills_to_level_reached_criterias_tables;0;db/character_skills_to_level_reached_criterias_tables/rhox_torinubar		
+hef_calith_torinubar_eagle	11	1
+hef_calith_torinubar_dragon	19	1

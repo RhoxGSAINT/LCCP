@@ -1,0 +1,4 @@
+key	requires_effect_enabling	icon_name	overpower_option	type	video	uniqueness	is_unit_upgrade	is_hidden_in_ui	source_type	superseded_abilities_set	is_hidden_in_ui_for_enemy
+#unit_abilities_tables;17;db/unit_abilities_tables/wolf_calithian_elves											
+wh2_torinubar_kinetic_wave	true	hef_torinubar_kinetic_wave		wh_type_explosion		wh_main_anc_group_uncommon	true	false	active		false
+wh2_torinubar_kinetic_combat	false	hef_torinubar_kinetic_combat		wh_type_area_of_augments		wh_main_anc_group_rare	false	false	lord		false

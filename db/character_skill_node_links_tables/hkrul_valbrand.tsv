@@ -67,3 +67,5 @@ hkrul_valbrand_khorne_self_11	hkrul_valbrand_khorne_self_7	0	1	1	0.0000	0.0000	S
 hkrul_valbrand_khorne_self_11	hkrul_valbrand_khorne_self_8	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
 hkrul_valbrand_khorne_self_11	hkrul_valbrand_khorne_self_9	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
 hkrul_skill_node_valbrand_unique_03	hkrul_skill_node_valbrand_unique_02	0	1	1	0.0000	0.0000	REQUIRED
+rhox_nor_skill_node_camp_growth	wh_dlc08_skill_node_nor_marauder_chieftan_campaign_01	0	1	1	0.0000	0.0000	REQUIRED
+wh_dlc08_skill_node_nor_marauder_chieftan_campaign_06	rhox_nor_skill_node_camp_growth	0	1	1	0.0000	0.0000	SUBSET_REQUIRED

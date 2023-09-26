@@ -1,0 +1,9 @@
+effect	icon	priority	icon_negative	category	is_positive_value_good
+#effects_tables;0;db/effects_tables/wolf_calithian_elves					
+hef_calith_torinubar_enable_kinetic_explosion	general_ability.png	600	general_ability.png	battle	true
+rhox_torinubar_window_to_the_east_dummy	cargo.png	1	cargo.png	campaign	true
+rhox_torinubar_east_cargo_per_turn	rhox_torinubar_east_resource.png	3	rhox_torinubar_east_resource.png	campaign	true
+rhox_torinubar_west_cargo_per_turn	rhox_torinubar_west_resource.png	4	rhox_torinubar_west_resource.png	campaign	true
+rhox_torinubar_purchase_east	rhox_torinubar_east_resource.png	1	rhox_torinubar_east_resource.png	campaign	true
+rhox_torinubar_purchase_west	rhox_torinubar_west_resource.png	1	rhox_torinubar_west_resource.png	campaign	true
+rhox_torinubar_entrepot_dummy	resource_gemstones_large.png	2	resource_gemstones_large.png	campaign	true
