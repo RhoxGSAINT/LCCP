@@ -1,0 +1,18 @@
+key	text	tooltip
+#Loc;1;text/db/rhox_iee_lccp_pooled_resources.loc		
+pooled_resources_description_rhox_torinubar_east	Eastern Commodities such as paper or black powder. Can be sold to the Western part of the world, or can be used to make better equipment for the troops.	false
+pooled_resources_display_name_rhox_torinubar_east	Eastern Commodities	false
+pooled_resources_negative_factors_display_name_rhox_torinubar_east	Sold & Used	false
+pooled_resources_positive_factors_display_name_rhox_torinubar_east	Bought	false
+pooled_resources_description_rhox_torinubar_west	Western commodities such as cloth or weapons. Can be sold to the Eastern part of the world, or can be used to make better equipment for the troops.	false
+pooled_resources_display_name_rhox_torinubar_west	Western Commodities	false
+pooled_resources_negative_factors_display_name_rhox_torinubar_west	Sold & Used	false
+pooled_resources_positive_factors_display_name_rhox_torinubar_west	Bought	false
+pooled_resources_description_rhox_valbrand_slaves_spent_und	Sacrificing [[img:icon_slaves]][[/img]]Slaves to Chaos Undivided unlocks additional Gifts of Chaos.	false
+pooled_resources_display_name_rhox_valbrand_slaves_spent_und	Slaves sacrificed to Chaos Undivided	false
+pooled_resources_negative_factors_display_name_rhox_valbrand_slaves_spent_und	Stolen	false
+pooled_resources_positive_factors_display_name_rhox_valbrand_slaves_spent_und	Sacrificed	false
+pooled_resources_description_rhox_valbrand_slaves_spent_kho	Sacrificing [[img:icon_slaves]][[/img]]Slaves to Khorne unlocks additional Gifts of Chaos.	false
+pooled_resources_display_name_rhox_valbrand_slaves_spent_kho	Slaves sacrificed to Khorne	false
+pooled_resources_negative_factors_display_name_rhox_valbrand_slaves_spent_kho	Stolen	false
+pooled_resources_positive_factors_display_name_rhox_valbrand_slaves_spent_kho	Sacrificed	false

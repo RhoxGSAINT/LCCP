@@ -98,7 +98,6 @@ cm:add_first_tick_callback(
             local west = core:get_or_create_component("rhox_torinubar_west_holder", "ui/campaign ui/rhox_torinubar_west_holder.twui.xml", parent_ui)
             local east = core:get_or_create_component("rhox_torinubar_east_holder", "ui/campaign ui/rhox_torinubar_east_holder.twui.xml", parent_ui)
 		end
-		campaign_traits.legendary_lord_defeated_traits["hef_calith_torinubar"] ="rhox_torinubar_defeated_torinubar"
 	end
 )
 

@@ -11,3 +11,5 @@ hkrul_valbrand_mount_2	mount.png	50	mount.png	both	true
 hkrul_valbrand_mount_3	mount.png	50	mount.png	both	true
 hkrul_valbrand_mass_dummy	mass_character.png	130	mass_character.png	battle	true
 effect_valbrand_size_dummy	effect_valbrand_size.png	130	effect_valbrand_size.png	both	true
+rhox_valbrand_capital_tech_dummy	technology.png	61	technology.png	campaign	true
+rhox_valbrand_chaos_gift_dummy	khorne_points.png	2	khorne_points.png	both	true

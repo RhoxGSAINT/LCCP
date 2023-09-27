@@ -1,8 +1,10 @@
 key	text	tooltip
-#Loc;1;text/db/rhox_torinubar_effect.loc		
+#Loc;1;text/db/rhox_iee_lccp_effects.loc		
 effects_description_rhox_torinubar_window_to_the_east_dummy	Window to the East: Engage in transit trade by buying and selling Eastern commodities and Western commodities. You can also use them to bloster your troops	false
 effects_description_rhox_torinubar_east_cargo_per_turn	Eastern Commodities Generated: %n	false
 effects_description_rhox_torinubar_west_cargo_per_turn	Western Commodities Generated: %n	false
 effects_description_rhox_torinubar_purchase_east	Passive: Battle Harmony: Yin	false
 effects_description_rhox_torinubar_purchase_west	Passive: Battle Harmony: Yang	false
 effects_description_rhox_torinubar_entrepot_dummy	Whenever you complete a convoy journey to an order faction's settlements, you'll get an entrepot building	false
+effects_description_rhox_valbrand_capital_tech_dummy	Is Full horde faction and capital techs will be unlocked by razing the capital for Khorne instead	false
+effects_description_rhox_valbrand_chaos_gift_dummy	Has access to Chaos and Khorne Chaos Gift via slaves	false

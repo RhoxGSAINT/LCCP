@@ -1,3 +1,4 @@
 member	context	faction
 #campaign_group_member_criteria_factions_tables;1;db/campaign_group_member_criteria_factions_tables/rhox_iee_lccp		
 rhox_valbrand_feature	ACTOR	rhox_nor_firebrand_slavers
+rhox_valbrand_streak	OWNER	rhox_nor_firebrand_slavers
