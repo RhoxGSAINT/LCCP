@@ -5,6 +5,7 @@ cm:add_first_tick_callback(
 		campaign_traits.legendary_lord_defeated_traits["hkrul_valbrand"] ="hkrul_defeated_trait_valbrand"
 		campaign_traits.legendary_lord_defeated_traits["hkrul_volrik"] ="hkrul_defeated_trait_volrik"
 		campaign_traits.legendary_lord_defeated_traits["hkrul_zach"] ="hkrul_defeated_trait_zach"
+		campaign_traits.legendary_lord_defeated_traits["hef_calith_torinubar"] ="rhox_torinubar_defeated_torinubar"
 	end
 )
 

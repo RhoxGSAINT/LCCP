@@ -1,0 +1,9 @@
+key	text	tooltip
+#Loc;1;text/db/rhox_iee_lccp_ui.loc		
+campaign_localised_strings_string_rhox_valbrand_gift_button_tooltip	Gifts of Chaos||Use your harvested [[img:icon_slaves]][[/img]]Slaves to claim powerful rewards from the Khorne	false
+campaign_localised_strings_string_rhox_torunubar_foreign_building_lock	[[col:red]]You can only upgrade or build this building by sending a convoy to this region[[/col]]	false
+rhox_torinubar_evil_taken_title	Entrepot Lost!	false
+rhox_torinubar_evil_taken_description	Grave news my lord. One of our major trade cities has fallen into the forces of evil. While we could still make a few smuggling attempts into the area, we can't build or maintain an entrepot in this settlement.	false
+uied_component_texts_localised_string_ComponentTooltip_rhox_valbrand_slave_upkeep	This number of Slaves will be removed from your total each turn. If you cannot afford this upkeep, active Gifts will be deactivated. Slaves spent in this way will contribute towards unlocking new Gifts.	false
+uied_component_texts_localised_string_ComponentTooltip_rhox_valbrand_slave_active_cost	Number of Slaves required to activate this Gift. Slaves spent in this way will contribute towards unlocking new Gifts.	false
+campaign_localised_strings_string_rhox_valbrand_chaos_gifts_unlock_sacrifice_slaves	This Gift will be unlocked after sacrificing the specified number of Slaves.	false

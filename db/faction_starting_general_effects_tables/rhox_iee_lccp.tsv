@@ -1,0 +1,7 @@
+agent_subtype	effect_bundle
+#faction_starting_general_effects_tables;0;db/faction_starting_general_effects_tables/rhox_iee_lccp	
+hef_calith_torinubar	rhox_torinubar_faction_trait
+hkrul_sceolan	rhox_sceolan_faction_trait
+hkrul_valbrand	rhox_valbrand_faction_trait
+hkrul_volrik	rhox_volrik_faction_trait
+hkrul_zach	rhox_zach_faction_trait

@@ -32,56 +32,13 @@ cm:add_first_tick_callback_new(
 )
 
 
+
 cm:add_first_tick_callback(
-    function()
-        
-        if cm:get_local_faction_name(true) == valbrand_faction then
-            core:add_listener(
-                "rhox_firebrand_disable_vanilla_occu_options",
-                "PanelOpenedCampaign",
-                function(context)
-                    return context.string == "settlement_captured"
-                end,
-                function(context)
-                    local panel = find_uicomponent(core:get_ui_root(), "settlement_captured")
-                    local kill = find_uicomponent(panel, "1292694896")
-                    local maim = find_uicomponent(panel, "1369123792")
-                    local burn = find_uicomponent(panel, "1824195232")
-                            
-                    if kill then 
-                        kill:SetVisible(false)
-                    end
-                    if maim then
-                        maim:SetVisible(false)
-                    end
-                    if burn then
-                        burn:SetVisible(false)
-                    end  
-                end,
-                true
-            )
-            
-            local norsca_gods_frame = find_uicomponent(core:get_ui_root(), "hud_campaign", "resources_bar_holder", "resources_bar", "norsca_favour", "norsca_gods_frame")
-            for i = 0, norsca_gods_frame:ChildCount() - 1 do
-                local current_list = UIComponent(norsca_gods_frame:Find(i))
-                local current_id = current_list:Id()
-                if current_id == "list_eagle" or current_id == "list_serpent" or current_id == "list_crow" then
-                    for j = 0, current_list:ChildCount() - 1 do
-                        local current_tier = UIComponent(current_list:Find(j))
-                        current_tier:SetState("locked")
-                    end
-                end		
-            end
-            
-            local locked_overlay = find_uicomponent(norsca_gods_frame, "locked_overlay")	
-            locked_overlay:SetVisible(true)
+	function()
+		pcall(function()
+			mixer_set_faction_trait(valbrand_faction, "rhox_valbrand_faction_trait", true)
+		end)
 
-
-
-        end
-        
-    end
+	end
 )
-
-
 	

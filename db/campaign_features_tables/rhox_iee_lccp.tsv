@@ -1,3 +1,4 @@
 feature	group	available
 #campaign_features_tables;0;db/campaign_features_tables/rhox_iee_lccp		
 slaves	rhox_valbrand_feature	false
+streaks	rhox_valbrand_feature	true
