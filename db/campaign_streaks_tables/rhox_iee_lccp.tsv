@@ -1,0 +1,3 @@
+key	type	max	min	decrease_amount	turns_for_a_decrease
+#campaign_streaks_tables;0;db/campaign_streaks_tables/rhox_iee_lccp					
+rhox_valbrand_win_streak	WIN_STREAK	9	-1	1	2

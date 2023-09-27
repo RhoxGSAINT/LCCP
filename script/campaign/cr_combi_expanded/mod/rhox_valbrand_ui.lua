@@ -1,5 +1,33 @@
 local valbrand_faction ="rhox_nor_firebrand_slavers"
 
+
+local function rhox_valbrand_god_bar_ui()
+    local norsca_gods_frame = find_uicomponent(core:get_ui_root(), "hud_campaign", "resources_bar_holder", "resources_bar", "norsca_favour", "norsca_gods_frame")
+    if not norsca_gods_frame then
+        return
+    end
+    for i = 0, norsca_gods_frame:ChildCount() - 1 do
+        local current_list = UIComponent(norsca_gods_frame:Find(i))
+        if not current_list then
+            return
+        end
+        local current_id = current_list:Id()
+        if current_id == "list_eagle" or current_id == "list_serpent" or current_id == "list_crow" then
+            for j = 0, current_list:ChildCount() - 1 do
+                local current_tier = UIComponent(current_list:Find(j))
+                if not current_tier then
+                    return
+                end
+                current_tier:SetState("locked")
+            end
+        end		
+    end
+    
+    local locked_overlay = find_uicomponent(norsca_gods_frame, "locked_overlay")	
+    locked_overlay:SetVisible(true)
+end
+
+
 cm:add_first_tick_callback(
     function()
     
@@ -28,21 +56,23 @@ cm:add_first_tick_callback(
                 end,
                 true
             )
+            real_timer.unregister("rhox_iee_realtime_norsca_god_bar")
+            real_timer.register_repeating("rhox_iee_realtime_norsca_god_bar", 5000)
             
-            local norsca_gods_frame = find_uicomponent(core:get_ui_root(), "hud_campaign", "resources_bar_holder", "resources_bar", "norsca_favour", "norsca_gods_frame")
-            for i = 0, norsca_gods_frame:ChildCount() - 1 do
-                local current_list = UIComponent(norsca_gods_frame:Find(i))
-                local current_id = current_list:Id()
-                if current_id == "list_eagle" or current_id == "list_serpent" or current_id == "list_crow" then
-                    for j = 0, current_list:ChildCount() - 1 do
-                        local current_tier = UIComponent(current_list:Find(j))
-                        current_tier:SetState("locked")
-                    end
-                end		
-            end
+            core:add_listener(
+                "rhox_iee_realtime_norsca_god_bar_realtime",
+                "RealTimeTrigger",
+                function(context)
+                    return context.string == "rhox_iee_realtime_norsca_god_bar"
+                end,
+                function()
+                    rhox_valbrand_god_bar_ui()
+                end,
+                true
+            )
+            rhox_valbrand_god_bar_ui()
             
-            local locked_overlay = find_uicomponent(norsca_gods_frame, "locked_overlay")	
-            locked_overlay:SetVisible(true)
+            
 
             local parent_ui = find_uicomponent(core:get_ui_root(), "hud_campaign", "faction_buttons_docker", "button_group_management");
             --local result = core:get_or_create_component("rhox_button_ogre_contracts", "ui/campaign ui/rhox_grudge_contract.twui.xml", parent_ui)
