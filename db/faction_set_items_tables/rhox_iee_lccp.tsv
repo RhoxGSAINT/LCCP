@@ -1,3 +1,5 @@
 id	culture	faction	remove	set	subculture
 #faction_set_items_tables;1;db/faction_set_items_tables/rhox_iee_lccp					
 13867982		rhox_nor_firebrand_slavers	false	rhox_valbrand_faction	
+13867983		rhox_nor_firebrand_slavers	false	FavouredCorruptionKhorne	
+13867984		rhox_nor_firebrand_slavers	true	FavouredCorruptionUndivided	
