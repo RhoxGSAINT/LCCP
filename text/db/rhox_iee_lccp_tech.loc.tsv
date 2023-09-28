@@ -1,0 +1,14 @@
+key	text	tooltip
+#Loc;1;text/db/rhox_iee_lccp_tech.loc		
+technologies_onscreen_name_rhox_valbrand_kho_1	Khonre Tech 1	false
+technologies_short_description_rhox_valbrand_kho_1	Khonre Tech 1	false
+technologies_onscreen_name_rhox_valbrand_kho_2	Khonre Tech 2	false
+technologies_short_description_rhox_valbrand_kho_2	Khonre Tech 2	false
+technologies_onscreen_name_rhox_valbrand_kho_3	Khonre Tech 3	false
+technologies_short_description_rhox_valbrand_kho_3	Khonre Tech 3	false
+technologies_onscreen_name_rhox_valbrand_normal_1	Additional Tech 1	false
+technologies_short_description_rhox_valbrand_normal_1	Additional Tech 1	false
+technologies_onscreen_name_rhox_valbrand_normal_2	Additional Tech 2	false
+technologies_short_description_rhox_valbrand_normal_2	Additional Tech 2	false
+technologies_onscreen_name_rhox_valbrand_normal_3	Additional Tech 3	false
+technologies_short_description_rhox_valbrand_normal_3	Additional Tech 3	false

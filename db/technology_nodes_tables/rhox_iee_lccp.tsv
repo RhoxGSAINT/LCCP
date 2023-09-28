@@ -1,0 +1,8 @@
+key	campaign_key	faction_key	indent	technology_key	technology_node_set	tier	research_points_required	cost_per_round	food_cost	optional_ui_group	resource_cost	required_parents	pixel_offset_x	pixel_offset_y
+#technology_nodes_tables;0;db/technology_nodes_tables/rhox_iee_lccp														
+rhox_valbrand_kho_1		rhox_nor_firebrand_slavers	5	rhox_valbrand_kho_1	nor_mil	3	800	0	0			0	0	20
+rhox_valbrand_kho_2		rhox_nor_firebrand_slavers	6	rhox_valbrand_kho_2	nor_mil	3	800	0	0			0	0	20
+rhox_valbrand_kho_3		rhox_nor_firebrand_slavers	7	rhox_valbrand_kho_3	nor_mil	3	800	0	0			0	0	20
+rhox_valbrand_normal_1		rhox_nor_firebrand_slavers	1	rhox_valbrand_normal_1	nor_mil	3	800	0	0			0	0	-20
+rhox_valbrand_normal_2		rhox_nor_firebrand_slavers	2	rhox_valbrand_normal_2	nor_mil	3	500	0	0			0	0	-20
+rhox_valbrand_normal_3		rhox_nor_firebrand_slavers	3	rhox_valbrand_normal_3	nor_mil	3	800	0	0			0	0	-20
