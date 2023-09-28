@@ -3,7 +3,6 @@ key	tech_category_tab	tech_category_position	chain_category	in_encyclopedia	buil
 rhox_valbrand_NORSCA_beasts			military	false	wh2_main_sch_military3_warmachines		3		true
 rhox_valbrand_NORSCA_chaos			military	false	wh2_main_sch_military4_monsters		5		true
 rhox_valbrand_NORSCA_creatures			military	false	wh2_main_sch_military5		4		true
-rhox_valbrand_NORSCA_garrison			military	true	wh2_main_sch_defence_norsca		0		true
 rhox_valbrand_NORSCA_loot			money	false	wh2_main_sch_infrastructure1_farm		9		true
 rhox_valbrand_NORSCA_military			military	true	wh2_main_sch_military1_barracks		0		true
 rhox_valbrand_NORSCA_offerings			military	false	wh2_main_sch_support2_worship		7		true

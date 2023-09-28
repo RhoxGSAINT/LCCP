@@ -1,6 +1,5 @@
 building_chain	building_level	building_set	exclude
 #building_set_to_building_junctions_tables;0;db/building_set_to_building_junctions_tables/rhox_valbrand			
-rhox_valbrand_NORSCA_garrison		wh_main_set_norsca_defence	false
 rhox_valbrand_NORSCA_walls		wh_main_set_norsca_defence	false
 rhox_valbrand_NORSCA_loot		wh_main_set_norsca_economy	false
 rhox_valbrand_NORSCA_slaves		wh_main_set_norsca_economy	false

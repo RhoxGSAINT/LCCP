@@ -8,9 +8,6 @@ rhox_valbrand_nor_chaos_2	rhox_valbrand_NORSCA_chaos	1	5	6000	0		false	false			t
 rhox_valbrand_nor_creatures_1	rhox_valbrand_NORSCA_creatures	0	3	2000	0		false	false			true	wh_main_NORSCA_creatures	true	0.0000	0	true	2		true	0	0		0
 rhox_valbrand_nor_creatures_2	rhox_valbrand_NORSCA_creatures	1	4	3000	0		false	false			true	wh_main_NORSCA_creatures	true	0.0000	0	true	3		true	0	0		0
 rhox_valbrand_nor_creatures_3	rhox_valbrand_NORSCA_creatures	2	5	6000	0		false	false			true	wh_main_NORSCA_creatures	true	0.0000	0	true	4		true	0	0		0
-rhox_valbrand_nor_garrison_1	rhox_valbrand_NORSCA_garrison	0	3	1000	0		false	false			true	wh_main_NORSCA_walls	true	0.0000	0	true	0		true	0	0		0
-rhox_valbrand_nor_garrison_2	rhox_valbrand_NORSCA_garrison	1	4	2000	0		false	false			true	wh_main_NORSCA_walls	true	0.0000	0	true	1		true	0	0		0
-rhox_valbrand_nor_garrison_3	rhox_valbrand_NORSCA_garrison	2	5	4000	0		false	false			true	wh_main_NORSCA_walls	true	0.0000	0	true	2		true	0	0		0
 rhox_valbrand_nor_loot_1	rhox_valbrand_NORSCA_loot	0	1	250	0		false	false			true	wh_main_nor_loot	true	0.0000	0	true	0		true	0	0		0
 rhox_valbrand_nor_loot_2	rhox_valbrand_NORSCA_loot	1	2	500	0		false	false			true	wh_main_nor_loot	true	0.0000	0	true	1		true	0	0		0
 rhox_valbrand_nor_loot_3	rhox_valbrand_NORSCA_loot	2	3	1000	0		false	false			true	wh_main_nor_loot	true	0.0000	0	true	2		true	0	0		0

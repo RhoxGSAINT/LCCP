@@ -3,8 +3,6 @@ building_chain	building_instance	building_or_building_range_start_inclusive	buil
 rhox_valbrand_NORSCA_beasts						cai_military_group					0	0	1000	1000	1000	1000	0	0	0	0	510	510	510	510	0	0	1100	1500
 rhox_valbrand_NORSCA_chaos						cai_military_group					0	0	1000	1000	1000	1000	0	0	0	0	510	510	510	510	0	0	1100	1500
 rhox_valbrand_NORSCA_creatures						cai_military_group					0	0	1000	1000	1000	1000	0	0	0	0	510	510	510	510	0	0	1100	1500
-rhox_valbrand_NORSCA_garrison						cai_defence_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	250
-rhox_valbrand_NORSCA_garrison						cai_support_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	250
 rhox_valbrand_NORSCA_loot						cai_support_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	20	125
 rhox_valbrand_NORSCA_military						cai_military_group					0	0	1000	1000	1000	1000	0	0	0	0	510	510	510	510	0	0	1100	1500
 rhox_valbrand_NORSCA_offerings						cai_support_group					0	0	40	40	40	40	0	0	0	0	260	260	260	260	0	0	50	250

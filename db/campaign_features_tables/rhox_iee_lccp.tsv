@@ -3,6 +3,7 @@ feature	group	available
 slaves	rhox_valbrand_feature	false
 streaks	rhox_valbrand_feature	true
 faction_mercenary_recruitment_outside_of_territory	rhox_valbrand_feature	true
+unit_upgrades	rhox_valbrand_feature	true
 additional_army_upkeep	rhox_valbrand_feature	false
 public_order	rhox_valbrand_feature	false
 region_growth	rhox_valbrand_feature	false
