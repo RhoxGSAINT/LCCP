@@ -3,3 +3,6 @@ id	culture	faction	remove	set	subculture
 13867982		rhox_nor_firebrand_slavers	false	rhox_valbrand_faction	
 13867983		rhox_nor_firebrand_slavers	false	FavouredCorruptionKhorne	
 13867984		rhox_nor_firebrand_slavers	true	FavouredCorruptionUndivided	
+13867985		cr_nor_avags	false	FavouredCorruptionTzeentch	
+13867986		cr_nor_avags	true	FavouredCorruptionUndivided	
+13867987		cr_nor_avags	false	rhox_volrik_faction	

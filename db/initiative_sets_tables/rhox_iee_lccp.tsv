@@ -2,3 +2,5 @@ key	active_initiative_limit	activation_cooldown	category	points_limit	allows_mul
 #initiative_sets_tables;5;db/initiative_sets_tables/rhox_iee_lccp						
 rhox_valbrand_faction_initiative_set_chs_khorne	0	1	DLC20_KHORNE_INITIATIVES	0	false	
 rhox_valbrand_faction_initiative_set_chs_undivided	1	1	DLC20_UNDIVIDED_INITIATIVES	0	false	
+rhox_volrik_faction_initiative_set_chs_tzeentch	0	1	DLC20_TZEENTCH_INITIATIVES	0	false	
+rhox_volrik_faction_initiative_set_chs_undivided	1	1	DLC20_UNDIVIDED_INITIATIVES	0	false	

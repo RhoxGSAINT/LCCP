@@ -10,3 +10,5 @@ effects_description_rhox_valbrand_capital_tech_dummy	Is Full horde faction and c
 effects_description_rhox_valbrand_chaos_gift_dummy	Has access to Chaos and Khorne Chaos Gift via slaves	false
 effects_description_rhox_iee_nor_efficient_hunter_dummy	Efficient Hunters: Will straight go into the final monster hunting	false
 effects_description_rhox_valbrand_dedicated_to_khorne_dummy	Dedicated to Khorne: Can only serve Khorne and other God options will be locked	false
+effects_description_rhox_volrik_dedicated_to_tzeentch_dummy	Dedicated to Tzeentch: Can only serve Tzeentch and other God options will be locked	false
+effects_description_rhox_volrik_chaos_gift_dummy	Has access to Chaos and Khorne Chaos Gift via Grimoire	false

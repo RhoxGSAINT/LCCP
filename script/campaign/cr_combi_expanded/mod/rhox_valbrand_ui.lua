@@ -6,6 +6,7 @@ local function rhox_valbrand_god_bar_ui()
     if not norsca_gods_frame then
         return
     end
+    norsca_gods_frame:SetImagePath("ui/skins/default/nor_gods_bg_valbrand.png")
     for i = 0, norsca_gods_frame:ChildCount() - 1 do
         local current_list = UIComponent(norsca_gods_frame:Find(i))
         if not current_list then
@@ -18,13 +19,12 @@ local function rhox_valbrand_god_bar_ui()
                 if not current_tier then
                     return
                 end
-                current_tier:SetState("locked")
+                current_tier:SetVisible(false)
             end
         end		
     end
     
-    local locked_overlay = find_uicomponent(norsca_gods_frame, "locked_overlay")	
-    locked_overlay:SetVisible(true)
+
 end
 
 
@@ -33,7 +33,7 @@ cm:add_first_tick_callback(
     
         if cm:get_local_faction_name(true) == valbrand_faction then
             core:add_listener(
-                "rhox_firebrand_disable_vanilla_occu_options",
+                "rhox_firebrand_disable_vanilla_occupation_options",
                 "PanelOpenedCampaign",
                 function(context)
                     return context.string == "settlement_captured"
@@ -56,27 +56,14 @@ cm:add_first_tick_callback(
                 end,
                 true
             )
-            real_timer.unregister("rhox_iee_realtime_norsca_god_bar")
-            real_timer.register_repeating("rhox_iee_realtime_norsca_god_bar", 5000)
-            
-            core:add_listener(
-                "rhox_iee_realtime_norsca_god_bar_realtime",
-                "RealTimeTrigger",
-                function(context)
-                    return context.string == "rhox_iee_realtime_norsca_god_bar"
-                end,
-                function()
-                    rhox_valbrand_god_bar_ui()
-                end,
-                true
-            )
+
             rhox_valbrand_god_bar_ui()
             
             
 
             local parent_ui = find_uicomponent(core:get_ui_root(), "hud_campaign", "faction_buttons_docker", "button_group_management");
             --local result = core:get_or_create_component("rhox_button_ogre_contracts", "ui/campaign ui/rhox_grudge_contract.twui.xml", parent_ui)
-            local result = UIComponent(parent_ui:CreateComponent("rhox_valbrand_chaos_gift", "ui/campaign ui/rhox_lccp_nor_chaos_gift.twui.xml"))
+            local result = UIComponent(parent_ui:CreateComponent("rhox_valbrand_chaos_gift", "ui/campaign ui/rhox_valbrand_chaos_gift_button.twui.xml"))
             
             
             core:add_listener(
