@@ -4,3 +4,5 @@ rhox_torinubar_east	10000	0	false	other	rhox_torinubar_east_resource.png	END_OF_
 rhox_torinubar_west	10000	0	false	other	rhox_torinubar_west_resource.png	END_OF_ROUND	false	FACTION	false	0		false	true
 rhox_valbrand_slaves_spent_und	2147483647	0	false	wh2_main_resource_factor_other	icon_soul_hybrid_undivided.png	END_OF_ROUND	false	FACTION	false	1		false	true
 rhox_valbrand_slaves_spent_kho	2147483647	0	false	wh2_main_resource_factor_other	icon_soul_hybrid_khorne.png	END_OF_ROUND	false	FACTION	false	1		false	true
+rhox_volrik_book_spent_und	2147483647	0	false	wh2_main_resource_factor_other	icon_soul_hybrid_undivided.png	END_OF_ROUND	false	FACTION	false	1		false	true
+rhox_volrik_book_spent_tze	2147483647	0	false	wh2_main_resource_factor_other	icon_soul_hybrid_tzeentch.png	END_OF_ROUND	false	FACTION	false	1		false	true

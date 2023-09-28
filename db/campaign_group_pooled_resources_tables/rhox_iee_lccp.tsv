@@ -5,3 +5,6 @@ rhox_valbrand_feature	rhox_valbrand_slaves_spent_kho	0
 rhox_valbrand_feature	rhox_valbrand_slaves_spent_und	0
 rhox_torinubar_feature	rhox_torinubar_east	100
 rhox_torinubar_feature	rhox_torinubar_west	100
+rhox_volrik_feature	rhox_volrik_book_spent_tze	0
+rhox_volrik_feature	rhox_volrik_book_spent_und	0
+rhox_volrik_feature	wh3_main_tze_grimoires	500

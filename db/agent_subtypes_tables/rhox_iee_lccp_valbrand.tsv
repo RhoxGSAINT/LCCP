@@ -1,3 +1,0 @@
-key	auto_generate	is_caster	small_icon	associated_unit_override	audio_voiceover_actor_group	show_in_ui	cap	has_female_name	can_gain_xp	loyalty_is_applicable	contributes_to_agent_cap	recruitment_category	magic_lore	names_group	can_be_loaned	recruitable	saving_settings	audio_vo_culture_override	spam_click_vo_enabled	can_equip_ancillaries	cost
-#agent_subtypes_tables;1;db/agent_subtypes_tables/rhox_iee_lccp_valbrand																					
-rhox_valbrand_nor_marauder_chieftain_horde	true	false		wh_main_nor_cha_marauder_chieftan_0	wh_dlc08_vo_actor_Norsca_Marauder_Chieftan	true	-1	false	true	false	true	nor_marauder_chieftain			true	true	can_be_saved_loaded		false	true	700
