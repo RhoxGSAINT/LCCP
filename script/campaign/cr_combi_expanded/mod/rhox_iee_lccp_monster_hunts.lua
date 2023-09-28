@@ -316,6 +316,9 @@ core:add_listener(
                     if faction_key == "rhox_nor_firebrand_slavers" then
                         cm:faction_add_pooled_resource(faction_key, "nor_progress_hound", "events", 12)
                     end
+                    if faction_key == "cr_nor_avags" then
+                        cm:faction_add_pooled_resource(faction_key, "nor_progress_eagle", "events", 12)
+                    end
                 end;
                 
                 deactivate_a_monster_hunt(monster_hunts_index[i], faction_key);
