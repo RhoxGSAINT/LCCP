@@ -10,3 +10,4 @@ rhox_valbrand_faction_trait			faction	1	character.png	true	false	true
 rhox_sceolan_faction_trait			faction	1	character.png	true	false	true
 rhox_volrik_faction_trait			faction	1	character.png	true	false	true
 rhox_zach_faction_trait			faction	1	character.png	true	false	true
+rhox_valbrand_innate_effect_bundle			character	1	character.png	false	false	true

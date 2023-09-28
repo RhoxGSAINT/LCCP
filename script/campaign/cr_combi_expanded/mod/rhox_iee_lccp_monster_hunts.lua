@@ -255,6 +255,7 @@ core:add_listener(
         local mission_key = context:mission():mission_record_key()
         local final_mission = rhox_nor_first_final_mission[mission_key]
         
+        cm:fail_custom_mission(faction_key, mission_key)
         cm:cancel_custom_mission(faction_key, mission_key)
 		cm:trigger_mission(faction_key, final_mission, true)
 

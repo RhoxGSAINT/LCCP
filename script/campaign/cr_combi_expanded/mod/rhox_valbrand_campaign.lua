@@ -1,3 +1,56 @@
+--his innate trait
+local function recalculate_mass_bonus_effect(character, faction)
+    if character:has_effect_bundle("rhox_valbrand_innate_effect_bundle") then
+        cm:remove_effect_bundle_from_character("rhox_valbrand_innate_effect_bundle", character)
+    end-- remove the pre-existing one if any
+    
+    local value = 5;
+    local war_faction_number = faction:factions_at_war_with():num_items()
+    local valbarand_bundle = cm:create_new_custom_effect_bundle("rhox_valbrand_innate_effect_bundle");
+    valbarand_bundle:set_duration(0);
+    valbarand_bundle:add_effect("wh3_main_effect_character_stat_unit_mass_percentage_mod", "character_to_character_own", value*war_faction_number);
+
+    cm:apply_custom_effect_bundle_to_character(valbarand_bundle, character)
+end
+
+core:add_listener(
+    "rhox_valbarand_innate_trait_1",
+    "CharacterTurnStart",
+    function(context)
+        local character = context:character()
+        return character:character_subtype("hkrul_valbrand")
+    end,
+    function(context)
+        local character = context:character()    
+        local faction = character:faction()
+        
+        recalculate_mass_bonus_effect(character, faction)
+        
+    end,
+    true
+)
+
+core:add_listener(
+    "rhox_valbarand_innate_trait_2",
+    "FactionLeaderDeclaresWar",
+    function(context)
+        local character = context:character()
+        return character:character_subtype("hkrul_valbrand")
+    end,
+    function(context)
+        local character = context:character()    
+        local faction = character:faction()
+        
+        recalculate_mass_bonus_effect(character, faction)
+        
+    end,
+    true
+)
+
+
+
+--unlock techs by sacking instead
+------------------------------------------
 local rhox_norsca_region_to_tech= {
     wh3_main_combi_region_naggarond =  "wh_dlc08_tech_nor_nw_03",
     wh3_main_combi_region_lothern =   "wh_dlc08_tech_nor_nw_05",
