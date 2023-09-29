@@ -30,6 +30,10 @@ core:add_ui_created_callback(
             mixer_add_starting_unit_list_for_faction("cr_nor_avags", {"wh_dlc08_nor_inf_marauder_hunters_1"})
             mixer_add_faction_to_major_faction_list("cr_nor_avags")
             
+            mixer_change_lord_name("597789182", "hkrul_orghotts") 
+            mixer_enable_custom_faction("597789182")
+            mixer_add_starting_unit_list_for_faction("cr_nur_tide_of_pestilence", {"wh3_main_nur_inf_nurglings_0"})
+            mixer_add_faction_to_major_faction_list("cr_nur_tide_of_pestilence")
 
         end        
     end

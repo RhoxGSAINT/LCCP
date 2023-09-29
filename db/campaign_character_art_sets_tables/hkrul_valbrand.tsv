@@ -1,7 +1,0 @@
-art_set_id	agent_type	culture	subculture	faction	is_custom	is_male	agent_subtype	campaign_map_scale
-#campaign_character_art_sets_tables;6;db/campaign_character_art_sets_tables/hkrul_valbrand								
-hkrul_valbrand	general				false	true	hkrul_valbrand	1.1500
-rhox_valbrand_art_set_nor_marauder_chieftain_01	general				false	true	rhox_valbrand_nor_marauder_chieftain_horde	1.0000
-rhox_valbrand_art_set_nor_marauder_chieftain_02	general				false	true	rhox_valbrand_nor_marauder_chieftain_horde	1.0000
-rhox_valbrand_art_set_nor_marauder_chieftain_03	general				false	true	rhox_valbrand_nor_marauder_chieftain_horde	1.0000
-rhox_valbrand_art_set_nor_marauder_chieftain_04	general				false	true	rhox_valbrand_nor_marauder_chieftain_horde	1.0000

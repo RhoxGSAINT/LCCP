@@ -1,0 +1,15 @@
+art_set_id	agent_type	culture	subculture	faction	is_custom	is_male	agent_subtype	campaign_map_scale
+#campaign_character_art_sets_tables;6;db/campaign_character_art_sets_tables/rhox_iee_lccp								
+rhox_valbrand_art_set_nor_marauder_chieftain_01	general				false	true	rhox_valbrand_nor_marauder_chieftain_horde	1.0000
+rhox_valbrand_art_set_nor_marauder_chieftain_02	general				false	true	rhox_valbrand_nor_marauder_chieftain_horde	1.0000
+rhox_valbrand_art_set_nor_marauder_chieftain_03	general				false	true	rhox_valbrand_nor_marauder_chieftain_horde	1.0000
+rhox_valbrand_art_set_nor_marauder_chieftain_04	general				false	true	rhox_valbrand_nor_marauder_chieftain_horde	1.0000
+rhox_volrik_art_set_chs_sorcerer_lord_tzeentch_mtze_01	general				false	true	rhox_valrik_chs_sorcerer_lord_tzeentch_mtze	1.0000
+rhox_volrik_art_set_chs_sorcerer_lord_tzeentch_mtze_02	general				false	true	rhox_valrik_chs_sorcerer_lord_tzeentch_mtze	1.0000
+rhox_volrik_art_set_chs_sorcerer_lord_tzeentch_mtze_03	general				false	true	rhox_valrik_chs_sorcerer_lord_tzeentch_mtze	1.0000
+rhox_volrik_art_set_chs_sorcerer_lord_tzeentch_mtze_04	general				false	true	rhox_valrik_chs_sorcerer_lord_tzeentch_mtze	1.0000
+rhox_volrik_art_set_chs_sorcerer_lord_tzeentch_mtze_05	general				false	true	rhox_valrik_chs_sorcerer_lord_tzeentch_mtze	1.0000
+rhox_torinubar_convoy_01	general				false	true	rhox_torinubar_convoy	1.0000
+rhox_torinubar_convoy_02	general				false	true	rhox_torinubar_convoy	1.0000
+rhox_torinubar_convoy_03	general				false	true	rhox_torinubar_convoy	1.0000
+rhox_torinubar_convoy_04	general				false	true	rhox_torinubar_convoy	1.0000

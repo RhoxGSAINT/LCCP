@@ -1,6 +1,0 @@
-faction	general_unit	unit	siege_unit_attacker	siege_unit_defender	general_portrait	general_uniform	set_piece_character	campaign_exclusive	armory_item_set	supports_upgrades
-#units_custom_battle_permissions_tables;11;db/units_custom_battle_permissions_tables/hkrul_volrik										
-wh_dlc08_nor_norsca	true	hkrul_volrik	true	true	ui/portraits/portholes/wh_main_emp_empire/hkrul_volrik.png	hkrul_volrik	hkrul_volrik	true		false
-wh_dlc08_nor_norsca	true	hkrul_volrik_mount	true	true	ui/portraits/portholes/wh_main_emp_empire/hkrul_volrik.png	hkrul_volrik	hkrul_volrik	true		false
-wh_dlc08_nor_norsca	true	hkrul_volrik_mount_2	true	true	ui/portraits/portholes/wh_main_emp_empire/hkrul_volrik.png	hkrul_volrik	hkrul_volrik	true		false
-wh_dlc08_nor_norsca	true	hkrul_volrik_mount_3	true	true	ui/portraits/portholes/wh_main_emp_empire/hkrul_volrik.png	hkrul_volrik	hkrul_volrik	true		false

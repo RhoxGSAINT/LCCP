@@ -1,3 +1,0 @@
-character_name	character_level	forename	magic_lore	num_men	surname	unit_type	agent_type	agent_subtype	portrait	character_model	skillset	male
-#battle_set_piece_armies_characters_tables;8;db/battle_set_piece_armies_characters_tables/hkrul_sceolan												
-hkrul_sceolan	1	2147343937		100	2147343940	hkrul_sceolan	general	hkrul_sceolan	ui/portraits/portholes/wh_dlc05_wef_wood_elves/hkrul_sceolan.png	672250330		true

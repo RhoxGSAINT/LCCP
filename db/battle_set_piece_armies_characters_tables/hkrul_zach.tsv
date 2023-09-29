@@ -1,3 +1,0 @@
-character_name	character_level	forename	magic_lore	num_men	surname	unit_type	agent_type	agent_subtype	portrait	character_model	skillset	male
-#battle_set_piece_armies_characters_tables;8;db/battle_set_piece_armies_characters_tables/hkrul_zach												
-hkrul_zach	1	2147343937		100	2147343940	hkrul_zach	general	hkrul_zach	ui/portraits/portholes/wh_main_emp_empire/hkrul_zach.png	266250331		true
