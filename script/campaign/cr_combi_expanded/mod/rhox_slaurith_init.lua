@@ -23,8 +23,14 @@ cm:add_first_tick_callback_new(
         cm:set_character_immortality(cm:char_lookup_str(faction_leader_cqi), false);          
         cm:kill_character_and_commanded_unit(cm:char_lookup_str(faction_leader_cqi), true)
         cm:callback(function() cm:disable_event_feed_events(false, "", "", "wh_event_category_character") end, 0.2);
-        
-
     end
 )
 
+cm:add_first_tick_callback(
+	function()
+		pcall(function()
+			mixer_set_faction_trait(slaurith_faction, "rhox_lord_slaurith_faction_trait", true)
+		end)
+	end
+)
+	
