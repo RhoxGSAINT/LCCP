@@ -26,7 +26,8 @@ core:add_ui_created_callback(
             
             
             mixer_change_lord_name("2018282170", "hkrul_volrik") 
-            mixer_add_starting_unit_list_for_faction("cr_nor_avags", {"wh_dlc08_nor_inf_marauder_hunters_1"})
+            mixer_enable_custom_faction("2018282170")
+            mixer_add_starting_unit_list_for_faction("cr_nor_avags", {"wh_dlc08_nor_inf_marauder_hunters_1","wh_main_nor_inf_chaos_marauders_0","wh3_dlc20_chs_cav_chaos_chariot_mtze","wh3_dlc20_chs_cav_marauder_horsemen_mtze_javelins","wh_dlc08_nor_inf_marauder_spearman_0",})
             mixer_add_faction_to_major_faction_list("cr_nor_avags")
             
             mixer_change_lord_name("597789182", "hkrul_orghotts") 
@@ -43,4 +44,4 @@ core:add_ui_created_callback(
 
         end        
     end
-)
+)

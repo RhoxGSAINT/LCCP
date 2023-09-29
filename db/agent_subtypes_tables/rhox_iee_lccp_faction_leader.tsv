@@ -5,7 +5,7 @@ hkrul_valbrand	false	false		hkrul_valbrand	wh3_dlc20_vo_actor_Khorne_Chaos_Lord_
 hkrul_volrik	false	false		hkrul_volrik	wh_dlc08_vo_actor_Norsca_Marauder_Chieftan	true	-1	false	true	false	false	legendary_lords			false	true	cannot_be_saved_loaded		false	true	1100
 hkrul_zach	false	true		hkrul_zach	wh_main_vo_actor_Vampire_MasterNecromancer	true	-1	false	true	false	false	legendary_lords			false	true	cannot_be_saved_loaded		false	true	1100
 hef_calith_torinubar	false	true		hef_calith_torinubar	wh2_main_vo_actor_High_Elves_Loremasters_of_Hoeth	true	-1	false	true	false	false	legendary_lords			false	true	cannot_be_saved_loaded		false	true	1100
-hkrul_orghotts	false	false		hkrul_orghotts	wh3_main_vo_actor_DaemonPrince_Generic_Nurgle	true	-1	false	true	false	false	legendary_lords			false	true	cannot_be_saved_loaded		false	true	2700
+hkrul_orghotts	false	false		hkrul_spew	wh3_dlc20_vo_actor_Nurgle_Sorcerer_Lord_of_Nurgle	true	-1	false	true	false	false	legendary_lords			false	true	cannot_be_saved_loaded		false	true	2700
 hkrul_hrothyogg	false	false		hkrul_hrothyogg	wh3_main_vo_actor_Ogres_Tyrant	true	-1	false	true	false	false	legendary_lords			false	true	cannot_be_saved_loaded	wh3_main_vo_culture_Ogres	false	true	1350
 hkrul_aelfric	false	false		hkrul_aelfric	wh_dlc08_vo_actor_Norsca_Marauder_Chieftan	true	-1	false	true	false	false	legendary_lords			false	true	cannot_be_saved_loaded		false	true	700
 hkrul_lord_slaurith	false	false		hkrul_lord_slaurith	wh3_main_vo_actor_Khorne_Exalted_Bloodthirster	true	-1	false	true	false	false	legendary_lords			false	true	cannot_be_saved_loaded		false	true	2500

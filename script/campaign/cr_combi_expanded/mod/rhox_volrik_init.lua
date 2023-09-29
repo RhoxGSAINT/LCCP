@@ -48,15 +48,15 @@ cm:add_first_tick_callback_new(
         cm:create_force_with_general(
             -- faction_key, unit_list, region_key, x, y, agent_type, agent_subtype, forename, clan_name, family_name, other_name, id, make_faction_leader, success_callback
             volrik_faction,
-            "wh_dlc08_nor_inf_marauder_spearman_0,wh_dlc08_nor_inf_marauder_hunters_1",
+            "wh_dlc08_nor_inf_marauder_spearman_0,wh_dlc08_nor_inf_marauder_hunters_1,wh3_dlc20_chs_cav_marauder_horsemen_mtze_javelins,wh_main_nor_inf_chaos_marauders_0,wh_main_nor_inf_chaos_marauders_0,wh3_dlc20_chs_cav_chaos_chariot_mtze",
             "cr_combi_region_avags_camp",
             1416,
             764,
             "general",
             "hkrul_volrik",
-            "names_name_6330700834",
+            "names_name_4170700722",
             "",
-            "names_name_6330700833",
+            "names_name_4170700720",
             "",
             true,
             function(cqi)

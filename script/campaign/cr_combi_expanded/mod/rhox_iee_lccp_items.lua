@@ -93,3 +93,22 @@ core:add_listener(
     end,
     false
 )
+
+core:add_listener(
+    "hkrul_volrik_banner_unlock",
+    "CharacterRankUp",
+    function(context)
+        local character = context:character()
+        local faction = character:faction()
+        return character:character_subtype("hkrul_volrik") and character:rank() >= 8 and faction:ancillary_exists("hkrul_volrik_banner") == false
+    end,
+    function(context)
+        cm:force_add_ancillary(
+            context:character(),
+            "hkrul_volrik_banner",
+            true,
+            false
+        )
+    end,
+    false
+)

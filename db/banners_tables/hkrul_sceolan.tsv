@@ -1,3 +1,4 @@
 banner	effect_bundle
 #banners_tables;1;db/banners_tables/hkrul_sceolan	
 hkrul_sceolan_banner	hkrul_sceolan_banner
+hkrul_spew_banner	hkrul_sceolan_banner

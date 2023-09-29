@@ -2,7 +2,7 @@ key	text	tooltip
 #Loc;1;text/db/hkrul_volrik_unit_abilities__.loc		
 unit_abilities_tooltip_text_hkrul_volrik_helm	Placeholder Text	true
 unit_abilities_onscreen_name_hkrul_volrik_helm	Placeholder	true
-unit_abilities_tooltip_text_hkrul_volrik_pal	Placeholder Text	true
-unit_abilities_onscreen_name_hkrul_volrik_pal	Fortress Wardens	true
-unit_abilities_tooltip_text_hkrul_volrik_sword	Placeholder Text	true
-unit_abilities_onscreen_name_hkrul_volrik_sword	Helmgart's Brand	true
+unit_abilities_tooltip_text_hkrul_volrik_blessed	Those who follow Volrik hear the whispers of the raven.	true
+unit_abilities_onscreen_name_hkrul_volrik_blessed	Whispers of the Raven	true
+unit_abilities_tooltip_text_hkrul_volrik_claw	Placeholder Text	true
+unit_abilities_onscreen_name_hkrul_volrik_claw	Mutatious Claw	true
