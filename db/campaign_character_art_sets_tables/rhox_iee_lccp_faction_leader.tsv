@@ -1,8 +1,8 @@
 art_set_id	agent_type	culture	subculture	faction	is_custom	is_male	agent_subtype	campaign_map_scale
 #campaign_character_art_sets_tables;6;db/campaign_character_art_sets_tables/rhox_iee_lccp_faction_leader								
 hkrul_sceolan	general				false	true	hkrul_sceolan	1.0000
-hkrul_valbrand	general				false	true	hkrul_valbrand	1.1500
-hkrul_volrik	general				false	true	hkrul_volrik	1.0000
+hkrul_valbrand	general				false	true	hkrul_valbrand	1.1700
+hkrul_volrik	general				false	true	hkrul_volrik	1.1000
 hkrul_zach	general				false	true	hkrul_zach	1.0000
 hef_calith_torinubar	general				false	true	hef_calith_torinubar	1.4000
 hkrul_orghotts	general				false	true	hkrul_orghotts	1.0000
