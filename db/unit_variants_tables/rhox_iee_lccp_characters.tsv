@@ -1,0 +1,18 @@
+faction	unit	name	variant	unit_card
+#unit_variants_tables;5;db/unit_variants_tables/rhox_iee_lccp_characters				
+	hkrul_sceolan	hkrul_sceolan	hkrul_sceolan	hkrul_sceolan
+	hkrul_valbrand	hkrul_valbrand	hkrul_valbrand	hkrul_valbrand
+	hkrul_volrik	hkrul_volrik	hkrul_volrik	hkrul_volrik
+	hkrul_volrik_mount	hkrul_volrik	hkrul_volrik	hkrul_volrik
+	hkrul_volrik_mount_2	hkrul_volrik	hkrul_volrik	hkrul_volrik
+	hkrul_volrik_mount_3	hkrul_volrik	hkrul_volrik	hkrul_volrik
+	hkrul_zach	hkrul_zach	hkrul_zach	hkrul_zach
+	hkrul_zach_mount	hkrul_zach	hkrul_zach	hkrul_zach
+	hkrul_zach_mount_2	hkrul_zach	hkrul_zach	hkrul_zach
+	hkrul_zach_mount_3	hkrul_zach	hkrul_zach	hkrul_zach
+	hef_calith_torinubar	hef_calith_torinubar	hef_calith_torinubar	hef_calith_torinubar
+	hef_calith_torinubar_eagle	hef_calith_torinubar	hef_calith_torinubar	hef_calith_torinubar
+	hef_calith_torinubar_dragon	hef_calith_torinubar	hef_calith_torinubar	hef_calith_torinubar
+	hkrul_aelfric	hkrul_aelfric	hkrul_aelfric	hkrul_aelfric
+	hkrul_orghotts	hkrul_orghotts	hkrul_orghotts	hkrul_orghotts
+	hkrul_lord_slaurith	hkrul_lord_slaurith	hkrul_lord_slaurith	hkrul_lord_slaurith

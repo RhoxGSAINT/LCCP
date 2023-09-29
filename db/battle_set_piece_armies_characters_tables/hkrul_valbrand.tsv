@@ -1,3 +1,0 @@
-character_name	character_level	forename	magic_lore	num_men	surname	unit_type	agent_type	agent_subtype	portrait	character_model	skillset	male
-#battle_set_piece_armies_characters_tables;8;db/battle_set_piece_armies_characters_tables/hkrul_valbrand												
-hkrul_valbrand	1	2147343937		100	2147343940	hkrul_valbrand	general	hkrul_valbrand	ui/portraits/portholes/no_culture/hkrul_valbrand.png	272250332		true

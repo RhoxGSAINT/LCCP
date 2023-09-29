@@ -1,3 +1,0 @@
-character_name	character_level	forename	magic_lore	num_men	surname	unit_type	agent_type	agent_subtype	portrait	character_model	skillset	male
-#battle_set_piece_armies_characters_tables;8;db/battle_set_piece_armies_characters_tables/hkrul_volrik												
-hkrul_volrik	1	2147343937		100	2147343940	hkrul_volrik	general	hkrul_volrik	ui/portraits/portholes/wh_main_emp_empire/hkrul_volrik.png	222250370		true
