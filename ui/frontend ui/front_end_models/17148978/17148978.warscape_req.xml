@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<warscape_requirements
+	version="1">
+	<model
+		filepath="VariantMeshes/VariantMeshDefinitions/ogr_hrothyogg.VariantMeshDefinition"/>
+</warscape_requirements>
