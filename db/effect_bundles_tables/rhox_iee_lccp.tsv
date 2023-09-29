@@ -6,7 +6,7 @@ rhox_torinubar_dilemma_defence	The arcane processes of the Hell-Forge grant thes
 rhox_torinubar_dilemma_offence	The arcane processes of the Hell-Forge grant these weapons much greater lethality, for a time.	Wielding Destruction	force	1	melee.png	true	false	true
 rhox_torinubar_purchase_east			none	1	rhox_torinubar_east_resource.png	true	false	true
 rhox_torinubar_purchase_west			none	1	rhox_torinubar_west_resource.png	true	false	true
-rhox_valbrand_faction_trait			faction	1	character.png	true	false	true
+rhox_valbrand_faction_trait			faction	1	effect_bundle_valbrand.png	true	false	true
 rhox_sceolan_faction_trait			faction	1	character.png	true	false	true
 rhox_volrik_faction_trait			faction	1	character.png	true	false	true
 rhox_zach_faction_trait			faction	1	character.png	true	false	true
