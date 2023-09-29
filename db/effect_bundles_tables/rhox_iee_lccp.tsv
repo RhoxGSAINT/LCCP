@@ -7,10 +7,10 @@ rhox_torinubar_dilemma_offence	The arcane processes of the Hell-Forge grant thes
 rhox_torinubar_purchase_east			none	1	rhox_torinubar_east_resource.png	true	false	true
 rhox_torinubar_purchase_west			none	1	rhox_torinubar_west_resource.png	true	false	true
 rhox_valbrand_faction_trait			faction	1	effect_bundle_valbrand.png	true	false	true
-rhox_sceolan_faction_trait			faction	1	character.png	true	false	true
-rhox_volrik_faction_trait			faction	1	character.png	true	false	true
-rhox_zach_faction_trait			faction	1	character.png	true	false	true
-rhox_valbrand_innate_effect_bundle			character	1	character.png	false	false	true
+rhox_sceolan_faction_trait			faction	1	effect_bundle_sceolan.png	true	false	true
+rhox_volrik_faction_trait			faction	1	effect_bundle_volrik.png	true	false	true
+rhox_zach_faction_trait			faction	1	effect_bundle_zach.png	true	false	true
+rhox_valbrand_innate_effect_bundle			character	1	effect_bundle_valbrand.png	false	false	true
 rhox_volrik_cotw_hidden_effect_bundle			faction	1		false	false	true
 rhox_volrik_wind_of_magic_high		Winds of Magic Power Reserve (80-100)	force	1	magic.png	true	false	true
-rhox_orghotts_faction_trait			faction	1	character.png	true	false	true
+rhox_orghotts_faction_trait			faction	1	effect_bundle_spew.png	true	false	true
