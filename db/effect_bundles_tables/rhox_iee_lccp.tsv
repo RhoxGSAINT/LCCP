@@ -14,3 +14,5 @@ rhox_valbrand_innate_effect_bundle			character	1	effect_bundle_valbrand.png	fals
 rhox_volrik_cotw_hidden_effect_bundle			faction	1		false	false	true
 rhox_volrik_wind_of_magic_high		Winds of Magic Power Reserve (80-100)	force	1	magic.png	true	false	true
 rhox_orghotts_faction_trait			faction	1	effect_bundle_spew.png	true	false	true
+rhox_hrothyogg_faction_trait			faction	1	character.png	true	false	true
+rhox_lord_slaurith_faction_trait			faction	1	character.png	true	false	true
