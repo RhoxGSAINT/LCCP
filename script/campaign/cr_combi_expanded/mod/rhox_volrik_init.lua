@@ -84,7 +84,6 @@ cm:add_first_tick_callback(
 		pcall(function()
 			mixer_set_faction_trait(volrik_faction, "rhox_volrik_faction_trait", true)
 		end)
-
 	end
 )
 	

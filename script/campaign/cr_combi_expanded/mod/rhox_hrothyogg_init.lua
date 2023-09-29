@@ -1,17 +1,18 @@
-local orghotts_faction = "cr_nur_tide_of_pestilence"
+local hrothyogg_faction = "cr_ogr_deathtoll"
+
 cm:add_first_tick_callback_new(
     function()
-        local faction = cm:get_faction(orghotts_faction);
+        local faction = cm:get_faction(hrothyogg_faction);
         local faction_leader_cqi = faction:faction_leader():command_queue_index();
         cm:create_force_with_general(
             -- faction_key, unit_list, region_key, x, y, agent_type, agent_subtype, forename, clan_name, family_name, other_name, id, make_faction_leader, success_callback
-            orghotts_faction,
-            "wh3_main_nur_inf_nurglings_0,wh3_main_nur_inf_nurglings_0",
+            hrothyogg_faction,
+            "wh3_main_ogr_inf_gnoblars_0,wh3_main_ogr_inf_gnoblars_1",
             "cr_combi_region_elithis_2_1",
-            1522,
-            793,
+            1116,
+            410,
             "general",
-            "hkrul_orghotts",
+            "hkrul_hrothyogg",
             "names_name_6670700833",
             "",
             "names_name_6670700822",
@@ -31,7 +32,7 @@ cm:add_first_tick_callback_new(
 cm:add_first_tick_callback(
 	function()
 		pcall(function()
-			mixer_set_faction_trait(orghotts_faction, "rhox_orghotts_faction_trait", true)
+			mixer_set_faction_trait(hrothyogg_faction, "rhox_hrothyogg_faction_trait", true)
 		end)
 	end
 )
