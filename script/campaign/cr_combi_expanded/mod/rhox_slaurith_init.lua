@@ -1,11 +1,11 @@
 local slaurith_faction = "cr_kho_servants_of_the_blood_nagas"
 cm:add_first_tick_callback_new(
     function()
-        local faction = cm:get_faction(add_first_tick_callback_new);
+        local faction = cm:get_faction(slaurith_faction);
         local faction_leader_cqi = faction:faction_leader():command_queue_index();
         cm:create_force_with_general(
             -- faction_key, unit_list, region_key, x, y, agent_type, agent_subtype, forename, clan_name, family_name, other_name, id, make_faction_leader, success_callback
-            add_first_tick_callback_new,
+            slaurith_faction,
             "wh3_main_kho_inf_chaos_warriors_0,wh3_main_kho_inf_chaos_warriors_1",
             "cr_combi_region_elithis_2_1",
             1250,
