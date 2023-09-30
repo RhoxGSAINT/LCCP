@@ -12,9 +12,9 @@ cm:add_first_tick_callback_new(
             793,
             "general",
             "hkrul_orghotts",
-            "names_name_6670700833",
+            "names_name_24444424",
             "",
-            "names_name_6670700822",
+            "names_name_24444423",
             "",
             true,
             function(cqi)
