@@ -16,3 +16,5 @@ effects_description_rhox_volrik_chaos_gift_dummy	Ravenblessed: May gather grimoi
 effects_description_rhox_hrothyogg_recruiter_mercenary_branch_office_dummy	After a successful battle, you might get a chance to establish mercenary branch office in the other faction's settlement	false
 effects_description_rhox_hrothyogg_region_owner_mercenary_gain_chance	Chance of region owner gaining Maneater unit: %n%	false
 effects_description_rhox_hrothyogg_building_destoryed_if_not_alliance_dummy	Mercenary branch will be destroyed if region owner is at war with you	false
+effects_description_rhox_hrothyogg_effect_force_stat_melee_attack_maneaters	Melee attack: %+n for Maneaters units	false
+effects_description_rhox_hrothyogg_effect_force_stat_melee_defence_maneaters	Melee defence: %+n for Maneaters units	false

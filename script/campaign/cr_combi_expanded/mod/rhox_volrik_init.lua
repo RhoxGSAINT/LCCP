@@ -75,6 +75,20 @@ cm:add_first_tick_callback_new(
 
         cm:add_event_restricted_unit_record_for_faction("wh_dlc08_nor_mon_war_mammoth_ror_1",volrik_faction, "norsca_monster_hunt_ror_unlock")
 		cm:add_event_restricted_unit_record_for_faction("wh_dlc08_nor_mon_frost_wyrm_ror_0", volrik_faction, "norsca_monster_hunt_ror_unlock")
+		
+		cm:callback(
+            function()
+                cm:show_message_event(
+                    volrik_faction,
+                    "event_feed_strings_text_wh2_scripted_event_how_they_play_title",
+                    "factions_screen_name_" .. volrik_faction,
+                    "event_feed_strings_text_".. "rhox_iee_lccp_how_they_play_volrik",
+                    true,
+                    800
+                );
+            end,
+            1
+        )
     end
 )
 

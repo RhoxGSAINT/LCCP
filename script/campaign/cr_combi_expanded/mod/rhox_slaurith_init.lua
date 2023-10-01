@@ -23,6 +23,20 @@ cm:add_first_tick_callback_new(
         cm:set_character_immortality(cm:char_lookup_str(faction_leader_cqi), false);          
         cm:kill_character_and_commanded_unit(cm:char_lookup_str(faction_leader_cqi), true)
         cm:callback(function() cm:disable_event_feed_events(false, "", "", "wh_event_category_character") end, 0.2);
+        
+        cm:callback(
+            function()
+                cm:show_message_event(
+                    slaurith_faction,
+                    "event_feed_strings_text_wh2_scripted_event_how_they_play_title",
+                    "factions_screen_name_" .. slaurith_faction,
+                    "event_feed_strings_text_".. "rhox_iee_lccp_how_they_play_slaurith",
+                    true,
+                    11
+                );
+            end,
+            1
+        )
     end
 )
 

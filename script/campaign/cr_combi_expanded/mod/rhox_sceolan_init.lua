@@ -25,6 +25,20 @@ cm:add_first_tick_callback_new(
         cm:callback(function() cm:disable_event_feed_events(false, "", "", "wh_event_category_character") end, 0.2);
         
         cm:transfer_region_to_faction("cr_combi_region_elithis_2_1",sceolan_faction)
+        
+        cm:callback(
+            function()
+                cm:show_message_event(
+                    sceolan_faction,
+                    "event_feed_strings_text_wh2_scripted_event_how_they_play_title",
+                    "factions_screen_name_" .. sceolan_faction,
+                    "event_feed_strings_text_".. "rhox_iee_lccp_how_they_play_sceolan",
+                    true,
+                    605
+                );
+            end,
+            1
+        )
     end
 )
 

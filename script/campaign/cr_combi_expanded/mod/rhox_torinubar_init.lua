@@ -70,7 +70,19 @@ local function rhox_torinubar_init_setting()
     
     cm:force_declare_war("cr_skv_clan_rikek", torinubar_faction, false, false)
     	
-
+    cm:callback(
+        function()
+            cm:show_message_event(
+                torinubar_faction,
+                "event_feed_strings_text_wh2_scripted_event_how_they_play_title",
+                "factions_screen_name_" .. torinubar_faction,
+                "event_feed_strings_text_".. "rhox_iee_lccp_how_they_play_torinubar",
+                true,
+                771
+            );
+        end,
+        1
+    )
 
 
 end
