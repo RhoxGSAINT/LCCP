@@ -24,16 +24,16 @@ character_skills_localised_name_hkrul_spew_mount_3	Imperial Griffon	false
 character_skills_localised_description_hkrul_spew_mount_3	Placeholder Text Placeholder Text	false
 character_skills_localised_description_hkrul_spew_special_1_4	Placeholder Text Placeholder Text	true
 character_skills_localised_name_hkrul_spew_special_1_4	Horrendous Growth	true
-ancillaries_colour_text_hkrul_spew_banner	PLACEHOLDER	false
+ancillaries_colour_text_hkrul_spew_banner	Orghotts is one of three legendary Maggoth Riders and solemnly responsible for the randsacking of large parts of Kislev. He has completely devoted himself to a frantic quest to ascend in to daemonhood. Those worthy to carry the banner of his Tide are left with the same fate of obsession.	false
 ancillaries_onscreen_name_hkrul_spew_banner	Banner of Pestilence	false
-ancillaries_colour_text_hkrul_spew_sword	PLACEHOLDER	false
+ancillaries_colour_text_hkrul_spew_sword	The Rotaxes are a pair of magical Daemon Weapons taken from the Garden of Nurgle. Infected with the blight of that daemonic domain of the Realm of Chaos, all that these axes touch are infected with that plane's corruption. Only a true champion of Nurgle is bestowed the blessing of the rotfather to wield these magnificent tokens of blight, withering and decay. 	false
 ancillaries_onscreen_name_hkrul_spew_sword	The Rotaxes	false
 unit_abilities_onscreen_name_hkrul_spew_bombard	Rotting Oasis	false
 unit_abilities_tooltip_text_hkrul_spew_bombard	Orghottis is one of the true champions of Nurgle that may call upon the rotfather to rain down the garden's delight.	false
 unit_description_short_texts_text_hkrul_spew	The Bastard King of Icehorn Peak vows to ascend in to daemonhood and claim his place within Nurgle's garden.	false
-unit_abilities_onscreen_name_hkrul_spew_spoiled	Rotaxes' Decay	false
+unit_abilities_onscreen_name_hkrul_spew_spoiled	The Rotaxes	false
 unit_abilities_tooltip_text_hkrul_spew_spoiled	It is said the Rotaxes stem from the gardenhouse deep within Nurgle's realm and all they touch decays and withers. 	false
-effects_description_hkrul_spew_spoiled	Ability: "Rotaxes' Decay''	false
+effects_description_hkrul_spew_spoiled	Ability: "The Rotaxes''	false
 unit_abilities_onscreen_name_hkrul_spew_riders	Orghott's Riders	true
-unit_abilities_tooltip_text_hkrul_spew_riders	The Legendary Maggoth Riders communicates with their Pox Maggoths through the mould that connects rider and beast.	true
+unit_abilities_tooltip_text_hkrul_spew_riders	The Legendary Maggoth Riders communicate with their Pox Maggoths through the mould that connects rider and beast.	true
 effects_description_hkrul_spew_riders	Ability: "Orghott's Riders'' for Pox Riders	false
