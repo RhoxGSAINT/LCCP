@@ -1,0 +1,10 @@
+id	mission_key	payload_key	status_key	value	target_key
+#cdir_events_mission_payloads_tables;2;db/cdir_events_mission_payloads_tables/rhox_iee_lccp					
+200006557	rhox_burlok_ritual_burlok_artifact_1	FACTION_POOLED_RESOURCE_TRANSACTION	SUCCESS	RESOURCE[dwf_oathgold];FACTOR[dwf_oathgold_missions];AMOUNT[50];CONTEXT[absolute]	default
+200006558	rhox_burlok_ritual_burlok_artifact_2	FACTION_POOLED_RESOURCE_TRANSACTION	SUCCESS	RESOURCE[dwf_oathgold];FACTOR[dwf_oathgold_missions];AMOUNT[50];CONTEXT[absolute]	default
+200006559	rhox_burlok_ritual_burlok_artifact_3	FACTION_POOLED_RESOURCE_TRANSACTION	SUCCESS	RESOURCE[dwf_oathgold];FACTOR[dwf_oathgold_missions];AMOUNT[50];CONTEXT[absolute]	default
+200006560	rhox_burlok_ritual_burlok_artifact_4	FACTION_POOLED_RESOURCE_TRANSACTION	SUCCESS	RESOURCE[dwf_oathgold];FACTOR[dwf_oathgold_missions];AMOUNT[50];CONTEXT[absolute]	default
+200006561	rhox_burlok_ritual_burlok_artifact_5	FACTION_POOLED_RESOURCE_TRANSACTION	SUCCESS	RESOURCE[dwf_oathgold];FACTOR[dwf_oathgold_missions];AMOUNT[50];CONTEXT[absolute]	default
+200006562	rhox_burlok_ritual_burlok_artifact_6	FACTION_POOLED_RESOURCE_TRANSACTION	SUCCESS	RESOURCE[dwf_oathgold];FACTOR[dwf_oathgold_missions];AMOUNT[50];CONTEXT[absolute]	default
+200006563	rhox_burlok_ritual_burlok_artifact_7	FACTION_POOLED_RESOURCE_TRANSACTION	SUCCESS	RESOURCE[dwf_oathgold];FACTOR[dwf_oathgold_missions];AMOUNT[50];CONTEXT[absolute]	default
+200006564	rhox_burlok_ritual_burlok_artifact_8	FACTION_POOLED_RESOURCE_TRANSACTION	SUCCESS	RESOURCE[dwf_oathgold];FACTOR[dwf_oathgold_missions];AMOUNT[50];CONTEXT[absolute]	default

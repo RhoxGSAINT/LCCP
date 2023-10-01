@@ -19,10 +19,14 @@ cm:add_first_tick_callback_new(
             true,
             function(cqi)
             end);
-        cm:disable_event_feed_events(true, "wh_event_category_character", "", "")
-        cm:set_character_immortality(cm:char_lookup_str(faction_leader_cqi), false);          
-        cm:kill_character_and_commanded_unit(cm:char_lookup_str(faction_leader_cqi), true)
-        cm:callback(function() cm:disable_event_feed_events(false, "", "", "wh_event_category_character") end, 0.2);
+            
+        if cm:get_faction("ovn_mar_cult_of_manann"):is_human() == false then --don't kill them if Dauphine is human, we need them as one turn punchbag
+            cm:disable_event_feed_events(true, "wh_event_category_character", "", "")
+            cm:set_character_immortality(cm:char_lookup_str(faction_leader_cqi), false);          
+            cm:kill_character_and_commanded_unit(cm:char_lookup_str(faction_leader_cqi), true)
+            cm:callback(function() cm:disable_event_feed_events(false, "", "", "wh_event_category_character") end, 0.2);
+        end
+        
         
         cm:callback(
             function()

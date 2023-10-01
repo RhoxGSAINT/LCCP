@@ -1,0 +1,10 @@
+id	treasury_cost	expenditure_type	income_type	expenditure_type_when_regular	income_type_when_regular
+#resource_costs_tables;0;db/resource_costs_tables/rhox_burlok					
+rhox_burlok_ritual_burlok_artifact_1	0	RITUAL	RITUAL	ARMY_UPKEEP	BACKGROUND_INCOME
+rhox_burlok_ritual_burlok_artifact_2	0	RITUAL	RITUAL	ARMY_UPKEEP	BACKGROUND_INCOME
+rhox_burlok_ritual_burlok_artifact_3	0	RITUAL	RITUAL	ARMY_UPKEEP	BACKGROUND_INCOME
+rhox_burlok_ritual_burlok_artifact_4	0	RITUAL	RITUAL	ARMY_UPKEEP	BACKGROUND_INCOME
+rhox_burlok_ritual_burlok_artifact_5	0	RITUAL	RITUAL	ARMY_UPKEEP	BACKGROUND_INCOME
+rhox_burlok_ritual_burlok_artifact_6	0	RITUAL	RITUAL	ARMY_UPKEEP	BACKGROUND_INCOME
+rhox_burlok_ritual_burlok_artifact_7	0	RITUAL	RITUAL	ARMY_UPKEEP	BACKGROUND_INCOME
+rhox_burlok_ritual_burlok_artifact_8	0	RITUAL	RITUAL	ARMY_UPKEEP	BACKGROUND_INCOME
