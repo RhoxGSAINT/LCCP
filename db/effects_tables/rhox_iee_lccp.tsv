@@ -2,3 +2,7 @@ effect	icon	priority	icon_negative	category	is_positive_value_good
 #effects_tables;0;db/effects_tables/rhox_iee_lccp					
 rhox_iee_nor_efficient_hunter_dummy	effect_valbrand_hunter.png	3	effect_valbrand_hunter.png	both	true
 rhox_iee_nor_efficient_hunter_dummy2	effect_bundle_volrik_hunter.png	3	effect_bundle_volrik_hunter.png	both	true
+rhox_hrothyogg_effect_agent_action_enable_wizard_hinder_settlement_expand_mercenary_branch_office_unique		0		campaign	true
+rhox_hrothyogg_recruiter_mercenary_branch_office_dummy	treasury.png	106	treasury.png	campaign	true
+rhox_hrothyogg_region_owner_mercenary_gain_chance	merc.png	106	merc.png	campaign	true
+rhox_hrothyogg_building_destoryed_if_not_alliance_dummy	trickster_cult.png	999	trickster_cult.png	campaign	false
