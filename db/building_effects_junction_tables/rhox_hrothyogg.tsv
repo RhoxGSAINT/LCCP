@@ -1,0 +1,5 @@
+building	effect	context_requirement	effect_scope	value	value_damaged	value_ruined
+#building_effects_junction_tables;0;db/building_effects_junction_tables/rhox_hrothyogg						
+rhox_hrothyogg_mercenary_branch	wh2_dlc11_effect_percentage_region_income		foreign_building_to_foreign_building_own	25.0000	13.0000	0.0000
+rhox_hrothyogg_mercenary_branch	rhox_hrothyogg_region_owner_mercenary_gain_chance		foreign_building_to_region_own	5.0000	5.0000	0.0000
+rhox_hrothyogg_mercenary_branch	rhox_hrothyogg_building_destoryed_if_not_alliance_dummy		foreign_building_to_foreign_building_own	1.0000	1.0000	0.0000
