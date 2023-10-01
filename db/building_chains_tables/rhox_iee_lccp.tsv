@@ -1,5 +1,8 @@
 key	tech_category_tab	tech_category_position	chain_category	in_encyclopedia	building_superchain	optional_tier_icon	optional_sort_order	optional_required_horde_commander	can_be_dismantled
-#building_chains_tables;9;db/building_chains_tables/rhox_valbrand									
+#building_chains_tables;9;db/building_chains_tables/rhox_iee_lccp									
+rhox_torinubar_sound_toll			money	false	rhox_torinubar_sound_toll		0		true
+rhox_torinubar_east_foreign			money	false	rhox_torinubar_east_foreign		0		false
+rhox_torinubar_west_foreign			money	false	rhox_torinubar_west_foreign		0		false
 rhox_valbrand_NORSCA_beasts			military	false	wh2_main_sch_military3_warmachines		3		true
 rhox_valbrand_NORSCA_chaos			military	false	wh2_main_sch_military4_monsters		5		true
 rhox_valbrand_NORSCA_creatures			military	false	wh2_main_sch_military5		4		true
@@ -12,3 +15,4 @@ rhox_valbrand_NORSCA_smith			military	true	wh2_main_sch_support1_smith		0		true
 rhox_valbrand_NORSCA_stables			military	true	wh2_main_sch_military2_stables		0		true
 rhox_valbrand_NORSCA_walls			military	false	wh_main_sch_norsca_walls		8		true
 rhox_valbrand_NORSCA_worship			money	true	wh2_main_sch_infrastructure3_order		4		true
+rhox_hrothyogg_mercenary_branch			money	false	rhox_hrothyogg_mercenary_branch		0		false

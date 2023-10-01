@@ -1,4 +1,17 @@
 local burlok_faction = "cr_dwf_firebeards_excavators"
+
+
+local grudge_list={
+    "rhox_burlok_ritual_burlok_artifact_1",
+    "rhox_burlok_ritual_burlok_artifact_2",
+    "rhox_burlok_ritual_burlok_artifact_3",
+    "rhox_burlok_ritual_burlok_artifact_4",
+    "rhox_burlok_ritual_burlok_artifact_5",
+    "rhox_burlok_ritual_burlok_artifact_6",
+    "rhox_burlok_ritual_burlok_artifact_7",
+    "rhox_burlok_ritual_burlok_artifact_8"
+}
+
 cm:add_first_tick_callback_new(
     function()
         local faction = cm:get_faction(burlok_faction);
@@ -38,6 +51,14 @@ cm:add_first_tick_callback_new(
             end,
             1
         )
+        
+        if faction:is_human() then
+            for i = 1, #grudge_list do
+                cm:trigger_mission(burlok_faction, grudge_list[i], true)
+            end
+        end
+        
+        
     end
 )
 
@@ -46,6 +67,7 @@ cm:add_first_tick_callback(
 		pcall(function()
 			mixer_set_faction_trait(burlok_faction, "rhox_burlok_faction_trait", true)
 		end)
+		burlok:initialise()
 	end
 )
 	

@@ -24,7 +24,7 @@ burlok.burlok_faction_key = "cr_dwf_firebeards_excavators"
 burlok.artifact_base_string = "rhox_burlok_artifact_part_*" --- db keys for burlok's artifact part pooled resources need to follow this format
 burlok.artifact_resource_factor = "missions"
 burlok.rituals_completed = 0
-burlok.ritual_prefix = "wh2_dlc17_dwf_ritual_burlok_artifact_" -- any rituals beginning with this prefix will be considered a burlok artifact ritual.
+burlok.ritual_prefix = "rhox_burlok_ritual_burlok_artifact_" -- any rituals beginning with this prefix will be considered a burlok artifact ritual.
 burlok.ghost_thane_ritual = burlok.ritual_prefix .. "2"
 
 
