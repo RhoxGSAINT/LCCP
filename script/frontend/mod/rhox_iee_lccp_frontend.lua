@@ -31,7 +31,7 @@ core:add_ui_created_callback(
             mixer_add_faction_to_major_faction_list("cr_nor_avags")
             
             mixer_change_lord_name("597789182", "hkrul_spew") 
-            mixer_add_starting_unit_list_for_faction("cr_nur_tide_of_pestilence", {"wh3_main_nur_inf_nurglings_0"})
+            mixer_add_starting_unit_list_for_faction("cr_nur_tide_of_pestilence", {"wh3_main_nur_inf_nurglings_0","wh3_dlc20_chs_inf_chaos_marauders_mnur","wh3_main_nur_cav_pox_riders_of_nurgle_0","wh3_main_nur_mon_plague_toads_0"})
             mixer_add_faction_to_major_faction_list("cr_nur_tide_of_pestilence")
 
             mixer_change_lord_name("17148978", "hkrul_hrothyogg") 

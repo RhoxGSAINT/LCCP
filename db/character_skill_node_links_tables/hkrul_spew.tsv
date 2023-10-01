@@ -52,3 +52,11 @@ hkrul_skill_node_spew_nurgle_combat_4	hkrul_skill_node_spew_nurgle_combat_3_1	0	
 hkrul_skill_node_spew_nurgle_combat_4	hkrul_skill_node_spew_nurgle_combat_3_2	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
 hkrul_skill_node_spew_nurgle_combat_4	hkrul_skill_node_spew_nurgle_combat_3_3	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
 hkrul_skill_node_spew_nurgle_combat_4	hkrul_skill_node_spew_nurgle_combat_3_4	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
+hkrul_skill_node_spew_misc_06	hkrul_skill_node_spew_misc_07	0	1	1	0.0000	0.0000	REQUIRED
+hkrul_skill_node_spew_misc_05	hkrul_skill_node_spew_misc_07	0	1	1	0.0000	0.0000	REQUIRED
+hkrul_skill_node_spew_misc_04	hkrul_skill_node_spew_misc_07	0	1	1	0.0000	0.0000	REQUIRED
+hkrul_skill_node_spew_misc_03	hkrul_skill_node_spew_misc_07	0	1	1	0.0000	0.0000	REQUIRED
+hkrul_skill_node_spew_misc_02	hkrul_skill_node_spew_misc_06	0	1	1	0.0000	0.0000	REQUIRED
+hkrul_skill_node_spew_misc_02	hkrul_skill_node_spew_misc_05	0	0	0	0.0000	0.0000	SUBSET_REQUIRED
+hkrul_skill_node_spew_misc_02	hkrul_skill_node_spew_misc_04	0	0	0	0.0000	0.0000	SUBSET_REQUIRED
+hkrul_skill_node_spew_misc_02	hkrul_skill_node_spew_misc_03	0	0	0	0.0000	0.0000	SUBSET_REQUIRED

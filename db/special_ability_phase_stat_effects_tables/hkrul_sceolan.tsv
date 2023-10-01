@@ -3,3 +3,6 @@ phase	stat	value	how
 hkrul_sceolan_pal	stat_damage_reflection	8.0000	add
 hkrul_sceolan_sword	stat_melee_damage_base	1.2500	mult
 hkrul_sceolan_sword	stat_melee_defence	20.0000	add
+hkrul_spew_spoiled	stat_armour	-20.0000	add
+hkrul_spew_spoiled	stat_morale	-20.0000	add
+hkrul_spew_riders	scalar_charge_speed	1.2000	mult

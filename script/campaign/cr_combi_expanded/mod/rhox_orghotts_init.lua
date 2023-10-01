@@ -6,7 +6,7 @@ cm:add_first_tick_callback_new(
         cm:create_force_with_general(
             -- faction_key, unit_list, region_key, x, y, agent_type, agent_subtype, forename, clan_name, family_name, other_name, id, make_faction_leader, success_callback
             orghotts_faction,
-            "wh3_main_nur_inf_nurglings_0,wh3_main_nur_inf_nurglings_0",
+            "wh3_main_nur_inf_nurglings_0,wh3_main_nur_inf_nurglings_0,wh3_dlc20_chs_inf_chaos_marauders_mnur,wh3_dlc20_chs_inf_chaos_marauders_mnur,wh3_main_nur_cav_pox_riders_of_nurgle_0,wh3_main_nur_mon_plague_toads_0",
             "cr_combi_region_elithis_2_1",
             1522,
             793,
