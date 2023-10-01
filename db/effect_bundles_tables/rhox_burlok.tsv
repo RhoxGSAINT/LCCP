@@ -1,0 +1,18 @@
+key	localised_description	localised_title	bundle_target	priority	ui_icon	is_global_effect	show_in_3d_space	owner_only
+#effect_bundles_tables;4;db/effect_bundles_tables/rhox_burlok								
+rhox_burlok_effect_bundle_burlok_artifact_part_1a	Located here is one half of the Artefact: Raton's Collar of Bestial Control.	Dwarfen Neck Yoke	region	1	icon_dwf_thorek_artifact_part_1a.png	true	true	false
+rhox_burlok_effect_bundle_burlok_artifact_part_1b	Located here is one half of the Artefact: Raton's Collar of Bestial Control.	Spark Gem	region	1	icon_dwf_thorek_artifact_part_1b.png	true	true	false
+rhox_burlok_effect_bundle_burlok_artifact_part_2a	Located here is one half of the Artefact: Keepsake of Gazul's Favoured.	Hero's Pendant	region	1	icon_dwf_thorek_artifact_part_2a.png	true	true	false
+rhox_burlok_effect_bundle_burlok_artifact_part_2b	Located here is one half of the Artefact: Keepsake of Gazul's Favoured.	Chain of Binding	region	1	icon_dwf_thorek_artifact_part_2b.png	true	true	false
+rhox_burlok_effect_bundle_burlok_artifact_part_3a	Located here is one half of the Artefact: Thungni's Tongs of the Runesmith.	Left Half of Tongs	region	1	icon_dwf_thorek_artifact_part_3a.png	true	true	false
+rhox_burlok_effect_bundle_burlok_artifact_part_3b	Located here is one half of the Artefact: Thungni's Tongs of the Runesmith.	Right Half of Tongs	region	1	icon_dwf_thorek_artifact_part_3b.png	true	true	false
+rhox_burlok_effect_bundle_burlok_artifact_part_4a	Located here is one half of the Artefact: Morgrim's Gears of War.	Spur Gear	region	1	icon_dwf_thorek_artifact_part_4a.png	true	true	false
+rhox_burlok_effect_bundle_burlok_artifact_part_4b	Located here is one half of the Artefact: Morgrim's Gears of War.	Pentagonal Gear	region	1	icon_dwf_thorek_artifact_part_4b.png	true	true	false
+rhox_burlok_effect_bundle_burlok_artifact_part_5a	Located here is one half of the Artefact: Smednir's Metallurgy Cipher.	Puzzle Box	region	1	icon_dwf_thorek_artifact_part_5a.png	true	true	false
+rhox_burlok_effect_bundle_burlok_artifact_part_5b	Located here is one half of the Artefact: Smednir's Metallurgy Cipher.	Runic Keystone	region	1	icon_dwf_thorek_artifact_part_5b.png	true	true	false
+rhox_burlok_effect_bundle_burlok_artifact_part_6a	Located here is one half of the Artefact: Blessed Pick of Grungni.	Grungni's Pick Head	region	1	icon_dwf_thorek_artifact_part_6a.png	true	true	false
+rhox_burlok_effect_bundle_burlok_artifact_part_6b	Located here is one half of the Artefact: Blessed Pick of Grungni.	Pick Handle	region	1	icon_dwf_thorek_artifact_part_6b.png	true	true	false
+rhox_burlok_effect_bundle_burlok_artifact_part_7a	Located here is one half of the Artefact: Lost Gifts of Valaya.	Valaya's Tankard	region	1	icon_dwf_thorek_artifact_part_7a.png	true	true	false
+rhox_burlok_effect_bundle_burlok_artifact_part_7b	Located here is one half of the Artefact: Lost Gifts of Valaya.	Enchanted Alchemy Vial	region	1	icon_dwf_thorek_artifact_part_7b.png	true	true	false
+rhox_burlok_effect_bundle_burlok_artifact_part_8a	Located here is one half of the Artefact: Beard Rings of Grimnir.	Grimnir's Ornate Beard Ring	region	1	icon_dwf_thorek_artifact_part_8a.png	true	true	false
+rhox_burlok_effect_bundle_burlok_artifact_part_8b	Located here is one half of the Artefact: Beard Rings of Grimnir.	Exotic Beard Ring	region	1	icon_dwf_thorek_artifact_part_8b.png	true	true	false
