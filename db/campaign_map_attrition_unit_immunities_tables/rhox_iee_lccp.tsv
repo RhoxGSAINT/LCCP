@@ -13,6 +13,9 @@ non_vampire_territory	hef_calith_torinubar_dragon
 non_vampire_territory	hkrul_aelfric
 non_vampire_territory	hkrul_lord_slaurith
 non_vampire_territory	hkrul_spew
+nurgle_plague	hkrul_spew
+chaos_territory	hkrul_spew
+chaos_wastes	hkrul_spew
 non_vampire_territory	hkrul_hrothyogg
 non_vampire_territory	hkrul_burlok
 vampire_territory	hkrul_zach

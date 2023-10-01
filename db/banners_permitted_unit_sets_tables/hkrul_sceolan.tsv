@@ -1,3 +1,4 @@
 banner	unit_set
 #banners_permitted_unit_sets_tables;0;db/banners_permitted_unit_sets_tables/hkrul_sceolan	
-hkrul_sceolan_banner	emp_infantry
+hkrul_sceolan_banner	wef_dlc05_animals
+hkrul_spew_banner	nur_forsaken

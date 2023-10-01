@@ -2,3 +2,5 @@ id	duration	effect_type	requested_stance	unbreakable	cant_move	freeze_fatigue	fa
 #special_ability_phases_tables;43;db/special_ability_phases_tables/hkrul_sceolan																															
 hkrul_sceolan_pal	-1.0000	positive		false	false	false	0.0000	0.0000	0.0000	0.0000	0	0	false	0.0000	0.0000	false	0		wh_main_generic_buff_morale_passive		false	true	true	0.0000			false	0.0000	0.0000	false	0.0000
 hkrul_sceolan_sword	35.0000	positive		false	false	false	0.0000	0.0000	0.0000	0.0000	0	0	false	0.0000	0.0000	false	0		wh_main_generic_buff_defence	wh_ability_positive	false	true	true	0.0000			false	0.0000	0.0000	false	0.0000
+hkrul_spew_spoiled	-1.0000	negative		false	false	false	0.0000	0.0000	0.0000	0.0000	0	0	false	0.0000	0.0000	false	0		wh_main_generic_debuff_defence_passive		false	false	true	0.0000			false	0.0000	0.0000	false	0.0000
+hkrul_spew_riders	-1.0000	positive		false	false	false	0.0000	0.0000	0.0000	0.0000	0	0	false	0.0000	0.0000	false	0		wh_main_generic_buff_attack		false	true	true	0.0000			false	0.0000	0.0000	false	0.0000
