@@ -1,0 +1,27 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/rhox_hrothyogg					
+			rhox_hrothyogg_ogr_inf_maneaters_0	all_ogr	false
+			rhox_hrothyogg_ogr_inf_maneaters_1	all_ogr	false
+			rhox_hrothyogg_ogr_inf_maneaters_2	all_ogr	false
+			rhox_hrothyogg_ogr_inf_maneaters_3	all_ogr	false
+			rhox_hrothyogg_ogr_inf_maneaters_3	mp_cap_group_ranged_units	false
+			rhox_hrothyogg_ogr_inf_maneaters_0	mp_cap_unit_ogr_inf_maneaters_0	false
+			rhox_hrothyogg_ogr_inf_maneaters_1	mp_cap_unit_ogr_inf_maneaters_1	false
+			rhox_hrothyogg_ogr_inf_maneaters_2	mp_cap_unit_ogr_inf_maneaters_2	false
+			rhox_hrothyogg_ogr_inf_maneaters_3	mp_cap_unit_ogr_inf_maneaters_3	false
+			rhox_hrothyogg_ogr_inf_maneaters_0	ogr_inf	false
+			rhox_hrothyogg_ogr_inf_maneaters_1	ogr_inf	false
+			rhox_hrothyogg_ogr_inf_maneaters_2	ogr_inf	false
+			rhox_hrothyogg_ogr_inf_maneaters_3	ogr_inf	false
+			rhox_hrothyogg_ogr_inf_maneaters_0	ogr_ironguts_maneaters	false
+			rhox_hrothyogg_ogr_inf_maneaters_1	ogr_ironguts_maneaters	false
+			rhox_hrothyogg_ogr_inf_maneaters_2	ogr_ironguts_maneaters	false
+			rhox_hrothyogg_ogr_inf_maneaters_3	ogr_ironguts_maneaters	false
+			rhox_hrothyogg_ogr_inf_maneaters_0	ogr_maneaters_gorgers_giants_rank7	false
+			rhox_hrothyogg_ogr_inf_maneaters_1	ogr_maneaters_gorgers_giants_rank7	false
+			rhox_hrothyogg_ogr_inf_maneaters_2	ogr_maneaters_gorgers_giants_rank7	false
+			rhox_hrothyogg_ogr_inf_maneaters_3	ogr_maneaters_gorgers_giants_rank7	false
+			rhox_hrothyogg_ogr_inf_maneaters_0	ogr_maneaters	false
+			rhox_hrothyogg_ogr_inf_maneaters_1	ogr_maneaters	false
+			rhox_hrothyogg_ogr_inf_maneaters_2	ogr_maneaters	false
+			rhox_hrothyogg_ogr_inf_maneaters_3	ogr_maneaters	false

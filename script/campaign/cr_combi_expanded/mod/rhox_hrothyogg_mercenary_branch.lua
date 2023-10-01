@@ -70,3 +70,108 @@ core:add_listener(
     end,
     true
 )
+
+local ogre_maneater_list={
+    "rhox_hrothyogg_ogr_inf_maneaters_0",
+    "rhox_hrothyogg_ogr_inf_maneaters_1",
+    "rhox_hrothyogg_ogr_inf_maneaters_2",
+    "rhox_hrothyogg_ogr_inf_maneaters_3"
+}
+
+local rhox_hrothyogg_mercenary_factions={}
+
+core:add_listener(
+    "rhox_hrothyogg_mercenary_branch_building_completed",
+    "BuildingCompleted",
+    function(context)    
+        return context:building():name() == "rhox_hrothyogg_mercenary_branch"
+    end,
+    function(context)
+        local building = context:building()
+        local region = building:region()
+        local owner_faction = region:owning_faction()
+
+        if not owner_faction then
+            return
+        end
+
+        if not rhox_hrothyogg_mercenary_factions[owner_faction:name()] then
+            rhox_hrothyogg_mercenary_factions[owner_faction:name()] = true
+            for i = 1, #ogre_maneater_list do
+                cm:add_unit_to_faction_mercenary_pool(owner_faction, unit, "renown", 0, 0, 10, 0, "", "", "", true, ogre_maneater_list[i])
+            end
+        end--add initial mercenary if they haven't got one
+
+
+        if owner_faction:is_human() then
+            local incident_builder = cm:create_incident_builder("rhox_hrothyogg_mercenary_branch_established")
+            incident_builder:add_target("default", region)
+            local payload_builder = cm:create_payload()
+            payload_builder:add_mercenary_to_faction_pool(ogre_maneater_list[cm:random_number(#ogre_maneater_list)], 1)  
+            payload_builder:add_mercenary_to_faction_pool(ogre_maneater_list[cm:random_number(#ogre_maneater_list)], 1)  
+            incident_builder:set_payload(payload_builder)
+            cm:launch_custom_incident_from_builder(incident_builder, owner_faction)
+        else
+            cm:add_units_to_faction_mercenary_pool(owner_faction:command_queue_index(), ogre_maneater_list[cm:random_number(#ogre_maneater_list)], 1)
+            cm:add_units_to_faction_mercenary_pool(owner_faction:command_queue_index(), ogre_maneater_list[cm:random_number(#ogre_maneater_list)], 1)
+        end
+        
+    end,
+    true
+)
+
+core:add_listener(
+    "rhox_hrothyogg_region_turn_start",
+    "RegionTurnStart",
+    function(context)
+        local bonus_value = context:region():bonus_values():scripted_value("rhox_hrothyogg_mercenary_chance", "value")
+        return cm:model():random_percent(bonus_value);
+    end,
+    function(context)
+        local region = context:region()
+        local owner_faction = region:owning_faction()
+        if not rhox_hrothyogg_mercenary_factions[owner_faction:name()] then
+            rhox_hrothyogg_mercenary_factions[owner_faction:name()] = true
+            for i = 1, #ogre_maneater_list do
+                cm:add_unit_to_faction_mercenary_pool(owner_faction, unit, "renown", 0, 0, 10, 0, "", "", "", true, ogre_maneater_list[i])
+            end
+        end--add initial mercenary if they haven't got one. Owners might change, so have to do it here also
+
+        if owner_faction:is_human() then
+            local incident_builder = cm:create_incident_builder("rhox_hrothyogg_mercenary_recieved")
+            incident_builder:add_target("default", region)
+            local payload_builder = cm:create_payload()
+            payload_builder:add_mercenary_to_faction_pool(ogre_maneater_list[cm:random_number(#ogre_maneater_list)], 1)  
+            payload_builder:add_mercenary_to_faction_pool(ogre_maneater_list[cm:random_number(#ogre_maneater_list)], 1)  
+            incident_builder:set_payload(payload_builder)
+            cm:launch_custom_incident_from_builder(incident_builder, owner_faction)
+        else
+            cm:add_units_to_faction_mercenary_pool(owner_faction:command_queue_index(), ogre_maneater_list[cm:random_number(#ogre_maneater_list)], 1)
+            cm:add_units_to_faction_mercenary_pool(owner_faction:command_queue_index(), ogre_maneater_list[cm:random_number(#ogre_maneater_list)], 1)
+        end
+    end,
+    true
+);
+
+
+
+
+
+
+
+
+--------------------------------------------------------------
+----------------------- SAVING / LOADING ---------------------
+--------------------------------------------------------------
+cm:add_saving_game_callback(
+	function(context)
+		cm:save_named_value("rhox_hrothyogg_mercenary_factions", rhox_hrothyogg_mercenary_factions, context)
+	end
+)
+cm:add_loading_game_callback(
+	function(context)
+		if cm:is_new_game() == false then
+			rhox_hrothyogg_mercenary_factions = cm:load_named_value("rhox_hrothyogg_mercenary_factions", rhox_hrothyogg_mercenary_factions, context)
+		end
+	end
+)

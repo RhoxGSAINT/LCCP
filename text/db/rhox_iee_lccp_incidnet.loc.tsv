@@ -2,3 +2,7 @@ key	text	tooltip
 #Loc;1;text/db/rhox_iee_lccp_incidnet.loc		
 incidents_localised_description_rhox_hrothyogg_mercenary_recruiter	From your last battle, your mecenaries has become famous. You may use this chance and establish a mercenary branch in the friendly settlement.\\n\\n[[col:red]]This branch will be destroyed when you're at the war with the settlement owner[[/col]]	false
 incidents_localised_title_rhox_hrothyogg_mercenary_recruiter	Famed Mercenaries	false
+incidents_localised_description_rhox_hrothyogg_mercenary_branch_established	Hrothyogg, Ogre renowned for his mercenary business, has established a mercenary branch in one of your settlements. You will receive Ogre Maneater mercenaries from time to time from now\\n\\n[[col:red]]This branch will be destroyed when you're at the war with the Hrothyogg[[/col]]	false
+incidents_localised_title_rhox_hrothyogg_mercenary_branch_established	Mercenary Branch Established	false
+incidents_localised_description_rhox_hrothyogg_mercenary_recieved	Ogre mercenaries are recruited from Hrothyogg's mercenary branch and now is at your hand for disposal\\n\\n[[col:red]]This branch will be destroyed when you're at the war with the Hrothyogg[[/col]]	false
+incidents_localised_title_rhox_hrothyogg_mercenary_recieved	Mercenary Received	false
