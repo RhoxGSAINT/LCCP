@@ -3,7 +3,7 @@ id	group	priority
 rhox_valbrand_feature	rhox_valbrand_feature	0.0000
 rhox_valbrand_camp_horde	rhox_valbrand_agent_camp	0.0000
 rhox_valbrand_camp_valbrand	rhox_valbrand_camp	0.0000
-rhox_torinubar_caravan	rhox_torinubar_caravan	0.0000
+rhox_torinubar_caravan	rhox_torinubar_caravan	5.0000
 rhox_torinubar_feature	rhox_torinubar_feature	0.0000
 rhox_torinubar_jungle_climate	wh3_dlc20_climate_suitable_jungle	1.0000
 rhox_torinubar_caravan_stance	rhox_torinubar_caravan_stance	0.0000
