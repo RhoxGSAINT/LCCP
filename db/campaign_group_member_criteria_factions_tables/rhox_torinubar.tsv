@@ -1,5 +1,0 @@
-member	context	faction
-#campaign_group_member_criteria_factions_tables;1;db/campaign_group_member_criteria_factions_tables/rhox_torinubar		
-rhox_torinubar_caravan	ACTOR	cr_hef_gate_guards
-rhox_torinubar_feature	ACTOR	cr_hef_gate_guards
-rhox_torinubar_jungle_climate	ACTOR	cr_hef_gate_guards
