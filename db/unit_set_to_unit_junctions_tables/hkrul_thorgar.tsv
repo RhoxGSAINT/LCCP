@@ -3,3 +3,17 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_thorgar	mp_cap_group_heroes	false
 			hkrul_thorgar	nor_all	false
 			hkrul_thorgar	wh2_dlc13_emp_elector_count_reward_units	false
+			wh_dlc08_nor_mon_war_mammoth_0	hkrul_khazag_mammoth	false
+			wh_dlc08_nor_mon_war_mammoth_1	hkrul_khazag_mammoth	false
+			wh_dlc08_nor_mon_war_mammoth_2	hkrul_khazag_mammoth	false
+			wh_dlc08_nor_mon_war_mammoth_boss	hkrul_khazag_mammoth	false
+			wh_dlc08_nor_mon_war_mammoth_ror_1	hkrul_khazag_mammoth	false
+			wh_pro04_nor_mon_war_mammoth_ror_0	hkrul_khazag_mammoth	false
+			wh_dlc08_nor_inf_marauder_berserkers_0	hkrul_khazag_marauder	false
+			wh_dlc08_nor_inf_marauder_champions_0	hkrul_khazag_marauder	false
+			wh_dlc08_nor_inf_marauder_champions_1	hkrul_khazag_marauder	false
+			wh_dlc08_nor_inf_marauder_spearman_0	hkrul_khazag_marauder	false
+			wh_main_nor_inf_chaos_marauders_0	hkrul_khazag_marauder	false
+			wh_main_nor_inf_chaos_marauders_1	hkrul_khazag_marauder	false
+			wh_pro04_nor_inf_chaos_marauders_ror_0	hkrul_khazag_marauder	false
+			wh_pro04_nor_inf_marauder_berserkers_ror_0	hkrul_khazag_marauder	false

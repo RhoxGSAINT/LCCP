@@ -112,3 +112,40 @@ core:add_listener(
     end,
     false
 )
+    core:add_listener(
+    "hkrul_thorgar_weaopon_unlock",
+    "CharacterRankUp",
+    function(context)
+        local character = context:character()
+        local faction = character:faction()
+        return character:character_subtype("hkrul_thorgar") and character:rank() >= 13 and faction:ancillary_exists("hkrul_thorgar_sword") == false
+    end,
+    function(context)
+        cm:force_add_ancillary(
+            context:character(),
+            "hkrul_thorgar_sword",
+            true,
+            false
+        )
+    end,
+    false
+)
+
+core:add_listener(
+    "hkrul_thorgar_follower_unlock",
+    "CharacterRankUp",
+    function(context)
+        local character = context:character()
+        local faction = character:faction()
+        return character:character_subtype("hkrul_thorgar") and character:rank() >= 8 and faction:ancillary_exists("hkrul_thorgar_holz") == false
+    end,
+    function(context)
+        cm:force_add_ancillary(
+            context:character(),
+            "hkrul_thorgar_holz",
+            true,
+            false
+        )
+    end,
+    false
+)

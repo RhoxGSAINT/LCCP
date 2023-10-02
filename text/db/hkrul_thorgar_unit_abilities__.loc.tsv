@@ -1,8 +1,10 @@
 key	text	tooltip
 #Loc;1;text/db/hkrul_thorgar_unit_abilities__.loc		
-unit_abilities_tooltip_text_hkrul_thorgar_helm	Placeholder Text	true
-unit_abilities_onscreen_name_hkrul_thorgar_helm	Placeholder	true
-unit_abilities_tooltip_text_hkrul_thorgar_pal	Placeholder Text	true
-unit_abilities_onscreen_name_hkrul_thorgar_pal	Fortress Wardens	true
+unit_abilities_tooltip_text_hkrul_thorgar_cry	Howls bellow from the High Zar as foes scatter and run.	true
+unit_abilities_onscreen_name_hkrul_thorgar_cry	Bloodcry	true
+unit_abilities_tooltip_text_hkrul_thorgar_carnivore	The Khazaghs feed their mammoths flesh from birth, instilling them with a unnatural bloodthirst.	true
+unit_abilities_onscreen_name_hkrul_thorgar_carnivore	Frenzied Carnivore	true
 unit_abilities_tooltip_text_hkrul_thorgar_sword	Flailing Thorgar bursts forward, leaving destruction in his wake.	true
 unit_abilities_onscreen_name_hkrul_thorgar_sword	Thorgar's Pendulum	true
+unit_abilities_onscreen_name_hkrul_thorgar_stomp	Khural's Bludgeon	true
+unit_abilities_tooltip_text_hkrul_thorgar_stomp	With unparalled power Thorgar swings his flail, causing a path of pure destruction.	false

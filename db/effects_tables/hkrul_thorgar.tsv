@@ -1,10 +1,14 @@
 effect	icon	priority	icon_negative	category	is_positive_value_good
 #effects_tables;0;db/effects_tables/hkrul_thorgar					
 hkrul_enable_immortality		0		campaign	true
-hkrul_thorgar_helm	item_ability.png	300	item_ability.png	battle	true
+hkrul_thorgar_cry	item_ability.png	300	item_ability.png	battle	true
 hkrul_thorgar_sword	item_ability.png	300	item_ability.png	battle	true
-hkrul_thorgar_pal	item_ability.png	300	item_ability.png	battle	true
-hkrul_thorgar_nordland_damage	weapon_damage.png	97	weapon_damage.png	battle	true
+hkrul_thorgar_carnivore	item_ability.png	300	item_ability.png	battle	true
+hkrul_thorgar_mammoths	melee.png	97	melee.png	battle	true
+hkrul_thorgar_mammoths_upkeep	military_spending.png	97	military_spending.png	battle	false
 hkrul_thorgar_mount	mount.png	50	mount.png	both	true
 hkrul_thorgar_mount_2	mount.png	50	mount.png	both	true
 hkrul_thorgar_mount_3	mount.png	50	mount.png	both	true
+hkrul_thorgar_stomp	item_ability.png	300	item_ability.png	battle	true
+hkrul_khazag_marauder_ws	weapon_damage.png	300	weapon_damage.png	battle	true
+hkrul_khazag_marauder_recruit	experience.png	298	experience.png	campaign	true
