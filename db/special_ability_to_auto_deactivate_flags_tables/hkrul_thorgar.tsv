@@ -1,0 +1,4 @@
+deactivate_flag	special_ability
+#special_ability_to_auto_deactivate_flags_tables;0;db/special_ability_to_auto_deactivate_flags_tables/hkrul_thorgar	
+health_above_25%	hkrul_thorgar_helm
+unit_tier2_kills	hkrul_thorgar_helm

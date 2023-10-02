@@ -14499,7 +14499,7 @@
 				<callback_with_context
 					callback_id="ContextVisibilitySetter"
 					context_object_id="CcoStaticObject"
-					context_function_id="PlayersFaction.FactionRecordContext.Key != &quot;cr_nor_avags&quot;"/>
+					context_function_id="PlayersFaction.FactionRecordContext.Key != &quot;rhox_nor_ravenblessed&quot;"/>
 			</callbackwithcontextlist>
 			<componentimages>
 				<component_image
@@ -14766,7 +14766,7 @@
 				<callback_with_context
 					callback_id="ContextVisibilitySetter"
 					context_object_id="CcoStaticObject"
-					context_function_id="PlayersFaction.FactionRecordContext.Key == &quot;cr_nor_avags&quot;"/>
+					context_function_id="PlayersFaction.FactionRecordContext.Key == &quot;rhox_nor_ravenblessed&quot;"/>
 			</callbackwithcontextlist>
 			<states>
 				<tzeentch_undivided
@@ -14792,7 +14792,7 @@
 				<callback_with_context
 					callback_id="ContextVisibilitySetter"
 					context_object_id="CcoStaticObject"
-					context_function_id="PlayersFaction.FactionRecordContext.Key != &quot;cr_nor_avags&quot; &amp;&amp; PlayersFaction.FactionRecordContext.Key != &quot;rhox_nor_firebrand_slavers&quot; &amp;&amp; PlayersFaction.FactionRecordContext.Key != &quot;wh3_dlc20_chs_festus&quot; &amp;&amp; PlayersFaction.FactionRecordContext.Key != &quot;wh3_dlc20_chs_azazel&quot;"/>
+					context_function_id="PlayersFaction.FactionRecordContext.Key != &quot;rhox_nor_ravenblessed&quot; &amp;&amp; PlayersFaction.FactionRecordContext.Key != &quot;rhox_nor_firebrand_slavers&quot; &amp;&amp; PlayersFaction.FactionRecordContext.Key != &quot;wh3_dlc20_chs_festus&quot; &amp;&amp; PlayersFaction.FactionRecordContext.Key != &quot;wh3_dlc20_chs_azazel&quot;"/>
 				<callback_with_context callback_id="CallbackSoundTrigger"/>
 			</callbackwithcontextlist>
 			<states>
@@ -16231,7 +16231,7 @@
 				<callback_with_context
 					callback_id="ContextCommandGiverOnCreate"
 					context_object_id="CcoStaticObject"
-					context_function_id="Do(DoIf(PlayersFaction.FactionRecordContext.Key == &quot;rhox_nor_firebrand_slavers&quot; || (PlayersFaction.FactionRecordContext.Key != &quot;cr_nor_avags&quot; &amp;&amp; PlayersFaction.FactionRecordContext.Key != &quot;wh3_dlc20_chs_festus&quot; &amp;&amp; PlayersFaction.FactionRecordContext.Key != &quot;wh3_dlc20_chs_azazel&quot;), self.SetVisible(true)), self.SetAnimationFrameProperty(&quot;show&quot;, 0, &quot;interpolation_time&quot;, ToVector(RandomInRange(ToNumber(self.GetProperty(&quot;idle_min&quot;)), ToNumber(self.GetProperty(&quot;idle_max&quot;))), 0, 0, 0)), self.SetAnimationFrameProperty(&quot;show&quot;, 1, &quot;interpolation_time&quot;, ToVector(RandomInRange(ToNumber(self.GetProperty(&quot;breath_min&quot;)), ToNumber(self.GetProperty(&quot;breath_max&quot;))), 0, 0, 0)))"/>
+					context_function_id="Do(DoIf(PlayersFaction.FactionRecordContext.Key == &quot;rhox_nor_firebrand_slavers&quot; || (PlayersFaction.FactionRecordContext.Key != &quot;rhox_nor_ravenblessed&quot; &amp;&amp; PlayersFaction.FactionRecordContext.Key != &quot;wh3_dlc20_chs_festus&quot; &amp;&amp; PlayersFaction.FactionRecordContext.Key != &quot;wh3_dlc20_chs_azazel&quot;), self.SetVisible(true)), self.SetAnimationFrameProperty(&quot;show&quot;, 0, &quot;interpolation_time&quot;, ToVector(RandomInRange(ToNumber(self.GetProperty(&quot;idle_min&quot;)), ToNumber(self.GetProperty(&quot;idle_max&quot;))), 0, 0, 0)), self.SetAnimationFrameProperty(&quot;show&quot;, 1, &quot;interpolation_time&quot;, ToVector(RandomInRange(ToNumber(self.GetProperty(&quot;breath_min&quot;)), ToNumber(self.GetProperty(&quot;breath_max&quot;))), 0, 0, 0)))"/>
 				<callback_with_context callback_id="CallbackAnimTrigger"/>
 				<callback_with_context
 					callback_id="ContextCommandGiverOnVisibilityChanged"

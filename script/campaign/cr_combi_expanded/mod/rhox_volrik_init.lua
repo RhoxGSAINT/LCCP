@@ -1,4 +1,4 @@
-local volrik_faction ="cr_nor_avags"
+local volrik_faction ="rhox_nor_ravenblessed"
 
 
 
@@ -35,7 +35,17 @@ local function rhox_add_units (faction_obj, unit_group)
 	end	
 end
 
-
+local norsca_ror_table={
+    {"wh_dlc08_nor_art_hellcannon_battery", "wh_dlc08_nor_art_hellcannon_battery"},
+    {"wh_pro04_nor_mon_war_mammoth_ror_0", "wh_pro04_nor_mon_war_mammoth_ror_0"},
+    {"wh_dlc08_nor_mon_frost_wyrm_ror_0", "wh_dlc08_nor_mon_frost_wyrm_ror_0"},
+    {"wh_pro04_nor_inf_chaos_marauders_ror_0","wh_pro04_nor_inf_chaos_marauders_ror_0"}, 
+    {"wh_pro04_nor_mon_fimir_ror_0", "wh_pro04_nor_mon_fimir_ror_0"},
+    {"wh_pro04_nor_mon_marauder_warwolves_ror_0", "wh_pro04_nor_mon_warwolves_ror_0"},
+    {"wh_pro04_nor_inf_marauder_berserkers_ror_0","wh_pro04_nor_inf_marauder_berserkers_ror_0"},
+    {"wh_pro04_nor_mon_skinwolves_ror_0","wh_pro04_nor_mon_skinwolves_ror_0"}, 
+    {"wh_dlc08_nor_mon_war_mammoth_ror_1", "wh_dlc08_nor_mon_war_mammoth_ror_1"}
+}
 
 
 
@@ -44,6 +54,9 @@ cm:add_first_tick_callback_new(
     function()
         local faction = cm:get_faction(volrik_faction);
         local faction_leader_cqi = faction:faction_leader():command_queue_index();
+        cm:transfer_region_to_faction("cr_combi_region_avags_camp",volrik_faction)
+        
+        
         cm:apply_effect_bundle("rhox_volrik_cotw_hidden_effect_bundle", volrik_faction, 0)--cotw things
         cm:create_force_with_general(
             -- faction_key, unit_list, region_key, x, y, agent_type, agent_subtype, forename, clan_name, family_name, other_name, id, make_faction_leader, success_callback
@@ -67,11 +80,26 @@ cm:add_first_tick_callback_new(
         cm:callback(function() cm:disable_event_feed_events(false, "", "", "wh_event_category_character") end, 0.2);
         
         cm:disable_event_feed_events(true, "wh_event_category_diplomacy", "", "")
-        --cm:force_declare_war(volrik_faction, "cr_cth_the_chosen", false, false)
+        cm:force_declare_war(volrik_faction, "cr_nor_avags", false, false)
         cm:callback(function() cm:disable_event_feed_events(false, "wh_event_category_diplomacy", "", "") end, 0.5)
         
         rhox_add_units(cm:get_faction(volrik_faction), rhox_volrik_gift_units);
-        
+        for i, ror in pairs(norsca_ror_table) do
+            cm:add_unit_to_faction_mercenary_pool(
+                faction,
+                ror[1],
+                "renown",
+                1,
+                100,
+                1,
+                0.1,
+                "",
+                "",
+                "",
+                true,
+                ror[2]
+            )
+        end
 
         cm:add_event_restricted_unit_record_for_faction("wh_dlc08_nor_mon_war_mammoth_ror_1",volrik_faction, "norsca_monster_hunt_ror_unlock")
 		cm:add_event_restricted_unit_record_for_faction("wh_dlc08_nor_mon_frost_wyrm_ror_0", volrik_faction, "norsca_monster_hunt_ror_unlock")

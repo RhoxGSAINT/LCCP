@@ -1,0 +1,5 @@
+ancillary	skill	use_quest_for_prefix
+#character_skills_to_quest_ancillaries_tables;1;db/character_skills_to_quest_ancillaries_tables/hkrul_thorgar		
+hkrul_thorgar_banner	hkrul_thorgar_banner	true
+hkrul_thorgar_holz	hkrul_thorgar_holz	true
+hkrul_thorgar_sword	hkrul_thorgar_sword	true

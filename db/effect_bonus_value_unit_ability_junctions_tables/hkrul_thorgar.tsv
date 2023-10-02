@@ -1,0 +1,5 @@
+effect	bonus_value_id	unit_ability
+#effect_bonus_value_unit_ability_junctions_tables;0;db/effect_bonus_value_unit_ability_junctions_tables/hkrul_thorgar		
+hkrul_thorgar_helm	enable	hkrul_thorgar_helm
+hkrul_thorgar_pal	enable	hkrul_thorgar_pal
+hkrul_thorgar_sword	enable	hkrul_thorgar_sword

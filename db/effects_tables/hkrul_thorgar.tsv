@@ -1,0 +1,10 @@
+effect	icon	priority	icon_negative	category	is_positive_value_good
+#effects_tables;0;db/effects_tables/hkrul_thorgar					
+hkrul_enable_immortality		0		campaign	true
+hkrul_thorgar_helm	item_ability.png	300	item_ability.png	battle	true
+hkrul_thorgar_sword	item_ability.png	300	item_ability.png	battle	true
+hkrul_thorgar_pal	item_ability.png	300	item_ability.png	battle	true
+hkrul_thorgar_nordland_damage	weapon_damage.png	97	weapon_damage.png	battle	true
+hkrul_thorgar_mount	mount.png	50	mount.png	both	true
+hkrul_thorgar_mount_2	mount.png	50	mount.png	both	true
+hkrul_thorgar_mount_3	mount.png	50	mount.png	both	true

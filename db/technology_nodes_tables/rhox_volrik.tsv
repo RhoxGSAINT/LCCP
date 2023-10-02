@@ -1,8 +1,8 @@
 key	campaign_key	faction_key	indent	technology_key	technology_node_set	tier	research_points_required	cost_per_round	food_cost	optional_ui_group	resource_cost	required_parents	pixel_offset_x	pixel_offset_y
 #technology_nodes_tables;0;db/technology_nodes_tables/rhox_volrik														
-rhox_volrik_tze_1		cr_nor_avags	5	rhox_volrik_tze_1	nor_mil	3	800	0	0			0	0	20
-rhox_volrik_tze_2		cr_nor_avags	6	rhox_volrik_tze_2	nor_mil	3	800	0	0			0	0	20
-rhox_volrik_tze_3		cr_nor_avags	7	rhox_volrik_tze_3	nor_mil	3	800	0	0			0	0	20
-rhox_volrik_normal_1		cr_nor_avags	1	rhox_volrik_normal_1	nor_mil	3	800	0	0			0	0	-20
-rhox_volrik_normal_2		cr_nor_avags	2	rhox_volrik_normal_2	nor_mil	3	500	0	0			0	0	-20
-rhox_volrik_normal_3		cr_nor_avags	3	rhox_volrik_normal_3	nor_mil	3	800	0	0			0	0	-20
+rhox_volrik_tze_1		rhox_nor_ravenblessed	5	rhox_volrik_tze_1	nor_mil	3	800	0	0			0	0	20
+rhox_volrik_tze_2		rhox_nor_ravenblessed	6	rhox_volrik_tze_2	nor_mil	3	800	0	0			0	0	20
+rhox_volrik_tze_3		rhox_nor_ravenblessed	7	rhox_volrik_tze_3	nor_mil	3	800	0	0			0	0	20
+rhox_volrik_normal_1		rhox_nor_ravenblessed	1	rhox_volrik_normal_1	nor_mil	3	800	0	0			0	0	-20
+rhox_volrik_normal_2		rhox_nor_ravenblessed	2	rhox_volrik_normal_2	nor_mil	3	500	0	0			0	0	-20
+rhox_volrik_normal_3		rhox_nor_ravenblessed	3	rhox_volrik_normal_3	nor_mil	3	800	0	0			0	0	-20

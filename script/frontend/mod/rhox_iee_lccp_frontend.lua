@@ -25,9 +25,10 @@ core:add_ui_created_callback(
             mixer_add_faction_to_major_faction_list("rhox_vmp_the_everliving")
             
             
-            mixer_change_lord_name("2018282170", "hkrul_volrik") 
-            mixer_add_starting_unit_list_for_faction("cr_nor_avags", {"wh_dlc08_nor_inf_marauder_hunters_1","wh_main_nor_inf_chaos_marauders_0","wh3_dlc20_chs_cav_chaos_chariot_mtze","wh3_dlc20_chs_cav_marauder_horsemen_mtze_javelins","wh_dlc08_nor_inf_marauder_spearman_0",})
-            mixer_add_faction_to_major_faction_list("cr_nor_avags")
+            mixer_change_lord_name("1129830176", "hkrul_volrik") 
+            mixer_enable_custom_faction("1129830176")
+            mixer_add_starting_unit_list_for_faction("rhox_nor_ravenblessed", {"wh_dlc08_nor_inf_marauder_hunters_1","wh_main_nor_inf_chaos_marauders_0","wh3_dlc20_chs_cav_chaos_chariot_mtze","wh3_dlc20_chs_cav_marauder_horsemen_mtze_javelins","wh_dlc08_nor_inf_marauder_spearman_0",})
+            mixer_add_faction_to_major_faction_list("rhox_nor_ravenblessed")
             
             mixer_change_lord_name("597789182", "hkrul_spew") 
             mixer_add_starting_unit_list_for_faction("cr_nur_tide_of_pestilence", {"wh3_main_nur_inf_nurglings_0","wh3_dlc20_chs_inf_chaos_marauders_mnur","wh3_main_nur_cav_pox_riders_of_nurgle_0","wh3_main_nur_mon_plague_toads_0"})
@@ -50,7 +51,15 @@ core:add_ui_created_callback(
             mixer_enable_custom_faction("220123324")
             mixer_add_starting_unit_list_for_faction("rhox_brt_reveller_of_domance", {"wh_dlc07_brt_inf_spearmen_at_arms_1", "wh_main_brt_cav_mounted_yeomen_0"})
             mixer_add_faction_to_major_faction_list("rhox_brt_reveller_of_domance")
+            
+            mixer_change_lord_name("2062905973", "hkrul_thorgar") 
+            mixer_enable_custom_faction("2062905973")
+            mixer_add_starting_unit_list_for_faction("rhox_nor_khazags", {"wh_dlc08_nor_inf_marauder_spearman_0", "wh_dlc08_nor_inf_marauder_hunters_1"})
+            mixer_add_faction_to_major_faction_list("rhox_nor_khazags")
 
+            --deathsword is 1316697836 
+            
+            
         end        
     end
 )

@@ -1,0 +1,9 @@
+key	text	tooltip
+#Loc;1;text/db/hkrul_thorgar_effects__.loc		
+effects_description_hkrul_thorgar_helm	Ability: "Placeholder''	true
+effects_description_hkrul_thorgar_pal	Ability: "Fortress Wardens''	true
+effects_description_hkrul_thorgar_nordland_damage	Weapon Strength: %+n% for Greatsword units	true
+effects_description_hkrul_thorgar_sword	Ability: "Helmgart's Brand''	true
+effects_description_hkrul_thorgar_mount	Mount: "Barded Warhorse''	true
+effects_description_hkrul_thorgar_mount_2	Mount: "Imperial Pegasus''	true
+effects_description_hkrul_thorgar_mount_3	Mount: "Imperial Griffon''	true

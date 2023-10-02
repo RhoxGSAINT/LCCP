@@ -1,0 +1,8 @@
+key	text	tooltip
+#Loc;1;text/db/hkrul_thorgar_unit_abilities__.loc		
+unit_abilities_tooltip_text_hkrul_thorgar_helm	Placeholder Text	true
+unit_abilities_onscreen_name_hkrul_thorgar_helm	Placeholder	true
+unit_abilities_tooltip_text_hkrul_thorgar_pal	Placeholder Text	true
+unit_abilities_onscreen_name_hkrul_thorgar_pal	Fortress Wardens	true
+unit_abilities_tooltip_text_hkrul_thorgar_sword	Placeholder Text	true
+unit_abilities_onscreen_name_hkrul_thorgar_sword	Helmgart's Brand	true
