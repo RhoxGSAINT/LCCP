@@ -1,12 +1,12 @@
 <VARIANT_MESH>
 	<SLOT name="body" >
 		<VARIANT_MESH model="variantmeshes\wh_variantmodels\character\aelfric\aelfric.wsmodel" >
-			<META_DATA>audio_armour_type:heavy_metal</META_DATA></VARIANT_MESH>
+			<META_DATA>audio_armour_type:heavy_metal</META_DATA>			<META_DATA>audio_entity_type:wh3_pro11_chs_harald_hammerstorm_LH</META_DATA></VARIANT_MESH>
     </SLOT>
 	<SLOT name="weapon_1" attach_point="be_prop_0" />
 	<SLOT name="weapon_2" attach_point="be_prop_1" >
 		<VARIANT_MESH model="variantmeshes\wh_variantmodels\character\aelfric\aelfric_sword.wsmodel" >
-			<META_DATA>audio_melee_weapon_type:sword</META_DATA></VARIANT_MESH>
+			<META_DATA>audio_melee_weapon_type:mace</META_DATA></VARIANT_MESH>
 	</SLOT>
 	<SLOT name="shield" attach_point="be_prop_2" >
 		<VARIANT_MESH model="variantmeshes\wh_variantmodels\character\aelfric\aelfric_shield.wsmodel" >
