@@ -23,15 +23,15 @@ cm:add_first_tick_callback_new(
         cm:create_force_with_general(
             -- faction_key, unit_list, region_key, x, y, agent_type, agent_subtype, forename, clan_name, family_name, other_name, id, make_faction_leader, success_callback
             thorgar_faction,
-            "wh_dlc08_nor_inf_marauder_spearman_0,wh_dlc08_nor_inf_marauder_hunters_1",
+            "wh_dlc08_nor_inf_marauder_spearman_0,wh_main_nor_inf_chaos_marauders_0,wh_main_nor_inf_chaos_marauders_0,wh_main_nor_cav_marauder_horsemen_0,wh_dlc08_nor_inf_marauder_hunters_1,wh_dlc08_nor_mon_war_mammoth_0,",
             "cr_combi_region_khazags_khural",
             1270,
             732,
             "general",
             "hkrul_thorgar",
-            "names_name_6670700833",
+            "names_name_5670700836",
             "",
-            "names_name_6670700822",
+            "names_name_5670700835",
             "",
             true,
             function(cqi)
