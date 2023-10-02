@@ -43,3 +43,14 @@ hkrul_skill_node_thorgar_battle_12		wh2_dlc11_skill_nor_army_buff_hulks_of_death
 hkrul_skill_node_thorgar_battle_13		wh_dlc08_skill_nor_lord_battle_stand_or_die		4	12		0	1	true
 hkrul_skill_node_thorgar_battle_14		wh_dlc08_skill_nor_lords_battle_fight_or_die		4	13		0	1	true
 hkrul_skill_node_thorgar_innate		innate_hkrul_thorgar		6	0		1	0	false
+hkrul_skill_node_thorgar_misc_07		hkrul_thorgar_special_2_0		1	5		0	0	true
+hkrul_skill_node_thorgar_misc_06		hkrul_thorgar_special_1_4		1	6		0	4	true
+hkrul_skill_node_thorgar_misc_05		hkrul_thorgar_special_1_3		1	4		0	0	true
+hkrul_skill_node_thorgar_misc_04		hkrul_thorgar_special_1_2		1	3		0	0	true
+hkrul_skill_node_thorgar_misc_03		hkrul_thorgar_special_1_1		1	2		0	0	true
+hkrul_skill_node_thorgar_misc_02		hkrul_thorgar_special_1_0		1	1		0	0	true
+hkrul_skill_node_thorgar_misc_01		hkrul_thorgar_special_0_1		0	11		0	0	true
+hkrul_skill_node_thorgar_misc_08		hkrul_thorgar_special_0_2		0	12		0	0	true
+hkrul_skill_node_thorgark_misc_09		hkrul_thorgar_sword		6	222		0	0	true
+hkrul_skill_node_thorgark_misc_010		hkrul_thorgar_banner		6	223		0	0	true
+hkrul_skill_node_thorgark_misc_011		hkrul_thorgar_holz		6	224		0	0	true
