@@ -1,6 +1,6 @@
 key	text	tooltip
 #Loc;1;text/db/hkrul_thorgar_character_skills__.loc		
-character_skills_localised_name_innate_hkrul_thorgar	High Zar of the Khazag	true
+character_skills_localised_name_innate_hkrul_thorgar	Zar of the Khazag	true
 character_skills_localised_description_innate_hkrul_thorgar	Placeholder Text Placeholder Text	true
 character_skills_localised_description_hkrul_thorgar_special_0_1	Placeholder Text Placeholder Text	true
 character_skills_localised_name_hkrul_thorgar_special_0_1	The Neverchosen	true

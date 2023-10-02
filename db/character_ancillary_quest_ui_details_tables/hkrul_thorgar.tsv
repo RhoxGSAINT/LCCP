@@ -1,5 +1,4 @@
 agent_subtype	ancillary	rank	instant	is_quest_battle
 #character_ancillary_quest_ui_details_tables;2;db/character_ancillary_quest_ui_details_tables/hkrul_thorgar				
-hkrul_thorgar	hkrul_thorgar_banner	6	true	false
-hkrul_thorgar	hkrul_thorgar_holz	9	true	false
+hkrul_thorgar	hkrul_thorgar_holz	8	true	false
 hkrul_thorgar	hkrul_thorgar_sword	13	true	false
