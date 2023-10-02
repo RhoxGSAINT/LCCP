@@ -8,3 +8,5 @@ rhox_hrothyogg_region_owner_mercenary_gain_chance	merc.png	106	merc.png	campaign
 rhox_hrothyogg_building_destoryed_if_not_alliance_dummy	trickster_cult.png	999	trickster_cult.png	campaign	false
 rhox_hrothyogg_effect_force_stat_melee_attack_maneaters	melee.png	431	melee.png	battle	true
 rhox_hrothyogg_effect_force_stat_melee_defence_maneaters	defence.png	451	defence.png	battle	true
+hkrul_spew_riders_rank	experience.png	800	experience.png	campaign	true
+hkrul_spew_dummy_quest	effect_bundle_spew_quest_dummy.png	1	effect_bundle_spew_quest_dummy.png	both	true
