@@ -2,48 +2,52 @@
 	<geometry>variantmeshes\wh_variantmodels\character\thorgar\thorgar.rigid_model_v2</geometry>
 		<materials>
 			<material lod_index="0" part_index="0">variantmeshes\wh_variantmodels\character\thorgar\materials\dae_aspiring_champion_tzeentch__weighted4_alpha_off.xml.material</material>
-			<material lod_index="0" part_index="1">variantmeshes\wh_variantmodels\character\thorgar\materials\dae_sorcerer_tzeentch_torso_03_weighted4_alpha_off.xml.material</material>
-			<material lod_index="0" part_index="2">variantmeshes\wh_variantmodels\character\thorgar\materials\dae_prince_head_base_05_weighted4_alpha_off.xml.material</material>
-			<material lod_index="0" part_index="3">variantmeshes\wh_variantmodels\character\thorgar\materials\chs_chosen_head_02_weighted4_alpha_off.xml.material</material>
-			<material lod_index="0" part_index="4">variantmeshes\wh_variantmodels\character\volrik\materials\chs_ring_02_lod01_weighted4_alpha_off.xml.material</material>
-			<material lod_index="0" part_index="5">variantmeshes\wh_variantmodels\character\thorgar\materials\dae_marauder_head_02_weighted2_alpha_off.xml.material</material>
-			<material lod_index="0" part_index="6">variantmeshes\wh_variantmodels\character\thorgar\materials\nor_wulfrik_shield_01_lod1_weighted4_alpha_on.xml.material</material>
-			<material lod_index="0" part_index="7">variantmeshes\wh_variantmodels\character\thorgar\materials\dae_aspiring_champion_tzeentch__1_weighted4_alpha_off.xml.material</material>
-			<material lod_index="0" part_index="8">variantmeshes\wh_variantmodels\character\thorgar\materials\dae_cultist_of_khorne_body_03_weighted4_alpha_on.xml.material</material>
-			<material lod_index="0" part_index="9">variantmeshes\wh_variantmodels\character\thorgar\materials\merged_dae_vilitch_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="1">variantmeshes\wh_variantmodels\character\volrik\materials\chs_ring_02_lod01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="2">variantmeshes\wh_variantmodels\character\thorgar\materials\merged_dae_vilitch_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="3">variantmeshes\wh_variantmodels\character\thorgar\materials\dae_cultist_of_khorne_body_03_weighted4_alpha_on.xml.material</material>
+			<material lod_index="0" part_index="4">variantmeshes\wh_variantmodels\character\thorgar\materials\dae_aspiring_champion_tzeentch__1_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="5">variantmeshes\wh_variantmodels\character\thorgar\materials\nor_wulfrik_shield_01_lod1_weighted4_alpha_on.xml.material</material>
+			<material lod_index="0" part_index="6">variantmeshes\wh_variantmodels\character\thorgar\materials\dae_marauder_head_02_weighted2_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="7">variantmeshes\wh_variantmodels\character\volrik\materials\chs_ring_02_lod01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="8">variantmeshes\wh_variantmodels\character\thorgar\materials\chs_chosen_head_02_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="9">variantmeshes\wh_variantmodels\character\thorgar\materials\dae_prince_head_base_05_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="10">variantmeshes\wh_variantmodels\character\thorgar\materials\dae_sorcerer_tzeentch_torso_03_weighted4_alpha_off.xml.material</material>
 
 			<material lod_index="1" part_index="0">variantmeshes\wh_variantmodels\character\thorgar\materials\dae_aspiring_champion_tzeentch__weighted4_alpha_off.xml.material</material>
-			<material lod_index="1" part_index="1">variantmeshes\wh_variantmodels\character\thorgar\materials\dae_sorcerer_tzeentch_torso_03_weighted4_alpha_off.xml.material</material>
-			<material lod_index="1" part_index="2">variantmeshes\wh_variantmodels\character\thorgar\materials\dae_prince_head_base_05_weighted4_alpha_off.xml.material</material>
-			<material lod_index="1" part_index="3">variantmeshes\wh_variantmodels\character\thorgar\materials\chs_chosen_head_02_weighted4_alpha_off.xml.material</material>
-			<material lod_index="1" part_index="4">variantmeshes\wh_variantmodels\character\volrik\materials\chs_ring_02_lod01_weighted4_alpha_off.xml.material</material>
-			<material lod_index="1" part_index="5">variantmeshes\wh_variantmodels\character\thorgar\materials\dae_marauder_head_02_weighted2_alpha_off.xml.material</material>
-			<material lod_index="1" part_index="6">variantmeshes\wh_variantmodels\character\thorgar\materials\nor_wulfrik_shield_01_lod1_weighted4_alpha_on.xml.material</material>
-			<material lod_index="1" part_index="7">variantmeshes\wh_variantmodels\character\thorgar\materials\dae_aspiring_champion_tzeentch__1_weighted4_alpha_off.xml.material</material>
-			<material lod_index="1" part_index="8">variantmeshes\wh_variantmodels\character\thorgar\materials\dae_cultist_of_khorne_body_03_weighted4_alpha_on.xml.material</material>
-			<material lod_index="1" part_index="9">variantmeshes\wh_variantmodels\character\thorgar\materials\merged_dae_vilitch_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="1">variantmeshes\wh_variantmodels\character\volrik\materials\chs_ring_02_lod01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="2">variantmeshes\wh_variantmodels\character\thorgar\materials\merged_dae_vilitch_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="3">variantmeshes\wh_variantmodels\character\thorgar\materials\dae_cultist_of_khorne_body_03_weighted4_alpha_on.xml.material</material>
+			<material lod_index="1" part_index="4">variantmeshes\wh_variantmodels\character\thorgar\materials\dae_aspiring_champion_tzeentch__1_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="5">variantmeshes\wh_variantmodels\character\thorgar\materials\nor_wulfrik_shield_01_lod1_weighted4_alpha_on.xml.material</material>
+			<material lod_index="1" part_index="6">variantmeshes\wh_variantmodels\character\thorgar\materials\dae_marauder_head_02_weighted2_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="7">variantmeshes\wh_variantmodels\character\volrik\materials\chs_ring_02_lod01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="8">variantmeshes\wh_variantmodels\character\thorgar\materials\chs_chosen_head_02_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="9">variantmeshes\wh_variantmodels\character\thorgar\materials\dae_prince_head_base_05_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="10">variantmeshes\wh_variantmodels\character\thorgar\materials\dae_sorcerer_tzeentch_torso_03_weighted4_alpha_off.xml.material</material>
 
 			<material lod_index="2" part_index="0">variantmeshes\wh_variantmodels\character\thorgar\materials\dae_aspiring_champion_tzeentch__weighted4_alpha_off.xml.material</material>
-			<material lod_index="2" part_index="1">variantmeshes\wh_variantmodels\character\thorgar\materials\dae_sorcerer_tzeentch_torso_03_weighted4_alpha_off.xml.material</material>
-			<material lod_index="2" part_index="2">variantmeshes\wh_variantmodels\character\thorgar\materials\dae_prince_head_base_05_weighted4_alpha_off.xml.material</material>
-			<material lod_index="2" part_index="3">variantmeshes\wh_variantmodels\character\thorgar\materials\chs_chosen_head_02_weighted4_alpha_off.xml.material</material>
-			<material lod_index="2" part_index="4">variantmeshes\wh_variantmodels\character\volrik\materials\chs_ring_02_lod01_weighted4_alpha_off.xml.material</material>
-			<material lod_index="2" part_index="5">variantmeshes\wh_variantmodels\character\thorgar\materials\dae_marauder_head_02_weighted2_alpha_off.xml.material</material>
-			<material lod_index="2" part_index="6">variantmeshes\wh_variantmodels\character\thorgar\materials\nor_wulfrik_shield_01_lod1_weighted4_alpha_on.xml.material</material>
-			<material lod_index="2" part_index="7">variantmeshes\wh_variantmodels\character\thorgar\materials\dae_aspiring_champion_tzeentch__1_weighted4_alpha_off.xml.material</material>
-			<material lod_index="2" part_index="8">variantmeshes\wh_variantmodels\character\thorgar\materials\dae_cultist_of_khorne_body_03_weighted4_alpha_on.xml.material</material>
-			<material lod_index="2" part_index="9">variantmeshes\wh_variantmodels\character\thorgar\materials\merged_dae_vilitch_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="1">variantmeshes\wh_variantmodels\character\volrik\materials\chs_ring_02_lod01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="2">variantmeshes\wh_variantmodels\character\thorgar\materials\merged_dae_vilitch_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="3">variantmeshes\wh_variantmodels\character\thorgar\materials\dae_cultist_of_khorne_body_03_weighted4_alpha_on.xml.material</material>
+			<material lod_index="2" part_index="4">variantmeshes\wh_variantmodels\character\thorgar\materials\dae_aspiring_champion_tzeentch__1_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="5">variantmeshes\wh_variantmodels\character\thorgar\materials\nor_wulfrik_shield_01_lod1_weighted4_alpha_on.xml.material</material>
+			<material lod_index="2" part_index="6">variantmeshes\wh_variantmodels\character\thorgar\materials\dae_marauder_head_02_weighted2_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="7">variantmeshes\wh_variantmodels\character\volrik\materials\chs_ring_02_lod01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="8">variantmeshes\wh_variantmodels\character\thorgar\materials\chs_chosen_head_02_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="9">variantmeshes\wh_variantmodels\character\thorgar\materials\dae_prince_head_base_05_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="10">variantmeshes\wh_variantmodels\character\thorgar\materials\dae_sorcerer_tzeentch_torso_03_weighted4_alpha_off.xml.material</material>
 
 			<material lod_index="3" part_index="0">variantmeshes\wh_variantmodels\character\thorgar\materials\dae_aspiring_champion_tzeentch__weighted4_alpha_off.xml.material</material>
-			<material lod_index="3" part_index="1">variantmeshes\wh_variantmodels\character\thorgar\materials\dae_sorcerer_tzeentch_torso_03_weighted4_alpha_off.xml.material</material>
-			<material lod_index="3" part_index="2">variantmeshes\wh_variantmodels\character\thorgar\materials\dae_prince_head_base_05_weighted4_alpha_off.xml.material</material>
-			<material lod_index="3" part_index="3">variantmeshes\wh_variantmodels\character\thorgar\materials\chs_chosen_head_02_weighted4_alpha_off.xml.material</material>
-			<material lod_index="3" part_index="4">variantmeshes\wh_variantmodels\character\volrik\materials\chs_ring_02_lod01_weighted4_alpha_off.xml.material</material>
-			<material lod_index="3" part_index="5">variantmeshes\wh_variantmodels\character\thorgar\materials\dae_marauder_head_02_weighted2_alpha_off.xml.material</material>
-			<material lod_index="3" part_index="6">variantmeshes\wh_variantmodels\character\thorgar\materials\nor_wulfrik_shield_01_lod1_weighted4_alpha_on.xml.material</material>
-			<material lod_index="3" part_index="7">variantmeshes\wh_variantmodels\character\thorgar\materials\dae_aspiring_champion_tzeentch__1_weighted4_alpha_off.xml.material</material>
-			<material lod_index="3" part_index="8">variantmeshes\wh_variantmodels\character\thorgar\materials\dae_cultist_of_khorne_body_03_weighted4_alpha_on.xml.material</material>
-			<material lod_index="3" part_index="9">variantmeshes\wh_variantmodels\character\thorgar\materials\merged_dae_vilitch_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="1">variantmeshes\wh_variantmodels\character\volrik\materials\chs_ring_02_lod01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="2">variantmeshes\wh_variantmodels\character\thorgar\materials\merged_dae_vilitch_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="3">variantmeshes\wh_variantmodels\character\thorgar\materials\dae_cultist_of_khorne_body_03_weighted4_alpha_on.xml.material</material>
+			<material lod_index="3" part_index="4">variantmeshes\wh_variantmodels\character\thorgar\materials\dae_aspiring_champion_tzeentch__1_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="5">variantmeshes\wh_variantmodels\character\thorgar\materials\nor_wulfrik_shield_01_lod1_weighted4_alpha_on.xml.material</material>
+			<material lod_index="3" part_index="6">variantmeshes\wh_variantmodels\character\thorgar\materials\dae_marauder_head_02_weighted2_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="7">variantmeshes\wh_variantmodels\character\volrik\materials\chs_ring_02_lod01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="8">variantmeshes\wh_variantmodels\character\thorgar\materials\chs_chosen_head_02_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="9">variantmeshes\wh_variantmodels\character\thorgar\materials\dae_prince_head_base_05_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="10">variantmeshes\wh_variantmodels\character\thorgar\materials\dae_sorcerer_tzeentch_torso_03_weighted4_alpha_off.xml.material</material>
 
 	</materials>
 </model>
