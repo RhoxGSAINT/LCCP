@@ -1,4 +1,4 @@
 currency_type	faction	faction_group	source_type	battle_type	excluded_battle_type	battle_set_pieces	battles	source_unitary_value	attacker	defender
 #battle_secondary_currency_sources_links_tables;3;db/battle_secondary_currency_sources_links_tables/rhox_iee_lccp										
 army_ability_bar_fill	rhox_nor_firebrand_slavers		kills					0.5000	true	true
-army_ability_bar_fill	cr_nor_avags		wom_spent					8.0000	true	true
+army_ability_bar_fill	rhox_nor_ravenblessed		wom_spent					8.0000	true	true

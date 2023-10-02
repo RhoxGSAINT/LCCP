@@ -2,6 +2,7 @@ agent	faction	subtype
 #faction_agent_permitted_subtypes_tables;0;db/faction_agent_permitted_subtypes_tables/rhox_iee_lccp_faction_leader		
 general	rhox_wef_far_away_forest	hkrul_sceolan
 general	rhox_nor_firebrand_slavers	hkrul_valbrand
-general	cr_nor_avags	hkrul_volrik
+general	rhox_nor_ravenblessed	hkrul_volrik
 general	rhox_vmp_the_everliving	hkrul_zach
 general	rhox_brt_reveller_of_domance	hkrul_dolmance
+general	rhox_nor_khazags	hkrul_thorgar

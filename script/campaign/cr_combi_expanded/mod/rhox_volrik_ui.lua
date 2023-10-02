@@ -1,4 +1,4 @@
-local volrik_faction ="cr_nor_avags"
+local volrik_faction ="rhox_nor_ravenblessed"
 
 
 local function rhox_volrik_god_bar_ui()

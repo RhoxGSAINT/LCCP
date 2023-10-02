@@ -18,7 +18,7 @@ core:add_listener(
     "FactionTurnStart",
     function (context)
         local faction = context:faction()
-        return faction:name()=="cr_nor_avags" and faction:is_human() == false and cm:turn_number()%3 ==0
+        return faction:name()=="rhox_nor_ravenblessed" and faction:is_human() == false and cm:turn_number()%3 ==0
     end,
     function(context)
         local unit_list = weighted_list:new();

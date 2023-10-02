@@ -109,7 +109,7 @@ rhox_nor_monster_hunts["rhox_nor_firebrand_slavers"]={
             ["tech"] = "wh_dlc08_tech_nor_creatures_07"
     }
 }
-rhox_nor_monster_hunts["cr_nor_avags"]={
+rhox_nor_monster_hunts["rhox_nor_ravenblessed"]={
     ["monster_hunt_0"] = {
             ["mission"] = "wh_dlc08_monster_hunt_0_stage_1",
             ["mpc_mission"] = "wh_dlc08_monster_hunt_0_stage_4_mpc",
@@ -221,7 +221,7 @@ rhox_nor_monster_hunts["cr_nor_avags"]={
 }
 
 local rhox_iee_nor_factions={
-    cr_nor_avags = true,
+    rhox_nor_ravenblessed = true,
     cr_nor_tokmars = true,
     rhox_nor_firebrand_slavers=true
 }
@@ -316,7 +316,7 @@ core:add_listener(
                     if faction_key == "rhox_nor_firebrand_slavers" then
                         cm:faction_add_pooled_resource(faction_key, "nor_progress_hound", "events", 12)
                     end
-                    if faction_key == "cr_nor_avags" then
+                    if faction_key == "rhox_nor_ravenblessed" then
                         cm:faction_add_pooled_resource(faction_key, "nor_progress_eagle", "events", 12)
                     end
                 end;
@@ -336,7 +336,4 @@ core:add_listener(
     end,
     true
 )
-
-
-
 
