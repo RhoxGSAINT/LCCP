@@ -1,0 +1,8 @@
+agent_subtype	clan_name	forename	other_name	surname	agent_type	spawn_behaviour	spawn_via_ui
+#unique_agents_tables;3;db/unique_agents_tables/hkrul_lccp							
+hkrul_dolmance	2147358913	2670700824	2147358913	2670700823	general	FACTION_LEADER	false
+hkrul_sceolan	2147358913	24555523	2147358913	2147358913	general	FACTION_LEADER	false
+hkrul_orghotts	2147358913	24444424	2147358913	24444423	general	FACTION_LEADER	false
+hkrul_valbrand	2147358913	6330700834	2147358913	6330700833	general	FACTION_LEADER	false
+hkrul_volrik		4170700722		4170700720	general	FACTION_LEADER	false
+hkrul_zach	2147358913	6670702834	2147358913	6670702833	general	FACTION_LEADER	false

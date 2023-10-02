@@ -1,0 +1,5 @@
+agent_subtype	ancillary
+#ancillaries_included_agent_subtypes_tables;0;db/ancillaries_included_agent_subtypes_tables/hkrul_dolmance	
+hkrul_dolmance	hkrul_dolmance_mount
+hkrul_dolmance	hkrul_dolmance_mount_3
+hkrul_dolmance	hkrul_dolmance_mount_2

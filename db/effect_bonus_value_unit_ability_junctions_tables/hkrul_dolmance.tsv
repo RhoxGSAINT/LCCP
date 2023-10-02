@@ -1,0 +1,5 @@
+effect	bonus_value_id	unit_ability
+#effect_bonus_value_unit_ability_junctions_tables;0;db/effect_bonus_value_unit_ability_junctions_tables/hkrul_dolmance		
+hkrul_dolmance_helm	enable	hkrul_dolmance_helm
+hkrul_dolmance_pal	enable	hkrul_dolmance_pal
+hkrul_dolmance_sword	enable	hkrul_dolmance_sword

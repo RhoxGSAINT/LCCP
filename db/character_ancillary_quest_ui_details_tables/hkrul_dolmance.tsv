@@ -1,0 +1,5 @@
+agent_subtype	ancillary	rank	instant	is_quest_battle
+#character_ancillary_quest_ui_details_tables;2;db/character_ancillary_quest_ui_details_tables/hkrul_dolmance				
+hkrul_dolmance	hkrul_dolmance_banner	6	true	false
+hkrul_dolmance	hkrul_dolmance_holz	9	true	false
+hkrul_dolmance	hkrul_dolmance_sword	13	true	false
