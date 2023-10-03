@@ -39,7 +39,7 @@ cm:add_first_tick_callback_new(
         cm:disable_event_feed_events(true, "wh_event_category_character", "", "")
         cm:set_character_immortality(cm:char_lookup_str(faction_leader_cqi), false);          
         cm:kill_character_and_commanded_unit(cm:char_lookup_str(faction_leader_cqi), true)
-        cm:callback(function() cm:disable_event_feed_events(false, "", "", "wh_event_category_character") end, 0.2);
+        cm:callback(function() cm:disable_event_feed_events(false, "", "", "wh_event_category_character") end, 0.5);
         
         for i, ror in pairs(norsca_ror_table) do
             cm:add_unit_to_faction_mercenary_pool(
