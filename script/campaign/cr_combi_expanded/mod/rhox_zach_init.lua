@@ -1,10 +1,29 @@
 local zach_faction = "rhox_vmp_the_everliving"  
 
+local vmp_ror ={
+    "wh_dlc04_vmp_cav_chillgheists_0",
+    "wh_dlc04_vmp_cav_vereks_reavers_0",
+    "wh_dlc04_vmp_inf_feasters_in_the_dusk_0",
+    "wh_dlc04_vmp_inf_konigstein_stalkers_0",
+    "wh_dlc04_vmp_inf_sternsmen_0",
+    "wh_dlc04_vmp_inf_tithe_0",
+    "wh_dlc04_vmp_mon_devils_swartzhafen_0",
+    "wh_dlc04_vmp_veh_claw_of_nagash_0",
+    "wh_dlc04_vmp_mon_direpack_0"
+}
+
 local function rhox_zach_init_setting()    
     
 	local faction = cm:get_faction(zach_faction);
     local faction_leader_cqi = faction:faction_leader():command_queue_index();
 
+    for i = 1, #vmp_ror do
+        cm:add_unit_to_faction_mercenary_pool(faction, vmp_ror[i], "renown", 1, 100, 1, 0.1, "", "", "", true, vmp_ror[i])
+    end
+    cm:add_unit_to_faction_mercenary_pool(faction, "wh2_dlc11_vmp_inf_crossbowmen", "renown", 0, 100, 6, 0, "", "", "", true, "wh2_dlc11_vmp_inf_crossbowmen")
+    cm:add_unit_to_faction_mercenary_pool(faction, "wh2_dlc11_vmp_inf_handgunners", "renown", 0, 100, 1, 0, "", "", "", true, "wh2_dlc11_vmp_inf_handgunners")
+    
+    
     local x = 1259
     local y = 313
     
