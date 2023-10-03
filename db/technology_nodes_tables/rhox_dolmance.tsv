@@ -1,0 +1,9 @@
+key	campaign_key	faction_key	indent	technology_key	technology_node_set	tier	research_points_required	cost_per_round	food_cost	optional_ui_group	resource_cost	required_parents	pixel_offset_x	pixel_offset_y
+#technology_nodes_tables;0;db/technology_nodes_tables/rhox_dolmance														
+rhox_dolmance_tech_1_1		rhox_brt_reveller_of_domance	1	rhox_dolmance_sla_1	brt_mil	1	400	0	0			0	0	0
+rhox_dolmance_tech_1_2		rhox_brt_reveller_of_domance	1	tech_dlc14_brt_heroic_duties	brt_mil	2	400	0	0			0	0	0
+rhox_dolmance_tech_1_3		rhox_brt_reveller_of_domance	1	tech_dlc14_brt_bretonnian_diplomacy	brt_mil	3	400	0	0			0	0	0
+rhox_dolmance_tech_2_1		rhox_brt_reveller_of_domance	2	rhox_dolmance_sla_2	brt_mil	1	400	0	0			0	0	0
+rhox_dolmance_tech_2_2		rhox_brt_reveller_of_domance	2	tech_dlc14_brt_righteous_strength	brt_mil	2	400	0	0			0	0	0
+rhox_dolmance_tech_2_3		rhox_brt_reveller_of_domance	2	wh_dlc07_tech_brt_heraldry_oversea	brt_mil	3	400	0	0			0	0	0
+rhox_dolmance_tech_4_2		rhox_brt_reveller_of_domance	4	tech_dlc14_brt_rally_the_peasants	brt_mil	2	300	0	0	brt_heraldry		0	0	0

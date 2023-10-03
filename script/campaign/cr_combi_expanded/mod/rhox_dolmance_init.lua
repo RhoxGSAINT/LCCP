@@ -42,7 +42,7 @@ cm:add_first_tick_callback_new(
         cm:callback(function() cm:disable_event_feed_events(false, "", "", "wh_event_category_character") end, 0.2);
         
         local agent_x, agent_y = cm:find_valid_spawn_location_for_character_from_position(faction:name(), x, y, false, 5);
-        cm:create_agent(dolmance_faction, "wizard", "wh_dlc07_brt_damsel_life", agent_x, agent_y);       
+        cm:create_agent(dolmance_faction, "wizard", "wh3_dlc20_chs_sorcerer_slaanesh_msla", agent_x, agent_y);       
         
         cm:disable_event_feed_events(true, "wh_event_category_diplomacy", "", "")
         cm:force_declare_war(dolmance_faction, "cr_grn_snakebiter_tribe", false, false)
