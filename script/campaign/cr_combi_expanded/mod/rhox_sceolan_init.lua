@@ -1,8 +1,25 @@
 local sceolan_faction = "rhox_wef_far_away_forest"
+
+local wef_ror={
+    "wh2_dlc16_wef_cav_great_stag_knights_ror_0",
+    "wh2_dlc16_wef_inf_dryads_ror_0",
+    "wh2_dlc16_wef_mon_zoats_ror_0",
+    "wh_pro04_wef_cav_wild_riders_ror_0",
+    "wh_pro04_wef_inf_eternal_guard_ror_0",
+    "wh_pro04_wef_inf_wardancers_ror_0",
+    "wh_pro04_wef_inf_waywatchers_ror_0",
+    "wh_pro04_wef_inf_wildwood_rangers_ror_0",
+    "wh_pro04_wef_mon_treekin_ror_0"
+}
+
 cm:add_first_tick_callback_new(
     function()
         local faction = cm:get_faction(sceolan_faction);
         local faction_leader_cqi = faction:faction_leader():command_queue_index();
+        
+        for i = 1, #wef_ror do
+            cm:add_unit_to_faction_mercenary_pool(faction, wef_ror[i], "renown", 1, 100, 1, 0.1, "", "", "", true, wef_ror[i])
+        end
         
         cm:transfer_region_to_faction("cr_combi_region_elithis_2_1",sceolan_faction)
         

@@ -10,3 +10,5 @@ region_growth	rhox_valbrand_feature	false
 region_wealth	rhox_valbrand_feature	false
 unit_upgrades	rhox_volrik_feature	true
 diplomatic_manipulation	rhox_volrik_feature	true
+character_tagging	rhox_dolmance_feature	true
+enslaving_captives_replenishes_hitpoints	rhox_dolmance_feature	true

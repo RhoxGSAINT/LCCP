@@ -1,8 +1,21 @@
 local dolmance_faction = "rhox_brt_reveller_of_domance"
+
+local brt_ror={
+    "wh_pro04_brt_cav_knights_errant_ror_0",
+    "wh_pro04_brt_cav_knights_of_the_realm_ror_0",
+    "wh_pro04_brt_cav_mounted_yeomen_ror_0",
+    "wh_pro04_brt_cav_questing_knights_ror_0",
+    "wh_pro04_brt_inf_battle_pilgrims_ror_0",
+    "wh_pro04_brt_inf_foot_squires_ror_0"
+}
 cm:add_first_tick_callback_new(
     function()
         local faction = cm:get_faction(dolmance_faction);
         local faction_leader_cqi = faction:faction_leader():command_queue_index();
+        
+        for i = 1, #brt_ror do
+            cm:add_unit_to_faction_mercenary_pool(faction, brt_ror[i], "renown", 1, 100, 1, 0.1, "", "", "", true, brt_ror[i])
+        end
         
         cm:transfer_region_to_faction("cr_combi_region_ind_5_2",dolmance_faction)
         local x= 1121
@@ -34,11 +47,7 @@ cm:add_first_tick_callback_new(
         cm:disable_event_feed_events(true, "wh_event_category_diplomacy", "", "")
         cm:force_declare_war(dolmance_faction, "cr_grn_snakebiter_tribe", false, false)
         cm:callback(function() cm:disable_event_feed_events(false, "wh_event_category_diplomacy", "", "") end, 0.5)
-        
-
-        
-        
-        
+    
         local x2,y2 = cm:find_valid_spawn_location_for_character_from_settlement(
             "cr_grn_snakebiter_tribe",
             "cr_combi_region_ind_5_2",
@@ -85,6 +94,10 @@ cm:add_first_tick_callback(
 		pcall(function()
 			mixer_set_faction_trait(dolmance_faction, "rhox_dolmance_faction_trait", true)
 		end)
+		if not campaign_traits.trait_exclusions["faction"]["wh3_main_trait_corrupted_slaanesh"] then
+            campaign_traits.trait_exclusions["faction"]["wh3_main_trait_corrupted_slaanesh"] = {}
+        end
+        table.insert(campaign_traits.trait_exclusions["faction"]["wh3_main_trait_corrupted_slaanesh"],dolmance_faction)
 	end
 )
 	

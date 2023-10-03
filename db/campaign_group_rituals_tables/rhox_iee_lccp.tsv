@@ -13,3 +13,6 @@ rhox_burlok_feature	rhox_burlok_ritual_burlok_artifact_5		0	true
 rhox_burlok_feature	rhox_burlok_ritual_burlok_artifact_6		0	true
 rhox_burlok_feature	rhox_burlok_ritual_burlok_artifact_7		0	true
 rhox_burlok_feature	rhox_burlok_ritual_burlok_artifact_8		0	true
+rhox_dolmance_feature	wh3_main_ritual_sla_pleasure_arena		0	true
+rhox_dolmance_feature	wh3_main_ritual_sla_pleasure_hunt		0	true
+rhox_dolmance_feature	wh3_main_ritual_sla_pleasure_party		0	true
