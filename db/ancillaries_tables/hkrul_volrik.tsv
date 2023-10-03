@@ -2,5 +2,5 @@ key	type	applies_to	transferrable	unique_to_world	unique_to_faction	precedence	s
 #ancillaries_tables;0;db/ancillaries_tables/hkrul_volrik																												
 hkrul_volrik_banner	hkrul_volrik_banner	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true		hkrul_volrik_banner	49	1	banner	false	false	true	all
 hkrul_volrik_mount	wh_main_anc_mount_warhorse	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	hkrul_volrik_mount		1	1		false	false	true	all
-hkrul_volrik_mount_3	wh_main_anc_mount_imperial_griffon	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	hkrul_volrik_mount_3		1	0		false	false	true	anc_set_exclusive_sc_empire
-hkrul_volrik_mount_2	wh_main_anc_mount_imperial_pegasus	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	hkrul_volrik_mount_2		1	0		false	false	true	anc_set_exclusive_sc_empire
+hkrul_volrik_mount_3	wh_main_anc_mount_imperial_griffon	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	hkrul_volrik_mount_3		1	0		false	false	true	all
+hkrul_volrik_mount_2	wh_main_anc_mount_imperial_pegasus	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	hkrul_volrik_mount_2		1	0		false	false	true	all

@@ -1,6 +1,0 @@
-effect	bonus_value_id	unit_ability
-#effect_bonus_value_unit_ability_junctions_tables;0;db/effect_bonus_value_unit_ability_junctions_tables/hkrul_thorgar		
-hkrul_thorgar_cry	enable	hkrul_thorgar_cry
-hkrul_thorgar_carnivore	enable	hkrul_thorgar_carnivore
-hkrul_thorgar_sword	enable	hkrul_thorgar_sword
-hkrul_thorgar_stomp	enable	hkrul_thorgar_stomp

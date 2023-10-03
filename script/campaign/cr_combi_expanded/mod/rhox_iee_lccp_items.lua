@@ -112,7 +112,7 @@ core:add_listener(
     end,
     false
 )
-    core:add_listener(
+core:add_listener(
     "hkrul_thorgar_weaopon_unlock",
     "CharacterRankUp",
     function(context)

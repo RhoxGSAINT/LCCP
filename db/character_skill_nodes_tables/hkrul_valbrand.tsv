@@ -56,3 +56,4 @@ hkrul_valbrand_khorne_self_9		wh2_dlc11_skill_all_lord_self_self_indomitable		3	
 hkrul_skill_node_valbrand_unique_14		hkrul_valbrand_banner		11	13		0	0	true
 hkrul_skill_node_valbrand_unique_15		hkrul_valbrand_sword		11	0		0	0	true
 rhox_nor_skill_node_camp_growth		rhox_valbrand_nor_lords_campaign_swelling_of_doom		5	4		0	0	true
+rhox_nor_skill_node_camp_growth_vanilla_override		rhox_valbrand_nor_lords_campaign_swelling_of_doom	rhox_nor_firebrand_slavers	5	4		0	0	true
