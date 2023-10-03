@@ -1,6 +1,6 @@
 level_name	chain	level	create_time	create_cost	upkeep_cost	commodity	only_in_capital	faction_unique	first_in_world_bundle	resource_requirement	can_convert	building_instance_key	should_show_building_level_in_ui_for_technology	health_override	development_point_cost	can_be_damaged	primary_slot_building_building_level_requirement	audio_building_type	visible_in_ui	food_cost	slave_cap_contribution	resource_cost	additional_loot_value
 #building_levels_tables;0;db/building_levels_tables/rhox_dolmance																							
 rhox_dolmance_slaanesh_1	rhox_dolmance_slaanesh	0	1	1000	0		false	false			true	rhox_dolmance_slaanesh	false	0.0000	0	true	1		true	0	0	wh3_main_sla_cult_1	0
-rhox_dolmance_slaanesh_2	rhox_dolmance_slaanesh	1	2	1500	0		false	false			true	rhox_dolmance_slaanesh	false	0.0000	0	true	2		true	0	0	wh3_main_sla_cult_2	0
-rhox_dolmance_slaanesh_3	rhox_dolmance_slaanesh	2	3	2000	0		false	false			true	rhox_dolmance_slaanesh	false	0.0000	0	true	3		true	0	0	wh3_main_sla_cult_3	0
-rhox_dolmance_slaanesh_4	rhox_dolmance_slaanesh	3	4	4000	0		false	false			true	rhox_dolmance_slaanesh	false	0.0000	0	true	5		true	0	0	wh3_main_sla_cult_4	0
+rhox_dolmance_slaanesh_2	rhox_dolmance_slaanesh	1	2	1500	0		false	false			true	rhox_dolmance_slaanesh	false	0.0000	0	true	2		true	0	0	wh3_main_sla_walls_major_1	0
+rhox_dolmance_slaanesh_3	rhox_dolmance_slaanesh	2	3	2000	0		false	false			true	rhox_dolmance_slaanesh	false	0.0000	0	true	3		true	0	0	wh3_main_sla_walls_major_2	0
+rhox_dolmance_slaanesh_4	rhox_dolmance_slaanesh	3	4	4000	0		false	false			true	rhox_dolmance_slaanesh	false	0.0000	0	true	5		true	0	0	wh3_main_sla_walls_major_3	0
