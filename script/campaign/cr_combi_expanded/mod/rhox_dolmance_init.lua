@@ -73,6 +73,20 @@ cm:add_first_tick_callback_new(
         function(cqi)
         end);
         
+        
+
+        if faction:is_human() then
+            local mm = mission_manager:new(dolmance_faction, "rhox_dolmance_init_mission")
+            mm:add_new_objective("OWN_N_REGIONS_INCLUDING");
+            mm:add_condition("region cr_combi_region_elithis_1_1");
+            mm:add_condition("region cr_combi_region_nippon_3_3");
+            mm:add_condition("region wh3_main_combi_region_bordeleaux");
+            mm:add_condition("region wh3_main_combi_region_pfeildorf");
+            mm:add_condition("total 4");
+            mm:add_payload("money 1000");
+            mm:trigger()
+        end
+        
         cm:callback(
             function()
                 cm:show_message_event(
