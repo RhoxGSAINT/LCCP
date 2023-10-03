@@ -14,3 +14,4 @@ rhox_valbrand_NORSCA_walls						cai_defence_group					-1	-1	0	0	0	0	0	0	-1	-1	0	
 rhox_valbrand_NORSCA_walls						cai_support_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	250
 rhox_valbrand_NORSCA_worship						cai_support_group					-1	-1	0	0	0	0	0	0	0	0	20	20	20	20	0	0	20	125
 rhox_hrothyogg_mercenary_branch						cai_support_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	200	200
+rhox_dolmance_slaanesh						cai_support_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	200	1000

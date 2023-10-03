@@ -19,3 +19,5 @@ effects_description_rhox_hrothyogg_region_owner_mercenary_gain_chance	Chance of 
 effects_description_rhox_hrothyogg_building_destoryed_if_not_alliance_dummy	Mercenary branch will be destroyed if region owner is at war with you	false
 effects_description_rhox_hrothyogg_effect_force_stat_melee_attack_maneaters	Melee attack: %+n for Maneaters units	false
 effects_description_rhox_hrothyogg_effect_force_stat_melee_defence_maneaters	Melee defence: %+n for Maneaters units	false
+effects_description_rhox_dolmance_devotee_dummy	Does not have access to the chapel buildings and have access to Slaanesh sorcerers and Pleasurable Acts, and replenishment via captives	false
+effects_description_rhox_dolmance_wine_dummy	Wine producing buildings give special global bonuses	false
