@@ -6,7 +6,7 @@ effects_description_rhox_torinubar_west_cargo_per_turn	Western Commodities Gener
 effects_description_rhox_torinubar_purchase_east	Passive: Battle Harmony: Yin	false
 effects_description_rhox_torinubar_purchase_west	Passive: Battle Harmony: Yang	false
 effects_description_rhox_torinubar_entrepot_dummy	Whenever you complete a convoy journey to an order faction's settlements, you'll get an entrepot building	false
-effects_description_rhox_valbrand_capital_tech_dummy	Valbrand's Horde: Capitol techs will be unlocked by razing capitals for Khorne instead of occupying them	false
+effects_description_rhox_valbrand_capital_tech_dummy	Valbrand's Horde: Capital techs will be unlocked by razing capitals for Khorne instead of occupying them	false
 effects_description_rhox_valbrand_chaos_gift_dummy	Slaver: May sacrifice slaves to recieve powerful boons of Khorne and Chaos	false
 effects_description_rhox_iee_nor_efficient_hunter_dummy	Khorne's Chosen: Valbrand will directly face the monsters hidden within the arcanum	false
 effects_description_rhox_iee_nor_efficient_hunter_dummy2	Tzeentch's Chosen: Volrik will directly face the monsters hidden within the arcanum	false
