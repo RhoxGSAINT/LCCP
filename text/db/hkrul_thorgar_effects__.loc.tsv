@@ -12,3 +12,4 @@ effects_description_hkrul_thorgar_carnivore	Ability: "Frenzied Carnivore'' for M
 effects_description_hkrul_thorgar_stomp	Ability: "Khural's Bludgeon''	false
 effects_description_hkrul_khazag_marauder_ws	Weapon Strength: %+n% for Marauder units	true
 effects_description_hkrul_khazag_marauder_recruit	Recruit Rank: %+n for Marauder units	true
+effect_bundles_localised_description_hkrul_thorgar_banner		false

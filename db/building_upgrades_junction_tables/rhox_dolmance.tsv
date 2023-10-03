@@ -1,0 +1,5 @@
+from	to
+#building_upgrades_junction_tables;0;db/building_upgrades_junction_tables/rhox_dolmance	
+rhox_dolmance_slaanesh_1	rhox_dolmance_slaanesh_2
+rhox_dolmance_slaanesh_2	rhox_dolmance_slaanesh_3
+rhox_dolmance_slaanesh_3	rhox_dolmance_slaanesh_4
