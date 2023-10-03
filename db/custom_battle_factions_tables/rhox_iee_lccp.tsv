@@ -1,0 +1,21 @@
+faction_key	sort_order	culture_sort_order
+#custom_battle_factions_tables;1;db/custom_battle_factions_tables/rhox_iee_lccp		
+cr_brt_leofrics_fellowship	300	10
+cr_def_corsairs_of_spite	301	40
+cr_dwf_firebeards_excavators	302	50
+cr_hef_gate_guards	303	80
+cr_kho_servants_of_the_blood_nagas	305	90
+cr_ogr_deathtoll	308	140
+cr_hef_tor_elithis	304	80
+cr_nur_tide_of_pestilence	307	130
+cr_nor_tokmars	306	120
+cr_tmb_sons_of_ptra	309	170
+rhox_def_key_keepers	312	40
+rhox_nor_firebrand_slavers	314	120
+rhox_vmp_the_everliving	317	200
+rhox_brt_reveller_of_domance	310	10
+rhox_wef_far_away_forest	318	220
+rhox_kho_destroyers_of_khorne	313	90
+rhox_nor_khazags	315	120
+rhox_nor_ravenblessed	316	120
+rhox_chs_the_deathswords	311	210
