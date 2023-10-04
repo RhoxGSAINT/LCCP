@@ -1,0 +1,8 @@
+id	dilemma_key	option_key	value	target
+#cdir_events_dilemma_option_junctions_tables;1;db/cdir_events_dilemma_option_junctions_tables/rhox_sceolan				
+1547480848	rhox_sceolan_high_elf_invaders	GEN_CND_REGION	cr_combi_region_elithis_2_1	default
+1547480849	rhox_sceolan_high_elf_invaders	VAR_CHANCE	100	default
+1547480850	rhox_sceolan_high_elf_invaders	GEN_TARGET_REGION		default
+1547480851	rhox_sceolan_cathay_invaders	GEN_CND_REGION	cr_combi_region_elithis_2_1	default
+1547480852	rhox_sceolan_cathay_invaders	VAR_CHANCE	100	default
+1547480853	rhox_sceolan_cathay_invaders	GEN_TARGET_REGION		default

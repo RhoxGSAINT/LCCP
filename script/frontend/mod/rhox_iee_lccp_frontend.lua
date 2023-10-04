@@ -38,7 +38,7 @@ core:add_ui_created_callback(
             mixer_add_starting_unit_list_for_faction("cr_ogr_deathtoll", {"wh3_main_ogr_inf_gnoblars_0", "wh3_main_ogr_inf_gnoblars_1"})
             mixer_add_faction_to_major_faction_list("cr_ogr_deathtoll")
             
-            mixer_change_lord_name("1342160196", "hkrul_lord_slaurith") 
+            mixer_change_lord_name("1342160196", "hkrul_slaurith") 
             mixer_add_starting_unit_list_for_faction("cr_kho_servants_of_the_blood_nagas", {"wh3_main_kho_inf_chaos_warriors_0", "wh3_main_kho_inf_chaos_warriors_1"})
             mixer_add_faction_to_major_faction_list("cr_kho_servants_of_the_blood_nagas")
             

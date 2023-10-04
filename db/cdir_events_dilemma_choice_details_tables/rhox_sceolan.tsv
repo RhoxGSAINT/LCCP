@@ -1,0 +1,8 @@
+choice_key	dilemma_key	associated_audio_trigger
+#cdir_events_dilemma_choice_details_tables;3;db/cdir_events_dilemma_choice_details_tables/rhox_sceolan		
+FIRST	rhox_sceolan_high_elf_invaders	
+SECOND	rhox_sceolan_high_elf_invaders	
+THIRD	rhox_sceolan_high_elf_invaders	
+FIRST	rhox_sceolan_cathay_invaders	
+SECOND	rhox_sceolan_cathay_invaders	
+THIRD	rhox_sceolan_cathay_invaders	

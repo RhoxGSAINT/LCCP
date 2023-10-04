@@ -1,0 +1,18 @@
+key	text	tooltip
+#Loc;1;text/db/rhox_sceolan_dilemma.loc		
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_sceolan_high_elf_invadersFIRST	Spare them	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_sceolan_high_elf_invadersFIRST	Let them live	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_sceolan_high_elf_invadersSECOND	Attack Them	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_sceolan_high_elf_invadersSECOND	Slay the intruders!	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_sceolan_high_elf_invadersTHIRD	Decide Later	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_sceolan_high_elf_invadersTHIRD	You do not have time for this right now.	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_sceolan_cathay_invadersFIRST	Spare them	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_sceolan_cathay_invadersFIRST	Let them live	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_sceolan_cathay_invadersSECOND	Attack Them	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_sceolan_cathay_invadersSECOND	Slay the intruders!	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_sceolan_cathay_invadersTHIRD	Decide Later	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_sceolan_cathay_invadersTHIRD	You do not have time for this right now.	false
+dilemmas_localised_description_rhox_sceolan_high_elf_invaders	As we stalk through the ancient forests of Tol Elithis, we come upon a group of High Elf intruders defiling our sacred groves. Their fate hangs in the balance, and I must decide whether to draw my bow and protect our realm with lethal precision or show them mercy and hope they learn the error of their ways amidst our enchanting woods.	false
+dilemmas_localised_title_rhox_sceolan_high_elf_invaders	Forest Encounter: High Elves	false
+dilemmas_localised_description_rhox_sceolan_cathay_invaders	As we silently navigate the mystical realm of Tol Elithis, we stumble upon a Cathay civilian merchants trespassing in our ancient woods. Facing the feeble Cathay intruders in our sacred realm of Tol Elithis, we confront a stark decision – to either extend mercy and spare them, offering a chance for redemption amidst our enchanted woods, or to ruthlessly massacre them, ensuring they pose no further threat to our realm.	false
+dilemmas_localised_title_rhox_sceolan_cathay_invaders	Forest Encounter: Cathayans	false

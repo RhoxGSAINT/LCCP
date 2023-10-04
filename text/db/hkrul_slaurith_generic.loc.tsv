@@ -1,0 +1,9 @@
+key	text	tooltip
+#Loc;1;text/db/hkrul_slaurith_generic.loc		
+ui_unit_bullet_point_enums_onscreen_name_bloody_wanderer	Bloody Wanderer	false
+ui_unit_bullet_point_enums_tooltip_bloody_wanderer	This blood drenched murder-king seeks only war, and his mighty rivalries can leave millions dead in his wake	false
+units_custom_battle_mounts_localised_description_hkrul_slaurithstr_slaurith_mount	A mighty beast soaked in blood and rage, taller than a man and possessed of a crushing mass, this fiery creation of the Hound is the personal mount of Lord Slaurith	true
+units_custom_battle_mounts_mount_name_hkrul_slaurithstr_slaurith_mount	Thunderous Cruor	true
+ancillaries_colour_text_hkrul_slaurith_mount	A mighty beast soaked in blood and rage, taller than a man and possessed of a crushing mass, this fiery creation of the Hound is the personal mount of Lord Slaurith	true
+ancillaries_onscreen_name_hkrul_slaurith_mount	Thunderous Cruor	true
+ui_unit_groupings_onscreen_hkrul_slaurith	Sword and Axe Infantry	false

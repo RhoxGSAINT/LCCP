@@ -1,0 +1,10 @@
+key	text	tooltip
+#Loc;1;text/db/hkrul_slaurith_effects.loc		
+effects_description_hkrul_slaurith_enable_bloody_reward	Ability: "Bloody Reward"	false
+effects_description_hkrul_slaurith_enable_hound_fury	Ability: "Hound's Fury"	false
+effects_description_hkrul_slaurith_recruit_rank_chaos	Recruit rank: %+n for Chaos Warriors of Khorne and Skullcrushers of Khorne units	false
+effects_description_hkrul_slaurith_recruit_cost_chaos	Recruitment cost: %+n% for Chaos Warriors of Khorne and Skullcrushers of Khorne units	false
+effects_description_hkrul_slaurith_upkeep_chaos	Upkeep: %+n% for Chaos Warriors of Khorne and Skullcrushers of Khorne units	false
+effects_description_hkrul_slaurith_enable_bloodrage	Ability: "Bloodrage"	false
+effects_description_hkrul_slaurith_enable_gorefeast	Ability: "Gorefeast"	false
+effects_description_hkrul_slaurith_enable_hungering	Ability: "Hungering Blades"	false

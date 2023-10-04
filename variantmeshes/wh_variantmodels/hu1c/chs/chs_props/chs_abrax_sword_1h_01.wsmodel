@@ -1,0 +1,25 @@
+<model version="1">
+	<geometry>variantmeshes\wh_variantmodels\hu1c\chs\chs_props\chs_slaurith_sword_1h_01.rigid_model_v2</geometry>
+		<materials>
+			<material part_index="0" lod_index="0">variantmeshes\wh_variantmodels\hu1c\chs\chs_props\materials\dae_bloodletter_herald_sword_2h_rigid_alpha_off.xml.material</material>
+			<material part_index="1" lod_index="0">variantmeshes\wh_variantmodels\hu1c\chs\chs_props\materials\chs_marauder_axe_1h_01_lod1_rigid_alpha_off.xml.material</material>
+			<material part_index="2" lod_index="0">variantmeshes\wh_variantmodels\hu1c\chs\chs_props\materials\bst_ungor_axe_1h_05_lod1_submesh_rigid_alpha_on.xml.material</material>
+			<material part_index="3" lod_index="0">variantmeshes\wh_variantmodels\hu1c\chs\chs_props\materials\chs_archaon_sword_1h_01_lod1_rigid_alpha_off.xml.material</material>
+			<material part_index="4" lod_index="0">variantmeshes\wh_variantmodels\hu1c\chs\chs_props\materials\nor_wulfrik_sword_01_lod1_submes_rigid_alpha_off.xml.material</material>
+			<material part_index="0" lod_index="1">variantmeshes\wh_variantmodels\hu1c\chs\chs_props\materials\dae_bloodletter_herald_sword_2h_rigid_alpha_off.xml.material</material>
+			<material part_index="1" lod_index="1">variantmeshes\wh_variantmodels\hu1c\chs\chs_props\materials\chs_marauder_axe_1h_01_lod1_rigid_alpha_off.xml.material</material>
+			<material part_index="2" lod_index="1">variantmeshes\wh_variantmodels\hu1c\chs\chs_props\materials\bst_ungor_axe_1h_05_lod1_submesh_rigid_alpha_on.xml.material</material>
+			<material part_index="3" lod_index="1">variantmeshes\wh_variantmodels\hu1c\chs\chs_props\materials\chs_archaon_sword_1h_01_lod1_rigid_alpha_off.xml.material</material>
+			<material part_index="4" lod_index="1">variantmeshes\wh_variantmodels\hu1c\chs\chs_props\materials\nor_wulfrik_sword_01_lod1_submes_rigid_alpha_off.xml.material</material>
+			<material part_index="0" lod_index="2">variantmeshes\wh_variantmodels\hu1c\chs\chs_props\materials\dae_bloodletter_herald_sword_2h_rigid_alpha_off.xml.material</material>
+			<material part_index="1" lod_index="2">variantmeshes\wh_variantmodels\hu1c\chs\chs_props\materials\chs_marauder_axe_1h_01_lod1_rigid_alpha_off.xml.material</material>
+			<material part_index="2" lod_index="2">variantmeshes\wh_variantmodels\hu1c\chs\chs_props\materials\bst_ungor_axe_1h_05_lod1_submesh_rigid_alpha_on.xml.material</material>
+			<material part_index="3" lod_index="2">variantmeshes\wh_variantmodels\hu1c\chs\chs_props\materials\chs_archaon_sword_1h_01_lod1_rigid_alpha_off.xml.material</material>
+			<material part_index="4" lod_index="2">variantmeshes\wh_variantmodels\hu1c\chs\chs_props\materials\nor_wulfrik_sword_01_lod1_submes_rigid_alpha_off.xml.material</material>
+			<material part_index="0" lod_index="3">variantmeshes\wh_variantmodels\hu1c\chs\chs_props\materials\dae_bloodletter_herald_sword_2h_rigid_alpha_off.xml.material</material>
+			<material part_index="1" lod_index="3">variantmeshes\wh_variantmodels\hu1c\chs\chs_props\materials\chs_marauder_axe_1h_01_lod1_rigid_alpha_off.xml.material</material>
+			<material part_index="2" lod_index="3">variantmeshes\wh_variantmodels\hu1c\chs\chs_props\materials\bst_ungor_axe_1h_05_lod1_submesh_rigid_alpha_on.xml.material</material>
+			<material part_index="3" lod_index="3">variantmeshes\wh_variantmodels\hu1c\chs\chs_props\materials\chs_archaon_sword_1h_01_lod1_rigid_alpha_off.xml.material</material>
+			<material part_index="4" lod_index="3">variantmeshes\wh_variantmodels\hu1c\chs\chs_props\materials\nor_wulfrik_sword_01_lod1_submes_rigid_alpha_off.xml.material</material>
+	</materials>
+</model>

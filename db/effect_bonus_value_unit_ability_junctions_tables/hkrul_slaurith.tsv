@@ -1,0 +1,4 @@
+effect	bonus_value_id	unit_ability
+#effect_bonus_value_unit_ability_junctions_tables;0;db/effect_bonus_value_unit_ability_junctions_tables/hkrul_slaurith		
+hkrul_slaurith_enable_gorefeast	enable	wh3_main_unit_passive_gorefeast
+hkrul_slaurith_enable_hungering	enable	wh3_twa06_unit_passive_hungering_blades

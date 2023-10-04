@@ -210,12 +210,12 @@ local rhox_iee_list={
     },
     cr_kho_servants_of_the_blood_nagas ={
         leader={
-            subtype="hkrul_lord_slaurith",
+            subtype="hkrul_slaurith",
             unit_list="wh3_main_kho_inf_chaos_warriors_0,wh3_main_kho_inf_chaos_warriors_1",
             x=1250,
             y=183,
-            forename ="names_name_6670700833",
-            familiyname ="names_name_6670700822",
+            forename ="names_name_466124000",
+            familiyname ="",
         },
         agent=nil,
         hand_over_region=nil,

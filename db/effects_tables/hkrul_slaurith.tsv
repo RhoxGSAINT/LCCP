@@ -1,0 +1,10 @@
+effect	icon	priority	icon_negative	category	is_positive_value_good
+#effects_tables;0;db/effects_tables/hkrul_slaurith					
+hkrul_slaurith_enable_bloody_reward	general_ability.png	300	general_ability.png	battle	true
+hkrul_slaurith_enable_hound_fury	general_ability.png	300	general_ability.png	battle	true
+hkrul_slaurith_recruit_rank_chaos	experience.png	401	experience.png	battle	true
+hkrul_slaurith_recruit_cost_chaos	treasury.png	401	treasury.png	battle	true
+hkrul_slaurith_upkeep_chaos	military_spending.png	401	military_spending.png	battle	true
+hkrul_slaurith_enable_bloodrage	general_ability.png	300	general_ability.png	battle	true
+hkrul_slaurith_enable_gorefeast	general_ability.png	300	general_ability.png	battle	true
+hkrul_slaurith_enable_hungering	general_ability.png	300	general_ability.png	battle	true

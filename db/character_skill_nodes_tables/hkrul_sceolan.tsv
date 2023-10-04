@@ -4,9 +4,9 @@ hkrul_skill_node_hkrul_sceolan_misc_07		hkrul_sceolan_mount		0	1		0	0	true
 hkrul_skill_node_hkrul_sceolan_misc_08		hkrul_sceolan_mount_2		0	2		0	0	true
 hkrul_skill_node_hkrul_sceolan_misc_09		hkrul_sceolan_mount_3		0	3		0	0	true
 hkrul_skill_node_hkrul_sceolan_innate		innate_hkrul_sceolan		6	0		1	0	false
-wh_dlc05_skill_node_wef_sceolan_legendary_special_01		rhox_sceolan_wise_cunning		0	10		0	0	true
-wh_dlc05_skill_node_wef_sceolan_legendary_special_02		rhox_sceolan_ambush_master		0	11		0	0	true
-wh_dlc05_skill_node_wef_sceolan_legendary_special_03		rhox_sceolan_up_close_personal		0	12		0	0	true
-wh_dlc05_skill_node_wef_sceolan_legendary_special_04		rhox_sceolan_lord_of_winterheart		0	13		0	0	true
-wh_dlc05_skill_node_wef_sceolan_legendary_unique		rhox_sceolan_the_buckler		0	20		0	0	false
-wh_dlc05_skill_node_wef_sceolan_legendary_unique_1		rhox_sceolan_the_bow_of_loren		0	21		0	0	false
+rhox_sceolan_special_01		rhox_sceolan_wise_cunning		0	10		0	0	true
+rhox_sceolan_special_02		rhox_sceolan_ambush_master		0	11		0	0	true
+rhox_sceolan_special_03		rhox_sceolan_up_close_personal		0	12		0	0	true
+rhox_sceolan_special_04		rhox_sceolan_lord_of_winterheart		0	13		0	0	true
+rhox_sceolan_unique_0		rhox_sceolan_the_buckler		0	20		0	0	false
+rhox_sceolan_unique_1		rhox_sceolan_the_bow_of_loren		0	21		0	0	false
