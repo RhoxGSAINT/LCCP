@@ -1,0 +1,8 @@
+minister_key	rank	order	cost	minimum_term_length	maximum_term_length	maximum_concurrent_ministers	required_loyalty	display_end_turn_notifications_for_post
+#ministerial_positions_tables;1;db/ministerial_positions_tables/!rhox_sceolan_override								
+cr_far_away_forest_minister_1	15	1	0	0	9999	1	0	true
+cr_far_away_forest_minister_2	15	1	0	0	9999	1	0	true
+cr_far_away_forest_minister_3	5	1	0	0	9999	1	0	true
+cr_far_away_forest_minister_4	10	1	0	0	9999	1	0	true
+cr_far_away_forest_minister_5	10	1	0	0	9999	1	0	true
+cr_far_away_forest_minister_6	5	1	0	0	9999	1	0	true

@@ -1,0 +1,6 @@
+key	text	tooltip
+#Loc;1;text/db/rhox_iee_lccp_ancillaries.loc		
+ancillaries_colour_text_rhox_sceolan_the_bow_of_loren	The Bow of Loren is strung with the hair of Elf maids and enchanted with potent charms for increased power.	false
+ancillaries_onscreen_name_rhox_sceolan_the_bow_of_loren	The Bow of Loren	false
+ancillaries_colour_text_rhox_sceolan_the_buckler	Sceolan carries a buckler instead of an ordinary shield. This is a small shield with a spiked front, the spikes are arranged in an arcane pattern	false
+ancillaries_onscreen_name_rhox_sceolan_the_buckler	The Buckler	false

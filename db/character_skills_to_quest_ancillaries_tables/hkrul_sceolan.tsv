@@ -1,5 +1,4 @@
 ancillary	skill	use_quest_for_prefix
 #character_skills_to_quest_ancillaries_tables;1;db/character_skills_to_quest_ancillaries_tables/hkrul_sceolan		
-hkrul_sceolan_banner	hkrul_sceolan_banner	true
-hkrul_sceolan_holz	hkrul_sceolan_holz	true
-hkrul_sceolan_sword	hkrul_sceolan_sword	true
+rhox_sceolan_the_bow_of_loren	rhox_sceolan_the_bow_of_loren	true
+rhox_sceolan_the_buckler	rhox_sceolan_the_buckler	true
