@@ -69,3 +69,29 @@ core:add_listener(
     function(context) rhox_sceolan_apply_effect_bundle(context:character()) end,
     true
 )
+--------------------------------------------------------------------------Encounter
+
+Worldroots.encounters["the_far_place_high_elf_invaders_me"] = {
+    spawn_turn = 2,--TODO change it to 8
+    forest = "the_far_place",
+    spawn_incident = "wh2_dlc16_incident_wef_new_encounter_available",
+    region = "cr_combi_region_elithis_2_1",
+    setup = function() 
+        Worldroots:set_up_generic_encounter_marker("the_far_place_high_elf_invaders_me", "rhox_sceolan_high_elf_invaders", 1449, 44, "the_far_place")
+    end,
+    on_battle_trigger_callback = function(self, character, marker_info)
+        Worldroots:set_up_generic_encounter_forced_battle(character, "wh2_main_hef_high_elves_qb1", "wh2_main_sc_hef_high_elves", false)
+    end,
+}
+
+Worldroots.encounters["the_far_place_cathay_invaders_me"] = {
+    spawn_turn = 2,
+    forest = "the_far_place",
+    spawn_incident = "wh2_dlc16_incident_wef_new_encounter_available",
+    region = "cr_combi_region_elithis_2_1",
+    setup = function() 
+        Worldroots:set_up_generic_encounter_marker("the_far_place_cathay_invaders_me", "rhox_sceolan_cathay_invaders", 1501, 72, "the_far_place")
+    end,
+    on_battle_trigger_callback = function(self, character, marker_info)
+    end,
+}

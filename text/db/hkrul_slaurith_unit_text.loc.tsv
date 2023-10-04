@@ -1,0 +1,7 @@
+key	text	tooltip
+#Loc;1;text/db/hkrul_slaurith_unit_text.loc		
+land_units_onscreen_name_hkrul_slaurith	Lord Slaurith	false
+unit_description_short_texts_text_hkrul_slaurith	An almost elemental force of violence, slaurith is less a warlord and more a gore-drenched berserker. Ruling his Slaughtermen with an iron fist and brooking no challenge to his command, he is a dark warrior king of unholy martial majesty. 	true
+unit_description_historical_texts_text_hkrul_slaurith	An almost elemental force of violence, slaurith is less a warlord and more a gore-drenched berserker. Ruling his Slaughtermen with an iron fist and brooking no challenge to his command, he is a dark warrior king of unholy martial majesty. 	false
+names_name_466124000	Lord Slaurith	false
+land_units_onscreen_name_hkrul_slaurith_mount	Lord Slaurith	false

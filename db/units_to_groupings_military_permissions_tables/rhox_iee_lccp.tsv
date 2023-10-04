@@ -1,6 +1,5 @@
 unit	military_group
 #units_to_groupings_military_permissions_tables;0;db/units_to_groupings_military_permissions_tables/rhox_iee_lccp	
-hkrul_lord_slaurith	wh3_main_kho
 hkrul_sceolan	wh_dlc05_group_wood_elves
 hkrul_valbrand	wh_main_group_norsca
 hkrul_volrik	wh_main_group_norsca
@@ -21,3 +20,5 @@ hkrul_thorgar	wh_main_group_norsca
 hkrul_thorgar_mount	wh_main_group_norsca
 hkrul_thorgar_mount_2	wh_main_group_norsca
 hkrul_thorgar_mount_3	wh_main_group_norsca
+hkrul_slaurith	wh3_main_kho
+hkrul_slaurith_mount	wh3_main_kho
