@@ -1,5 +1,4 @@
 agent_subtype	ancillary	rank	instant	is_quest_battle
 #character_ancillary_quest_ui_details_tables;2;db/character_ancillary_quest_ui_details_tables/hkrul_sceolan				
-hkrul_sceolan	hkrul_sceolan_banner	6	true	false
-hkrul_sceolan	hkrul_sceolan_holz	9	true	false
-hkrul_sceolan	hkrul_sceolan_sword	13	true	false
+hkrul_sceolan	rhox_sceolan_the_bow_of_loren	13	true	false
+hkrul_sceolan	rhox_sceolan_the_buckler	8	true	true

@@ -1,0 +1,8 @@
+key	localised_description	localised_title	bundle_target	priority	ui_icon	is_global_effect	show_in_3d_space	owner_only
+#effect_bundles_tables;4;db/effect_bundles_tables/!rhox_sceolan_override								
+cr_far_away_forest_minister_1			character	0		true	false	true
+cr_far_away_forest_minister_2			character	0		true	false	true
+cr_far_away_forest_minister_3			character	0		true	false	true
+cr_far_away_forest_minister_4			character	0		true	false	true
+cr_far_away_forest_minister_5			character	0		true	false	true
+cr_far_away_forest_minister_6			character	0		true	false	true

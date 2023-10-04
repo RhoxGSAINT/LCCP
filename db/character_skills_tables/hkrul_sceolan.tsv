@@ -3,15 +3,10 @@ key	image_path	localised_description	localised_name	unlocked_at_rank	is_backgrou
 innate_hkrul_sceolan	innate_sceolan.png			0	true	false	false	100.0000	0
 hkrul_sceolan_mount_2	mount_imperial_pegasus.png			0	false	false	false	0.0000	0
 hkrul_sceolan_mount_3	mount_imperial_griffon.png			0	false	false	false	0.0000	0
-hkrul_sceolan_special_1_0	hkrul_sceolan_special_1_0.png			0	false	false	false	0.0000	0
-hkrul_sceolan_special_1_1	hkrul_sceolan_special_1_1.png			0	false	false	false	0.0000	0
-hkrul_sceolan_special_1_2	hkrul_sceolan_special_1_1.png			0	false	false	false	0.0000	0
-hkrul_sceolan_special_1_3	hkrul_sceolan_special_1_3.png			0	false	false	false	0.0000	0
-hkrul_sceolan_special_1_4	hkrul_sceolan_special_1_4.png			0	false	false	false	0.0000	0
-hkrul_sceolan_special_2_0	hkrul_sceolan_special_2_0.png			0	false	false	false	0.0000	0
-hkrul_sceolan_special_0_1	hkrul_sceolan_special_0_1.png			0	false	false	false	0.0000	0
-hkrul_sceolan_special_0_2	hkrul_sceolan_special_0_2.png			0	false	false	false	0.0000	0
-hkrul_sceolan_banner	mount_barded_warhorse.png			0	false	false	false	0.0000	0
-hkrul_sceolan_holz	mount_barded_warhorse.png			0	false	false	false	0.0000	0
-hkrul_sceolan_sword	mount_barded_warhorse.png			0	false	false	false	0.0000	0
 hkrul_sceolan_mount	mount_barded_warhorse.png			0	false	false	false	0.0000	0
+rhox_sceolan_wise_cunning	character_general_ability.png		rhox_sceolan_wise_cunning	0	false	false	false	0.0000	0
+rhox_sceolan_ambush_master	character_army.png		rhox_sceolan_ambush_master	0	false	false	false	0.0000	0
+rhox_sceolan_up_close_personal	character_damage.png		rhox_sceolan_up_close_personal	0	false	false	false	0.0000	0
+rhox_sceolan_lord_of_winterheart	wh3_main_lore_passive_frost_shield.png		rhox_sceolan_lord_of_winterheart	0	false	false	false	0.0000	0
+rhox_sceolan_the_buckler	item_weapon.png		rhox_sceolan_the_buckler	0	false	false	false	0.0000	0
+rhox_sceolan_the_bow_of_loren	item_enchanted_item.png		rhox_sceolan_the_bow_of_loren	0	false	false	false	0.0000	0

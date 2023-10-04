@@ -15,3 +15,4 @@ rhox_dolmance_devotee_dummy	devotees.png	70	devotees.png	campaign	true
 rhox_dolmance_wine_dummy	resource_wine.png	2	resource_wine.png	campaign	true
 rhox_sceolan_embrace_cold_dummy	kislev_ice_court.png	10	kislev_ice_court.png	campaign	true
 rhox_sceolan_ice_heart_army_ability	general_ability.png	301	general_ability.png	battle	true
+rhox_sceolan_effect_skill_weapon_damage_increase_wef_wardancers_wildwood_rangers	weapon_damage.png	461	weapon_damage.png	battle	true
