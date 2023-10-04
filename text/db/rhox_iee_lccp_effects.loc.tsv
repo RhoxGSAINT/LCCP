@@ -21,3 +21,5 @@ effects_description_rhox_hrothyogg_effect_force_stat_melee_attack_maneaters	Mele
 effects_description_rhox_hrothyogg_effect_force_stat_melee_defence_maneaters	Melee defence: %+n for Maneaters units	false
 effects_description_rhox_dolmance_devotee_dummy	Does not have access to the chapel buildings and have access to Slaanesh sorcerers and Pleasurable Acts, and replenishment via captives	false
 effects_description_rhox_dolmance_wine_dummy	Wine producing buildings give special global bonuses	false
+effects_description_rhox_sceolan_embrace_cold_dummy	Embrace the Cold: Is immune to cold weather and whenever the army starts the turn at the Magical Forest or Frozen climate region or visits settlement of that region, they receive significant bonuses	false
+effects_description_rhox_sceolan_ice_heart_army_ability	Army ability: "Heart of Winter"	false

@@ -19,3 +19,4 @@ rhox_lord_slaurith_faction_trait			faction	1	effect_bundle_slaurith.png	true	fal
 rhox_burlok_faction_trait			faction	1	effect_bundle_burlok.png	true	false	true
 rhox_dolmance_faction_trait			faction	1	effect_bundle_dolmance.png	true	false	true
 rhox_thorgar_faction_trait			faction	1	effect_bundle_thorgar.png	true	false	true
+rhox_sceolan_embrace_cold			force	1	kislev_ice_court.png	true	true	true
