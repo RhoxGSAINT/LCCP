@@ -1,0 +1,5 @@
+chain	chain_set	slot_template	super_chain	remove
+#slot_template_permitted_building_chains_tables;0;db/slot_template_permitted_building_chains_tables/rhox_iee_lccp				
+rhox_torinubar_sound_toll		cr_major_secondary_gates_of_calith_1		false
+rhox_dolmance_sunstory		cr_minor_secondary_nippon_3_3		false
+rhox_dolmance_treasure_wine		cr_major_secondary_elithis_1_1		false
