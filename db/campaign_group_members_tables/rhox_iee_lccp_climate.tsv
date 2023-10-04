@@ -1,0 +1,7 @@
+id	group	priority
+#campaign_group_members_tables;1;db/campaign_group_members_tables/rhox_iee_lccp_climate		
+rhox_dolmance_jungle	wh3_dlc20_climate_suitable_jungle	1.0000
+rhox_zach_jungle	wh3_dlc20_climate_suitable_jungle	1.0000
+rhox_zach_mountain	wh3_dlc20_climate_suitable_mountain	1.0000
+rhox_torinubar_jungle_climate	wh3_dlc20_climate_suitable_jungle	1.0000
+rhox_zach_wasteland	wh3_dlc20_climate_unsuitable_wasteland	1.0000

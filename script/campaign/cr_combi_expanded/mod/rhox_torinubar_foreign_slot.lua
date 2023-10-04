@@ -228,5 +228,19 @@ cm:add_first_tick_callback(
 		end
 	end
 )
+
+
+cm:add_first_tick_callback(
+	function()
+		if cm:get_local_faction_name(true) == torinubar_faction then
+            local parent_ui = find_uicomponent(core:get_ui_root(), "hud_campaign", "resources_bar_holder", "resources_bar");
+            if not parent_ui then
+                return false
+            end
+            local west = core:get_or_create_component("rhox_torinubar_west_holder", "ui/campaign ui/rhox_torinubar_west_holder.twui.xml", parent_ui)
+            local east = core:get_or_create_component("rhox_torinubar_east_holder", "ui/campaign ui/rhox_torinubar_east_holder.twui.xml", parent_ui)
+		end
+	end
+)
     
     
