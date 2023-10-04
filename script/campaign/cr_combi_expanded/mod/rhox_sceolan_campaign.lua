@@ -24,7 +24,7 @@ core:add_listener(
             return false
         end
         local climate = settlement:get_climate()
-        return character:faction():name() == "rhox_wef_far_away_forest" and (climate == "climate_frozen" or "climate_magicforest")
+        return character:faction():name() == "rhox_wef_far_away_forest" and (climate == "climate_frozen" or climate == "climate_magicforest")
     end,
     function(context) rhox_sceolan_apply_effect_bundle(context:character()) end,
     true
@@ -44,7 +44,7 @@ core:add_listener(
             return false
         end
         local climate = settlement:get_climate()
-        return character:faction():name() == "rhox_wef_far_away_forest" and (climate == "climate_frozen" or "climate_magicforest")
+        return character:faction():name() == "rhox_wef_far_away_forest" and (climate == "climate_frozen" or climate == "climate_magicforest")
     end,
     function(context) rhox_sceolan_apply_effect_bundle(context:character()) end,
     true
@@ -64,7 +64,7 @@ core:add_listener(
             return false
         end
         local climate = settlement:get_climate()
-        return character:faction():name() == "rhox_wef_far_away_forest" and (climate == "climate_frozen" or "climate_magicforest")
+        return character:faction():name() == "rhox_wef_far_away_forest" and (climate == "climate_frozen" or climate == "climate_magicforest")
     end,
     function(context) rhox_sceolan_apply_effect_bundle(context:character()) end,
     true
