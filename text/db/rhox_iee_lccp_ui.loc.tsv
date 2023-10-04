@@ -16,3 +16,4 @@ ui_text_replacements_localised_text_corruption_effect_prefix_tzeentch_rhox_volri
 rhox_hrothyogg_branch_destroyed_title	Mercenary Branch Destroyed	false
 rhox_hrothyogg_branch_destroyed_description	Due to the war with the region owner, the branch has been dismantled	false
 ui_text_replacements_localised_text_corruption_effect_prefix_slaanesh_rhox_dolmance	[[col:green]]	false
+campaign_payload_ui_details_description_dummy_confederate_faction_sceolan	You will be given the opportunity to confederate with the faction of Far Away Kingdom	false

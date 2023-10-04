@@ -16,3 +16,9 @@ dilemmas_localised_description_rhox_sceolan_high_elf_invaders	As we stalk throug
 dilemmas_localised_title_rhox_sceolan_high_elf_invaders	Forest Encounter: High Elves	false
 dilemmas_localised_description_rhox_sceolan_cathay_invaders	As we silently navigate the mystical realm of Tol Elithis, we stumble upon a Cathay civilian merchants trespassing in our ancient woods. Facing the feeble Cathay intruders in our sacred realm of Tol Elithis, we confront a stark decision – to either extend mercy and spare them, offering a chance for redemption amidst our enchanted woods, or to ruthlessly massacre them, ensuring they pose no further threat to our realm.	false
 dilemmas_localised_title_rhox_sceolan_cathay_invaders	Forest Encounter: Cathayans	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_sceolan_conderation_dilemmaFIRST	Confederate	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_sceolan_conderation_dilemmaFIRST	Install as Grove Tender	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_sceolan_conderation_dilemmaSECOND	Only through unity can the Worldroots be maintained.	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_sceolan_conderation_dilemmaSECOND	The local Asrai can be left to tend the Grove.	false
+dilemmas_localised_description_rhox_sceolan_conderation_dilemma	Do you want a confederation?	false
+dilemmas_localised_title_rhox_sceolan_conderation_dilemma	Confederation: Far Away Kingdom	false

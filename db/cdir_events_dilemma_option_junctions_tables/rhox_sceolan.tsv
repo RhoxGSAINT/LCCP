@@ -6,3 +6,6 @@ id	dilemma_key	option_key	value	target
 1547480851	rhox_sceolan_cathay_invaders	GEN_CND_REGION	cr_combi_region_elithis_2_1	default
 1547480852	rhox_sceolan_cathay_invaders	VAR_CHANCE	100	default
 1547480853	rhox_sceolan_cathay_invaders	GEN_TARGET_REGION		default
+1547480854	rhox_sceolan_conderation_dilemma	GEN_TARGET_FACTION		default
+1547480855	rhox_sceolan_conderation_dilemma	VAR_CHANCE	100	default
+1547480856	rhox_sceolan_conderation_dilemma	GEN_CND_FACTION	rhox_wef_far_away_forest	default

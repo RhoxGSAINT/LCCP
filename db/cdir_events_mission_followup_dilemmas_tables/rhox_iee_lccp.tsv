@@ -1,0 +1,4 @@
+mission_key	status_key	followup_dilemma_key
+#cdir_events_mission_followup_dilemmas_tables;0;db/cdir_events_mission_followup_dilemmas_tables/rhox_iee_lccp		
+rhox_sceolan_conderation_mission	CANCELLED	rhox_sceolan_conderation_dilemma
+rhox_sceolan_conderation_mission	SUCCESS	rhox_sceolan_conderation_dilemma
