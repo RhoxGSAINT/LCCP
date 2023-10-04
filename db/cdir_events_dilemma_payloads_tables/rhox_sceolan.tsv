@@ -15,3 +15,5 @@ id	choice_key	dilemma_key	payload_key	value	target_key
 1580304337	SECOND	rhox_sceolan_cathay_invaders	EFFECT_BUNDLE	KEY[rhox_sceolan_cathay_punished];DURATION[5]	default
 1580304338	FIRST	rhox_sceolan_cathay_invaders	FACTION_POOLED_RESOURCE_TRANSACTION	RESOURCE[wef_worldroots_the_far_place];FACTOR[wef_worldroots_the_far_place_completed_encounters];AMOUNT[10];CONTEXT[absolute]	default
 1580304339	SECOND	rhox_sceolan_cathay_invaders	FACTION_POOLED_RESOURCE_TRANSACTION	RESOURCE[wef_worldroots_the_far_place];FACTOR[wef_worldroots_the_far_place_completed_encounters];AMOUNT[10];CONTEXT[absolute]	default
+1580304340	FIRST	rhox_sceolan_conderation_dilemma	TEXT_DISPLAY	LOOKUP[dummy_elector_confederation]	default
+1580304341	SECOND	rhox_sceolan_conderation_dilemma	DIPLOMATIC_STANDING	AMOUNT[3]	default
