@@ -1,3 +1,77 @@
+--------------------------------------------Hrothyogg big names
+table.insert(initiative_templates,
+    {
+
+		["initiative_key"] = "rhox_hrothyogg_character_character_initiative_ogr_big_name_hrothyogg_1",
+		["event"] = "CharacterCompletedBattle",
+		["condition"] =
+			function(context)
+				local character = context:character();
+				
+				return character:won_battle() and cm:count_char_army_has_unit(character, {"wh3_main_ogr_inf_maneaters_0", "wh3_main_ogr_inf_maneaters_1", "wh3_main_ogr_inf_maneaters_2", "wh3_main_ogr_inf_maneaters_3"}) > 4;
+			end
+	}
+)
+table.insert(initiative_templates,
+    {
+
+		["initiative_key"] = "rhox_hrothyogg_character_character_initiative_ogr_big_name_hrothyogg_2",
+		["event"] = "CharacterCompletedBattle",
+		["condition"] =
+			function(context)
+				local character = context:character();
+				
+				return cm:character_won_battle_against_culture(context:character(), "wh2_main_skv_skaven");
+			end
+	}
+)
+table.insert(initiative_templates,
+    {
+
+		["initiative_key"] = "rhox_hrothyogg_character_character_initiative_ogr_big_name_hrothyogg_3",
+		["event"] = "CharacterTurnEnd",
+		["condition"] =
+			function(context)
+				local character = context:character()
+				local region = character:region()
+				
+				if region:is_null_interface() == false then
+					return region:name() == "wh3_main_combi_region_miragliano"
+				else
+					return false
+				end
+			end
+	}
+)
+table.insert(initiative_templates,
+    {
+
+		["initiative_key"] = "rhox_hrothyogg_character_character_initiative_ogr_big_name_hrothyogg_4",
+		["event"] = "CharacterCompletedBattle",
+		["condition"] =
+			function(context)
+                local character = context:character();
+
+				if character:won_battle() then
+					local character_faction_name = character:faction():name();
+					local pb = cm:model():pending_battle();
+					
+					local defender_char_cqi, defender_mf_cqi, defender_faction_name = cm:pending_battle_cache_get_defender(1);
+					local attacker_char_cqi, attacker_mf_cqi, attacker_faction_name = cm:pending_battle_cache_get_attacker(1);
+					
+					if defender_faction_name == character_faction_name and pb:has_attacker() then
+						return pb:attacker_casulaties() > 1000
+					elseif attacker_faction_name == character_faction_name and pb:has_defender() then
+						return pb:defender_casulaties() > 1000
+					end;
+				end;
+			end
+	}
+)
+
+------------------------mercenary_branch
+
+
 local base_chance =5
 
 
