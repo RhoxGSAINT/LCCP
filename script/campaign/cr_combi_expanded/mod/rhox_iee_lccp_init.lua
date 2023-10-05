@@ -407,6 +407,38 @@ local rhox_iee_list={
         first_tick = function(faction, faction_key) 
         end
     },
+    rhox_kho_destroyers_of_khorne ={
+        leader={
+            subtype="hkrul_arbaal",
+            unit_list="wh3_main_kho_inf_chaos_warriors_0,wh3_main_kho_inf_chaos_warriors_1",
+            x=1060,
+            y=217,
+            forename ="names_name_6670702834",
+            familiyname ="names_name_6670702833",
+        },
+        agent=nil,
+        hand_over_region="cr_combi_region_ind_6_2",
+        region="cr_combi_region_ind_6_2",
+        how_they_play="rhox_iee_lccp_how_they_play_arbaal",
+        pic=11,
+        faction_trait="rhox_arbaal_faction_trait",
+        enemy=nil,
+        additional = function(faction, faction_key) 
+            local kho_ror ={
+                "wh3_dlc20_kho_cav_skullcrushers_mkho_ror",
+                "wh3_twa06_kho_inf_bloodletters_ror_0",
+                "wh3_twa07_kho_cav_bloodcrushers_ror_0",
+                "wh3_twa08_kho_mon_bloodthirster_0_ror",
+                "wh3_twa10_kho_inf_flesh_hounds_of_khorne_ror",
+                "wh_pro04_nor_inf_marauder_berserkers_ror_0"
+            }
+            for i = 1, #kho_ror do
+                cm:add_unit_to_faction_mercenary_pool(faction, kho_ror[i], "renown", 1, 100, 1, 0.1, "", "", "", true, kho_ror[i])
+            end
+        end,
+        first_tick = function(faction, faction_key) 
+        end
+    },
 }
 
 

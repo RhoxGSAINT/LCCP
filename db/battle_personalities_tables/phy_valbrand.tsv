@@ -1,3 +1,0 @@
-key	man_animations_table	variant	battle_entity	battle_entity_stats	autonomous_rider_hero	autonomous_rider_can_shoot_in_melee	can_only_be_used_by_draught
-#battle_personalities_tables;12;db/battle_personalities_tables/phy_valbrand							
-hkrul_valbrand	hu1c_nor_phy_valbrand_01	hkrul_valbrand	wh_main_nor_phy_valbrand_infantry_standard_large_fast_hero_blood_dismembers		false	true	false

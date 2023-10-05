@@ -12,3 +12,4 @@ id	art_set_id	level	age	portrait	season	uniform	card	info	sea_uniform	navy_unifo
 672250339	hkrul_burlok	0	0		none	hkrul_burlok			wh_main_campaign_dwf_ship_heavy	wh_main_campaign_dwf_ship_heavy	cam_hero_hu3_pr7_gotrex_axe	cam_heavy_ship_03	cam_heavy_ship_03	0	0	0
 672250340	hkrul_dolmance	0	0		none	hkrul_dolmance			wh_main_campaign_brt_ship_heavy	wh_main_campaign_brt_ship_heavy	cam_lord_hu1_cst_luthor_cutlass_and_pistol	cam_heavy_ship_01	cam_heavy_ship_01	0	0	0
 672250341	hkrul_thorgar	0	0		none	hkrul_thorgar			wh_main_campaign_chs_ship_heavy	wh_main_campaign_chs_ship_heavy	cam_lord_hu1c_wh3_kislev_sword_and_axe_yuri	cam_heavy_ship_04	cam_heavy_ship_04	0	0	0
+672250342	hkrul_arbaal	0	0		none	hkrul_arbaal			wh3_uniform_kho_ship_lord	wh3_uniform_kho_ship_lord	cam_lord_hu1c_wh3_kislev_dual_axe	cam_khorne_ship_01	cam_khorne_ship_01	12	0	0
