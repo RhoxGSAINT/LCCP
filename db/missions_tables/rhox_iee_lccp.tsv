@@ -10,3 +10,11 @@ rhox_burlok_ritual_burlok_artifact_7	PERFORM_RITUAL	Blessed Pick of Grungni	Grun
 rhox_burlok_ritual_burlok_artifact_8	PERFORM_RITUAL	Thungni's Tongs of the Runesmith	Thungni’s Tongs were utilised by some of the first Runesmiths under his tutelage, serving them well in crafting the most potent rune-weapons ever made. These powerful armaments were crucial in many of the great victories of our kin – such weapons could be forged again, but not without the tongs that gave them their power, long lost in the mists of time.	dwf/generic	event_province_positive.png	false	false	Grudges		0	0	false	false	0.0000		true		false
 rhox_dolmance_init_mission	SCRIPTED			brt/generic	rom_event_mission.png	false	true	Military		0	0	false	false	0.0000		true	Success! You have achieved one of your goals.	false
 rhox_sceolan_conderation_mission	DEFEAT_N_ARMIES_OF_FACTION			bst/generic	rom_event_mission.png	false	false	Military		0	0	false	false	0.0000		true		false
+rhox_slaurith_knight_1	SCRIPTED			tmb/generic	rom_event_mission.png	false	false	piece_of_eight		0	0	false	false	0.0000		true		false
+rhox_slaurith_knight_2	SCRIPTED			tmb/generic	rom_event_mission.png	false	false	piece_of_eight		0	0	false	false	0.0000		true		false
+rhox_slaurith_knight_3	SCRIPTED			tmb/generic	rom_event_mission.png	false	false	piece_of_eight		0	0	false	false	0.0000		true		false
+rhox_slaurith_knight_4	SCRIPTED			tmb/generic	rom_event_mission.png	false	false	piece_of_eight		0	0	false	false	0.0000		true		false
+rhox_slaurith_knight_5	SCRIPTED			tmb/generic	rom_event_mission.png	false	false	piece_of_eight		0	0	false	false	0.0000		true		false
+rhox_slaurith_knight_6	SCRIPTED			tmb/generic	rom_event_mission.png	false	false	piece_of_eight		0	0	false	false	0.0000		true		false
+rhox_slaurith_knight_7	SCRIPTED			tmb/generic	rom_event_mission.png	false	false	piece_of_eight		0	0	false	false	0.0000		true		false
+rhox_slaurith_knight_8	SCRIPTED			tmb/generic	rom_event_mission.png	false	false	piece_of_eight		0	0	false	false	0.0000		true		false
