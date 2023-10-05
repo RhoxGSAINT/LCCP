@@ -1,0 +1,3 @@
+agent	faction	subtype
+#faction_agent_permitted_subtypes_tables;0;db/faction_agent_permitted_subtypes_tables/rhox_iee_lccp		
+general	cr_hef_gate_guards	rhox_torinubar_convoy
