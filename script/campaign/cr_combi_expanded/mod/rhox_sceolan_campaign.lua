@@ -16,7 +16,7 @@ core:add_listener(
     function(context) 
         local character=context:character()
         local region = character:region()
-        if not region then
+        if not region or region:is_null_interface() or character:is_at_sea() then
             return false
         end
         local settlement=region:settlement()
@@ -36,7 +36,7 @@ core:add_listener(
     function(context) 
         local character=context:character()
         local region = character:region()
-        if not region then
+        if not region or region:is_null_interface() or character:is_at_sea() then
             return false
         end
         local settlement=region:settlement()
@@ -56,7 +56,7 @@ core:add_listener(
     function(context) 
         local character=context:character()
         local region = character:region()
-        if not region then
+        if not region or region:is_null_interface() or character:is_at_sea() then
             return false
         end
         local settlement=region:settlement()
