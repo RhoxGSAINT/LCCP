@@ -1,4 +1,0 @@
-battle_personality	land_unit	attach	riders_attachment_point	engine_articulation_index
-#land_units_to_battle_personalities_junctions_tables;1;db/land_units_to_battle_personalities_junctions_tables/rhox_torinubar				
-hef_calith_torinubar_eagle_rider	hef_calith_torinubar_eagle	autonomous_rider	ap_saddle_rider_01	-1
-hef_calith_torinubar_dragon_rider	hef_calith_torinubar_dragon	officer		-1
