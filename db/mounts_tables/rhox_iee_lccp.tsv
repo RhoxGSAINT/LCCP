@@ -1,0 +1,4 @@
+key	animation	entity	audio_armour_type	variant	voiceover
+#mounts_tables;10;db/mounts_tables/rhox_iee_lccp					
+hkrul_slaurith_mount	hr1_chaos_steed	wh3_main_cavalry_chaos_steed_slaurith_blood	plate	hkrul_slaurith_mount	wh_main_vo_culture_Horse
+hkrul_arbaal_mount	bc4_arbaal_mount	wh3_main_kho_mnt_juggernaut_hero	heavy_plate	hkrul_arbaal_mount	wh3_main_vo_culture_Fleshhound
