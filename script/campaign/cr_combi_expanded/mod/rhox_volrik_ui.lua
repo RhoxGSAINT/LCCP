@@ -64,9 +64,8 @@ cm:add_first_tick_callback(
             
             
 
-            local parent_ui = find_uicomponent(core:get_ui_root(), "hud_campaign", "faction_buttons_docker", "button_group_management");
-            --local result = core:get_or_create_component("rhox_button_ogre_contracts", "ui/campaign ui/rhox_grudge_contract.twui.xml", parent_ui)
-            local result = UIComponent(parent_ui:CreateComponent("rhox_volrik_chaos_gift", "ui/campaign ui/rhox_volrik_chaos_gift_button.twui.xml"))
+            local parent_ui2 = find_uicomponent(core:get_ui_root(), "hud_campaign", "faction_buttons_docker", "button_group_management");
+            result = UIComponent(parent_ui2:CreateComponent("rhox_volrik_chaos_gift", "ui/campaign ui/rhox_volrik_chaos_gift_button.twui.xml"))
             
             
             core:add_listener(

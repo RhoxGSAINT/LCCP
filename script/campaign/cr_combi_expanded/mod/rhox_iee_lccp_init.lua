@@ -435,6 +435,9 @@ local rhox_iee_list={
             for i = 1, #kho_ror do
                 cm:add_unit_to_faction_mercenary_pool(faction, kho_ror[i], "renown", 1, 100, 1, 0.1, "", "", "", true, kho_ror[i])
             end
+            cm:disable_event_feed_events(true, "wh_event_category_diplomacy", "", "")--temp because they don't need enemies
+            cm:force_declare_war(faction_key, "cr_chs_the_scourgeborn", false, false)
+            cm:callback(function() cm:disable_event_feed_events(false, "wh_event_category_diplomacy", "", "") end, 0.5)
         end,
         first_tick = function(faction, faction_key) 
         end
@@ -484,13 +487,21 @@ cm:add_first_tick_callback_new(
                 cm:force_declare_war(faction_key, faction_info.enemy.key, false, false)
                 cm:callback(function() cm:disable_event_feed_events(false, "wh_event_category_diplomacy", "", "") end, 0.5)
             
-                local x2,y2 = cm:find_valid_spawn_location_for_character_from_settlement(
-                    faction_info.enemy.key,
-                    faction_info.region,
-                    false,
-                    true,
-                    20
-                )
+                local x2=nil
+                local y2=nil
+                if faction_info.enemy.x and faction_info.enemy.y then
+                    x2= faction_info.enemy.x
+                    y2 = faction_info.enemy.y
+                else
+                    x2,y2 = cm:find_valid_spawn_location_for_character_from_settlement(
+                        faction_info.enemy.key,
+                        faction_info.region,
+                        false,
+                        true,
+                        20
+                    )
+                end
+                
                 
                 cm:create_force_with_general(
                 -- faction_key, unit_list, region_key, x, y, agent_type, agent_subtype, forename, clan_name, family_name, other_name, id, make_faction_leader, success_callback
