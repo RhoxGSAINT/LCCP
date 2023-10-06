@@ -1,4 +1,4 @@
 model	animation_set	variant	scale	actor	ignore_rider_variant_scale	vfx_filter	banner_relative_to_mount
 #campaign_mounts_tables;8;db/campaign_mounts_tables/rhox_iee_lccp							
 hkrul_slaurith_cam_mount	cam_hr1_warhorse	hkrul_slaurith_mount	1.0000	wh3_main_vo_culture_Khorne	false	152	false
-hkrul_arbaal_mount	cam_bc4_valtyrsgandr	hkrul_arbaal_mount	0.8000	wh3_main_vo_culture_Fleshhound	false	0	false
+hkrul_arbaal_mount	cam_bc4_valtyrsgandr	hkrul_arbaal_mount	1.0000	wh3_main_vo_culture_Fleshhound	false	0	false
