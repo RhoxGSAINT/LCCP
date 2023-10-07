@@ -17,4 +17,5 @@ hkrul_slaurith_mount	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\t
 rhox_ogr_diplomat		ogr_diplomat		1.0000	1.1500	0.0000	
 hkrul_arbaal_mount	variantmeshes/wh_variantmodels/bc4/dae/thm_fleshhound_arbaal/tech	thm_arbaal_fleshhound		1.2500	0.6200	0.0000	
 hkrul_arbaal_mounted		thm_arbaal		1.0000	1.0000	0.0000	
+thm_arbaal_fleshhound_campaign	variantmeshes/wh_variantmodels/bc4/dae/thm_fleshhound_arbaal/tech	thm_arbaal_fleshhound_campaign		1.2500	0.6200	0.0000	
 hkrul_engra		hkrul_engra		1.0000	1.1000	0.0000	
