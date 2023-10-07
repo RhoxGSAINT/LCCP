@@ -103,6 +103,7 @@ local rhox_valbrand_gift_units = {
 		{"wh3_main_kho_veh_skullcannon_0", "daemonic_summoning", 0, 0, 4}
 }
 ----------------------Granting gift stuff for the AI
+--[[
 core:add_listener(
     "rhox_valbrand_ai_gift",
     "FactionTurnStart",
@@ -119,3 +120,4 @@ core:add_listener(
     end,
     true
 )
+--]]
