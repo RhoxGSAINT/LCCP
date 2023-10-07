@@ -23,3 +23,4 @@ rhox_sceolan_embrace_cold			force	1	kislev_ice_court.png	true	true	true
 rhox_sceolan_cathay_punished			faction	1	diplomacy.png	true	false	true
 rhox_sceolan_cathay_spared			faction	1	diplomacy.png	true	false	true
 rhox_arbaal_faction_trait			faction	1	effect_bundle_arbaal.png	true	false	true
+rhox_engra_faction_trait			faction	1	effect_bundle_engra.png	true	false	true

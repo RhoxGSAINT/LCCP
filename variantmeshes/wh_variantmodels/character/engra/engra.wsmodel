@@ -1,0 +1,77 @@
+<model version="1">
+	<geometry>variantmeshes\wh_variantmodels\character\engra\engra.rigid_model_v2</geometry>
+		<materials>
+			<material lod_index="0" part_index="0">variantmeshes\wh_variantmodels\character\engra\materials\dae_sorcerer_tzeentch_torso_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="1">variantmeshes\wh_variantmodels\character\engra\materials\dae_knight_khorne_head_02_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="2">variantmeshes\wh_variantmodels\character\engra\materials\chs_warrior_head_02_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="3">variantmeshes\wh_variantmodels\character\engra\materials\dae_exalted_hero_khorne_legs_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="4">variantmeshes\wh_variantmodels\character\engra\materials\def_executioners_head_04_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="5">variantmeshes\wh_variantmodels\character\engra\materials\dae_prince_head_base_05_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="6">variantmeshes\wh_variantmodels\character\engra\materials\dae_aspiring_champion_tzeentch__weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="7">variantmeshes\wh_variantmodels\character\engra\materials\dae_exalted_hero_khorne_cape_01_weighted4_alpha_on.xml.material</material>
+			<material lod_index="0" part_index="8">variantmeshes\wh_variantmodels\character\aelfric\materials\emp_huntsmarshal_body_01_weighted4_alpha_on.xml.material</material>
+			<material lod_index="0" part_index="9">variantmeshes\wh_variantmodels\hc7\dae\dae_soul_grinder\materials\dae_soul_grinder_khorne_body_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="10">variantmeshes\wh_variantmodels\character\engra\materials\ksl_gryphon_legion_body_01_weighted4_alpha_on.xml.material</material>
+			<material lod_index="0" part_index="11">variantmeshes\wh_variantmodels\character\engra\materials\dae_prince_legs_base_02_weighted4_alpha_on.xml.material</material>
+			<material lod_index="0" part_index="12">variantmeshes\wh_variantmodels\character\engra\materials\dae_bloodletter_sword_2h_daemon_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="13">variantmeshes\wh_variantmodels\character\engra\materials\dae_prince_sword_1h_01_lod1_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="14">variantmeshes\wh_variantmodels\character\engra\materials\dae_harald_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="15">variantmeshes\wh_variantmodels\character\engra\materials\dae_warshrine_base_undivdided_0_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="16">variantmeshes\wh_variantmodels\character\engra\materials\dae_warshrine_ornament_undivide_weighted2_alpha_off.xml.material</material>
+
+			<material lod_index="1" part_index="0">variantmeshes\wh_variantmodels\character\engra\materials\dae_sorcerer_tzeentch_torso_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="1">variantmeshes\wh_variantmodels\character\engra\materials\dae_knight_khorne_head_02_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="2">variantmeshes\wh_variantmodels\character\engra\materials\chs_warrior_head_02_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="3">variantmeshes\wh_variantmodels\character\engra\materials\dae_exalted_hero_khorne_legs_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="4">variantmeshes\wh_variantmodels\character\engra\materials\def_executioners_head_04_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="5">variantmeshes\wh_variantmodels\character\engra\materials\dae_prince_head_base_05_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="6">variantmeshes\wh_variantmodels\character\engra\materials\dae_aspiring_champion_tzeentch__weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="7">variantmeshes\wh_variantmodels\character\engra\materials\dae_exalted_hero_khorne_cape_01_weighted4_alpha_on.xml.material</material>
+			<material lod_index="1" part_index="8">variantmeshes\wh_variantmodels\character\aelfric\materials\emp_huntsmarshal_body_01_weighted4_alpha_on.xml.material</material>
+			<material lod_index="1" part_index="9">variantmeshes\wh_variantmodels\hc7\dae\dae_soul_grinder\materials\dae_soul_grinder_khorne_body_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="10">variantmeshes\wh_variantmodels\character\engra\materials\ksl_gryphon_legion_body_01_weighted4_alpha_on.xml.material</material>
+			<material lod_index="1" part_index="11">variantmeshes\wh_variantmodels\character\engra\materials\dae_prince_legs_base_02_weighted4_alpha_on.xml.material</material>
+			<material lod_index="1" part_index="12">variantmeshes\wh_variantmodels\character\engra\materials\dae_bloodletter_sword_2h_daemon_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="13">variantmeshes\wh_variantmodels\character\engra\materials\dae_prince_sword_1h_01_lod1_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="14">variantmeshes\wh_variantmodels\character\engra\materials\dae_harald_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="15">variantmeshes\wh_variantmodels\character\engra\materials\dae_warshrine_base_undivdided_0_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="16">variantmeshes\wh_variantmodels\character\engra\materials\dae_warshrine_ornament_undivide_weighted2_alpha_off.xml.material</material>
+
+			<material lod_index="2" part_index="0">variantmeshes\wh_variantmodels\character\engra\materials\dae_sorcerer_tzeentch_torso_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="1">variantmeshes\wh_variantmodels\character\engra\materials\dae_knight_khorne_head_02_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="2">variantmeshes\wh_variantmodels\character\engra\materials\chs_warrior_head_02_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="3">variantmeshes\wh_variantmodels\character\engra\materials\dae_exalted_hero_khorne_legs_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="4">variantmeshes\wh_variantmodels\character\engra\materials\def_executioners_head_04_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="5">variantmeshes\wh_variantmodels\character\engra\materials\dae_prince_head_base_05_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="6">variantmeshes\wh_variantmodels\character\engra\materials\dae_aspiring_champion_tzeentch__weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="7">variantmeshes\wh_variantmodels\character\engra\materials\dae_exalted_hero_khorne_cape_01_weighted4_alpha_on.xml.material</material>
+			<material lod_index="2" part_index="8">variantmeshes\wh_variantmodels\character\aelfric\materials\emp_huntsmarshal_body_01_weighted4_alpha_on.xml.material</material>
+			<material lod_index="2" part_index="9">variantmeshes\wh_variantmodels\hc7\dae\dae_soul_grinder\materials\dae_soul_grinder_khorne_body_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="10">variantmeshes\wh_variantmodels\character\engra\materials\ksl_gryphon_legion_body_01_weighted4_alpha_on.xml.material</material>
+			<material lod_index="2" part_index="11">variantmeshes\wh_variantmodels\character\engra\materials\dae_prince_legs_base_02_weighted4_alpha_on.xml.material</material>
+			<material lod_index="2" part_index="12">variantmeshes\wh_variantmodels\character\engra\materials\dae_bloodletter_sword_2h_daemon_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="13">variantmeshes\wh_variantmodels\character\engra\materials\dae_prince_sword_1h_01_lod1_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="14">variantmeshes\wh_variantmodels\character\engra\materials\dae_harald_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="15">variantmeshes\wh_variantmodels\character\engra\materials\dae_warshrine_base_undivdided_0_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="16">variantmeshes\wh_variantmodels\character\engra\materials\dae_warshrine_ornament_undivide_weighted2_alpha_off.xml.material</material>
+
+			<material lod_index="3" part_index="0">variantmeshes\wh_variantmodels\character\engra\materials\dae_sorcerer_tzeentch_torso_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="1">variantmeshes\wh_variantmodels\character\engra\materials\dae_knight_khorne_head_02_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="2">variantmeshes\wh_variantmodels\character\engra\materials\chs_warrior_head_02_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="3">variantmeshes\wh_variantmodels\character\engra\materials\dae_exalted_hero_khorne_legs_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="4">variantmeshes\wh_variantmodels\character\engra\materials\def_executioners_head_04_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="5">variantmeshes\wh_variantmodels\character\engra\materials\dae_prince_head_base_05_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="6">variantmeshes\wh_variantmodels\character\engra\materials\dae_aspiring_champion_tzeentch__weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="7">variantmeshes\wh_variantmodels\character\engra\materials\dae_exalted_hero_khorne_cape_01_weighted4_alpha_on.xml.material</material>
+			<material lod_index="3" part_index="8">variantmeshes\wh_variantmodels\character\aelfric\materials\emp_huntsmarshal_body_01_weighted4_alpha_on.xml.material</material>
+			<material lod_index="3" part_index="9">variantmeshes\wh_variantmodels\hc7\dae\dae_soul_grinder\materials\dae_soul_grinder_khorne_body_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="10">variantmeshes\wh_variantmodels\character\engra\materials\ksl_gryphon_legion_body_01_weighted4_alpha_on.xml.material</material>
+			<material lod_index="3" part_index="11">variantmeshes\wh_variantmodels\character\engra\materials\dae_prince_legs_base_02_weighted4_alpha_on.xml.material</material>
+			<material lod_index="3" part_index="12">variantmeshes\wh_variantmodels\character\engra\materials\dae_bloodletter_sword_2h_daemon_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="13">variantmeshes\wh_variantmodels\character\engra\materials\dae_prince_sword_1h_01_lod1_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="14">variantmeshes\wh_variantmodels\character\engra\materials\dae_harald_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="15">variantmeshes\wh_variantmodels\character\engra\materials\dae_warshrine_base_undivdided_0_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="16">variantmeshes\wh_variantmodels\character\engra\materials\dae_warshrine_ornament_undivide_weighted2_alpha_off.xml.material</material>
+
+	</materials>
+</model>

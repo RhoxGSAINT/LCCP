@@ -29,6 +29,25 @@ local function rhox_add_warriors_units (faction_obj, unit_group)
 	end	
 end
 
+local function rhox_add_faction_pool_units (faction_obj, unit_group)
+	for i, v in pairs(unit_group) do
+		cm:add_unit_to_faction_mercenary_pool(
+			faction_obj,
+			v[1], -- key
+			v[2], -- recruitment source
+			v[3], -- count
+			v[4], --replen chance
+			v[5], -- max units
+			0, -- max per turn
+			"",	--faction restriction
+			"",	--subculture restriction
+			"",	--tech restriction
+			false, --partial
+			v[1].."_faction_pool"
+		);
+	end	
+end
+
 local rhox_iee_list={
     cr_dwf_firebeards_excavators ={
         leader={
@@ -422,7 +441,9 @@ local rhox_iee_list={
         how_they_play="rhox_iee_lccp_how_they_play_arbaal",
         pic=11,
         faction_trait="rhox_arbaal_faction_trait",
-        enemy=nil,
+        enemy={
+            key="cr_chs_the_scourgeborn",
+        },
         additional = function(faction, faction_key) 
             local kho_ror ={
                 "wh3_dlc20_kho_cav_skullcrushers_mkho_ror",
@@ -435,14 +456,103 @@ local rhox_iee_list={
             for i = 1, #kho_ror do
                 cm:add_unit_to_faction_mercenary_pool(faction, kho_ror[i], "renown", 1, 100, 1, 0.1, "", "", "", true, kho_ror[i])
             end
-            cm:disable_event_feed_events(true, "wh_event_category_diplomacy", "", "")--temp because they don't need enemies
-            cm:force_declare_war(faction_key, "cr_chs_the_scourgeborn", false, false)
-            cm:callback(function() cm:disable_event_feed_events(false, "wh_event_category_diplomacy", "", "") end, 0.5)
+        end,
+        first_tick = function(faction, faction_key) 
+        end
+    },
+    
+    rhox_chs_the_deathswords ={
+        leader={
+            subtype="hkrul_engra",
+            unit_list="wh_dlc01_chs_inf_chaos_warriors_2,wh_dlc01_chs_inf_chosen_2,wh_dlc01_chs_inf_chosen_2,wh_dlc01_chs_inf_chosen_2,wh_dlc01_chs_inf_chosen_2,wh_dlc01_chs_inf_chosen_2,wh_dlc01_chs_inf_chosen_2,wh_dlc01_chs_inf_chosen_2,wh_dlc01_chs_inf_chosen_2,wh_dlc01_chs_inf_chosen_2,wh_dlc01_chs_inf_chosen_2,wh_dlc01_chs_inf_chosen_2,wh_dlc01_chs_inf_chosen_2,wh_dlc01_chs_inf_chosen_2,wh_dlc01_chs_inf_chosen_2",
+            x=1388,
+            y=695,
+            forename ="names_name_6670702834",
+            familiyname ="names_name_6670702833",
+        },
+        agent=nil,
+        hand_over_region="cr_combi_region_ihan_1_1",
+        region="cr_combi_region_ihan_1_1",
+        how_they_play="rhox_iee_lccp_how_they_play_engra",
+        pic=11,
+        faction_trait="rhox_engra_faction_trait",
+        enemy={
+            key="cr_chs_po_hai",
+        },
+        additional = function(faction, faction_key) 
+            local rhox_engra_gift_units = {
+                ---unit_key, recruitment_source_key,  starting amount, replen chance, max in pool
+                    {"wh_main_chs_art_hellcannon", "daemonic_summoning", 1, 0, 4},
+                    {"wh3_main_kho_inf_bloodletters_0", "daemonic_summoning", 0, 0, 4},
+                    {"wh3_main_sla_inf_daemonette_0", "daemonic_summoning", 0, 0, 4},
+                    {"wh3_main_nur_inf_plaguebearers_0", "daemonic_summoning", 0, 0, 4},
+                    {"wh3_main_nur_inf_nurglings_0", "daemonic_summoning", 0, 0, 4},
+                    {"wh3_main_tze_inf_pink_horrors_0", "daemonic_summoning", 0, 0, 4},
+                    {"wh3_main_sla_veh_seeker_chariot_0", "daemonic_summoning", 0, 0, 4},
+                    {"wh3_main_nur_mon_great_unclean_one_0", "daemonic_summoning", 0, 0, 2},
+                    {"wh3_main_kho_mon_bloodthirster_0", "daemonic_summoning", 0, 0, 2},
+                    {"wh3_main_nur_mon_soul_grinder_0", "daemonic_summoning", 0, 0, 2},
+                    {"wh3_main_tze_mon_lord_of_change_0", "daemonic_summoning", 0, 0, 2},
+                    {"wh3_main_kho_mon_soul_grinder_0", "daemonic_summoning", 0, 0, 2},
+                    {"wh3_main_sla_mon_keeper_of_secrets_0", "daemonic_summoning", 0, 0, 2},
+                    {"wh3_main_sla_mon_soul_grinder_0", "daemonic_summoning", 0, 0, 2},
+                    {"wh3_main_tze_mon_soul_grinder_0", "daemonic_summoning", 0, 0, 2},
+                    {"wh_dlc01_chs_mon_dragon_ogre_shaggoth", "daemonic_summoning", 0, 0, 2},
+                    {"wh3_dlc20_chs_mon_warshrine_mkho", "daemonic_summoning", 0, 0, 2},
+                    {"wh3_dlc20_chs_mon_warshrine", "daemonic_summoning", 0, 0, 2},
+                    {"wh3_main_sla_mon_fiends_of_slaanesh_0", "daemonic_summoning", 0, 0, 4},
+                    {"wh3_main_tze_mon_flamers_0", "daemonic_summoning", 0, 0, 4},
+                    {"wh3_main_tze_mon_screamers_0", "daemonic_summoning", 0, 0, 4},
+                    {"wh3_main_kho_inf_flesh_hounds_of_khorne_0", "daemonic_summoning", 0, 0, 4},
+                    {"wh3_main_nur_cav_plague_drones_0", "daemonic_summoning", 0, 0, 4},
+                    {"wh3_main_nur_mon_beast_of_nurgle_0", "daemonic_summoning", 0, 0, 4},
+                    {"wh3_main_kho_veh_skullcannon_0", "daemonic_summoning", 0, 0, 4}
+            }
+            
+            local rhox_engra_faction_pool_units = {
+                ---unit_key, recruitment_source_key,  starting amount, replen chance, max in pool
+                    {"wh3_dlc20_chs_mon_warshrine", "daemonic_summoning", 0, 0, 2},
+                    {"wh3_dlc20_chs_mon_warshrine_mkho", "daemonic_summoning", 0, 0, 2},
+                    {"wh3_dlc20_chs_mon_warshrine_msla", "daemonic_summoning", 0, 0, 2},
+                    {"wh3_dlc20_chs_mon_warshrine_mtze", "daemonic_summoning", 0, 0, 2},
+                    {"wh3_dlc20_chs_mon_warshrine_mnur", "daemonic_summoning", 0, 0, 2},
+                    {"wh3_dlc24_tze_mon_cockatrice", "daemonic_summoning", 0, 0, 4},
+                    {"wh3_dlc24_tze_mon_mutalith_vortex_beast", "daemonic_summoning", 0, 0, 2},
+                    {"wh3_main_dae_inf_chaos_furies_0", "daemonic_summoning", 0, 0, 4}
+            }
+            local chs_ror ={
+                "wh3_dlc20_chs_cav_chaos_chariot_msla_ror",
+                "wh3_dlc20_chs_inf_aspiring_champions_mtze_ror",
+                "wh3_dlc20_chs_mon_giant_mnur_ror",
+                "wh3_dlc20_kho_cav_skullcrushers_mkho_ror",
+                "wh3_twa07_tze_cav_doom_knights_ror_0",
+                "wh3_twa08_kho_mon_bloodthirster_0_ror",
+                "wh3_twa08_nur_mon_great_unclean_one_0_ror",
+                "wh3_twa08_sla_mon_keeper_of_secrets_0_ror",
+                "wh3_twa08_tze_mon_lord_of_change_0_ror",
+                "wh3_twa10_kho_inf_flesh_hounds_of_khorne_ror",
+                "wh3_twa10_nur_inf_nurglings_ror",
+                "wh3_twa10_tze_inf_blue_horrors_ror",
+                "wh_pro04_chs_art_hellcannon_ror_0",
+                "wh_pro04_chs_cav_chaos_knights_ror_0",
+                "wh_pro04_chs_inf_chaos_warriors_ror_0",
+                "wh_pro04_chs_inf_forsaken_ror_0",
+                "wh_pro04_chs_mon_chaos_spawn_ror_0",
+                "wh_pro04_chs_mon_dragon_ogre_ror_0"
+            }
+            for i = 1, #chs_ror do
+                cm:add_unit_to_faction_mercenary_pool(faction, chs_ror[i], "renown", 1, 100, 1, 0.1, "", "", "", true, chs_ror[i])
+            end
+            rhox_add_warriors_units(cm:get_faction(faction_key), rhox_engra_gift_units);
+            rhox_add_faction_pool_units(cm:get_faction(faction_key), rhox_engra_faction_pool_units);
         end,
         first_tick = function(faction, faction_key) 
         end
     },
 }
+
+
+
 
 
 cm:add_first_tick_callback_new(
@@ -486,39 +596,42 @@ cm:add_first_tick_callback_new(
                 cm:disable_event_feed_events(true, "wh_event_category_diplomacy", "", "")
                 cm:force_declare_war(faction_key, faction_info.enemy.key, false, false)
                 cm:callback(function() cm:disable_event_feed_events(false, "wh_event_category_diplomacy", "", "") end, 0.5)
-            
-                local x2=nil
-                local y2=nil
-                if faction_info.enemy.x and faction_info.enemy.y then
-                    x2= faction_info.enemy.x
-                    y2 = faction_info.enemy.y
-                else
-                    x2,y2 = cm:find_valid_spawn_location_for_character_from_settlement(
-                        faction_info.enemy.key,
-                        faction_info.region,
-                        false,
-                        true,
-                        20
-                    )
+                
+                
+                if faction_info.enemy.subtype then
+                    local x2=nil
+                    local y2=nil
+                    if faction_info.enemy.x and faction_info.enemy.y then
+                        x2= faction_info.enemy.x
+                        y2 = faction_info.enemy.y
+                    else
+                        x2,y2 = cm:find_valid_spawn_location_for_character_from_settlement(
+                            faction_info.enemy.key,
+                            faction_info.region,
+                            false,
+                            true,
+                            20
+                        )
+                    end
+                    
+                    
+                    cm:create_force_with_general(
+                    -- faction_key, unit_list, region_key, x, y, agent_type, agent_subtype, forename, clan_name, family_name, other_name, id, make_faction_leader, success_callback
+                    faction_info.enemy.key,
+                    faction_info.enemy.unit_list,
+                    faction_info.region,
+                    x2,
+                    y2,
+                    "general",
+                    faction_info.enemy.subtype,
+                    "",
+                    "",
+                    "",
+                    "",
+                    false,
+                    function(cqi)
+                    end);
                 end
-                
-                
-                cm:create_force_with_general(
-                -- faction_key, unit_list, region_key, x, y, agent_type, agent_subtype, forename, clan_name, family_name, other_name, id, make_faction_leader, success_callback
-                faction_info.enemy.key,
-                faction_info.enemy.unit_list,
-                faction_info.region,
-                x2,
-                y2,
-                "general",
-                faction_info.enemy.subtype,
-                "",
-                "",
-                "",
-                "",
-                false,
-                function(cqi)
-                end);
             end
 
 
