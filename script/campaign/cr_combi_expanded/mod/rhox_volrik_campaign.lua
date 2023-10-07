@@ -13,6 +13,7 @@ local rhox_volrik_gift_units = {
 }
 
 ----------------------Granting gift stuff for the AI
+--[[
 core:add_listener(
     "rhox_volrik_ai_gift",
     "FactionTurnStart",
@@ -29,3 +30,4 @@ core:add_listener(
     end,
     true
 )
+--]]
