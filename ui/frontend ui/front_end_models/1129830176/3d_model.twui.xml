@@ -92,7 +92,7 @@
 				num_models="1">
                 <model_list>
                     <ComponentModel
-                        filepath="VariantMeshes/VariantMeshDefinitions/volrik.VariantMeshDefinition"
+                        filepath="VariantMeshes/VariantMeshDefinitions/hkrul_volrik.VariantMeshDefinition"
                         id="model_0"
                         num_anims="1"
                         skeleton_type="humanoid01c">
