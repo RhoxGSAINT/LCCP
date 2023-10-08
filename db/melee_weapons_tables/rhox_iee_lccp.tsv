@@ -11,3 +11,4 @@ hkrul_dolmance	0	0	300	145	3.0000	sword	sword	medium	8	1.0000	1.0000	0.0000	fals
 hkrul_thorgar	0	30	325	150	3.0000	axe	axe	large	8	1.0000	1.2500	0.0000	false		0	10	4.0000		false
 hkrul_slaurith	0	25	110	370	2.0000	sword	sword_huge	large	8	1.3000	1.2500	0.0000	false		0	10	3.8000		false
 hkrul_engra	0	0	165	400	2.0000	sword	sword	large	30	2.4000	1.2500	1.0000	true	wh_main_unit_contact_morale	0	10	3.8000		false
+hkrul_vroth	35	0	300	120	3.0000	axe	axe	large	8	1.0000	1.2500	0.0000	false		0	10	4.0000		false

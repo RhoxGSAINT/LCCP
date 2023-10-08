@@ -1,0 +1,8 @@
+key	text	tooltip
+#Loc;1;text/db/hkrul_vroth_land_units__.loc		
+land_units_onscreen_name_hkrul_vroth	Surtha Lenk	true
+land_units_onscreen_name_hkrul_vroth_mount	Surtha Lenk	true
+land_units_onscreen_name_hkrul_vroth_mount_2	Surtha Lenk	true
+land_units_onscreen_name_hkrul_vroth_mount_3	Surtha Lenk	true
+ui_unit_groupings_onscreen_hkrul_vroth	Javelin Infantry	false
+ui_unit_groupings_tooltip_hkrul_vroth	Javelin Infantry	false
