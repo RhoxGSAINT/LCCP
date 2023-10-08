@@ -149,3 +149,60 @@ core:add_listener(
     end,
     false
 )
+core:add_listener(
+        "hkrul_vroth_banner_unlock",
+        "CharacterRankUp",
+        function(context)
+            local character = context:character()
+            local faction = character:faction()
+            return character:character_subtype("hkrul_vroth") and character:rank() >= 6 and faction:ancillary_exists("hkrul_vroth_banner") == false
+        end,
+        function(context)
+            cm:force_add_ancillary(
+                context:character(),
+                "hkrul_vroth_banner",
+                true,
+                false
+            )
+        end,
+        false
+    )
+    
+    
+    core:add_listener(
+        "hkrul_vroth_follower_unlock",
+        "CharacterRankUp",
+        function(context)
+            local character = context:character()
+            local faction = character:faction()
+            return character:character_subtype("hkrul_vroth") and character:rank() >= 9 and faction:ancillary_exists("hkrul_vroth_holz") == false
+        end,
+        function(context)
+            cm:force_add_ancillary(
+                context:character(),
+                "hkrul_vroth_holz",
+                true,
+                false
+            )
+        end,
+        false
+    )
+    
+        core:add_listener(
+        "hkrul_vroth_weaopon_unlock",
+        "CharacterRankUp",
+        function(context)
+            local character = context:character()
+            local faction = character:faction()
+            return character:character_subtype("hkrul_vroth") and character:rank() >= 13 and faction:ancillary_exists("hkrul_vroth_sword") == false
+        end,
+        function(context)
+            cm:force_add_ancillary(
+                context:character(),
+                "hkrul_vroth_sword",
+                true,
+                false
+            )
+        end,
+        false
+    )

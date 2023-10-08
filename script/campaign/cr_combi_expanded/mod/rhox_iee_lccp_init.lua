@@ -549,6 +549,27 @@ local rhox_iee_list={
         first_tick = function(faction, faction_key) 
         end
     },
+    cr_nor_tokmars ={
+        leader={
+            subtype="hkrul_vroth",
+            unit_list="wh_main_nor_inf_chaos_marauders_0,wh_dlc08_nor_inf_marauder_hunters_1",
+            x=1206,
+            y=820,
+            forename ="names_name_5670700722",
+            familiyname ="names_name_5670700719",
+        },
+        agent=nil,
+        hand_over_region=nil,
+        region="cr_combi_region_tokmars_encampment",
+        how_they_play="rhox_iee_lccp_how_they_play_vroth",
+        pic=16,
+        faction_trait="rhox_vroth_faction_trait",
+        enemy=nil,
+        additional = function(faction, faction_key) 
+        end,
+        first_tick = function(faction, faction_key) 
+        end
+    },
 }
 
 

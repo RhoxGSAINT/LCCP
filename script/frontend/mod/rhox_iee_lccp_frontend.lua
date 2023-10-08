@@ -68,6 +68,11 @@ core:add_ui_created_callback(
             mixer_enable_custom_faction("1316697836")
             mixer_add_starting_unit_list_for_faction("rhox_chs_the_deathswords", {"wh_dlc01_chs_inf_chaos_warriors_2","wh_dlc01_chs_inf_chosen_2"})
             mixer_add_faction_to_major_faction_list("rhox_chs_the_deathswords")
+            
+            mixer_change_lord_name("1079005981", "hkrul_vroth") 
+            mixer_enable_custom_faction("1079005981")
+            mixer_add_starting_unit_list_for_faction("cr_nor_tokmars", {"wh_main_nor_inf_chaos_marauders_0","wh_dlc08_nor_inf_marauder_hunters_1"})
+            mixer_add_faction_to_major_faction_list("cr_nor_tokmars")
         end        
     end
 )

@@ -2,7 +2,7 @@ variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	sc
 #variants_tables;6;db/variants_tables/rhox_iee_lccp_characters							
 hkrul_sceolan		hkrul_sceolan		1.0000	1.1000	0.0000	
 hkrul_valbrand		phy_valbrand		1.0000	1.2000	0.0000	
-hkrul_volrik		volrik		1.0000	1.1700	0.0000	
+hkrul_volrik		hkrul_volrik		1.0000	1.1700	0.0000	
 hkrul_zach		hkrul_zach		1.0000	1.1600	0.0000	
 hef_calith_torinubar		hef_calith_torinubar		1.0000	1.2000	0.0000	
 hkrul_aelfric		aelfric		1.0000	1.2000	0.0000	
@@ -19,3 +19,4 @@ hkrul_arbaal_mount	variantmeshes/wh_variantmodels/bc4/dae/thm_fleshhound_arbaal/
 hkrul_arbaal_mounted		thm_arbaal		1.0000	1.0000	0.0000	
 thm_arbaal_fleshhound_campaign	variantmeshes/wh_variantmodels/bc4/dae/thm_fleshhound_arbaal/tech	thm_arbaal_fleshhound_campaign		1.2500	0.6200	0.0000	
 hkrul_engra		hkrul_engra		1.0000	1.2400	0.0000	
+hkrul_vroth		hkrul_vroth		1.0000	1.1000	0.0000	
