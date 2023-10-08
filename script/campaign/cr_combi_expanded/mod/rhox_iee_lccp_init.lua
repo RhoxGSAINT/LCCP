@@ -160,6 +160,12 @@ local rhox_iee_list={
         faction_trait="rhox_hrothyogg_faction_trait",
         enemy=nil,
         additional = function(faction, faction_key) 
+            if faction:is_human() and vfs.exists("script/frontend/mod/hkrul_fooger_frontend.lua") then --fooger exists
+                cm:transfer_region_to_faction("cr_combi_region_ind_2_1","ovn_mar_house_fooger")
+                local transferred_region = cm:get_region("cr_combi_region_ind_2_1")
+                local transferred_region_cqi = transferred_region:cqi()
+                cm:heal_garrison(transferred_region_cqi)
+            end
         end,
         first_tick = function(faction, faction_key) 
         end
@@ -467,8 +473,8 @@ local rhox_iee_list={
             unit_list="wh_dlc01_chs_inf_chaos_warriors_2,wh_dlc01_chs_inf_chosen_2,wh_dlc01_chs_inf_chosen_2,wh_dlc01_chs_inf_chosen_2,wh_dlc01_chs_inf_chosen_2,wh_dlc01_chs_inf_chosen_2,wh_dlc01_chs_inf_chosen_2,wh_dlc01_chs_inf_chosen_2,wh_dlc01_chs_inf_chosen_2,wh_dlc01_chs_inf_chosen_2,wh_dlc01_chs_inf_chosen_2,wh_dlc01_chs_inf_chosen_2,wh_dlc01_chs_inf_chosen_2,wh_dlc01_chs_inf_chosen_2,wh_dlc01_chs_inf_chosen_2",
             x=1388,
             y=695,
-            forename ="names_name_6670702834",
-            familiyname ="names_name_6670702833",
+            forename ="names_name_5670700325",
+            familiyname ="names_name_5670700324",
         },
         agent=nil,
         hand_over_region="cr_combi_region_ihan_1_1",
@@ -545,6 +551,9 @@ local rhox_iee_list={
             end
             rhox_add_warriors_units(cm:get_faction(faction_key), rhox_engra_gift_units);
             rhox_add_faction_pool_units(cm:get_faction(faction_key), rhox_engra_faction_pool_units);
+            cm:force_alliance(faction_key, "wh_main_chs_chaos", true)
+            cm:force_diplomacy("faction:"..faction_key, "faction:wh_main_chs_chaos", "war", false, false, true);
+            cm:force_diplomacy("faction:"..faction_key, "faction:wh_main_chs_chaos", "break alliance", false, false, true);
         end,
         first_tick = function(faction, faction_key) 
         end
@@ -584,6 +593,8 @@ cm:add_first_tick_callback_new(
 
             if faction_info.hand_over_region then
                 cm:transfer_region_to_faction(faction_info.hand_over_region,faction_key)
+                local target_region_cqi = cm:get_region(faction_info.hand_over_region):cqi()
+                cm:heal_garrison(target_region_cqi)
             end
 
             cm:create_force_with_general(
