@@ -25,3 +25,4 @@ rhox_sceolan_cathay_spared			faction	1	diplomacy.png	true	false	true
 rhox_arbaal_faction_trait			faction	1	effect_bundle_arbaal.png	true	false	true
 rhox_engra_faction_trait			faction	1	effect_bundle_engra.png	true	false	true
 rhox_vroth_faction_trait			faction	1	effect_bundle_vroth.png	true	false	true
+rhox_karitamen_faction_trait			faction	1	effect_bundle_karitamen.png	true	false	true

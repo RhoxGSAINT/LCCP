@@ -480,7 +480,7 @@ local rhox_iee_list={
         hand_over_region="cr_combi_region_ihan_1_1",
         region="cr_combi_region_ihan_1_1",
         how_they_play="rhox_iee_lccp_how_they_play_engra",
-        pic=11,
+        pic=595,
         faction_trait="rhox_engra_faction_trait",
         enemy={
             key="cr_chs_po_hai",
@@ -571,8 +571,30 @@ local rhox_iee_list={
         hand_over_region=nil,
         region="cr_combi_region_tokmars_encampment",
         how_they_play="rhox_iee_lccp_how_they_play_vroth",
-        pic=16,
+        pic=800,
         faction_trait="rhox_vroth_faction_trait",
+        enemy=nil,
+        additional = function(faction, faction_key) 
+        end,
+        first_tick = function(faction, faction_key) 
+        end
+    },
+    
+    cr_tmb_sons_of_ptra ={
+        leader={
+            subtype="hkrul_karitamen",
+            unit_list="wh2_dlc09_tmb_inf_skeleton_spearmen_0,wh2_dlc09_tmb_inf_skeleton_warriors_0",
+            x=1531,
+            y=256,
+            forename ="names_name_5670700722",
+            familiyname ="names_name_5670700719",
+        },
+        agent=nil,
+        hand_over_region=nil,
+        region="cr_combi_region_nippon_5_2",
+        how_they_play="rhox_iee_lccp_how_they_play_karitamen",
+        pic=606,
+        faction_trait="rhox_karitamen_faction_trait",
         enemy=nil,
         additional = function(faction, faction_key) 
         end,
