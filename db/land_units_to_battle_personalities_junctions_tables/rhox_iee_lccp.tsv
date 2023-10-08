@@ -4,3 +4,5 @@ hkrul_slaurith_mount	hkrul_slaurith_mount	autonomous_rider	ap_riderposition_0	-1
 hef_calith_torinubar_eagle_rider	hef_calith_torinubar_eagle	autonomous_rider	ap_saddle_rider_01	-1
 hef_calith_torinubar_dragon_rider	hef_calith_torinubar_dragon	officer		-1
 hkrul_arbaal_mounted	hkrul_arbaal_mounted	autonomous_rider		-1
+wh2_dlc09_tmb_chariot_rider_0	hkrul_karitamen_chariot	autonomous_rider	ap_crewposition_0	-1
+hkrul_karitamen_chariot_rider	hkrul_karitamen_chariot	autonomous_rider	ap_crewposition_1	-1

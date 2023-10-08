@@ -73,6 +73,12 @@ core:add_ui_created_callback(
             mixer_enable_custom_faction("1079005981")
             mixer_add_starting_unit_list_for_faction("cr_nor_tokmars", {"wh_main_nor_inf_chaos_marauders_0","wh_dlc08_nor_inf_marauder_hunters_1"})
             mixer_add_faction_to_major_faction_list("cr_nor_tokmars")
+            
+            mixer_change_lord_name("1723188533", "hkrul_karitamen") 
+            mixer_enable_custom_faction("1723188533")
+            mixer_add_starting_unit_list_for_faction("cr_tmb_sons_of_ptra", {"wh2_dlc09_tmb_inf_skeleton_spearmen_0","wh2_dlc09_tmb_inf_skeleton_warriors_0"})
+            mixer_add_faction_to_major_faction_list("cr_tmb_sons_of_ptra")
         end        
     end
 )
+
