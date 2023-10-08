@@ -241,7 +241,7 @@ local rhox_iee_list={
         region="cr_combi_region_khuresh_4_3",
         how_they_play="rhox_iee_lccp_how_they_play_slaurith",
         pic=11,
-        faction_trait="rhox_lord_slaurith_faction_trait",
+        faction_trait="rhox_slaurith_faction_trait",
         enemy=nil,
         additional = function(faction, faction_key) 
         end,
