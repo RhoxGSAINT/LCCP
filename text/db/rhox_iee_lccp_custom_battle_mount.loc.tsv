@@ -1,0 +1,10 @@
+key	text	tooltip
+#Loc;1;text/db/rhox_iee_lccp_custom_battle_mount.loc		
+units_custom_battle_mounts_localised_description_hkrul_karitamenhkrul_karitamen_horse	Long-dead destriers, awakened to serve their Unliving masters far beyond death.	false
+units_custom_battle_mounts_mount_name_hkrul_karitamenhkrul_karitamen_horse	Skeletal Steed	false
+units_custom_battle_mounts_localised_description_hkrul_karitamenhkrul_karitamen_chariot	The pride of Nehekharan armies, impacting enemy lines with bone-shattering force and grinding the corpses beneath their heavy wheels.	false
+units_custom_battle_mounts_mount_name_hkrul_karitamenhkrul_karitamen_chariot	Skeleton Chariot	false
+units_custom_battle_mounts_localised_description_hef_calith_torinubarhef_calith_torinubar_eagle	Ulthuan's Great Eagles are the firm allies of the Elves, fighting their causes since the coming of Chaos.	false
+units_custom_battle_mounts_mount_name_hef_calith_torinubarhef_calith_torinubar_eagle	Great Eagle	false
+units_custom_battle_mounts_localised_description_hef_calith_torinubarhef_calith_torinubar_dragon	The eldest, most powerful Dragons can destroy entire units with a molten blast of their white-hot breath.	false
+units_custom_battle_mounts_mount_name_hef_calith_torinubarhef_calith_torinubar_dragon	Star Dragon	false

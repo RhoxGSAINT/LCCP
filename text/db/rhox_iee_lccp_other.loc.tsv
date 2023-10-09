@@ -5,3 +5,8 @@ campaign_streak_effects_onscreen_name_rhox_valbrand_win_streak_1	Bloodletting �
 campaign_streak_effects_onscreen_name_rhox_valbrand_win_streak_2	Bloodletting – Murdering\\n(6-8 battle victories)	false
 campaign_streak_effects_onscreen_name_rhox_valbrand_win_streak_3	Bloodletting – Massacring\\n(9+ battle victories)	false
 campaign_streak_effects_onscreen_name_rhox_valbrand_win_streak_negative	Bloodletting – Inactive	false
+campaign_streak_effects_onscreen_name_rhox_arbaal_win_streak_0	Destroyer of Khorne – Maiming\\n(0-2 battle victories)	false
+campaign_streak_effects_onscreen_name_rhox_arbaal_win_streak_1	Destroyer of Khorne – Mutilating\\n(3-5 battle victories)	false
+campaign_streak_effects_onscreen_name_rhox_arbaal_win_streak_2	Destroyer of Khorne – Murdering\\n(6-8 battle victories)	false
+campaign_streak_effects_onscreen_name_rhox_arbaal_win_streak_3	Destroyer of Khorne – Massacring\\n(9+ battle victories)	false
+campaign_streak_effects_onscreen_name_rhox_arbaal_win_streak_negative	Destroyer of Khorne – Suffering	false
