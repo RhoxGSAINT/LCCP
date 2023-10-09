@@ -3,3 +3,5 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_vroth	mp_cap_group_heroes	false
 			hkrul_vroth	all_non_chs	false
 			hkrul_vroth	nor_all	false
+			wh_dlc08_nor_inf_marauder_hunters_1	hkrul_vroth_javelins	false
+			hkrul_vroth	hkrul_vroth_javelins	false

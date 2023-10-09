@@ -7,3 +7,7 @@ effects_description_hkrul_vroth_sword	Ability: "Helmgart's Brand''	true
 effects_description_hkrul_vroth_mount	Mount: "Barded Warhorse''	true
 effects_description_hkrul_vroth_mount_2	Mount: "Imperial Pegasus''	true
 effects_description_hkrul_vroth_mount_3	Mount: "Imperial Griffon''	true
+effects_description_hkrul_vroth_javelin_ranged	Armour-piercing missile damage: %+n% for Marauder Hunters (Javelins)	false
+effects_description_hkrul_vroth_javelin_accuracy	Armour-piercing missile damage: %+n% for Marauder Hunters (Javelins)	false
+effects_description_hkrul_vroth_javelin_damage	Accuracy: %+n% for Marauder Hunters (Javelins)	false
+effects_description_hkrul_vroth_javelin_recruit	Recruit Rank: %+n for Marauder Hunters (Javelins)	false
