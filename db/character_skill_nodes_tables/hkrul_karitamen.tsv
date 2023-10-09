@@ -1,0 +1,5 @@
+key	campaign_key	character_skill_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
+#character_skill_nodes_tables;6;db/character_skill_nodes_tables/hkrul_karitamen									
+hkrul_skill_node_hkrul_karitamen_innate		innate_hkrul_karitamen		6	0		1	0	false
+hkrul_skill_node_hkrul_karitamen_mount_horse		hkrul_karitamen_horse		0	0		0	0	true
+hkrul_skill_node_hkrul_karitamen_mount_chariot		hkrul_karitamen_chariot		0	1		0	0	true
