@@ -60,7 +60,7 @@ core:add_ui_created_callback(
             
             mixer_change_lord_name("1174946007", "hkrul_arbaal_mounted") 
             mixer_enable_custom_faction("1174946007")
-            mixer_add_starting_unit_list_for_faction("rhox_kho_destroyers_of_khorne", {"wh3_main_kho_inf_chaos_warriors_0","wh3_main_kho_inf_chaos_warriors_1"})
+            mixer_add_starting_unit_list_for_faction("rhox_kho_destroyers_of_khorne", {"wh3_main_kho_inf_chaos_warriors_0","wh3_main_kho_inf_chaos_warriors_1","wh3_main_kho_inf_flesh_hounds_of_khorne_0","wh3_main_kho_inf_chaos_warhounds_0","wh3_main_kho_mon_spawn_of_khorne_0"})
             mixer_add_faction_to_major_faction_list("rhox_kho_destroyers_of_khorne")
             
             
@@ -71,7 +71,7 @@ core:add_ui_created_callback(
             
             mixer_change_lord_name("1079005981", "hkrul_vroth") 
             mixer_enable_custom_faction("1079005981")
-            mixer_add_starting_unit_list_for_faction("cr_nor_tokmars", {"wh_main_nor_inf_chaos_marauders_0","wh_dlc08_nor_inf_marauder_hunters_1"})
+            mixer_add_starting_unit_list_for_faction("cr_nor_tokmars", {"wh_main_nor_inf_chaos_marauders_0","wh_dlc08_nor_inf_marauder_hunters_1","wh_main_nor_cav_chaos_chariot","wh_main_nor_inf_chaos_marauders_1","wh_main_nor_mon_chaos_warhounds_0"})
             mixer_add_faction_to_major_faction_list("cr_nor_tokmars")
             
             mixer_change_lord_name("1723188533", "hkrul_karitamen") 
