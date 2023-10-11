@@ -16,4 +16,6 @@ rhox_dolmance_wine_dummy	resource_wine.png	2	resource_wine.png	campaign	true
 rhox_sceolan_embrace_cold_dummy	kislev_ice_court.png	10	kislev_ice_court.png	campaign	true
 rhox_sceolan_ice_heart_army_ability	general_ability.png	301	general_ability.png	battle	true
 rhox_sceolan_effect_skill_weapon_damage_increase_wef_wardancers_wildwood_rangers	weapon_damage.png	461	weapon_damage.png	battle	true
-rhox_engra_alliance_dummy	allegiance.png	106	allegiance.png	campaign	true
+rhox_engra_alliance_dummy	diplomacy.png	106	diplomacy.png	campaign	true
+rhox_engra_meter_dummy	allegiance.png	461	allegiance.png	battle	true
+rhox_engra_vassal_effect_dummy	weapon_damage.png	461	weapon_damage.png	battle	true
