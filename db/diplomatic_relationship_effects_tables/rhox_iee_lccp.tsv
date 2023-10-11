@@ -1,0 +1,3 @@
+diplomatic_stance	faction_set	faction_set_relation_with	campaign_effect_list
+#diplomatic_relationship_effects_tables;0;db/diplomatic_relationship_effects_tables/rhox_iee_lccp			
+master	rhox_engra_faction_set	all	rhox_engra_faction_bonus

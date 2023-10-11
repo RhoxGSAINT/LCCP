@@ -24,4 +24,6 @@ effects_description_rhox_dolmance_wine_dummy	Wine producing buildings give speci
 effects_description_rhox_sceolan_embrace_cold_dummy	Embrace the Cold: Is immune to cold weather and whenever the army starts the turn at the Magical Forest or Frozen climate region or visits settlement of that region, they receive significant bonuses	false
 effects_description_rhox_sceolan_ice_heart_army_ability	Army ability: "Heart of Winter"	false
 effects_description_rhox_sceolan_effect_skill_weapon_damage_increase_wef_wardancers_wildwood_rangers	Weapon strength: %+n% for Wardancers, Bladesingers and Wildwood Rangers units	false
-effects_description_rhox_engra_alliance_dummy	Starts with unbreakable military alliance with Archaon	false
+effects_description_rhox_engra_alliance_dummy	Starts with unbreakable military access with Archaon and can't attack each other	false
+effects_description_rhox_engra_meter_dummy	Engra can make Archaon more powerful by giving settlement to him, his non-Norscan vassals will be transferred to Archaon automatically. These actions will make both Archaon and Engra more powerful	false
+effects_description_rhox_engra_vassal_effect_dummy	Engra's force gets %+n% Weapon Strength per each currently vassalised Norsca faction. Archaon's forces also gets this bonus	false

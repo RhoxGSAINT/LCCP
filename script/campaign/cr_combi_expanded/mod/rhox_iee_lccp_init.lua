@@ -551,11 +551,20 @@ local rhox_iee_list={
             end
             rhox_add_warriors_units(cm:get_faction(faction_key), rhox_engra_gift_units);
             rhox_add_faction_pool_units(cm:get_faction(faction_key), rhox_engra_faction_pool_units);
-            cm:force_alliance(faction_key, "wh_main_chs_chaos", true)
-            cm:force_diplomacy("faction:"..faction_key, "faction:wh_main_chs_chaos", "war", false, false, true);
-            cm:force_diplomacy("faction:"..faction_key, "faction:wh_main_chs_chaos", "break alliance", false, false, true);
+            if faction:is_human() then
+                cm:force_alliance(faction_key, "wh_main_chs_chaos", true)
+                cm:force_diplomacy("faction:"..faction_key, "faction:wh_main_chs_chaos", "war", false, false, true);
+                cm:force_grant_military_access(faction_key, "wh_main_chs_chaos", true)
+                cm:force_grant_military_access("wh_main_chs_chaos", faction_key, true)
+            else
+                cm:force_make_vassal("wh_main_chs_chaos", faction_key)
+                cm:disable_event_feed_events(true, "wh_event_category_diplomacy", "", "")
+                cm:force_declare_war("wh_main_chs_chaos", "cr_chs_po_hai", true, true)
+                cm:callback(function() cm:disable_event_feed_events(false, "wh_event_category_diplomacy", "", "") end, 0.5)
+            end
         end,
         first_tick = function(faction, faction_key) 
+            
         end
     },
     cr_nor_tokmars ={
