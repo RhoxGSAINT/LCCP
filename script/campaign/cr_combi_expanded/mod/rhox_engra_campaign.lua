@@ -17,8 +17,11 @@ core:add_listener(
         cm:remove_effect_bundle("rhox_engra_engra_support", "wh_main_chs_chaos")
         
         local engra_bundle = cm:create_new_custom_effect_bundle("rhox_valbrand_innate_effect_bundle");
-        engra_bundle:set_duration(0);
-        engra_bundle:add_effect("wh_main_effect_force_stat_weapon_strength", "faction_to_force_own", bonus_value);
+        engra_bundle:set_duration(2); --so Archaon should not get it when Engra faction is dead
+        engra_bundle:add_effect("wh_main_effect_force_stat_ward_save", "faction_to_faction_leader", 5); --base value. Human will only get this for most of the time
+        if bonus_value > 0 then
+            engra_bundle:add_effect("wh_main_effect_force_stat_weapon_strength", "faction_to_force_own", bonus_value);
+        end
         
         
         local resource_value = faction:pooled_resource_manager():resource("rhox_engra_campaign_progress"):value()
