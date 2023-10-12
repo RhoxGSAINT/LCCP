@@ -552,7 +552,6 @@ local rhox_iee_list={
             rhox_add_warriors_units(cm:get_faction(faction_key), rhox_engra_gift_units);
             rhox_add_faction_pool_units(cm:get_faction(faction_key), rhox_engra_faction_pool_units);
             if faction:is_human() then
-                cm:force_alliance(faction_key, "wh_main_chs_chaos", true)
                 cm:force_diplomacy("faction:"..faction_key, "faction:wh_main_chs_chaos", "war", false, false, true);
                 cm:force_grant_military_access(faction_key, "wh_main_chs_chaos", true)
                 cm:force_grant_military_access("wh_main_chs_chaos", faction_key, true)
@@ -564,7 +563,17 @@ local rhox_iee_list={
             end
         end,
         first_tick = function(faction, faction_key) 
-            
+            cm:add_pooled_resource_changed_listener_by_faction(
+                "rhox_engra_PooledResourceChangedSouls",
+                faction_key,
+                function(context)
+                    local amount = context:amount()
+                    if context:resource():key() == "wh3_dlc20_chs_souls" and amount > 0 then
+                        cm:faction_add_pooled_resource(context:faction():name(), "rhox_engra_campaign_progress", "souls_gain", amount)
+                    end
+                end,
+                true
+            )
         end
     },
     cr_nor_tokmars ={
