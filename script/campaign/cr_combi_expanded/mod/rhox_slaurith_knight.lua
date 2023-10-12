@@ -5,8 +5,8 @@ local books_mission_factions = {};
 local books_vfx_key = "scripted_effect3";
 
 local book_objective_overrides = {
-	["CAPTURE_REGIONS"] = "wh2_dlc09_objective_override_occupy_settlement",
-	["ENGAGE_FORCE"] = "wh2_dlc09_objective_override_defeat_rogue_army"
+	["CAPTURE_REGIONS"] = "rhox_slaurith_objective_override_occupy_settlement",
+	["ENGAGE_FORCE"] = "rhox_slaurith_objective_override_defeat_army"
 };
 
 local function rhox_slaurith_nagash_remove_book_region_vfx(mission_key)

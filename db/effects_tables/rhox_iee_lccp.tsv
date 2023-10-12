@@ -19,3 +19,5 @@ rhox_sceolan_effect_skill_weapon_damage_increase_wef_wardancers_wildwood_rangers
 rhox_engra_alliance_dummy	diplomacy.png	106	diplomacy.png	campaign	true
 rhox_engra_meter_dummy	allegiance.png	461	allegiance.png	battle	true
 rhox_engra_vassal_effect_dummy	weapon_damage.png	461	weapon_damage.png	battle	true
+rhox_engra_vassal_effect_script_value	weapon_damage.png	461	weapon_damage.png	battle	true
+rhox_engra_archaon_effect_dummy	allegiance.png	1	allegiance.png	battle	true
