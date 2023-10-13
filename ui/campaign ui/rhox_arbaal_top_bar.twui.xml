@@ -78,7 +78,7 @@
 						<waaagh_bar_button_fire this="8F493698-8CE3-2176-E724BC9DCBCC50F6"/>
 						<waagh_button_frame this="1BB8FBB3-EED7-B372-517E507ED36A503E"/>
 						<waaagh_button this="2D96AFA4-B91F-0285-CBFA4E8AF0114B56">
-							<shard_animation this="F65DC45B-CA93-9A8B-E6A4A418270AD22E">
+							<rhox_arbaal_shard_animation this="F65DC45B-CA93-9A8B-E6A4A418270AD22E">
 								<shards_holder this="B67BCB82-6BF6-7A46-A67E1B00F05BE564">
 									<shard1 this="001EA9EF-93B8-CF32-84C5BB2162FDFC18"/>
 									<shard2 this="3E85FE5C-F9CD-7DC6-5ED05E0DAB88B46C"/>
@@ -90,7 +90,7 @@
 									<shard8 this="9C84FAF9-6E75-59A7-8867DCBBB79C6906"/>
 									<shard9 this="ACBA1B5D-42EF-A116-4CE1FCD1BBF4604C"/>
 								</shards_holder>
-							</shard_animation>
+							</rhox_arbaal_shard_animation>
 						</waaagh_button>
 					</waagh_button_holder>
 				</out_of_waaagh_holder>
@@ -2950,9 +2950,9 @@
 				</lclickdown>
 			</animations>
 		</shards_holder>
-		<shard_animation
+		<rhox_arbaal_shard_animation
 			this="F65DC45B-CA93-9A8B-E6A4A418270AD22E"
-			id="shard_animation"
+			id="rhox_arbaal_shard_animation"
 			docking="Center"
 			component_anchor_point="0.50,0.50"
 			priority="1"
@@ -2967,42 +2967,6 @@
 				<callback_with_context
 					callback_id="ContextCustomTooltipStore"
 					context_object_id="CcoCampaignPooledResource"/>
-				<callback_with_context callback_id="AnimationTriggerAndResetCallback">
-					<child_m_user_properties>
-						<property
-							name="parent_id"
-							value="shard_animation"/>
-						<property
-							name="reset_anim"
-							value="lclickdown"/>
-						<property
-							name="state"
-							value="hover"/>
-						<property
-							name="target_id"
-							value="shards_holder"/>
-					</child_m_user_properties>
-				</callback_with_context>
-				<callback_with_context callback_id="CallbackRedirector">
-					<child_m_user_properties>
-						<property
-							name="parent_id"
-							value="waagh_button_holder"/>
-						<property
-							name="target_id"
-							value="waaagh_button"/>
-					</child_m_user_properties>
-				</callback_with_context>
-				<callback_with_context callback_id="StatePropagatorCallback">
-					<child_m_user_properties>
-						<property
-							name="parent_id"
-							value="waagh_button_holder"/>
-						<property
-							name="target_id"
-							value="waaagh_button"/>
-					</child_m_user_properties>
-				</callback_with_context>
 				<callback_with_context
 					callback_id="ContextInactiveStateSetter"
 					context_object_id="CcoCampaignPooledResource"
@@ -3163,7 +3127,7 @@
 					disabled="true"
 					uniqueguid="BFB3A90C-8DD2-E6A3-A057363A8F8F8ADB"/>
 			</states>
-		</shard_animation>
+		</rhox_arbaal_shard_animation>
 		<target_container
 			this="DA1846A0-93BE-BC7C-2C6C2002C385645A"
 			id="target_container"
@@ -3224,6 +3188,7 @@
 			this="0651259D-4B32-6CAB-55075CF12DB0B694"
 			id="target_holder"
 			tooltipslocalised="true"
+            visible="false"
 			uniqueguid="0651259D-4B32-6CAB-55075CF12DB0B694"
 			currentstate="7E8E07A0-90D9-AC97-763D5ED88CA57527"
 			defaultstate="7E8E07A0-90D9-AC97-763D5ED88CA57527">
@@ -5112,6 +5077,7 @@
 			offset="-8.00,25.00"
 			allowhorizontalresize="false"
 			allowverticalresize="false"
+            visible="false"
 			docking="Top Left"
 			dock_offset="-8.00,25.00"
 			tooltipslocalised="true"
@@ -5126,39 +5092,6 @@
 					height="274"
 					uniqueguid="A3A660A8-835C-2F1A-EF31BA5B43DE7EF3"/>
 			</states>
-			<animations>
-				<show id="show">
-					<frames>
-						<frame
-							interpolationtime="100"
-							targetmetrics_m_height="40"
-							targetmetrics_m_width="240"
-							targetmetrics_m_offset="0.00,20.00">
-							<triggers>
-								<trigger
-									trigger_component="B032B598-6FFC-4546-6D5E186825D66977"
-									trigger_property="Visible true"/>
-							</triggers>
-						</frame>
-					</frames>
-				</show>
-				<hide id="hide">
-					<frames>
-						<frame
-							interpolationtime="100"
-							targetmetrics_m_height="40"
-							targetmetrics_m_width="240"
-							targetmetrics_m_offset="0.00,-20.00"
-							soundcategory="UI_Click_DLC15_Greenskins_Groms_Call_To_Waaagh_Dedicate_Slide_Out">
-							<triggers>
-								<trigger
-									trigger_component="B032B598-6FFC-4546-6D5E186825D66977"
-									trigger_property="Visible false"/>
-							</triggers>
-						</frame>
-					</frames>
-				</hide>
-			</animations>
 			<LayoutEngine
 				type="List"
 				itemsperrow="0"

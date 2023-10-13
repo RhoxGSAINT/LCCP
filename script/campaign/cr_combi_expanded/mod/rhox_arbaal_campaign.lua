@@ -4,7 +4,6 @@ cm:add_first_tick_callback(
             
             local parent_ui = find_uicomponent(core:get_ui_root(), "hud_campaign", "resources_bar_holder", "resources_bar");
             local result = core:get_or_create_component("rhox_arbaal_resource_bar", "ui/campaign ui/rhox_arbaal_top_bar.twui.xml", parent_ui)
-      
         end
     end
 );
@@ -31,7 +30,7 @@ local function rhox_arbaal_remove_pooled_resource(character)
 	
 
 
-	cm:faction_add_pooled_resource("rhox_kho_destroyers_of_khorne", "rhox_arbaal_resource", "battles", -100)
+	cm:faction_add_pooled_resource("rhox_kho_destroyers_of_khorne", "rhox_arbaal_resource", "rhox_arbaal_wrath", -100)
 	--cm:remove_character_vfx(character:command_queue_index(), "scripted_effect"); --Should I add this to this guy?
 end
 
