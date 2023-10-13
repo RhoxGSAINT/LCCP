@@ -48,3 +48,4 @@ rhox_burlok_artifact_part_8b_forging	forging_items	rhox_burlok_artifact_part_8b	
 rhox_burlok_artifact_part_8b_missions	missions	rhox_burlok_artifact_part_8b	0	2147483647	
 rhox_engra_campaign_progress_other	other	rhox_engra_campaign_progress	0	2147483647	
 rhox_engra_campaign_progress_souls	souls_gain	rhox_engra_campaign_progress	0	2147483647	
+rhox_arbaal_resource_battles	battles	rhox_arbaal_resource	-2147483647	2147483647	

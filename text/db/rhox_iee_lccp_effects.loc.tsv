@@ -1,6 +1,6 @@
 key	text	tooltip
 #Loc;1;text/db/rhox_iee_lccp_effects.loc		
-effects_description_rhox_torinubar_window_to_the_east_dummy	Window to the East: Engage in transit trade by buying and selling Eastern commodities and Western commodities. You can also use them to bloster your troops	false
+effects_description_rhox_torinubar_window_to_the_east_dummy	Window to the East: Engage in transit trade by buying and selling Eastern commodities and Western commodities. You can also use them to bolster your troops	false
 effects_description_rhox_torinubar_east_cargo_per_turn	Eastern Commodities Generated: %n	false
 effects_description_rhox_torinubar_west_cargo_per_turn	Western Commodities Generated: %n	false
 effects_description_rhox_torinubar_purchase_east	Passive: Battle Harmony: Yin	false
@@ -29,3 +29,4 @@ effects_description_rhox_engra_meter_dummy	Engra can gift settlement to Archaon,
 effects_description_rhox_engra_vassal_effect_dummy	Engra's force gets %+n% Weapon Strength per each currently vassalised faction. Archaon's forces also gets this bonus	false
 effects_description_rhox_engra_vassal_effect_script_value	HIDDEN: Script value used to determine value Archaon is getting	false
 effects_description_rhox_engra_archaon_effect_dummy	Archaon's faction will also get the same effect	false
+effects_description_rhox_arbaal_resource_per_turn	Reputation decrease per turn: %n	false

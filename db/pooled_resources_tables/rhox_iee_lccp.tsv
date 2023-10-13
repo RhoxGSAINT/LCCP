@@ -23,3 +23,4 @@ rhox_burlok_artifact_part_7b	5	0	false	other	icon_dwf_thorek_artifact_part_7b_la
 rhox_burlok_artifact_part_8a	5	0	false	other	icon_dwf_thorek_artifact_part_8a_large.png	END_OF_ROUND	false	FACTION	false	0		false	true
 rhox_burlok_artifact_part_8b	5	0	false	other	icon_dwf_thorek_artifact_part_8b_large.png	END_OF_ROUND	false	FACTION	false	0		false	true
 rhox_engra_campaign_progress	50000	0	false	wh2_main_resource_factor_other	icon_soul_hybrid_undivided.png	END_OF_ROUND	false	FACTION	true	1		false	true
+rhox_arbaal_resource	100	0	false	battles	icon_waaagh.png	END_OF_ROUND	false	FACTION	false	0		false	true

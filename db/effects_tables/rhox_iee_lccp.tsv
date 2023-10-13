@@ -21,3 +21,4 @@ rhox_engra_meter_dummy	allegiance.png	461	allegiance.png	battle	true
 rhox_engra_vassal_effect_dummy	weapon_damage.png	461	weapon_damage.png	battle	true
 rhox_engra_vassal_effect_script_value	weapon_damage.png	461	weapon_damage.png	battle	true
 rhox_engra_archaon_effect_dummy	allegiance.png	1	allegiance.png	battle	true
+rhox_arbaal_resource_per_turn	effect_bundle_arbaal.png	461	effect_bundle_arbaal.png	campaign	true

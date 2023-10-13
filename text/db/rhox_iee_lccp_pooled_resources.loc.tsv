@@ -76,3 +76,7 @@ pooled_resources_description_rhox_engra_campaign_progress	Any action that grants
 pooled_resources_display_name_rhox_engra_campaign_progress	Soul for Archaon	false
 pooled_resources_negative_factors_display_name_rhox_engra_campaign_progress		false
 pooled_resources_positive_factors_display_name_rhox_engra_campaign_progress	Progress	false
+pooled_resources_description_rhox_arbaal_resource	As you win more battle, the meter will charge and your force will become more powerful. But be wary though, single defeat or withdraw of Arbaal will set this value to 0	false
+pooled_resources_display_name_rhox_arbaal_resource	Destroyer of Khorne	false
+pooled_resources_negative_factors_display_name_rhox_arbaal_resource	Reputation Lost	false
+pooled_resources_positive_factors_display_name_rhox_arbaal_resource	Reputation Gained	false
