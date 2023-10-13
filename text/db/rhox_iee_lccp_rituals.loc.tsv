@@ -8,3 +8,7 @@ rituals_display_name_rhox_burlok_ritual_burlok_artifact_5	Smednir's Metallurgy C
 rituals_display_name_rhox_burlok_ritual_burlok_artifact_6	Blessed Pick of Grungni	false
 rituals_display_name_rhox_burlok_ritual_burlok_artifact_7	Lost Gifts of Valaya	false
 rituals_display_name_rhox_burlok_ritual_burlok_artifact_8	Beard Rings of Grimnir	false
+mortuary_cult_categories_craft_button_text_rhox_burlok_experiment	Experiment	false
+mortuary_cult_categories_localised_button_description_rhox_burlok_experiment	[[col:yellow]]Experimental Study[[/col]]||Select any ingredient to reveal its location.\\n\\nTo retrieve ingredients, their locations must be occupied or controlled via military alliances. Once both ingredients have been collected it can be used to conduct experiements	false
+mortuary_cult_categories_localised_description_rhox_burlok_experiment	Experimental Study	false
+mortuary_cult_categories_localised_name_rhox_burlok_experiment	Artefact Vault	false
