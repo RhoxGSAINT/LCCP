@@ -6,7 +6,7 @@
 	<hierarchy>
 		<root this="35AC9BA2-D505-52E1-F1F4F61BA3C9C0E7">
 			<thorek_vault_progression_topbar this="B91F1846-E0C0-9D3E-E07B120672FB8C55">
-				<vault_progression_button this="248E473B-5110-78C4-FF66787FC9B610B7"/>
+				<rhox_burlok_vault_progression_button this="248E473B-5110-78C4-FF66787FC9B610B7"/>
 				<artifact_holder this="BDCDAD8E-95AA-98E8-E30B4798873E4A4B">
 					<artifact_1 this="CAC91FD1-1762-D7AF-073B017FB405A9DF"/>
 					<artifact_2 this="9D4AFB23-F6EB-FDB3-5ECDB394577BCAC7"/>
@@ -74,9 +74,9 @@
 				</newstate>
 			</states>
 		</root>
-		<vault_progression_button
+		<rhox_burlok_vault_progression_button
 			this="248E473B-5110-78C4-FF66787FC9B610B7"
-			id="vault_progression_button"
+			id="rhox_burlok_vault_progression_button"
 			offset="5.00,-14.00"
 			docking="Top Center"
 			dock_offset="0.00,0.00"
@@ -91,7 +91,7 @@
 				<callback_with_context
 					callback_id="ContextTooltipSetter"
 					context_object_id="CcoStaticObject"
-					context_function_id="Loc(&quot;thorek_ancillary_me_top_button_tooltip&quot;)"/>
+					context_function_id="Loc(&quot;rhox_burlok_ancillary_top_button_tooltip&quot;)"/>
                 <callback_with_context
 					callback_id="ContextCommandLeftClick"
 					context_function_id="ToggleHUDPanel(&quot;mortuary_cult&quot;)"/>
@@ -272,7 +272,7 @@
 						fontcat_name="body_12"/>
 				</inactive>
 			</states>
-		</vault_progression_button>
+		</rhox_burlok_vault_progression_button>
 		<thorek_vault_progression_topbar
 			this="B91F1846-E0C0-9D3E-E07B120672FB8C55"
 			id="thorek_vault_progression_topbar"

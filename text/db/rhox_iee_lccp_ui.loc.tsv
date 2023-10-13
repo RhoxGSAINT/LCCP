@@ -30,3 +30,4 @@ campaign_localised_strings_string_rhox_slaurith_panel_open_button	Hunting Knight
 campaign_localised_strings_string_rhox_slaurith_piece_tab	Hunting Knights	false
 mission_text_text_rhox_slaurith_objective_override_occupy_settlement	Occupy the following settlement to search and kill the knight there:	false
 mission_text_text_rhox_slaurith_objective_override_defeat_army	Defeat the following [[img:icon_general]][[/img]]Lord's army to kill the knight they're protecting:	false
+campaign_localised_strings_string_rhox_burlok_ancillary_top_button_tooltip	[[col:yellow]]Experimental Study[[/col]]||By collecting the necessary ingredients from around the campaign map, unique and powerful result can be earned via experiement. Locations of ingredients are revealed in the Experimental Study tab within the Forge.	false
