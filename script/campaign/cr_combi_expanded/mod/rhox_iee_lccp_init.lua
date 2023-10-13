@@ -58,7 +58,10 @@ local rhox_iee_list={
             forename ="names_name_6670700833",
             familiyname ="names_name_6670700822",
         },
-        agent=nil,
+        agent={
+            type="runesmith",
+            subtype="wh_main_dwf_runesmith"
+        },
         hand_over_region=nil,
         region="cr_combi_region_ind_4_1",
         how_they_play="rhox_iee_lccp_how_they_play_burlok",
@@ -152,7 +155,10 @@ local rhox_iee_list={
             forename ="names_name_6670700833",
             familiyname ="names_name_6670700822",
         },
-        agent=nil,
+        agent={
+            type="wizard",
+            subtype="wh3_main_ogr_butcher_great_maw"
+        },
         hand_over_region=nil,
         region="cr_combi_region_ind_1_2",
         how_they_play="rhox_iee_lccp_how_they_play_hrothyogg",
@@ -179,7 +185,10 @@ local rhox_iee_list={
             forename ="names_name_24444424",
             familiyname ="names_name_24444423",
         },
-        agent=nil,
+        agent={
+            type="spy",
+            subtype="wh3_main_nur_plagueridden_nurgle"
+        },
         hand_over_region=nil,
         region="cr_combi_region_seagrave_port",
         how_they_play="rhox_iee_lccp_how_they_play_orghotts",
@@ -242,7 +251,10 @@ local rhox_iee_list={
             forename ="names_name_466124000",
             familiyname ="",
         },
-        agent=nil,
+        agent={
+            type="dignitary",
+            subtype="wh3_main_kho_bloodreaper"
+        },
         hand_over_region=nil,
         region="cr_combi_region_khuresh_4_3",
         how_they_play="rhox_iee_lccp_how_they_play_slaurith",
@@ -263,7 +275,10 @@ local rhox_iee_list={
             forename ="names_name_5670700836",
             familiyname ="names_name_5670700835",
         },
-        agent=nil,
+        agent={
+            type="wizard",
+            subtype="wh_dlc08_nor_shaman_sorcerer_metal"
+        },
         hand_over_region="cr_combi_region_khazags_khural",
         region="cr_combi_region_khazags_khural",
         how_they_play="rhox_iee_lccp_how_they_play_thorgar",
@@ -317,7 +332,10 @@ local rhox_iee_list={
             forename ="names_name_6330700834",
             familiyname ="names_name_6330700833",
         },
-        agent=nil,
+        agent={
+            type="wizard",
+            subtype="wh_dlc08_nor_shaman_sorcerer_fire"
+        },
         hand_over_region=nil,
         region="cr_combi_region_ihan_3_1",
         how_they_play="rhox_iee_lccp_how_they_play_valbrand",
@@ -359,7 +377,10 @@ local rhox_iee_list={
             forename ="names_name_4170700722",
             familiyname ="names_name_4170700720",
         },
-        agent=nil,
+        agent={
+            type="wizard",
+            subtype="wh_dlc08_nor_shaman_sorcerer_death"
+        },
         hand_over_region="cr_combi_region_avags_camp",
         region="cr_combi_region_avags_camp",
         how_they_play="rhox_iee_lccp_how_they_play_volrik",
@@ -404,7 +425,10 @@ local rhox_iee_list={
             forename ="names_name_6670702834",
             familiyname ="names_name_6670702833",
         },
-        agent=nil,
+        agent={
+            type="spy",
+            subtype="wh_main_vmp_banshee"
+        },
         hand_over_region="cr_combi_region_khuresh_1_2",
         region="cr_combi_region_khuresh_1_2",
         how_they_play="rhox_iee_lccp_how_they_play_zach",
@@ -441,7 +465,10 @@ local rhox_iee_list={
             forename ="names_name_6670702834",
             familiyname ="names_name_6670702833",
         },
-        agent=nil,
+        agent={
+            type="dignitary",
+            subtype="wh3_main_kho_bloodreaper"
+        },
         hand_over_region="cr_combi_region_ind_6_2",
         region="cr_combi_region_ind_6_2",
         how_they_play="rhox_iee_lccp_how_they_play_arbaal",
@@ -476,7 +503,10 @@ local rhox_iee_list={
             forename ="names_name_5670700325",
             familiyname ="names_name_5670700324",
         },
-        agent=nil,
+        agent={
+            type="wizard",
+            subtype="wh_main_chs_chaos_sorcerer_death"
+        },
         hand_over_region="cr_combi_region_ihan_1_1",
         region="cr_combi_region_ihan_1_1",
         how_they_play="rhox_iee_lccp_how_they_play_engra",
@@ -585,7 +615,10 @@ local rhox_iee_list={
             forename ="names_name_5670700722",
             familiyname ="names_name_5670700719",
         },
-        agent=nil,
+        agent={
+            type="wizard",
+            subtype="wh_dlc08_nor_shaman_sorcerer_metal"
+        },
         hand_over_region=nil,
         region="cr_combi_region_tokmars_encampment",
         how_they_play="rhox_iee_lccp_how_they_play_vroth",
@@ -607,7 +640,10 @@ local rhox_iee_list={
             forename ="names_name_5670700722",
             familiyname ="names_name_5670700719",
         },
-        agent=nil,
+        agent={
+            type="champion",
+            subtype="wh2_dlc09_tmb_tomb_prince"
+        },
         hand_over_region=nil,
         region="cr_combi_region_nippon_5_2",
         how_they_play="rhox_iee_lccp_how_they_play_karitamen",
