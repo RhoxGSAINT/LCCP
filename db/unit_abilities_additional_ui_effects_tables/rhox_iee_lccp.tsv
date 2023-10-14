@@ -1,0 +1,4 @@
+key	sort_order	effect_state
+#unit_abilities_additional_ui_effects_tables;3;db/unit_abilities_additional_ui_effects_tables/rhox_iee_lccp		
+rhox_arbaal_turns_into_spawn	106	positive
+rhox_arbaal_serious_campaign_debuff	104	negative

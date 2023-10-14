@@ -1,0 +1,5 @@
+invalid_usage_flag	special_ability
+#special_ability_to_invalid_usage_flags_tables;0;db/special_ability_to_invalid_usage_flags_tables/rhox_iee_lccp	
+on_a_platform	rhox_arbaal_spawn_spawn
+phase_is_deployment	rhox_arbaal_spawn_spawn
+phase_is_the_end_phase	rhox_arbaal_spawn_spawn
