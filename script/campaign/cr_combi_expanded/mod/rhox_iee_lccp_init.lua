@@ -55,8 +55,8 @@ local rhox_iee_list={
             unit_list="wh_main_dwf_inf_dwarf_warrior_0,wh_main_dwf_inf_dwarf_warrior_1",
             x=1187,
             y=321,
-            forename ="names_name_6670700833",
-            familiyname ="names_name_6670700822",
+            forename ="names_name_1369138454",
+            familiyname ="names_name_1369138455",
         },
         agent={
             type="runesmith",
@@ -152,8 +152,8 @@ local rhox_iee_list={
             unit_list="wh3_main_ogr_inf_gnoblars_0,wh3_main_ogr_inf_gnoblars_1",
             x=1116,
             y=410,
-            forename ="names_name_6670700833",
-            familiyname ="names_name_6670700822",
+            forename ="names_name_1369138460",
+            familiyname ="",
         },
         agent={
             type="wizard",
@@ -206,8 +206,8 @@ local rhox_iee_list={
             unit_list="wh_dlc05_wef_inf_wardancers_0,wh_dlc05_wef_inf_wardancers_1,wh_dlc05_wef_inf_eternal_guard_1,wh_dlc05_wef_inf_eternal_guard_1,wh2_dlc16_wef_cav_great_stag_knights_0",
             x=1501,
             y=62,
-            forename ="names_name_6670700833",
-            familiyname ="names_name_6670700822",
+            forename ="names_name_24555523",
+            familiyname ="",
         },
         agent={
             type="wizard",
@@ -462,8 +462,8 @@ local rhox_iee_list={
             unit_list="wh3_main_kho_inf_chaos_warriors_0,wh3_main_kho_inf_chaos_warriors_0,wh3_main_kho_inf_chaos_warriors_1,wh3_main_kho_inf_flesh_hounds_of_khorne_0,wh3_main_kho_inf_chaos_warhounds_0,wh3_main_kho_mon_spawn_of_khorne_0",
             x=1060,
             y=217,
-            forename ="names_name_6670702834",
-            familiyname ="names_name_6670702833",
+            forename ="names_name_1369138456",
+            familiyname ="names_name_1369138457",
         },
         agent={
             type="dignitary",
@@ -637,8 +637,8 @@ local rhox_iee_list={
             unit_list="wh2_dlc09_tmb_inf_skeleton_spearmen_0,wh2_dlc09_tmb_inf_skeleton_warriors_0",
             x=1531,
             y=256,
-            forename ="names_name_5670700722",
-            familiyname ="names_name_5670700719",
+            forename ="names_name_1369138458",
+            familiyname ="names_name_1369138459",
         },
         agent={
             type="champion",
@@ -656,8 +656,6 @@ local rhox_iee_list={
         end
     },
 }
-
-
 
 
 
