@@ -52,7 +52,7 @@ core:add_listener(
 );
 
 core:add_listener(
-    "rhox_arbaal_battle_completed",
+    "rhox_arbaal_battle_lost",
     "CharacterCompletedBattle",
     function(context)
         local character = context:character()
@@ -66,3 +66,20 @@ core:add_listener(
     end,
     true
 )
+
+core:add_listener(
+    "rhox_arbaal_battle_completed",
+    "CharacterCompletedBattle",
+    function(context)
+        local character = context:character()
+        local faction = character:faction()
+        local pb = context:pending_battle();
+        
+        return character:character_subtype_key() == "hkrul_arbaal" and faction:name() == "rhox_kho_destroyers_of_khorne" and pb:has_been_fought() and character:won_battle() --only won because otherwise upper listener will take care of it
+        and pb:get_how_many_times_ability_has_been_used_in_battle(faction:command_queue_index(), "rhox_arbaal_spawn_spawn")>0 -- only if you have used it 
+    end,
+    function(context)
+        rhox_arbaal_remove_pooled_resource(context:character())
+    end,
+    true
+);
