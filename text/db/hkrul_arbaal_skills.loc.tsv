@@ -16,3 +16,6 @@ character_skills_localised_description_hkrul_arbaal_special_2_0		false
 character_skills_localised_name_hkrul_arbaal_special_2_0		false
 character_skills_localised_description_hkrul_arbaal_special_0_1		false
 character_skills_localised_name_hkrul_arbaal_special_0_1		false
+effects_description_rhox_arbaal_spawn_spawn	Ability: "The Destroyer's Curse"	true
+effects_description_effect_bundle_arbaal_dummy1	Destroyer of Khorne: Victories provide momentum and subsequent boons	false
+effects_description_effect_bundle_arbaal_dummy2	Khorne's Curse: When defeated Khorne's punishment will be unrelenting	false

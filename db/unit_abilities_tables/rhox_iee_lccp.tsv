@@ -3,4 +3,4 @@ key	requires_effect_enabling	icon_name	overpower_option	type	video	uniqueness	is
 rhox_sceolan_ice_heart_army_ability	true	wh3_main_spell_ice_heart_of_winter		wh_type_area_of_direct_damage		wh_main_anc_group_rare	false	false	army		false
 wh2_torinubar_kinetic_wave	true	hef_torinubar_kinetic_wave		wh_type_explosion		wh_main_anc_group_uncommon	true	false	active		false
 wh2_torinubar_kinetic_combat	false	hef_torinubar_kinetic_combat		wh_type_area_of_augments		wh_main_anc_group_rare	false	false	lord		false
-rhox_arbaal_spawn_spawn	false	wh2_main_unit_passive_another_takes_its_place		wh_type_transform		wh_main_anc_group_rare	false	false	active		false
+rhox_arbaal_spawn_spawn	true	hkrul_arbaal_curse		wh_type_transform		wh_main_anc_group_rare	false	false	active		false
