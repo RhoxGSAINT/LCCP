@@ -19,3 +19,10 @@ id	names_group	type	gender	frequency
 6670702833	names_vmp_vampire_counts	family_name	b	0
 6670702834	names_vmp_vampire_counts	forename	b	0
 9987364589	names_hef_high_elves	forename	m	0
+1369138454	names_dwf_dwarfs	forename	m	0
+1369138455	names_dwf_dwarfs	family_name	m	0
+1369138456	names_kho_khorne	forename	m	0
+1369138457	names_kho_khorne	family_name	m	0
+1369138458	names_tmb_tomb_kings	forename	m	0
+1369138459	names_tmb_tomb_kings	family_name	m	0
+1369138460	names_ogr_ogre_kingdom	forename	m	0

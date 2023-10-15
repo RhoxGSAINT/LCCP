@@ -1,9 +1,9 @@
 key	localised_description	localised_title	bundle_target	priority	ui_icon	is_global_effect	show_in_3d_space	owner_only
 #effect_bundles_tables;4;db/effect_bundles_tables/rhox_iee_lccp								
 rhox_torinubar_faction_trait			faction	1	character.png	true	false	true
-rhox_torinubar_dilemma_attrition	Harsh landscapes take their blood tithe from the weak and feeble first.	The Path of Fire	force	1	attrition.png	true	false	true
-rhox_torinubar_dilemma_defence	The arcane processes of the Hell-Forge grant these shields and armour greater effectiveness, for a time.	Clad in Durability	force	1	defence.png	true	false	true
-rhox_torinubar_dilemma_offence	The arcane processes of the Hell-Forge grant these weapons much greater lethality, for a time.	Wielding Destruction	force	1	melee.png	true	false	true
+rhox_torinubar_dilemma_attrition			force	1	attrition.png	true	false	true
+rhox_torinubar_dilemma_defence			force	1	defence.png	true	false	true
+rhox_torinubar_dilemma_offence			force	1	melee.png	true	false	true
 rhox_torinubar_purchase_east			none	1	rhox_torinubar_east_resource.png	true	false	true
 rhox_torinubar_purchase_west			none	1	rhox_torinubar_west_resource.png	true	false	true
 rhox_valbrand_faction_trait			faction	1	effect_bundle_valbrand.png	true	false	true
@@ -12,7 +12,7 @@ rhox_volrik_faction_trait			faction	1	effect_bundle_volrik.png	true	false	true
 rhox_zach_faction_trait			faction	1	effect_bundle_zach.png	true	false	true
 rhox_valbrand_innate_effect_bundle			character	1	effect_bundle_valbrand.png	false	false	true
 rhox_volrik_cotw_hidden_effect_bundle			faction	1		false	false	true
-rhox_volrik_wind_of_magic_high		Winds of Magic Power Reserve (80-100)	force	1	magic.png	true	false	true
+rhox_volrik_wind_of_magic_high			force	1	magic.png	true	false	true
 rhox_orghotts_faction_trait			faction	1	effect_bundle_spew.png	true	false	true
 rhox_hrothyogg_faction_trait			faction	1	effect_bundle_hroth.png	true	false	true
 rhox_slaurith_faction_trait			faction	1	effect_bundle_slaurith.png	true	false	true
@@ -26,3 +26,11 @@ rhox_arbaal_faction_trait			faction	1	effect_bundle_arbaal.png	true	false	true
 rhox_engra_faction_trait			faction	1	effect_bundle_engra.png	true	false	true
 rhox_vroth_faction_trait			faction	1	effect_bundle_vroth.png	true	false	true
 rhox_karitamen_faction_trait			faction	1	effect_bundle_kita.png	true	false	true
+rhox_engra_campaign_progress_opeation_set_1			faction	1	effect_bundle_engra.png	true	false	true
+rhox_engra_campaign_progress_opeation_set_2			faction	1	effect_bundle_engra.png	true	false	true
+rhox_engra_campaign_progress_opeation_set_3			faction	1	effect_bundle_engra.png	true	false	true
+rhox_engra_engra_support			faction	1	effect_bundle_engra.png	true	false	true
+rhox_arbaal_resource_effects_1			faction	1	effect_bundle_arbaal.png	false	false	true
+rhox_arbaal_resource_effects_2			faction	1	effect_bundle_arbaal.png	false	false	true
+rhox_arbaal_resource_effects_3			faction	1	effect_bundle_arbaal.png	false	false	true
+rhox_arbaal_resource_effects_4			faction	1	effect_bundle_arbaal.png	false	false	true
