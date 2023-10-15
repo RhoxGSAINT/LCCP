@@ -1,4 +1,8 @@
 key	text	tooltip
 #Loc;1;text/db/rhox_iee_lccp_abilities.loc		
-unit_abilities_onscreen_name_rhox_sceolan_ice_heart_army_ability	Heart of Winter	false
-unit_abilities_tooltip_text_rhox_sceolan_ice_heart_army_ability	At one with the frozen plains and snowy tundra	false
+unit_abilities_onscreen_name_rhox_sceolan_ice_heart_army_ability	Winter's Hearth	false
+unit_abilities_tooltip_text_rhox_sceolan_ice_heart_army_ability	Sceolan is as one with the essence of frost and winter	false
+unit_abilities_onscreen_name_rhox_arbaal_spawn_spawn	The Destroyer's Curse	false
+unit_abilities_tooltip_text_rhox_arbaal_spawn_spawn	May the Destroyer of Khorne disgrace his patron God with defeat it shall mean his demise	false
+unit_abilities_additional_ui_effects_localised_text_rhox_arbaal_turns_into_spawn	Turns Arbaal into a Chaos Spawn	false
+unit_abilities_additional_ui_effects_localised_text_rhox_arbaal_serious_campaign_debuff	Khorne's momentum will be set to 0	false
