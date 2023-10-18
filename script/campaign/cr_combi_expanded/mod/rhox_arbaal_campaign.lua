@@ -10,7 +10,7 @@ cm:add_first_tick_callback(
 
 
 local function rhox_arbaal_remove_pooled_resource(character)
-
+    local faction = character:faction()
 	
 	if character:faction():is_human() then
         local force_X = character:logical_position_x();
@@ -29,8 +29,11 @@ local function rhox_arbaal_remove_pooled_resource(character)
 	end;
 	
 
-
-	cm:faction_add_pooled_resource("rhox_kho_destroyers_of_khorne", "rhox_arbaal_resource", "rhox_arbaal_wrath", -100)
+    if faction:name() == "rhox_kho_destroyers_of_khorne" then
+        cm:faction_add_pooled_resource("rhox_kho_destroyers_of_khorne", "rhox_arbaal_resource", "rhox_arbaal_wrath", -100)
+    else
+        cm:apply_effect_bundle("rhox_arbaal_other_faction_curse", faction:name(), 5)
+    end
 	--cm:remove_character_vfx(character:command_queue_index(), "scripted_effect"); --Should I add this to this guy?
 end
 
@@ -75,11 +78,16 @@ core:add_listener(
         local faction = character:faction()
         local pb = context:pending_battle();
         
-        return character:character_subtype_key() == "hkrul_arbaal" and faction:name() == "rhox_kho_destroyers_of_khorne" and pb:has_been_fought() and character:won_battle() --only won because otherwise upper listener will take care of it
+        return character:character_subtype_key() == "hkrul_arbaal" and pb:has_been_fought() --And it doesn't care about faction name as it is could also affect other faction who confed him
         and pb:get_how_many_times_ability_has_been_used_in_battle(faction:command_queue_index(), "rhox_arbaal_spawn_spawn")>0 -- only if you have used it 
     end,
     function(context)
-        rhox_arbaal_remove_pooled_resource(context:character())
+        local faction = context:character():faction()
+        if faction:name() == "rhox_kho_destroyers_of_khorne" and character:won_battle() then--only won for Destroyer because otherwise upper listener will take care of it. 
+            rhox_arbaal_remove_pooled_resource(context:character())
+        elseif faction:name() ~= "rhox_kho_destroyers_of_khorne" then
+            rhox_arbaal_remove_pooled_resource(context:character())
+        end
     end,
     true
 );

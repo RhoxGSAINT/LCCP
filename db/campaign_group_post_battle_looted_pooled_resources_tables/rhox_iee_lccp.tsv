@@ -2,4 +2,4 @@ campaign_group	resource_factor	base_multiplier	exponent	exponent_multiplier	maxi
 #campaign_group_post_battle_looted_pooled_resources_tables;0;db/campaign_group_post_battle_looted_pooled_resources_tables/rhox_iee_lccp								
 rhox_valbrand_feature	def_slaves_battles	0.1200	1.0000	0.0001	500	0	0	FACTION
 rhox_volrik_feature	wh3_main_tze_grimoires_factor_battles	0.0000	1.0000	0.0130	250	5	0	FACTION
-rhox_arbaal_feature_group	rhox_arbaal_resource_battles	0.0065	1.0000	0.0001	10	1	1	FACTION
+rhox_arbaal_feature_group	rhox_arbaal_resource_battles	0.0000	1.0000	0.0020	10	1	1	FACTION
