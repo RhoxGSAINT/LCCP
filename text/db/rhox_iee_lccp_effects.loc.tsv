@@ -31,3 +31,4 @@ effects_description_rhox_engra_vassal_effect_script_value	HIDDEN: Script value u
 effects_description_rhox_engra_archaon_effect_dummy	Archaon's faction will also get the same effect	false
 effects_description_rhox_arbaal_resource_per_turn	Reputation decrease per turn: %n	false
 effects_description_rhox_thorgar_chaos_dummy	Finishing all 4 boons will make Thorgar Ascend to the Daemon Prince	false
+effects_description_rhox_thorgar_sacrifice_dummy	[[col:red]]Warning: All your agent and units under Thorgar's force will be sacrificed to the Chaos God when he ascends[[/col]]	false
