@@ -1,0 +1,7 @@
+key	effects	duration	expended_cost	required_cost	image_path	upkeep_cost	point_cost
+#initiatives_tables;6;db/initiatives_tables/rhox_thorgar							
+rhox_thorgar_initiative_01	rhox_thorgar_initiative_01	-1			UI\skins\default\path_to_glory\boon_background_image_undivided.png		0
+rhox_thorgar_initiative_02	rhox_thorgar_initiative_02	-1			UI\skins\default\path_to_glory\boon_background_image_undivided.png		0
+rhox_thorgar_initiative_03	rhox_thorgar_initiative_03	-1			UI\skins\default\path_to_glory\boon_background_image_undivided.png		0
+rhox_thorgar_initiative_04	rhox_thorgar_initiative_04	-1			UI\skins\default\path_to_glory\boon_background_image_undivided.png		0
+rhox_thorgar_ascend	wh3_dlc20_character_upgrade_effects	1			UI\skins\default\path_to_glory\mark_of_chaos_daemon_prince_undivided.png		0

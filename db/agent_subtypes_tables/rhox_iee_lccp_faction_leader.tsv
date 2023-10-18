@@ -11,6 +11,7 @@ hkrul_aelfric	false	false		hkrul_aelfric	wh_dlc08_vo_actor_Norsca_Marauder_Chief
 hkrul_burlok	false	false		hkrul_burlok	wh2_pro08_vo_actor_neu_Gotrek	true	1	false	true	false	false	legendary_lords		names_dwf_dwarfs	false	true	cannot_be_saved_loaded		false	true	1200
 hkrul_dolmance	false	false		hkrul_dolmance	wh_main_vo_actor_Bretonnian_Lord	true	-1	false	true	false	false	legendary_lords			false	true	cannot_be_saved_loaded		false	true	1100
 hkrul_thorgar	false	false		hkrul_thorgar	wh_dlc08_vo_actor_Norsca_Marauder_Chieftan	true	-1	false	true	false	false	legendary_lords			false	true	cannot_be_saved_loaded		false	true	1100
+hkrul_thorgar_daemon_prince	false	true		hkrul_thorgar_daemon_prince	wh3_dlc20_vo_actor_DaemonPrince_Generic_Undivided	true	-1	false	true	false	false	legendary_lords	wh_main_lore_fire		false	true	cannot_be_saved_loaded	wh3_main_vo_culture_DaemonPrince	false	true	2700
 hkrul_slaurith	false	false		hkrul_slaurith	wh_main_vo_actor_Chaos_Lord	true	-1	false	true	false	false	legendary_lords			false	true	cannot_be_saved_loaded	wh3_main_vo_culture_Khorne	false	true	1300
 hkrul_arbaal	false	false		hkrul_arbaal_mounted	wh3_dlc20_vo_actor_Khorne_Chaos_Lord_of_Khorne	true	-1	false	true	false	false	legendary_lords		names_chs_chaos	false	true	cannot_be_saved_loaded		false	true	900
 hkrul_engra	false	false		hkrul_engra	wh_main_vo_actor_Chaos_Lord	true	-1	false	true	false	false	legendary_lords			false	true	cannot_be_saved_loaded		false	true	1100
