@@ -143,7 +143,82 @@ table.insert(initiative_templates,
 	}
 )
 
+
+core:add_listener(
+	"rhox_thorgar_upgrade_initiative_activated",
+	"CharacterInitiativeActivationChangedEvent",
+	function(context)
+		return context:initiative():record_key() == "rhox_thorgar_ascend"
+	end,
+	function(context)
+		local character = context:character()
+		local old_char_details = {
+			mf = character:military_force(),
+			rank = character:rank(),
+			fm_cqi = character:family_member():command_queue_index(),
+			character_details = character:character_details(),
+			faction_key = character:faction():name(),
+			character_forename = character:get_forename(),
+			character_surname = character:get_surname(),
+			parent_force = character:embedded_in_military_force(),
+			subtype = character:character_subtype_key(),
+			traits = character:all_traits(),
+			ap = character:action_points_remaining_percent()
+		}
+		local faction = context:character():faction()
+		local character_cqi = character:command_queue_index();
+		local faction_key = faction:name()
+
+		local x, y = cm:find_valid_spawn_location_for_character_from_character(faction_key, cm:char_lookup_str(character), true, 5)
+		local new_char_interface = nil
+		cm:create_force_with_general(
+            -- faction_key, unit_list, region_key, x, y, agent_type, agent_subtype, forename, clan_name, family_name, other_name, id, make_faction_leader, success_callback
+            faction_key,
+            "",
+            "cr_combi_region_khazags_khural",--doesn't matter
+            x,
+            y,
+            "general",
+            "hkrul_thorgar_daemon_prince",
+            "names_name_5670700836",
+            "",
+            "names_name_5670700835",
+            "",
+            true,
+            function(cqi)
+                new_char_interface = cm:get_character_by_cqi(cqi)
+				local new_char_lookup = cm:char_lookup_str(cqi)
+                cm:disable_event_feed_events(true, "wh_event_category_character", "", "")
+                cm:set_character_immortality(cm:char_lookup_str(character_cqi), false);          
+                cm:kill_character(cm:char_lookup_str(character_cqi), true)
+                cm:callback(function() cm:disable_event_feed_events(false, "", "", "wh_event_category_character") end, 0.2);
+
+                local composite_scene = "wh3_campaign_chaos_upgrade_daemons"
+                x = new_char_interface:logical_position_x();
+                y = new_char_interface:logical_position_y();
+                cm:add_scripted_composite_scene_to_logical_position(composite_scene, composite_scene, x, y, x, y + 1, true, false, false);
+
+				if old_char_details.traits then
+					for i =1, #old_char_details do
+						local trait_to_copy = old_char_details[i]
+						cm:force_add_trait(new_char_lookup, trait_to_copy)
+					end
+				end
+				cm:replenish_action_points(new_char_lookup, 100)
+				cm:add_agent_experience(new_char_lookup, old_char_details.rank, true)
+            end
+        );
+	end,
+	true
+)
+
+
+		
+
+--[[
+--we can't use this way to a faction leader
 CUS.initiative_to_agent_junctions["rhox_thorgar_ascend"] = {
     type = "general",
     subtype = "hkrul_thorgar_daemon_prince",
 }
+--]]
