@@ -17,3 +17,4 @@ rhox_hrothyogg_mercenary_branch						cai_support_group					-1	-1	0	0	0	0	0	0	-1	
 rhox_dolmance_slaanesh						cai_support_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	200	1000
 rhox_dolmance_sunstory						cai_military_group					0	0	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	400	2500
 rhox_dolmance_treasure_wine						cai_military_group					0	0	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	400	2500
+rhox_thorgar_dae_advanced						cai_military_group					0	0	1000	1000	1000	1000	0	0	0	0	510	510	510	510	0	0	1100	1500
