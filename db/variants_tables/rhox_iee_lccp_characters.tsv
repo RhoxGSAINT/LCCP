@@ -5,7 +5,7 @@ hkrul_valbrand		phy_valbrand		1.0000	1.2000	0.0000
 hkrul_volrik		hkrul_volrik		1.0000	1.1700	0.0000	
 hkrul_zach		hkrul_zach		1.0000	1.1600	0.0000	
 hef_calith_torinubar		hef_calith_torinubar		1.0000	1.2000	0.0000	
-hkrul_aelfric		aelfric		1.0000	1.2000	0.0000	
+hkrul_aelfric		hkrul_aelfric		1.0000	1.2000	0.0000	
 hkrul_orghotts		orghotts		1.0000	0.9000	0.0000	
 hkrul_hrothyogg		ogr_hrothyogg		1.0000	1.1500	0.0000	
 hkrul_burlok		phy_burlok		1.0000	1.1500	0.0000	
@@ -21,3 +21,4 @@ thm_arbaal_fleshhound_campaign	variantmeshes/wh_variantmodels/bc4/dae/thm_fleshh
 hkrul_engra		hkrul_engra		1.0000	1.2400	0.0000	
 hkrul_vroth		hkrul_vroth		1.0000	1.1000	0.0000	
 hkrul_karitamen		thm_tmb_karitamen		1.0000	1.2000	0.0000	
+hkrul_duriath		hkrul_duriath		1.0000	1.1800	0.0000	

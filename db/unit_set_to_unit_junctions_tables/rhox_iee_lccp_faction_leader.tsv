@@ -33,3 +33,4 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_zach	wh2_dlc13_emp_elector_count_reward_units	false
 			hef_calith_torinubar	hef_casters	false
 			hef_calith_torinubar	wh2_dlc15_hef_martial_passives	false
+			hkrul_duriath	def_characters	false

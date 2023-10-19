@@ -656,7 +656,33 @@ local rhox_iee_list={
         first_tick = function(faction, faction_key) 
         end
     },
+    
+    cr_def_corsairs_of_spite ={
+        leader={
+            subtype="hkrul_duriath",
+            unit_list="wh2_main_def_inf_bleakswords_0,wh2_main_def_inf_darkshards_1",
+            x=1091,
+            y=381,
+            forename ="names_name_1369138461",
+            familiyname ="names_name_1369138462",
+        },
+        agent={
+            type="wizard",
+            subtype="wh2_dlc10_def_sorceress_death"
+        },
+        hand_over_region=nil,
+        region="cr_combi_region_ind_1_1",
+        how_they_play="rhox_iee_lccp_how_they_play_duriath",
+        pic=782,
+        faction_trait="rhox_duriath_faction_trait",
+        enemy=nil,
+        additional = function(faction, faction_key) 
+        end,
+        first_tick = function(faction, faction_key) 
+        end
+    },
 }
+
 
 
 

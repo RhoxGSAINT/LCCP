@@ -11,9 +11,11 @@ rhox_volrik_chs_sorcerer_lord_tzeentch_mtze	general	false	false				rhox_volrik_c
 rhox_hrothyogg_recruiter	wizard	false	false				rhox_hrothyogg_recruiter
 skill_node_set_hkrul_spew	general	false	false				hkrul_orghotts
 skill_node_set_hkrul_thorgar	general	false	false				hkrul_thorgar
+skill_node_set_hkrul_thorgar_daemon_prince	general	false	false				hkrul_thorgar_daemon_prince
 hkrul_slaurith_skills	general	false	false				hkrul_slaurith
 skill_node_set_hkrul_dolmance	general	false	false				hkrul_dolmance
 skill_node_set_hkrul_engra	general	false	false				hkrul_engra
 skill_node_set_hkrul_vroth	general	false	false				hkrul_vroth
 skill_node_set_hkrul_arbaal	general	false	false				hkrul_arbaal
 skill_node_set_hkrul_karitamen	general	false	false				hkrul_karitamen
+skill_node_set_hkrul_duriath	general	false	false				hkrul_duriath

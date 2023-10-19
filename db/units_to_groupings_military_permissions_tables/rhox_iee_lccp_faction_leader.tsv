@@ -1,5 +1,5 @@
 unit	military_group
-#units_to_groupings_military_permissions_tables;0;db/units_to_groupings_military_permissions_tables/rhox_iee_lccp	
+#units_to_groupings_military_permissions_tables;0;db/units_to_groupings_military_permissions_tables/rhox_iee_lccp_faction_leader	
 hkrul_sceolan	wh_dlc05_group_wood_elves
 hkrul_valbrand	wh_main_group_norsca
 hkrul_volrik	wh_main_group_norsca
@@ -11,6 +11,8 @@ hkrul_zach_mount	wh_main_group_vampire_counts
 hkrul_zach_mount_2	wh_main_group_vampire_counts
 hkrul_zach_mount_3	wh_main_group_vampire_counts
 hef_calith_torinubar	wh2_main_hef
+hef_calith_torinubar_eagle	wh2_main_hef
+hef_calith_torinubar_dragon	wh2_main_hef
 hkrul_spew	wh3_main_nur
 hkrul_dolmance	wh_main_group_bretonnia
 hkrul_dolmance_mount	wh_main_group_bretonnia
@@ -33,3 +35,4 @@ hkrul_vroth_mount_3	wh_main_group_norsca
 hkrul_karitamen	wh2_dlc09_tomb_kings
 hkrul_karitamen_horse	wh2_dlc09_tomb_kings
 hkrul_karitamen_chariot	wh2_dlc09_tomb_kings
+hkrul_duriath	wh2_main_def
