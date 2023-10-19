@@ -134,6 +134,7 @@ local rhox_iee_list={
                     mm:add_condition("region wh3_main_combi_region_bordeleaux");
                     mm:add_condition("region wh3_main_combi_region_pfeildorf");
                     mm:add_condition("total 4");
+                    mm:add_condition("ignore_allies");
                     mm:add_payload("money 1000");
                     mm:trigger()
                 end
@@ -677,6 +678,18 @@ local rhox_iee_list={
         faction_trait="rhox_duriath_faction_trait",
         enemy=nil,
         additional = function(faction, faction_key) 
+            cm:add_building_to_force(faction:faction_leader():military_force():command_queue_index(), "rhox_duriath_black_ark_special_1")
+            
+            if faction:is_human() then
+                local mm = mission_manager:new(faction_key, "rhox_duriath_init_mission")
+                if mm then
+                    mm:add_new_objective("CAPTURE_REGIONS");
+                    mm:add_condition("region cr_combi_region_elithis_1_1");
+                    mm:add_condition("ignore_allies");
+                    mm:add_payload("money 1000");
+                    mm:trigger()
+                end
+            end
         end,
         first_tick = function(faction, faction_key) 
         end

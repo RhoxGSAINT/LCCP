@@ -20,3 +20,5 @@ rhox_dolmance_slaanesh			money	true	wh2_main_sch_support2_worship		3		true
 rhox_dolmance_sunstory			money	false	rhox_dolmance_sunstory		0		true
 rhox_dolmance_treasure_wine			money	false	rhox_dolmance_treasure_wine		0		true
 rhox_thorgar_dae_advanced			military	false	wh2_main_sch_support1_smith		0		true
+rhox_duriath_black_ark_special			military	false	rhox_duriath_black_ark_special		3	hkrul_duriath	true
+rhox_duriath_tor_elithis			military	false	rhox_duriath_tor_elithis		0		true
