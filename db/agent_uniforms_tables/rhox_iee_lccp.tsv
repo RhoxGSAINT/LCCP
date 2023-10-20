@@ -1,6 +1,6 @@
 uniform_name	filename	battle_filename	campaign_porthole_filename	campaign_politician_filename	campaign_override_skeleton
 #agent_uniforms_tables;10;db/agent_uniforms_tables/rhox_iee_lccp					
-hkrul_sceolan	hkrul_sceolan	hkrul_sceolan	hkrul_sceolan		
+hkrul_sceolan	hkrul_sceolan_campaign	hkrul_sceolan	hkrul_sceolan		
 hkrul_valbrand	hkrul_valbrand	hkrul_valbrand	hkrul_valbrand		
 hkrul_volrik	hkrul_volrik	hkrul_volrik	hkrul_volrik		
 hkrul_zach	hkrul_zach	hkrul_zach	hkrul_zach		

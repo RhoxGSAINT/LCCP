@@ -12,14 +12,8 @@
 		<VARIANT_MESH model="variantmeshes\wh_variantmodels\hu1d\wef\sceolan\sceolan_shield.wsmodel" >
 			<META_DATA>audio_shield_type:wood</META_DATA>			<META_DATA>equipment</META_DATA></VARIANT_MESH>
 	</SLOT>
-	<SLOT attach_point="be_prop_3" name="weapon_3">
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/hef/hef_props/hef_archers_bow_01_rigid.rigid_model_v2">
-			<META_DATA>equipment</META_DATA>
-		</VARIANT_MESH>
-	</SLOT>
-    <SLOT attach_point="be_prop_4" name="weapon_4">
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/wef/wef_props/wef_glade_lord_arrow_01.rigid_model_v2" />
-	</SLOT>
+	<SLOT attach_point="be_prop_3" name="weapon_3"/>
+    <SLOT attach_point="be_prop_4" name="weapon_4"/>
 	<SLOT attach_point="be_prop_5" name="weapon_5"/>
     <SLOT name="quiver" >
 		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1d\wef\wef_glade_lord\wef_glade_lord_quiver_01.rigid_model_v2"  />
