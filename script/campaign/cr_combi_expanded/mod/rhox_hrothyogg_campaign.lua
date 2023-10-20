@@ -228,8 +228,81 @@ core:add_listener(
 );
 
 
+-------------------------------hrothyogg toll
 
 
+local function rhox_hrothyogg_trigger_incident(hrothyogg_character, hrothyogg_faction, character_list, candidate_faction)
+    out("Rhox Hrothyogg: Checking faction: ".. faction:name())
+	local target = nil
+	for i=0, character_list:num_items()-1 do
+		local candidate = character_list:item_at(i)
+		if candidate:character_type_key() == "general" then
+            target = candidate
+			break
+		end
+	end
+
+	if not target then
+		return
+	end
+	
+	out("Rhox Hrothyogg: Found a target!")
+
+	if hrothyogg_faction:is_human() then
+		local incident_builder = cm:create_incident_builder("rhox_hrothyogg_toll_collected")
+		incident_builder:add_target("default", target:military_force())
+		local payload_builder = cm:create_payload()
+        payload_builder:treasury_adjustment(1000)
+        incident_builder:set_payload(payload_builder)
+		cm:launch_custom_incident_from_builder(incident_builder, hrothyogg_faction)
+	else
+		cm:treasury_mod(hrothyogg_faction:name(), 1000)
+	end
+
+	if target:faction():is_human() then
+		local incident_builder = cm:create_incident_builder("rhox_hrothyogg_toll_gang")
+		incident_builder:add_target("default", hrothyogg_character:military_force())
+		local payload_builder = cm:create_payload()
+        payload_builder:treasury_adjustment(-1000)
+        incident_builder:set_payload(payload_builder)
+		cm:launch_custom_incident_from_builder(incident_builder, target:faction())
+	else
+		cm:treasury_mod(target:faction():name(), -1000)
+	end
+end
+
+
+
+core:add_listener(--this is too expensive should I keep doing it
+    "rhox_hrothyogg_character_turn_start",
+    "CharacterTurnStart",
+    function (context)
+        local character = context:character()
+        return character:character_subtype_key() == "hkrul_hrothyogg" and character:region() and character:region():is_null_interface()==false and character:region():owning_faction() and character:region():owning_faction():name() == character:faction():name()
+		--character has to be hrothyogg, the region he is standing is owned by him
+    end,
+    function(context)
+        out("Rhox Hrothyogg: Start!")
+        local character = context:character()
+		local region = character:region()
+		local region_data = region:region_data_interface()
+		local hrothyogg_faction = character:faction()
+
+		local all_factions = cm:model():world():faction_list();
+		local faction = nil;
+		for i=0, all_factions:num_items()-1 do
+			faction = all_factions:item_at(i)
+			if faction:name() ~= hrothyogg_faction:name() and not hrothyogg_faction:at_war_with(faction) and not hrothyogg_faction:allied_with(faction) then --the faction is not hrothy faction, is not at war, is not allied with
+                --out("Rhox Hrothyogg: Checking faction: ".. faction:name())
+				local character_list= region_data:characters_of_faction_in_region(faction)
+				if character_list and character_list:num_items()>=1 then --check whether there is a character in the region
+					rhox_hrothyogg_trigger_incident(character, hrothyogg_faction, character_list, faction)
+				end
+			end 
+		end
+    end,
+    true
+)
 
 
 

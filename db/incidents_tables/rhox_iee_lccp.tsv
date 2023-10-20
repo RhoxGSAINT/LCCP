@@ -3,3 +3,5 @@ key	generate	ui_image	prioritised	event_category	override_icon	is_large_incident
 rhox_hrothyogg_mercenary_recruiter	false	messenger	false	Event		false		0.0000
 rhox_hrothyogg_mercenary_branch_established	false	ogr/messenger	false	Event		false		0.0000
 rhox_hrothyogg_mercenary_recieved	false	ogr/messenger	false	Event		false		0.0000
+rhox_hrothyogg_toll_collected	false	ogr/messenger	false	Event		false		0.0000
+rhox_hrothyogg_toll_gang	false	ogr/messenger	false	Event		false		0.0000
