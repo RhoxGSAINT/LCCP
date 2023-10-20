@@ -2,5 +2,5 @@
 <warscape_requirements
 	version="1">
 	<model
-		filepath="VariantMeshes/VariantMeshDefinitions/hkrul_sceolan.VariantMeshDefinition"/>
+		filepath="VariantMeshes/VariantMeshDefinitions/hkrul_sceolan_campaign.VariantMeshDefinition"/>
 </warscape_requirements>

@@ -1,6 +1,7 @@
 variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
 #variants_tables;6;db/variants_tables/rhox_iee_lccp_characters							
 hkrul_sceolan		hkrul_sceolan		1.0000	1.1000	0.0000	
+hkrul_sceolan_campaign		hkrul_sceolan_campaign		1.0000	1.1000	0.0000	
 hkrul_valbrand		phy_valbrand		1.0000	1.2000	0.0000	
 hkrul_volrik		hkrul_volrik		1.0000	1.1700	0.0000	
 hkrul_zach		hkrul_zach		1.0000	1.1600	0.0000	

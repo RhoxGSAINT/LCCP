@@ -92,12 +92,12 @@
 				num_models="1">
                 <model_list>
                     <ComponentModel
-                        filepath="VariantMeshes/VariantMeshDefinitions/hkrul_sceolan.VariantMeshDefinition"
+                        filepath="VariantMeshes/VariantMeshDefinitions/hkrul_sceolan_campaign.VariantMeshDefinition"
                         id="model_0"
                         num_anims="1"
                         skeleton_type="humanoid01d">
                         <animation_paths>
-                            <path value="animations\battle\humanoid01d\bow_and_spear\combat_idle\hu1d_bosp_combat_pose_01.anim"/>
+                            <path value="animations/battle/humanoid01d/spear_and_shield/stand/hu1d_sps_stand_01.anim"/>
                         </animation_paths>
                     </ComponentModel>
                 </model_list>
