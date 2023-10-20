@@ -1,0 +1,4 @@
+phase	stat	value	how
+#special_ability_phase_stat_effects_tables;3;db/special_ability_phase_stat_effects_tables/hkrul_lccp			
+hkrul_hroth_stew	stat_mass	1.5000	mult
+hkrul_hroth_stew	scalar_bracing	1.5000	mult
