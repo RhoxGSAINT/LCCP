@@ -23,7 +23,9 @@ rhox_engra_vassal_effect_script_value	weapon_damage.png	461	weapon_damage.png	ba
 rhox_engra_archaon_effect_dummy	allegiance.png	1	allegiance.png	battle	true
 rhox_arbaal_resource_per_turn	effect_bundle_arbaal.png	461	effect_bundle_arbaal.png	campaign	true
 rhox_arbaal_spawn_spawn	item_ability.png	300	item_ability.png	battle	true
+hkrul_hroth_stew	item_ability.png	300	item_ability.png	battle	true
 effect_bundle_arbaal_dummy1	effect_bundle_arbaal_dummy1.png	3	effect_bundle_arbaal_dummy1.png	both	true
 effect_bundle_arbaal_dummy2	effect_bundle_arbaal_dummy2.png	3	effect_bundle_arbaal_dummy2.png	both	false
 rhox_thorgar_chaos_dummy	reign_of_chaos.png	1	reign_of_chaos.png	campaign	true
 rhox_thorgar_sacrifice_dummy	reign_of_chaos.png	1	reign_of_chaos.png	campaign	true
+hkrul_hroth_income_negative	income.png	1	income.png	campaign	false

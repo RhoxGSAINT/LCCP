@@ -1,7 +1,7 @@
 key	text	tooltip
 #Loc;1;text/db/hkrul_karitamen_skills.loc		
 character_skills_localised_description_innate_hkrul_karitamen	Lord Karitamen	false
-character_skills_localised_name_innate_hkrul_karitamen	Lord Karitamen	false
+character_skills_localised_name_innate_hkrul_karitamen	Chosen of Ptra	false
 character_skills_localised_description_hkrul_karitamen_horse	Long-dead destriers, awakened to serve their Unliving masters far beyond death.	false
 character_skills_localised_name_hkrul_karitamen_horse	Skeletal Steed	false
 character_skills_localised_description_hkrul_karitamen_chariot	The pride of Nehekharan armies, impacting enemy lines with bone-shattering force and grinding the corpses beneath their heavy wheels.	false
