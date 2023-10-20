@@ -29,5 +29,6 @@ effect_bundle_arbaal_dummy2	effect_bundle_arbaal_dummy2.png	3	effect_bundle_arba
 rhox_thorgar_chaos_dummy	reign_of_chaos.png	1	reign_of_chaos.png	campaign	true
 rhox_thorgar_sacrifice_dummy	reign_of_chaos.png	1	reign_of_chaos.png	campaign	true
 hkrul_hroth_income_negative	income.png	1	income.png	campaign	false
+rhox_hrothyogg_toll_dummy	diplomacy.png	106	diplomacy.png	campaign	true
 hkrul_burlok_building_time_dwf_engineers	construction.png	200	construction.png	campaign	false
 hkrul_burlok_building_cost_dwf_engineers	treasury.png	200	treasury.png	campaign	false

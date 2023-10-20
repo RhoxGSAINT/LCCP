@@ -9,3 +9,7 @@ incidents_localised_title_rhox_hrothyogg_mercenary_recieved	Mercenary Received	f
 event_feed_strings_text_rhox_arbaal_punishment_title	Khorne's punishment	false
 event_feed_strings_text_rhox_arbaal_punishment_primary_detail	Khorne's punishment	false
 event_feed_strings_text_rhox_arbaal_punishment_secondary_detail	Your actions in these dire times have displeased the Khorne. \\n\\n[[col:dark_r]][[img:ui/campaign ui/effect_bundles/effect_bundle_arbaal.png]][[/img]] Your faction has lost huge amount of reputation and will suffer from the consequences[[/col]]	false
+incidents_localised_description_rhox_hrothyogg_toll_collected	You have collected a toll from tresspassing forces. Lovely	false
+incidents_localised_title_rhox_hrothyogg_toll_collected	Toll Collected	false
+incidents_localised_description_rhox_hrothyogg_toll_gang	Notorious Ogre Hrothyogg, has collected toll from you\\n\\n[[col:red]]This has happened because you were in the same region with Hrothyogg where he is controlling the settlement while not having allaince or war with him[[/col]]	false
+incidents_localised_title_rhox_hrothyogg_toll_gang	Toll Robbery	false
