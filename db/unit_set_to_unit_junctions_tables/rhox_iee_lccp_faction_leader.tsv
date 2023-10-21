@@ -11,6 +11,16 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_engra	all_non_chs	false
 			hkrul_engra	wh2_dlc13_emp_elector_count_reward_units	false
 			hkrul_sceolan	wh2_dlc13_emp_elector_count_reward_units	false
+			hkrul_sceolan	flying_units	false
+			hkrul_sceolan	wef_dlc05_elf_characters	false
+			hkrul_sceolan	wef_dlc05_wood_elf_elf_units	false
+			hkrul_sceolan	wh2_twa02_wef_glade_lords_glade_captains	false
+			hkrul_sceolan_dragon	wh2_dlc13_emp_elector_count_reward_units	false
+			hkrul_sceolan_dragon	flying_units	false
+			hkrul_sceolan_dragon	wef_dlc05_elf_characters	false
+			hkrul_sceolan_dragon	wef_dlc05_wood_elf_elf_units	false
+			hkrul_sceolan_dragon	wh2_dlc16_wef_dragons_dragon_mounts	false
+			hkrul_sceolan_dragon	wh2_twa02_wef_glade_lords_glade_captains	false
 			hkrul_slaurith	wh3_main_kho_all	false
 			hkrul_slaurith	wh3_main_kho_nur_all	false
 			hkrul_slaurith	wh2_dlc13_emp_elector_count_reward_units	false

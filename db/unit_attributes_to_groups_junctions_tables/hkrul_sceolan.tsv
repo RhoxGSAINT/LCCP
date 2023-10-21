@@ -4,3 +4,8 @@ encourages	hkrul_sceolan_attr
 hide_forest	hkrul_sceolan_attr
 mounted_fire_move	hkrul_sceolan_attr
 ignore_trees	hkrul_sceolan_attr
+causes_fear	hkrul_sceolan_dragon_attr
+causes_terror	hkrul_sceolan_dragon_attr
+encourages	hkrul_sceolan_dragon_attr
+flying	hkrul_sceolan_dragon_attr
+mounted_fire_move	hkrul_sceolan_dragon_attr

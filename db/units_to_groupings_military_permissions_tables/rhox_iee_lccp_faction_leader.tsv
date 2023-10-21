@@ -1,6 +1,7 @@
 unit	military_group
 #units_to_groupings_military_permissions_tables;0;db/units_to_groupings_military_permissions_tables/rhox_iee_lccp_faction_leader	
 hkrul_sceolan	wh_dlc05_group_wood_elves
+hkrul_sceolan_dragon	wh_dlc05_group_wood_elves
 hkrul_valbrand	wh_main_group_norsca
 hkrul_volrik	wh_main_group_norsca
 hkrul_volrik_mount	wh_main_group_norsca

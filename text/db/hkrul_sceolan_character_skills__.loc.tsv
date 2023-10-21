@@ -2,12 +2,6 @@ key	text	tooltip
 #Loc;1;text/db/hkrul_sceolan_character_skills__.loc		
 character_skills_localised_name_innate_hkrul_sceolan	Ruler of Atylwyth	true
 character_skills_localised_description_innate_hkrul_sceolan	"Unlike other regions of the forest, Atylwyth's defence has ever relied upon the bravery and battle-skill of the Elves alone"	true
-character_skills_localised_description_hkrul_sceolan_mount	Placeholder Text Placeholder Text	true
-character_skills_localised_name_hkrul_sceolan_mount	Barded Warhorse	true
-character_skills_localised_name_hkrul_sceolan_mount_2	Imperial Pegasus	false
-character_skills_localised_description_hkrul_sceolan_mount_2	Placeholder Text Placeholder Text	false
-character_skills_localised_name_hkrul_sceolan_mount_3	Imperial Griffon	false
-character_skills_localised_description_hkrul_sceolan_mount_3	Placeholder Text Placeholder Text	false
 character_skills_localised_description_rhox_sceolan_the_bow_of_loren	The Bow of Loren is strung with the hair of Elf maids and enchanted with potent charms for increased power.	false
 character_skills_localised_description_rhox_sceolan_the_buckler	Sceolan carries a buckler instead of an ordinary shield. This is a small shield with a spiked front, the spikes are arranged in an arcane pattern	false
 character_skills_localised_description_rhox_sceolan_ambush_master	Sceolan has a tactical mind for finding the enemy at their weakest and making them suffer.	false
@@ -20,3 +14,5 @@ character_skills_localised_name_rhox_sceolan_ambush_master	Ambush Master	false
 character_skills_localised_name_rhox_sceolan_lord_of_winterheart	Lord of Winterheart	false
 character_skills_localised_name_rhox_sceolan_up_close_personal	Up Close & Personal	false
 character_skills_localised_name_rhox_sceolan_wise_cunning	Wise & Cunning	false
+character_skills_localised_description_rhox_sceolan_dragon	Hailing from deep within the forests of the Old World, this dragon breathes deadly, poisonous fumes instead of fire.	false
+character_skills_localised_name_rhox_sceolan_dragon	Forest Dragon	false
