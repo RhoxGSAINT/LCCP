@@ -34,3 +34,17 @@ armoured	hkrul_duriath
 armour_piercing	hkrul_hrothyogg
 ogre_charge	hkrul_hrothyogg
 melee_expert	hkrul_hrothyogg
+damage_dealer	hkrul_sceolan
+melee_expert	hkrul_sceolan
+armoured	hkrul_sceolan
+armoured	hkrul_spew
+poison	hkrul_spew
+forest_spirit	hkrul_sceolan_dragon
+poison	hkrul_sceolan_dragon
+scaly_skin	hkrul_sceolan_dragon
+terror	hkrul_sceolan_dragon
+spellcaster	hkrul_karitamen
+spellcaster	hkrul_karitamen_horse
+anti_infantry	hkrul_karitamen_chariot
+armoured	hkrul_karitamen_chariot
+spellcaster	hkrul_karitamen_chariot
