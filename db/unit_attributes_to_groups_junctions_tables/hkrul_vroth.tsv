@@ -1,3 +1,6 @@
 attribute	attribute_group
 #unit_attributes_to_groups_junctions_tables;2;db/unit_attributes_to_groups_junctions_tables/hkrul_vroth	
 hide_forest	hkrul_vroth
+encourages	hkrul_vroth
+hide_forest	hkrul_vroth_chariot
+encourages	hkrul_vroth_chariot

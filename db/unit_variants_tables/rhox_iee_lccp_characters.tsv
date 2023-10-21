@@ -24,13 +24,10 @@ faction	unit	name	variant	unit_card
 	hkrul_arbaal_mounted	hkrul_arbaal_mounted	hkrul_arbaal_mounted	placeholder
 	rhox_arbaal_spawn	wh3_main_kho_mon_spawn_of_khorne_0	wh3_main_kho_chaos_spawn	wh3_main_kho_mon_spawn_of_khorne_0
 	hkrul_engra	hkrul_engra	hkrul_engra	hkrul_engra
-	hkrul_engra_mount	hkrul_engra	hkrul_engra	hkrul_engra
-	hkrul_engra_mount_2	hkrul_engra	hkrul_engra	hkrul_engra
-	hkrul_engra_mount_3	hkrul_engra	hkrul_engra	hkrul_engra
+	hkrul_engra_horse	hkrul_engra	hkrul_engra	hkrul_engra
 	hkrul_vroth	hkrul_vroth	hkrul_vroth	hkrul_vroth
-	hkrul_vroth_mount	hkrul_vroth	hkrul_vroth	hkrul_vroth
-	hkrul_vroth_mount_2	hkrul_vroth	hkrul_vroth	hkrul_vroth
-	hkrul_vroth_mount_3	hkrul_vroth	hkrul_vroth	hkrul_vroth
+	hkrul_vroth_chariot	hkrul_vroth	hkrul_vroth	hkrul_vroth
+	hkrul_vroth_mammoth	hkrul_vroth	hkrul_vroth	hkrul_vroth
 	hkrul_karitamen	hkrul_karitamen	hkrul_karitamen	hkrul_karitamen
 	hkrul_karitamen_horse	hkrul_karitamen	hkrul_karitamen	hkrul_karitamen
 	hkrul_karitamen_chariot	hkrul_karitamen	hkrul_karitamen	hkrul_karitamen
