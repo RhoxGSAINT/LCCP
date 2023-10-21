@@ -11,9 +11,6 @@ hkrul_skill_node_volrik_campaign_08		wh_dlc08_skill_nor_lords_campaign_savage_sk
 hkrul_skill_node_volrik_campaign_09		wh_dlc08_skill_nor_lords_campaign_unnatural_healing		5	8		0	0	true
 hkrul_skill_node_volrik_campaign_10		wh_dlc08_skill_nor_lords_campaign_fuelled_by_war		5	9		0	0	true
 hkrul_skill_node_volrik_campaign_11		wh_dlc08_skill_nor_lords_campaign_spawn_of_chaos		5	10		0	4	true
-hkrul_skill_node_volrik_unique_01		wh_dlc08_skill_nor_chieftain_unique_norscan_warhorse		0	0		0	0	true
-hkrul_skill_node_volrik_unique_02		wh_dlc08_skill_nor_chieftain_unique_marauder_chariot		0	1		0	0	true
-hkrul_skill_node_volrik_unique_03		wh_dlc08_skill_nor_chieftain_unique_war_mammoth		0	2		0	0	true
 hkrul_skill_node_volrik_unique_04		wh_dlc08_skill_nor_lords_unique_eye_of_the_gods		0	3		0	0	true
 hkrul_skill_node_volrik_unique_06		wh_main_skill_chs_lord_battle_voice_of_the_dark_gods		0	4		0	0	true
 hkrul_skill_node_volrik_battle_01		wh_main_skill_chs_lord_battle_dominating_presence		4	0		0	0	true
@@ -43,3 +40,4 @@ hkrul_skill_node_volrik_misc_02		hkrul_volrik_special_1_0		1	1		0	0	true
 hkrul_skill_node_volrik_misc_01		hkrul_volrik_special_0_1		0	11		0	0	true
 hkrul_skill_node_volrik_misc_08		hkrul_volrik_special_0_2		0	12		0	0	true
 hkrul_skill_node_volrik_misc_09		hkrul_volrik_banner		6	20		0	0	true
+hkrul_skill_node_volrik_unique_01		hkrul_volrik_chariot		0	1		0	0	true

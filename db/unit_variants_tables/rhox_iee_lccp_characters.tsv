@@ -4,9 +4,7 @@ faction	unit	name	variant	unit_card
 	hkrul_sceolan_dragon	hkrul_sceolan	hkrul_sceolan	hkrul_sceolan
 	hkrul_valbrand	hkrul_valbrand	hkrul_valbrand	hkrul_valbrand
 	hkrul_volrik	hkrul_volrik	hkrul_volrik	hkrul_volrik
-	hkrul_volrik_mount	hkrul_volrik	hkrul_volrik	hkrul_volrik
-	hkrul_volrik_mount_2	hkrul_volrik	hkrul_volrik	hkrul_volrik
-	hkrul_volrik_mount_3	hkrul_volrik	hkrul_volrik	hkrul_volrik
+	hkrul_volrik_chariot	hkrul_volrik	hkrul_volrik	hkrul_volrik
 	hkrul_zach	hkrul_zach	hkrul_zach	hkrul_zach
 	hkrul_zach_mount	hkrul_zach	hkrul_zach	hkrul_zach
 	hkrul_zach_mount_2	hkrul_zach	hkrul_zach	hkrul_zach
