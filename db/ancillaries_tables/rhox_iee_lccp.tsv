@@ -3,7 +3,10 @@ key	type	applies_to	transferrable	unique_to_world	unique_to_faction	precedence	s
 rhox_sceolan_the_bow_of_loren	wh_main_anc_enchanted_item	.	false	false	false	1	0	9999			true	false	false	enchanted_item	16	30	30	50	true			200	0		false	false	false	all
 rhox_sceolan_the_buckler	wh_main_anc_weapon	.	false	false	false	1	0	9999			true	false	false	weapon	16	30	30	50	true			200	0		false	false	false	all
 rhox_sceolan_dragon	wh_dlc05_anc_mount_wef_forest_dragon	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	hkrul_sceolan_dragon		1	0		false	false	true	all
-hef_calith_torinubar_eagle	wh_dlc05_anc_mount_wef_great_eagle	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	hef_calith_torinubar_eagle		1	0		false	false	false	all
-hef_calith_torinubar_dragon	wh2_main_anc_mount_star_dragon	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	hef_calith_torinubar_dragon		1	0		false	false	false	all
-hkrul_karitamen_horse	wh2_dlc09_anc_mount_skeleton_steed_tmb	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	hkrul_karitamen_horse		1	0		false	false	false	all
-hkrul_karitamen_chariot	wh2_dlc09_anc_mount_skeleton_chariot	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	hkrul_karitamen_chariot		1	0		false	false	false	all
+hef_calith_torinubar_eagle	wh_dlc05_anc_mount_wef_great_eagle	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	hef_calith_torinubar_eagle		1	0		false	false	true	all
+hef_calith_torinubar_dragon	wh2_main_anc_mount_star_dragon	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	hef_calith_torinubar_dragon		1	0		false	false	true	all
+hkrul_karitamen_horse	wh2_dlc09_anc_mount_skeleton_steed_tmb	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	hkrul_karitamen_horse		1	0		false	false	true	all
+hkrul_karitamen_chariot	wh2_dlc09_anc_mount_skeleton_chariot	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	hkrul_karitamen_chariot		1	0		false	false	true	all
+hkrul_duriath_horse	wh2_main_anc_mount_dark_steed	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	hkrul_duriath_horse		1	0		false	false	true	all
+hkrul_duriath_pegasus	wh2_main_anc_mount_dark_pegasus	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	hkrul_duriath_pegasus		1	0		false	false	true	all
+hkrul_duriath_dragon	wh2_main_anc_mount_black_dragon	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	hkrul_duriath_dragon		1	0		false	false	true	all

@@ -1,0 +1,5 @@
+faction_key	campaign_key	level	skill_key	subculture_key	image_path	unlocked_at_rank
+#character_skill_level_details_tables;1;db/character_skill_level_details_tables/hkrul_duriath						
+		1	hkrul_duriath_horse		x	3
+		1	hkrul_duriath_pegasus		x	13
+		1	hkrul_duriath_dragon		x	17

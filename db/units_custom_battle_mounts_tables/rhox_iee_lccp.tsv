@@ -5,3 +5,6 @@ hef_calith_torinubar	hef_calith_torinubar_dragon	ui/campaign ui/mounts/mount_sta
 hkrul_karitamen	hkrul_karitamen_horse	ui/campaign ui/mounts/mount_skeletal_steed_tmb.png
 hkrul_karitamen	hkrul_karitamen_chariot	ui/campaign ui/mounts/mount_skeleton_chariot.png
 hkrul_sceolan	hkrul_sceolan_dragon	ui/campaign ui/mounts/mount_forest_dragon.png
+hkrul_duriath	hkrul_duriath_horse	ui/campaign ui/mounts/mount_dark_steed.png
+hkrul_duriath	hkrul_duriath_dragon	ui/campaign ui/mounts/mount_black_dragon.png
+hkrul_duriath	hkrul_duriath_pegasus	ui/campaign ui/mounts/mount_dark_pegasus.png

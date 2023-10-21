@@ -3,6 +3,3 @@ key	type	applies_to	transferrable	unique_to_world	unique_to_faction	precedence	s
 hkrul_dolmance_banner	hkrul_dolmance_banner	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true		hkrul_dolmance_banner	200	1	banner	false	false	false	all
 hkrul_dolmance_holz	hkrul_dolmance_holz	.	true	false	false	1	0	9999			false	false	false	general	1	1	50	75	true			200	0	follower	false	false	false	all
 hkrul_dolmance_sword	wh_main_anc_weapon	.	false	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false	false	false	all
-hkrul_dolmance_mount	wh_main_anc_mount_warhorse	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	hkrul_dolmance_mount		1	1		false	false	false	all
-hkrul_dolmance_mount_3	wh_main_anc_mount_imperial_griffon	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	hkrul_dolmance_mount_3		1	0		false	false	false	all
-hkrul_dolmance_mount_2	wh_main_anc_mount_imperial_pegasus	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	hkrul_dolmance_mount_2		1	0		false	false	false	all

@@ -1,0 +1,10 @@
+key	text	tooltip
+#Loc;1;text/db/hkrul_duriath_skills.loc		
+unit_description_historical_texts_text_hkrul_duriath	Duriath	false
+unit_description_short_texts_text_hkrul_duriath	Duriath	false
+character_skills_localised_description_hkrul_duriath_horse	True horses no longer, Dark Magic corrupts the finest Elven steeds and turns them into black-flanked killers.	false
+character_skills_localised_name_hkrul_duriath_horse	Dark Steed	false
+character_skills_localised_description_hkrul_duriath_pegasus	The corrupted Dark Pegasi fly south from the Chaos Wastes to Naggaroth's Iron Mountains to make their nests.	false
+character_skills_localised_name_hkrul_duriath_pegasus	Dark Pegasus	false
+character_skills_localised_description_hkrul_duriath_dragon	Secretly nurtured by Malekith, Black Dragons are enchanted with Dark Magic that corrupts and enhances.	false
+character_skills_localised_name_hkrul_duriath_dragon	Black Dragon	false

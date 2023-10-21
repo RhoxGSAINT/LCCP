@@ -1,3 +1,6 @@
 key	campaign_key	character_skill_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
 #character_skill_nodes_tables;6;db/character_skill_nodes_tables/hkrul_duriath									
 hkrul_duriath_innate		hkrul_duriath_innate		6	0		1	0	false
+hkrul_duriath_horse		hkrul_duriath_horse		0	1		0	0	true
+hkrul_duriath_pegasus		hkrul_duriath_pegasus		0	2		0	0	true
+hkrul_duriath_dragon		hkrul_duriath_dragon		0	3		0	0	true

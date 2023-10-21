@@ -2,9 +2,6 @@ key	campaign_key	character_skill_key	faction_key	indent	tier	subculture	points_o
 #character_skill_nodes_tables;6;db/character_skill_nodes_tables/hkrul_dolmance									
 hkrul_skill_node_hkrul_dolmance_misc_01		hkrul_dolmance_special_0_1		0	11		0	0	true
 hkrul_skill_node_hkrul_dolmance_misc_02		hkrul_dolmance_special_0_2		0	12		0	0	true
-hkrul_skill_node_hkrul_dolmance_misc_07		hkrul_dolmance_mount		0	1		0	0	true
-hkrul_skill_node_hkrul_dolmance_misc_08		hkrul_dolmance_mount_2		0	2		0	0	true
-hkrul_skill_node_hkrul_dolmance_misc_09		hkrul_dolmance_mount_3		0	3		0	0	true
 hkrul_skill_node_hkrul_dolmance_unique_0		hkrul_dolmance_special_1_0		1	0		0	0	true
 hkrul_skill_node_hkrul_dolmance_unique_1		hkrul_dolmance_special_1_1		1	1		0	0	true
 hkrul_skill_node_hkrul_dolmance_unique_2		hkrul_dolmance_special_1_2		1	2		0	0	true
