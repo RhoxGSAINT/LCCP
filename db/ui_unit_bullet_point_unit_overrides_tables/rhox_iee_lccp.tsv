@@ -29,8 +29,6 @@ anti_infantry	hkrul_arbaal_mounted
 armour_piercing	hkrul_arbaal_mounted
 armoured	hkrul_arbaal_mounted
 frenzy	hkrul_arbaal_mounted
-armour_piercing_ranged	hkrul_duriath
-armoured	hkrul_duriath
 armour_piercing	hkrul_hrothyogg
 ogre_charge	hkrul_hrothyogg
 melee_expert	hkrul_hrothyogg
@@ -48,3 +46,15 @@ spellcaster	hkrul_karitamen_horse
 anti_infantry	hkrul_karitamen_chariot
 armoured	hkrul_karitamen_chariot
 spellcaster	hkrul_karitamen_chariot
+armour_piercing_ranged	hkrul_duriath
+armoured	hkrul_duriath
+armour_piercing_ranged	hkrul_duriath_horse
+armoured	hkrul_duriath_horse
+very_fast	hkrul_duriath_horse
+armour_piercing	hkrul_duriath_dragon
+armoured	hkrul_duriath_dragon
+dragon_breath_noxious	hkrul_duriath_dragon
+terror	hkrul_duriath_dragon
+armour_piercing_ranged	hkrul_duriath_pegasus
+armoured	hkrul_duriath_pegasus
+very_fast	hkrul_duriath_pegasus

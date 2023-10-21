@@ -1,0 +1,5 @@
+character_skill	character_level	upgrade_to_skill_level
+#character_skills_to_level_reached_criterias_tables;0;db/character_skills_to_level_reached_criterias_tables/hkrul_duriath		
+hkrul_duriath_horse	3	1
+hkrul_duriath_pegasus	13	1
+hkrul_duriath_dragon	17	1

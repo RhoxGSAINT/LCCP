@@ -44,3 +44,6 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hef_calith_torinubar	hef_casters	false
 			hef_calith_torinubar	wh2_dlc15_hef_martial_passives	false
 			hkrul_duriath	def_characters	false
+			hkrul_duriath_horse	def_characters	false
+			hkrul_duriath_pegasus	def_characters	false
+			hkrul_duriath_dragon	def_characters	false
