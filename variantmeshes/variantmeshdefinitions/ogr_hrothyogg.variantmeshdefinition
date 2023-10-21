@@ -13,6 +13,4 @@
 	<SLOT name="weapon_5" attach_point="be_prop_5" />
 	<SLOT name="cape" />
 	<SLOT name="head" />
-</VARIANT_MESH>
-
-</VARIANT_MESH>
+</VARIANT_MESH>

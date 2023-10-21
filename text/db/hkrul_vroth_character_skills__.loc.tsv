@@ -16,11 +16,17 @@ character_skills_localised_description_hkrul_vroth_special_1_3	Placeholder Text 
 character_skills_localised_name_hkrul_vroth_special_1_3	The Barrage Abundance	true
 character_skills_localised_description_hkrul_vroth_special_0_2	Placeholder Text Placeholder Text	true
 character_skills_localised_name_hkrul_vroth_special_0_2	Margrave Deathsword	true
-character_skills_localised_description_hkrul_vroth_mount	Placeholder Text Placeholder Text	true
-character_skills_localised_name_hkrul_vroth_mount	Barded Warhorse	true
-character_skills_localised_name_hkrul_vroth_mount_2	Imperial Pegasus	false
-character_skills_localised_description_hkrul_vroth_mount_2	Placeholder Text Placeholder Text	false
-character_skills_localised_name_hkrul_vroth_mount_3	Imperial Griffon	false
-character_skills_localised_description_hkrul_vroth_mount_3	Placeholder Text Placeholder Text	false
 character_skills_localised_description_hkrul_vroth_special_1_4	Placeholder Text Placeholder Text	true
 character_skills_localised_name_hkrul_vroth_special_1_4	Mackensen's Plot	true
+character_skills_localised_description_hkrul_vroth_chariot	Marauder mobs are awarded even greater mobility when riding their crude chariots of bone and wood, lashed together with the guts and sinew of the vanquished.	false
+character_skills_localised_name_hkrul_vroth_chariot	Marauder Chariot	false
+character_skills_localised_description_hkrul_vroth_mammoth	Tainted and savage they may be, but these behemoths remain willing to bear high-status Marauders into battle, trampling flat everything foolish enough to get in their way.	false
+character_skills_localised_name_hkrul_vroth_mammoth	War Mammoth	false
+ancillaries_colour_text_hkrul_vroth_chariot	Marauder mobs are awarded even greater mobility when riding their crude chariots of bone and wood, lashed together with the guts and sinew of the vanquished.	false
+ancillaries_onscreen_name_hkrul_vroth_chariot	Marauder Chariot	false
+ancillaries_colour_text_hkrul_vroth_mammoth	Tainted and savage they may be, but these behemoths remain willing to bear high-status Marauders into battle, trampling flat everything foolish enough to get in their way.	false
+ancillaries_onscreen_name_hkrul_vroth_mammoth	War Mammoth	false
+units_custom_battle_mounts_localised_description_hkrul_vrothhkrul_vroth_chariot	Marauder mobs are awarded even greater mobility when riding their crude chariots of bone and wood, lashed together with the guts and sinew of the vanquished.	false
+units_custom_battle_mounts_mount_name_hkrul_vrothhkrul_vroth_chariot	Marauder Chariot	false
+units_custom_battle_mounts_localised_description_hkrul_vrothhkrul_vroth_mammoth	Tainted and savage they may be, but these behemoths remain willing to bear high-status Marauders into battle, trampling flat everything foolish enough to get in their way.	false
+units_custom_battle_mounts_mount_name_hkrul_vrothhkrul_vroth_mammoth	War Mammoth	false

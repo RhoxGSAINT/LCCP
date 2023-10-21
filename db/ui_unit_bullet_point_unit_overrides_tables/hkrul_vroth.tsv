@@ -3,3 +3,9 @@ bullet_point	unit_key
 anti_large	hkrul_vroth
 ranged_attack	hkrul_vroth
 decent_melee	hkrul_vroth
+anti_infantry	hkrul_vroth_chariot
+ranged_attack	hkrul_vroth_chariot
+decent_melee	hkrul_vroth_chariot
+anti_infantry	hkrul_vroth_mammoth
+damage_dealer	hkrul_vroth_mammoth
+terror	hkrul_vroth_mammoth
