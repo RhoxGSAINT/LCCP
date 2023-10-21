@@ -56,10 +56,7 @@ hkrul_skill_node_zach_special_01		wh2_dlc11_skill_vmp_bloodline_necrarch_unique_
 hkrul_skill_node_zach_special_02		wh2_dlc11_skill_vmp_bloodline_necrarch_unique_wild_heart		1	1		0	0	true
 hkrul_skill_node_zach_special_03		wh2_dlc11_skill_vmp_bloodline_necrarch_unique_life_leeching		1	2		0	0	true
 hkrul_skill_node_zach_special_04		wh2_dlc11_skill_vmp_bloodline_necrarch_unique_nehekharas_noble_blood		1	3		0	1	true
-hkrul_skill_node_zach_unique_01		wh2_dlc11_skill_vmp_bloodline_necrarch_unique_barded_nightmare		0	0		0	0	true
-hkrul_skill_node_zach_unique_02		wh2_dlc11_skill_vmp_bloodline_necrarch_unique_hellsteed		0	1		0	0	true
-hkrul_skill_node_zach_unique_03		wh2_dlc11_skill_vmp_bloodline_necrarch_unique_zombie_dragon		0	2		0	0	true
+hkrul_skill_node_zach_unique_01		hkrul_zach_dragon		0	0		0	0	true
 hkrul_skill_node_zach_unique_04		wh_main_skill_vmp_all_unique_grave_ward		0	5		0	0	true
 hkrul_skill_node_zach_unique_05		wh_main_skill_vmp_lord_battle_aura_of_dark_majesty		0	3		0	0	true
 hkrul_skill_node_zach_unique_06		wh_main_skill_vmp_lord_battle_dark_pact		0	4		0	0	true
-wh3_main_agent_action_scaling_wh2_dlc11_skill_node_set_vmp_bloodline_necrarch_lord		wh3_main_skill_agent_action_success_scaling		99	0		0	0	false

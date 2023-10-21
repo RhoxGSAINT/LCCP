@@ -10,3 +10,6 @@ wh_dlc05_wef_glade_lord_dragon_rider1	hkrul_sceolan_dragon	officer		-1
 wh2_def_dreadlord_dragon	hkrul_duriath_dragon	officer		-1
 wh3_dlc20_chs_cav_chariot_charioteer_mtze	hkrul_volrik_chariot	autonomous_rider	ap_crewposition_0	-1
 hkrul_volrik_chariot_rider	hkrul_volrik_chariot	autonomous_rider	ap_crewposition_1	-1
+wh_main_vmp_cha_vampire_lord_3	hkrul_zach_dragon	officer		-1
+wh_dlc08_nor_all_marauder_chariot_rider1	hkrul_thorgar_chariot	autonomous_rider	ap_crewposition_0	-1
+hkrul_thorgar_chariot_rider	hkrul_thorgar_chariot	autonomous_rider	ap_crewposition_1	-1

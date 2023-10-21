@@ -2,12 +2,6 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 #unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/rhox_iee_lccp_faction_leader					
 			hkrul_dolmance	mp_cap_group_heroes	false
 			hkrul_dolmance	wh2_dlc13_emp_elector_count_reward_units	false
-			hkrul_dolmance_mount	mp_cap_group_heroes	false
-			hkrul_dolmance_mount	wh2_dlc13_emp_elector_count_reward_units	false
-			hkrul_dolmance_mount_2	mp_cap_group_heroes	false
-			hkrul_dolmance_mount_2	wh2_dlc13_emp_elector_count_reward_units	false
-			hkrul_dolmance_mount_3	mp_cap_group_heroes	false
-			hkrul_dolmance_mount_3	wh2_dlc13_emp_elector_count_reward_units	false
 			hkrul_engra	all_non_chs	false
 			hkrul_engra	wh2_dlc13_emp_elector_count_reward_units	false
 			hkrul_sceolan	wh2_dlc13_emp_elector_count_reward_units	false
@@ -30,16 +24,18 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_arbaal_mounted	wh3_main_kho_all	false
 			hkrul_arbaal_mounted	wh3_main_kho_nur_all	false
 			hkrul_arbaal_mounted	wh2_dlc13_emp_elector_count_reward_units	false
+			hkrul_thorgar	all_non_chs	true
 			hkrul_thorgar	nor_all	false
 			hkrul_thorgar	wh2_dlc13_emp_elector_count_reward_units	false
+			hkrul_thorgar_chariot	all_non_chs	true
+			hkrul_thorgar_chariot	nor_all	false
+			hkrul_thorgar_chariot	wh2_dlc13_emp_elector_count_reward_units	false
 			hkrul_valbrand	all_non_chs	false
 			hkrul_valbrand	nor_all	false
 			hkrul_volrik	all_non_chs	false
 			hkrul_volrik	nor_all	false
 			hkrul_vroth	all_non_chs	false
 			hkrul_vroth	nor_all	false
-			hkrul_zach	vmp_all	false
-			hkrul_zach	vmp_dlc04_all_characters	false
 			hkrul_zach	wh2_dlc13_emp_elector_count_reward_units	false
 			hef_calith_torinubar	hef_casters	false
 			hef_calith_torinubar	wh2_dlc15_hef_martial_passives	false
@@ -47,3 +43,10 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_duriath_horse	def_characters	false
 			hkrul_duriath_pegasus	def_characters	false
 			hkrul_duriath_dragon	def_characters	false
+			hkrul_zach	vmp_all	false
+			hkrul_zach	vmp_characters	false
+			hkrul_zach	vmp_dlc04_all_characters	false
+			hkrul_zach_dragon	flying_units	false
+			hkrul_zach_dragon	vmp_all	false
+			hkrul_zach_dragon	vmp_characters	false
+			hkrul_zach_dragon	vmp_dlc04_all_characters	false

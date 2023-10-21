@@ -32,3 +32,4 @@ hkrul_hroth_income_negative	income.png	1	income.png	campaign	false
 rhox_hrothyogg_toll_dummy	diplomacy.png	106	diplomacy.png	campaign	true
 hkrul_burlok_building_time_dwf_engineers	construction.png	200	construction.png	campaign	false
 hkrul_burlok_building_cost_dwf_engineers	treasury.png	200	treasury.png	campaign	false
+hkrul_hrothyogg_crusher	mount.png	50	mount.png	both	true

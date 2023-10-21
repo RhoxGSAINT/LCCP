@@ -1,0 +1,16 @@
+character_skill	character_level	upgrade_to_skill_level
+#character_skills_to_level_reached_criterias_tables;0;db/character_skills_to_level_reached_criterias_tables/rhox_iee_lccp		
+hkrul_duriath_horse	3	1
+hkrul_duriath_pegasus	13	1
+hkrul_duriath_dragon	17	1
+hkrul_karitamen_horse	6	1
+hkrul_karitamen_chariot	13	1
+rhox_sceolan_the_bow_of_loren	12	1
+rhox_sceolan_the_buckler	7	1
+rhox_sceolan_dragon	17	1
+hkrul_volrik_chariot	15	1
+hkrul_zach_dragon	17	1
+hef_calith_torinubar_eagle	11	1
+hef_calith_torinubar_dragon	19	1
+hkrul_hrothyogg_crusher	14	1
+hkrul_thorgar_chariot	9	1
