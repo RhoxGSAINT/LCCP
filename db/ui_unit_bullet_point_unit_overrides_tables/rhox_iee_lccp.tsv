@@ -32,6 +32,10 @@ frenzy	hkrul_arbaal_mounted
 armour_piercing	hkrul_hrothyogg
 ogre_charge	hkrul_hrothyogg
 melee_expert	hkrul_hrothyogg
+anti_large	hkrul_hrothyogg_crusher
+armour_piercing	hkrul_hrothyogg_crusher
+armoured	hkrul_hrothyogg_crusher
+ogre_charge	hkrul_hrothyogg_crusher
 damage_dealer	hkrul_sceolan
 melee_expert	hkrul_sceolan
 armoured	hkrul_sceolan

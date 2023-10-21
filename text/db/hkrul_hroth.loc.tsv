@@ -23,3 +23,9 @@ unit_description_short_texts_text_hkrul_hroth	Hrothyogg the feared maneater, col
 effects_description_hkrul_hroth_income_negative	Income from enemy buildings: %+n%	true
 unit_description_historical_texts_text_hkrul_hroth	This is Historical Description	false
 character_skill_node_sets_enc_title_skill_node_set_hkrul_hroth	Hrothyogg Skills	false
+units_custom_battle_mounts_localised_description_hkrul_hrothyogghkrul_hrothyogg_crusher	This mount don't exist in vanilla make some loc for it HKrul	false
+units_custom_battle_mounts_mount_name_hkrul_hrothyogghkrul_hrothyogg_crusher	Rhinox	false
+character_skills_localised_description_hkrul_hrothyogg_crusher	This mount don't exist in vanilla make some loc for it HKrul	false
+character_skills_localised_name_hkrul_hrothyogg_crusher	Rhinox	false
+ancillaries_colour_text_hkrul_hrothyogg_crusher	This mount don't exist in vanilla make some loc for it HKrul	false
+ancillaries_onscreen_name_hkrul_hrothyogg_crusher	Rhinox	false
