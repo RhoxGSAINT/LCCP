@@ -3,3 +3,5 @@ attribute	phase	attribute_type
 causes_fear	hkrul_valbrand_pal	positive
 mark_tzeentch	hkrul_volrik_blessed	positive
 devastating_flanker	hkrul_spew_riders	positive
+stalk	hkrul_thulgrim_time	positive
+strider	hkrul_thulgrim_time	positive
