@@ -1,0 +1,5 @@
+agent	faction	subtype
+#faction_agent_permitted_subtypes_tables;0;db/faction_agent_permitted_subtypes_tables/hkrul_adventurers		
+champion	cr_dwf_firebeards_excavators	hkrul_rhobb
+champion	cr_dwf_firebeards_excavators	hkrul_thulgrim
+champion	cr_dwf_firebeards_excavators	hkrul_shaz

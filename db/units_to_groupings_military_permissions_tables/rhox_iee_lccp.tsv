@@ -1,0 +1,5 @@
+unit	military_group
+#units_to_groupings_military_permissions_tables;0;db/units_to_groupings_military_permissions_tables/rhox_iee_lccp	
+hkrul_rhobb	wh_main_group_dwarfs
+hkrul_thulgrim	wh_main_group_dwarfs
+hkrul_shaz	wh_main_group_dwarfs

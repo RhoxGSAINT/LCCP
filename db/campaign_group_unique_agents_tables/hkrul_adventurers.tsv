@@ -1,0 +1,5 @@
+campaign_group	unique_agent	base_charges
+#campaign_group_unique_agents_tables;0;db/campaign_group_unique_agents_tables/hkrul_adventurers		
+wh_main_feature_dwarfs	hkrul_rhobb	1
+wh_main_feature_dwarfs	hkrul_thulgrim	1
+wh_main_feature_dwarfs	hkrul_shaz	1
