@@ -1,4 +1,4 @@
 model	animation_set	variant	scale	actor	ignore_rider_variant_scale	vfx_filter	banner_relative_to_mount
 #campaign_mounts_tables;8;db/campaign_mounts_tables/rhox_iee_lccp							
 hkrul_arbaal_mount	cam_bc4_valtyrsgandr	thm_arbaal_fleshhound_campaign	1.0000	wh3_main_vo_culture_Fleshhound	false	0	false
-hkrul_hrothyogg_crusher	cam_lord_hq2_wh3_lucky_rhinox_kou	wh3_main_ogr_rhinox	0.8500	wh3_main_vo_culture_Ogres	false	0	false
+hkrul_hrothyogg_crusher	cam_lord_hq2_wh3_lucky_rhinox_kou	rhox_hrothyogg_rhinox	0.8500	wh3_main_vo_culture_Ogres	false	0	false
