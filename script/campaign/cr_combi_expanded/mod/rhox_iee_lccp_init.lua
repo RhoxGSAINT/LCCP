@@ -87,10 +87,6 @@ local rhox_iee_list={
         end,
         first_tick = function(faction, faction_key) 
             burlok:initialise()
-            -------TODO temp
-            cm:spawn_unique_agent(faction:command_queue_index(), "hkrul_rhobb", true)
-            cm:spawn_unique_agent(faction:command_queue_index(), "hkrul_thulgrim", true)
-            cm:spawn_unique_agent(faction:command_queue_index(), "hkrul_shaz", true)
         end
     },
     rhox_brt_reveller_of_domance ={

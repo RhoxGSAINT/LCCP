@@ -1,8 +1,8 @@
 key	cast_time	completion_payload	cooldown_time	category	slave_cost	global_cooldown_time	start_payload	icon	failure_cooldown_time	required_resources	expended_resources	target	target_expended_resources	target_required_resources	target_cooldown	target_category_cooldown	effects_while_performing	custom_cost_id	on_trigger_vo_event	flags	self_payload
 #rituals_tables;0;db/rituals_tables/rhox_iee_lccp																					
-rhox_burlok_ritual_burlok_artifact_1	0	rhox_burlok_ritual_burlok_artifact_1	9001	CRAFTING_RITUAL	0	0			0	rhox_burlok_ritual_burlok_artifact_1					0	0				default	
-rhox_burlok_ritual_burlok_artifact_2	0	rhox_burlok_ritual_burlok_artifact_2	9001	CRAFTING_RITUAL	0	0			0	rhox_burlok_ritual_burlok_artifact_2					0	0				default	
-rhox_burlok_ritual_burlok_artifact_3	0	rhox_burlok_ritual_burlok_artifact_3	9001	CRAFTING_RITUAL	0	0		UI\skins\default\icon_god_choice_thungni.png	0	rhox_burlok_ritual_burlok_artifact_3					0	0				default	
+rhox_burlok_ritual_burlok_artifact_1	0	rhox_burlok_ritual_burlok_artifact_1	9001	CRAFTING_RITUAL	0	0		ui/portraits/units/wh_main_dwf_dwarfs/hkrul_rhobb.png	0	rhox_burlok_ritual_burlok_artifact_1					0	0				default	
+rhox_burlok_ritual_burlok_artifact_2	0	rhox_burlok_ritual_burlok_artifact_2	9001	CRAFTING_RITUAL	0	0		ui/portraits/units/wh_main_dwf_dwarfs/hkrul_thulgrim.png	0	rhox_burlok_ritual_burlok_artifact_2					0	0				default	
+rhox_burlok_ritual_burlok_artifact_3	0	rhox_burlok_ritual_burlok_artifact_3	9001	CRAFTING_RITUAL	0	0		ui/portraits/units/wh_main_dwf_dwarfs/hkrul_shaz.png	0	rhox_burlok_ritual_burlok_artifact_3					0	0				default	
 rhox_burlok_ritual_burlok_artifact_4	0	rhox_burlok_ritual_burlok_artifact_4	9001	CRAFTING_RITUAL	0	0		UI\skins\default\icon_god_choice_morgrim.png	0	rhox_burlok_ritual_burlok_artifact_4					0	0				default	
 rhox_burlok_ritual_burlok_artifact_5	0	rhox_burlok_ritual_burlok_artifact_5	9001	CRAFTING_RITUAL	0	0		UI\skins\default\icon_god_choice_smednir.png	0	rhox_burlok_ritual_burlok_artifact_5					0	0				default	
 rhox_burlok_ritual_burlok_artifact_6	0	rhox_burlok_ritual_burlok_artifact_6	9001	CRAFTING_RITUAL	0	0			0	rhox_burlok_ritual_burlok_artifact_6					0	0				default	
