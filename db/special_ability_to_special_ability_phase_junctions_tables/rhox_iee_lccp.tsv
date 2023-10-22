@@ -6,3 +6,6 @@ order	special_ability	target_self	target_friends	target_enemies	phase
 4	rhox_sceolan_ice_heart_army_ability	false	false	true	wh3_main_spell_ice_heart_of_winter_upgraded_4
 1	wh2_torinubar_kinetic_combat	true	false	false	wh2_torinubar_kinetic_combat
 1	hkrul_hroth_stew	true	true	false	hkrul_hroth_stew
+1	hkrul_shaz_stout	true	true	false	hkrul_shaz_stout
+1	hkrul_thulgrim_time	true	false	false	hkrul_thulgrim_time
+1	hkrul_rhobb_axe	true	false	false	hkrul_rhobb_axe
