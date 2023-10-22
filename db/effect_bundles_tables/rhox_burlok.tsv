@@ -16,3 +16,6 @@ rhox_burlok_effect_bundle_burlok_artifact_part_7a	Located here is one half of th
 rhox_burlok_effect_bundle_burlok_artifact_part_7b	Located here is one half of the Artefact: Lost Gifts of Valaya.	Enchanted Alchemy Vial	region	1	icon_dwf_thorek_artifact_part_7b.png	true	true	false
 rhox_burlok_effect_bundle_burlok_artifact_part_8a	Located here is one half of the Artefact: Beard Rings of Grimnir.	Grimnir's Ornate Beard Ring	region	1	icon_dwf_thorek_artifact_part_8a.png	true	true	false
 rhox_burlok_effect_bundle_burlok_artifact_part_8b	Located here is one half of the Artefact: Beard Rings of Grimnir.	Exotic Beard Ring	region	1	icon_dwf_thorek_artifact_part_8b.png	true	true	false
+rhox_burlok_payload_artifact_1_ritual_dummy			faction	1	thane.png	false	false	true
+rhox_burlok_payload_artifact_2_ritual_dummy			faction	1	thane.png	false	false	true
+rhox_burlok_payload_artifact_3_ritual_dummy			faction	1	thane.png	false	false	true

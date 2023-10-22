@@ -25,7 +25,6 @@ burlok.artifact_base_string = "rhox_burlok_artifact_part_*" --- db keys for burl
 burlok.artifact_resource_factor = "missions"
 burlok.rituals_completed = 0
 burlok.ritual_prefix = "rhox_burlok_ritual_burlok_artifact_" -- any rituals beginning with this prefix will be considered a burlok artifact ritual.
-burlok.ghost_thane_ritual = burlok.ritual_prefix .. "2"
 
 
 function burlok:initialise()
@@ -156,10 +155,20 @@ function burlok:initialise()
 			burlok.rituals_completed = burlok.rituals_completed + 1
 
 			
-			if context:ritual():ritual_key() == burlok.ghost_thane_ritual then
-				cm:spawn_unique_agent(faction:command_queue_index(), "wh2_dlc17_dwf_thane_ghost_artifact", true)
+			if context:ritual():ritual_key() == "rhox_burlok_ritual_burlok_artifact_1" then
+				cm:spawn_unique_agent(faction:command_queue_index(), "hkrul_rhobb", true)
+            elseif context:ritual():ritual_key() == "rhox_burlok_ritual_burlok_artifact_2" then
+				cm:spawn_unique_agent(faction:command_queue_index(), "hkrul_thulgrim", true)
+            elseif context:ritual():ritual_key() == "rhox_burlok_ritual_burlok_artifact_3" then
+				cm:spawn_unique_agent(faction:command_queue_index(), "hkrul_shaz", true)
 			end
 			
+
+
+
+
+			
+			--[[--TODO check what it does
 			if burlok.rituals_completed == 8 then
 				core:trigger_event("ScriptEventArtefactsForgedAll")
 			elseif burlok.rituals_completed >= 3 then
@@ -167,6 +176,7 @@ function burlok:initialise()
 			else
 				core:trigger_event("ScriptEventArtefactsForgedOne")
 			end
+			--]]
 		end,
 		true
 	)
