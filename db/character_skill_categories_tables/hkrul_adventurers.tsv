@@ -1,0 +1,5 @@
+key	max_indent	min_indent	order	agent_subtype_override	col_hex
+#character_skill_categories_tables;2;db/character_skill_categories_tables/hkrul_adventurers					
+hkrul_rhobb_line1	1	1	1	hkrul_rhobb	62FFFF
+hkrul_thulgrim_line1	1	1	1	hkrul_thulgrim	C2B9B2
+hkrul_shaz_line1	1	1	1	hkrul_shaz	FFFF7F

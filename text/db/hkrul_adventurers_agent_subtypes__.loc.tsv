@@ -1,0 +1,8 @@
+key	text	tooltip
+#Loc;1;text/db/hkrul_adventurers_agent_subtypes__.loc		
+agent_subtypes_onscreen_name_override_hkrul_rhobb	Legendary Adventurer	false
+agent_subtypes_description_text_override_hkrul_rhobb		false
+agent_subtypes_onscreen_name_override_hkrul_thulgrim	Legendary Adventurer	false
+agent_subtypes_description_text_override_hkrul_thulgrim		false
+agent_subtypes_onscreen_name_override_hkrul_shaz	Legendary Adventurer	false
+agent_subtypes_description_text_override_hkrul_shaz		false

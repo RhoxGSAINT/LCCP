@@ -1,0 +1,6 @@
+faction	unit	name	variant	unit_card
+#unit_variants_tables;5;db/unit_variants_tables/rhox_iee_lccp				
+	rhox_hrothyogg_recruiter	rhox_ogr_diplomat	rhox_ogr_diplomat	rhox_ogr_diplomat
+	hkrul_rhobb	hkrul_rhobb	hkrul_rhobb	a_character_placeholder
+	hkrul_thulgrim	hkrul_thulgrim	hkrul_thulgrim	a_character_placeholder
+	hkrul_shaz	hkrul_shaz	hkrul_shaz	hkrul_shaz

@@ -5,9 +5,6 @@ hkrul_sceolan_helm	item_ability.png	300	item_ability.png	battle	true
 hkrul_sceolan_sword	item_ability.png	300	item_ability.png	battle	true
 hkrul_sceolan_pal	item_ability.png	300	item_ability.png	battle	true
 hkrul_sceolan_nordland_damage	weapon_damage.png	97	weapon_damage.png	battle	true
-hkrul_sceolan_mount	mount.png	50	mount.png	both	true
-hkrul_sceolan_mount_2	mount.png	50	mount.png	both	true
-hkrul_sceolan_mount_3	mount.png	50	mount.png	both	true
 hkrul_spew_bombard	item_ability.png	300	item_ability.png	battle	true
 hkrul_spew_spoiled	item_ability.png	300	item_ability.png	battle	true
 hkrul_spew_riders	item_ability.png	300	item_ability.png	battle	true

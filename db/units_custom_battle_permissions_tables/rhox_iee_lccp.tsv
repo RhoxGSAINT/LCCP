@@ -1,0 +1,5 @@
+faction	general_unit	unit	siege_unit_attacker	siege_unit_defender	general_portrait	general_uniform	set_piece_character	campaign_exclusive	armory_item_set	supports_upgrades
+#units_custom_battle_permissions_tables;11;db/units_custom_battle_permissions_tables/rhox_iee_lccp										
+cr_dwf_firebeards_excavators	false	hkrul_rhobb	true	true	ui/portraits/portholes/wh_main_dwf_dwarfs/hkrul_rhobb.png	hkrul_uniform_rhobb	hkrul_rhobb	false		false
+cr_dwf_firebeards_excavators	false	hkrul_thulgrim	true	true	ui/portraits/portholes/wh_main_dwf_dwarfs/hkrul_thulgrim.png	hkrul_uniform_thulgrim	hkrul_thulgrim	false		false
+cr_dwf_firebeards_excavators	false	hkrul_shaz	true	true	ui/portraits/portholes/wh_main_dwf_dwarfs/hkrul_shaz.png	hkrul_shaz	hkrul_shaz	false		false

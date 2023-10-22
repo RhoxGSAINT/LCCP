@@ -1,0 +1,17 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/hkrul_adventurers					
+			hkrul_rhobb	mp_cap_group_heroes	false
+			hkrul_shaz	mp_cap_group_heroes	false
+			hkrul_thulgrim	mp_cap_group_heroes	false
+			hkrul_thulgrim	dwarf_all_units_exclude_slayers	false
+			hkrul_thulgrim	dwf_all_units_characters	false
+			hkrul_thulgrim	dwf_characters	false
+			hkrul_thulgrim	dwf_thane	false
+			hkrul_shaz	dwarf_all_units_exclude_slayers	false
+			hkrul_shaz	dwf_all_units_characters	false
+			hkrul_shaz	dwf_characters	false
+			hkrul_shaz	dwf_thane	false
+			hkrul_rhobb	dwarf_all_units_exclude_slayers	false
+			hkrul_rhobb	dwf_all_units_characters	false
+			hkrul_rhobb	dwf_characters	false
+			hkrul_rhobb	dwf_thane	false

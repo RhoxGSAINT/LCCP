@@ -5,6 +5,3 @@ hkrul_engra_helm	item_ability.png	300	item_ability.png	battle	true
 hkrul_engra_sword	item_ability.png	300	item_ability.png	battle	true
 hkrul_engra_pal	item_ability.png	300	item_ability.png	battle	true
 hkrul_engra_nordland_damage	weapon_damage.png	97	weapon_damage.png	battle	true
-hkrul_engra_mount	mount.png	50	mount.png	both	true
-hkrul_engra_mount_2	mount.png	50	mount.png	both	true
-hkrul_engra_mount_3	mount.png	50	mount.png	both	true
