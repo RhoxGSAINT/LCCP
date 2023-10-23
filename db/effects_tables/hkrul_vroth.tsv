@@ -9,3 +9,7 @@ hkrul_vroth_javelin_ranged	melee.png	97	melee.png	battle	true
 hkrul_vroth_javelin_accuracy	armour_piercing.png	97	armour_piercing.png	battle	true
 hkrul_vroth_javelin_damage	melee.png	97	melee.png	battle	true
 hkrul_vroth_javelin_recruit	experience.png	97	experience.png	battle	true
+hkrul_vroth_skewer	item_ability.png	300	item_ability.png	battle	true
+hkrul_vroth_javelin_upkeep	military_spending.png	97	military_spending.png	campaign	false
+hkrul_vroth_javelin_wdamage	ranged_damage.png	97	ranged_damage.png	battle	true
+hkrul_vroth_javelin_vanguard	attribute_guerrilla_deploy.png	97	attribute_guerrilla_deploy.png	battle	true

@@ -11,3 +11,7 @@ effects_description_hkrul_vroth_javelin_ranged	Armour-piercing missile damage: %
 effects_description_hkrul_vroth_javelin_accuracy	Armour-piercing missile damage: %+n% for Marauder Hunters (Javelins)	false
 effects_description_hkrul_vroth_javelin_damage	Accuracy: %+n% for Marauder Hunters (Javelins)	false
 effects_description_hkrul_vroth_javelin_recruit	Recruit Rank: %+n for Marauder Hunters (Javelins)	false
+effects_description_hkrul_vroth_skewer	Ability: "Zar's Skewer''	false
+effects_description_hkrul_vroth_javelin_upkeep	Upkeep: %+n% for Marauder Hunters (Javelins)	false
+effects_description_hkrul_vroth_javelin_wdamage	Missile damage: %+n% for Marauder Hunters (Javelins)	false
+effects_description_hkrul_vroth_javelin_vanguard	Attribute: Vanguard Deployment for Marauder Hunters (Javelins)	false

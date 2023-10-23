@@ -48,3 +48,11 @@ hkrul_skill_node_vroth_self_b_03	hkrul_skill_node_vroth_self_b_01	0	1	1	0.0000	0
 hkrul_skill_node_vroth_self_b_03	hkrul_skill_node_vroth_self_b_02	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
 hkrul_skill_node_vroth_self_b_06	hkrul_skill_node_vroth_self_b_04	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
 hkrul_skill_node_vroth_self_b_06	hkrul_skill_node_vroth_self_b_05	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
+hkrul_skill_node_vroth_misc_03	hkrul_skill_node_vroth_misc_02	0	0	0	0.0000	0.0000	REQUIRED
+hkrul_skill_node_vroth_misc_04	hkrul_skill_node_vroth_misc_02	0	0	0	0.0000	0.0000	REQUIRED
+hkrul_skill_node_vroth_misc_05	hkrul_skill_node_vroth_misc_02	0	0	0	0.0000	0.0000	REQUIRED
+hkrul_skill_node_vroth_misc_07	hkrul_skill_node_vroth_misc_02	0	0	0	0.0000	0.0000	REQUIRED
+hkrul_skill_node_vroth_misc_06	hkrul_skill_node_vroth_misc_03	0	0	0	0.0000	0.0000	SUBSET_REQUIRED
+hkrul_skill_node_vroth_misc_06	hkrul_skill_node_vroth_misc_04	0	0	0	0.0000	0.0000	SUBSET_REQUIRED
+hkrul_skill_node_vroth_misc_06	hkrul_skill_node_vroth_misc_05	0	0	0	0.0000	0.0000	SUBSET_REQUIRED
+hkrul_skill_node_vroth_misc_06	hkrul_skill_node_vroth_misc_07	0	0	0	0.0000	0.0000	SUBSET_REQUIRED

@@ -3,3 +3,5 @@ invalid_usage_flag	special_ability
 on_a_platform	rhox_arbaal_spawn_spawn
 phase_is_deployment	rhox_arbaal_spawn_spawn
 phase_is_the_end_phase	rhox_arbaal_spawn_spawn
+climbing	wh_dlc03_spell_bound_the_amber_spear
+manning_equipment	wh_dlc03_spell_bound_the_amber_spear
