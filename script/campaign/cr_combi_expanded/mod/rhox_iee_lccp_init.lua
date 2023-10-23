@@ -263,6 +263,12 @@ local rhox_iee_list={
         faction_trait="rhox_slaurith_faction_trait",
         enemy=nil,
         additional = function(faction, faction_key) 
+            if faction:is_human() and vfs.exists("script/frontend/mod/hkrul_dauphine_frontend.lua") then --Dauphine exists
+                cm:transfer_region_to_faction("cr_combi_region_isles_of_the_monkey_king","ovn_mar_cult_of_manann")
+                local transferred_region = cm:get_region("cr_combi_region_isles_of_the_monkey_king")
+                local transferred_region_cqi = transferred_region:cqi()
+                cm:heal_garrison(transferred_region_cqi)
+            end
         end,
         first_tick = function(faction, faction_key) 
         end

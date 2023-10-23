@@ -4,5 +4,6 @@ armour_piercing	hkrul_slaurith
 melee_expert	hkrul_slaurith
 anti_infantry	hkrul_slaurith
 armour_piercing	hkrul_slaurith_mount
-melee_expert	hkrul_slaurith_mount
-anti_infantry	hkrul_slaurith_mount
+armoured	hkrul_slaurith_mount
+scaly_skin	hkrul_slaurith_mount
+terror	hkrul_slaurith_mount
