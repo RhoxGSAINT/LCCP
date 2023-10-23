@@ -7,3 +7,5 @@ rhox_torinubar_west_cargo_per_turn	rhox_torinubar_west_resource.png	4	rhox_torin
 rhox_torinubar_purchase_east	rhox_torinubar_east_resource.png	1	rhox_torinubar_east_resource.png	campaign	true
 rhox_torinubar_purchase_west	rhox_torinubar_west_resource.png	1	rhox_torinubar_west_resource.png	campaign	true
 rhox_torinubar_entrepot_dummy	resource_gemstones_large.png	2	resource_gemstones_large.png	campaign	true
+rhox_torinubar_melee_attack_gate_guard	melee.png	431	melee.png	battle	true
+rhox_torinubar_melee_defence_gate_guard	defence.png	451	defence.png	battle	true

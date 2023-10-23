@@ -22,3 +22,10 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			wh3_main_pro_kho_inf_flesh_hounds_of_khorne_0	hkrul_arbaal_hound	false
 			wh3_main_kho_inf_bloodletters_0	hkrul_slaurith_blood	false
 			wh3_main_kho_inf_bloodletters_1	hkrul_slaurith_blood	false
+			hef_calith_gatekeepers	hef_spear_silver_swordmaster_lions_rank7	false
+			hef_calith_gatekeepers	hef_spearmen_archers_silverhelms	false
+			hef_calith_gatekeepers	wh2_dlc15_hef_all_spear_inf	false
+			hef_calith_gatekeepers	wh2_dlc15_hef_martial_passives	false
+			hef_calith_gatekeepers	wh2_dlc15_hef_shielded	false
+			hef_calith_gatekeepers	wh2_dlc15_hef_silverin_guard	false
+			hef_calith_gatekeepers	rhox_gate_guards	false

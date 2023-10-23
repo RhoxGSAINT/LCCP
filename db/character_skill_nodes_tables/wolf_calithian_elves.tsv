@@ -45,7 +45,8 @@ wh2_dlc15_skill_node_hef_calith_torinubar_special_1_1		wh2_dlc15_skill_node_hef_
 wh2_dlc15_skill_node_hef_calith_torinubar_special_1_2		wh2_dlc15_skill_node_hef_calith_torinubar_unique_2		1	3		0	0	true
 wh2_dlc15_skill_node_hef_calith_torinubar_special_1_3		wh2_dlc15_skill_node_hef_calith_torinubar_unique_3		1	4		0	0	true
 wh2_dlc15_skill_node_hef_calith_torinubar_special_1_4		wh2_dlc15_skill_node_hef_calith_torinubar_unique_4		1	5		0	0	true
-wh2_dlc15_skill_node_hef_calith_torinubar_special_2		wh2_dlc15_skill_node_hef_calith_torinubar_unique_5		1	6		0	4	true
+wh2_dlc15_skill_node_hef_calith_torinubar_special_1_5		rhox_calith_torinubar_gate_guards		1	6		0	0	true
+wh2_dlc15_skill_node_hef_calith_torinubar_special_2		wh2_dlc15_skill_node_hef_calith_torinubar_unique_5		1	7		0	4	true
 wh2_dlc15_skill_node_hef_calith_torinubar_innate_0		hef_calith_torinubar_innate		6	0		1	0	false
 hef_calith_torinubar_eagle		hef_calith_torinubar_eagle		0	0		0	0	true
 hef_calith_torinubar_dragon		hef_calith_torinubar_dragon		0	1		0	0	true
