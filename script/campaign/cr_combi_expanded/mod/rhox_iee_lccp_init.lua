@@ -628,8 +628,25 @@ local rhox_iee_list={
         faction_trait="rhox_vroth_faction_trait",
         enemy=nil,
         additional = function(faction, faction_key) 
+            for i, v in pairs(LenkBeastHunts.ai_units) do
+                cm:add_unit_to_faction_mercenary_pool(
+                    faction,
+                    v[1], -- key
+                    v[2], -- recruitment source
+                    0, -- count
+                    0, --replen chance
+                    v[5], -- max units
+                    0, -- max per turn
+                    "",
+                    "",
+                    "",
+                    false,
+                    v[6] -- merc unit group
+                )
+            end	
         end,
         first_tick = function(faction, faction_key) 
+            LenkBeastHunts:setup_lenk_listeners()
         end
     },
     
