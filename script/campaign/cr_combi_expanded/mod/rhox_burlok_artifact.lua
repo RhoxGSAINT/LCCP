@@ -1,22 +1,22 @@
 burlok = {}
 burlok.artifact_parts = {
 	--- artifact pooled resource key = region key, bundle key
-	rhox_burlok_artifact_part_1a = {region = "wh3_main_combi_region_the_golden_tower", bundle = "rhox_burlok_effect_bundle_burlok_artifact_part_1a"},
-	rhox_burlok_artifact_part_1b = {region = "wh3_main_combi_region_karag_orrud", bundle = "rhox_burlok_effect_bundle_burlok_artifact_part_1b"},
-	rhox_burlok_artifact_part_2a = {region = "wh3_main_combi_region_lahmia", bundle = "rhox_burlok_effect_bundle_burlok_artifact_part_2a"},
-	rhox_burlok_artifact_part_2b = {region = "wh3_main_combi_region_mount_gunbad", bundle = "rhox_burlok_effect_bundle_burlok_artifact_part_2b"},
-	rhox_burlok_artifact_part_3a = {region = "wh3_main_combi_region_misty_mountain", bundle = "rhox_burlok_effect_bundle_burlok_artifact_part_3a"},
-	rhox_burlok_artifact_part_3b = {region = "wh3_main_combi_region_karak_azgal", bundle = "rhox_burlok_effect_bundle_burlok_artifact_part_3b"},
-	rhox_burlok_artifact_part_4a = {region = "wh3_main_combi_region_black_crag", bundle = "rhox_burlok_effect_bundle_burlok_artifact_part_4a"},
-	rhox_burlok_artifact_part_4b = {region = "wh3_main_combi_region_mount_silverspear", bundle = "rhox_burlok_effect_bundle_burlok_artifact_part_4b"},
-	rhox_burlok_artifact_part_5a = {region = "wh3_main_combi_region_silver_pinnacle", bundle = "rhox_burlok_effect_bundle_burlok_artifact_part_5a"},
-	rhox_burlok_artifact_part_5b = {region = "wh3_main_combi_region_karak_azgaraz", bundle = "rhox_burlok_effect_bundle_burlok_artifact_part_5b"},
-	rhox_burlok_artifact_part_6a = {region = "wh3_main_combi_region_vulture_mountain", bundle = "rhox_burlok_effect_bundle_burlok_artifact_part_6a"},
-	rhox_burlok_artifact_part_6b = {region = "wh3_main_combi_region_galbaraz", bundle = "rhox_burlok_effect_bundle_burlok_artifact_part_6b"},
-	rhox_burlok_artifact_part_7a = {region = "wh3_main_combi_region_karag_dromar", bundle = "rhox_burlok_effect_bundle_burlok_artifact_part_7a"},
-	rhox_burlok_artifact_part_7b = {region = "wh3_main_combi_region_valayas_sorrow", bundle = "rhox_burlok_effect_bundle_burlok_artifact_part_7b"},
-	rhox_burlok_artifact_part_8a = {region = "wh3_main_combi_region_kraka_drak", bundle = "rhox_burlok_effect_bundle_burlok_artifact_part_8a"},
-	rhox_burlok_artifact_part_8b = {region = "wh3_main_combi_region_karak_ungor", bundle = "rhox_burlok_effect_bundle_burlok_artifact_part_8b"}
+	rhox_burlok_artifact_part_1a = {region = "cr_combi_region_ind_1_1", bundle = "rhox_burlok_effect_bundle_burlok_artifact_part_1a"},
+	rhox_burlok_artifact_part_1b = {region = "wh3_main_combi_region_tower_of_the_sun", bundle = "rhox_burlok_effect_bundle_burlok_artifact_part_1b"},
+	rhox_burlok_artifact_part_2a = {region = "cr_combi_region_gates_of_calith_1", bundle = "rhox_burlok_effect_bundle_burlok_artifact_part_2a"},
+	rhox_burlok_artifact_part_2b = {region = "cr_combi_region_elithis_1_1", bundle = "rhox_burlok_effect_bundle_burlok_artifact_part_2b"},
+	rhox_burlok_artifact_part_3a = {region = "cr_combi_region_nippon_2_1", bundle = "rhox_burlok_effect_bundle_burlok_artifact_part_3a"},
+	rhox_burlok_artifact_part_3b = {region = "cr_combi_region_khuresh_6_1", bundle = "rhox_burlok_effect_bundle_burlok_artifact_part_3b"},
+	rhox_burlok_artifact_part_4a = {region = "wh3_main_combi_region_jungles_of_chian", bundle = "rhox_burlok_effect_bundle_burlok_artifact_part_4a"},
+	rhox_burlok_artifact_part_4b = {region = "wh3_main_combi_region_wei_jin", bundle = "rhox_burlok_effect_bundle_burlok_artifact_part_4b"},
+	rhox_burlok_artifact_part_5a = {region = "cr_combi_region_ihan_3_1", bundle = "rhox_burlok_effect_bundle_burlok_artifact_part_5a"},
+	rhox_burlok_artifact_part_5b = {region = "cr_combi_region_ihan_1_1", bundle = "rhox_burlok_effect_bundle_burlok_artifact_part_5b"},
+	rhox_burlok_artifact_part_6a = {region = "cr_combi_region_seagrave_port", bundle = "rhox_burlok_effect_bundle_burlok_artifact_part_6a"},
+	rhox_burlok_artifact_part_6b = {region = "cr_combi_region_avags_camp", bundle = "rhox_burlok_effect_bundle_burlok_artifact_part_6b"},
+	rhox_burlok_artifact_part_7a = {region = "cr_combi_region_khazags_khural", bundle = "rhox_burlok_effect_bundle_burlok_artifact_part_7a"},
+	rhox_burlok_artifact_part_7b = {region = "cr_combi_region_tokmars_encampment", bundle = "rhox_burlok_effect_bundle_burlok_artifact_part_7b"},
+	rhox_burlok_artifact_part_8a = {region = "wh3_main_combi_region_the_volary", bundle = "rhox_burlok_effect_bundle_burlok_artifact_part_8a"},
+	rhox_burlok_artifact_part_8b = {region = "wh3_main_combi_region_karak_azorn", bundle = "rhox_burlok_effect_bundle_burlok_artifact_part_8b"}
 }
 burlok.already_looted = {}
 burlok.artifact_piece_vfx_key = "scripted_effect18"
