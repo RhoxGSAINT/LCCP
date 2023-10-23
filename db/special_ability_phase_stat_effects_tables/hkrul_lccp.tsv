@@ -7,3 +7,5 @@ hkrul_shaz_stout	stat_morale	20.0000	add
 hkrul_thulgrim_time	scalar_speed	1.5000	mult
 hkrul_rhobb_axe	scalar_splash_attack_power	1.5000	mult
 hkrul_rhobb_axe	stat_bonus_vs_infantry	25.0000	add
+hkrul_arbaal_ruiner	stat_melee_damage_ap	1.3500	mult
+hkrul_arbaal_ruiner	stat_melee_damage_base	1.3500	mult
