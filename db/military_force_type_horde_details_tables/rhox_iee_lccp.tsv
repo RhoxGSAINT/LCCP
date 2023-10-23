@@ -1,4 +1,3 @@
 force_type	primary_slot_template	primary_slot_type	secondary_slot_template	secondary_slot_type
 #military_force_type_horde_details_tables;0;db/military_force_type_horde_details_tables/rhox_iee_lccp				
 VALBRAND_HORDE	horde_primary	horde_primary	horde_secondary	horde_secondary
-VALBRAND_AGENT_HORDE	horde_primary	horde_primary	horde_secondary	horde_secondary
