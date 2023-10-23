@@ -1,3 +1,3 @@
 recharge_context	special_ability
 #special_ability_to_recharge_contexts_tables;0;db/special_ability_to_recharge_contexts_tables/rhox_iee_lccp	
-health_below_25%	rhox_arbaal_spawn_spawn
+morale_is_wavering_or_lower	rhox_arbaal_spawn_spawn

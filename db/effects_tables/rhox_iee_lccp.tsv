@@ -33,3 +33,7 @@ rhox_hrothyogg_toll_dummy	diplomacy.png	106	diplomacy.png	campaign	true
 hkrul_burlok_building_time_dwf_engineers	construction.png	200	construction.png	campaign	false
 hkrul_burlok_building_cost_dwf_engineers	treasury.png	200	treasury.png	campaign	false
 hkrul_hrothyogg_crusher	mount.png	50	mount.png	both	true
+hkrul_shaz_stout	item_ability.png	300	item_ability.png	battle	true
+hkrul_thulgrim_time	item_ability.png	300	item_ability.png	battle	true
+hkrul_rhobb_axe	item_ability.png	300	item_ability.png	battle	true
+rhox_iee_nor_efficient_hunter_dummy4	effect_bundle_vroth_hunt.png	3	effect_bundle_vroth_hunt.png	both	true

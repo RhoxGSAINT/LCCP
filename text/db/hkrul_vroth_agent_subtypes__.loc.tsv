@@ -1,6 +1,6 @@
 key	text	tooltip
 #Loc;1;text/db/hkrul_vroth_agent_subtypes__.loc		
-agent_subtypes_onscreen_name_override_hkrul_vroth	Zar of the Avaghs	false
+agent_subtypes_onscreen_name_override_hkrul_vroth	Legendary Zar	false
 agent_subtypes_description_text_override_hkrul_vroth		false
 units_custom_battle_mounts_mount_name_hkrul_hkrul_mack_mount	Barded Warhorse	true
 units_custom_battle_mounts_localised_description_hkrul_hkrul_mack_mount	Placeholder Text	true

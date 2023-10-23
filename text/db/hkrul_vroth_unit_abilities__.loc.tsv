@@ -6,3 +6,5 @@ unit_abilities_tooltip_text_hkrul_vroth_pal	Placeholder Text	true
 unit_abilities_onscreen_name_hkrul_vroth_pal	Fortress Wardens	true
 unit_abilities_tooltip_text_hkrul_vroth_sword	Placeholder Text	true
 unit_abilities_onscreen_name_hkrul_vroth_sword	Helmgart's Brand	true
+unit_abilities_onscreen_name_hkrul_vroth_skewer	Zar's Skewer	false
+unit_abilities_tooltip_text_hkrul_vroth_skewer	With uncanning might, Surtha Lenks hewes the infamous spear of the Tokmars tribe.	false

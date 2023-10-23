@@ -6,3 +6,6 @@ hkrul_sceolan_sword	true	hkrul_sceolan_sword		wh_type_augment		wh_main_anc_group
 hkrul_spew_bombard	true	hkrul_spew_axed		wh_type_bombardment		wh_main_anc_group_unique	true	false	bound		false
 hkrul_spew_spoiled	true	hkrul_spew_spoiled		wh_type_area_of_hexes		wh_main_anc_group_rare	true	false	passive		false
 hkrul_spew_riders	true	hkrul_spew_riders		wh_type_augment		wh_main_anc_group_uncommon	true	false	passive		false
+hkrul_shaz_stout	true	hkrul_shaz_stout		wh_type_area_of_augments		wh_main_anc_group_rare	true	false	active		false
+hkrul_thulgrim_time	true	hkrul_thulgrim_time		wh_type_augment		wh_main_anc_group_rare	true	false	active		false
+hkrul_rhobb_axe	true	hkrul_rhobb_axe		wh_type_augment		wh_main_anc_group_rare	true	false	active		false
