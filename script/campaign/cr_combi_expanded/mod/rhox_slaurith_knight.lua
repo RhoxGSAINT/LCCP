@@ -26,38 +26,28 @@ local function rhox_slaurith_nagash_remove_book_character_vfx(mission_key)
 	end
 end
 
-book_objective_list_faction = {
-	["cr_kho_servants_of_the_blood_nagas"] = {
-		{objective = "CAPTURE_REGIONS", target = "wh3_main_combi_region_lahmia"},
-		{objective = "CAPTURE_REGIONS", target = "wh3_main_combi_region_skavenblight"},
-		{objective = "CAPTURE_REGIONS", target = "wh3_main_combi_region_karak_eight_peaks"},
-		{objective = "CAPTURE_REGIONS", target = "wh3_main_combi_region_white_tower_of_hoeth"},
-		{objective = "ENGAGE_FORCE", target = "wh2_dlc09_rogue_black_creek_raiders", pos = {x = 191, y = 275}, patrol = {{x = 177, y = 283}, {x = 201, y = 298}, {x = 214, y = 282}}},
-		{objective = "ENGAGE_FORCE", target = "wh2_dlc09_rogue_eyes_of_the_jungle", pos = {x = 500, y = 255}, patrol = {{x = 568, y = 291}, {x = 534, y = 304}, {x = 500, y = 255}}},
-		{objective = "ENGAGE_FORCE", target = "wh2_dlc09_rogue_dwellers_of_zardok", pos = {x = 698, y = 611}, patrol = {{x = 676, y = 655}, {x = 623, y = 612}, {x = 659, y = 574}}},
-		{objective = "ENGAGE_FORCE", target = "wh2_dlc09_rogue_pilgrims_of_myrmidia", pos = {x = 276, y = 679}, patrol = {{x = 363, y = 574}, {x = 259, y = 468}, {x = 158, y = 572}, {x = 276, y = 679}}}
-	},
+rhox_slaurith_book_objective_list_faction = {
+    {objective = "CAPTURE_REGIONS", target = "cr_combi_region_nippon_3_1"},
+    {objective = "CAPTURE_REGIONS", target = "cr_combi_region_ind_5_1"},
+    {objective = "CAPTURE_REGIONS", target = "cr_combi_region_gates_of_calith_1"},
+    {objective = "CAPTURE_REGIONS", target = "cr_combi_region_elithis_1_2"},
+    {objective = "ENGAGE_FORCE", target = "wh2_dlc09_rogue_black_creek_raiders", pos = {x = 1345, y = 156}, patrol = {{x = 1339, y = 188}, {x = 1355, y = 219}, {x = 1345, y = 156}}},
+    {objective = "ENGAGE_FORCE", target = "wh2_dlc09_rogue_eyes_of_the_jungle", pos = {x = 1045, y = 152}, patrol = {{x = 1030, y = 123}, {x = 998, y = 132}, {x = 1045, y = 152}}},
+    {objective = "ENGAGE_FORCE", target = "wh2_dlc09_rogue_dwellers_of_zardok", pos = {x = 1271, y = 791}, patrol = {{x = 1266, y = 753}, {x = 1319, y = 737}, {x = 1271, y = 791}}},
+    {objective = "ENGAGE_FORCE", target = "wh2_dlc09_rogue_pilgrims_of_myrmidia", pos = {x = 1436, y = 604}, patrol = {{x = 1461, y = 656}, {x = 1411, y = 634}, {x = 158, y = 572}, {x = 1436, y = 604}}}
 };
 
 
 
 local function rhox_slaurith_setup_knight_missions(faction_key, spawn_forces, is_mp)
 	cm:disable_event_feed_events(true, "", "wh_event_subcategory_faction_missions_objectives", "");
-	
-    local faction_table_to_use = "cr_kho_servants_of_the_blood_nagas"
-    if book_objective_list_faction[faction_table_to_use] ~= nil then
-        book_objective_list = book_objective_list_faction[faction_table_to_use];
-    end
-	
+
 	-- Create the book objectives
-	local book_objective_count = #book_objective_list;
-	for i = 1, book_objective_count do
+	for i = 1, #rhox_slaurith_book_objective_list_faction do
 		local mm = mission_manager:new(faction_key, books_mission_prefix .. i);
 		
-		local book_objective_number = cm:random_number(#book_objective_list);
 		
-		
-		local book_objective = book_objective_list[book_objective_number];
+		local book_objective = rhox_slaurith_book_objective_list_faction[i];
 		
 		mm:add_new_objective(book_objective.objective);
 		--mm:set_mission_issuer("BOOK_NAGASH");
@@ -118,8 +108,6 @@ local function rhox_slaurith_setup_knight_missions(faction_key, spawn_forces, is
 
 		mm:set_should_whitelist(false);
 		mm:trigger();
-		
-        table.remove(book_objective_list, book_objective_number);
 	end
 	
 	cm:callback(function() cm:disable_event_feed_events(false, "", "wh_event_subcategory_faction_missions_objectives", "") end, 1);
