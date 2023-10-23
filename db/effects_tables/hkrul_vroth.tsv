@@ -2,7 +2,6 @@ effect	icon	priority	icon_negative	category	is_positive_value_good
 #effects_tables;0;db/effects_tables/hkrul_vroth					
 hkrul_enable_immortality		0		campaign	true
 hkrul_vroth_helm	item_ability.png	300	item_ability.png	battle	true
-hkrul_vroth_sword	item_ability.png	300	item_ability.png	battle	true
 hkrul_vroth_pal	item_ability.png	300	item_ability.png	battle	true
 hkrul_vroth_nordland_damage	weapon_damage.png	97	weapon_damage.png	battle	true
 hkrul_vroth_javelin_ranged	melee.png	97	melee.png	battle	true

@@ -1,6 +1,5 @@
 key	localised_description	localised_title	bundle_target	priority	ui_icon	is_global_effect	show_in_3d_space	owner_only
 #effect_bundles_tables;4;db/effect_bundles_tables/hkrul_lccp_banner								
-hkrul_sceolan_banner			character	1	public_order.png	true	false	true
 hkrul_valbrand_banner			character	1	public_order.png	true	false	true
 hkrul_volrik_banner			character	1	public_order.png	true	false	true
 hkrul_zach_banner			character	1	public_order.png	true	false	true
@@ -8,4 +7,3 @@ hkrul_spew_banner			character	1	public_order.png	true	false	true
 hkrul_dolmance_banner			character	1	public_order.png	true	false	true
 hkrul_thorgar_banner			character	1	public_order.png	true	false	true
 hkrul_engra_banner			character	1	public_order.png	true	false	true
-hkrul_vroth_banner			character	1	public_order.png	true	false	true

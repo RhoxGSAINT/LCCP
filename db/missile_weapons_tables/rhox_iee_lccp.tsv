@@ -1,3 +1,4 @@
 key	precursor	default_projectile	audio_type	use_secondary_ammo_pool
 #missile_weapons_tables;11;db/missile_weapons_tables/rhox_iee_lccp				
 hkrul_vroth_javelin	false	hkrul_vroth_javelin	javelin	false
+rhox_vroth_javelin_secondary	false	wh_nor_javelin_heavy	javelin	true
