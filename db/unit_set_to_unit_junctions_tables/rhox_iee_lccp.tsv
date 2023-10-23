@@ -18,3 +18,7 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			wh_pro04_nor_inf_marauder_berserkers_ror_0	hkrul_khazag_marauder	false
 			wh_dlc08_nor_inf_marauder_hunters_1	hkrul_vroth_javelins	false
 			hkrul_vroth	hkrul_vroth_javelins	false
+			wh3_main_kho_inf_flesh_hounds_of_khorne_0	hkrul_arbaal_hound	false
+			wh3_main_pro_kho_inf_flesh_hounds_of_khorne_0	hkrul_arbaal_hound	false
+			wh3_main_kho_inf_bloodletters_0	hkrul_slaurith_blood	false
+			wh3_main_kho_inf_bloodletters_1	hkrul_slaurith_blood	false
