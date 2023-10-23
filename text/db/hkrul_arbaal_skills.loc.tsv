@@ -19,3 +19,9 @@ character_skills_localised_name_hkrul_arbaal_special_0_1		false
 effects_description_rhox_arbaal_spawn_spawn	Ability: "Khorne's Curse"	true
 effects_description_effect_bundle_arbaal_dummy1	Destroyer of Khorne: Victories provide momentum and subsequent boons	false
 effects_description_effect_bundle_arbaal_dummy2	Khorne's Curse: When defeated Khorne's punishment will be unrelenting	false
+effects_description_hkrul_arbaal_ruiner	Ability: "Destroyer of Khorne"	false
+unit_abilities_onscreen_name_hkrul_arbaal_ruiner	Destroyer of Khorne	false
+unit_abilities_tooltip_text_hkrul_arbaal_ruiner	The Destroyer of Khorne channels the very essence of bloodlust and fury, gaining momentum with each smite	false
+unit_abilities_onscreen_name_hkrul_arbaal_ruiner_hidden	Destroyer of Khorne [HIDDEN]	false
+unit_abilities_tooltip_text_hkrul_arbaal_ruiner_hidden	Hidden - Executor generator	false
+unit_abilities_additional_ui_effects_localised_text_hkrul_arbaal_destroyer	At max effect intensity, grants the [[img:ui/battle ui/ability_icons/executor.png]][[/img]] Executor attribute	true

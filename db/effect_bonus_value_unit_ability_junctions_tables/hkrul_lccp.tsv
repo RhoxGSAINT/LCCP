@@ -1,3 +1,4 @@
 effect	bonus_value_id	unit_ability
 #effect_bonus_value_unit_ability_junctions_tables;0;db/effect_bonus_value_unit_ability_junctions_tables/hkrul_lccp		
 hkrul_hroth_stew	enable	hkrul_hroth_stew
+hkrul_arbaal_ruiner	enable	hkrul_arbaal_ruiner
