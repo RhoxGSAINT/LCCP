@@ -5,3 +5,4 @@ rhox_hrothyogg_mercenary_branch_established	false	ogr/messenger	false	Event		fal
 rhox_hrothyogg_mercenary_recieved	false	ogr/messenger	false	Event		false		0.0000
 rhox_hrothyogg_toll_collected	false	ogr/messenger	false	Event		false		0.0000
 rhox_hrothyogg_toll_gang	false	ogr/messenger	false	Event		false		0.0000
+rhox_tokmar_captured_beast	false	def/Beasts_captured_001	false	Event		false		0.0000

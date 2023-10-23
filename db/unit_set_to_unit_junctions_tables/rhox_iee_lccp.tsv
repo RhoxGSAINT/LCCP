@@ -29,3 +29,23 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hef_calith_gatekeepers	wh2_dlc15_hef_shielded	false
 			hef_calith_gatekeepers	wh2_dlc15_hef_silverin_guard	false
 			hef_calith_gatekeepers	rhox_gate_guards	false
+			rhox_lenk_nor_feral_manticore	all_non_chs	true
+			rhox_lenk_nor_feral_manticore	nor_all	false
+			rhox_lenk_nor_feral_manticore	wh2_dlc11_nor_manticore_frost_wyrm	false
+			rhox_lenk_nor_feral_manticore	wh2_dlc11_nor_vets_warhounds_ice_wolves_manticore_skin_wolves_chariots	false
+			rhox_lenk_nor_mon_warwolves_0	all_non_chs	true
+			rhox_lenk_nor_mon_warwolves_0	dlc08_nor_all_norscan_wolf_creatures_and_warhounds	false
+			rhox_lenk_nor_mon_warwolves_0	dlc08_nor_all_warhounds	false
+			rhox_lenk_nor_mon_warwolves_0	nor_all	false
+			rhox_lenk_nor_mon_warwolves_0	wh2_dlc11_nor_vets_warhounds_ice_wolves_manticore_skin_wolves_chariots	false
+			rhox_lenk_nor_mon_warwolves_0	wh2_dlc11_nor_warhounds_ice_wolves_chariots	false
+			rhox_lenk_nor_mon_warwolves_0	wh_dlc08_all_mammoths_skin_wolves_ice_wolves_hounds	false
+			rhox_lenk_nor_mon_war_mammoth_0	all_non_chs	true
+			rhox_lenk_nor_mon_war_mammoth_0	dlc08_mammoths	false
+			rhox_lenk_nor_mon_war_mammoth_0	dlc08_nor_monsters	false
+			rhox_lenk_nor_mon_war_mammoth_0	dlc08_nor_war_mammoths	false
+			rhox_lenk_nor_mon_war_mammoth_0	nor_all	false
+			rhox_lenk_nor_mon_war_mammoth_0	wh2_dlc11_nor_fimir_giant_mammoth	false
+			rhox_lenk_nor_mon_war_mammoth_0	wh2_dlc11_nor_vets_trolls_frost_wyrm_giant_mammoth_fimir	false
+			rhox_lenk_nor_mon_war_mammoth_0	wh_dlc08_all_mammoths_skin_wolves_ice_wolves_hounds	false
+			rhox_lenk_nor_mon_war_mammoth_0	wh_dlc08_feral_mammoth	false

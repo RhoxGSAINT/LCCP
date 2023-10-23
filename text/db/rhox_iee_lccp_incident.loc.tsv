@@ -13,3 +13,5 @@ incidents_localised_description_rhox_hrothyogg_toll_collected	You have collected
 incidents_localised_title_rhox_hrothyogg_toll_collected	Toll Collected	false
 incidents_localised_description_rhox_hrothyogg_toll_gang	Notorious Ogre Hrothyogg, has collected toll from you\\n\\n[[col:red]]This has happened because you were in the same region with Hrothyogg where he is controlling the settlement while not having allaince or war with him[[/col]]	false
 incidents_localised_title_rhox_hrothyogg_toll_gang	Toll Robbery	false
+incidents_localised_description_rhox_tokmar_captured_beast	From recent activities, Tokmar Tribe has captured some beasts for the battle	false
+incidents_localised_title_rhox_tokmar_captured_beast	Animal Capture	false
