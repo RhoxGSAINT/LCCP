@@ -217,6 +217,33 @@ function burlok:award_artifact_part(artifact_part_key, amount)
 	end
 end
 
+core:add_listener(
+    "rhox_burlok_ai_turn_start",
+    "FactionTurnStart",
+    function(context)
+        return context:faction():name() =="cr_dwf_firebeards_excavators" and context:faction():is_human() == false
+    end,
+    function(context)
+        local faction = context:faction()
+        local turn = cm:model():turn_number();
+        
+        
+        
+        if turn >=8 then
+            cm:spawn_unique_agent(faction:command_queue_index(), "hkrul_rhobb", true)
+        end
+        if turn >=16 then
+            cm:spawn_unique_agent(faction:command_queue_index(), "hkrul_thulgrim", true)
+        end
+        if turn >=24 then
+            cm:spawn_unique_agent(faction:command_queue_index(), "hkrul_shaz", true)
+        end
+			
+    end,
+    true
+);
+
+
 --------------------------------------------------------------
 ----------------------- SAVING / LOADING ---------------------
 --------------------------------------------------------------

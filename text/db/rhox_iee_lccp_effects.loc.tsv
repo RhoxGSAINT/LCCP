@@ -35,6 +35,6 @@ effects_description_rhox_thorgar_chaos_dummy	Finishing all 4 boons will make Tho
 effects_description_rhox_thorgar_sacrifice_dummy	[[col:red]]Warning: All your agent and units under Thorgar's force will be sacrificed to the Chaos God when he ascends[[/col]]	false
 effects_description_rhox_hrothyogg_toll_dummy	If the region is owned by Hrothyogg, you'll collect toll from all neutral troops in the region.	false
 effects_description_hkrul_hrothyogg_crusher	Mount: Rhinox	false
-effects_description_rhox_burlok_payload_artifact_1_ritual_dummy	Summons a unique [[img:icon_hero]][[/img]]Adventurer Hero	false
-effects_description_rhox_burlok_payload_artifact_2_ritual_dummy	Summons a unique [[img:icon_hero]][[/img]]Adventurer Hero	false
-effects_description_rhox_burlok_payload_artifact_3_ritual_dummy	Summons a unique [[img:icon_hero]][[/img]]Adventurer Hero	false
+effects_description_rhox_burlok_payload_artifact_1_ritual_dummy	Unique [[img:icon_hero]][[/img]]Adventurer Hero will join you	false
+effects_description_rhox_burlok_payload_artifact_2_ritual_dummy	Unique [[img:icon_hero]][[/img]]Adventurer Hero will join you	false
+effects_description_rhox_burlok_payload_artifact_3_ritual_dummy	Unique [[img:icon_hero]][[/img]]Adventurer Hero will join you	false
