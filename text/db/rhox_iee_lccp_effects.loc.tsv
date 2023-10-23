@@ -38,3 +38,5 @@ effects_description_hkrul_hrothyogg_crusher	Mount: Rhinox	false
 effects_description_rhox_burlok_payload_artifact_1_ritual_dummy	Unique [[img:icon_hero]][[/img]]Adventurer Hero will join you	false
 effects_description_rhox_burlok_payload_artifact_2_ritual_dummy	Unique [[img:icon_hero]][[/img]]Adventurer Hero will join you	false
 effects_description_rhox_burlok_payload_artifact_3_ritual_dummy	Unique [[img:icon_hero]][[/img]]Adventurer Hero will join you	false
+effects_description_rhox_torinubar_melee_attack_gate_guard	Melee attack: %+n for Calith Gatekeepers units	false
+effects_description_rhox_torinubar_melee_defence_gate_guard	Melee defence: %+n for Calith Gatekeepers units	false
