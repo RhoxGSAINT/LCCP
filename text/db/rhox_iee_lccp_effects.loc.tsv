@@ -40,3 +40,5 @@ effects_description_rhox_burlok_payload_artifact_2_ritual_dummy	Unique [[img:ico
 effects_description_rhox_burlok_payload_artifact_3_ritual_dummy	Unique [[img:icon_hero]][[/img]]Adventurer Hero will join you	false
 effects_description_rhox_torinubar_melee_attack_gate_guard	Melee attack: %+n for Calith Gatekeepers units	false
 effects_description_rhox_torinubar_melee_defence_gate_guard	Melee defence: %+n for Calith Gatekeepers units	false
+effects_description_hkrul_thorgar_ascend_dummy	Finish the given Labours and ascend to Daemon prince to gain access to the Daemon recruit buildings	false
+effects_description_rhox_slaurith_hunt_knight_dummy	Hunt your fellow knight scattered across the words to get benefits	false

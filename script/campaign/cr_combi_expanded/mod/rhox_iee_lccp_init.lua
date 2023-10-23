@@ -368,6 +368,7 @@ local rhox_iee_list={
             rhox_add_warriors_units(cm:get_faction(faction_key), rhox_valbrand_gift_units);
         end,
         first_tick = function(faction, faction_key) 
+            rhox_valbrand_slaves:start_listeners()
         end
     },
     rhox_nor_ravenblessed ={
