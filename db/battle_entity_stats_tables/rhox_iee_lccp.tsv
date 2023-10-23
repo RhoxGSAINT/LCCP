@@ -1,3 +1,4 @@
 key	primary_melee_weapon	primary_missile_weapon
 #battle_entity_stats_tables;2;db/battle_entity_stats_tables/rhox_iee_lccp		
 rhox_vroth_rider_entity_stats	hkrul_vroth	hkrul_vroth_javelin
+rhox_vroth_secondary_mammoth_rider		rhox_vroth_javelin_secondary
