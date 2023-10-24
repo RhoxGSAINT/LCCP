@@ -72,7 +72,7 @@ table.insert(initiative_templates,
 ------------------------mercenary_branch
 
 
-local base_chance =5
+
 
 
 
@@ -84,8 +84,10 @@ core:add_listener(
         local character = context:character()
         local faction = character:faction()
         local pb = context:pending_battle();
+        local base_chance =5
+        local bonus_chance = character:bonus_values():scripted_value("rhox_hrothyogg_recruiter_gain_chance", "value")
 
-        return character:character_subtype_key() == "hkrul_hrothyogg" and faction:name() == "cr_ogr_deathtoll" and pb:has_been_fought() and character:won_battle() and cm:model():random_percent(base_chance)
+        return character:character_subtype_key() == "hkrul_hrothyogg" and faction:name() == "cr_ogr_deathtoll" and pb:has_been_fought() and character:won_battle() and cm:model():random_percent(base_chance+bonus_chance)
     end,
     function(context)
         local character = context:character()

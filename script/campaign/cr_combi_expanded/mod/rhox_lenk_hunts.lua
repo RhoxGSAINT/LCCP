@@ -3,8 +3,9 @@ LenkBeastHunts = {
 	underway_cultures = {["wh_main_grn_greenskins"] = true,["wh_main_dwf_dwarfs"] = true,["wh2_main_skv_skaven"] = true},
 	occupation_do_nothing = "occupation_decision_do_nothing", -- Since even 'doing nothing' on a razed settlement counts as a settlement option, we need to exclude this option when rewarding beasts.
 	settlements_beast_raided_this_turn = {},	-- Cache of the keys of all settlements from which beasts have been earned this turn. Used to avoid double-dipping for beasts by sacking and then razing.
-	
+	lenk_skill_key="hkrul_vroth_special_1_4",
 	----variables
+	lenk_skill_bonus_chance = 15,
 	bad_luck_modifier_increment = 10,-- bad luck modifier for a specific incident goes up by this value every time an incident is not generated
 	bad_luck_modifiers = {["raiding"] = 100, ["settlement_occupation"] = 100 , ["post_battle"] = 100}, --- these are set to 100 so the first time you do each in a campaign it's a guaranteed succss
 	bad_luck_modifier_max = 30, -- bad luck modifier cannot exceed this value
@@ -159,8 +160,6 @@ LenkBeastHunts = {
 		{"wh2_twa03_grn_mon_wyvern_0", "monster_pen", 				0, 2, 1,		"wh2_twa03_mon_monster_feral_wyvern"},
 	},
 
-
-
 	incident_count = 0
 }
 -----------------
@@ -240,6 +239,10 @@ function LenkBeastHunts:setup_settlement_occupation_listener()
 
 			modifiers = modifiers + character_rank
 
+			if context:character():has_skill(LenkBeastHunts.lenk_skill_key) then
+				modifiers = modifiers + LenkBeastHunts.lenk_skill_bonus_chance
+			end
+
 			if LenkBeastHunts:is_occupied_residence_province_capital(garrison_residence) then
 				modifiers = modifiers + LenkBeastHunts.province_capital_modifier
 			end
@@ -267,6 +270,9 @@ function LenkBeastHunts:setup_post_battle_listener()
 			local beast_incident_generated = false
 			local battle_type = "land"
 			local character_rank = context:character():rank()
+			if context:character():has_skill(LenkBeastHunts.lenk_skill_key) then
+				modifiers = modifiers + LenkBeastHunts.lenk_skill_bonus_chance
+			end
 
 			local modifiers = self.bad_luck_modifiers[event_type] + (casualty_coefficient*50)
 			modifiers = modifiers + character_rank
@@ -307,7 +313,9 @@ function LenkBeastHunts:setup_raiding_listener()
 			local character_rank = context:character():rank()
 
 			modifiers = modifiers + character_rank
-
+			if context:character():has_skill(LenkBeastHunts.lenk_skill_key) then
+				modifiers = modifiers + LenkBeastHunts.lenk_skill_bonus_chance
+			end
 
 			local corrupted_incident = false
 			local corruption_factor = 0

@@ -42,3 +42,4 @@ effects_description_rhox_torinubar_melee_attack_gate_guard	Melee attack: %+n for
 effects_description_rhox_torinubar_melee_defence_gate_guard	Melee defence: %+n for Calith Gatekeepers units	false
 effects_description_hkrul_thorgar_ascend_dummy	Finish the given Labours and ascend to Daemon prince to gain access to the Daemon recruit buildings	false
 effects_description_rhox_slaurith_hunt_knight_dummy	Hunt your fellow knight scattered across the words to get benefits	false
+effects_description_rhox_hrothyogg_mercenary_chance	Chance of getting Mercenary Ambassador after battle victory: %+n%	false
