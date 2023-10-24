@@ -7,11 +7,13 @@ hkrul_volrik		hkrul_volrik		1.0000	1.1700	0.0000
 hkrul_zach		hkrul_zach		1.0000	1.1600	0.0000	
 hef_calith_torinubar		hef_calith_torinubar		1.0000	1.2000	0.0000	
 hkrul_aelfric		hkrul_aelfric		1.0000	1.2000	0.0000	
-hkrul_orghotts		orghotts		1.0000	0.9000	0.0000	
+hkrul_orghotts		hkrul_orghotts		1.0000	0.9000	0.0000	
 hkrul_hrothyogg		ogr_hrothyogg		1.0000	1.1500	0.0000	
 hkrul_burlok		phy_burlok		1.0000	1.1500	0.0000	
 hkrul_dolmance		wolf_dolmance		1.0000	1.1000	0.0000	
 hkrul_thorgar		hkrul_thorgar		1.0000	1.2000	0.0000	
+hkrul_thorgar_daemon_prince		hkrul_thorgar_daemon_prince		1.0000	2.0000	0.0000	
+hkrul_thorgar_daemon_prince_campaign		hkrul_thorgar_daemon_prince		1.0000	1.4000	0.0000	
 hkrul_slaurith		hkrul_slaurith		1.0000	1.3000	0.0000	
 rhox_ogr_diplomat		ogr_diplomat		1.0000	1.1500	0.0000	
 hkrul_arbaal_mount	variantmeshes/wh_variantmodels/bc4/dae/thm_fleshhound_arbaal/tech	thm_arbaal_fleshhound		1.2500	0.6200	0.0000	

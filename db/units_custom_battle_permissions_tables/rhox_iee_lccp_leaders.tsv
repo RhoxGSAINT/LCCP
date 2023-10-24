@@ -18,6 +18,7 @@ cr_dwf_firebeards_excavators	true	hkrul_burlok	true	true	ui/portraits/portholes/
 rhox_brt_reveller_of_domance	true	hkrul_dolmance	true	true	ui/portraits/portholes/no_culture/hkrul_dolmance.png	hkrul_dolmance	hkrul_dolmance	false		false
 rhox_nor_khazags	true	hkrul_thorgar	true	true	ui/portraits/portholes/no_culture/hkrul_thorgar.png	hkrul_thorgar	hkrul_thorgar	false		false
 rhox_nor_khazags	true	hkrul_thorgar_chariot	true	true	ui/portraits/portholes/no_culture/hkrul_thorgar.png	hkrul_thorgar	hkrul_thorgar	false		false
+rhox_nor_khazags	true	hkrul_thorgar_daemon_prince	true	true	ui/portraits/portholes/no_culture/hkrul_thorgar_daemon_prince.png	hkrul_thorgar_daemon_prince	hkrul_thorgar	false		false
 cr_kho_servants_of_the_blood_nagas	true	hkrul_slaurith	true	true	ui/portraits/portholes/no_culture/hkrul_slaurith.png	hkrul_slaurith	hkrul_slaurith	false		false
 cr_kho_servants_of_the_blood_nagas	true	hkrul_slaurith_mount	true	true	ui/portraits/portholes/no_culture/hkrul_slaurith.png	hkrul_slaurith	hkrul_slaurith	false		false
 rhox_kho_destroyers_of_khorne	true	hkrul_arbaal_mounted	true	true	ui/portraits/portholes/no_culture/hkrul_arbaal.png	hkrul_arbaal	hkrul_arbaal	false		false
