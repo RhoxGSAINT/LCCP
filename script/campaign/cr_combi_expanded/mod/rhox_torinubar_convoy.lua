@@ -1,8 +1,5 @@
 local torinubar_faction_key = "cr_hef_gate_guards"
 
-local rhox_torinubar_events_cooldown = {}
-local rhox_torinubar_event_max_cooldown = 15
-
 local rhox_caravan_exception_list={
     ["wh2_main_hef_cha_prince_0"] =true,
     ["wh2_main_hef_cha_prince_2"] =true,
@@ -11,10 +8,6 @@ local rhox_caravan_exception_list={
     ["wh2_main_hef_cha_prince_5"] =true,
     ["wh2_dlc15_hef_cha_prince_6"] =true
 }
-
-
-
-
 
 
 local random_pirate_faction ={
@@ -1231,28 +1224,6 @@ cm:add_first_tick_callback_new(
             cm:set_script_state("caravan_camera_x",1287);
             cm:set_script_state("caravan_camera_y",67);
         end
-        
-        if cm:get_faction(torinubar_faction_key):is_human() then
-            rhox_torinubar_events_cooldown[torinubar_faction_key] = {
-                ["rhox_torinubar_dilemma_cathay_caravan"] = 0,
-                ["rhox_torinubar_dilemma_dwarfs"] = 0,
-                ["rhox_torinubar_dilemma_far_from_home"] = 0,
-                ["rhox_torinubar_dilemma_fresh_battlefield"] = 0,
-                ["rhox_torinubar_dilemma_hungry_daemons"] = 0,
-                ["rhox_torinubar_dilemma_localised_elfs"] = 0,
-                ["rhox_torinubar_dilemma_offence_or_defence"] = 0,
-                ["rhox_torinubar_dilemma_ogre_mercenaries"] = 0,
-                ["rhox_torinubar_dilemma_power_overwhelming"] = 0,
-                ["rhox_torinubar_dilemma_quick_way_down"] = 0,
-                ["rhox_torinubar_dilemma_rats_in_a_tunnel"] = 0,
-                ["rhox_torinubar_dilemma_redeadify"] = 0,
-                ["rhox_torinubar_dilemma_the_ambush"] = 0,
-                ["rhox_torinubar_dilemma_the_guide"] = 0,
-                ["rhox_torinubar_dilemma_trading_dark_elfs"] = 0,
-                ["rhox_torinubar_dilemma_training_camp"] = 0,
-                ["rhox_torinubar_dilemma_way_of_lava"] = 0
-            }
-		end
 		
 
 		local all_factions = cm:model():world():faction_list();
@@ -1265,6 +1236,8 @@ cm:add_first_tick_callback_new(
 		end
 	end
 );
+
+
 
 
 
@@ -1308,21 +1281,5 @@ cm:add_first_tick_callback(
         end
 
 
-	end
-);
---------------------------------------------------------------
------------------------ SAVING / LOADING ---------------------
---------------------------------------------------------------
-cm:add_saving_game_callback(
-	function(context)
-		cm:save_named_value("rhox_torinubar_events_cooldown", rhox_torinubar_events_cooldown, context);
-	end
-);
-
-cm:add_loading_game_callback(
-	function(context)
-		if not cm:is_new_game() then
-			rhox_torinubar_events_cooldown = cm:load_named_value("rhox_torinubar_events_cooldown", rhox_torinubar_events_cooldown, context);
-		end;
 	end
 );
