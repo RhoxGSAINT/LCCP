@@ -382,7 +382,7 @@ local rhox_iee_list={
             subtype="hkrul_volrik",
             unit_list="wh_dlc08_nor_inf_marauder_spearman_0,wh_dlc08_nor_inf_marauder_hunters_1,wh3_dlc20_chs_cav_marauder_horsemen_mtze_javelins,wh3_dlc20_chs_cav_marauder_horsemen_mtze_javelins,wh3_dlc20_chs_cav_marauder_horsemen_mtze_javelins,wh_main_nor_inf_chaos_marauders_0,wh_main_nor_inf_chaos_marauders_0,wh3_dlc20_chs_cav_chaos_chariot_mtze,wh3_dlc20_chs_cav_chaos_chariot_mtze",
             x=1416,
-            y=784,
+            y=765,
             forename ="names_name_4170700722",
             familiyname ="names_name_4170700720",
         },
