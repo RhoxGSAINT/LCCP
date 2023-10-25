@@ -43,3 +43,6 @@ rhox_burlok_payload_artifact_3_ritual_dummy	angrund_ancestors.png	50	angrund_anc
 hkrul_arbaal_ruiner	item_ability.png	300	item_ability.png	battle	true
 hkrul_arbaal_hound_flanker	devastating_flanker.png	461	devastating_flanker.png	battle	true
 rhox_hrothyogg_mercenary_chance	effect_bundle_hroth.png	461	effect_bundle_hroth.png	battle	true
+rhox_sceolan_office_woodelf_elf_melee_attack	melee.png	431	melee.png	battle	true
+rhox_sceolan_office_woodelf_elf_melee_defence	defence.png	452	defence.png	battle	true
+rhox_sceolan_office_enable_bound_blizzard	magic_character.png	290	magic_character.png	battle	true

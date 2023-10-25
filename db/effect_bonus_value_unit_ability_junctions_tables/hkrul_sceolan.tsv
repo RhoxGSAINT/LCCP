@@ -1,7 +1,0 @@
-effect	bonus_value_id	unit_ability
-#effect_bonus_value_unit_ability_junctions_tables;0;db/effect_bonus_value_unit_ability_junctions_tables/hkrul_sceolan		
-hkrul_sceolan_helm	enable	hkrul_sceolan_helm
-hkrul_sceolan_pal	enable	hkrul_sceolan_pal
-hkrul_sceolan_sword	enable	hkrul_sceolan_sword
-hkrul_spew_bombard	enable	hkrul_spew_bombard
-hkrul_spew_spoiled	enable	hkrul_spew_spoiled
