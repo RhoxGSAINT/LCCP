@@ -334,7 +334,7 @@ local rhox_iee_list={
     rhox_nor_firebrand_slavers ={
         leader={
             subtype="hkrul_valbrand",
-            unit_list="wh_dlc08_nor_inf_marauder_spearman_0,wh_dlc08_nor_inf_marauder_hunters_1,wh3_main_kho_inf_chaos_warriors_0,wh3_dlc20_chs_inf_chaos_marauders_mkho,wh3_dlc20_chs_inf_chaos_marauders_mkho,wh_dlc08_nor_mon_norscan_giant_0,wh3_dlc20_chs_cav_chaos_chariot_mkho",
+            unit_list="wh_dlc08_nor_inf_marauder_spearman_0,wh_dlc08_nor_inf_marauder_hunters_1,wh3_main_kho_inf_chaos_warriors_0,wh3_main_kho_inf_chaos_warriors_0,wh3_dlc20_chs_inf_chaos_marauders_mkho,wh3_dlc20_chs_inf_chaos_marauders_mkho,wh_dlc08_nor_mon_norscan_giant_0,wh3_dlc20_chs_cav_chaos_chariot_mkho,wh3_dlc20_chs_cav_chaos_chariot_mkho",
             x=1460,
             y=580,
             forename ="names_name_6330700834",
@@ -618,9 +618,9 @@ local rhox_iee_list={
     cr_nor_tokmars ={
         leader={
             subtype="hkrul_vroth",
-            unit_list="wh_main_nor_inf_chaos_marauders_0,wh_dlc08_nor_inf_marauder_hunters_1,wh_dlc08_nor_inf_marauder_hunters_1,wh_main_nor_cav_chaos_chariot,wh_main_nor_inf_chaos_marauders_1,wh_main_nor_mon_chaos_warhounds_0",
-            x=1206,
-            y=820,
+            unit_list="wh_main_nor_inf_chaos_marauders_0,wh_main_nor_inf_chaos_marauders_0,wh_main_nor_inf_chaos_marauders_0,wh_main_nor_inf_chaos_marauders_0,wh_dlc08_nor_inf_marauder_hunters_1,wh_dlc08_nor_inf_marauder_hunters_1,wh_main_nor_cav_chaos_chariot,wh_main_nor_inf_chaos_marauders_1,wh_main_nor_mon_chaos_warhounds_0",
+            x=1202,
+            y=831,
             forename ="names_name_5670700722",
             familiyname ="names_name_5670700719",
         },
@@ -633,7 +633,13 @@ local rhox_iee_list={
         how_they_play="rhox_iee_lccp_how_they_play_vroth",
         pic=800,
         faction_trait="rhox_vroth_faction_trait",
-        enemy=nil,
+        enemy={
+            key="cr_grn_nag_rippers",
+            subtype="wh_main_grn_orc_warboss",
+            unit_list="wh_main_grn_inf_orc_boyz,wh_main_grn_inf_orc_boyz,wh_main_grn_inf_orc_arrer_boyz,wh_main_grn_inf_orc_arrer_boyz,wh_main_grn_cav_orc_boar_boyz",
+            x=1200,
+            y=839,
+        },
         additional = function(faction, faction_key) 
             for i, v in pairs(LenkBeastHunts.ai_units) do
                 cm:add_unit_to_faction_mercenary_pool(
@@ -651,6 +657,17 @@ local rhox_iee_list={
                     v[6] -- merc unit group
                 )
             end	
+            if faction:is_human() then
+                cm:transfer_region_to_faction("cr_combi_region_the_bloodrift","cr_grn_nag_rippers")--Might need to change after adding some pirate faction here
+                local transferred_region = cm:get_region("cr_combi_region_the_bloodrift")
+                local transferred_region_cqi = transferred_region:cqi()
+                cm:heal_garrison(transferred_region_cqi)
+                
+                cm:transfer_region_to_faction("cr_combi_region_tong_war_monolith","cr_grn_nag_rippers")--Might need to change after adding some pirate faction here
+                transferred_region = cm:get_region("cr_combi_region_tong_war_monolith")
+                transferred_region_cqi = transferred_region:cqi()
+                cm:heal_garrison(transferred_region_cqi)
+            end
         end,
         first_tick = function(faction, faction_key) 
             LenkBeastHunts:setup_lenk_listeners()

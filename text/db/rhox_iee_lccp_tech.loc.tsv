@@ -1,30 +1,30 @@
 key	text	tooltip
 #Loc;1;text/db/rhox_iee_lccp_tech.loc		
-technologies_onscreen_name_rhox_valbrand_kho_1	Khonre Tech 1	false
-technologies_short_description_rhox_valbrand_kho_1	Khonre Tech 1	false
-technologies_onscreen_name_rhox_valbrand_kho_2	Khonre Tech 2	false
-technologies_short_description_rhox_valbrand_kho_2	Khonre Tech 2	false
-technologies_onscreen_name_rhox_valbrand_kho_3	Khonre Tech 3	false
-technologies_short_description_rhox_valbrand_kho_3	Khonre Tech 3	false
-technologies_onscreen_name_rhox_valbrand_normal_1	Additional Tech 1	false
-technologies_short_description_rhox_valbrand_normal_1	Additional Tech 1	false
-technologies_onscreen_name_rhox_valbrand_normal_2	Additional Tech 2	false
-technologies_short_description_rhox_valbrand_normal_2	Additional Tech 2	false
-technologies_onscreen_name_rhox_valbrand_normal_3	Additional Tech 3	false
-technologies_short_description_rhox_valbrand_normal_3	Additional Tech 3	false
-technologies_onscreen_name_rhox_volrik_tze_1	Tzeentch Tech 1	false
-technologies_short_description_rhox_volrik_tze_1	Tzeentch Tech 1	false
-technologies_onscreen_name_rhox_volrik_tze_2	Tzeentch Tech 2	false
-technologies_short_description_rhox_volrik_tze_2	Tzeentch Tech 2	false
-technologies_onscreen_name_rhox_volrik_tze_3	Tzeentch Tech 3	false
-technologies_short_description_rhox_volrik_tze_3	Tzeentch Tech 3	false
-technologies_onscreen_name_rhox_volrik_normal_1	Additional Tech 1	false
-technologies_short_description_rhox_volrik_normal_1	Additional Tech 1	false
-technologies_onscreen_name_rhox_volrik_normal_2	Additional Tech 2	false
-technologies_short_description_rhox_volrik_normal_2	Additional Tech 2	false
-technologies_onscreen_name_rhox_volrik_normal_3	Additional Tech 3	false
-technologies_short_description_rhox_volrik_normal_3	Additional Tech 3	false
-technologies_onscreen_name_rhox_dolmance_sla_1	Slaanesh Tech 1	false
-technologies_short_description_rhox_dolmance_sla_1	Slaanesh Tech 1	false
-technologies_onscreen_name_rhox_dolmance_sla_2	Slaanesh Tech 2	false
-technologies_short_description_rhox_dolmance_sla_2	Slaanesh Tech 2	false
+technologies_onscreen_name_rhox_valbrand_kho_1	Bloodforged Pacts	false
+technologies_short_description_rhox_valbrand_kho_1	Harness the crimson might of Khorne	false
+technologies_onscreen_name_rhox_valbrand_kho_2	Rage Unleashed	false
+technologies_short_description_rhox_valbrand_kho_2	As you delve deeper into the dark heart of Khorne's power, the relentless rage of the Blood God's chosen becomes an unstoppable force, leaving nothing but devastation in its wake	false
+technologies_onscreen_name_rhox_valbrand_kho_3	Sundering Carnage	false
+technologies_short_description_rhox_valbrand_kho_3	Cleave through the ranks of the enemy in an unrelenting storm of destruction.	false
+technologies_onscreen_name_rhox_valbrand_normal_1	Eldritch Empowerment	false
+technologies_short_description_rhox_valbrand_normal_1	Unlock the secrets of the Dark Gods and broaden the wellspring	false
+technologies_onscreen_name_rhox_valbrand_normal_2	Boundless Chaos Boons	false
+technologies_short_description_rhox_valbrand_normal_2	The convergence of the Chaos Gods knows no limits, and through this dark communion, the undivided faithful gain access to an ever-expanding array of boundless gifts from the realms of Chaos.	false
+technologies_onscreen_name_rhox_valbrand_normal_3	Frenzied Horde Growth	false
+technologies_short_description_rhox_valbrand_normal_3	Embrace the relentless fury of Khorne to stoke the fires of war and witness your horde grow in unending bloodlust, swelling the ranks of the Blood God's faithful warriors	false
+technologies_onscreen_name_rhox_volrik_tze_1	Arcane Resonance	false
+technologies_short_description_rhox_volrik_tze_1	Unlock the mysteries of Tzeentch's ever-shifting magic, and harness the power 	false
+technologies_onscreen_name_rhox_volrik_tze_2	Unraveled Mysteries	false
+technologies_short_description_rhox_volrik_tze_2	Dive deeper into the labyrinthine secrets of Tzeentch's sorcery, and bring uncertainty and chaos to all who stand in its path.	false
+technologies_onscreen_name_rhox_volrik_tze_3	Infernal Tempest	false
+technologies_short_description_rhox_volrik_tze_3	Engulf your foes in a chaotic inferno of change and destruction.	false
+technologies_onscreen_name_rhox_volrik_normal_1	Multifarious Blessings	false
+technologies_short_description_rhox_volrik_normal_1	Embrace the unpredictable nature	false
+technologies_onscreen_name_rhox_volrik_normal_2	Unlimited Chaos Boons	false
+technologies_short_description_rhox_volrik_normal_2	Peer into the ever-shifting gaze	false
+technologies_onscreen_name_rhox_volrik_normal_3	Ever-Expanding	false
+technologies_short_description_rhox_volrik_normal_3	Channel the boundless energies of change and transformation on the battlefield.	false
+technologies_onscreen_name_rhox_dolmance_sla_1	Seductive Secrets	false
+technologies_short_description_rhox_dolmance_sla_1	Weave seduction into every strike and parry	false
+technologies_onscreen_name_rhox_dolmance_sla_2	Euphoric Deception	false
+technologies_short_description_rhox_dolmance_sla_2	Every sorrowful note carries an intoxicating undertone of ecstasy.	false
