@@ -1,7 +1,0 @@
-key	text	tooltip
-#Loc;1;text/db/wolf_calithian_elves_abilities.loc		
-unit_abilities_onscreen_name_wh2_torinubar_kinetic_wave	Kinetic Wave	false
-unit_abilities_tooltip_text_wh2_torinubar_kinetic_wave	The mage focuses Qhaysh into a wave of pure kinetic energy, pushing aside all nearby enemies	false
-unit_abilities_onscreen_name_wh2_torinubar_kinetic_combat	Kinetic Combat	false
-unit_abilities_tooltip_text_wh2_torinubar_kinetic_combat	Torinubar is a master of the Asur art of Kineticism, the craft of focusing the wind of Qhaysh into kinetic energies that he can wield to either defend himself or crush his enemies.	false
-effects_description_hef_calith_torinubar_enable_kinetic_explosion	Ability: "Kinetic Wave"	true

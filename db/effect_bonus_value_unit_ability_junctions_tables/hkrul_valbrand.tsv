@@ -1,6 +1,0 @@
-effect	bonus_value_id	unit_ability
-#effect_bonus_value_unit_ability_junctions_tables;0;db/effect_bonus_value_unit_ability_junctions_tables/hkrul_valbrand		
-hkrul_valbrand_helm	enable	hkrul_valbrand_helm
-hkrul_valbrand_pal	enable	hkrul_valbrand_pal
-hkrul_valbrand_sword	enable	hkrul_valbrand_sword
-hkrul_valbrand_eruption	enable	hkrul_valbrand_eruption
