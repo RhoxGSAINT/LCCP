@@ -92,7 +92,7 @@ local rhox_iee_list={
     rhox_brt_reveller_of_domance ={
         leader={
             subtype="hkrul_dolmance",
-            unit_list="wh_dlc07_brt_inf_spearmen_at_arms_1,wh_main_brt_cav_mounted_yeomen_0",
+            unit_list="wh_dlc07_brt_inf_spearmen_at_arms_1,wh_dlc07_brt_inf_spearmen_at_arms_1,wh_dlc07_brt_inf_spearmen_at_arms_1,wh_dlc07_brt_inf_spearmen_at_arms_1,wh_dlc07_brt_inf_spearmen_at_arms_1,wh_main_brt_cav_mounted_yeomen_0,wh_main_brt_cav_mounted_yeomen_0,wh_main_brt_cav_mounted_yeomen_0,wh_main_brt_cav_mounted_yeomen_0",
             x=1121,
             y=283,
             forename ="names_name_2670700824",
@@ -702,9 +702,9 @@ local rhox_iee_list={
     cr_def_corsairs_of_spite ={
         leader={
             subtype="hkrul_duriath",
-            unit_list="wh2_main_def_inf_bleakswords_0,wh2_main_def_inf_darkshards_1",
-            x=1091,
-            y=381,
+            unit_list="wh2_main_def_inf_bleakswords_0,wh2_main_def_inf_darkshards_1,wh2_main_def_inf_black_ark_corsairs_1,wh2_main_def_inf_black_ark_corsairs_1,wh2_main_def_inf_black_ark_corsairs_1,wh2_main_def_inf_black_ark_corsairs_0,wh2_main_def_inf_black_ark_corsairs_0,wh2_main_def_inf_black_ark_corsairs_0,wh2_main_def_inf_black_ark_corsairs_0",
+            x=1095,
+            y=374,
             forename ="names_name_1369138461",
             familiyname ="names_name_1369138462",
         },
@@ -717,7 +717,13 @@ local rhox_iee_list={
         how_they_play="rhox_iee_lccp_how_they_play_duriath",
         pic=782,
         faction_trait="rhox_duriath_faction_trait",
-        enemy=nil,
+        enemy={
+            key="cr_emp_guests_of_the_raja",
+            subtype="wh2_dlc13_emp_cha_huntsmarshal",
+            unit_list="wh2_dlc13_emp_inf_huntsmen_0,wh2_dlc13_emp_inf_huntsmen_0,wh_main_emp_inf_greatswords,wh_main_emp_inf_halberdiers,wh_main_emp_inf_halberdiers",
+            x=1101,
+            y=365,
+        },
         additional = function(faction, faction_key) 
             cm:add_building_to_force(faction:faction_leader():military_force():command_queue_index(), "rhox_duriath_black_ark_special_1")
             
@@ -730,6 +736,21 @@ local rhox_iee_list={
                     mm:add_payload("money 1000");
                     mm:trigger()
                 end
+                
+                cm:transfer_region_to_faction("cr_combi_region_ind_3_1","cr_emp_guests_of_the_raja")
+                local transferred_region = cm:get_region("cr_combi_region_ind_3_1")
+                local transferred_region_cqi = transferred_region:cqi()
+                cm:heal_garrison(transferred_region_cqi)
+                
+                cm:transfer_region_to_faction("cr_combi_region_ind_3_2","cr_emp_guests_of_the_raja")
+                transferred_region = cm:get_region("cr_combi_region_ind_3_2")
+                transferred_region_cqi = transferred_region:cqi()
+                cm:heal_garrison(transferred_region_cqi)
+                
+                cm:transfer_region_to_faction("cr_combi_region_ind_3_3","cr_emp_guests_of_the_raja")
+                transferred_region = cm:get_region("cr_combi_region_ind_3_3")
+                transferred_region_cqi = transferred_region:cqi()
+                cm:heal_garrison(transferred_region_cqi)
             end
         end,
         first_tick = function(faction, faction_key) 

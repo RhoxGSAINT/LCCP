@@ -46,3 +46,4 @@ effects_description_rhox_hrothyogg_mercenary_chance	Chance of getting Mercenary 
 effects_description_rhox_sceolan_office_woodelf_elf_melee_attack	Melee attack: %n% for all Elf units	false
 effects_description_rhox_sceolan_office_woodelf_elf_melee_defence	Melee defence: %n% for all Elf units	false
 effects_description_rhox_sceolan_office_enable_bound_blizzard	Bound spell: "Blizzard"	false
+effects_description_rhox_duriath_corsair_ammo_change	Black Ark Corsairs (Handbows) uses Reapeter Crossbows instead	false
