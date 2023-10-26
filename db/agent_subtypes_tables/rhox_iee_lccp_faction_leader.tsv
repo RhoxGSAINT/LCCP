@@ -16,5 +16,5 @@ hkrul_slaurith	false	false		hkrul_slaurith	wh_main_vo_actor_Chaos_Lord	true	-1	f
 hkrul_arbaal	false	false		hkrul_arbaal_mounted	wh3_dlc20_vo_actor_Khorne_Chaos_Lord_of_Khorne	true	-1	false	true	false	false	legendary_lords		names_chs_chaos	false	true	cannot_be_saved_loaded		false	true	900
 hkrul_engra	false	false		hkrul_engra	wh_main_vo_actor_Chaos_Lord	true	-1	false	true	false	false	legendary_lords			false	true	cannot_be_saved_loaded		false	true	1100
 hkrul_vroth	false	false		hkrul_vroth	wh_dlc08_vo_actor_Norsca_Marauder_Chieftan	true	-1	false	true	false	false	legendary_lords			false	true	cannot_be_saved_loaded		false	true	1100
-hkrul_karitamen	false	true		hkrul_karitamen	wh2_dlc09_vo_actor_Tomb_Kings_Khatep	true	-1	false	true	false	false	legendary_lords			false	true	cannot_be_saved_loaded		false	true	1050
+hkrul_karitamen	false	true		hkrul_karitamen	wh2_dlc09_vo_actor_Tomb_Kings_Khatep	true	-1	false	true	false	false	legendary_lords	wh2_dlc09_lore_nehekhara		false	true	cannot_be_saved_loaded		false	true	1050
 hkrul_duriath	false	false		hkrul_duriath	wh2_main_vo_actor_Dark_Elves_Dreadlord	true	-1	false	true	false	false	legendary_lords			false	true	cannot_be_saved_loaded		false	true	850

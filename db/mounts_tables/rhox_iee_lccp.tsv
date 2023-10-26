@@ -1,3 +1,4 @@
 key	animation	entity	audio_armour_type	variant	voiceover
 #mounts_tables;10;db/mounts_tables/rhox_iee_lccp					
 hkrul_arbaal_mount	bc4_arbaal_mount	wh3_main_kho_mnt_juggernaut_hero	heavy_plate	hkrul_arbaal_mount	wh3_main_vo_culture_Fleshhound
+hkrul_karitamen_casket_mount	th1_shield_bearers	hkrul_karitamen_casket_mounted	chainmail	hkrul_karitamen_casket_mount	wh_main_vo_culture_Dwarf
