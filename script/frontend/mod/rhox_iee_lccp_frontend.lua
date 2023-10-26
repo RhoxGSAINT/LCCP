@@ -81,10 +81,11 @@ core:add_ui_created_callback(
             
             mixer_change_lord_name("2066159894", "hkrul_duriath") 
             mixer_enable_custom_faction("2066159894")
-            mixer_add_starting_unit_list_for_faction("cr_def_corsairs_of_spite", {"wh2_main_def_inf_bleakswords_0","wh2_main_def_inf_darkshards_1"})
+            mixer_add_starting_unit_list_for_faction("cr_def_corsairs_of_spite", {"wh2_main_def_inf_bleakswords_0","wh2_main_def_inf_darkshards_1", "wh2_main_def_inf_black_ark_corsairs_0", "wh2_main_def_inf_black_ark_corsairs_1"})
             mixer_add_faction_to_major_faction_list("cr_def_corsairs_of_spite")
         end        
     end
 )
+
 
 

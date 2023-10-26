@@ -46,3 +46,4 @@ rhox_hrothyogg_mercenary_chance	effect_bundle_hroth.png	461	effect_bundle_hroth.
 rhox_sceolan_office_woodelf_elf_melee_attack	melee.png	431	melee.png	battle	true
 rhox_sceolan_office_woodelf_elf_melee_defence	defence.png	452	defence.png	battle	true
 rhox_sceolan_office_enable_bound_blizzard	magic_character.png	290	magic_character.png	battle	true
+rhox_duriath_corsair_ammo_change	ranged_damage.png	60	ranged_damage.png	battle	true
