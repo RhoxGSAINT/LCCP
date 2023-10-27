@@ -1,3 +1,4 @@
 bombardment_key	arrival_window	num_projectiles	projectile_type	radius_spread	start_time	launch_source	launch_vfx	launch_height	audio_type	launch_height_underground	randomise_launch
 #projectile_bombardments_tables;6;db/projectile_bombardments_tables/hkrul_lccp											
 hkrul_spew_bombard	2.0000	60	hkrul_spew_bombard	15.0000	1.0000	above_target	wh_main_spell_bound_soulfire_spawn	150	wh2_dlc13_ability_ishas_rain	75	true
+rhox_duriath_pour_everything	7.0000	120	wh_dlc08_abilities_lightening_down	30.0000	8.0000	above_target	wh_dlc08_abilities_lightening_down_spawn	150	wh_dlc08_ability_lightening_down	75	true

@@ -48,3 +48,7 @@ effects_description_rhox_sceolan_office_woodelf_elf_melee_defence	Melee defence:
 effects_description_rhox_sceolan_office_enable_bound_blizzard	Bound spell: "Blizzard"	false
 effects_description_rhox_duriath_corsair_ammo_change	Black Ark Corsairs (Handbows) uses Reapeter Crossbows instead	false
 effects_description_rhox_duriath_enable_kill_shot	Ability: "Focus Shot" to all Black Ark characters	false
+effects_description_rhox_duriath_stat_missile_block_chance_def_corsair	Missile block chance: %+n% for Black Ark Corsair units	false
+effects_description_rhox_duriath_stat_charge_bonus_def_corsair	Charge Bonus: %+n% for Black Ark Corsair units	false
+effects_description_rhox_duriath_devastating_flanker_bonus_def_corsair	Attribute: Devastating Flanker for Black Ark Corsair units	false
+effects_description_rhox_duriath_effect_army_ability_enable_pour_everything	Army Ability: "Pour Everything"	false

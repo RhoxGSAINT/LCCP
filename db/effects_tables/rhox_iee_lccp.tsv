@@ -48,3 +48,7 @@ rhox_sceolan_office_woodelf_elf_melee_defence	defence.png	452	defence.png	battle
 rhox_sceolan_office_enable_bound_blizzard	magic_character.png	290	magic_character.png	battle	true
 rhox_duriath_corsair_ammo_change	ranged_damage.png	60	ranged_damage.png	battle	true
 rhox_duriath_enable_kill_shot	general_ability.png	300	general_ability.png	battle	true
+rhox_duriath_stat_missile_block_chance_def_corsair	block_character.png	55	block_character.png	battle	true
+rhox_duriath_stat_charge_bonus_def_corsair	charge.png	501	charge.png	battle	true
+rhox_duriath_devastating_flanker_bonus_def_corsair	devastating_flanker.png	320	devastating_flanker.png	battle	true
+rhox_duriath_effect_army_ability_enable_pour_everything	general_ability.png	301	general_ability.png	battle	true
