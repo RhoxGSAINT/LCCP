@@ -3,4 +3,4 @@ key	requires_effect_enabling	icon_name	overpower_option	type	video	uniqueness	is
 hkrul_engra_helm	true	hkrul_engra_helm		wh_type_regeneration		wh_main_anc_group_unique	true	false	passive		false
 hkrul_engra_pal	true	hkrul_engra_pal		wh_type_area_of_augments		wh_main_anc_group_uncommon	true	false	passive		false
 hkrul_engra_sword	true	hkrul_engra_deathswords		wh_type_augment		wh_main_anc_group_rare	true	false	active		false
-hkrul_engra_lightning	false	hkrul_engra_lightning		wh_type_vortex		wh_main_anc_group_unique	true	false	bound		false
+hkrul_engra_lightning	true	hkrul_engra_lightning		wh_type_vortex		wh_main_anc_group_unique	true	false	bound		false
