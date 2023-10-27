@@ -437,7 +437,9 @@ local rhox_iee_list={
         enemy={
             key="cr_nor_avags",
             subtype="wh_main_nor_marauder_chieftain",
-            unit_list="wh_dlc08_nor_inf_marauder_spearman_0,wh_dlc08_nor_inf_marauder_hunters_1"
+            unit_list="wh_dlc08_nor_inf_marauder_spearman_0,wh_dlc08_nor_inf_marauder_hunters_1",
+            x=1402,
+            y=766,
         },
         additional = function(faction, faction_key)
             
@@ -635,8 +637,20 @@ local rhox_iee_list={
             rhox_add_faction_pool_units(cm:get_faction(faction_key), rhox_engra_faction_pool_units);
             if faction:is_human() then
                 cm:force_diplomacy("faction:"..faction_key, "faction:wh_main_chs_chaos", "war", false, false, true);
-                cm:force_grant_military_access(faction_key, "wh_main_chs_chaos", true)
-                cm:force_grant_military_access("wh_main_chs_chaos", faction_key, true)
+                --[[
+                if cm:get_faction("wh_main_chs_chaos"):is_human() ==false then
+                    cm:transfer_region_to_faction("wh3_main_combi_region_the_writhing_fortress","wh_main_chs_chaos")
+                    local transferred_region = cm:get_region("wh3_main_combi_region_the_writhing_fortress")
+                    local transferred_region_cqi = transferred_region:cqi()
+                    cm:heal_garrison(transferred_region_cqi)
+                end
+                ]]
+                cm:make_diplomacy_available("wh_main_chs_chaos", faction_key)
+                cm:make_diplomacy_available(faction_key, "wh_main_chs_chaos")
+                cm:force_grant_military_access(faction_key, "wh_main_chs_chaos", false)
+                cm:force_grant_military_access("wh_main_chs_chaos", faction_key, false)
+                
+                
             else
                 cm:force_make_vassal("wh_main_chs_chaos", faction_key)
                 cm:disable_event_feed_events(true, "wh_event_category_diplomacy", "", "")
