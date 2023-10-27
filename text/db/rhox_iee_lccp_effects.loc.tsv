@@ -47,3 +47,4 @@ effects_description_rhox_sceolan_office_woodelf_elf_melee_attack	Melee attack: %
 effects_description_rhox_sceolan_office_woodelf_elf_melee_defence	Melee defence: %n% for all Elf units	false
 effects_description_rhox_sceolan_office_enable_bound_blizzard	Bound spell: "Blizzard"	false
 effects_description_rhox_duriath_corsair_ammo_change	Black Ark Corsairs (Handbows) uses Reapeter Crossbows instead	false
+effects_description_rhox_duriath_enable_kill_shot	Ability: "Focus Shot" to all Black Ark characters	false

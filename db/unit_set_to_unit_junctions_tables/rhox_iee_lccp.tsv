@@ -49,3 +49,8 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			rhox_lenk_nor_mon_war_mammoth_0	wh2_dlc11_nor_vets_trolls_frost_wyrm_giant_mammoth_fimir	false
 			rhox_lenk_nor_mon_war_mammoth_0	wh_dlc08_all_mammoths_skin_wolves_ice_wolves_hounds	false
 			rhox_lenk_nor_mon_war_mammoth_0	wh_dlc08_feral_mammoth	false
+			wh2_main_def_cha_dreadlord_0_black_ark	rhox_black_ark	false
+			hkrul_duriath	rhox_black_ark	false
+			hkrul_duriath_horse	rhox_black_ark	false
+			hkrul_duriath_pegasus	rhox_black_ark	false
+			hkrul_duriath_dragon	rhox_black_ark	false
