@@ -549,7 +549,7 @@ local rhox_iee_list={
     rhox_chs_the_deathswords ={
         leader={
             subtype="hkrul_engra",
-            unit_list="wh_dlc01_chs_inf_chaos_warriors_2,wh_dlc01_chs_inf_chosen_2,",
+            unit_list="wh_dlc01_chs_inf_chaos_warriors_2,wh_dlc01_chs_inf_chosen_2,wh_dlc01_chs_inf_chaos_warriors_2,wh_dlc01_chs_inf_chaos_warriors_2,wh_main_chs_cav_chaos_knights_0,wh_main_chs_cav_chaos_knights_0",
             x=1388,
             y=695,
             forename ="names_name_5670700325",
@@ -812,6 +812,15 @@ local rhox_iee_list={
 
 cm:add_first_tick_callback_new(
     function()
+		if not vfs.exists("script/frontend/mod/rhox_drukim_frontend.lua") then --have to make initial enemy for him
+            rhox_iee_list["rhox_chs_the_deathswords"].enemy.x=1381
+			rhox_iee_list["rhox_chs_the_deathswords"].enemy.y=687
+			rhox_iee_list["rhox_chs_the_deathswords"].enemy.subtype="wh_main_chs_lord"
+			rhox_iee_list["rhox_chs_the_deathswords"].enemy.unit_list="wh_main_chs_art_hellcannon,wh_dlc01_chs_inf_chosen_2,wh_main_chs_inf_chaos_marauders_0,wh_main_chs_inf_chaos_marauders_0,wh_main_chs_inf_chaos_marauders_0"
+
+		end
+
+
         for faction_key, faction_info in pairs(rhox_iee_list) do
 			local faction = cm:get_faction(faction_key);
             local faction_leader_cqi = faction:faction_leader():command_queue_index();
