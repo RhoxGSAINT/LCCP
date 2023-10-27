@@ -1,0 +1,10 @@
+child_key	parent_key	initial_descent_tiers	parent_link_position	child_link_position	parent_link_position_offset	child_link_position_offset	link_type
+#character_skill_node_links_tables;3;db/character_skill_node_links_tables/hkrul_duriath							
+rhox_duriath_special_2	rhox_duriath_special_1	0	1	1	0.0000	0.0000	REQUIRED
+rhox_duriath_special_3	rhox_duriath_special_1	0	1	1	0.0000	0.0000	REQUIRED
+rhox_duriath_special_4	rhox_duriath_special_1	0	1	1	0.0000	0.0000	REQUIRED
+rhox_duriath_special_5	rhox_duriath_special_1	0	1	1	0.0000	0.0000	REQUIRED
+rhox_duriath_special_6	rhox_duriath_special_2	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
+rhox_duriath_special_6	rhox_duriath_special_3	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
+rhox_duriath_special_6	rhox_duriath_special_4	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
+rhox_duriath_special_6	rhox_duriath_special_5	0	1	1	0.0000	0.0000	SUBSET_REQUIRED

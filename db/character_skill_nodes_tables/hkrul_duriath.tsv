@@ -4,3 +4,10 @@ hkrul_duriath_innate		hkrul_duriath_innate		6	0		1	0	false
 hkrul_duriath_horse		hkrul_duriath_horse		0	1		0	0	true
 hkrul_duriath_pegasus		hkrul_duriath_pegasus		0	2		0	0	true
 hkrul_duriath_dragon		hkrul_duriath_dragon		0	3		0	0	true
+rhox_duriath_special_1		rhox_duriath_special_1_0		1	6		0	0	true
+rhox_duriath_special_2		rhox_duriath_special_1_1		1	7		0	0	true
+rhox_duriath_special_3		rhox_duriath_special_1_2		1	8		0	0	true
+rhox_duriath_special_4		rhox_duriath_special_1_3		1	9		0	0	true
+rhox_duriath_special_5		rhox_duriath_special_1_4		1	10		0	0	true
+rhox_duriath_special_6		rhox_duriath_special_2_0		1	11		0	4	true
+rhox_duriath_special_7		rhox_duriath_special_0_1		0	11		0	0	true

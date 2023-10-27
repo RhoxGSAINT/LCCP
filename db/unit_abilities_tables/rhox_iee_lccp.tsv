@@ -5,3 +5,4 @@ wh2_torinubar_kinetic_wave	true	hef_torinubar_kinetic_wave		wh_type_explosion		w
 wh2_torinubar_kinetic_combat	false	hef_torinubar_kinetic_combat		wh_type_area_of_augments		wh_main_anc_group_rare	false	false	lord		false
 rhox_arbaal_spawn_spawn	true	hkrul_arbaal_curse		wh_type_transform		wh_main_anc_group_rare	true	false	active		false
 rhox_sceolan_bound_blizzard	true	wh3_main_spell_tempest_blizzard		wh_type_vortex		wh_main_anc_group_rare	true	false	active		false
+rhox_duriath_pour_everything	true	wh_dlc08_nor_lightening_down		wh_type_bombardment		wh_main_anc_group_rare	false	false	army		false
