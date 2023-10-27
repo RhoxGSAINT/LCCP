@@ -2,8 +2,9 @@ key	text	tooltip
 #Loc;1;text/db/hkrul_engra_effects__.loc		
 effects_description_hkrul_engra_helm	Ability: "Placeholder''	true
 effects_description_hkrul_engra_pal	Ability: "Fortress Wardens''	true
-effects_description_hkrul_engra_nordland_damage	Weapon Strength: %+n% for Greatsword units	true
-effects_description_hkrul_engra_sword	Ability: "Helmgart's Brand''	true
+effects_description_hkrul_engra_kislev_damage	Weapon strength: %+n% when fighting against Kislev	false
+effects_description_hkrul_engra_sword	Ability: "Deathsword's Fury''	true
+effects_description_hkrul_engra_lightning	Ability: "Anomalous Lightning''	true
 effects_description_hkrul_engra_mount	Mount: "Barded Warhorse''	true
 effects_description_hkrul_engra_mount_2	Mount: "Imperial Pegasus''	true
 effects_description_hkrul_engra_mount_3	Mount: "Imperial Griffon''	true
