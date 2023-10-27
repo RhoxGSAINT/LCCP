@@ -3,13 +3,13 @@ key	text	tooltip
 ancillaries_colour_text_hkrul_engra_banner	The Deathsword's have ruled the Grey Mountains for generations, their name revered throughout the entire pass. The Margraves that stem from this Noble family have held the Mountain Valley against numerous threats for decades. Expertly training the Fortress Garrison to operate both in siege warfare and in the rugged mountain climate. The garrison's elite proudly bears the Von Mackensen banner.	true
 ancillaries_onscreen_name_hkrul_engra_banner	Deathsword's Banner	true
 effect_bundles_localised_title_hkrul_engra_banner	Deathsword's Banner	false
-character_trait_levels_onscreen_name_hkrul_defeated_trait_mack	The Ruined Revolte	true
-character_trait_levels_colour_text_hkrul_defeated_trait_mack	This has to be the worst rebellion I've ever seen..	true
-character_trait_levels_explanation_text_hkrul_defeated_trait_mack	Defeated Margrave Engra Deathsword	true
+character_trait_levels_onscreen_name_hkrul_defeated_trait_mack	Death-by-Sword	true
+character_trait_levels_colour_text_hkrul_defeated_trait_mack	Ah, so that is where the name comes from..	true
+character_trait_levels_explanation_text_hkrul_defeated_trait_mack	Defeated Engra Deathsword	true
 ancillaries_colour_text_hkrul_engra_holz	Originally the Watch Captain of Ubersreik, X was drafted to serve as Captain Guard in the Fortress of Helmgart. X is a bear of a man unfased by the cold climate of the Grey Mountains and has faced all kinds of threats in the melting pot that is Ubersreik. His presence on the Fortress Walls inspire the brethren facing any foe daring enough to climb their final fate.	true
 ancillaries_onscreen_name_hkrul_engra_holz	Captain X	true
-ancillaries_colour_text_hkrul_engra_sword	Passed on from Margrave to Margrave, Helmgart's Brand is the token worn by the Lord-Warden of the Grey Mountains. Forged by the Dwarfs of Karak Zorn it is enchanted with magical essence, hence why it's hilt always remains warm and pleasant to handle - regardless of the terrain the sword finds itself in. Making it easy for any wielder to fight regardless of the climate. 	true
-ancillaries_onscreen_name_hkrul_engra_sword	Helmgart's Brand	true
+ancillaries_colour_text_hkrul_engra_sword	Recognizeable by two unique red engraved swords which are rumoured to hold fragments of the essence of all the four Chaos Gods.	true
+ancillaries_onscreen_name_hkrul_engra_sword	Deathsword's Fury	true
 ancillaries_colour_text_hkrul_engra_mount	Placeholder Text Placeholder Text	true
 ancillaries_onscreen_name_hkrul_engra_mount	Barded Warhorse	true
 ancillaries_colour_text_hkrul_engra_mount_2	Placeholder Text Placeholder Text	true

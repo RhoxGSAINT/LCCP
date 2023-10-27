@@ -4,5 +4,7 @@ unit_abilities_tooltip_text_hkrul_engra_helm	Placeholder Text	true
 unit_abilities_onscreen_name_hkrul_engra_helm	Placeholder	true
 unit_abilities_tooltip_text_hkrul_engra_pal	Placeholder Text	true
 unit_abilities_onscreen_name_hkrul_engra_pal	Fortress Wardens	true
-unit_abilities_tooltip_text_hkrul_engra_sword	Placeholder Text	true
-unit_abilities_onscreen_name_hkrul_engra_sword	Helmgart's Brand	true
+unit_abilities_tooltip_text_hkrul_engra_sword	Engra's two unique red engraved swords are said to hold fragments of the essence of all the four Chaos Gods.	true
+unit_abilities_onscreen_name_hkrul_engra_sword	Deathsword's Fury	true
+unit_abilities_tooltip_text_hkrul_engra_lightning	Channeled by his irreverent sword, Engra unleashes a wave of pure chaotic lightning and destruction.	false
+unit_abilities_onscreen_name_hkrul_engra_lightning	Anomalous Lightning	false
