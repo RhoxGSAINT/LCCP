@@ -57,9 +57,12 @@ effects_description_rhox_karitamen_god_effect_dummy	Karitamen and all generic To
 effects_description_rhox_karitamen_effect_force_stat_melee_attack_carrion	Melee Attack: %+n for Carrion units	false
 effects_description_rhox_karitamen_effect_force_stat_charge_bonus_add_carrion	Charge Bonus: %+n for Carrion units	false
 effects_description_rhox_karitamen_effect_physical_resist_carrion	Physical resistance: %+n% for Carrion units	false
+effects_description_rhox_karitamen_effect_move_speed_carrion	Speed: %+n% for Carrion units	false
 effects_description_rhox_zach_effect_unit_enable_spell_mastery_necromancer	Attributes: Mastery of the Elemental Winds to Zacharias and Necromancer characters	false
 effects_description_rhox_zach_effect_breath_num_uses	Ability number of uses: %+n for Pestilential Breath	false
 effects_description_rhox_zach_enable_dragon_blood	Ability: Dragon's Blood	false
 effects_description_rhox_zach_enable_zach_token	Ability: Token of Zacharias	false
 effects_description_rhox_zach_grave_guard_melee_attack	Melee attack: %+n for Grave Guard units	false
 effects_description_rhox_zach_grave_guard_melee_defence	Melee defence: %+n for Grave Guard units	false
+effects_description_rhox_karitamen_effect_force_stat_weapon_strength_carrion	Weapon Strength: +%n% for Carrion units	false
+effects_description_rhox_duriath_effect_army_ability_enable_vengence	Ability: Vengeful Grudge	false
