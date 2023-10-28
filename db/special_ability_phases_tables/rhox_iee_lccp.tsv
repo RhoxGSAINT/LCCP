@@ -8,3 +8,5 @@ hkrul_rhobb_axe	25.0000	positive		false	false	false	0.0000	0.0000	0.0000	0.0000	
 hkrul_arbaal_ruiner	-1.0000	positive		false	false	false	0.0000	0.0000	0.0000	0.0000	0	0	false	0.0000	0.0000	false	0		wh_main_generic_buff_morale_attack_passive		false	true	true	0.0000			false	0.0000	0.0000	false	0.0000
 hkrul_arbaal_ruiner_hidden	-1.0000	positive		false	false	false	0.0000	0.0000	0.0000	0.0000	0	0	false	0.0000	0.0000	false	0		wh_main_generic_buff_morale_attack_passive		false	true	true	0.0000			false	0.0000	0.0000	false	0.0000
 hkrul_slaurith_blood	-1.0000	positive		false	false	false	0.0000	0.0000	0.0000	0.0000	0	0	false	0.0000	0.0000	false	0		wh_main_generic_buff_attack		false	true	true	0.0000			false	0.0000	0.0000	false	0.0000
+rhox_zach_token	-1.0000	positive		false	false	false	0.0000	0.0000	0.0000	0.0000	0	0	false	0.0000	0.0000	true	0		wh_main_generic_buff_attack		false	true	true	0.0000			false	0.0000	0.0000	false	0.0000
+rhox_zach_dragon_blood	18.0000	positive		false	false	false	0.0000	0.0000	0.0000	0.0000	0	0	false	0.0100	0.0000	false	0		wh2_main_generic_buff_wom_banner	wh_ability_positive_one_shot	false	true	true	0.0000			false	0.0010	0.0000	false	0.0000
