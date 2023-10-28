@@ -933,6 +933,13 @@ cm:add_first_tick_callback_new(
 )
 
 
+
+local turn2_incidents={
+    rhox_nor_khazags="rhox_lccp_turn_two_incident_thorgar",
+    rhox_chs_the_deathswords="rhox_lccp_turn_two_incident_engra",
+    rhox_kho_destroyers_of_khorne="rhox_lccp_turn_two_incident_arbaal",
+}
+
 cm:add_first_tick_callback(
 	function()
         for faction_key, faction_info in pairs(rhox_iee_list) do
@@ -941,5 +948,28 @@ cm:add_first_tick_callback(
             end)
             faction_info.first_tick(cm:get_faction(faction_key), faction_key)
         end
+        
+        if cm:model():turn_number() < 3 then
+            core:add_listener(
+                "rhox_lccp_turn2_incidents_RoundStart",
+                "FactionRoundStart",
+                function(context)
+                    return context:faction():is_human() and turn2_incidents[context:faction():name()] and cm:model():turn_number() == 2
+                end,
+                function(context)
+                    local faction_key = context:faction():name()
+                    local incident_key = turn2_incidents[faction_key]
+                    local incident_builder = cm:create_incident_builder(incident_key)
+                    cm:launch_custom_incident_from_builder(incident_builder, context:faction())
+                end,
+                true --might be multiple players
+            )
+        end
 	end
 )
+
+
+
+--[[
+
+--]]
