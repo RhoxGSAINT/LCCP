@@ -54,3 +54,5 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_duriath_horse	rhox_black_ark	false
 			hkrul_duriath_pegasus	rhox_black_ark	false
 			hkrul_duriath_dragon	rhox_black_ark	false
+			wh2_dlc09_tmb_mon_carrion_ror	rhox_karitamen_carrion	false
+			wh2_dlc09_tmb_mon_carrion_0	rhox_karitamen_carrion	false

@@ -52,3 +52,7 @@ effects_description_rhox_duriath_stat_missile_block_chance_def_corsair	Missile b
 effects_description_rhox_duriath_stat_charge_bonus_def_corsair	Charge Bonus: %+n% for Black Ark Corsair units	false
 effects_description_rhox_duriath_devastating_flanker_bonus_def_corsair	Attribute: Devastating Flanker for Black Ark Corsair units	false
 effects_description_rhox_duriath_effect_army_ability_enable_pour_everything	Army Ability: "Pour Everything"	false
+effects_description_rhox_karitamen_god_effect_dummy	Karitamen and all generic Tomb King lords have access to the Empowered 'Phakth the God of the Sky and Justice' skill	false
+effects_description_rhox_karitamen_effect_force_stat_melee_attack_carrion	Melee Attack: %+n for Carrion units	false
+effects_description_rhox_karitamen_effect_force_stat_charge_bonus_add_carrion	Charge Bonus: %+n for Carrion units	false
+effects_description_rhox_karitamen_effect_physical_resist_carrion	Physical resistance: %+n% for Carrion units	false
