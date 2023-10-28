@@ -325,9 +325,9 @@ local rhox_iee_list={
         pic=800,
         faction_trait="rhox_thorgar_faction_trait",
         enemy={
-            key="wh3_dlc20_nor_yusak",
-            subtype="wh_main_nor_marauder_chieftain",
-            unit_list="wh_dlc08_nor_inf_marauder_champions_0,wh_dlc08_nor_inf_marauder_hunters_0,wh_dlc08_nor_inf_marauder_hunters_1,wh_dlc08_nor_inf_marauder_berserkers_0,wh_dlc08_nor_inf_marauder_berserkers_0",
+            key="cr_grn_nag_rippers",
+            subtype="wh_main_grn_goblin_great_shaman",
+            unit_list="wh_dlc06_grn_inf_nasty_skulkers_0,wh_dlc06_grn_inf_nasty_skulkers_0,wh_main_grn_inf_night_goblin_fanatics,wh2_dlc15_grn_mon_river_trolls_0,wh_dlc06_grn_cav_squig_hoppers_0",
             x=1277,
             y=758
         },
@@ -338,6 +338,13 @@ local rhox_iee_list={
             cm:add_event_restricted_unit_record_for_faction("wh_dlc08_nor_mon_war_mammoth_ror_1",faction_key, "norsca_monster_hunt_ror_unlock")
 		    cm:add_event_restricted_unit_record_for_faction("wh_dlc08_nor_mon_frost_wyrm_ror_0", faction_key, "norsca_monster_hunt_ror_unlock") 
 		    cm:add_event_restricted_building_record_for_faction("rhox_thorgar_dae_advanced_1", faction_key, "rhox_thorgar_building_lock")
+		    
+		    if faction:is_human() then
+                cm:transfer_region_to_faction("cr_combi_region_nine_graves","cr_grn_nag_rippers")
+                local transferred_region = cm:get_region("cr_combi_region_nine_graves")
+                local transferred_region_cqi = transferred_region:cqi()
+                cm:heal_garrison(transferred_region_cqi)
+            end
         end,
         first_tick = function(faction, faction_key) 
         end
@@ -707,12 +714,12 @@ local rhox_iee_list={
                 )
             end	
             if faction:is_human() then
-                cm:transfer_region_to_faction("cr_combi_region_the_bloodrift","cr_grn_nag_rippers")--Might need to change after adding some pirate faction here
+                cm:transfer_region_to_faction("cr_combi_region_the_bloodrift","cr_grn_nag_rippers")
                 local transferred_region = cm:get_region("cr_combi_region_the_bloodrift")
                 local transferred_region_cqi = transferred_region:cqi()
                 cm:heal_garrison(transferred_region_cqi)
                 
-                cm:transfer_region_to_faction("cr_combi_region_tong_war_monolith","cr_grn_nag_rippers")--Might need to change after adding some pirate faction here
+                cm:transfer_region_to_faction("cr_combi_region_tong_war_monolith","cr_grn_nag_rippers")
                 transferred_region = cm:get_region("cr_combi_region_tong_war_monolith")
                 transferred_region_cqi = transferred_region:cqi()
                 cm:heal_garrison(transferred_region_cqi)
