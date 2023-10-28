@@ -1,6 +1,6 @@
 building_chain	building_level	building_set	exclude
 #building_set_to_building_junctions_tables;0;db/building_set_to_building_junctions_tables/rhox_iee_lccp			
-rhox_dolmance_slaanesh		wh_main_set_empire_military_support	false
+rhox_dolmance_slaanesh		wh3_main_set_slaanesh_military_recruitment	false
 rhox_hrothyogg_mercenary_branch		rhox_hrothyogg_mercenary_branch	false
 rhox_torinubar_sound_toll		wh2_main_set_landmark	false
 rhox_torinubar_east_foreign		rhox_torinubar_trade	false

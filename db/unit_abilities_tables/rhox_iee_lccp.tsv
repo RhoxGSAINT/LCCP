@@ -9,3 +9,4 @@ rhox_duriath_pour_everything	true	wh_dlc08_nor_lightening_down		wh_type_bombardm
 rhox_zach_token	true	hkrul_zach_token		wh_type_area_of_augments		wh_main_anc_group_rare	true	false	passive		false
 rhox_zach_dragon_blood	true	hkrul_zach_body		wh_type_augment_of_the_winds		wh_main_anc_group_rare	true	false	active		false
 rhox_karitamen_vengence	true	wh_dlc03_spell_beasts_flock_of_doom		wh_type_area_of_direct_damage		wh_main_anc_group_rare	true	false	passive		false
+rhox_dolmance_harmony_in_excess	false	wh_dlc07_unit_passive_icon_of_devotion		wh_type_area_of_augments		wh_main_anc_group_rare	true	false	passive		false
