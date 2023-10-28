@@ -17,7 +17,7 @@ rhox_sceolan_embrace_cold_dummy	kislev_ice_court.png	10	kislev_ice_court.png	cam
 rhox_sceolan_ice_heart_army_ability	general_ability.png	301	general_ability.png	battle	true
 rhox_sceolan_effect_skill_weapon_damage_increase_wef_wardancers_wildwood_rangers	weapon_damage.png	461	weapon_damage.png	battle	true
 rhox_engra_alliance_dummy	diplomacy.png	106	diplomacy.png	campaign	true
-rhox_engra_meter_dummy	allegiance.png	461	allegiance.png	battle	true
+rhox_engra_meter_dummy	effect_bundle_archie.png	2	effect_bundle_archie.png	battle	true
 rhox_engra_vassal_effect_dummy	weapon_damage.png	461	weapon_damage.png	battle	true
 rhox_engra_vassal_effect_script_value	weapon_damage.png	461	weapon_damage.png	battle	true
 rhox_engra_archaon_effect_dummy	allegiance.png	1	allegiance.png	battle	true
@@ -35,6 +35,7 @@ hkrul_burlok_building_cost_dwf_engineers	treasury.png	200	treasury.png	campaign	
 hkrul_hrothyogg_crusher	mount.png	50	mount.png	both	true
 hkrul_shaz_stout	item_ability.png	300	item_ability.png	battle	true
 hkrul_thulgrim_time	item_ability.png	300	item_ability.png	battle	true
+hkrul_arbaal_smite	item_ability.png	300	item_ability.png	battle	true
 hkrul_rhobb_axe	item_ability.png	300	item_ability.png	battle	true
 rhox_iee_nor_efficient_hunter_dummy4	effect_bundle_vroth_hunt.png	3	effect_bundle_vroth_hunt.png	both	true
 rhox_burlok_payload_artifact_1_ritual_dummy	angrund_ancestors.png	50	angrund_ancestors.png	campaign	true
