@@ -1,5 +1,14 @@
 key	campaign_key	character_skill_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
 #character_skill_nodes_tables;6;db/character_skill_nodes_tables/hkrul_karitamen									
+rhox_lccp_tk_generic_lord_rhox_kita_god_blessing		rhox_kita_god_blessing	cr_tmb_sons_of_ptra	1	20		0	0	true
 hkrul_skill_node_hkrul_karitamen_innate		innate_hkrul_karitamen		6	0		1	0	false
 hkrul_skill_node_hkrul_karitamen_mount_horse		hkrul_karitamen_horse		0	0		0	0	true
 hkrul_skill_node_hkrul_karitamen_mount_chariot		hkrul_karitamen_chariot		0	1		0	0	true
+hkrul_skill_node_hkrul_karitamen_rhox_kita_god_blessing		rhox_kita_god_blessing		1	0		0	0	true
+hkrul_kita_special_1_0		hkrul_kita_special_1_0		1	1		0	0	true
+hkrul_kita_special_1_1		hkrul_kita_special_1_1		1	2		0	0	true
+hkrul_kita_special_1_2		hkrul_kita_special_1_2		1	3		0	0	true
+hkrul_kita_special_1_3		hkrul_kita_special_1_3		1	4		0	0	true
+hkrul_kita_special_1_4		hkrul_kita_special_1_4		1	5		0	0	true
+hkrul_kita_special_2_0		hkrul_kita_special_2_0		1	6		0	4	true
+hkrul_kita_special_0_1		hkrul_kita_special_0_1		0	11		0	0	true
