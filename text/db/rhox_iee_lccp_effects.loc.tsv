@@ -66,3 +66,6 @@ effects_description_rhox_zach_grave_guard_melee_attack	Melee attack: %+n for Gra
 effects_description_rhox_zach_grave_guard_melee_defence	Melee defence: %+n for Grave Guard units	false
 effects_description_rhox_karitamen_effect_force_stat_weapon_strength_carrion	Weapon Strength: +%n% for Carrion units	false
 effects_description_rhox_duriath_effect_army_ability_enable_vengence	Ability: Vengeful Grudge	false
+effects_description_rhox_dolmance_reduce_slaanesh_building_cost	Construction Cost: %+n% for Economy and Slaanesh buildings	false
+effects_description_rhox_dolmance_increase_devotee_proudction	Devotees Produced by the buildings: %+n%	false
+effects_description_rhox_dolmance_harmony_in_excess	Ability: Harmony in Excess	false

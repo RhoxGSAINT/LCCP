@@ -44,12 +44,8 @@ hkrul_skill_node_dolmance_lord_self_08		wh2_dlc11_skill_all_lord_self_deadly_bla
 hkrul_skill_node_dolmance_lord_self_09		wh2_dlc11_skill_all_lord_self_self_indomitable		2	8		0	0	true
 hkrul_skill_node_dolmance_lord_self_10		wh2_dlc11_skill_all_lord_self_blade_shield		2	9		0	0	true
 hkrul_skill_node_dolmance_lord_self_11		wh_main_skill_all_all_self_deadly_onslaught		2	10		0	4	true
-hkrul_skill_node_dolmance_lord_unique_01		wh_main_skill_brt_lord_unique_general_barded_warhorse		0	0		1	0	true
-hkrul_skill_node_dolmance_lord_unique_02		wh_main_skill_brt_lord_unique_general_royal_pegasus		0	1		0	0	true
-hkrul_skill_node_dolmance_lord_unique_03		wh_main_skill_brt_lord_unique_general_hippogryph		0	2		0	0	true
 hkrul_skill_node_dolmance_lord_unique_05		wh_main_skill_brt_lord_unique_general_lance_formation		0	4		0	0	true
-hkrul_skill_node_dolmance_lord_unique_06		wh_main_skill_brt_all_unique_ladys_mantle		0	9		0	0	true
-hkrul_skill_node_dolmance_lord_unique_07		wh_main_skill_brt_lord_unique_the_blessing_of_the_lady		0	5		0	0	true
-hkrul_skill_node_dolmance_lord_unique_08		wh_main_skill_brt_lord_battle_virtue_of_empathy		0	6		0	0	true
-hkrul_skill_node_dolmance_lord_unique_09		wh_main_skill_brt_lord_battle_lionhearted		0	7		0	0	true
-hkrul_skill_node_dolmance_lord_unique_10		wh_main_skill_brt_lord_battle_basic_training		0	8		0	0	true
+hkrul_skill_node_dolmance_lord_unique_06		wh3_main_skill_sla_all_unique_missile_resist		0	9		0	0	true
+hkrul_skill_node_dolmance_lord_unique_07		wh3_main_skill_sla_exalted_keeper_of_secrets_self_ballet_of_blows		0	5		0	0	true
+hkrul_skill_node_dolmance_lord_unique_08		wh3_main_skill_sla_exalted_keeper_of_secrets_unique_feasting_on_fear		0	6		0	0	true
+hkrul_skill_node_dolmance_lord_unique_09		wh3_main_skill_sla_exalted_keeper_of_secrets_self_seductive_glory		0	7		0	0	true

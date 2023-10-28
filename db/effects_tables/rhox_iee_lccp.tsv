@@ -67,3 +67,6 @@ rhox_zach_enable_dragon_blood	general_ability.png	300	general_ability.png	battle
 rhox_zach_enable_zach_token	general_ability.png	300	general_ability.png	battle	true
 rhox_zach_grave_guard_melee_attack	melee.png	431	melee.png	battle	true
 rhox_zach_grave_guard_melee_defence	defence.png	451	defence.png	battle	true
+rhox_dolmance_reduce_slaanesh_building_cost	construction.png	101	construction.png	campaign	false
+rhox_dolmance_increase_devotee_proudction	devotees.png	105	devotees.png	campaign	false
+rhox_dolmance_harmony_in_excess	general_ability.png	300	general_ability.png	battle	true
