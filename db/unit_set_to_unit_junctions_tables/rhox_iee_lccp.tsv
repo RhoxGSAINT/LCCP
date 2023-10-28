@@ -56,3 +56,16 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_duriath_dragon	rhox_black_ark	false
 			wh2_dlc09_tmb_mon_carrion_ror	rhox_karitamen_carrion	false
 			wh2_dlc09_tmb_mon_carrion_0	rhox_karitamen_carrion	false
+			hkrul_zach	rhox_zach_necromaner	false
+			hkrul_zach_dragon	rhox_zach_necromaner	false
+			wh_dlc04_vmp_cha_master_necromancer_1	rhox_zach_necromaner	false
+			wh_dlc04_vmp_cha_master_necromancer_2	rhox_zach_necromaner	false
+			wh_dlc04_vmp_cha_master_necromancer_3	rhox_zach_necromaner	false
+			wh_dlc04_vmp_cha_necromancer_1	rhox_zach_necromaner	false
+			wh_dlc04_vmp_cha_necromancer_2	rhox_zach_necromaner	false
+			wh_dlc04_vmp_cha_necromancer_3	rhox_zach_necromaner	false
+			wh_main_vmp_cha_master_necromancer_0	rhox_zach_necromaner	false
+			wh_main_vmp_cha_master_necromancer_4	rhox_zach_necromaner	false
+			wh_main_vmp_cha_master_necromancer_5	rhox_zach_necromaner	false
+			wh_main_vmp_cha_necromancer_0	rhox_zach_necromaner	false
+			wh_main_vmp_cha_necromancer_5	rhox_zach_necromaner	false

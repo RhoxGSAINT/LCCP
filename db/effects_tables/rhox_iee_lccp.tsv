@@ -29,7 +29,7 @@ effect_bundle_arbaal_dummy2	effect_bundle_arbaal_dummy2.png	3	effect_bundle_arba
 rhox_thorgar_chaos_dummy	reign_of_chaos.png	1	reign_of_chaos.png	campaign	true
 rhox_thorgar_sacrifice_dummy	reign_of_chaos.png	1	reign_of_chaos.png	campaign	true
 hkrul_hroth_income_negative	income.png	1	income.png	campaign	false
-rhox_hrothyogg_toll_dummy	diplomacy.png	106	diplomacy.png	campaign	true
+rhox_hrothyogg_toll_dummy	effect_bundle_toll.png	2	effect_bundle_toll.png	campaign	true
 hkrul_burlok_building_time_dwf_engineers	construction.png	200	construction.png	campaign	false
 hkrul_burlok_building_cost_dwf_engineers	treasury.png	200	treasury.png	campaign	false
 hkrul_hrothyogg_crusher	mount.png	50	mount.png	both	true
@@ -38,6 +38,7 @@ hkrul_thulgrim_time	item_ability.png	300	item_ability.png	battle	true
 hkrul_arbaal_smite	item_ability.png	300	item_ability.png	battle	true
 hkrul_rhobb_axe	item_ability.png	300	item_ability.png	battle	true
 rhox_iee_nor_efficient_hunter_dummy4	effect_bundle_vroth_hunt.png	3	effect_bundle_vroth_hunt.png	both	true
+rhox_iee_dwf_burlok_dummy1	effect_bundle_adventurers.png	3	effect_bundle_adventurers.png	both	true
 rhox_burlok_payload_artifact_1_ritual_dummy	angrund_ancestors.png	50	angrund_ancestors.png	campaign	true
 rhox_burlok_payload_artifact_2_ritual_dummy	angrund_ancestors.png	50	angrund_ancestors.png	campaign	true
 rhox_burlok_payload_artifact_3_ritual_dummy	angrund_ancestors.png	50	angrund_ancestors.png	campaign	true
@@ -57,3 +58,9 @@ rhox_karitamen_god_effect_dummy	effect_bundle_kita.png	1	effect_bundle_kita.png	
 rhox_karitamen_effect_force_stat_melee_attack_carrion	melee.png	431	melee.png	battle	true
 rhox_karitamen_effect_force_stat_charge_bonus_add_carrion	charge.png	501	charge.png	battle	true
 rhox_karitamen_effect_physical_resist_carrion	resistance_physical.png	55	resistance_physical.png	battle	true
+rhox_zach_effect_unit_enable_spell_mastery_necromancer	attribute_mastery_of_elemental_winds.png	620	attribute_mastery_of_elemental_winds.png	battle	true
+rhox_zach_effect_breath_num_uses	general_ability.png	600	general_ability.png	battle	true
+rhox_zach_enable_dragon_blood	general_ability.png	300	general_ability.png	battle	true
+rhox_zach_enable_zach_token	general_ability.png	300	general_ability.png	battle	true
+rhox_zach_grave_guard_melee_attack	melee.png	431	melee.png	battle	true
+rhox_zach_grave_guard_melee_defence	defence.png	451	defence.png	battle	true

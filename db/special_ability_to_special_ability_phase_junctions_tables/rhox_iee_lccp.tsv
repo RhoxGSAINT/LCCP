@@ -12,3 +12,5 @@ order	special_ability	target_self	target_friends	target_enemies	phase
 1	hkrul_arbaal_ruiner	true	true	false	hkrul_arbaal_ruiner
 1	hkrul_arbaal_ruiner_hidden	true	true	false	hkrul_arbaal_ruiner_hidden
 1	hkrul_slaurith_blood	true	false	false	hkrul_slaurith_blood
+1	rhox_zach_token	true	true	false	rhox_zach_token
+1	rhox_zach_dragon_blood	true	false	false	rhox_zach_dragon_blood

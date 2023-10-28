@@ -14,3 +14,5 @@ hkrul_hrothyogg_crusher	wh3_main_anc_mount_stonehorn	.	false	false	false	1	0	999
 hkrul_slaurith_mount	wh_main_anc_mount_chaos_steed	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	hkrul_slaurith_mount		1	1		false	false	true	all
 hkrul_vroth_chariot	wh_main_anc_mount_chaos_chariot	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	hkrul_vroth_chariot		1	0		false	false	true	all
 hkrul_vroth_mammoth	wh_dlc08_anc_mount_chaos_war_mammoth	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	hkrul_vroth_mammoth		1	0		false	false	true	all
+hkrul_zach_dragon	wh_main_anc_mount_zombie_dragon	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	hkrul_zach_dragon		1	0		false	false	true	all
+hkrul_zach_holz	hkrul_zach_holz	.	true	false	false	1	0	9999			false	false	false	general	1	1	50	75	true			200	0	follower	false	false	false	all

@@ -15,3 +15,7 @@ unit_abilities_tooltip_text_wh2_torinubar_kinetic_combat	Torinubar is a master o
 effects_description_hef_calith_torinubar_enable_kinetic_explosion	Ability: "Kinetic Wave"	true
 unit_abilities_onscreen_name_rhox_duriath_pour_everything	Pour Everything	false
 unit_abilities_tooltip_text_rhox_duriath_pour_everything	How much? Everything!	false
+unit_abilities_onscreen_name_rhox_zach_token	Token of Zacharias	false
+unit_abilities_tooltip_text_rhox_zach_token	This unique ability harnesses the ancient power of Zacharias. The token radiates dark energy and offers various tactical advantages:	false
+unit_abilities_onscreen_name_rhox_zach_dragon_blood	Dragon's Blood	false
+unit_abilities_tooltip_text_rhox_zach_dragon_blood	Drawing upon the power of the dragon's blood he consumed, Zacharias is infused with the might of the dragon	false
