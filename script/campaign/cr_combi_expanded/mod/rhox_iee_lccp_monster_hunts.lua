@@ -1,8 +1,9 @@
 rhox_nor_monster_hunts={}
-rhox_nor_monster_hunts["rhox_nor_firebrand_slavers"]={
+
+rhox_nor_monster_hunts["template"]={
     ["monster_hunt_0"] = {
-            ["mission"] = "wh_dlc08_monster_hunt_0_stage_1",
-            ["mpc_mission"] = "wh_dlc08_monster_hunt_0_stage_4_mpc",
+            ["mission"] = "wh_dlc08_qb_nor_monster_hunt_0",
+            ["mpc_mission"] = "wh_dlc08_qb_nor_monster_hunt_0",
             ["qb"] = "wh_dlc08_qb_nor_monster_hunt_0",
             ["fin"] = "wh_dlc08_nor_monster_hunt_0_dilemma_reward",
             ["state"] = "active",
@@ -10,8 +11,8 @@ rhox_nor_monster_hunts["rhox_nor_firebrand_slavers"]={
             ["tech"] = "wh_dlc08_tech_nor_creatures_01"
     },
     ["monster_hunt_1"] = {
-            ["mission"] = "wh_dlc08_monster_hunt_1_stage_1",
-            ["mpc_mission"] = "wh_dlc08_monster_hunt_1_stage_5_mpc",
+            ["mission"] = "wh_dlc08_qb_nor_monster_hunt_1",
+            ["mpc_mission"] = "wh_dlc08_qb_nor_monster_hunt_1",
             ["qb"] = "wh_dlc08_qb_nor_monster_hunt_1",
             ["fin"] = "wh_dlc08_nor_monster_hunt_1_dilemma_reward",
             ["state"] = "active",
@@ -19,8 +20,8 @@ rhox_nor_monster_hunts["rhox_nor_firebrand_slavers"]={
             ["tech"] = "wh_dlc08_tech_nor_creatures_01"
     },
     ["monster_hunt_2"] = {
-            ["mission"] = "wh_dlc08_monster_hunt_2_stage_1",
-            ["mpc_mission"] = "wh_dlc08_monster_hunt_2_stage_4_mpc",
+            ["mission"] = "wh_dlc08_qb_nor_monster_hunt_2",
+            ["mpc_mission"] = "wh_dlc08_qb_nor_monster_hunt_2",
             ["qb"] = "wh_dlc08_qb_nor_monster_hunt_2",
             ["fin"] = "wh_dlc08_nor_monster_hunt_2_dilemma_reward",
             ["state"] = "active",
@@ -28,8 +29,8 @@ rhox_nor_monster_hunts["rhox_nor_firebrand_slavers"]={
             ["tech"] = "wh_dlc08_tech_nor_creatures_01"
     },
     ["monster_hunt_3"] = {
-            ["mission"] = "wh_dlc08_monster_hunt_3_stage_1",
-            ["mpc_mission"] = "wh_dlc08_monster_hunt_3_stage_3_mpc",
+            ["mission"] = "wh_dlc08_qb_nor_monster_hunt_3",
+            ["mpc_mission"] = "wh_dlc08_qb_nor_monster_hunt_3",
             ["qb"] = "wh_dlc08_qb_nor_monster_hunt_3",
             ["fin"] = "wh_dlc08_nor_monster_hunt_3_dilemma_reward",
             ["state"] = "active",
@@ -37,8 +38,8 @@ rhox_nor_monster_hunts["rhox_nor_firebrand_slavers"]={
             ["tech"] = "wh_dlc08_tech_nor_creatures_06"
     },
     ["monster_hunt_4"] = {
-            ["mission"] = "wh_dlc08_monster_hunt_4_stage_1",
-            ["mpc_mission"] = "wh_dlc08_monster_hunt_4_stage_3_2_mpc",
+            ["mission"] = "wh_dlc08_qb_nor_monster_hunt_4",
+            ["mpc_mission"] = "wh_dlc08_qb_nor_monster_hunt_4",
             ["qb"] = "wh_dlc08_qb_nor_monster_hunt_4",
             ["fin"] = "wh_dlc08_nor_monster_hunt_4_dilemma_reward",
             ["state"] = "active",
@@ -46,8 +47,8 @@ rhox_nor_monster_hunts["rhox_nor_firebrand_slavers"]={
             ["tech"] = "wh_dlc08_tech_nor_creatures_06"
     },
     ["monster_hunt_5"] = {
-            ["mission"] = "wh_dlc08_monster_hunt_5_stage_1",
-            ["mpc_mission"] = "wh_dlc08_monster_hunt_5_stage_3_mpc",
+            ["mission"] = "wh_dlc08_qb_nor_monster_hunt_5",
+            ["mpc_mission"] = "wh_dlc08_qb_nor_monster_hunt_5",
             ["qb"] = "wh_dlc08_qb_nor_monster_hunt_5",
             ["fin"] = "wh_dlc08_nor_monster_hunt_5_dilemma_reward",
             ["state"] = "active",
@@ -55,8 +56,8 @@ rhox_nor_monster_hunts["rhox_nor_firebrand_slavers"]={
             ["tech"] = "wh_dlc08_tech_nor_creatures_06"
     },
     ["monster_hunt_6"] = {
-            ["mission"] = "wh_dlc08_monster_hunt_6_stage_1",
-            ["mpc_mission"] = "wh_dlc08_monster_hunt_6_stage_3_mpc",
+            ["mission"] = "wh_dlc08_qb_nor_monster_hunt_6",
+            ["mpc_mission"] = "wh_dlc08_qb_nor_monster_hunt_6",
             ["qb"] = "wh_dlc08_qb_nor_monster_hunt_6",
             ["fin"] = "wh_dlc08_nor_monster_hunt_6_dilemma_reward",
             ["state"] = "active",
@@ -64,8 +65,8 @@ rhox_nor_monster_hunts["rhox_nor_firebrand_slavers"]={
             ["tech"] = "wh_dlc08_tech_nor_creatures_07"
     },
     ["monster_hunt_7"] = {
-            ["mission"] = "wh_dlc08_monster_hunt_7_stage_1",
-            ["mpc_mission"] = "wh_dlc08_monster_hunt_7_stage_3_mpc",
+            ["mission"] = "wh_dlc08_qb_nor_monster_hunt_7",
+            ["mpc_mission"] = "wh_dlc08_qb_nor_monster_hunt_7",
             ["qb"] = "wh_dlc08_qb_nor_monster_hunt_7",
             ["fin"] = "wh_dlc08_nor_monster_hunt_7_dilemma_reward",
             ["state"] = "active",
@@ -73,8 +74,8 @@ rhox_nor_monster_hunts["rhox_nor_firebrand_slavers"]={
             ["tech"] = "wh_dlc08_tech_nor_creatures_07"
     },
     ["monster_hunt_8"] = {
-            ["mission"] = "wh2_dlc10_monster_hunt_8_stage_1",
-            ["mpc_mission"] = "wh2_dlc10_monster_hunt_8_stage_4_mpc",
+            ["mission"] = "wh2_dlc10_qb_nor_monster_hunt_8",
+            ["mpc_mission"] = "wh2_dlc10_qb_nor_monster_hunt_8",
             ["qb"] = "wh2_dlc10_qb_nor_monster_hunt_8",
             ["fin"] = "wh2_dlc10_nor_monster_hunt_8_dilemma_reward",
             ["state"] = "active",
@@ -82,8 +83,8 @@ rhox_nor_monster_hunts["rhox_nor_firebrand_slavers"]={
             ["tech"] = "wh_dlc08_tech_nor_creatures_07"
     },
     ["monster_hunt_9"] = {
-            ["mission"] = "wh2_dlc10_monster_hunt_9_stage_1",
-            ["mpc_mission"] = "wh2_dlc10_monster_hunt_9_stage_4_mpc",
+            ["mission"] = "wh2_dlc10_qb_nor_monster_hunt_9",
+            ["mpc_mission"] = "wh2_dlc10_qb_nor_monster_hunt_9",
             ["qb"] = "wh2_dlc10_qb_nor_monster_hunt_9",
             ["fin"] = "wh2_dlc10_nor_monster_hunt_9_dilemma_reward",
             ["state"] = "active",
@@ -91,8 +92,8 @@ rhox_nor_monster_hunts["rhox_nor_firebrand_slavers"]={
             ["tech"] = "wh_dlc08_tech_nor_creatures_07"
     },
     ["monster_hunt_10"] = {
-            ["mission"] = "wh2_dlc10_monster_hunt_10_stage_1",
-            ["mpc_mission"] = "wh2_dlc10_monster_hunt_10_stage_4_mpc",
+            ["mission"] = "wh2_dlc10_qb_nor_monster_hunt_10",
+            ["mpc_mission"] = "wh2_dlc10_qb_nor_monster_hunt_10",
             ["qb"] = "wh2_dlc10_qb_nor_monster_hunt_10",
             ["fin"] = "wh2_dlc10_nor_monster_hunt_10_dilemma_reward",
             ["state"] = "active",
@@ -100,118 +101,8 @@ rhox_nor_monster_hunts["rhox_nor_firebrand_slavers"]={
             ["tech"] = "wh_dlc08_tech_nor_creatures_07"
     },
     ["monster_hunt_11"] = {
-            ["mission"] = "wh2_dlc10_monster_hunt_11_stage_1",
-            ["mpc_mission"] = "wh2_dlc10_monster_hunt_11_stage_3_mpc",
-            ["qb"] = "wh2_dlc10_qb_nor_monster_hunt_11",
-            ["fin"] = "wh2_dlc10_nor_monster_hunt_11_dilemma_reward",
-            ["state"] = "active",
-            ["reward"] = "wh2_dlc10_anc_weapon_warptech_arsenal",
-            ["tech"] = "wh_dlc08_tech_nor_creatures_07"
-    }
-}
-rhox_nor_monster_hunts["rhox_nor_ravenblessed"]={
-    ["monster_hunt_0"] = {
-            ["mission"] = "wh_dlc08_monster_hunt_0_stage_1",
-            ["mpc_mission"] = "wh_dlc08_monster_hunt_0_stage_4_mpc",
-            ["qb"] = "wh_dlc08_qb_nor_monster_hunt_0",
-            ["fin"] = "wh_dlc08_nor_monster_hunt_0_dilemma_reward",
-            ["state"] = "active",
-            ["reward"] = "wh_dlc08_anc_enchanted_item_ancient_frost_wyrm_scale",
-            ["tech"] = "wh_dlc08_tech_nor_creatures_01"
-    },
-    ["monster_hunt_1"] = {
-            ["mission"] = "wh_dlc08_monster_hunt_1_stage_1",
-            ["mpc_mission"] = "wh_dlc08_monster_hunt_1_stage_5_mpc",
-            ["qb"] = "wh_dlc08_qb_nor_monster_hunt_1",
-            ["fin"] = "wh_dlc08_nor_monster_hunt_1_dilemma_reward",
-            ["state"] = "active",
-            ["reward"] = "wh_dlc08_anc_talisman_giant_cygor_eyeball",
-            ["tech"] = "wh_dlc08_tech_nor_creatures_01"
-    },
-    ["monster_hunt_2"] = {
-            ["mission"] = "wh_dlc08_monster_hunt_2_stage_1",
-            ["mpc_mission"] = "wh_dlc08_monster_hunt_2_stage_4_mpc",
-            ["qb"] = "wh_dlc08_qb_nor_monster_hunt_2",
-            ["fin"] = "wh_dlc08_nor_monster_hunt_2_dilemma_reward",
-            ["state"] = "active",
-            ["reward"] = "wh_dlc08_anc_enchanted_item_great_horn_of_dragon_ogre",
-            ["tech"] = "wh_dlc08_tech_nor_creatures_01"
-    },
-    ["monster_hunt_3"] = {
-            ["mission"] = "wh_dlc08_monster_hunt_3_stage_1",
-            ["mpc_mission"] = "wh_dlc08_monster_hunt_3_stage_3_mpc",
-            ["qb"] = "wh_dlc08_qb_nor_monster_hunt_3",
-            ["fin"] = "wh_dlc08_nor_monster_hunt_3_dilemma_reward",
-            ["state"] = "active",
-            ["reward"] = "wh_dlc08_anc_enchanted_item_arachnarok_eggs",
-            ["tech"] = "wh_dlc08_tech_nor_creatures_06"
-    },
-    ["monster_hunt_4"] = {
-            ["mission"] = "wh_dlc08_monster_hunt_4_stage_1",
-            ["mpc_mission"] = "wh_dlc08_monster_hunt_4_stage_3_2_mpc",
-            ["qb"] = "wh_dlc08_qb_nor_monster_hunt_4",
-            ["fin"] = "wh_dlc08_nor_monster_hunt_4_dilemma_reward",
-            ["state"] = "active",
-            ["reward"] = "wh_dlc08_anc_weapon_stinky_giant_club",
-            ["tech"] = "wh_dlc08_tech_nor_creatures_06"
-    },
-    ["monster_hunt_5"] = {
-            ["mission"] = "wh_dlc08_monster_hunt_5_stage_1",
-            ["mpc_mission"] = "wh_dlc08_monster_hunt_5_stage_3_mpc",
-            ["qb"] = "wh_dlc08_qb_nor_monster_hunt_5",
-            ["fin"] = "wh_dlc08_nor_monster_hunt_5_dilemma_reward",
-            ["state"] = "active",
-            ["reward"] = "wh_dlc08_anc_weapon_forest_dragon_fang",
-            ["tech"] = "wh_dlc08_tech_nor_creatures_06"
-    },
-    ["monster_hunt_6"] = {
-            ["mission"] = "wh_dlc08_monster_hunt_6_stage_1",
-            ["mpc_mission"] = "wh_dlc08_monster_hunt_6_stage_3_mpc",
-            ["qb"] = "wh_dlc08_qb_nor_monster_hunt_6",
-            ["fin"] = "wh_dlc08_nor_monster_hunt_6_dilemma_reward",
-            ["state"] = "active",
-            ["reward"] = "wh_dlc08_anc_magic_standard_ancient_mammoth_cub",
-            ["tech"] = "wh_dlc08_tech_nor_creatures_07"
-    },
-    ["monster_hunt_7"] = {
-            ["mission"] = "wh_dlc08_monster_hunt_7_stage_1",
-            ["mpc_mission"] = "wh_dlc08_monster_hunt_7_stage_3_mpc",
-            ["qb"] = "wh_dlc08_qb_nor_monster_hunt_7",
-            ["fin"] = "wh_dlc08_nor_monster_hunt_7_dilemma_reward",
-            ["state"] = "active",
-            ["reward"] = "wh_dlc08_anc_talisman_terrorgheist_skull",
-            ["tech"] = "wh_dlc08_tech_nor_creatures_07"
-    },
-    ["monster_hunt_8"] = {
-            ["mission"] = "wh2_dlc10_monster_hunt_8_stage_1",
-            ["mpc_mission"] = "wh2_dlc10_monster_hunt_8_stage_4_mpc",
-            ["qb"] = "wh2_dlc10_qb_nor_monster_hunt_8",
-            ["fin"] = "wh2_dlc10_nor_monster_hunt_8_dilemma_reward",
-            ["state"] = "active",
-            ["reward"] = "wh2_dlc10_anc_enchanted_item_burning_phoenix_pinion",
-            ["tech"] = "wh_dlc08_tech_nor_creatures_07"
-    },
-    ["monster_hunt_9"] = {
-            ["mission"] = "wh2_dlc10_monster_hunt_9_stage_1",
-            ["mpc_mission"] = "wh2_dlc10_monster_hunt_9_stage_4_mpc",
-            ["qb"] = "wh2_dlc10_qb_nor_monster_hunt_9",
-            ["fin"] = "wh2_dlc10_nor_monster_hunt_9_dilemma_reward",
-            ["state"] = "active",
-            ["reward"] = "wh2_dlc10_anc_talisman_carnosaur_skull",
-            ["tech"] = "wh_dlc08_tech_nor_creatures_07"
-    },
-    ["monster_hunt_10"] = {
-            ["mission"] = "wh2_dlc10_monster_hunt_10_stage_1",
-            ["mpc_mission"] = "wh2_dlc10_monster_hunt_10_stage_4_mpc",
-            ["qb"] = "wh2_dlc10_qb_nor_monster_hunt_10",
-            ["fin"] = "wh2_dlc10_nor_monster_hunt_10_dilemma_reward",
-            ["state"] = "active",
-            ["reward"] = "wh2_dlc10_anc_talisman_hydra_head",
-            ["tech"] = "wh_dlc08_tech_nor_creatures_07"
-    },
-    ["monster_hunt_11"] = {
-            ["mission"] = "wh2_dlc10_monster_hunt_11_stage_1",
-            ["mpc_mission"] = "wh2_dlc10_monster_hunt_11_stage_3_mpc",
+            ["mission"] = "wh2_dlc10_qb_nor_monster_hunt_11",
+            ["mpc_mission"] = "wh2_dlc10_qb_nor_monster_hunt_11",
             ["qb"] = "wh2_dlc10_qb_nor_monster_hunt_11",
             ["fin"] = "wh2_dlc10_nor_monster_hunt_11_dilemma_reward",
             ["state"] = "active",
@@ -220,227 +111,19 @@ rhox_nor_monster_hunts["rhox_nor_ravenblessed"]={
     }
 }
 
-rhox_nor_monster_hunts["cr_nor_tokmars"]={
-    ["monster_hunt_0"] = {
-            ["mission"] = "wh_dlc08_monster_hunt_0_stage_1",
-            ["mpc_mission"] = "wh_dlc08_monster_hunt_0_stage_4_mpc",
-            ["qb"] = "wh_dlc08_qb_nor_monster_hunt_0",
-            ["fin"] = "wh_dlc08_nor_monster_hunt_0_dilemma_reward",
-            ["state"] = "active",
-            ["reward"] = "wh_dlc08_anc_enchanted_item_ancient_frost_wyrm_scale",
-            ["tech"] = "wh_dlc08_tech_nor_creatures_01"
-    },
-    ["monster_hunt_1"] = {
-            ["mission"] = "wh_dlc08_monster_hunt_1_stage_1",
-            ["mpc_mission"] = "wh_dlc08_monster_hunt_1_stage_5_mpc",
-            ["qb"] = "wh_dlc08_qb_nor_monster_hunt_1",
-            ["fin"] = "wh_dlc08_nor_monster_hunt_1_dilemma_reward",
-            ["state"] = "active",
-            ["reward"] = "wh_dlc08_anc_talisman_giant_cygor_eyeball",
-            ["tech"] = "wh_dlc08_tech_nor_creatures_01"
-    },
-    ["monster_hunt_2"] = {
-            ["mission"] = "wh_dlc08_monster_hunt_2_stage_1",
-            ["mpc_mission"] = "wh_dlc08_monster_hunt_2_stage_4_mpc",
-            ["qb"] = "wh_dlc08_qb_nor_monster_hunt_2",
-            ["fin"] = "wh_dlc08_nor_monster_hunt_2_dilemma_reward",
-            ["state"] = "active",
-            ["reward"] = "wh_dlc08_anc_enchanted_item_great_horn_of_dragon_ogre",
-            ["tech"] = "wh_dlc08_tech_nor_creatures_01"
-    },
-    ["monster_hunt_3"] = {
-            ["mission"] = "wh_dlc08_monster_hunt_3_stage_1",
-            ["mpc_mission"] = "wh_dlc08_monster_hunt_3_stage_3_mpc",
-            ["qb"] = "wh_dlc08_qb_nor_monster_hunt_3",
-            ["fin"] = "wh_dlc08_nor_monster_hunt_3_dilemma_reward",
-            ["state"] = "active",
-            ["reward"] = "wh_dlc08_anc_enchanted_item_arachnarok_eggs",
-            ["tech"] = "wh_dlc08_tech_nor_creatures_06"
-    },
-    ["monster_hunt_4"] = {
-            ["mission"] = "wh_dlc08_monster_hunt_4_stage_1",
-            ["mpc_mission"] = "wh_dlc08_monster_hunt_4_stage_3_2_mpc",
-            ["qb"] = "wh_dlc08_qb_nor_monster_hunt_4",
-            ["fin"] = "wh_dlc08_nor_monster_hunt_4_dilemma_reward",
-            ["state"] = "active",
-            ["reward"] = "wh_dlc08_anc_weapon_stinky_giant_club",
-            ["tech"] = "wh_dlc08_tech_nor_creatures_06"
-    },
-    ["monster_hunt_5"] = {
-            ["mission"] = "wh_dlc08_monster_hunt_5_stage_1",
-            ["mpc_mission"] = "wh_dlc08_monster_hunt_5_stage_3_mpc",
-            ["qb"] = "wh_dlc08_qb_nor_monster_hunt_5",
-            ["fin"] = "wh_dlc08_nor_monster_hunt_5_dilemma_reward",
-            ["state"] = "active",
-            ["reward"] = "wh_dlc08_anc_weapon_forest_dragon_fang",
-            ["tech"] = "wh_dlc08_tech_nor_creatures_06"
-    },
-    ["monster_hunt_6"] = {
-            ["mission"] = "wh_dlc08_monster_hunt_6_stage_1",
-            ["mpc_mission"] = "wh_dlc08_monster_hunt_6_stage_3_mpc",
-            ["qb"] = "wh_dlc08_qb_nor_monster_hunt_6",
-            ["fin"] = "wh_dlc08_nor_monster_hunt_6_dilemma_reward",
-            ["state"] = "active",
-            ["reward"] = "wh_dlc08_anc_magic_standard_ancient_mammoth_cub",
-            ["tech"] = "wh_dlc08_tech_nor_creatures_07"
-    },
-    ["monster_hunt_7"] = {
-            ["mission"] = "wh_dlc08_monster_hunt_7_stage_1",
-            ["mpc_mission"] = "wh_dlc08_monster_hunt_7_stage_3_mpc",
-            ["qb"] = "wh_dlc08_qb_nor_monster_hunt_7",
-            ["fin"] = "wh_dlc08_nor_monster_hunt_7_dilemma_reward",
-            ["state"] = "active",
-            ["reward"] = "wh_dlc08_anc_talisman_terrorgheist_skull",
-            ["tech"] = "wh_dlc08_tech_nor_creatures_07"
-    },
-    ["monster_hunt_8"] = {
-            ["mission"] = "wh2_dlc10_monster_hunt_8_stage_1",
-            ["mpc_mission"] = "wh2_dlc10_monster_hunt_8_stage_4_mpc",
-            ["qb"] = "wh2_dlc10_qb_nor_monster_hunt_8",
-            ["fin"] = "wh2_dlc10_nor_monster_hunt_8_dilemma_reward",
-            ["state"] = "active",
-            ["reward"] = "wh2_dlc10_anc_enchanted_item_burning_phoenix_pinion",
-            ["tech"] = "wh_dlc08_tech_nor_creatures_07"
-    },
-    ["monster_hunt_9"] = {
-            ["mission"] = "wh2_dlc10_monster_hunt_9_stage_1",
-            ["mpc_mission"] = "wh2_dlc10_monster_hunt_9_stage_4_mpc",
-            ["qb"] = "wh2_dlc10_qb_nor_monster_hunt_9",
-            ["fin"] = "wh2_dlc10_nor_monster_hunt_9_dilemma_reward",
-            ["state"] = "active",
-            ["reward"] = "wh2_dlc10_anc_talisman_carnosaur_skull",
-            ["tech"] = "wh_dlc08_tech_nor_creatures_07"
-    },
-    ["monster_hunt_10"] = {
-            ["mission"] = "wh2_dlc10_monster_hunt_10_stage_1",
-            ["mpc_mission"] = "wh2_dlc10_monster_hunt_10_stage_4_mpc",
-            ["qb"] = "wh2_dlc10_qb_nor_monster_hunt_10",
-            ["fin"] = "wh2_dlc10_nor_monster_hunt_10_dilemma_reward",
-            ["state"] = "active",
-            ["reward"] = "wh2_dlc10_anc_talisman_hydra_head",
-            ["tech"] = "wh_dlc08_tech_nor_creatures_07"
-    },
-    ["monster_hunt_11"] = {
-            ["mission"] = "wh2_dlc10_monster_hunt_11_stage_1",
-            ["mpc_mission"] = "wh2_dlc10_monster_hunt_11_stage_3_mpc",
-            ["qb"] = "wh2_dlc10_qb_nor_monster_hunt_11",
-            ["fin"] = "wh2_dlc10_nor_monster_hunt_11_dilemma_reward",
-            ["state"] = "active",
-            ["reward"] = "wh2_dlc10_anc_weapon_warptech_arsenal",
-            ["tech"] = "wh_dlc08_tech_nor_creatures_07"
-    }
-}
+rhox_nor_monster_hunts["rhox_nor_firebrand_slavers"]=rhox_nor_monster_hunts["template"]
+rhox_nor_monster_hunts["rhox_nor_ravenblessed"]=rhox_nor_monster_hunts["template"]
+rhox_nor_monster_hunts["cr_nor_tokmars"]=rhox_nor_monster_hunts["template"]
+rhox_nor_monster_hunts["rhox_nor_khazags"]=rhox_nor_monster_hunts["template"]
 
-rhox_nor_monster_hunts["rhox_nor_khazags"]={
-    ["monster_hunt_0"] = {
-            ["mission"] = "wh_dlc08_monster_hunt_0_stage_1",
-            ["mpc_mission"] = "wh_dlc08_monster_hunt_0_stage_4_mpc",
-            ["qb"] = "wh_dlc08_qb_nor_monster_hunt_0",
-            ["fin"] = "wh_dlc08_nor_monster_hunt_0_dilemma_reward",
-            ["state"] = "active",
-            ["reward"] = "wh_dlc08_anc_enchanted_item_ancient_frost_wyrm_scale",
-            ["tech"] = "wh_dlc08_tech_nor_creatures_01"
-    },
-    ["monster_hunt_1"] = {
-            ["mission"] = "wh_dlc08_monster_hunt_1_stage_1",
-            ["mpc_mission"] = "wh_dlc08_monster_hunt_1_stage_5_mpc",
-            ["qb"] = "wh_dlc08_qb_nor_monster_hunt_1",
-            ["fin"] = "wh_dlc08_nor_monster_hunt_1_dilemma_reward",
-            ["state"] = "active",
-            ["reward"] = "wh_dlc08_anc_talisman_giant_cygor_eyeball",
-            ["tech"] = "wh_dlc08_tech_nor_creatures_01"
-    },
-    ["monster_hunt_2"] = {
-            ["mission"] = "wh_dlc08_monster_hunt_2_stage_1",
-            ["mpc_mission"] = "wh_dlc08_monster_hunt_2_stage_4_mpc",
-            ["qb"] = "wh_dlc08_qb_nor_monster_hunt_2",
-            ["fin"] = "wh_dlc08_nor_monster_hunt_2_dilemma_reward",
-            ["state"] = "active",
-            ["reward"] = "wh_dlc08_anc_enchanted_item_great_horn_of_dragon_ogre",
-            ["tech"] = "wh_dlc08_tech_nor_creatures_01"
-    },
-    ["monster_hunt_3"] = {
-            ["mission"] = "wh_dlc08_monster_hunt_3_stage_1",
-            ["mpc_mission"] = "wh_dlc08_monster_hunt_3_stage_3_mpc",
-            ["qb"] = "wh_dlc08_qb_nor_monster_hunt_3",
-            ["fin"] = "wh_dlc08_nor_monster_hunt_3_dilemma_reward",
-            ["state"] = "active",
-            ["reward"] = "wh_dlc08_anc_enchanted_item_arachnarok_eggs",
-            ["tech"] = "wh_dlc08_tech_nor_creatures_06"
-    },
-    ["monster_hunt_4"] = {
-            ["mission"] = "wh_dlc08_monster_hunt_4_stage_1",
-            ["mpc_mission"] = "wh_dlc08_monster_hunt_4_stage_3_2_mpc",
-            ["qb"] = "wh_dlc08_qb_nor_monster_hunt_4",
-            ["fin"] = "wh_dlc08_nor_monster_hunt_4_dilemma_reward",
-            ["state"] = "active",
-            ["reward"] = "wh_dlc08_anc_weapon_stinky_giant_club",
-            ["tech"] = "wh_dlc08_tech_nor_creatures_06"
-    },
-    ["monster_hunt_5"] = {
-            ["mission"] = "wh_dlc08_monster_hunt_5_stage_1",
-            ["mpc_mission"] = "wh_dlc08_monster_hunt_5_stage_3_mpc",
-            ["qb"] = "wh_dlc08_qb_nor_monster_hunt_5",
-            ["fin"] = "wh_dlc08_nor_monster_hunt_5_dilemma_reward",
-            ["state"] = "active",
-            ["reward"] = "wh_dlc08_anc_weapon_forest_dragon_fang",
-            ["tech"] = "wh_dlc08_tech_nor_creatures_06"
-    },
-    ["monster_hunt_6"] = {
-            ["mission"] = "wh_dlc08_monster_hunt_6_stage_1",
-            ["mpc_mission"] = "wh_dlc08_monster_hunt_6_stage_3_mpc",
-            ["qb"] = "wh_dlc08_qb_nor_monster_hunt_6",
-            ["fin"] = "wh_dlc08_nor_monster_hunt_6_dilemma_reward",
-            ["state"] = "active",
-            ["reward"] = "wh_dlc08_anc_magic_standard_ancient_mammoth_cub",
-            ["tech"] = "wh_dlc08_tech_nor_creatures_07"
-    },
-    ["monster_hunt_7"] = {
-            ["mission"] = "wh_dlc08_monster_hunt_7_stage_1",
-            ["mpc_mission"] = "wh_dlc08_monster_hunt_7_stage_3_mpc",
-            ["qb"] = "wh_dlc08_qb_nor_monster_hunt_7",
-            ["fin"] = "wh_dlc08_nor_monster_hunt_7_dilemma_reward",
-            ["state"] = "active",
-            ["reward"] = "wh_dlc08_anc_talisman_terrorgheist_skull",
-            ["tech"] = "wh_dlc08_tech_nor_creatures_07"
-    },
-    ["monster_hunt_8"] = {
-            ["mission"] = "wh2_dlc10_monster_hunt_8_stage_1",
-            ["mpc_mission"] = "wh2_dlc10_monster_hunt_8_stage_4_mpc",
-            ["qb"] = "wh2_dlc10_qb_nor_monster_hunt_8",
-            ["fin"] = "wh2_dlc10_nor_monster_hunt_8_dilemma_reward",
-            ["state"] = "active",
-            ["reward"] = "wh2_dlc10_anc_enchanted_item_burning_phoenix_pinion",
-            ["tech"] = "wh_dlc08_tech_nor_creatures_07"
-    },
-    ["monster_hunt_9"] = {
-            ["mission"] = "wh2_dlc10_monster_hunt_9_stage_1",
-            ["mpc_mission"] = "wh2_dlc10_monster_hunt_9_stage_4_mpc",
-            ["qb"] = "wh2_dlc10_qb_nor_monster_hunt_9",
-            ["fin"] = "wh2_dlc10_nor_monster_hunt_9_dilemma_reward",
-            ["state"] = "active",
-            ["reward"] = "wh2_dlc10_anc_talisman_carnosaur_skull",
-            ["tech"] = "wh_dlc08_tech_nor_creatures_07"
-    },
-    ["monster_hunt_10"] = {
-            ["mission"] = "wh2_dlc10_monster_hunt_10_stage_1",
-            ["mpc_mission"] = "wh2_dlc10_monster_hunt_10_stage_4_mpc",
-            ["qb"] = "wh2_dlc10_qb_nor_monster_hunt_10",
-            ["fin"] = "wh2_dlc10_nor_monster_hunt_10_dilemma_reward",
-            ["state"] = "active",
-            ["reward"] = "wh2_dlc10_anc_talisman_hydra_head",
-            ["tech"] = "wh_dlc08_tech_nor_creatures_07"
-    },
-    ["monster_hunt_11"] = {
-            ["mission"] = "wh2_dlc10_monster_hunt_11_stage_1",
-            ["mpc_mission"] = "wh2_dlc10_monster_hunt_11_stage_3_mpc",
-            ["qb"] = "wh2_dlc10_qb_nor_monster_hunt_11",
-            ["fin"] = "wh2_dlc10_nor_monster_hunt_11_dilemma_reward",
-            ["state"] = "active",
-            ["reward"] = "wh2_dlc10_anc_weapon_warptech_arsenal",
-            ["tech"] = "wh_dlc08_tech_nor_creatures_07"
-    }
-}
+cm:add_first_tick_callback(
+    function() 
+        monster_hunts["rhox_nor_firebrand_slavers"]=rhox_nor_monster_hunts["template"]
+        monster_hunts["rhox_nor_ravenblessed"]=rhox_nor_monster_hunts["template"]
+        monster_hunts["cr_nor_tokmars"]=rhox_nor_monster_hunts["template"]
+        monster_hunts["rhox_nor_khazags"]=rhox_nor_monster_hunts["template"]
+    end
+);
 
 
 
@@ -450,44 +133,6 @@ local rhox_iee_nor_factions={
     rhox_nor_firebrand_slavers=true,
     rhox_nor_khazags=true
 }
-
-
-local rhox_nor_first_final_mission={
-    wh_dlc08_monster_hunt_0_stage_1 ="wh_dlc08_qb_nor_monster_hunt_0",
-    wh_dlc08_monster_hunt_1_stage_1 ="wh_dlc08_qb_nor_monster_hunt_1",
-    wh_dlc08_monster_hunt_2_stage_1 = "wh_dlc08_qb_nor_monster_hunt_2",
-    wh_dlc08_monster_hunt_3_stage_1 = "wh_dlc08_qb_nor_monster_hunt_3",
-    wh_dlc08_monster_hunt_4_stage_1 = "wh_dlc08_qb_nor_monster_hunt_4",
-    wh_dlc08_monster_hunt_5_stage_1 = "wh_dlc08_qb_nor_monster_hunt_5",
-    wh_dlc08_monster_hunt_6_stage_1 = "wh_dlc08_qb_nor_monster_hunt_6",
-    wh_dlc08_monster_hunt_7_stage_1 = "wh_dlc08_qb_nor_monster_hunt_7",
-    wh_dlc08_monster_hunt_8_stage_1 = "wh2_dlc10_qb_nor_monster_hunt_8",
-    wh_dlc08_monster_hunt_9_stage_1 = "wh2_dlc10_qb_nor_monster_hunt_9",
-    wh_dlc08_monster_hunt_10_stage_1 = "wh2_dlc10_qb_nor_monster_hunt_10",
-    wh_dlc08_monster_hunt_11_stage_1 = "wh2_dlc10_qb_nor_monster_hunt_11"
-}
-	
-
-core:add_listener(
-    "rhox_iee_nor_monster_hunt_mission_issued",
-    "MissionIssued",
-    function(context)
-        local mission_key = context:mission():mission_record_key()
-        return rhox_iee_nor_factions[context:faction():name()] and rhox_nor_first_final_mission[mission_key]
-    end,
-    function(context)
-        local faction_key = context:faction():name()
-        local mission_key = context:mission():mission_record_key()
-        local final_mission = rhox_nor_first_final_mission[mission_key]
-        
-        cm:fail_custom_mission(faction_key, mission_key)
-        cm:cancel_custom_mission(faction_key, mission_key)
-		cm:trigger_mission(faction_key, final_mission, true)
-
-
-    end,
-    true
-)
 
 local monster_hunts_index = {
 	"monster_hunt_0",
