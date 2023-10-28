@@ -637,14 +637,6 @@ local rhox_iee_list={
             rhox_add_faction_pool_units(cm:get_faction(faction_key), rhox_engra_faction_pool_units);
             if faction:is_human() then
                 cm:force_diplomacy("faction:"..faction_key, "faction:wh_main_chs_chaos", "war", false, false, true);
-                --[[
-                if cm:get_faction("wh_main_chs_chaos"):is_human() ==false then
-                    cm:transfer_region_to_faction("wh3_main_combi_region_the_writhing_fortress","wh_main_chs_chaos")
-                    local transferred_region = cm:get_region("wh3_main_combi_region_the_writhing_fortress")
-                    local transferred_region_cqi = transferred_region:cqi()
-                    cm:heal_garrison(transferred_region_cqi)
-                end
-                ]]
                 cm:make_diplomacy_available("wh_main_chs_chaos", faction_key)
                 cm:make_diplomacy_available(faction_key, "wh_main_chs_chaos")
                 cm:force_grant_military_access(faction_key, "wh_main_chs_chaos", false)
