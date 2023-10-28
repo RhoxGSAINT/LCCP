@@ -2,3 +2,4 @@ vortex_key	change_max_angle	contact_effect	damage	damage_ap	duration	expansion_s
 #battle_vortexs_tables;17;db/battle_vortexs_tables/hkrul_valbrand																														
 hkrul_valbrand_eruption	0		8	0	1.0000	15.0000	10.0000	false	0.0000	0.0000	0.1000	0.0000	true	composite_scene\spells_and_abilities\wh2_dlc15_abilities_blood_forged_armour.csc	150.0000	target_centre	1.ignore		0.0000	0.5000	1		false	0.0000		1.0000	false	circle	0.0000	0.0000
 hkrul_thorgar_stomp	0		45	0	3.0000	2.0000	6.0000	false	0.0000	24.0000	0.1000	1.0000	true	composite_scene/spells_and_abilities/skabscrath.csc	210.0000	target_near_edge	1.ignore		0.0000	0.0000	1		true	36.0000		1.0000	true	circle	0.0000	0.0000
+hkrul_arbaal_smite	0		55	0	3.0000	2.0000	6.0000	false	0.0000	24.0000	0.1000	1.0000	true	composite_scene/spells_and_abilities/skabscrath.csc	210.0000	target_near_edge	1.ignore		0.0000	0.0000	1		true	36.0000		1.0000	true	circle	0.0000	0.0000

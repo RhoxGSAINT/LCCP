@@ -2,3 +2,5 @@ key	max_indent	min_indent	order	agent_subtype_override	col_hex
 #character_skill_categories_tables;2;db/character_skill_categories_tables/hkrul_lccp					
 hkrul_hroth_line1	1	1	1	hkrul_hrothyogg	AAAA7F
 hkrul_burlok_line1	1	1	1	hkrul_burlok	FFFF7F
+hkrul_arbaal_line1	1	1	1	hkrul_arbaal	550000
+hkrul_arbaal_line2	0	0	1	hkrul_arbaal	000000

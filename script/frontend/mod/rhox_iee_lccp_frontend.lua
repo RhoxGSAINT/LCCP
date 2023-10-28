@@ -54,7 +54,7 @@ core:add_ui_created_callback(
             
             mixer_change_lord_name("2062905973", "hkrul_thorgar") 
             mixer_enable_custom_faction("2062905973")
-            mixer_add_starting_unit_list_for_faction("rhox_nor_khazags", {"wh_dlc08_nor_inf_marauder_spearman_0","wh_main_nor_inf_chaos_marauders_0","wh_main_nor_cav_marauder_horsemen_0","wh_dlc08_nor_mon_war_mammoth_0", "wh_dlc08_nor_inf_marauder_hunters_1"})
+            mixer_add_starting_unit_list_for_faction("rhox_nor_khazags", {"wh_dlc08_nor_inf_marauder_spearman_0","wh_main_nor_inf_chaos_marauders_0","wh_dlc08_nor_mon_skinwolves_0","wh_main_nor_cav_marauder_horsemen_0","wh_dlc08_nor_mon_war_mammoth_0", "wh_dlc08_nor_inf_marauder_hunters_1"})
             mixer_add_faction_to_major_faction_list("rhox_nor_khazags")
 
             
@@ -71,7 +71,7 @@ core:add_ui_created_callback(
             
             mixer_change_lord_name("1079005981", "hkrul_vroth") 
             mixer_enable_custom_faction("1079005981")
-            mixer_add_starting_unit_list_for_faction("cr_nor_tokmars", {"wh_main_nor_inf_chaos_marauders_0","wh_dlc08_nor_inf_marauder_hunters_1","wh_main_nor_cav_chaos_chariot","wh_main_nor_inf_chaos_marauders_1","wh_main_nor_mon_chaos_warhounds_0"})
+            mixer_add_starting_unit_list_for_faction("cr_nor_tokmars", {"wh_main_nor_inf_chaos_marauders_0","wh_dlc08_nor_inf_marauder_hunters_1","wh_main_nor_cav_chaos_chariot","wh_main_nor_inf_chaos_marauders_1","wh_dlc08_nor_feral_manticore","wh_main_nor_mon_chaos_warhounds_0"})
             mixer_add_faction_to_major_faction_list("cr_nor_tokmars")
             
             mixer_change_lord_name("1723188533", "hkrul_karitamen") 

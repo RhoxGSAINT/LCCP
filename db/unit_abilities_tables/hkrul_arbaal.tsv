@@ -2,3 +2,4 @@ key	requires_effect_enabling	icon_name	overpower_option	type	video	uniqueness	is
 #unit_abilities_tables;17;db/unit_abilities_tables/hkrul_arbaal											
 hkrul_arbaal_ruiner	true	hkrul_arbaal_destroyer		wh_type_augment		wh_main_anc_group_unique	false	false	passive		false
 hkrul_arbaal_ruiner_hidden	false			wh_type_augment		wh_main_anc_group_unique	false	true	passive		false
+hkrul_arbaal_smite	true	hkrul_arbaal_axe		wh_type_breath		wh_main_anc_group_rare	true	false	active		false

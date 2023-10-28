@@ -2,3 +2,5 @@ invalid_target	special_ability
 #special_ability_to_invalid_target_flags_tables;0;db/special_ability_to_invalid_target_flags_tables/rhox_iee_lccp	
 climbing_manning_eq_on_platform	rhox_arbaal_spawn_spawn
 on_a_platform	rhox_sceolan_bound_blizzard
+flying_currently	hkrul_arbaal_smite
+on_a_platform	hkrul_arbaal_smite
