@@ -1,6 +1,6 @@
 key	text	tooltip
 #Loc;1;text/db/rhox_iee_lccp_effects.loc		
-effects_description_rhox_torinubar_window_to_the_east_dummy	Window to the East: Engage in transit trade by buying and selling Eastern commodities and Western commodities. You can also use them to bolster your troops	false
+effects_description_rhox_torinubar_window_to_the_east_dummy	Window to the East: Engage in transit trade by buying and selling Eastern commodities and Western commodities which can also be used to bolster troops	false
 effects_description_rhox_torinubar_east_cargo_per_turn	Eastern Commodities Generated: %n	false
 effects_description_rhox_torinubar_west_cargo_per_turn	Western Commodities Generated: %n	false
 effects_description_rhox_torinubar_purchase_east	Passive: Battle Harmony: Yin	false
@@ -15,14 +15,14 @@ effects_description_rhox_iee_nor_efficient_hunter_dummy4	Unmatched Hunter: Lenk 
 effects_description_rhox_valbrand_dedicated_to_khorne_dummy	Dedicated to Khorne: May only devote himself to Khorne	false
 effects_description_rhox_volrik_dedicated_to_tzeentch_dummy	Dedicated to Tzeentch: May only devote himself to Tzeentch	false
 effects_description_rhox_volrik_chaos_gift_dummy	Ravenblessed: May gather grimoires and use these to recieve boons of Tzeentch and Chaos	false
-effects_description_rhox_hrothyogg_recruiter_mercenary_branch_office_dummy	After a successful battle, you might get a chance to establish mercenary branch office in the other faction's settlement	false
+effects_description_rhox_hrothyogg_recruiter_mercenary_branch_office_dummy	Master Mercenary: Contracters may spawn after succesfull battles in enemy territories	false
 effects_description_rhox_hrothyogg_region_owner_mercenary_gain_chance	Chance of region owner gaining Maneater unit: %n%	false
-effects_description_rhox_hrothyogg_building_destoryed_if_not_alliance_dummy	Mercenary branch will be destroyed if region owner is at war with you	false
+effects_description_rhox_hrothyogg_building_destoryed_if_not_alliance_dummy	Contracter will leave if settlement owner declares war on the player	false
 effects_description_rhox_hrothyogg_effect_force_stat_melee_attack_maneaters	Melee attack: %+n for Maneaters units	false
 effects_description_rhox_hrothyogg_effect_force_stat_melee_defence_maneaters	Melee defence: %+n for Maneaters units	false
 effects_description_rhox_dolmance_devotee_dummy	Does not have access to the chapel buildings and have access to Slaanesh sorcerers and Pleasurable Acts, and replenishment via captives	false
 effects_description_rhox_dolmance_wine_dummy	Wine producing buildings give special global bonuses	false
-effects_description_rhox_sceolan_embrace_cold_dummy	Embrace the Cold: Is immune to cold weather and whenever the army starts the turn at the Magical Forest or Frozen climate region or visits settlement of that region, they receive significant bonuses	false
+effects_description_rhox_sceolan_embrace_cold_dummy	Embrace the Cold: Recieves bonusses for entering regions with a frozen climate and magical forests.	false
 effects_description_rhox_sceolan_ice_heart_army_ability	Army ability: "Heart of Winter"	false
 effects_description_rhox_sceolan_effect_skill_weapon_damage_increase_wef_wardancers_wildwood_rangers	Weapon strength: %+n% for Wardancers, Bladesingers and Wildwood Rangers units	false
 effects_description_rhox_engra_alliance_dummy	Loyalist: Starts with unbreakable pact with [[img:ui/flags/wh_main_chs_chaos/mon_24.png]][[/img]] Warhost of the Apocalypse	false
@@ -32,22 +32,23 @@ effects_description_rhox_engra_vassal_effect_script_value	HIDDEN: Script value u
 effects_description_rhox_engra_archaon_effect_dummy	Bonusses are shared with [[img:ui/flags/wh_main_chs_chaos/mon_24.png]][[/img]] Warhost of the Apocalypse	false
 effects_description_rhox_arbaal_resource_per_turn	Reputation decrease per turn: %n	false
 effects_description_rhox_thorgar_chaos_dummy	Finish Thorgar's quests and allow him to ascend into Daemonhood	false
-effects_description_rhox_thorgar_sacrifice_dummy	[[col:red]]Warning: All your agent and units under Thorgar's force will be sacrificed to the Chaos God when he ascends[[/col]]	false
-effects_description_rhox_hrothyogg_toll_dummy	If the region is owned by Hrothyogg, you'll collect toll from all neutral troops in the region.	false
+effects_description_rhox_thorgar_sacrifice_dummy	[[col:red]]Warning: In case of ascension all your agent and units under Thorgar's banner will be sacrificed[[/col]]	false
+effects_description_rhox_hrothyogg_toll_dummy	Neutral troops entering Hrothyogg's region will be forced to pay a toll	false
 effects_description_hkrul_hrothyogg_crusher	Mount: Rhinox	false
-effects_description_rhox_burlok_payload_artifact_1_ritual_dummy	Unique [[img:icon_hero]][[/img]]Adventurer Hero will join you	false
-effects_description_rhox_burlok_payload_artifact_2_ritual_dummy	Unique [[img:icon_hero]][[/img]]Adventurer Hero will join you	false
-effects_description_rhox_burlok_payload_artifact_3_ritual_dummy	Unique [[img:icon_hero]][[/img]]Adventurer Hero will join you	false
+effects_description_rhox_burlok_payload_artifact_1_ritual_dummy	Unique [[img:icon_hero]][[/img]]Legendary Adventurer will join you	false
+effects_description_rhox_burlok_payload_artifact_2_ritual_dummy	Unique [[img:icon_hero]][[/img]]Legendary Adventurer will join you	false
+effects_description_rhox_burlok_payload_artifact_3_ritual_dummy	Unique [[img:icon_hero]][[/img]]Legendary Adventurer will join you	false
 effects_description_rhox_torinubar_melee_attack_gate_guard	Melee attack: %+n for Calith Gatekeepers units	false
 effects_description_rhox_torinubar_melee_defence_gate_guard	Melee defence: %+n for Calith Gatekeepers units	false
 effects_description_hkrul_thorgar_ascend_dummy	Unbridled Ambition: Finish Thorgar's quests and allow him to ascend into Daemonhood	false
-effects_description_rhox_slaurith_hunt_knight_dummy	Hunt your fellow knight scattered across the words to get benefits	false
-effects_description_rhox_hrothyogg_mercenary_chance	Chance of getting Mercenary Ambassador after battle victory: %+n%	false
+effects_description_rhox_iee_dwf_burlok_dummy1	Pioneers: Has access to various Legendary Adventurers through the forge mechanic	false
+effects_description_rhox_slaurith_hunt_knight_dummy	Ultimate Challenger: Hunt famed Warlords for significant bonusses	false
+effects_description_rhox_hrothyogg_mercenary_chance	Chance of getting a Mercenary Contracter after victories: %+n%	false
 effects_description_rhox_sceolan_office_woodelf_elf_melee_attack	Melee attack: %n% for all Elf units	false
 effects_description_rhox_sceolan_office_woodelf_elf_melee_defence	Melee defence: %n% for all Elf units	false
 effects_description_rhox_sceolan_office_enable_bound_blizzard	Bound spell: "Blizzard"	false
-effects_description_rhox_duriath_corsair_ammo_change	Black Ark Corsairs (Handbows) uses Reapeter Crossbows instead	false
-effects_description_rhox_duriath_enable_kill_shot	Ability: "Focus Shot" to all Black Ark characters	false
+effects_description_rhox_duriath_corsair_ammo_change	Black Ark Corsairs (Handbows) use Repeater Crossbows instead	false
+effects_description_rhox_duriath_enable_kill_shot	Ability: "Focus Shot" for all Black Ark characters	false
 effects_description_rhox_duriath_stat_missile_block_chance_def_corsair	Missile block chance: %+n% for Black Ark Corsair units	false
 effects_description_rhox_duriath_stat_charge_bonus_def_corsair	Charge Bonus: %+n% for Black Ark Corsair units	false
 effects_description_rhox_duriath_devastating_flanker_bonus_def_corsair	Attribute: Devastating Flanker for Black Ark Corsair units	false
