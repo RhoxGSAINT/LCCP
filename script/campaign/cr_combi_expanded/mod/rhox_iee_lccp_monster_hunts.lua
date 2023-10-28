@@ -116,7 +116,7 @@ rhox_nor_monster_hunts["rhox_nor_ravenblessed"]=rhox_nor_monster_hunts["template
 rhox_nor_monster_hunts["cr_nor_tokmars"]=rhox_nor_monster_hunts["template"]
 rhox_nor_monster_hunts["rhox_nor_khazags"]=rhox_nor_monster_hunts["template"]
 
-cm:add_first_tick_callback(
+cm:add_first_tick_callback_new(
     function() 
         monster_hunts["rhox_nor_firebrand_slavers"]=rhox_nor_monster_hunts["template"]
         monster_hunts["rhox_nor_ravenblessed"]=rhox_nor_monster_hunts["template"]
