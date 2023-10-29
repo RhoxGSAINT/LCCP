@@ -10,3 +10,4 @@ hkrul_slaurith_enable_gorefeast	general_ability.png	300	general_ability.png	batt
 hkrul_slaurith_enable_hungering	general_ability.png	300	general_ability.png	battle	true
 hkrul_slaurith_blood	item_ability.png	300	item_ability.png	battle	true
 rhox_slaurith_hunt_knight_dummy	effect_bundle_slaurith.png	300	effect_bundle_slaurith.png	battle	true
+rhox_slaurith_effect_force_stat_charge_bonus_add_knight	charge.png	501	charge.png	battle	true

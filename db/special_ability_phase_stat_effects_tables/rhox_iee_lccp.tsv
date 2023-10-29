@@ -5,3 +5,6 @@ rhox_zach_dragon_blood	scalar_spell_mastery	1.2000	mult
 rhox_dolmance_harmony_in_excess	stat_melee_attack	5.0000	add
 rhox_dolmance_harmony_in_excess	stat_morale	8.0000	add
 rhox_dolmance_harmony_in_excess	scalar_speed	1.2500	mult
+rhox_slaurith_bloodrage	stat_melee_damage_ap	1.5000	mult
+rhox_slaurith_bloodrage	stat_melee_damage_base	1.5000	mult
+rhox_slaurith_bloodrage	stat_melee_defence	-10.0000	add

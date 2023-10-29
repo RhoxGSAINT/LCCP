@@ -72,3 +72,4 @@ effects_description_rhox_dolmance_harmony_in_excess	Ability: Harmony in Excess	f
 effects_description_rhox_dolmance_effect_force_stat_melee_attack_sla_inf	Melee attack: %+n for Marauders of Slaanesh, Chaos Warriors of Slaanesh, and Chosen of Slaanesh	false
 effects_description_rhox_dolmance_effect_force_stat_melee_defence_sla_inf	Melee defence: %+n for Marauders of Slaanesh, Chaos Warriors of Slaanesh, and Chosen of Slaanesh	false
 effects_description_rhox_dolmance_peasant_frenzy	Ability: Frenzy for Peasant units	false
+effects_description_rhox_slaurith_effect_force_stat_charge_bonus_add_knight	Charge Bonus: %+n for Skullcrushers and Chaos Knights of Khorne units	false
