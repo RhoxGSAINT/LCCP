@@ -69,3 +69,6 @@ effects_description_rhox_duriath_effect_army_ability_enable_vengence	Ability: Ve
 effects_description_rhox_dolmance_reduce_slaanesh_building_cost	Construction Cost: %+n% for Economy and Slaanesh buildings	false
 effects_description_rhox_dolmance_increase_devotee_proudction	Devotees Produced by the buildings: %+n%	false
 effects_description_rhox_dolmance_harmony_in_excess	Ability: Harmony in Excess	false
+effects_description_rhox_dolmance_effect_force_stat_melee_attack_sla_inf	Melee attack: %+n for Marauders of Slaanesh, Chaos Warriors of Slaanesh, and Chosen of Slaanesh	false
+effects_description_rhox_dolmance_effect_force_stat_melee_defence_sla_inf	Melee defence: %+n for Marauders of Slaanesh, Chaos Warriors of Slaanesh, and Chosen of Slaanesh	false
+effects_description_rhox_dolmance_peasant_frenzy	Ability: Frenzy for Peasant units	false
