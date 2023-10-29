@@ -69,3 +69,10 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			wh_main_vmp_cha_master_necromancer_5	rhox_zach_necromaner	false
 			wh_main_vmp_cha_necromancer_0	rhox_zach_necromaner	false
 			wh_main_vmp_cha_necromancer_5	rhox_zach_necromaner	false
+			wh3_dlc20_chs_inf_chaos_warriors_msla	rhox_dolmance_slaanesh_inf	false
+			wh3_dlc20_chs_inf_chaos_warriors_msla_hellscourges	rhox_dolmance_slaanesh_inf	false
+			wh3_dlc20_chs_inf_chosen_msla	rhox_dolmance_slaanesh_inf	false
+			wh3_dlc20_chs_inf_chosen_msla_hellscourges	rhox_dolmance_slaanesh_inf	false
+			wh3_main_sla_inf_marauders_1	rhox_dolmance_slaanesh_inf	false
+			wh3_main_sla_inf_marauders_0	rhox_dolmance_slaanesh_inf	false
+			wh3_main_sla_inf_marauders_2	rhox_dolmance_slaanesh_inf	false
