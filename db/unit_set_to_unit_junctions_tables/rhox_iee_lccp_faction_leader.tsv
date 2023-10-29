@@ -56,3 +56,7 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_zach_dragon	vmp_all	false
 			hkrul_zach_dragon	vmp_characters	false
 			hkrul_zach_dragon	vmp_dlc04_all_characters	false
+			hkrul_beorg	all_non_chs	false
+			hkrul_beorg	nor_all	false
+			hkrul_beorg_bear	all_non_chs	false
+			hkrul_beorg_bear	nor_all	false

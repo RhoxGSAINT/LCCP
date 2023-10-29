@@ -1,0 +1,6 @@
+key	text	tooltip
+#Loc;1;text/db/hkrul_beorg_land_units__.loc		
+land_units_onscreen_name_hkrul_beorg	Beorg Bearstruck	true
+land_units_onscreen_name_hkrul_beorg_bear	Beorg Bearstruck	true
+ui_unit_groupings_onscreen_hkrul_beorg	Throwing Axe Infantry	false
+ui_unit_groupings_tooltip_hkrul_beorg	Throwing Axe Infantry	false

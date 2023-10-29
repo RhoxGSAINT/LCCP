@@ -3,3 +3,4 @@ key	precursor	default_projectile	audio_type	use_secondary_ammo_pool
 hkrul_vroth_javelin	false	hkrul_vroth_javelin	javelin	false
 rhox_vroth_javelin_secondary	false	wh_nor_javelin_heavy	javelin	true
 rhox_duriath_suppressing_bolt	false	rhox_duriath_suppressing_bolt	crossbow_LH	false
+hkrul_beorg_axe	false	hkrul_beorg_axe	javelin	false
