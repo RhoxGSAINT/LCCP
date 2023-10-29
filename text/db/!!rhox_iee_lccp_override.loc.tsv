@@ -20,3 +20,8 @@ factions_defend_desc_cr_hef_gate_guards	You are defending against Guardians of C
 factions_screen_adjective_cr_hef_gate_guards		false
 factions_screen_name_cr_hef_gate_guards	Guardians of Calith	false
 factions_screen_name_when_rebels_cr_hef_gate_guards	Guardians of Calith Rebels	false
+factions_attack_desc_cr_tmb_sons_of_ptra	You are attacking Sons of Phakth!	false
+factions_defend_desc_cr_tmb_sons_of_ptra	You are defending against Sons of Phakth!	false
+factions_screen_adjective_cr_tmb_sons_of_ptra		false
+factions_screen_name_cr_tmb_sons_of_ptra	Sons of Phakth	false
+factions_screen_name_when_rebels_cr_tmb_sons_of_ptra	Sons of Phakth Rebels	false
