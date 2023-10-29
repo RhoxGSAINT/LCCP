@@ -1,0 +1,5 @@
+effect	bonus_value_id	unit_ability
+#effect_bonus_value_unit_ability_junctions_tables;0;db/effect_bonus_value_unit_ability_junctions_tables/hkrul_beorg		
+hkrul_beorg_helm	enable	hkrul_beorg_helm
+hkrul_beorg_pal	enable	hkrul_beorg_pal
+hkrul_beorg_sword	enable	hkrul_beorg_sword

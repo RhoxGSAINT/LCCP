@@ -17,5 +17,7 @@ cm:add_first_tick_callback(
         campaign_traits.legendary_lord_defeated_traits["hkrul_engra"] ="hkrul_defeated_trait_engra"
         campaign_traits.legendary_lord_defeated_traits["hkrul_vroth"] ="hkrul_defeated_trait_vroth"
         campaign_traits.legendary_lord_defeated_traits["hkrul_karitamen"] ="hkrul_defeated_trait_karitamen"
+        campaign_traits.legendary_lord_defeated_traits["hkrul_duriath"] ="hkrul_defeated_trait_duriath"
+        campaign_traits.legendary_lord_defeated_traits["hkrul_beorg"] ="hkrul_defeated_trait_beorg"
 	end
 )
