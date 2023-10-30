@@ -6,3 +6,9 @@ unit_abilities_tooltip_text_hkrul_dolmance_pal	Placeholder Text	true
 unit_abilities_onscreen_name_hkrul_dolmance_pal	Fortress Wardens	true
 unit_abilities_tooltip_text_hkrul_dolmance_sword	Placeholder Text	true
 unit_abilities_onscreen_name_hkrul_dolmance_sword	Helmgart's Brand	true
+unit_abilities_onscreen_name_hkrul_dolmance_broken	Heartbreaker	true
+unit_abilities_tooltip_text_hkrul_dolmance_broken	Not a single soul has left more hearts broken than the beautiful, sly and deadly Alphonse.	false
+unit_abilities_onscreen_name_hkrul_dolmance_favorite	Dolmancé's Favorites	false
+unit_abilities_tooltip_text_hkrul_dolmance_favorite	Only those blessed with the Lady's and Slaaneesh's beauty may call themselves Alphonse's favorites.	false
+unit_abilities_onscreen_name_hkrul_dolmance_favorite2	Dolmancé's Favorite	false
+unit_abilities_tooltip_text_hkrul_dolmance_favorite2	Only those blessed with the Lady's and Slaaneesh's beauty may call themselves Alphonse's favorites.	false

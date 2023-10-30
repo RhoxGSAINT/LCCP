@@ -1,6 +1,6 @@
 key	text	tooltip
 #Loc;1;text/db/hkrul_beorg_effects__.loc		
-effects_description_hkrul_beorg_helm	Ability: "Placeholder''	true
+effects_description_hkrul_beorg_fang	Ability: "Placeholder''	true
 effects_description_hkrul_beorg_pal	Ability: "Fortress Wardens''	true
 effects_description_hkrul_beorg_nordland_damage	Weapon Strength: %+n% for Greatsword units	true
 effects_description_hkrul_beorg_sword	Ability: "Helmgart's Brand''	true

@@ -3,3 +3,6 @@ key	requires_effect_enabling	icon_name	overpower_option	type	video	uniqueness	is
 hkrul_dolmance_helm	true	hkrul_dolmance_helm		wh_type_regeneration		wh_main_anc_group_unique	true	false	passive		false
 hkrul_dolmance_pal	true	hkrul_dolmance_pal		wh_type_area_of_augments		wh_main_anc_group_uncommon	true	false	passive		false
 hkrul_dolmance_sword	true	hkrul_dolmance_sword		wh_type_augment		wh_main_anc_group_rare	true	false	active		false
+hkrul_dolmance_broken	true	hkrul_dolmance_broken		wh_type_direct_damage		wh_main_anc_group_unique	true	false	active		false
+hkrul_dolmance_favorite	true	hkrul_dolmance_stam		wh_type_augment		wh_main_anc_group_rare	true	false	passive		false
+hkrul_dolmance_favorite2	true	hkrul_dolmance_stam		wh_type_augment		wh_main_anc_group_rare	true	false	passive		false

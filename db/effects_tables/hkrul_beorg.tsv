@@ -1,7 +1,7 @@
 effect	icon	priority	icon_negative	category	is_positive_value_good
 #effects_tables;0;db/effects_tables/hkrul_beorg					
 hkrul_enable_immortality		0		campaign	true
-hkrul_beorg_helm	item_ability.png	300	item_ability.png	battle	true
+hkrul_beorg_fang	item_ability.png	300	item_ability.png	battle	true
 hkrul_beorg_sword	item_ability.png	300	item_ability.png	battle	true
 hkrul_beorg_pal	item_ability.png	300	item_ability.png	battle	true
 hkrul_beorg_nordland_damage	weapon_damage.png	97	weapon_damage.png	battle	true
