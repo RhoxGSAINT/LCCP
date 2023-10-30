@@ -73,3 +73,5 @@ effects_description_rhox_dolmance_effect_force_stat_melee_attack_sla_inf	Melee a
 effects_description_rhox_dolmance_effect_force_stat_melee_defence_sla_inf	Melee defence: %+n for Marauders of Slaanesh, Chaos Warriors of Slaanesh, and Chosen of Slaanesh	false
 effects_description_rhox_dolmance_peasant_frenzy	Ability: Frenzy for Peasant units	false
 effects_description_rhox_slaurith_effect_force_stat_charge_bonus_add_knight	Charge Bonus: %+n for Skullcrushers and Chaos Knights of Khorne units	false
+effects_description_rhox_hrothyogg_maneater_recruitment_cost	Recruitment Cost: %+n% for Maneater units	false
+effects_description_rhox_hrothyogg_effect_force_stat_unit_mass_percentage_mod_maneater	Unit mass: %+n% for Maneater units	false
