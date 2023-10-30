@@ -1,5 +1,6 @@
 attribute	attribute_group
 #unit_attributes_to_groups_junctions_tables;2;db/unit_attributes_to_groups_junctions_tables/hkrul_beorg	
-hide_forest	hkrul_beorg
 hide_forest	hkrul_beorg_bear
-causes_fear	hkrul_beorg_bear
+causes_terror	hkrul_beorg_bear
+stalk	hkrul_beorg
+encourages	hkrul_beorg

@@ -4,3 +4,5 @@ hkrul_spew_spoiled	0.0000	200.0000	false	kills_made	linear_multiplier
 hkrul_thorgar_carnivore	0.0000	200.0000	false	kills_made	linear_multiplier
 hkrul_arbaal_ruiner	1.0000	120.0000	false	kills_made	linear_multiplier
 hkrul_slaurith_blood	0.0000	200.0000	false	time_in_melee	linear_multiplier
+hkrul_dolmance_favorite	0.0000	200.0000	false	kills_made	linear_multiplier
+hkrul_dolmance_favorite2	0.0000	200.0000	false	kills_made	linear_multiplier

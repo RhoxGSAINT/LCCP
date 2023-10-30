@@ -1,6 +1,6 @@
 key	text	tooltip
 #Loc;1;text/db/hkrul_dolmance_agent_subtypes__.loc		
-agent_subtypes_onscreen_name_override_hkrul_dolmance	Lord-Warden of Helmgart	false
+agent_subtypes_onscreen_name_override_hkrul_dolmance	Noble worshipper of Slaanesh	false
 agent_subtypes_description_text_override_hkrul_dolmance		false
 units_custom_battle_mounts_mount_name_hkrul_dolmancehkrul_mack_mount	Barded Warhorse	true
 units_custom_battle_mounts_localised_description_hkrul_dolmancehkrul_mack_mount	Placeholder Text	true

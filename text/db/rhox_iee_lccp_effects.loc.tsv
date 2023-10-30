@@ -20,7 +20,7 @@ effects_description_rhox_hrothyogg_region_owner_mercenary_gain_chance	Chance of 
 effects_description_rhox_hrothyogg_building_destoryed_if_not_alliance_dummy	Contracter will leave if settlement owner declares war on the player	false
 effects_description_rhox_hrothyogg_effect_force_stat_melee_attack_maneaters	Melee attack: %+n for Maneaters units	false
 effects_description_rhox_hrothyogg_effect_force_stat_melee_defence_maneaters	Melee defence: %+n for Maneaters units	false
-effects_description_rhox_dolmance_devotee_dummy	Does not have access to the chapel buildings and have access to Slaanesh sorcerers and Pleasurable Acts, and replenishment via captives	false
+effects_description_rhox_dolmance_devotee_dummy	Does not have access to the chapel buildings but instead has access to Slaanesh sorcerers, pleasurable acts and replenishment via captives	false
 effects_description_rhox_dolmance_wine_dummy	Wine producing buildings give special global bonuses	false
 effects_description_rhox_sceolan_embrace_cold_dummy	Embrace the Cold: Recieves bonusses for entering regions with a frozen climate and magical forests.	false
 effects_description_rhox_sceolan_ice_heart_army_ability	Army ability: "Heart of Winter"	false
@@ -67,7 +67,7 @@ effects_description_rhox_zach_grave_guard_melee_defence	Melee defence: %+n for G
 effects_description_rhox_karitamen_effect_force_stat_weapon_strength_carrion	Weapon Strength: +%n% for Carrion units	false
 effects_description_rhox_duriath_effect_army_ability_enable_vengence	Ability: Vengeful Grudge	false
 effects_description_rhox_dolmance_reduce_slaanesh_building_cost	Construction Cost: %+n% for Economy and Slaanesh buildings	false
-effects_description_rhox_dolmance_increase_devotee_proudction	Devotees Produced by the buildings: %+n%	false
+effects_description_rhox_dolmance_increase_devotee_proudction	Devotees produced by buildings: %+n%	false
 effects_description_rhox_dolmance_harmony_in_excess	Ability: Harmony in Excess	false
 effects_description_rhox_dolmance_effect_force_stat_melee_attack_sla_inf	Melee attack: %+n for Marauders of Slaanesh, Chaos Warriors of Slaanesh, and Chosen of Slaanesh	false
 effects_description_rhox_dolmance_effect_force_stat_melee_defence_sla_inf	Melee defence: %+n for Marauders of Slaanesh, Chaos Warriors of Slaanesh, and Chosen of Slaanesh	false
