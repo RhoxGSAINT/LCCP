@@ -75,3 +75,4 @@ effects_description_rhox_dolmance_peasant_frenzy	Ability: Frenzy for Peasant uni
 effects_description_rhox_slaurith_effect_force_stat_charge_bonus_add_knight	Charge Bonus: %+n for Skullcrushers and Chaos Knights of Khorne units	false
 effects_description_rhox_hrothyogg_maneater_recruitment_cost	Recruitment Cost: %+n% for Maneater units	false
 effects_description_rhox_hrothyogg_effect_force_stat_unit_mass_percentage_mod_maneater	Unit mass: %+n% for Maneater units	false
+effects_description_rhox_zach_books_of_nagash_empowered_dummy	Effects are doubled when Zacharias rebuilds Shadeheart Fortress in his homeland Forest of Shadows, Wolfenburg	false

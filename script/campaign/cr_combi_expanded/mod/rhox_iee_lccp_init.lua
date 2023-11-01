@@ -465,10 +465,14 @@ local rhox_iee_list={
                     {"wh3_main_tze_inf_pink_horrors_0", "daemonic_summoning", 1, 0, 4},
                     {"wh_main_chs_art_hellcannon", "daemonic_summoning", 0, 0, 4},
                     {"wh3_main_tze_mon_screamers_0", "daemonic_summoning", 0, 0, 4},
+            }
+            local rhox_volrik_faction_units = {
+                ---unit_key, recruitment_source_key,  starting amount, replen chance, max in pool
                     {"wh3_dlc24_tze_mon_mutalith_vortex_beast", "daemonic_summoning", 0, 0, 2},
                     {"wh3_dlc24_tze_mon_cockatrice", "daemonic_summoning", 0, 0, 4}
             }
             rhox_add_warriors_units(cm:get_faction(faction_key), rhox_volrik_gift_units);
+            rhox_add_faction_pool_units(cm:get_faction(faction_key), rhox_volrik_faction_units);
         end,
         first_tick = function(faction, faction_key) 
         end
@@ -794,6 +798,8 @@ local rhox_iee_list={
                 if mm then
                     mm:add_new_objective("CAPTURE_REGIONS");
                     mm:add_condition("region cr_combi_region_elithis_1_1");
+                    mm:add_condition("region cr_combi_region_elithis_1_2");
+                    mm:add_condition("region cr_combi_region_elithis_1_3");
                     mm:add_condition("ignore_allies");
                     mm:add_payload("money 1000");
                     mm:trigger()
@@ -938,6 +944,7 @@ local turn2_incidents={
     rhox_nor_khazags="rhox_lccp_turn_two_incident_thorgar",
     rhox_chs_the_deathswords="rhox_lccp_turn_two_incident_engra",
     rhox_kho_destroyers_of_khorne="rhox_lccp_turn_two_incident_arbaal",
+    cr_def_corsairs_of_spite= "rhox_lccp_turn_two_incident_duriath",
 }
 
 cm:add_first_tick_callback(
@@ -970,6 +977,3 @@ cm:add_first_tick_callback(
 
 
 
---[[
-
---]]
