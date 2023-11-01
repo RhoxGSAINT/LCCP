@@ -17,3 +17,4 @@ order	special_ability	target_self	target_friends	target_enemies	phase
 1	rhox_karitamen_vengence	false	false	true	rhox_karitamen_vengence
 1	rhox_dolmance_harmony_in_excess	true	true	false	rhox_dolmance_harmony_in_excess
 1	rhox_slaurith_bloodrage	true	false	false	rhox_slaurith_bloodrage
+1	hkrul_burlok_warm	true	false	false	hkrul_burlok_warm

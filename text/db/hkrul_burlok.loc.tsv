@@ -22,3 +22,6 @@ effects_description_hkrul_burlok_building_time_dwf_engineers	Construction time: 
 effects_description_hkrul_burlok_building_cost_dwf_engineers	Construction cost: %+n% for all Engineering chain buildings	true
 character_skill_node_sets_enc_title_skill_node_set_hkrul_burlok	Burlok Skills	false
 effects_description_hkrul_burlok_ap_explosive	Explosive missile damage: %+n% Artillery units	false
+effects_description_hkrul_burlok_warm	Ability: "Slow Starter''	false
+unit_abilities_tooltip_text_hkrul_burlok_warm	''You know how 't is, some engines need some time to warm up and truly get the clockwork ticking.''	false
+unit_abilities_onscreen_name_hkrul_burlok_warm	Slow Starter	false

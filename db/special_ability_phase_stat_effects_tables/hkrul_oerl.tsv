@@ -1,6 +1,6 @@
 phase	stat	value	how
 #special_ability_phase_stat_effects_tables;3;db/special_ability_phase_stat_effects_tables/hkrul_oerl			
-hkrul_oerl_axes	stat_bonus_vs_infantry	6.0000	mult
+hkrul_oerl_axes	stat_bonus_vs_infantry	10.0000	add
 hkrul_oerl_axes	scalar_missile_damage_ap	1.3000	mult
 hkrul_oerl_frenzy	stat_resistance_physical	1.3000	mult
 hkrul_oerl_horn	stat_damage_reflection	10.0000	add

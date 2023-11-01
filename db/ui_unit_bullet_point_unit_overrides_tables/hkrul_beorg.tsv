@@ -7,3 +7,10 @@ shapeshifter	hkrul_beorg
 anti_infantry	hkrul_beorg_bear
 shapeshifter	hkrul_beorg_bear
 terror	hkrul_beorg_bear
+anti_large	hkrul_beorg_brown_feral
+armour_piercing	hkrul_beorg_brown_feral
+vanguard_deployment	hkrul_beorg_brown_feral
+anti_large	hkrul_beorg_ice_feral
+armour_piercing	hkrul_beorg_ice_feral
+chilling_aura	hkrul_beorg_ice_feral
+vanguard_deployment	hkrul_beorg_ice_feral

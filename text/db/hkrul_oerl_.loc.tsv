@@ -32,6 +32,7 @@ effects_description_hkrul_oerl_horn	Ability: "Horn of Ursfjord"	false
 effects_description_hkrul_oerl_axes	Ability: "Bran's Hurl'' for Marauder Hunter units	false
 effects_description_hkrul_oerl_frenzy	Ability: "Urslo's Rage'' for Bear units	false
 effects_description_hkrul_oerl_bear_attack	Melee Attack: %+n for Bear units	false
+effects_description_hkrul_oerl_wolves_attack	Melee Attack: %+n for Skinwolf units	false
 effects_description_hkrul_oerl_hunters_missile_damage	Missile Damage: %+n% for Marauder Hunter units	false
 effects_description_hkrul_oerl_bear_xp	Recruit Rank: %+n for Bear units	false
 effects_description_hkrul_oerl_bear_upkeep	Upkeep: %+n% for Bear units	false

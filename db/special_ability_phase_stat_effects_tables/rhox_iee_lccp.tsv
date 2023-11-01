@@ -8,3 +8,5 @@ rhox_dolmance_harmony_in_excess	scalar_speed	1.2500	mult
 rhox_slaurith_bloodrage	stat_melee_damage_ap	1.5000	mult
 rhox_slaurith_bloodrage	stat_melee_damage_base	1.5000	mult
 rhox_slaurith_bloodrage	stat_melee_defence	-10.0000	add
+hkrul_burlok_warm	scalar_speed	1.3000	mult
+hkrul_burlok_warm	scalar_entity_acceleration_modifier	1.2000	mult
