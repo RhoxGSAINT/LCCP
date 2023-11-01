@@ -1,0 +1,41 @@
+key	text	tooltip
+#Loc;1;text/db/hkrul_oerl_.loc		
+character_skills_localised_name_innate_hkrul_oerl	Beserker of Urslo	true
+character_skills_localised_description_innate_hkrul_oerl	Right hand of Chieftain Beorg and fiercest of all Urslo beserkers.	true
+character_skills_localised_name_hkrul_oerl_special_1_0	Hurlers of the Fjords	true
+character_skills_localised_name_hkrul_oerl_special_1_1	Ancestral Claws	true
+character_skills_localised_name_hkrul_oerl_special_1_2	Token of the Bear	true
+character_skills_localised_name_hkrul_oerl_special_1_3	Raging Rythm	true
+character_skills_localised_name_hkrul_oerl_special_1_4	Tribal Hunters	true
+character_skills_localised_name_hkrul_oerl_special_1_5	Ursfjord Beserkers	true
+character_skills_localised_name_hkrul_oerl_special_1_6	Horn of Ursfjord	true
+character_skills_localised_description_hkrul_oerl_special_1_0	None hurl axes further than the beserkers of the Ursfjordings tribe, catching ongoing vessels from a top the Fjords of Urslo.	true
+character_skills_localised_description_hkrul_oerl_special_1_1	All Bear-stricken clans fight with their ancestral claws strapped closely to their bodies.	true
+character_skills_localised_description_hkrul_oerl_special_1_2	The Bear Clans of Urslo are blessed by the Great one, and deem no rival clans. Especially those of the Wolf.	true
+character_skills_localised_description_hkrul_oerl_special_1_3	Blowing his horn, Oerl sends the beasts of Urslo into a frantic trans of bloodlust and rage.	true
+character_skills_localised_description_hkrul_oerl_special_1_4	Leader of the Tribal Hunters, Oerl knows the importance of catching large prey to keep his Clan fed.	true
+character_skills_localised_description_hkrul_oerl_special_1_5	The finest are considered the retinue of Chieftain Beorg, both fierce and deadly - they are the beserkers of the Ursfjord.	true
+character_skills_localised_description_hkrul_oerl_special_1_6	As he blows his horn the marauders of the tribe chant the name of their great leader. Oblivious and careless to any harm caused to them.	true
+unit_abilities_onscreen_name_hkrul_oerl_horn	Horn of Ursfjord	false
+unit_abilities_tooltip_text_hkrul_oerl_horn	As he blows his horn the marauders of the tribe chant the name of their great leader. Oblivious and careless to any harm caused to them.	false
+unit_abilities_onscreen_name_hkrul_oerl_axes	Bran's Hurl	true
+unit_abilities_tooltip_text_hkrul_oerl_axes	None hurl axes further than the beserkers of the Ursfjordings tribe, catching ongoing vessels from a top the Fjords of Urslo.	true
+unit_abilities_tooltip_text_hkrul_hkrul_oerl_frenzy	Blowing his horn, Oerl sends the beasts of Urslo into a frantic trans of bloodlust and rage.	true
+unit_abilities_onscreen_name_hkrul_oerl_frenzy	Urslo's Rage	true
+agent_subtypes_onscreen_name_override_hkrul_oerl	Beserker of Urslo	false
+agent_subtypes_description_text_override_hkrul_oerl	Beserker of Urslo	false
+unit_description_short_texts_text_hkrul_oerl	Oerl the Young is the latest heir of Clan Oerl, a fearsome bear-stricken clan of Ursfjord. He wades into battle carrying a horn that radiates chaotic magic.	false
+names_name_7411711821	the Young	false
+names_name_7411711822	Oerl	false
+land_units_onscreen_name_hkrul_oerl	Oerl the Young	true
+effects_description_hkrul_oerl_horn	Ability: "Horn of Ursfjord"	false
+effects_description_hkrul_oerl_axes	Ability: "Bran's Hurl'' for Marauder Hunter units	false
+effects_description_hkrul_oerl_frenzy	Ability: "Urslo's Rage'' for Bear units	false
+effects_description_hkrul_oerl_bear_attack	Melee Attack: %+n for Bear units	false
+effects_description_hkrul_oerl_hunters_missile_damage	Missile Damage: %+n% for Marauder Hunter units	false
+effects_description_hkrul_oerl_bear_xp	Recruit Rank: %+n for Bear units	false
+effects_description_hkrul_oerl_bear_upkeep	Upkeep: %+n% for Bear units	false
+effects_description_hkrul_oerl_wolves_upkeep	Upkeep: %+n% for Skinwolf units	false
+effects_description_hkrul_oerl_bearmen_armor	Armour: %+n for Bearmen of Urslo (Throwing Axes & Shields)	false
+unit_description_short_texts_text_hkrul_bearmen	The Bearmen of Urslo, also known as the Tribe of the Bear by those they kill, is a band of Norscan beserkers. They are led by Beorg Bearstruck, Son of Bran.	false
+land_units_onscreen_name_hkrul_bearmen	Bearmen of Urslo (Throwing Axes & Shields)	true

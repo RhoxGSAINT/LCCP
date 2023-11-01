@@ -1,5 +1,5 @@
 character_name	character_level	forename	magic_lore	num_men	surname	unit_type	agent_type	agent_subtype	portrait	character_model	skillset	male
-#battle_set_piece_armies_characters_tables;8;db/battle_set_piece_armies_characters_tables/rhox_iee_lccp												
+#battle_set_piece_armies_characters_tables;8;db/battle_set_piece_armies_characters_tables/rhox_iee_lccp_faction_leader												
 hkrul_sceolan	1	2147343937		100	2147343940	hkrul_sceolan	general	hkrul_sceolan	ui/portraits/portholes/wh_dlc05_wef_wood_elves/hkrul_sceolan.png	672250330		true
 hkrul_valbrand	1	2147343937		100	2147343940	hkrul_valbrand	general	hkrul_valbrand	ui/portraits/portholes/no_culture/hkrul_valbrand.png	672250331		true
 hkrul_volrik	1	2147343937		100	2147343940	hkrul_volrik	general	hkrul_volrik	ui/portraits/portholes/no_culture/hkrul_volrik.png	672250332		true

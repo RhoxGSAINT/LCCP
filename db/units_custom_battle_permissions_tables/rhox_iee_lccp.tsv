@@ -4,3 +4,5 @@ cr_dwf_firebeards_excavators	false	hkrul_rhobb	true	true	ui/portraits/portholes/
 cr_dwf_firebeards_excavators	false	hkrul_thulgrim	true	true	ui/portraits/portholes/wh_main_dwf_dwarfs/hkrul_thulgrim.png	hkrul_uniform_thulgrim	hkrul_thulgrim	false		false
 cr_dwf_firebeards_excavators	false	hkrul_shaz	true	true	ui/portraits/portholes/wh_main_dwf_dwarfs/hkrul_shaz.png	hkrul_shaz	hkrul_shaz	false		false
 cr_hef_gate_guards	false	hef_calith_gatekeepers	true	true				false		false
+wh_dlc08_nor_norsca	false	hkrul_oerl	true	true	ui/portraits/portholes/no_culture/hkrul_oerl.png	hkrul_oerl	hkrul_oerl	false		false
+wh_dlc08_nor_norsca	false	hkrul_bearmen	false	true				false		false
