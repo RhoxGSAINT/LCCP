@@ -1,5 +1,6 @@
 character_name	character_level	forename	magic_lore	num_men	surname	unit_type	agent_type	agent_subtype	portrait	character_model	skillset	male
-#battle_set_piece_armies_characters_tables;8;db/battle_set_piece_armies_characters_tables/hkrul_adventurers												
+#battle_set_piece_armies_characters_tables;8;db/battle_set_piece_armies_characters_tables/hkrul_lccp												
 hkrul_rhobb	1	2147343937		100	2147343940	hkrul_rhobb	champion	hkrul_rhobb	ui/portraits/portholes/wh_main_dwf_dwarfs/hkrul_rhobb.png	723188952		true
 hkrul_thulgrim	1	2147343937		100	2147343940	hkrul_thulgrim	champion	hkrul_thulgrim	ui/portraits/portholes/wh_main_dwf_dwarfs/hkrul_thulgrim.png	723188953		true
 hkrul_shaz	1	2147343937		100	2147343940	hkrul_shaz	champion	hkrul_shaz	ui/portraits/portholes/wh_main_dwf_dwarfs/hkrul_shaz.png	723188954		true
+hkrul_oerl	1	2147343937		100	2147343940	hkrul_oerl	champion	hkrul_oerl	ui/portraits/portholes/no_culture/hkrul_oerl.png	201735222		true

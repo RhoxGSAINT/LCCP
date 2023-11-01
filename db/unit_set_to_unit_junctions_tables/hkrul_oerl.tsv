@@ -1,0 +1,24 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/hkrul_oerl					
+			hkrul_oerl	mp_cap_group_heroes	false
+			hkrul_oerl	nor_all	false
+			hkrul_bearmen	all_non_chs	false
+			hkrul_bearmen	dlc08_nor_marauders_all	false
+			hkrul_bearmen	dlc08_nor_marauders_hunters	false
+			hkrul_bearmen	dlc08_nor_marauders_inf	false
+			hkrul_bearmen	dlc08_nor_marauders_mis	false
+			hkrul_bearmen	mp_cap_unit_nor_inf_marauder_hunters_0	false
+			hkrul_bearmen	nor_all	false
+			hkrul_bearmen	wh2_dlc11_nor_marauder_hunters_marauder_horsemen	false
+			hkrul_bearmen	wh2_dlc11_nor_vets_marauder_hunters_marauder_horsemen	false
+			hkrul_bearmen	wh2_dlc17_wulfrik_focus_units	false
+			hkrul_bearmen	wh2_main_ror_units_all	false
+			wh3_main_monster_feral_bears	hkrul_oerl_bears	false
+			wh3_main_monster_feral_ice_bears	hkrul_oerl_bears	false
+			wh_dlc08_nor_inf_marauder_hunters_0	hkrul_oerl_hunters	false
+			wh_dlc08_nor_cha_skin_wolf_werekin_0	hkrul_oerl_wolves	false
+			wh_dlc08_nor_mon_skinwolves_0	hkrul_oerl_wolves	false
+			wh_dlc08_nor_mon_skinwolves_1	hkrul_oerl_wolves	false
+			wh_pro04_nor_mon_skinwolves_ror_0	hkrul_oerl_wolves	false
+			hkrul_bearmen	hkrul_oerl_hunters	false
+			hkrul_bearmen	hkrul_oerl_bearmen	false
