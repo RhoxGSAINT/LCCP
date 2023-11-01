@@ -16,3 +16,7 @@ unit_abilities_onscreen_name_hkrul_beorg_human_form	Spirit of the Tribe	false
 unit_abilities_tooltip_text_hkrul_beorg_human_form	Beorg as chieftain of the Ursfjordings tribe has both ranged and leadership capabilities.	false
 unit_abilities_onscreen_name_hkrul_beorg_bear_form	Spirit of the Great Bear	false
 unit_abilities_tooltip_text_hkrul_beorg_bear_form	Blessed by the Chaos Gods, Beorg has the ability to shapeshift into that he descends from, the Great Bear.	false
+unit_abilities_onscreen_name_hkrul_beorg_rally	Beorg's Skewers	false
+unit_abilities_tooltip_text_hkrul_beorg_rally	The Bearmen hurl their axes as easy as a trained warrior would hurl a mere pebble.	false
+unit_abilities_onscreen_name_hkrul_beorg_claw	Bran's Fury	false
+unit_abilities_tooltip_text_hkrul_beorg_claw	Channeling the very essence of the Great Bear, Beorg's primal fury cuts through masses of foes.	false

@@ -6,3 +6,5 @@ cr_dwf_firebeards_excavators	false	hkrul_shaz	true	true	ui/portraits/portholes/w
 cr_hef_gate_guards	false	hef_calith_gatekeepers	true	true				false		false
 wh_dlc08_nor_norsca	false	hkrul_oerl	true	true	ui/portraits/portholes/no_culture/hkrul_oerl.png	hkrul_oerl	hkrul_oerl	false		false
 wh_dlc08_nor_norsca	false	hkrul_bearmen	false	true				false		false
+wh_dlc08_nor_norsca	false	hkrul_beorg_brown_feral	false	true				true		false
+wh_dlc08_nor_norsca	false	hkrul_beorg_ice_feral	false	true				true		false

@@ -13,8 +13,8 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_bearmen	wh2_dlc11_nor_vets_marauder_hunters_marauder_horsemen	false
 			hkrul_bearmen	wh2_dlc17_wulfrik_focus_units	false
 			hkrul_bearmen	wh2_main_ror_units_all	false
-			wh3_main_monster_feral_bears	hkrul_oerl_bears	false
-			wh3_main_monster_feral_ice_bears	hkrul_oerl_bears	false
+			hkrul_beorg_brown_feral	hkrul_oerl_bears	false
+			hkrul_beorg_ice_feral	hkrul_oerl_bears	false
 			wh_dlc08_nor_inf_marauder_hunters_0	hkrul_oerl_hunters	false
 			wh_dlc08_nor_cha_skin_wolf_werekin_0	hkrul_oerl_wolves	false
 			wh_dlc08_nor_mon_skinwolves_0	hkrul_oerl_wolves	false
@@ -22,3 +22,8 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			wh_pro04_nor_mon_skinwolves_ror_0	hkrul_oerl_wolves	false
 			hkrul_bearmen	hkrul_oerl_hunters	false
 			hkrul_bearmen	hkrul_oerl_bearmen	false
+			hkrul_beorg_bear	hkrul_beorg_bear	false
+			hkrul_beorg_brown_feral	dlc08_nor_monsters	false
+			hkrul_beorg_ice_feral	dlc08_nor_monsters	false
+			hkrul_beorg_brown_feral	nor_all	false
+			hkrul_beorg_ice_feral	nor_all	false
