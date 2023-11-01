@@ -1,0 +1,6 @@
+key	image_path
+#ui_tagged_images_tables;0;db/ui_tagged_images_tables/hkrul_lccp	
+hkrul_image_tokmars	ui/campaign ui/effect_bundles/rakarth.png
+hkrul_image_khazag	ui/campaign ui/effect_bundles/effect_bundle_thorgar2.png
+hkrul_image_slaurith	ui/flags/rhox_cc_kho_servants_of_the_blood_nagas/mon_24.png
+hkrul_image_volrik1	ui/flags/rhox_cc_nor_ravenblessed/mon_24.png

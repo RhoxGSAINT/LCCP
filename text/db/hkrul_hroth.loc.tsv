@@ -19,6 +19,7 @@ character_skills_localised_name_hkrul_hroth_special_0_1	Deathtoll Tribe	false
 unit_abilities_tooltip_text_hkrul_hroth_stew	No finer stew is known to Ogre bellies than Hrothyogg's stew, it's ingredients a secret.	false
 unit_abilities_onscreen_name_hkrul_hroth_stew	Hrothyogg's Stew	false
 effects_description_hkrul_hroth_stew	Ability: "Hrothyogg's Stew''	true
+effects_description_hkrul_hrothyogg_melee_maneaters	Melee attack: %+n for Maneater units	true
 unit_description_short_texts_text_hkrul_hroth	Hrothyogg the feared maneater, collector of tolls or bringer of death.	false
 effects_description_hkrul_hroth_income_negative	Income from enemy buildings: %+n%	true
 unit_description_historical_texts_text_hkrul_hroth	This is Historical Description	false

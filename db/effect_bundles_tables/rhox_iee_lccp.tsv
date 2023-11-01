@@ -35,4 +35,4 @@ rhox_arbaal_resource_effects_2			faction	1	effect_bundle_arbaal.png	false	false	
 rhox_arbaal_resource_effects_3			faction	1	effect_bundle_arbaal.png	false	false	true
 rhox_arbaal_resource_effects_4			faction	1	effect_bundle_arbaal.png	false	false	true
 rhox_arbaal_other_faction_curse			faction	1	effect_bundle_arbaal.png	true	false	true
-rhox_duriath_faction_trait			faction	1	effect_bundle_thorgar.png	true	false	true
+rhox_duriath_faction_trait			faction	1	effect_bundle_duriath.png	true	false	true

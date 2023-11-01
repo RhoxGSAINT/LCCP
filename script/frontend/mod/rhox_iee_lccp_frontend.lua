@@ -43,7 +43,7 @@ core:add_ui_created_callback(
             mixer_add_faction_to_major_faction_list("cr_kho_servants_of_the_blood_nagas")
             
             mixer_change_lord_name("502924806", "hkrul_burlok") 
-            mixer_add_starting_unit_list_for_faction("cr_dwf_firebeards_excavators", {"wh_main_dwf_inf_dwarf_warrior_0", "wh_main_dwf_inf_dwarf_warrior_1"})
+            mixer_add_starting_unit_list_for_faction("cr_dwf_firebeards_excavators", {"wh_main_dwf_inf_dwarf_warrior_0","wh_main_dwf_inf_thunderers_0","wh_main_dwf_inf_longbeards","wh_main_dwf_art_cannon","wh_main_dwf_inf_dwarf_warrior_1"})
             mixer_add_faction_to_major_faction_list("cr_dwf_firebeards_excavators")
 
             
