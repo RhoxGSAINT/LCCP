@@ -2,5 +2,5 @@
 <warscape_requirements
 	version="1">
 	<model
-		filepath="VariantMeshes/VariantMeshDefinitions/hkrul_vroth.VariantMeshDefinition"/>
+		filepath="VariantMeshes/VariantMeshDefinitions/hkrul_vroth_frontend.VariantMeshDefinition"/>
 </warscape_requirements>
