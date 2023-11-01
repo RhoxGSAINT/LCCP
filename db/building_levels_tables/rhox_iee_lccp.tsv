@@ -3,4 +3,5 @@ level_name	chain	level	create_time	create_cost	upkeep_cost	commodity	only_in_cap
 rhox_hrothyogg_mercenary_branch	rhox_hrothyogg_mercenary_branch	0	1	2000	0		false	false			false	rhox_hrothyogg_mercenary_branch	false	0.0000	0	true	0		true	0	0		0
 rhox_duriath_black_ark_special_1	rhox_duriath_black_ark_special	0	1	3000	0		false	false			true	rhox_duriath_black_ark_special	false	0.0000	0	true	0		true	0	0		0
 rhox_duriath_black_ark_special_2	rhox_duriath_black_ark_special	1	1	5000	0		false	false			true	rhox_duriath_black_ark_special	false	0.0000	0	true	3		true	0	0		0
-rhox_duriath_tor_elithis	rhox_duriath_tor_elithis	0	3	8000	0		false	false			true	rhox_duriath_tor_elithis	false	0.0000	0	true	4		true	0	0		0
+rhox_duriath_tor_elithis	rhox_duriath_tor_elithis	0	3	8000	0		false	false			true	rhox_duriath_tor_elithis	false	0.0000	0	true	3		true	0	0		0
+rhox_zach_malevolent_museum	rhox_zach_malevolent_museum	0	10	6000	0		false	false			true	rhox_zach_malevolent_museum	false	0.0000	0	true	3		true	0	0		0

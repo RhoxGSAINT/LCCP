@@ -76,3 +76,4 @@ rhox_dolmance_effect_force_stat_melee_defence_sla_inf	defence.png	451	defence.pn
 rhox_dolmance_peasant_frenzy	general_ability.png	600	general_ability.png	battle	true
 hkrul_hrothyogg_melee_maneaters	melee.png	431	melee.png	battle	true
 hkrul_burlok_ap_explosive	icon_stat_explosive_armour_piercing_damage_force.png	5	icon_stat_explosive_armour_piercing_damage_force.png	battle	true
+rhox_zach_books_of_nagash_empowered_dummy	general_ability.png	500	general_ability.png	campaign	true

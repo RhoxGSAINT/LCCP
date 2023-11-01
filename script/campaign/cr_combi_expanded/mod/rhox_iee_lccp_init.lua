@@ -794,6 +794,8 @@ local rhox_iee_list={
                 if mm then
                     mm:add_new_objective("CAPTURE_REGIONS");
                     mm:add_condition("region cr_combi_region_elithis_1_1");
+                    mm:add_condition("region cr_combi_region_elithis_1_2");
+                    mm:add_condition("region cr_combi_region_elithis_1_3");
                     mm:add_condition("ignore_allies");
                     mm:add_payload("money 1000");
                     mm:trigger()
@@ -938,6 +940,7 @@ local turn2_incidents={
     rhox_nor_khazags="rhox_lccp_turn_two_incident_thorgar",
     rhox_chs_the_deathswords="rhox_lccp_turn_two_incident_engra",
     rhox_kho_destroyers_of_khorne="rhox_lccp_turn_two_incident_arbaal",
+    cr_def_corsairs_of_spite= "rhox_lccp_turn_two_incident_duriath",
 }
 
 cm:add_first_tick_callback(
@@ -970,6 +973,3 @@ cm:add_first_tick_callback(
 
 
 
---[[
-
---]]
