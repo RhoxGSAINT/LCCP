@@ -9,3 +9,4 @@ rhox_tokmar_captured_beast	false	def/Beasts_captured_001	false	Event		false		0.0
 rhox_lccp_turn_two_incident_thorgar	false	messenger	false	Event		true		0.0000
 rhox_lccp_turn_two_incident_engra	false	messenger	false	Event		true		0.0000
 rhox_lccp_turn_two_incident_arbaal	false	messenger	false	Event		true		0.0000
+rhox_lccp_turn_two_incident_duriath	false	messenger	false	Event		true		0.0000

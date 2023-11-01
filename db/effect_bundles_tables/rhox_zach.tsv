@@ -1,0 +1,20 @@
+key	localised_description	localised_title	bundle_target	priority	ui_icon	is_global_effect	show_in_3d_space	owner_only
+#effect_bundles_tables;4;db/effect_bundles_tables/rhox_zach								
+wh3_main_books_of_nagash_zach_reward_1		First Book of Nagash	faction	1	books_of_nagash.png	false	false	true
+wh3_main_books_of_nagash_zach_reward_2		Second Book of Nagash	faction	1	books_of_nagash.png	false	false	true
+wh3_main_books_of_nagash_zach_reward_3		Third Book of Nagash	faction	1	books_of_nagash.png	false	false	true
+wh3_main_books_of_nagash_zach_reward_3_army		Third Book of Nagash	force	1	books_of_nagash.png	false	false	true
+wh3_main_books_of_nagash_zach_reward_4		Fourth Book of Nagash	faction	1	books_of_nagash.png	false	false	true
+wh3_main_books_of_nagash_zach_reward_5		Fifth Book of Nagash	faction	1	books_of_nagash.png	false	false	true
+wh3_main_books_of_nagash_zach_reward_6		Sixth Book of Nagash	faction	1	books_of_nagash.png	false	false	true
+wh3_main_books_of_nagash_zach_reward_7		Seventh Book of Nagash	faction	1	books_of_nagash.png	false	false	true
+wh3_main_books_of_nagash_zach_reward_8		Eighth Book of Nagash	faction	1	books_of_nagash.png	false	false	true
+wh3_main_books_of_nagash_zach_studied_reward_1		First Book of Nagash	faction	1	books_of_nagash.png	false	false	true
+wh3_main_books_of_nagash_zach_studied_reward_2		Second Book of Nagash	faction	1	books_of_nagash.png	false	false	true
+wh3_main_books_of_nagash_zach_studied_reward_3		Third Book of Nagash	faction	1	books_of_nagash.png	false	false	true
+wh3_main_books_of_nagash_zach_studied_reward_3_army		Third Book of Nagash	force	1	books_of_nagash.png	false	false	true
+wh3_main_books_of_nagash_zach_studied_reward_4		Fourth Book of Nagash	faction	1	books_of_nagash.png	false	false	true
+wh3_main_books_of_nagash_zach_studied_reward_5		Fifth Book of Nagash	faction	1	books_of_nagash.png	false	false	true
+wh3_main_books_of_nagash_zach_studied_reward_6		Sixth Book of Nagash	faction	1	books_of_nagash.png	false	false	true
+wh3_main_books_of_nagash_zach_studied_reward_7		Seventh Book of Nagash	faction	1	books_of_nagash.png	false	false	true
+wh3_main_books_of_nagash_zach_studied_reward_8		Eighth Book of Nagash	faction	1	books_of_nagash.png	false	false	true
