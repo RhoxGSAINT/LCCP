@@ -15,3 +15,9 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_rhobb	dwf_all_units_characters	false
 			hkrul_rhobb	dwf_characters	false
 			hkrul_rhobb	dwf_thane	false
+			wh_dlc06_dwf_art_bolt_thrower_0	hkrul_dwarf_artillery	false
+			wh_dlc06_dwf_art_gob_lobber_0	hkrul_dwarf_artillery	false
+			wh_main_dwf_art_cannon	hkrul_dwarf_artillery	false
+			wh_main_dwf_art_flame_cannon	hkrul_dwarf_artillery	false
+			wh_main_dwf_art_grudge_thrower	hkrul_dwarf_artillery	false
+			wh_main_dwf_art_organ_gun	hkrul_dwarf_artillery	false

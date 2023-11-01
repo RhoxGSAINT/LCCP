@@ -46,7 +46,6 @@ hkrul_arbaal_ruiner	item_ability.png	300	item_ability.png	battle	true
 hkrul_arbaal_hound_flanker	devastating_flanker.png	461	devastating_flanker.png	battle	true
 rhox_hrothyogg_mercenary_chance	effect_bundle_hroth.png	461	effect_bundle_hroth.png	battle	true
 rhox_hrothyogg_maneater_recruitment_cost	treasury.png	6	treasury.png	campaign	false
-rhox_hrothyogg_effect_force_stat_unit_mass_percentage_mod_maneater	mass.png	430	mass.png	battle	true
 rhox_sceolan_office_woodelf_elf_melee_attack	melee.png	431	melee.png	battle	true
 rhox_sceolan_office_woodelf_elf_melee_defence	defence.png	452	defence.png	battle	true
 rhox_sceolan_office_enable_bound_blizzard	magic_character.png	290	magic_character.png	battle	true
@@ -75,3 +74,5 @@ rhox_dolmance_harmony_in_excess	general_ability.png	300	general_ability.png	batt
 rhox_dolmance_effect_force_stat_melee_attack_sla_inf	melee.png	431	melee.png	battle	true
 rhox_dolmance_effect_force_stat_melee_defence_sla_inf	defence.png	451	defence.png	battle	true
 rhox_dolmance_peasant_frenzy	general_ability.png	600	general_ability.png	battle	true
+hkrul_hrothyogg_melee_maneaters	melee.png	431	melee.png	battle	true
+hkrul_burlok_ap_explosive	icon_stat_explosive_armour_piercing_damage_force.png	5	icon_stat_explosive_armour_piercing_damage_force.png	battle	true

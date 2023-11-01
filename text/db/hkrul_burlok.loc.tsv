@@ -21,3 +21,4 @@ unit_description_historical_texts_text_hkrul_burlok		false
 effects_description_hkrul_burlok_building_time_dwf_engineers	Construction time: %+n% for all Engineering chain buildings	true
 effects_description_hkrul_burlok_building_cost_dwf_engineers	Construction cost: %+n% for all Engineering chain buildings	true
 character_skill_node_sets_enc_title_skill_node_set_hkrul_burlok	Burlok Skills	false
+effects_description_hkrul_burlok_ap_explosive	Explosive missile damage: %+n% Artillery units	false
