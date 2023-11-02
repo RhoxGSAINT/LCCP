@@ -27,6 +27,8 @@ burlok.rituals_completed = 0
 burlok.ritual_prefix = "rhox_burlok_ritual_burlok_artifact_" -- any rituals beginning with this prefix will be considered a burlok artifact ritual.
 
 
+
+
 function burlok:initialise()
 	local burlok_interface = cm:get_faction(self.burlok_faction_key)
 	
@@ -163,7 +165,7 @@ function burlok:initialise()
 				cm:spawn_unique_agent(faction:command_queue_index(), "hkrul_shaz", true)
 			end
 			
-
+            burlok:ui_stuff()
 
 
 
@@ -208,11 +210,11 @@ function burlok:award_artifact_part(artifact_part_key, amount)
 		)
 		
 		--trigger event for artefact part being awarded
-		core:trigger_event("ScriptEventForgeArtefactPartReceived")
+		--core:trigger_event("ScriptEventForgeArtefactPartReceived")
 		
 		local artifact_part_pair_key = string.sub(artifact_part_key, 1, string.len(artifact_part_key) - 1)
 		if self.already_looted[artifact_part_pair_key .. "a"] and self.already_looted[artifact_part_pair_key .. "b"] then
-			core:trigger_event("ScriptEventForgeArtefactPair")
+-- 			--core:trigger_event("ScriptEventForgeArtefactPair")
 		end
 	end
 end
@@ -241,6 +243,59 @@ core:add_listener(
 			
     end,
     true
+);
+
+
+-----------------------UI stuff
+
+
+function burlok:ui_stuff()
+    local holder = find_uicomponent(core:get_ui_root(), "hud_campaign", "resources_bar_holder", "resources_bar", "rhox_burlok_topbar", "artifact_holder");
+    if not holder then
+        return
+    end
+    
+    local completed_num = burlok.rituals_completed
+    
+    if completed_num > 7 then
+        completed_num=7
+    end
+    
+    for i=1,completed_num do
+        local child = find_child_uicomponent_by_index(holder, i-1) --it starts from 0
+        if child then
+            child:SetState("filled")
+        end
+    end
+end
+
+
+
+cm:add_first_tick_callback(
+    function()
+        if cm:get_local_faction_name(true) == "cr_dwf_firebeards_excavators" then --ui things 
+            
+            local parent_ui = find_uicomponent(core:get_ui_root(), "hud_campaign", "resources_bar_holder", "resources_bar");
+            local result = core:get_or_create_component("rhox_burlok_topbar", "ui/campaign ui/rhox_burlok_topbar.twui.xml", parent_ui)
+            burlok:ui_stuff()
+            core:add_listener(
+                "rhox_burlok_artifact_click",
+                "ComponentLClickUp",
+                function(context)
+                    return string.match(context.string, "rhox_burlok_vault_progression_button")
+                end,
+                function(context)
+                    --crafting_panel_close:SimulateLClick()
+                    local craft_button = find_uicomponent(core:get_ui_root(), "hud_campaign", "faction_buttons_docker", "button_mortuary_cult");
+                    if not craft_button then
+                        return
+                    end
+                    craft_button:SimulateLClick()
+                end,
+                true
+            )
+        end
+    end
 );
 
 
