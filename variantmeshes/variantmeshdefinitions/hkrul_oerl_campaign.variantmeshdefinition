@@ -1,6 +1,6 @@
 <VARIANT_MESH>
 	<SLOT name="body" >
-		<VARIANT_MESH model="variantmeshes\wh_variantmodels\character\beorgunit\oerl\oerl.wsmodel" >
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\character\beorgunit\oerl\oerlcamp.wsmodel" >
 			<META_DATA>audio_armour_type:leather</META_DATA>			<META_DATA>audio_entity_type:wh3_pro11_chs_harald_hammerstorm_LH</META_DATA></VARIANT_MESH>
     </SLOT>
 	<SLOT name="weapon_1" attach_point="be_prop_0" />
