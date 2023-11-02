@@ -2,5 +2,7 @@ effect	icon	priority	icon_negative	category	is_positive_value_good
 #effects_tables;0;db/effects_tables/hkrul_sceolan					
 hkrul_enable_immortality		0		campaign	true
 hkrul_spew_bombard	item_ability.png	300	item_ability.png	battle	true
+hkrul_sceolan_ranger	item_ability.png	300	item_ability.png	battle	true
+hkrul_sceolan_blast	item_ability.png	300	item_ability.png	battle	true
 hkrul_spew_spoiled	item_ability.png	300	item_ability.png	battle	true
 hkrul_spew_riders	item_ability.png	300	item_ability.png	battle	true

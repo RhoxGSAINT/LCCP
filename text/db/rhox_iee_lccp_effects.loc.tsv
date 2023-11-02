@@ -21,7 +21,7 @@ effects_description_rhox_hrothyogg_building_destoryed_if_not_alliance_dummy	Cont
 effects_description_rhox_hrothyogg_effect_force_stat_melee_attack_maneaters	Melee attack: %+n for Maneaters units	false
 effects_description_rhox_hrothyogg_effect_force_stat_melee_defence_maneaters	Melee defence: %+n for Maneaters units	false
 effects_description_rhox_dolmance_devotee_dummy	Does not have access to the chapel buildings but instead has access to Slaanesh sorcerers, pleasurable acts and replenishment via captives	false
-effects_description_rhox_dolmance_wine_dummy	Wine producing buildings give special global bonuses	false
+effects_description_rhox_dolmance_wine_dummy	Wine producing buildings provide unique global bonuses	false
 effects_description_rhox_sceolan_embrace_cold_dummy	Embrace the Cold: Recieves bonusses for entering regions with a frozen climate and magical forests.	false
 effects_description_rhox_sceolan_ice_heart_army_ability	Army ability: "Heart of Winter"	false
 effects_description_rhox_sceolan_effect_skill_weapon_damage_increase_wef_wardancers_wildwood_rangers	Weapon strength: %+n% for Wardancers, Bladesingers and Wildwood Rangers units	false
@@ -53,7 +53,7 @@ effects_description_rhox_duriath_stat_missile_block_chance_def_corsair	Missile b
 effects_description_rhox_duriath_stat_charge_bonus_def_corsair	Charge Bonus: %+n% for Black Ark Corsair units	false
 effects_description_rhox_duriath_devastating_flanker_bonus_def_corsair	Attribute: Devastating Flanker for Black Ark Corsair units	false
 effects_description_rhox_duriath_effect_army_ability_enable_pour_everything	Army Ability: "Pour Everything"	false
-effects_description_rhox_karitamen_god_effect_dummy	Karitamen and all generic Tomb King lords have access to the Empowered 'Phakth the God of the Sky and Justice' skill	false
+effects_description_rhox_karitamen_god_effect_dummy	All [[img:icon_general]][[/img]]Lords have access to the Empowered 'Phakth the God of the Sky and Justice' skill	false
 effects_description_rhox_karitamen_effect_force_stat_melee_attack_carrion	Melee Attack: %+n for Carrion units	false
 effects_description_rhox_karitamen_effect_force_stat_charge_bonus_add_carrion	Charge Bonus: %+n for Carrion units	false
 effects_description_rhox_karitamen_effect_physical_resist_carrion	Physical resistance: %+n% for Carrion units	false
