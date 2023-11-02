@@ -3,3 +3,6 @@ agent_subtype	ancillary	rank	instant	is_quest_battle
 hkrul_zach	hkrul_zach_holz	9	true	false
 hkrul_karitamen	hkrul_karitamen_sword	10	false	true
 hkrul_karitamen	hkrul_karitamen_mask	20	false	true
+hkrul_burlok	hkrul_burlok_arm	15	true	false
+hkrul_burlok	hkrul_burlok_armour	11	true	false
+hkrul_burlok	hkrul_burlok_hammer	7	true	false
