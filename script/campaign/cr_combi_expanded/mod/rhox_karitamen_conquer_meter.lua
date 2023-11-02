@@ -34,17 +34,20 @@ local function rhox_karitamen_set_effects()
 		end
 	end
 	
+	local karitamen_effect_bundle = cm:create_new_custom_effect_bundle("rhox_karitamen_hidden_effect_bundle")
+	
 	if full_control then
         power = power+9
 		cm:set_script_state("rhox_karitamen_complete_bonus", 9)--we can't divide 100 by 13 so add another 7*13= 91 complete bonus 9 it is set to 9 when you have collected everything and 0 otherwise
+		karitamen_effect_bundle:add_effect("rhox_karitamen_effect_army_ability_enable_legacy_of_conquest", "faction_to_force_own", 1)
 	else
 		cm:set_script_state("rhox_karitamen_complete_bonus", 0)--now it will not show the full effect
 	end
 
-    local karitamen_effect_bundle = cm:create_new_custom_effect_bundle("rhox_karitamen_hidden_effect_bundle")
+    
 
     karitamen_effect_bundle:add_effect("wh_main_effect_force_stat_weapon_strength", "faction_to_force_own", power/4)
-	--TODO add some ability effect
+	
     karitamen_effect_bundle:set_duration(0)
 
     if faction:has_effect_bundle(karitamen_effect_bundle:key()) then
