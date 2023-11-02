@@ -8,9 +8,7 @@
 		<VARIANT_MESH model="variantmeshes\wh_variantmodels\character\thorgar\axe1.wsmodel" >
 			<META_DATA>audio_melee_weapon_type:mace</META_DATA></VARIANT_MESH>
 	</SLOT>
-	<SLOT name="weapon_3" attach_point="be_prop_2" >
-		<VARIANT_MESH model="variantmeshes\wh_variantmodels\character\thorgar\flail2.rigid_model_v2" ></VARIANT_MESH>
-	</SLOT>
+	<SLOT name="weapon_3" attach_point="be_prop_2" />
 	<SLOT name="weapon_4" attach_point="be_prop_3" />
 	<SLOT name="weapon_5" attach_point="be_prop_4" />
 	<SLOT name="weapon_6" attach_point="be_prop_5" />
