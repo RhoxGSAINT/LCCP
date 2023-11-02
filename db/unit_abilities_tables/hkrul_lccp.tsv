@@ -10,3 +10,5 @@ hkrul_shaz_stout	true	hkrul_shaz_stout		wh_type_area_of_augments		wh_main_anc_gr
 hkrul_thulgrim_time	true	hkrul_thulgrim_time		wh_type_augment		wh_main_anc_group_rare	true	false	active		false
 hkrul_rhobb_axe	true	hkrul_rhobb_axe		wh_type_augment		wh_main_anc_group_rare	true	false	active		false
 hkrul_slaurith_blood	true	hkrul_slaurith_army		wh_type_augment		wh_main_anc_group_rare	true	false	passive		false
+hkrul_burlok_hammer	true	hkrul_burlok_hammer		wh_type_explosion		wh_main_anc_group_rare	true	false	active		false
+hkrul_burlok_arm	true	hkrul_burlok_arm		wh_type_augment		wh_main_anc_group_rare	true	false	active		false
