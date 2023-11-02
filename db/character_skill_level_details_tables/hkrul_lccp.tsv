@@ -2,6 +2,9 @@ faction_key	campaign_key	level	skill_key	subculture_key	image_path	unlocked_at_r
 #character_skill_level_details_tables;1;db/character_skill_level_details_tables/hkrul_lccp						
 		1	hkrul_hroth_special_0_1		x	12
 		1	hkrul_burlok_special_0_1		x	12
+		1	hkrul_burlok_arm		x	4
+		1	hkrul_burlok_armour		x	9
+		1	hkrul_burlok_hammer		x	14
 		1	hkrul_hroth_special_1_0		x	9
 		1	hkrul_burlok_special_1_0		x	9
 		1	hkrul_hrothyogg_crusher		x	0
