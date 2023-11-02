@@ -30,4 +30,11 @@ ancillaries_onscreen_name_hkrul_burlok_armour	Damminsson's Gromril Armour	false
 ancillaries_onscreen_name_hkrul_burlok_hammer	Burlok's Hammer	false
 ancillaries_colour_text_hkrul_burlok_arm	Burlok's Ingenious Offensive New-matic Integrated Constrictor Arm (B.I.O.N.I.C.) was constructed by Burlok himself to replace his lost arm and is extremely strong, making him a powerful force on the battlefield.	false
 ancillaries_colour_text_hkrul_burlok_armour	Burlok wears heavy gromril armour, engraved with the Rune of Stone and the Rune of Iron.	false
-ancillaries_colour_text_hkrul_burlok_hammer	In battle Burlok wields an ornate, elaborate and deadly version of a craftsman's hammer, engraved with the Master Rune of Swiftness.	false
+ancillaries_colour_text_hkrul_burlok_hammer	In battle Burlok wields an ornate, elaborate and deadly version of a craftsman's hammer, engraved with the Master Rune of Swiftness. It was obtained on one of Burlok's many expeditions, this one to far reaches of the Northern holds. It is said to hold properties that carry the essence of frost. 	false
+unit_abilities_tooltip_text_hkrul_burlok_hammer	In battle Burlok wields an ornate, elaborate and deadly version of a craftsman's hammer, engraved with the Master Rune of Swiftness.	true
+unit_abilities_onscreen_name_hkrul_burlok_hammer	Burlok's Hammer	true
+effects_description_hkrul_burlok_hammer	Ability: "Burlok's Hammer''	false
+unit_abilities_tooltip_text_hkrul_burlok_arm	Burlok's Ingenious Offensive New-matic Integrated Constrictor Arm (B.I.O.N.I.C.) was constructed by Burlok himself to replace his lost arm and is extremely strong, making him a powerful force on the battlefield.	true
+unit_abilities_onscreen_name_hkrul_burlok_arm	B.I.O.N.I.C Arm	true
+effects_description_hkrul_burlok_arm	Ability: "B.I.O.N.I.C Arm''	false
+effects_description_hkrul_burlok_engineer_ms	Missile Damage: %+n% for Master Engineers	false

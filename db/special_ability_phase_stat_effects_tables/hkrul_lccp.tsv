@@ -9,5 +9,7 @@ hkrul_rhobb_axe	scalar_splash_attack_power	1.5000	mult
 hkrul_rhobb_axe	stat_bonus_vs_infantry	25.0000	add
 hkrul_arbaal_ruiner	stat_melee_damage_ap	1.3500	mult
 hkrul_arbaal_ruiner	stat_melee_damage_base	1.3500	mult
-hkrul_slaurith_blood	stat_shield_armour	15.0000	add
-hkrul_slaurith_blood	stat_mass	1.3000	mult
+hkrul_slaurith_blood	stat_melee_damage_ap	1.2000	mult
+hkrul_slaurith_blood	stat_charge_bonus	15.0000	add
+hkrul_burlok_arm	stat_melee_damage_ap	1.3000	mult
+hkrul_burlok_arm	scalar_splash_attack_power	1.6000	mult

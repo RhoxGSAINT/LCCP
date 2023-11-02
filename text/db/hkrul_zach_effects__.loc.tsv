@@ -7,3 +7,6 @@ effects_description_hkrul_zach_sword	Ability: "Helmgart's Brand''	true
 effects_description_hkrul_zach_mount	Mount: "Barded Warhorse''	true
 effects_description_hkrul_zach_mount_2	Mount: "Imperial Pegasus''	true
 effects_description_hkrul_zach_mount_3	Mount: "Imperial Griffon''	true
+effects_description_hkrul_zach_skeleton_ma	Melee Attack: %+n for Skeleton infantry units	false
+effects_description_hkrul_zach_skeleton_md	Melee Defence: %+n for Skeleton infantry units	false
+effects_description_hkrul_zacharias_faction_dummy	Zacharias is able to collect the Books of Nagash while on his journey for Necromantic lore	false

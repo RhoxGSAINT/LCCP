@@ -1,7 +1,6 @@
 key	campaign_key	character_skill_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
 #character_skill_nodes_tables;6;db/character_skill_nodes_tables/hkrul_zach									
 hkrul_skill_node_zach_misc_01		hkrul_zach_special_0_1		0	27		0	0	true
-hkrul_skill_node_zach_misc_02		hkrul_zach_special_0_2		0	28		0	0	true
 hkrul_skill_node_zach_unique_0		hkrul_zach_special_1_0		1	0		0	0	true
 hkrul_skill_node_zach_unique_1		hkrul_zach_special_1_1		1	1		0	0	true
 hkrul_skill_node_zach_unique_2		hkrul_zach_special_1_2		1	2		0	0	true

@@ -6,3 +6,6 @@ unit_abilities_tooltip_text_hkrul_zach_pal	Placeholder Text	true
 unit_abilities_onscreen_name_hkrul_zach_pal	Fortress Wardens	true
 unit_abilities_tooltip_text_hkrul_zach_sword	Placeholder Text	true
 unit_abilities_onscreen_name_hkrul_zach_sword	Helmgart's Brand	true
+unit_abilities_tooltip_text_hkrul_zach_heart	Zacharias hears the soft beating of any mortal heart from miles away, eagerly sucking the life essence from it's core.	true
+unit_abilities_onscreen_name_hkrul_zach_heart	Sycophant of Life	true
+effects_description_hkrul_zach_heart	Ability: "Sycophant of Life"	false
