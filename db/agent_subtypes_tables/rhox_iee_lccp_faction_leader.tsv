@@ -7,7 +7,6 @@ hkrul_zach	false	true		hkrul_zach	wh_main_vo_actor_Vampire_MasterNecromancer	tru
 hef_calith_torinubar	false	true		hef_calith_torinubar	wh2_main_vo_actor_High_Elves_Loremasters_of_Hoeth	true	-1	false	true	false	false	legendary_lords			false	true	cannot_be_saved_loaded		false	true	1100
 hkrul_orghotts	false	false		hkrul_spew	wh3_dlc20_vo_actor_Nurgle_Sorcerer_Lord_of_Nurgle	true	-1	false	true	false	false	legendary_lords			false	true	cannot_be_saved_loaded		false	true	2700
 hkrul_hrothyogg	false	false		hkrul_hrothyogg	wh3_main_vo_actor_Ogres_Tyrant	true	-1	false	true	false	false	legendary_lords			false	true	cannot_be_saved_loaded	wh3_main_vo_culture_Ogres	false	true	1350
-hkrul_aelfric	false	false		hkrul_aelfric	wh_dlc08_vo_actor_Norsca_Marauder_Chieftan	true	-1	false	true	false	false	legendary_lords			false	true	cannot_be_saved_loaded		false	true	700
 hkrul_burlok	false	false		hkrul_burlok	wh_main_vo_actor_Dwarf_Lord	true	1	false	true	false	false	legendary_lords		names_dwf_dwarfs	false	true	cannot_be_saved_loaded		false	true	1200
 hkrul_dolmance	false	false		hkrul_dolmance	wh_main_vo_actor_Bretonnian_Lord	true	-1	false	true	false	false	legendary_lords			false	true	cannot_be_saved_loaded		false	true	1100
 hkrul_thorgar	false	false		hkrul_thorgar	wh_dlc08_vo_actor_Norsca_Marauder_Chieftan	true	-1	false	true	false	false	legendary_lords			false	true	cannot_be_saved_loaded		false	true	1100
@@ -20,3 +19,4 @@ hkrul_karitamen	false	true		hkrul_karitamen	wh2_dlc09_vo_actor_Tomb_Kings_Khatep
 hkrul_duriath	false	false		hkrul_duriath	wh2_main_vo_actor_Dark_Elves_Dreadlord	true	-1	false	true	false	false	legendary_lords			false	true	cannot_be_saved_loaded		false	true	850
 hkrul_beorg	false	false		hkrul_beorg	wh_dlc08_vo_actor_Norsca_Marauder_Chieftan	true	-1	false	true	false	false	legendary_lords			false	true	cannot_be_saved_loaded		false	true	1100
 hkrul_beorg_bear	false	false		hkrul_beorg_bear	wh_dlc08_vo_actor_Norsca_Marauder_Chieftan	true	-1	false	true	false	false	legendary_lords			false	true	cannot_be_saved_loaded		false	true	1100
+hkrul_aelfric	false	false		hkrul_aelfric	wh_main_vo_actor_Chaos_Lord	true	-1	false	true	false	false	legendary_lords			false	true	cannot_be_loaded_in_campaign		false	true	1100

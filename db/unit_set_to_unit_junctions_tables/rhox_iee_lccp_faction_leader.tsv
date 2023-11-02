@@ -49,3 +49,4 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_beorg	nor_all	false
 			hkrul_beorg_bear	all_non_chs	false
 			hkrul_beorg_bear	nor_all	false
+			hkrul_aelfric	all_non_chs	false
