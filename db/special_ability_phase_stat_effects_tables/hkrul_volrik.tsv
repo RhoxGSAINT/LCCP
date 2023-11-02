@@ -3,4 +3,4 @@ phase	stat	value	how
 hkrul_volrik_pal	stat_damage_reflection	8.0000	add
 hkrul_volrik_claw	stat_melee_damage_base	1.3500	mult
 hkrul_volrik_claw	stat_resistance_physical	1.3500	mult
-hkrul_volrik_blessed	stat_resistance_magic	1.2000	mult
+hkrul_volrik_blessed	stat_resistance_magic	1.2500	mult

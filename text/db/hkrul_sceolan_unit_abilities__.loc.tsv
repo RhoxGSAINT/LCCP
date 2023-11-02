@@ -6,3 +6,9 @@ unit_abilities_tooltip_text_hkrul_sceolan_pal	Placeholder Text	true
 unit_abilities_onscreen_name_hkrul_sceolan_pal	Fortress Wardens	true
 unit_abilities_tooltip_text_hkrul_sceolan_sword	Placeholder Text	true
 unit_abilities_onscreen_name_hkrul_sceolan_sword	Helmgart's Brand	true
+unit_abilities_tooltip_text_hkrul_sceolan_ranger	Hardened by cold and frost, the Atylwyth Rangers are considered amongst the fiercest.	true
+unit_abilities_onscreen_name_hkrul_sceolan_ranger	Atylwyth's Rangers	true
+effects_description_hkrul_sceolan_ranger	Ability: "Atylwyth's Rangers'' for Wood Elf missile units	false
+unit_abilities_tooltip_text_hkrul_sceolan_blast	Sceolan slams his enchanted frozen hooked blade into the ground, causing spikes of frost to burst up.	true
+unit_abilities_onscreen_name_hkrul_sceolan_blast	Frozen Fury	true
+effects_description_hkrul_sceolan_blast	Ability: "Frozen Fury"	false
