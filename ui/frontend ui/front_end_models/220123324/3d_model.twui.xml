@@ -97,7 +97,7 @@
                         num_anims="1"
                         skeleton_type="humanoid01">
                         <animation_paths>
-                            <path value="animations\battle\humanoid01\sword_and_pistol\stand\hu1_swp_stand_idle_01.anim"/>
+                            <path value="animations\campaign\database\bin\cam_hu1_alphonse_stand_idle_01.anim"/>
                         </animation_paths>
                     </ComponentModel>
                 </model_list>
