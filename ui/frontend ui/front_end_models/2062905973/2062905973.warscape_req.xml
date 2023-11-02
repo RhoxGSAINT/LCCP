@@ -2,5 +2,5 @@
 <warscape_requirements
 	version="1">
 	<model
-		filepath="VariantMeshes/VariantMeshDefinitions/hkrul_thorgar.VariantMeshDefinition"/>
+		filepath="VariantMeshes/VariantMeshDefinitions/hkrul_thorgar_campaign.VariantMeshDefinition"/>
 </warscape_requirements>
