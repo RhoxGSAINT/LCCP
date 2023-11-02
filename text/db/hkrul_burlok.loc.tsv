@@ -25,3 +25,9 @@ effects_description_hkrul_burlok_ap_explosive	Explosive missile damage: %+n% Art
 effects_description_hkrul_burlok_warm	Ability: "Slow Starter''	false
 unit_abilities_tooltip_text_hkrul_burlok_warm	''You know how 't is, some engines need some time to warm up and truly get the clockwork ticking.''	false
 unit_abilities_onscreen_name_hkrul_burlok_warm	Slow Starter	false
+ancillaries_onscreen_name_hkrul_burlok_arm	B.I.O.N.I.C. Arm	false
+ancillaries_onscreen_name_hkrul_burlok_armour	Damminsson's Gromril Armour	false
+ancillaries_onscreen_name_hkrul_burlok_hammer	Burlok's Hammer	false
+ancillaries_colour_text_hkrul_burlok_arm	Burlok's Ingenious Offensive New-matic Integrated Constrictor Arm (B.I.O.N.I.C.) was constructed by Burlok himself to replace his lost arm and is extremely strong, making him a powerful force on the battlefield.	false
+ancillaries_colour_text_hkrul_burlok_armour	Burlok wears heavy gromril armour, engraved with the Rune of Stone and the Rune of Iron.	false
+ancillaries_colour_text_hkrul_burlok_hammer	In battle Burlok wields an ornate, elaborate and deadly version of a craftsman's hammer, engraved with the Master Rune of Swiftness.	false

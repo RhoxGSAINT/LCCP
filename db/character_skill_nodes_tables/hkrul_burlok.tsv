@@ -49,3 +49,6 @@ hkrul_skill_node_burlok_unique_09		wh2_dlc10_skill_dwf_generic_oath_of_forging		
 hkrul_skill_node_burlok_unique_10		wh_main_skill_dwf_lord_battle_lord_of_the_deeps		0	2		0	0	true
 hkrul_skill_node_burlok_unique_05		wh_main_skill_all_lord_battle_brass-lunged		0	4		0	0	true
 hkrul_skill_node_burlok_unique_06		wh_main_skill_dwf_lord_battle_obstinacy		0	3		0	0	true
+hkrul_burlok_arm		hkrul_burlok_arm		6	25		0	0	true
+hkrul_burlok_armour		hkrul_burlok_armour		6	27		0	0	true
+hkrul_burlok_hammer		hkrul_burlok_hammer		6	26		0	0	true
