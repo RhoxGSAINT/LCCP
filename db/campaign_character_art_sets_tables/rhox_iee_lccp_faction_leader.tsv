@@ -2,21 +2,21 @@ art_set_id	agent_type	culture	subculture	faction	is_custom	is_male	agent_subtype
 #campaign_character_art_sets_tables;6;db/campaign_character_art_sets_tables/rhox_iee_lccp_faction_leader								
 hkrul_sceolan	general				false	true	hkrul_sceolan	1.0500
 hkrul_valbrand	general				false	true	hkrul_valbrand	1.1900
-hkrul_volrik	general				false	true	hkrul_volrik	1.1100
-hkrul_zach	general				false	true	hkrul_zach	1.0800
+hkrul_volrik	general				false	true	hkrul_volrik	1.1300
+hkrul_zach	general				false	true	hkrul_zach	1.1200
 hef_calith_torinubar	general				false	true	hef_calith_torinubar	1.4000
-hkrul_orghotts	general				false	true	hkrul_orghotts	1.0500
+hkrul_orghotts	general				false	true	hkrul_orghotts	1.0700
 hkrul_hrothyogg	general				false	true	hkrul_hrothyogg	0.9000
-hkrul_aelfric	general				false	true	hkrul_aelfric	1.4000
 hkrul_burlok	general				false	true	hkrul_burlok	1.1400
 hkrul_dolmance	general				false	true	hkrul_dolmance	1.1400
 hkrul_thorgar	general				false	true	hkrul_thorgar	1.1200
 hkrul_thorgar_daemon_prince	general				false	true	hkrul_thorgar_daemon_prince	1.1000
 hkrul_slaurith	general				false	true	hkrul_slaurith	1.1500
-hkrul_arbaal	general				false	true	hkrul_arbaal	1.1200
-hkrul_engra	general				false	true	hkrul_engra	1.1400
+hkrul_arbaal	general				false	true	hkrul_arbaal	1.1300
+hkrul_engra	general				false	true	hkrul_engra	1.1500
 hkrul_vroth	general				false	true	hkrul_vroth	1.1600
 hkrul_karitamen	general				false	true	hkrul_karitamen	1.1000
 hkrul_duriath	general				false	true	hkrul_duriath	1.1300
 hkrul_beorg	general				false	true	hkrul_beorg	1.1400
 hkrul_beorg_bear	general				false	true	hkrul_beorg_bear	1.1300
+hkrul_aelfric	general				false	true	hkrul_aelfric	1.1400

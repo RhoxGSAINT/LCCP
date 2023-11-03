@@ -1,8 +1,6 @@
 key	text	tooltip
 #Loc;1;text/db/hkrul_beorg_effects__.loc		
 effects_description_hkrul_beorg_fang	Ability: "Bear-Fang Talisman''	true
-effects_description_hkrul_beorg_pal	Ability: "Fortress Wardens''	true
-effects_description_hkrul_beorg_nordland_damage	Weapon Strength: %+n% for Greatsword units	true
 effects_description_hkrul_beorg_rally	Ability: "Beorg's Skewers''	true
 effects_description_hkrul_beorg_claw	Ability: "Bran's Fury'' when in Bear form	true
 effects_description_hkrul_beorg_bear_form	Ability: "Spirit of the Great Bear''	true
@@ -14,4 +12,3 @@ effects_description_hkrul_beorg_bear_charge	Charge bonus: %+n when in Bear form	
 effects_description_hkrul_beorg_bear_defence	Melee Defence: %+n for Bear units	false
 effects_description_hkrul_beorg_bear_flanker	Attribute: Devastating Flanker for Bear units	false
 effects_description_hkrul_beorg_missile_reload	Reload time reduction: %+n% for Marauder Hunter units	false
-effects_description_hkrul_beorg_sword		false
