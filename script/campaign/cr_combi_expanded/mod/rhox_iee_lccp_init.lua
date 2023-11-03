@@ -1,3 +1,11 @@
+RHOX_NORSCA_SPAWN_LOCATIONS = {	-- Startup config of spawn locations. On a new game, this is copied into the runtime NORSCA_AVAILABLE_SPAWN_LOCATIONS if any of the LCCP Norsca is human
+	{1146, 792},
+	{1198, 850},
+	{1555, 793},
+	{1463, 707},
+}
+
+
 local norsca_ror_table={
     {"wh_dlc08_nor_art_hellcannon_battery", "wh_dlc08_nor_art_hellcannon_battery"},
     {"wh_pro04_nor_mon_war_mammoth_ror_0", "wh_pro04_nor_mon_war_mammoth_ror_0"},
@@ -344,6 +352,13 @@ local rhox_iee_list={
                 local transferred_region = cm:get_region("cr_combi_region_nine_graves")
                 local transferred_region_cqi = transferred_region:cqi()
                 cm:heal_garrison(transferred_region_cqi)
+                
+                cm:callback(
+                    function()
+                        NORSCA_AVAILABLE_SPAWN_LOCATIONS = table.copy(RHOX_NORSCA_SPAWN_LOCATIONS)
+                    end,
+                    5
+                )
             end
         end,
         first_tick = function(faction, faction_key) 
@@ -418,6 +433,15 @@ local rhox_iee_list={
                     {"wh3_main_kho_veh_skullcannon_0", "daemonic_summoning", 0, 0, 4}
             }
             rhox_add_warriors_units(cm:get_faction(faction_key), rhox_valbrand_gift_units);
+            
+            if faction:is_human() then
+                cm:callback(
+                    function()
+                        NORSCA_AVAILABLE_SPAWN_LOCATIONS = table.copy(RHOX_NORSCA_SPAWN_LOCATIONS)
+                    end,
+                    5
+                )
+            end
         end,
         first_tick = function(faction, faction_key) 
             rhox_valbrand_slaves:start_listeners()
@@ -473,6 +497,15 @@ local rhox_iee_list={
             }
             rhox_add_warriors_units(cm:get_faction(faction_key), rhox_volrik_gift_units);
             rhox_add_faction_pool_units(cm:get_faction(faction_key), rhox_volrik_faction_units);
+            
+            if faction:is_human() then
+                cm:callback(
+                    function()
+                        NORSCA_AVAILABLE_SPAWN_LOCATIONS = table.copy(RHOX_NORSCA_SPAWN_LOCATIONS)
+                    end,
+                    5
+                )
+            end
         end,
         first_tick = function(faction, faction_key) 
         end
@@ -727,6 +760,12 @@ local rhox_iee_list={
                 transferred_region = cm:get_region("cr_combi_region_tong_war_monolith")
                 transferred_region_cqi = transferred_region:cqi()
                 cm:heal_garrison(transferred_region_cqi)
+                cm:callback(
+                    function()
+                        NORSCA_AVAILABLE_SPAWN_LOCATIONS = table.copy(RHOX_NORSCA_SPAWN_LOCATIONS)
+                    end,
+                    5
+                )
             end
         end,
         first_tick = function(faction, faction_key) 
