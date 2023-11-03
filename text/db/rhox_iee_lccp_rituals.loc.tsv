@@ -12,3 +12,5 @@ mortuary_cult_categories_craft_button_text_rhox_burlok_experiment	Experiment	fal
 mortuary_cult_categories_localised_button_description_rhox_burlok_experiment	[[col:yellow]]Experimental Study[[/col]]||Select any ingredient to reveal its location.\\n\\nTo retrieve ingredients, their locations must be occupied or controlled via military alliances. Once both ingredients have been collected it can be used to conduct experiements	false
 mortuary_cult_categories_localised_description_rhox_burlok_experiment	Experimental Study	false
 mortuary_cult_categories_localised_name_rhox_burlok_experiment	Artefact Vault	false
+rituals_description_rhox_arbaal_move_ritual	Arbaal unleashes his fury and slaughters his foes with reckless abandon. He gains a surge of energy and can move again on the campaign map. However, this also drains some of his bloodlust and reduces his favor with Khorne.	false
+rituals_display_name_rhox_arbaal_move_ritual	Bloodthirsty Rampage	false

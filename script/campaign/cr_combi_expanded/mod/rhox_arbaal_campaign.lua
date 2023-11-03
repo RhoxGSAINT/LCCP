@@ -91,3 +91,44 @@ core:add_listener(
     end,
     true
 );
+
+core:add_listener(
+	"rhox_arbaal_button_clicked",
+	"ComponentLClickUp",
+	function(context)
+        return context.string == "rhox_arbaal_shard_animation"
+	end,
+	function(context)
+        local faction = cm:get_local_faction(true)
+        local character_cqi = faction:faction_leader():command_queue_index()
+        
+        local resource_value = faction:pooled_resource_manager():resource("rhox_arbaal_resource"):value()
+        
+        if resource_value >= 100 then
+            CampaignUI.TriggerCampaignScriptEvent(character_cqi, "rhox_arbaal_perform_ritual")
+        end
+		
+		
+		
+	end,
+	true
+);
+
+
+
+core:add_listener(
+    "rhox_arbaal_perform_ritual",
+    "UITrigger",
+    function(context)
+        return context:trigger() == "rhox_arbaal_perform_ritual"
+    end,
+    function(context)
+        local str = context:trigger()
+        local character_cqi = context:faction_cqi() --it says faction but what we passed is character
+        cm:faction_add_pooled_resource("rhox_kho_destroyers_of_khorne", "rhox_arbaal_resource", "rituals", -50)
+        
+        local faction = cm:get_character_by_cqi(character_cqi):faction()
+        trigger_tiktaqto_rite(faction);
+    end,
+    true
+)
