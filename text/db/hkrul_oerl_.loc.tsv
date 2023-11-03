@@ -40,3 +40,4 @@ effects_description_hkrul_oerl_wolves_upkeep	Upkeep: %+n% for Skinwolf units	fal
 effects_description_hkrul_oerl_bearmen_armor	Armour: %+n for Bearmen of Urslo (Throwing Axes & Shields)	false
 unit_description_short_texts_text_hkrul_bearmen	The Bearmen of Urslo, also known as the Tribe of the Bear by those they kill, is a band of Norscan beserkers. They are led by Beorg Bearstruck, Son of Bran.	false
 land_units_onscreen_name_hkrul_bearmen	Bearmen of Urslo (Throwing Axes & Shields)	true
+unit_abilities_tooltip_text_hkrul_oerl_frenzy		false
