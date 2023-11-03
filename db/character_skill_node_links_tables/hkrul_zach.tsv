@@ -48,12 +48,10 @@ hkrul_skill_node_zach_magic1_02	hkrul_skill_node_zach_magic1_01	0	1	1	0.0000	0.0
 hkrul_skill_node_zach_magic1_03	hkrul_skill_node_zach_magic1_01	0	1	1	0.0000	0.0000	REQUIRED
 hkrul_skill_node_zach_magic1_04	hkrul_skill_node_zach_magic1_01	0	1	1	0.0000	0.0000	REQUIRED
 hkrul_skill_node_zach_magic1_05	hkrul_skill_node_zach_magic1_01	0	1	1	0.0000	0.0000	REQUIRED
-hkrul_skill_node_zach_magic1_06	hkrul_skill_node_zach_magic1_01	0	1	1	0.0000	0.0000	REQUIRED
 hkrul_skill_node_zach_magic1_07	hkrul_skill_node_zach_magic1_02	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
 hkrul_skill_node_zach_magic1_07	hkrul_skill_node_zach_magic1_03	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
 hkrul_skill_node_zach_magic1_07	hkrul_skill_node_zach_magic1_04	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
 hkrul_skill_node_zach_magic1_07	hkrul_skill_node_zach_magic1_05	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
-hkrul_skill_node_zach_magic1_07	hkrul_skill_node_zach_magic1_06	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
 hkrul_skill_node_zach_magic1_08	hkrul_skill_node_zach_magic1_07	0	1	1	0.0000	0.0000	REQUIRED
 hkrul_skill_node_zach_magic1_09	hkrul_skill_node_zach_magic1_07	0	1	1	0.0000	0.0000	REQUIRED
 hkrul_skill_node_zach_magic1_10	hkrul_skill_node_zach_magic1_07	0	1	1	0.0000	0.0000	REQUIRED

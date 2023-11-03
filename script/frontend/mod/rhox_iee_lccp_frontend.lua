@@ -49,7 +49,7 @@ core:add_ui_created_callback(
             
             mixer_change_lord_name("220123324", "hkrul_dolmance") 
             mixer_enable_custom_faction("220123324")
-            mixer_add_starting_unit_list_for_faction("rhox_brt_reveller_of_domance", {"wh_dlc07_brt_inf_spearmen_at_arms_1","wh3_dlc20_chs_cav_marauder_horsemen_msla_javelins","wh3_dlc20_chs_inf_chaos_marauders_msla","wh_main_brt_cav_mounted_yeomen_0"})
+            mixer_add_starting_unit_list_for_faction("rhox_brt_reveller_of_domance", {"wh_dlc07_brt_inf_spearmen_at_arms_1","wh_main_brt_cav_mounted_yeomen_1","wh3_dlc20_chs_inf_chaos_marauders_msla","wh_main_brt_cav_mounted_yeomen_0"})
             mixer_add_faction_to_major_faction_list("rhox_brt_reveller_of_domance")
             
             mixer_change_lord_name("2062905973", "hkrul_thorgar") 
