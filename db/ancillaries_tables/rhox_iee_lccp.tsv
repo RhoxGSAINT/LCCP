@@ -21,3 +21,6 @@ hkrul_karitamen_mask	wh_main_anc_enchanted_item	.	false	false	false	1	0	9999			f
 hkrul_burlok_arm	wh_main_anc_enchanted_item	.	false	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			200	0		false	false	false	all
 hkrul_burlok_armour	wh_main_anc_armour	.	false	false	false	1	0	9999			false	false	false	armour	16	30	30	50	true			200	0		false	false	false	all
 hkrul_burlok_hammer	wh_main_anc_weapon	.	false	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false	false	false	all
+rhox_burlok_infrno_frostplate	wh_main_anc_armour	.	false	false	false	1	0	9999			false	false	false	armour	16	30	30	50	true			200	0		false	false	false	all
+rhox_burlok_granite_gauntlet	wh_main_anc_enchanted_item	.	false	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			200	0		false	false	false	all
+rhox_burlok_leviathan_amulet	wh_main_anc_talisman	.	false	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			200	0		false	false	false	all
