@@ -125,10 +125,15 @@ core:add_listener(
     function(context)
         local str = context:trigger()
         local character_cqi = context:faction_cqi() --it says faction but what we passed is character
-        cm:faction_add_pooled_resource("rhox_kho_destroyers_of_khorne", "rhox_arbaal_resource", "rituals", -50)
+        cm:faction_add_pooled_resource(faction:name(), "rhox_arbaal_resource", "rituals", -50)
         
         local faction = cm:get_character_by_cqi(character_cqi):faction()
         trigger_tiktaqto_rite(faction);
+        
+        
+        local incident_key = "rhox_arbaal_used_button_ritual"
+        local incident_builder = cm:create_incident_builder(incident_key)
+        cm:launch_custom_incident_from_builder(incident_builder, faction)
     end,
     true
 )

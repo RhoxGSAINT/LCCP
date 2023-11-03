@@ -6,6 +6,7 @@ rhox_hrothyogg_mercenary_recieved	false	ogr/messenger	false	Event		false		0.0000
 rhox_hrothyogg_toll_collected	false	ogr/messenger	false	Event		false		0.0000
 rhox_hrothyogg_toll_gang	false	ogr/messenger	false	Event		false		0.0000
 rhox_tokmar_captured_beast	false	def/Beasts_captured_001	false	Event		false		0.0000
+rhox_arbaal_used_button_ritual	false	messenger	false	Event		false		0.0000
 rhox_lccp_turn_two_incident_thorgar	false	messenger	false	Event		true		0.0000
 rhox_lccp_turn_two_incident_engra	false	messenger	false	Event		true		0.0000
 rhox_lccp_turn_two_incident_arbaal	false	messenger	false	Event		true		0.0000
