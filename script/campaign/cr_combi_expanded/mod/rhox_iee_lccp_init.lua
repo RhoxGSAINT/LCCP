@@ -888,6 +888,11 @@ local rhox_iee_list={
 
 cm:add_first_tick_callback_new(
     function()
+        if cm:is_multiplayer() then
+            mixer_disable_starting_zoom = true
+        end
+    
+    
 		if not vfs.exists("script/frontend/mod/rhox_drukim_frontend.lua") then --have to make initial enemy for him
             rhox_iee_list["rhox_chs_the_deathswords"].enemy.x=1381
 			rhox_iee_list["rhox_chs_the_deathswords"].enemy.y=687
