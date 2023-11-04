@@ -1,0 +1,21 @@
+campaign_potential	base_value	random_roll_lower_bound	random_roll_median	random_roll_upper_bound
+#faction_potential_categories_tables;0;db/faction_potential_categories_tables/rhox_iee_lccp				
+cr_def_key_keepers_ie	125	0	25	50
+cr_nor_firebrand_slavers_ie	125	0	25	50
+cr_vmp_the_everliving_ie	125	0	25	50
+cr_brt_reveller_of_domance_ie	125	0	25	50
+cr_wef_far_away_forest_ie	125	0	25	50
+cr_kho_destroyers_of_khorne_ie	125	0	25	50
+cr_nor_khazags_ie	125	0	25	50
+cr_nor_ravenblessed_ie	125	0	25	50
+cr_chs_the_deathswords_ie	125	0	25	50
+cr_def_corsairs_of_spite	125	0	25	50
+cr_dwf_firebeards_excavators	125	0	25	50
+cr_hef_gate_guards	125	0	25	50
+cr_kho_servants_of_the_blood_nagas	125	0	25	50
+cr_ogr_deathtoll	125	0	25	50
+cr_nur_tide_of_pestilence	125	0	25	50
+cr_nor_tokmars	125	0	25	50
+cr_tmb_sons_of_ptra	125	0	25	50
+cr_brt_leofrics_fellowship	20	0	0	40
+cr_hef_tor_elithis	20	0	0	40
