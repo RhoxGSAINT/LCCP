@@ -6,7 +6,7 @@ RHOX_NORSCA_SPAWN_LOCATIONS = {	-- Startup config of spawn locations. On a new g
 }
 
 
-mixer_disable_starting_zoom= true--I don't like it
+--mixer_disable_starting_zoom= true--some say zoom is the cause of the MP desync disable it to do something
 
 local norsca_ror_table={
     {"wh_dlc08_nor_art_hellcannon_battery", "wh_dlc08_nor_art_hellcannon_battery"},
