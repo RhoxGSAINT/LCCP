@@ -6,6 +6,8 @@ RHOX_NORSCA_SPAWN_LOCATIONS = {	-- Startup config of spawn locations. On a new g
 }
 
 
+mixer_disable_starting_zoom= true--I don't like it
+
 local norsca_ror_table={
     {"wh_dlc08_nor_art_hellcannon_battery", "wh_dlc08_nor_art_hellcannon_battery"},
     {"wh_pro04_nor_mon_war_mammoth_ror_0", "wh_pro04_nor_mon_war_mammoth_ror_0"},
@@ -587,6 +589,22 @@ local rhox_iee_list={
             for i = 1, #kho_ror do
                 cm:add_unit_to_faction_mercenary_pool(faction, kho_ror[i], "renown", 1, 100, 1, 0.1, "", "", "", true, kho_ror[i])
             end
+            
+            local rhox_province_chaos_units={--dogs only as I don't know other thing's requirement
+                wh_main_chs_mon_chaos_warhounds_0= {1, 20, 1},
+                wh_main_chs_mon_chaos_warhounds_1= {0, 20, 1},
+            }
+
+
+            
+            local region_list = cm:model():world():region_manager():region_list()
+            for i=0,region_list:num_items()-1 do
+                local region= region_list:item_at(i)
+                for key, unit in pairs(rhox_province_chaos_units) do
+                    cm:add_unit_to_province_mercenary_pool(region, key, "raise_dead", unit[1], unit[2], unit[3], 1, "", "", faction_key, false, "wh3_dlc20_chs_province_pool")
+                end
+            end
+            
         end,
         first_tick = function(faction, faction_key) 
         end
