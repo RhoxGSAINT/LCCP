@@ -16,12 +16,6 @@ character_skills_localised_description_hkrul_thorgar_special_1_3	Placeholder Tex
 character_skills_localised_name_hkrul_thorgar_special_1_3	Furs of the Steppes	true
 character_skills_localised_description_hkrul_thorgar_special_0_2	Placeholder Text Placeholder Text	true
 character_skills_localised_name_hkrul_thorgar_special_0_2	The Khazag Tribe	true
-character_skills_localised_description_hkrul_thorgar_mount	Placeholder Text Placeholder Text	true
-character_skills_localised_name_hkrul_thorgar_mount	Barded Warhorse	true
-character_skills_localised_name_hkrul_thorgar_mount_2	Imperial Pegasus	false
-character_skills_localised_description_hkrul_thorgar_mount_2	Placeholder Text Placeholder Text	false
-character_skills_localised_name_hkrul_thorgar_mount_3	Imperial Griffon	false
-character_skills_localised_description_hkrul_thorgar_mount_3	Placeholder Text Placeholder Text	false
 character_skills_localised_description_hkrul_thorgar_special_1_4	Placeholder Text Placeholder Text	true
 character_skills_localised_name_hkrul_thorgar_special_1_4	Unnatural Carnivores	true
 ancillaries_colour_text_hkrul_thorgar_chariot	Marauder mobs are awarded even greater mobility when riding their crude chariots of bone and wood, lashed together with the guts and sinew of the vanquished.	false
@@ -30,3 +24,7 @@ character_skills_localised_description_hkrul_thorgar_chariot	Marauder mobs are a
 character_skills_localised_name_hkrul_thorgar_chariot	Marauder Chariot	false
 units_custom_battle_mounts_localised_description_hkrul_thorgarhkrul_thorgar_chariot	Marauder mobs are awarded even greater mobility when riding their crude chariots of bone and wood, lashed together with the guts and sinew of the vanquished.	false
 units_custom_battle_mounts_mount_name_hkrul_thorgarhkrul_thorgar_chariot	Marauder Chariot	false
+character_skills_localised_description_hkrul_thorgar_armour	This highly ornate suit of Chaos Armour shimmered with unnatural energies that distorted the position of the wearer so that an enemy's blows missed their mark	false
+character_skills_localised_name_hkrul_thorgar_armour	Armour of damnation	false
+character_skills_localised_description_hkrul_thorgar_ring	Filled with the warping power of Chaos, the Ring of Change could transform an attacker into a slavering Chaos Spawn.	false
+character_skills_localised_name_hkrul_thorgar_ring	Ring of Change 	false

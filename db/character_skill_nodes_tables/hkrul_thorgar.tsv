@@ -49,6 +49,8 @@ hkrul_skill_node_thorgar_misc_03		hkrul_thorgar_special_1_1		1	2		0	0	true
 hkrul_skill_node_thorgar_misc_02		hkrul_thorgar_special_1_0		1	1		0	0	true
 hkrul_skill_node_thorgar_misc_01		hkrul_thorgar_special_0_1		0	11		0	0	true
 hkrul_skill_node_thorgar_misc_08		hkrul_thorgar_special_0_2		0	12		0	0	true
-hkrul_skill_node_thorgark_misc_09		hkrul_thorgar_sword		6	20		0	0	true
+hkrul_skill_node_thorgark_misc_09		hkrul_thorgar_flail		6	20		0	0	true
 hkrul_skill_node_thorgark_misc_010		hkrul_thorgar_banner		6	21		0	0	true
-hkrul_skill_node_thorgark_misc_011		hkrul_thorgar_holz		6	22		0	0	true
+hkrul_skill_node_thorgark_misc_011		hkrul_thorgar_olaf		6	22		0	0	true
+hkrul_skill_node_thorgark_misc_012		hkrul_thorgar_armour		6	23		0	0	true
+hkrul_skill_node_thorgark_misc_013		hkrul_thorgar_ring		6	24		0	0	true
