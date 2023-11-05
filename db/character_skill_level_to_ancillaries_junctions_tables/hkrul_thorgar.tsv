@@ -1,5 +1,7 @@
 granted_ancillary	skill	level
 #character_skill_level_to_ancillaries_junctions_tables;1;db/character_skill_level_to_ancillaries_junctions_tables/hkrul_thorgar		
-hkrul_thorgar_holz	hkrul_thorgar_holz	1
-hkrul_thorgar_sword	hkrul_thorgar_sword	1
+hkrul_thorgar_olaf	hkrul_thorgar_olaf	1
+hkrul_thorgar_flail	hkrul_thorgar_flail	1
 hkrul_thorgar_chariot	hkrul_thorgar_chariot	1
+hkrul_thorgar_armour	hkrul_thorgar_armour	1
+hkrul_thorgar_ring	hkrul_thorgar_ring	1

@@ -214,6 +214,31 @@ core:add_listener(
 )
 
 
+
+cm:add_first_tick_callback(
+	function()
+        if cm:model():turn_number() < 3 then
+            core:add_listener(
+                "rhox_thorgar_olaf_RoundStart",
+                "FactionRoundStart",
+                function(context)
+                    return context:faction():is_human() and context:faction():name() =="rhox_nor_khazags" and cm:model():turn_number() == 2
+                end,
+                function(context)
+                    local faction_key = context:faction():name()
+                    local mm = mission_manager:new(faction_key, "rhox_thorgar_olaf_mission")
+                    mm:add_new_objective("DEFEAT_N_ARMIES_OF_FACTION");
+                    mm:add_condition("subculture wh3_main_sc_cth_cathay");
+                    mm:add_condition("total 5");
+                    mm:add_payload("add_ancillary_to_faction_pool{ancillary_key hkrul_thorgar_olaf;}");
+                    mm:trigger()
+                end,
+                false
+            )
+        end
+	end
+)
+
 		
 
 --[[

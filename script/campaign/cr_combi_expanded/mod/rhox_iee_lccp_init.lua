@@ -1,3 +1,13 @@
+RHOX_NORSCA_SPAWN_LOCATIONS = {	-- Startup config of spawn locations. On a new game, this is copied into the runtime NORSCA_AVAILABLE_SPAWN_LOCATIONS if any of the LCCP Norsca is human
+	{1146, 792},
+	{1198, 850},
+	{1555, 793},
+	{1463, 707},
+}
+
+
+--mixer_disable_starting_zoom= true--some say zoom is the cause of the MP desync disable it to do something
+
 local norsca_ror_table={
     {"wh_dlc08_nor_art_hellcannon_battery", "wh_dlc08_nor_art_hellcannon_battery"},
     {"wh_pro04_nor_mon_war_mammoth_ror_0", "wh_pro04_nor_mon_war_mammoth_ror_0"},
@@ -344,6 +354,13 @@ local rhox_iee_list={
                 local transferred_region = cm:get_region("cr_combi_region_nine_graves")
                 local transferred_region_cqi = transferred_region:cqi()
                 cm:heal_garrison(transferred_region_cqi)
+                
+                cm:callback(
+                    function()
+                        NORSCA_AVAILABLE_SPAWN_LOCATIONS = table.copy(RHOX_NORSCA_SPAWN_LOCATIONS)
+                    end,
+                    5
+                )
             end
         end,
         first_tick = function(faction, faction_key) 
@@ -418,6 +435,15 @@ local rhox_iee_list={
                     {"wh3_main_kho_veh_skullcannon_0", "daemonic_summoning", 0, 0, 4}
             }
             rhox_add_warriors_units(cm:get_faction(faction_key), rhox_valbrand_gift_units);
+            
+            if faction:is_human() then
+                cm:callback(
+                    function()
+                        NORSCA_AVAILABLE_SPAWN_LOCATIONS = table.copy(RHOX_NORSCA_SPAWN_LOCATIONS)
+                    end,
+                    5
+                )
+            end
         end,
         first_tick = function(faction, faction_key) 
             rhox_valbrand_slaves:start_listeners()
@@ -473,6 +499,15 @@ local rhox_iee_list={
             }
             rhox_add_warriors_units(cm:get_faction(faction_key), rhox_volrik_gift_units);
             rhox_add_faction_pool_units(cm:get_faction(faction_key), rhox_volrik_faction_units);
+            
+            if faction:is_human() then
+                cm:callback(
+                    function()
+                        NORSCA_AVAILABLE_SPAWN_LOCATIONS = table.copy(RHOX_NORSCA_SPAWN_LOCATIONS)
+                    end,
+                    5
+                )
+            end
         end,
         first_tick = function(faction, faction_key) 
         end
@@ -554,6 +589,22 @@ local rhox_iee_list={
             for i = 1, #kho_ror do
                 cm:add_unit_to_faction_mercenary_pool(faction, kho_ror[i], "renown", 1, 100, 1, 0.1, "", "", "", true, kho_ror[i])
             end
+            
+            local rhox_province_chaos_units={--dogs only as I don't know other thing's requirement
+                wh_main_chs_mon_chaos_warhounds_0= {1, 20, 1},
+                wh_main_chs_mon_chaos_warhounds_1= {0, 20, 1},
+            }
+
+
+            
+            local region_list = cm:model():world():region_manager():region_list()
+            for i=0,region_list:num_items()-1 do
+                local region= region_list:item_at(i)
+                for key, unit in pairs(rhox_province_chaos_units) do
+                    cm:add_unit_to_province_mercenary_pool(region, key, "raise_dead", unit[1], unit[2], unit[3], 1, "", "", faction_key, false, "wh3_dlc20_chs_province_pool")
+                end
+            end
+            
         end,
         first_tick = function(faction, faction_key) 
         end
@@ -727,6 +778,12 @@ local rhox_iee_list={
                 transferred_region = cm:get_region("cr_combi_region_tong_war_monolith")
                 transferred_region_cqi = transferred_region:cqi()
                 cm:heal_garrison(transferred_region_cqi)
+                cm:callback(
+                    function()
+                        NORSCA_AVAILABLE_SPAWN_LOCATIONS = table.copy(RHOX_NORSCA_SPAWN_LOCATIONS)
+                    end,
+                    5
+                )
             end
         end,
         first_tick = function(faction, faction_key) 
@@ -831,6 +888,11 @@ local rhox_iee_list={
 
 cm:add_first_tick_callback_new(
     function()
+        if cm:is_multiplayer() then
+            mixer_disable_starting_zoom = true
+        end
+    
+    
 		if not vfs.exists("script/frontend/mod/rhox_drukim_frontend.lua") then --have to make initial enemy for him
             rhox_iee_list["rhox_chs_the_deathswords"].enemy.x=1381
 			rhox_iee_list["rhox_chs_the_deathswords"].enemy.y=687

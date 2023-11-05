@@ -1,8 +1,5 @@
 key	text	tooltip
 #Loc;1;text/db/hkrul_vroth_generic__.loc		
-ancillaries_colour_text_hkrul_vroth_banner	The Deathsword's have ruled the Grey Mountains for generations, their name revered throughout the entire pass. The Margraves that stem from this Noble family have held the Mountain Valley against numerous threats for decades. Expertly training the Fortress Garrison to operate both in siege warfare and in the rugged mountain climate. The garrison's elite proudly bears the Von Mackensen banner.	true
-ancillaries_onscreen_name_hkrul_vroth_banner	Deathsword's Banner	true
-effect_bundles_localised_title_hkrul_vroth_banner	Deathsword's Banner	false
 character_trait_levels_onscreen_name_hkrul_defeated_trait_vroth	Hunter Hunted	true
 character_trait_levels_colour_text_hkrul_defeated_trait_vroth	Not the real Surtha after all..	true
 character_trait_levels_explanation_text_hkrul_defeated_trait_vroth	Defeated Surtha Lenk	true

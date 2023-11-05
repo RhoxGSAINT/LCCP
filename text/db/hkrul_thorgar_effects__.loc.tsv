@@ -2,14 +2,11 @@ key	text	tooltip
 #Loc;1;text/db/hkrul_thorgar_effects__.loc		
 effects_description_hkrul_thorgar_cry	Ability: "Bloodcry''	true
 effects_description_hkrul_thorgar_nordland_damage	Weapon Strength: %+n% for Greatsword units	true
-effects_description_hkrul_thorgar_sword	Ability: "Thorgar's Pendulum''	true
-effects_description_hkrul_thorgar_mount	Mount: "Barded Warhorse''	true
-effects_description_hkrul_thorgar_mount_2	Mount: "Imperial Pegasus''	true
-effects_description_hkrul_thorgar_mount_3	Mount: "Imperial Griffon''	true
+effects_description_hkrul_thorgar_flail	Ability: "Thorgar's Pendulum''	true
 effects_description_hkrul_thorgar_mammoths	Melee Attack: %+n for Mammoth units	false
 effects_description_hkrul_thorgar_mammoths_upkeep	Upkeep: %+n% for Mammoth units	false
 effects_description_hkrul_thorgar_carnivore	Ability: "Frenzied Carnivore'' for Mammoth units	false
 effects_description_hkrul_thorgar_stomp	Ability: "Khural's Bludgeon''	false
 effects_description_hkrul_khazag_marauder_ws	Weapon Strength: %+n% for Marauder units	true
 effects_description_hkrul_khazag_marauder_recruit	Recruit Rank: %+n for Marauder units	true
-effect_bundles_localised_description_hkrul_thorgar_banner		false
+effects_description_rhox_thorgar_effect_ability_enable_spirit_essence_of_chaos_hidden	Ability: Spirit-Essence of Chaos	false
