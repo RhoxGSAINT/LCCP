@@ -125,9 +125,10 @@ core:add_listener(
     function(context)
         local str = context:trigger()
         local character_cqi = context:faction_cqi() --it says faction but what we passed is character
+        local faction = cm:get_character_by_cqi(character_cqi):faction()
         cm:faction_add_pooled_resource(faction:name(), "rhox_arbaal_resource", "rituals", -50)
         
-        local faction = cm:get_character_by_cqi(character_cqi):faction()
+        
         trigger_tiktaqto_rite(faction);
         
         

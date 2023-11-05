@@ -202,7 +202,7 @@
 				<component_image
 					this="D1418722-1C69-DEA8-D60A469372920BFA"
 					uniqueguid="D1418722-1C69-DEA8-D60A469372920BFA"
-					imagepath="ui/skins/default/waaagh_bar_bar_frame.png"/>
+					imagepath="ui/skins/hkrul_arbaal/hkrul_arbaal_bar_bar_frame.png"/>
 			</componentimages>
 			<states>
 				<active
@@ -262,7 +262,7 @@
 				<component_image
 					this="29179314-CC9A-D809-7B782A5B99CDED82"
 					uniqueguid="29179314-CC9A-D809-7B782A5B99CDED82"
-					imagepath="ui/skins/default/waaagh_bar_bar_frame_active.png"/>
+					imagepath="ui/skins/hkrul_arbaal/hkrul_arbaal_bar_bar_frame_active.png"/>
 			</componentimages>
 			<states>
 				<gork
@@ -327,7 +327,7 @@
 				<component_image
 					this="079E4140-6D98-F093-17CD0926D2FF8AA3"
 					uniqueguid="079E4140-6D98-F093-17CD0926D2FF8AA3"
-					imagepath="ui/skins/default/waaagh_bar_target_dropdown_button_background.png"/>
+					imagepath="ui/skins/hkrul_arbaal/hkrul_arbaal_bar_target_dropdown_button_background.png"/>
 			</componentimages>
 			<states>
 				<newstate
@@ -362,7 +362,7 @@
 				<component_image
 					this="831C6ECD-370B-D231-319AF8663AA646FC"
 					uniqueguid="831C6ECD-370B-D231-319AF8663AA646FC"
-					imagepath="ui/skins/default/waaagh_bar_target_dropdown_button_background.png"/>
+					imagepath="ui/skins/hkrul_arbaal/hkrul_arbaal_bar_target_dropdown_button_background.png"/>
 			</componentimages>
 			<states>
 				<newstate
@@ -511,7 +511,7 @@
 				<component_image
 					this="444C991A-EEA2-B2B4-5F3BDF19A439E9A8"
 					uniqueguid="444C991A-EEA2-B2B4-5F3BDF19A439E9A8"
-					imagepath="ui/skins/default/waaagh_bar_bar_frame_background.png"/>
+					imagepath="ui/skins/hkrul_arbaal/hkrul_arbaal_bar_bar_frame_background.png"/>
 			</componentimages>
 			<states>
 				<gork
@@ -588,7 +588,7 @@
 				<component_image
 					this="3BED7CEB-69FC-72BA-C0FC5566F3064C35"
 					uniqueguid="3BED7CEB-69FC-72BA-C0FC5566F3064C35"
-					imagepath="ui/skins/default/waaagh_bar_trophy_preview_empty.png"/>
+					imagepath="ui/skins/hkrul_arbaal/hkrul_arbaal_bar_trophy_preview_empty.png"/>
 			</componentimages>
 			<states>
 				<newstate
@@ -643,7 +643,7 @@
 				<component_image
 					this="2CFA21C3-4E3F-76E1-4B95DC8C7CB358DF"
 					uniqueguid="2CFA21C3-4E3F-76E1-4B95DC8C7CB358DF"
-					imagepath="ui/skins/default/waaagh_reward_dwarfs_45x45.png"/>
+					imagepath="ui/skins/hkrul_arbaal/hkrul_arbaal_reward_dwarfs_45x45.png"/>
 			</componentimages>
 			<states>
 				<newstate
@@ -690,15 +690,15 @@
 				<component_image
 					this="415D0104-06AC-9A7F-7298445D15BCA29B"
 					uniqueguid="415D0104-06AC-9A7F-7298445D15BCA29B"
-					imagepath="ui/skins/default/waaagh_bar_target_dropdown_mork_button_active.png"/>
+					imagepath="ui/skins/hkrul_arbaal/hkrul_arbaal_bar_target_dropdown_mork_button_active.png"/>
 				<component_image
 					this="0994592E-07C0-569B-90CC94B059AEB270"
 					uniqueguid="0994592E-07C0-569B-90CC94B059AEB270"
-					imagepath="ui/skins/default/waaagh_bar_target_dropdown_mork_button_hover.png"/>
+					imagepath="ui/skins/hkrul_arbaal/hkrul_arbaal_bar_target_dropdown_mork_button_hover.png"/>
 				<component_image
 					this="E213F957-587F-8873-F8D5342E783B11FC"
 					uniqueguid="E213F957-587F-8873-F8D5342E783B11FC"
-					imagepath="ui/skins/default/waaagh_bar_target_dropdown_mork_button_pressed.png"/>
+					imagepath="ui/skins/hkrul_arbaal/hkrul_arbaal_bar_target_dropdown_mork_button_pressed.png"/>
 			</componentimages>
 			<states>
 				<active
@@ -1229,15 +1229,15 @@
 				<component_image
 					this="8F742DE8-E4A2-D5A5-B036FE14199C18BA"
 					uniqueguid="8F742DE8-E4A2-D5A5-B036FE14199C18BA"
-					imagepath="ui/skins/default/waaagh_bar_target_dropdown_gork_button_active.png"/>
+					imagepath="ui/skins/hkrul_arbaal/hkrul_arbaal_bar_target_dropdown_gork_button_active.png"/>
 				<component_image
 					this="27A37ECF-F09B-67F2-A87B16C2ED87B025"
 					uniqueguid="27A37ECF-F09B-67F2-A87B16C2ED87B025"
-					imagepath="ui/skins/default/waaagh_bar_target_dropdown_gork_button_hover.png"/>
+					imagepath="ui/skins/hkrul_arbaal/hkrul_arbaal_bar_target_dropdown_gork_button_hover.png"/>
 				<component_image
 					this="7C6D3830-8938-AF7C-4C66EF2CEA4C28E8"
 					uniqueguid="7C6D3830-8938-AF7C-4C66EF2CEA4C28E8"
-					imagepath="ui/skins/default/waaagh_bar_target_dropdown_gork_button_pressed.png"/>
+					imagepath="ui/skins/hkrul_arbaal/hkrul_arbaal_bar_target_dropdown_gork_button_pressed.png"/>
 			</componentimages>
 			<states>
 				<active
@@ -1352,7 +1352,7 @@
 				<component_image
 					this="F8D97D19-6366-809B-4D11470264A2A25F"
 					uniqueguid="F8D97D19-6366-809B-4D11470264A2A25F"
-					imagepath="ui/skins/default/waaagh_bar_bar_frame_background.png"/>
+					imagepath="ui/skins/hkrul_arbaal/hkrul_arbaal_bar_bar_frame_background.png"/>
 			</componentimages>
 			<states>
 				<newstate
@@ -1622,7 +1622,7 @@
 				<component_image
 					this="6455310A-6D1D-4E51-88BCF39E654038FA"
 					uniqueguid="6455310A-6D1D-4E51-88BCF39E654038FA"
-					imagepath="ui/skins/default/waaagh_bar_target_dropdown_2.png"/>
+					imagepath="ui/skins/hkrul_arbaal/hkrul_arbaal_bar_target_dropdown_2.png"/>
 			</componentimages>
 			<states>
 				<newstate
@@ -1711,7 +1711,7 @@
 				<component_image
 					this="28FD8BD6-8EB2-13C4-1449042958A7A726"
 					uniqueguid="28FD8BD6-8EB2-13C4-1449042958A7A726"
-					imagepath="ui/skins/default/waaagh_bar_segment_1.png"/>
+					imagepath="ui/skins/hkrul_arbaal/hkrul_arbaal_bar_segment_1.png"/>
 			</componentimages>
 			<states>
 				<fill
@@ -1751,7 +1751,7 @@
 				<component_image
 					this="320B0CEB-CB4F-3ED6-0A0E1171826714DA"
 					uniqueguid="320B0CEB-CB4F-3ED6-0A0E1171826714DA"
-					imagepath="ui/skins/default/waaagh_bar_mask.png"/>
+					imagepath="ui/skins/hkrul_arbaal/hkrul_arbaal_bar_mask.png"/>
 			</componentimages>
 			<states>
 				<fill
@@ -1786,7 +1786,7 @@
 				<component_image
 					this="2A03EE4B-F3E0-D77B-790134BADFAE34F3"
 					uniqueguid="2A03EE4B-F3E0-D77B-790134BADFAE34F3"
-					imagepath="ui/skins/default/waaagh_bar_segment_1_background.png"/>
+					imagepath="ui/skins/hkrul_arbaal/hkrul_arbaal_bar_segment_1_background.png"/>
 			</componentimages>
 			<states>
 				<active
@@ -1844,7 +1844,7 @@
 				<component_image
 					this="E8947A3A-00DC-D4CD-13AED3928D40E771"
 					uniqueguid="E8947A3A-00DC-D4CD-13AED3928D40E771"
-					imagepath="ui/skins/default/waaagh_bar_segment_2.png"/>
+					imagepath="ui/skins/hkrul_arbaal/hkrul_arbaal_bar_segment_2.png"/>
 			</componentimages>
 			<states>
 				<fill
@@ -1886,7 +1886,7 @@
 				<component_image
 					this="4A82930D-5E5F-4AA9-7FABB4AB75FBE873"
 					uniqueguid="4A82930D-5E5F-4AA9-7FABB4AB75FBE873"
-					imagepath="ui/skins/default/waaagh_bar_mask.png"/>
+					imagepath="ui/skins/hkrul_arbaal/hkrul_arbaal_bar_mask.png"/>
 			</componentimages>
 			<states>
 				<fill
@@ -1923,7 +1923,7 @@
 				<component_image
 					this="08D8A3F9-69EA-A478-2096EC945F824E41"
 					uniqueguid="08D8A3F9-69EA-A478-2096EC945F824E41"
-					imagepath="ui/skins/default/waaagh_bar_segment_2_background.png"/>
+					imagepath="ui/skins/hkrul_arbaal/hkrul_arbaal_bar_segment_2_background.png"/>
 			</componentimages>
 			<states>
 				<active
@@ -1981,7 +1981,7 @@
 				<component_image
 					this="6976EAE0-59D1-922A-19FB8E5FCB368791"
 					uniqueguid="6976EAE0-59D1-922A-19FB8E5FCB368791"
-					imagepath="ui/skins/default/waaagh_bar_segment_3.png"/>
+					imagepath="ui/skins/hkrul_arbaal/hkrul_arbaal_bar_segment_3.png"/>
 			</componentimages>
 			<states>
 				<fill
@@ -2023,7 +2023,7 @@
 				<component_image
 					this="E8DC274C-4FFC-ECE9-3BBBD9C2D74AC18B"
 					uniqueguid="E8DC274C-4FFC-ECE9-3BBBD9C2D74AC18B"
-					imagepath="ui/skins/default/waaagh_bar_mask.png"/>
+					imagepath="ui/skins/hkrul_arbaal/hkrul_arbaal_bar_mask.png"/>
 			</componentimages>
 			<states>
 				<inactive
@@ -2060,7 +2060,7 @@
 				<component_image
 					this="2FD5573C-902C-1F8C-7434069E15A84067"
 					uniqueguid="2FD5573C-902C-1F8C-7434069E15A84067"
-					imagepath="ui/skins/default/waaagh_bar_segment_3_background.png"/>
+					imagepath="ui/skins/hkrul_arbaal/hkrul_arbaal_bar_segment_3_background.png"/>
 			</componentimages>
 			<states>
 				<active
@@ -2118,7 +2118,7 @@
 				<component_image
 					this="EB38345F-33BB-F745-677ED56E5407BE96"
 					uniqueguid="EB38345F-33BB-F745-677ED56E5407BE96"
-					imagepath="ui/skins/default/waaagh_bar_segment_4.png"/>
+					imagepath="ui/skins/hkrul_arbaal/hkrul_arbaal_bar_segment_4.png"/>
 			</componentimages>
 			<states>
 				<fill
@@ -2160,7 +2160,7 @@
 				<component_image
 					this="9C18802F-0B6D-046E-93911750B75AAF10"
 					uniqueguid="9C18802F-0B6D-046E-93911750B75AAF10"
-					imagepath="ui/skins/default/waaagh_bar_mask.png"/>
+					imagepath="ui/skins/hkrul_arbaal/hkrul_arbaal_bar_mask.png"/>
 			</componentimages>
 			<states>
 				<fill
@@ -2197,7 +2197,7 @@
 				<component_image
 					this="3C153559-805F-FA67-6F213622CE87C19D"
 					uniqueguid="3C153559-805F-FA67-6F213622CE87C19D"
-					imagepath="ui/skins/default/waaagh_bar_segment_4_background.png"/>
+					imagepath="ui/skins/hkrul_arbaal/hkrul_arbaal_bar_segment_4_background.png"/>
 			</componentimages>
 			<states>
 				<active
@@ -3163,7 +3163,7 @@
 				<component_image
 					this="05B1210C-1074-1938-A8216DE202EBE4C0"
 					uniqueguid="05B1210C-1074-1938-A8216DE202EBE4C0"
-					imagepath="ui/skins/default/waaagh_bar_target_dropdown_1.png"/>
+					imagepath="ui/skins/hkrul_arbaal/hkrul_arbaal_bar_target_dropdown_1.png"/>
 			</componentimages>
 			<states>
 				<newstate
@@ -3252,15 +3252,15 @@
 				<component_image
 					this="A3A8FCA4-3D60-29D7-8D8AD373D83EA66E"
 					uniqueguid="A3A8FCA4-3D60-29D7-8D8AD373D83EA66E"
-					imagepath="ui/skins/default/waaagh_bar_button_inactive.png"/>
+					imagepath="ui/skins/hkrul_arbaal/hkrul_arbaal_bar_button_inactive.png"/>
 				<component_image
 					this="5EF5EAD3-C97B-2EE0-6FE489E58FE72ED8"
 					uniqueguid="5EF5EAD3-C97B-2EE0-6FE489E58FE72ED8"
-					imagepath="ui/skins/default/waaagh_bar_target_background.png"/>
+					imagepath="ui/skins/hkrul_arbaal/hkrul_arbaal_bar_target_background.png"/>
 				<component_image
 					this="16D09C70-0FC2-DAFB-771F5FBC695F3F73"
 					uniqueguid="16D09C70-0FC2-DAFB-771F5FBC695F3F73"
-					imagepath="ui/skins/default/waaagh_bar_target_dropdown_target_background.png"/>
+					imagepath="ui/skins/hkrul_arbaal/hkrul_arbaal_bar_target_dropdown_target_background.png"/>
 			</componentimages>
 			<states>
 				<newstate
@@ -3531,7 +3531,7 @@
 				<component_image
 					this="A5DEB976-92C8-1EA2-5D5660C922EDB2D7"
 					uniqueguid="A5DEB976-92C8-1EA2-5D5660C922EDB2D7"
-					imagepath="ui/skins/default/waaagh_bar_button_icon.png"/>
+					imagepath="ui/skins/hkrul_arbaal/hkrul_arbaal_bar_button_icon.png"/>
 				<component_image
 					this="2E77F7DA-9795-4A5B-D92BA54C72197376"
 					uniqueguid="2E77F7DA-9795-4A5B-D92BA54C72197376"
@@ -4217,39 +4217,39 @@
 				<component_image
 					this="6B4903E1-2DE2-5F96-6DF1BFB67A0762ED"
 					uniqueguid="6B4903E1-2DE2-5F96-6DF1BFB67A0762ED"
-					imagepath="ui/skins/default/waaagh_bar_button_icon.png"/>
+					imagepath="ui/skins/hkrul_arbaal/hkrul_arbaal_bar_button_icon.png"/>
 				<component_image
 					this="EDC15B8B-85F1-2316-9DD71EB72179154A"
 					uniqueguid="EDC15B8B-85F1-2316-9DD71EB72179154A"
-					imagepath="ui/skins/default/waaagh_bar_button_inactive_selected.png"/>
+					imagepath="ui/skins/hkrul_arbaal/hkrul_arbaal_bar_button_inactive_selected.png"/>
 				<component_image
 					this="CA333BD8-807B-A73D-90AD65F320C78B88"
 					uniqueguid="CA333BD8-807B-A73D-90AD65F320C78B88"
-					imagepath="ui/skins/default/waaagh_bar_button_target_active_pressed.png"/>
+					imagepath="ui/skins/hkrul_arbaal/hkrul_arbaal_bar_button_target_active_pressed.png"/>
 				<component_image
 					this="3ECFAC31-5E48-45BA-4345F01ACF6DBD1E"
 					uniqueguid="3ECFAC31-5E48-45BA-4345F01ACF6DBD1E"
-					imagepath="ui/skins/default/waaagh_bar_button_target_active_selected_hover.png"/>
+					imagepath="ui/skins/hkrul_arbaal/hkrul_arbaal_bar_button_target_active_selected_hover.png"/>
 				<component_image
 					this="4981ADA9-9304-9B24-46DC9C8C194B85B7"
 					uniqueguid="4981ADA9-9304-9B24-46DC9C8C194B85B7"
-					imagepath="ui/skins/default/waaagh_bar_button_target_active_hover.png"/>
+					imagepath="ui/skins/hkrul_arbaal/hkrul_arbaal_bar_button_target_active_hover.png"/>
 				<component_image
 					this="A5DC836A-0884-D0AA-FA44C10A297C0F7E"
 					uniqueguid="A5DC836A-0884-D0AA-FA44C10A297C0F7E"
-					imagepath="ui/skins/default/waaagh_bar_button_target_active.png"/>
+					imagepath="ui/skins/hkrul_arbaal/hkrul_arbaal_bar_button_target_active.png"/>
 				<component_image
 					this="B9169913-26B8-7773-B8257A4E3B6355B2"
 					uniqueguid="B9169913-26B8-7773-B8257A4E3B6355B2"
-					imagepath="ui/skins/default/waaagh_bar_button_inactive.png"/>
+					imagepath="ui/skins/hkrul_arbaal/hkrul_arbaal_bar_button_inactive.png"/>
 				<component_image
 					this="E64D8CE5-308B-2E9A-E25F481944A74D4A"
 					uniqueguid="E64D8CE5-308B-2E9A-E25F481944A74D4A"
-					imagepath="ui/skins/default/waaagh_bar_button_target_active_selected.png"/>
+					imagepath="ui/skins/hkrul_arbaal/hkrul_arbaal_bar_button_target_active_selected.png"/>
 				<component_image
 					this="0F8B70AB-C772-4C1C-E09DA772255EA42A"
 					uniqueguid="0F8B70AB-C772-4C1C-E09DA772255EA42A"
-					imagepath="ui/skins/default/waaagh_bar_target_button_active_selected_pressed.png"/>
+					imagepath="ui/skins/hkrul_arbaal/hkrul_arbaal_bar_target_button_active_selected_pressed.png"/>
 			</componentimages>
 			<states>
 				<active
@@ -4832,7 +4832,7 @@
 				<component_image
 					this="A0A9FDDB-F5B5-E0EC-1DE6B8FA20D5A840"
 					uniqueguid="A0A9FDDB-F5B5-E0EC-1DE6B8FA20D5A840"
-					imagepath="ui/skins/default/waaagh_bar_button_frame.png"/>
+					imagepath="ui/skins/hkrul_arbaal/hkrul_arbaal_bar_button_frame.png"/>
 			</componentimages>
 			<states>
 				<active
@@ -4897,7 +4897,7 @@
 				<component_image
 					this="0276E136-BC41-9759-D705F7896B2A686A"
 					uniqueguid="0276E136-BC41-9759-D705F7896B2A686A"
-					imagepath="ui/skins/default/waaagh_bar_counter_background.png"/>
+					imagepath="ui/skins/hkrul_arbaal/hkrul_arbaal_bar_counter_background.png"/>
 			</componentimages>
 			<states>
 				<gork
@@ -4990,7 +4990,7 @@
 				<component_image
 					this="F097B3C4-D406-4F84-EBAF583E2376EC44"
 					uniqueguid="F097B3C4-D406-4F84-EBAF583E2376EC44"
-					imagepath="ui/skins/default/waaagh_bar_mask.png"/>
+					imagepath="ui/skins/hkrul_arbaal/hkrul_arbaal_bar_mask.png"/>
 			</componentimages>
 			<states>
 				<active
@@ -5154,7 +5154,7 @@
 				<component_image
 					this="9BA8859C-05A3-B403-73AA7C1A4DA0D679"
 					uniqueguid="9BA8859C-05A3-B403-73AA7C1A4DA0D679"
-					imagepath="ui/skins/default/waaagh_bar_button_frame.png"/>
+					imagepath="ui/skins/hkrul_arbaal/hkrul_arbaal_bar_button_frame.png"/>
 			</componentimages>
 			<states>
 				<active
@@ -5248,7 +5248,7 @@
 				<component_image
 					this="A2051854-474A-613F-518E738B3D7EB177"
 					uniqueguid="A2051854-474A-613F-518E738B3D7EB177"
-					imagepath="ui/skins/default/waaagh_bar_trophy_current.png"/>
+					imagepath="ui/skins/hkrul_arbaal/hkrul_arbaal_bar_trophy_current.png"/>
 			</componentimages>
 			<states>
 				<active
@@ -5304,7 +5304,7 @@
 				<component_image
 					this="60A09B23-F43F-4BC2-550B2071CFE71665"
 					uniqueguid="60A09B23-F43F-4BC2-550B2071CFE71665"
-					imagepath="ui/skins/default/waaagh_bar_trophy_preview.png"/>
+					imagepath="ui/skins/hkrul_arbaal/hkrul_arbaal_bar_trophy_preview.png"/>
 			</componentimages>
 			<states>
 				<active
