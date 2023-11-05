@@ -59,8 +59,8 @@ local rhox_iee_list={
             familiyname ="names_name_1369138455",
         },
         agent={
-            type="runesmith",
-            subtype="wh_main_dwf_runesmith"
+            type="engineer",
+            subtype="wh_main_dwf_master_engineer"
         },
         hand_over_region=nil,
         region="cr_combi_region_ind_4_1",

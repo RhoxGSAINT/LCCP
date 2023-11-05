@@ -11,6 +11,7 @@ effects_description_hkrul_beorg_bear_ap	Armour-piercing weapon damage: %+n when 
 effects_description_hkrul_beorg_bear_charge	Charge bonus: %+n when in Bear form	false
 effects_description_hkrul_beorg_bear_defence	Melee Defence: %+n for Bear units	false
 effects_description_hkrul_beorg_bear_flanker	Attribute: Devastating Flanker for Bear units	false
+effects_description_hkrul_beorg_hunter_vanguard	Attribute: Vanguard Deployment for Marauder Hunter units	false
 effects_description_hkrul_beorg_missile_reload	Reload time reduction: %+n% for Marauder Hunter units	false
 effects_description_hkrul_beorg_sword		false
 effects_description_hkrul_beorg_pal		false
