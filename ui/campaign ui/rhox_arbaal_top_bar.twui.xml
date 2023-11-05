@@ -3413,7 +3413,7 @@
 					value="25"/>
 				<property
 					name="loops"
-					value="3"/>
+					value="-1"/>
 				<property
 					name="time_per_frame"
 					value="40"/>
