@@ -14,3 +14,4 @@ hkrul_beorg_bear_ap	armour_piercing.png	6	armour_piercing.png	battle	true
 hkrul_beorg_bear_defence	defence.png	6	defence.png	battle	true
 hkrul_beorg_bear_flanker	devastating_flanker.png	461	devastating_flanker.png	battle	true
 hkrul_beorg_missile_reload	icon_stat_reload_time_force.png	6	icon_stat_reload_time_force.png	battle	true
+hkrul_beorg_hunter_vanguard	attribute_guerrilla_deploy.png	3	attribute_guerrilla_deploy.png	battle	true
