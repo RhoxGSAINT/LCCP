@@ -4,7 +4,7 @@ rhox_valbrand_nor_marauder_chieftain_horde	true	false		wh_main_nor_cha_marauder_
 rhox_volrik_chs_sorcerer_lord_tzeentch_mtze	true	true	ui/campaign ui/agents/wh3_main_lore_tzeentch.png	wh3_dlc20_chs_cha_chaos_sorcerer_lord_tzeentch_mtze	wh3_dlc20_vo_actor_Tzeentch_Sorcerer_Lord_of_Tzeentch	true	-1	false	true	false	true	chs_sorcerer_lord	wh3_main_lore_tzeentch	names_chs_chaos	true	true	can_be_saved_loaded		false	true	1200
 rhox_torinubar_convoy	true	false		wh2_main_hef_cha_prince_0	wh2_main_vo_actor_High_Elves_Prince	true	-1	false	true	false	true	wh3_main_cth_lord_caravan_master			false	false	cannot_be_saved_loaded		false	true	850
 rhox_hrothyogg_recruiter	false	false	ui/campaign ui/agents/wh3_main_lore_the_great_maw.png	rhox_hrothyogg_recruiter	wh3_main_vo_actor_Ogres_Butcher	false	-1	false	true	false	false				false	false	cannot_be_saved_loaded	wh3_main_vo_culture_Ogres	false	false	1050
-hkrul_rhobb	false	false		hkrul_rhobb	wh_main_vo_actor_Dwarf_Thane	false	-1	false	true	false	false				false	false	cannot_be_saved_loaded		false	true	1100
-hkrul_thulgrim	false	false		hkrul_thulgrim	wh_main_vo_actor_Dwarf_Thane	false	-1	false	true	false	false				false	false	cannot_be_saved_loaded		false	true	1100
-hkrul_shaz	false	false		hkrul_shaz	wh2_main_vo_actor_High_Elves_Princess	false	-1	false	true	false	false				false	false	cannot_be_saved_loaded		false	true	1100
+hkrul_rhobb	false	true		hkrul_rhobb	wh_main_vo_actor_Dwarf_Thane	false	-1	false	true	false	false				false	false	cannot_be_saved_loaded		false	true	1100
+hkrul_thulgrim	false	true		hkrul_thulgrim	wh_main_vo_actor_Dwarf_Thane	false	-1	false	true	false	false				false	false	cannot_be_saved_loaded		false	true	1100
+hkrul_shaz	false	true		hkrul_shaz	wh2_main_vo_actor_High_Elves_Princess	false	-1	false	true	false	false				false	false	cannot_be_saved_loaded		false	true	1100
 hkrul_oerl	false	false		hkrul_oerl	wh_dlc08_vo_actor_Norsca_Marauder_Chieftan	false	-1	false	true	false	false				false	false	cannot_be_saved_loaded		false	true	1100
