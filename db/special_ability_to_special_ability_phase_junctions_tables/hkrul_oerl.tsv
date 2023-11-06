@@ -3,3 +3,5 @@ order	special_ability	target_self	target_friends	target_enemies	phase
 1	hkrul_oerl_axes	true	false	false	hkrul_oerl_axes
 1	hkrul_oerl_frenzy	true	false	false	hkrul_oerl_frenzy
 1	hkrul_oerl_horn	true	true	false	hkrul_oerl_horn
+1	hkrul_oerl_axe	true	false	false	hkrul_oerl_axe
+0	hkrul_oerl_horn	false	false	true	hkrul_oerl_horn_enemy

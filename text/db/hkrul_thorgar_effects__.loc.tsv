@@ -10,3 +10,5 @@ effects_description_hkrul_thorgar_stomp	Ability: "Khural's Bludgeon''	false
 effects_description_hkrul_khazag_marauder_ws	Weapon Strength: %+n% for Marauder units	true
 effects_description_hkrul_khazag_marauder_recruit	Recruit Rank: %+n for Marauder units	true
 effects_description_rhox_thorgar_effect_ability_enable_spirit_essence_of_chaos_hidden	Ability: Spirit-Essence of Chaos	false
+effects_description_hkrul_khazag_mammoth_charge	Charge bonus: %+n for Mammoth units	false
+effects_description_hkrul_thorgar_rank_shaman	Recruit Rank: %+n for Shaman Sorcerers	false
