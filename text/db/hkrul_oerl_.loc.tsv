@@ -41,3 +41,6 @@ effects_description_hkrul_oerl_bearmen_armor	Armour: %+n for Bearmen of Urslo (T
 unit_description_short_texts_text_hkrul_bearmen	The Bearmen of Urslo, also known as the Tribe of the Bear by those they kill, is a band of Norscan beserkers. They are led by Beorg Bearstruck, Son of Bran.	false
 land_units_onscreen_name_hkrul_bearmen	Bearmen of Urslo (Throwing Axes & Shields)	true
 unit_abilities_tooltip_text_hkrul_oerl_frenzy		false
+unit_abilities_tooltip_text_hkrul_hkrul_oerl_axe	When Beorg snapped the necks of Uldsdau and Graille, twin sons of Huern the Jarl of the Tribe of the Wolf, he gifted their magical heirloom to Clan Oerl.	true
+unit_abilities_onscreen_name_hkrul_oerl_axe	Huern's Axe	true
+effects_description_hkrul_oerl_axe	Ability: "Huern's Axe''	false

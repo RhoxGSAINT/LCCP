@@ -7,3 +7,5 @@ effects_description_hkrul_volrik_claw	Ability: "Mutatious Claw''	true
 effects_description_hkrul_volrik_mount	Mount: "Barded Warhorse''	true
 effects_description_hkrul_volrik_mount_2	Mount: "Imperial Pegasus''	true
 effects_description_hkrul_volrik_mount_3	Mount: "Imperial Griffon''	true
+effects_description_hkrul_volrik_mtze_ma	Melee Attack: %+n for Tzeentch Marauder units	false
+effects_description_hkrul_volrik_mtze_wd	Weapon Strength: %+n% for Tzeentch Marauder units	false

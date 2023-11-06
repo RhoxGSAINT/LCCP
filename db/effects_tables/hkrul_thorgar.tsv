@@ -10,3 +10,5 @@ hkrul_khazag_marauder_ws	weapon_damage.png	300	weapon_damage.png	battle	true
 hkrul_khazag_marauder_recruit	experience.png	298	experience.png	campaign	true
 hkrul_thorgar_ascend_dummy	effect_bundle_thorgar2.png	1	effect_bundle_thorgar2.png	campaign	true
 rhox_thorgar_effect_ability_enable_spirit_essence_of_chaos_hidden	general_ability.png	2	general_ability.png	both	true
+hkrul_khazag_mammoth_charge	charge.png	3	charge.png	battle	true
+hkrul_thorgar_rank_shaman	wizard.png	1	wizard.png	campaign	true

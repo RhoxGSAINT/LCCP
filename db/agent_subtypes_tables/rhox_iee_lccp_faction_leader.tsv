@@ -2,7 +2,7 @@ key	auto_generate	is_caster	small_icon	associated_unit_override	audio_voiceover_
 #agent_subtypes_tables;1;db/agent_subtypes_tables/rhox_iee_lccp_faction_leader																					
 hkrul_sceolan	false	false		hkrul_sceolan	wh_dlc05_vo_actor_Wood_Elves_Male_Glade_Lord	true	-1	false	true	false	false	legendary_lords			false	true	cannot_be_saved_loaded		false	true	1100
 hkrul_valbrand	false	false		hkrul_valbrand	wh3_dlc20_vo_actor_Khorne_Chaos_Lord_of_Khorne	true	-1	false	true	false	false	legendary_lords			false	true	cannot_be_saved_loaded		false	true	1100
-hkrul_volrik	false	false		hkrul_volrik	wh_dlc08_vo_actor_Norsca_Marauder_Chieftan	true	-1	false	true	false	false	legendary_lords			false	true	cannot_be_saved_loaded		false	true	1100
+hkrul_volrik	false	false		hkrul_volrik	hkrul_lccp_volrik	true	-1	false	true	false	false	legendary_lords			false	true	cannot_be_saved_loaded		false	true	1100
 hkrul_zach	false	true		hkrul_zach	wh_main_vo_actor_Vampire_MasterNecromancer	true	-1	false	true	false	false	legendary_lords	rhox_zach_lore		false	true	cannot_be_saved_loaded		false	true	1100
 hef_calith_torinubar	false	true		hef_calith_torinubar	wh2_main_vo_actor_High_Elves_Loremasters_of_Hoeth	true	-1	false	true	false	false	legendary_lords			false	true	cannot_be_saved_loaded		false	true	1100
 hkrul_orghotts	false	false		hkrul_spew	wh3_dlc20_vo_actor_Nurgle_Sorcerer_Lord_of_Nurgle	true	-1	false	true	false	false	legendary_lords			false	true	cannot_be_saved_loaded		false	true	2700
@@ -14,7 +14,7 @@ hkrul_thorgar_daemon_prince	false	true		hkrul_thorgar_daemon_prince	wh3_dlc20_vo
 hkrul_slaurith	false	false		hkrul_slaurith	wh_main_vo_actor_Chaos_Lord	true	-1	false	true	false	false	legendary_lords			false	true	cannot_be_saved_loaded	wh3_main_vo_culture_Khorne	false	true	1300
 hkrul_arbaal	false	false		hkrul_arbaal_mounted	wh3_dlc20_vo_actor_Khorne_Chaos_Lord_of_Khorne	true	-1	false	true	false	false	legendary_lords		names_chs_chaos	false	true	cannot_be_saved_loaded		false	true	900
 hkrul_engra	false	false		hkrul_engra	wh_main_vo_actor_Chaos_Lord	true	-1	false	true	false	false	legendary_lords			false	true	cannot_be_saved_loaded		false	true	1100
-hkrul_vroth	false	false		hkrul_vroth	wh_dlc08_vo_actor_Norsca_Marauder_Chieftan	true	-1	false	true	false	false	legendary_lords			false	true	cannot_be_saved_loaded		false	true	1100
+hkrul_vroth	false	false		hkrul_vroth	hkrul_lccp_surtha	true	-1	false	true	false	false	legendary_lords			false	true	cannot_be_saved_loaded		false	true	1100
 hkrul_karitamen	false	true		hkrul_karitamen	wh2_dlc09_vo_actor_Tomb_Kings_Khatep	true	-1	false	true	false	false	legendary_lords	wh2_dlc09_lore_nehekhara		false	true	cannot_be_saved_loaded		false	true	1050
 hkrul_duriath	false	false		hkrul_duriath	wh2_main_vo_actor_Dark_Elves_Dreadlord	true	-1	false	true	false	false	legendary_lords			false	true	cannot_be_saved_loaded		false	true	850
 hkrul_beorg	false	false		hkrul_beorg	wh_dlc08_vo_actor_Norsca_Marauder_Chieftan	true	-1	false	true	false	false	legendary_lords			false	true	cannot_be_saved_loaded		false	true	1100

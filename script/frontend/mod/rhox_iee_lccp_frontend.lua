@@ -27,7 +27,7 @@ core:add_ui_created_callback(
             
             mixer_change_lord_name("1129830176", "hkrul_volrik") 
             mixer_enable_custom_faction("1129830176")
-            mixer_add_starting_unit_list_for_faction("rhox_nor_ravenblessed", {"wh_dlc08_nor_inf_marauder_hunters_1","wh_main_nor_inf_chaos_marauders_0","wh3_dlc20_chs_cav_chaos_chariot_mtze","wh3_dlc20_chs_cav_marauder_horsemen_mtze_javelins","wh_dlc08_nor_inf_marauder_spearman_0",})
+            mixer_add_starting_unit_list_for_faction("rhox_nor_ravenblessed", {"wh_dlc08_nor_inf_marauder_hunters_1","wh3_dlc24_tze_mon_cockatrice","wh_main_nor_inf_chaos_marauders_0","wh3_dlc20_chs_cav_chaos_chariot_mtze","wh3_dlc20_chs_cav_marauder_horsemen_mtze_javelins","wh_dlc08_nor_inf_marauder_spearman_0",})
             mixer_add_faction_to_major_faction_list("rhox_nor_ravenblessed")
             
             mixer_change_lord_name("597789182", "hkrul_spew") 

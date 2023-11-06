@@ -7,3 +7,5 @@ hkrul_volrik_blessed	item_ability.png	300	item_ability.png	battle	true
 hkrul_volrik_nordland_damage	weapon_damage.png	97	weapon_damage.png	battle	true
 rhox_volrik_dedicated_to_tzeentch_dummy	corruption_tzeentch.png	101	corruption_tzeentch.png	campaign	true
 rhox_volrik_chaos_gift_dummy	tzeentch_points.png	2	tzeentch_points.png	both	true
+hkrul_volrik_mtze_ma	melee.png	4	melee.png	battle	true
+hkrul_volrik_mtze_wd	weapon_damage.png	5	weapon_damage.png	battle	true

@@ -8,10 +8,10 @@ character_trait_levels_colour_text_hkrul_defeated_trait_mack	He who revells in b
 character_trait_levels_explanation_text_hkrul_defeated_trait_mack	Defeated Thorgar the Blooded One	true
 ancillaries_colour_text_hkrul_thorgar_olaf	One of Thorgar's most trusted Lieutenants, Olaf is a beserker of unmatched size. His chants echo across the battlefield and his personal retinue of marauders are counted the strongest among Thorgar's band. It is said Olaf never lets Thoragar out of his side, eagerly awaiting the opportunity to wage his life for that of his Zar.	true
 ancillaries_onscreen_name_hkrul_thorgar_olaf	Jarl Olaf	true
-ancillaries_colour_text_hkrul_thorgar_flail	The story how Thorgar managed to claim his title as Zar is too often told among the Khazags. As Thorgar challenged his father to a duel to the death. His flail, nicknamed the Khural's Bludgeon, wrapped around the old Zar's legs and with one powerful sweep Thorgar ended the life of his father. Thus claiming the title as Zhar of the Khazag.	true
-ancillaries_onscreen_name_hkrul_thorgar_flail	Khural's Bludgeon	true
+ancillaries_colour_text_hkrul_thorgar_flail	The story how Thorgar managed to claim his title as Zar is too often told among the Khazags. As Thorgar challenged his father to a duel to the death. His flail, nicknamed the Khural's Bludgeon, wrapped around the old Zar's legs and with one powerful sweep Thorgar ended the life of his father. Thus claiming the title as Zhar of the Khazag. It was renamed Slayer of Kings accordingly.	true
+ancillaries_onscreen_name_hkrul_thorgar_flail	Slayer of Kings	true
 ui_unit_groupings_onscreen_hkrul_thorgar	Flail Infantry	false
-ancillaries_colour_text_hkrul_thorgar_armour	This highly ornate suit of Chaos Armour shimmered with unnatural energies that distorted the position of the wearer so that an enemy's blows missed their mark	false
+ancillaries_colour_text_hkrul_thorgar_armour	This highly ornate suit of Chaos Armour shimmered with unnatural energies that distorted the position of the wearer so that an enemy's blows missed their mark, a gift bestowed by those who deemed Thorgar worthy of far more sinister yet greater things.	false
 ancillaries_onscreen_name_hkrul_thorgar_armour	Armour of damnation	false
-ancillaries_colour_text_hkrul_thorgar_ring	Filled with the warping power of Chaos, the Ring of Change could transform an attacker into a slavering Chaos Spawn.	false
+ancillaries_colour_text_hkrul_thorgar_ring	Gifted by Thorgar during his quest for Daemonic Ascension, the Ring is filled with the warping power of Chaos, the Ring of Change could transform an attacker into a slavering Chaos Spawn.	false
 ancillaries_onscreen_name_hkrul_thorgar_ring	Ring of Change 	false

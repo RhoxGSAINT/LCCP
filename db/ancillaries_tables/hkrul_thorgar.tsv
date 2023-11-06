@@ -6,3 +6,4 @@ hkrul_thorgar_flail	wh_main_anc_weapon	.	false	false	false	1	0	9999			false	fals
 hkrul_thorgar_chariot	wh_main_anc_mount_chaos_chariot	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	hkrul_thorgar_chariot		1	1		false	false	false	all
 hkrul_thorgar_armour	wh_main_anc_armour	.	false	false	false	1	0	9999			false	false	false	armour	16	30	30	50	true			200	0		false	false	false	all
 hkrul_thorgar_ring	wh_main_anc_enchanted_item	.	false	false	false	1	0	9999			false	false	false	enchanted_item	16	30	30	50	true			200	0		false	false	false	all
+hkrul_zach_banner	hkrul_zach_banner	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true		hkrul_zach_banner	200	1	banner	false	false	false	all
