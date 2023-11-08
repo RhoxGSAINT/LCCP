@@ -515,7 +515,7 @@ local rhox_iee_list={
     rhox_vmp_the_everliving ={
         leader={
             subtype="hkrul_zach",
-            unit_list="wh_main_vmp_inf_zombie,wh_main_vmp_inf_zombie,wh2_dlc09_tmb_inf_skeleton_spearmen_0,wh_main_vmp_inf_skeleton_warriors_0,wh_main_vmp_inf_skeleton_warriors_0,wh_main_vmp_inf_grave_guard_0,wh_main_vmp_cav_black_knights_0,wh_dlc04_vmp_veh_mortis_engine_0",
+            unit_list="wh_main_vmp_inf_zombie,wh_main_vmp_inf_zombie,wh_main_vmp_inf_skeleton_warriors_1,wh_main_vmp_inf_skeleton_warriors_0,wh_main_vmp_inf_skeleton_warriors_0,wh_main_vmp_inf_grave_guard_0,wh_main_vmp_cav_black_knights_0,wh_dlc04_vmp_veh_mortis_engine_0",
             x=1259,
             y=313,
             forename ="names_name_6670702834",
@@ -552,6 +552,14 @@ local rhox_iee_list={
             end
             cm:add_unit_to_faction_mercenary_pool(faction, "wh2_dlc11_vmp_inf_crossbowmen", "renown", 0, 100, 6, 0, "", "", "", true, "wh2_dlc11_vmp_inf_crossbowmen")
             cm:add_unit_to_faction_mercenary_pool(faction, "wh2_dlc11_vmp_inf_handgunners", "renown", 0, 100, 1, 0, "", "", "", true, "wh2_dlc11_vmp_inf_handgunners")
+            
+            if faction:is_human() == false then
+                local target_region = cm:get_region("cr_combi_region_khuresh_1_2")
+                cm:instantly_set_settlement_primary_slot_level(target_region:settlement(), 3)
+                local target_slot = target_region:slot_list():item_at(1)
+                cm:instantly_upgrade_building_in_region(target_slot, "wh_main_vmp_garrison_2")
+                cm:heal_garrison(target_region:cqi())
+            end
         end,
         first_tick = function(faction, faction_key) 
         end
@@ -590,21 +598,13 @@ local rhox_iee_list={
                 cm:add_unit_to_faction_mercenary_pool(faction, kho_ror[i], "renown", 1, 100, 1, 0.1, "", "", "", true, kho_ror[i])
             end
             
-            local rhox_province_chaos_units={--dogs only as I don't know other thing's requirement
-                wh_main_chs_mon_chaos_warhounds_0= {1, 20, 1},
-                wh_main_chs_mon_chaos_warhounds_1= {0, 20, 1},
-            }
-
-
-            
-            local region_list = cm:model():world():region_manager():region_list()
-            for i=0,region_list:num_items()-1 do
-                local region= region_list:item_at(i)
-                for key, unit in pairs(rhox_province_chaos_units) do
-                    cm:add_unit_to_province_mercenary_pool(region, key, "raise_dead", unit[1], unit[2], unit[3], 1, "", "", faction_key, false, "wh3_dlc20_chs_province_pool")
-                end
+            if faction:is_human() == false then
+                local target_region = cm:get_region("cr_combi_region_ind_6_2")
+                cm:instantly_set_settlement_primary_slot_level(target_region:settlement(), 3)
+                local target_slot = target_region:slot_list():item_at(1)
+                cm:instantly_upgrade_building_in_region(target_slot, "wh3_main_kho_walls_minor_2")
+                cm:heal_garrison(target_region:cqi())
             end
-            
         end,
         first_tick = function(faction, faction_key) 
         end
@@ -710,6 +710,19 @@ local rhox_iee_list={
                 cm:disable_event_feed_events(true, "wh_event_category_diplomacy", "", "")
                 cm:force_declare_war("wh_main_chs_chaos", "cr_chs_po_hai", true, true)
                 cm:callback(function() cm:disable_event_feed_events(false, "wh_event_category_diplomacy", "", "") end, 0.5)
+            end
+            
+            local rhox_province_chaos_units={--dogs only as I don't know other thing's requirement
+                wh_main_chs_mon_chaos_warhounds_0= {1, 20, 1},
+                wh_main_chs_mon_chaos_warhounds_1= {0, 20, 1},
+            }
+            
+            local region_list = cm:model():world():region_manager():region_list()
+            for i=0,region_list:num_items()-1 do
+                local region= region_list:item_at(i)
+                for key, unit in pairs(rhox_province_chaos_units) do
+                    cm:add_unit_to_province_mercenary_pool(region, key, "raise_dead", unit[1], unit[2], unit[3], 1, faction_key, "", "", false, "wh3_dlc20_chs_province_pool")
+                end
             end
         end,
         first_tick = function(faction, faction_key) 

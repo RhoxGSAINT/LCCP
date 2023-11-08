@@ -4,3 +4,4 @@ order	special_ability	target_self	target_friends	target_enemies	phase
 1	hkrul_zach_pal	true	true	false	hkrul_zach_pal
 1	hkrul_zach_sword	true	false	false	hkrul_zach_sword
 1	hkrul_zach_heart	false	false	true	hkrul_zach_heart
+1	hkrul_zach_circlet	true	false	false	hkrul_zach_circlet

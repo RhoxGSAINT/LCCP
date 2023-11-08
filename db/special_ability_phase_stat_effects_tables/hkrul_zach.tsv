@@ -3,3 +3,5 @@ phase	stat	value	how
 hkrul_zach_pal	stat_damage_reflection	8.0000	add
 hkrul_zach_sword	stat_melee_damage_base	1.2500	mult
 hkrul_zach_sword	stat_melee_defence	20.0000	add
+hkrul_zach_circlet	stat_damage_reflection	15.0000	add
+hkrul_zach_circlet	stat_resistance_all	1.2500	mult

@@ -24,3 +24,6 @@ character_skills_localised_description_hkrul_karitamen_sword	Karitamen’s signa
 character_skills_localised_name_hkrul_karitamen_sword	Blades of Honourable Demise	false
 character_skills_localised_description_hkrul_karitamen_mask	The Death Scarab’s head and torso were completely protected from the elements and at least partially preserved against the ravages of time.	false
 character_skills_localised_name_hkrul_karitamen_mask	Karitamen's Death Mask	false
+unit_abilities_tooltip_text_hkrul_kita_bombard	Whispers of Ptra alone may rain down blistering rays of sunlight, striking down all those not worthy in his eyes.	true
+unit_abilities_onscreen_name_hkrul_kita_bombard	Ptra's Imminent Judgement	true
+effects_description_hkrul_kita_bombard	Ability: "Ptra's Imminent Judgement''	false
