@@ -9,3 +9,5 @@ unit_abilities_onscreen_name_hkrul_zach_sword	Helmgart's Brand	true
 unit_abilities_tooltip_text_hkrul_zach_heart	Zacharias hears the soft beating of any mortal heart from miles away, eagerly sucking the life essence from it's core.	true
 unit_abilities_onscreen_name_hkrul_zach_heart	Sycophant of Life	true
 effects_description_hkrul_zach_heart	Ability: "Sycophant of Life"	false
+unit_abilities_onscreen_name_hkrul_zach_circlet	Circlet of Rathek	false
+unit_abilities_tooltip_text_hkrul_zach_circlet	It's jewel has the power of invoking on the bearer the protection of the gods of lost Nehekhara.	true

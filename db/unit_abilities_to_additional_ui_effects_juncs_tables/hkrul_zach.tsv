@@ -1,3 +1,4 @@
 ability	effect
 #unit_abilities_to_additional_ui_effects_juncs_tables;0;db/unit_abilities_to_additional_ui_effects_juncs_tables/hkrul_zach	
 hkrul_zach_helm	wh_main_all_replenish_burst
+hkrul_zach_circlet	wh3_dlc20_ability_intensity_nearby_deaths

@@ -76,7 +76,7 @@ core:add_ui_created_callback(
             
             mixer_change_lord_name("1723188533", "hkrul_karitamen") 
             mixer_enable_custom_faction("1723188533")
-            mixer_add_starting_unit_list_for_faction("cr_tmb_sons_of_ptra", {"wh2_dlc09_tmb_inf_skeleton_spearmen_0","wh2_dlc09_tmb_inf_skeleton_warriors_0"})
+            mixer_add_starting_unit_list_for_faction("cr_tmb_sons_of_ptra", {"wh2_dlc09_tmb_inf_skeleton_spearmen_0","wh2_dlc09_tmb_mon_tomb_scorpion_0","wh2_dlc09_tmb_mon_carrion_0","wh2_dlc09_tmb_inf_skeleton_warriors_0"})
             mixer_add_faction_to_major_faction_list("cr_tmb_sons_of_ptra")
             
             mixer_change_lord_name("2066159894", "hkrul_duriath") 

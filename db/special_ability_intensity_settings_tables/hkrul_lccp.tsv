@@ -9,3 +9,4 @@ hkrul_dolmance_favorite2	0.0000	200.0000	false	kills_made	linear_multiplier
 hkrul_oerl_axes	0.0000	200.0000	false	kills_made	linear_multiplier
 hkrul_oerl_frenzy	0.0000	200.0000	false	enemies_in_range	linear_multiplier
 hkrul_burlok_warm	0.0000	200.0000	false	time_active	linear_multiplier
+hkrul_zach_circlet	0.0000	200.0000	false	nearby_all_deaths	linear_multiplier

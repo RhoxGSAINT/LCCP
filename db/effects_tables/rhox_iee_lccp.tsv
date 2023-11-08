@@ -11,7 +11,7 @@ rhox_hrothyogg_effect_force_stat_melee_attack_maneaters	melee.png	431	melee.png	
 rhox_hrothyogg_effect_force_stat_melee_defence_maneaters	defence.png	451	defence.png	battle	true
 hkrul_spew_riders_rank	experience.png	800	experience.png	campaign	true
 hkrul_spew_dummy_quest	effect_bundle_spew_quest_dummy.png	1	effect_bundle_spew_quest_dummy.png	both	true
-rhox_dolmance_devotee_dummy	effect_bundle_devote2.png	70	effect_bundle_devote2.png	campaign	true
+rhox_dolmance_devotee_dummy	effect_bundle_devote2.png	3	effect_bundle_devote2.png	campaign	true
 rhox_dolmance_wine_dummy	effect_bundle_devote.png	2	effect_bundle_devote.png	campaign	true
 rhox_sceolan_embrace_cold_dummy	kislev_ice_court.png	10	kislev_ice_court.png	campaign	true
 rhox_sceolan_ice_heart_army_ability	general_ability.png	301	general_ability.png	battle	true
@@ -24,6 +24,7 @@ rhox_engra_archaon_effect_dummy	allegiance.png	1	allegiance.png	battle	true
 rhox_arbaal_resource_per_turn	effect_bundle_arbaal.png	461	effect_bundle_arbaal.png	campaign	true
 rhox_arbaal_spawn_spawn	item_ability.png	300	item_ability.png	battle	true
 hkrul_hroth_stew	item_ability.png	300	item_ability.png	battle	true
+hkrul_kita_bombard	item_ability.png	1	item_ability.png	battle	true
 effect_bundle_arbaal_dummy1	effect_bundle_arbaal_dummy1.png	3	effect_bundle_arbaal_dummy1.png	both	true
 effect_bundle_arbaal_dummy2	effect_bundle_arbaal_dummy2.png	3	effect_bundle_arbaal_dummy2.png	both	false
 rhox_thorgar_chaos_dummy	reign_of_chaos.png	1	reign_of_chaos.png	campaign	true

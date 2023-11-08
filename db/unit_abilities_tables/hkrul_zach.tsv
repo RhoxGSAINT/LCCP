@@ -4,3 +4,4 @@ hkrul_zach_helm	true	hkrul_zach_helm		wh_type_regeneration		wh_main_anc_group_un
 hkrul_zach_pal	true	hkrul_zach_pal		wh_type_area_of_augments		wh_main_anc_group_uncommon	true	false	passive		false
 hkrul_zach_sword	true	hkrul_zach_sword		wh_type_augment		wh_main_anc_group_rare	true	false	active		false
 hkrul_zach_heart	true	hkrul_zach_body		wh_type_direct_damage		wh_main_anc_group_unique	true	false	active		false
+hkrul_zach_circlet	true	hkrul_zach_circlet		wh_type_augment		wh_main_anc_group_unique	true	false	passive		false
