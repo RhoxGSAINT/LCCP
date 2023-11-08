@@ -8,12 +8,12 @@ incidents_localised_description_rhox_hrothyogg_mercenary_recieved	Ogre mercenari
 incidents_localised_title_rhox_hrothyogg_mercenary_recieved	Mercenary Received	false
 event_feed_strings_text_rhox_arbaal_punishment_title	Khorne's punishment	false
 event_feed_strings_text_rhox_arbaal_punishment_primary_detail	Khorne's punishment	false
-event_feed_strings_text_rhox_arbaal_punishment_secondary_detail	Your actions in these dire times have displeased the Khorne. \\n\\n[[col:dark_r]][[img:ui/campaign ui/effect_bundles/effect_bundle_arbaal.png]][[/img]] Your faction has lost huge amount of reputation and will suffer from the consequences[[/col]]	false
+event_feed_strings_text_rhox_arbaal_punishment_secondary_detail	Retreat, withdrawal or defeat by his Destroyer bring shame on Khorne's name. His punishment is grave. \\n\\n[[col:dark_r]][[img:ui/campaign ui/effect_bundles/effect_bundle_arbaal.png]][[/img]] Arbaal has lost a huge amount of reputation and will suffer from the consequences[[/col]]	false
 incidents_localised_description_rhox_hrothyogg_toll_collected	You have collected a toll from tresspassing forces. Lovely	false
 incidents_localised_title_rhox_hrothyogg_toll_collected	Toll Collected	false
 incidents_localised_description_rhox_hrothyogg_toll_gang	Notorious Ogre Hrothyogg, has collected toll from you\\n\\n[[col:red]]This has happened because you were in the same region with Hrothyogg where he is controlling the settlement while not having allaince or war with him[[/col]]	false
 incidents_localised_title_rhox_hrothyogg_toll_gang	Toll Robbery	false
-incidents_localised_description_rhox_tokmar_captured_beast	From recent activities, Tokmar Tribe has captured some beasts for the battle	false
+incidents_localised_description_rhox_tokmar_captured_beast	From recent hunts, the Tokmars Tribe have captured beasts for battle.	false
 incidents_localised_title_rhox_tokmar_captured_beast	Animal Capture	false
 incidents_button_text_rhox_lccp_turn_two_incident_thorgar	incidents_button_text_rhox_lccp_turn_two_incident_thorgar	false
 incidents_localised_description_rhox_lccp_turn_two_incident_thorgar	incidents_localised_description_rhox_lccp_turn_two_incident_thorgar	false
@@ -27,5 +27,5 @@ incidents_localised_title_rhox_lccp_turn_two_incident_arbaal	incidents_localised
 incidents_button_text_rhox_lccp_turn_two_incident_duriath	incidents_button_text_rhox_lccp_turn_two_incident_duriath	false
 incidents_localised_description_rhox_lccp_turn_two_incident_duriath	incidents_localised_description_rhox_lccp_turn_two_incident_duriath	false
 incidents_localised_title_rhox_lccp_turn_two_incident_duriath	incidents_localised_title_rhox_lccp_turn_two_incident_duriath	false
-incidents_localised_description_rhox_arbaal_used_button_ritual	Suddenly, Arbaal returns to a calm state and meditates. After that, he becomes a bright tactician and makes all the logistics and future plans. \\n\\n[[col:green]]Due to Arbaal's plan, all of your character's movement is restored[[/col]]\\n[[col:red]]But Khorne was angry and you lost some of the reputation[[/col]]	false
-incidents_localised_title_rhox_arbaal_used_button_ritual	Spark of Arbaal	false
+incidents_localised_description_rhox_arbaal_used_button_ritual	His momentum breaks the very laws of time. \\n\\n[[col:green]]Due to Arbaal's rage, all of your character's movement is restored[[/col]]\\n[[col:red]]But Khorne is still not satisfied and demands blood, decreasing your reputation[[/col]]	false
+incidents_localised_title_rhox_arbaal_used_button_ritual	Arbaal's Eruption	false
