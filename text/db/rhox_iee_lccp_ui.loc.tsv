@@ -1,6 +1,6 @@
 key	text	tooltip
 #Loc;1;text/db/rhox_iee_lccp_ui.loc		
-campaign_localised_strings_string_rhox_valbrand_gift_button_tooltip	Gifts of Chaos||Use your harvested [[img:icon_slaves]][[/img]]Slaves to claim powerful rewards from the Khorne	false
+campaign_localised_strings_string_rhox_valbrand_gift_button_tooltip	Gifts of Chaos||Use your harvested [[img:icon_slaves]][[/img]]Slaves to claim powerful rewards from Khorne	false
 campaign_localised_strings_string_rhox_torunubar_foreign_building_lock	[[col:red]]You can only upgrade or build this building by sending a convoy to this region[[/col]]	false
 rhox_torinubar_evil_taken_title	Entrepot Lost!	false
 rhox_torinubar_evil_taken_description	Grave news my lord. One of our major trade cities has fallen into the forces of evil. While we could still make a few smuggling attempts into the area, we can't build or maintain an entrepot in this settlement.	false
