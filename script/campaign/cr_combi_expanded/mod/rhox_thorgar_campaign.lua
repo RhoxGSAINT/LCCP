@@ -171,6 +171,10 @@ core:add_listener(
 
 		local x, y = cm:find_valid_spawn_location_for_character_from_character(faction_key, cm:char_lookup_str(character), true, 5)
 		local new_char_interface = nil
+		local is_leader = false
+		if character:faction():name() == "rhox_nor_khazags" then
+           is_leader = true 
+		end
 		cm:create_force_with_general(
             -- faction_key, unit_list, region_key, x, y, agent_type, agent_subtype, forename, clan_name, family_name, other_name, id, make_faction_leader, success_callback
             faction_key,
@@ -184,7 +188,7 @@ core:add_listener(
             "",
             "names_name_5670700835",
             "",
-            true,
+            is_leader,
             function(cqi)
                 new_char_interface = cm:get_character_by_cqi(cqi)
 				local new_char_lookup = cm:char_lookup_str(cqi)
