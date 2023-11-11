@@ -192,8 +192,11 @@ core:add_listener(
             function(cqi)
                 new_char_interface = cm:get_character_by_cqi(cqi)
 				local new_char_lookup = cm:char_lookup_str(cqi)
+				cm:reassign_ancillaries_to_character_of_same_faction(old_char_details.character_details, new_char_interface:character_details())
+				
                 cm:disable_event_feed_events(true, "wh_event_category_character", "", "")
-                cm:set_character_immortality(cm:char_lookup_str(character_cqi), false);          
+                cm:suppress_immortality(character:family_member():command_queue_index() ,true)
+                --cm:set_character_immortality(cm:char_lookup_str(character_cqi), false);          
                 cm:kill_character(cm:char_lookup_str(character_cqi), true)
                 cm:callback(function() cm:disable_event_feed_events(false, "", "", "wh_event_category_character") end, 0.2);
 
@@ -203,8 +206,8 @@ core:add_listener(
                 cm:add_scripted_composite_scene_to_logical_position(composite_scene, composite_scene, x, y, x, y + 1, true, false, false);
 
 				if old_char_details.traits then
-					for i =1, #old_char_details do
-						local trait_to_copy = old_char_details[i]
+					for i =1, #old_char_details.traits do
+						local trait_to_copy = old_char_details.traits[i]
 						cm:force_add_trait(new_char_lookup, trait_to_copy)
 					end
 				end
