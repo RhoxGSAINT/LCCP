@@ -8,3 +8,5 @@ wh_dlc08_nor_norsca	false	hkrul_oerl	true	true	ui/portraits/portholes/no_culture
 wh_dlc08_nor_norsca	false	hkrul_bearmen	false	true				false		false
 wh_dlc08_nor_norsca	false	hkrul_beorg_brown_feral	false	true				true		false
 wh_dlc08_nor_norsca	false	hkrul_beorg_ice_feral	false	true				true		false
+wh_dlc08_nor_norsca	false	hkrul_beorg_bear_sem	false	true				true		false
+wh_dlc08_nor_norsca	false	hkrul_beorg_brown_feral_marked	false	true				true		false
