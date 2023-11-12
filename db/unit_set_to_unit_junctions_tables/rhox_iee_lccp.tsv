@@ -73,9 +73,8 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			wh3_dlc20_chs_inf_chaos_warriors_msla_hellscourges	rhox_dolmance_slaanesh_inf	false
 			wh3_dlc20_chs_inf_chosen_msla	rhox_dolmance_slaanesh_inf	false
 			wh3_dlc20_chs_inf_chosen_msla_hellscourges	rhox_dolmance_slaanesh_inf	false
-			wh3_main_sla_inf_marauders_1	rhox_dolmance_slaanesh_inf	false
-			wh3_main_sla_inf_marauders_0	rhox_dolmance_slaanesh_inf	false
-			wh3_main_sla_inf_marauders_2	rhox_dolmance_slaanesh_inf	false
+			wh3_dlc20_chs_inf_chaos_marauders_msla_hellscourges	rhox_dolmance_slaanesh_inf	false
+			wh3_dlc20_chs_inf_chaos_marauders_msla	rhox_dolmance_slaanesh_inf	false
 			wh3_dlc20_chs_cav_marauder_horsemen_mtze_javelins	hkrul_volrik_mtze	false
 			wh3_dlc20_chs_inf_chaos_marauders_mtze	hkrul_volrik_mtze	false
 			wh3_dlc20_chs_inf_chaos_marauders_mtze_spears	hkrul_volrik_mtze	false
