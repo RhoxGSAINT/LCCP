@@ -20,3 +20,4 @@ rhox_slaurith_knight_7	SCRIPTED			tmb/generic	rom_event_mission.png	false	false	
 rhox_slaurith_knight_8	SCRIPTED			tmb/generic	rom_event_mission.png	false	false	piece_of_eight		0	0	false	false	0.0000		true		false
 rhox_duriath_init_mission	SCRIPTED			brt/generic	rom_event_mission.png	false	true	Military		0	0	false	false	0.0000		true	Success! You have achieved one of your goals.	false
 rhox_thorgar_olaf_mission	SCRIPTED			brt/generic	rom_event_mission.png	false	true	Military		0	0	false	false	0.0000		true		false
+rhox_spew_survival_mission	FIGHT_SET_PIECE_BATTLE			emp/generic	rom_event_mission.png	false	false	Quest	wh3_survival_nurgle_fe	1033	592	false	false	0.0000		true		false

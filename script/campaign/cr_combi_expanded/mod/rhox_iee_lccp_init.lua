@@ -434,7 +434,13 @@ local rhox_iee_list={
                     {"wh_main_chs_art_hellcannon", "daemonic_summoning", 0, 0, 4},
                     {"wh3_main_kho_veh_skullcannon_0", "daemonic_summoning", 0, 0, 4}
             }
+            local rhox_valbrand_faction_units = {
+                ---unit_key, recruitment_source_key,  starting amount, replen chance, max in pool
+                    {"wh3_dlc20_chs_mon_warshrine", "daemonic_summoning", 0, 0, 2},
+                    {"wh3_dlc20_chs_mon_warshrine_mkho", "daemonic_summoning", 0, 0, 2},
+            }
             rhox_add_warriors_units(cm:get_faction(faction_key), rhox_valbrand_gift_units);
+            rhox_add_faction_pool_units(cm:get_faction(faction_key), rhox_valbrand_faction_units);
             
             if faction:is_human() then
                 cm:callback(
@@ -485,8 +491,6 @@ local rhox_iee_list={
                 ---unit_key, recruitment_source_key,  starting amount, replen chance, max in pool
                     {"wh3_main_tze_mon_flamers_0", "daemonic_summoning", 0, 0, 4},
                     {"wh3_main_tze_mon_lord_of_change_0", "daemonic_summoning", 0, 0, 2},
-                    {"wh3_dlc20_chs_mon_warshrine", "daemonic_summoning", 0, 0, 2},
-                    {"wh3_dlc20_chs_mon_warshrine_mtze", "daemonic_summoning", 0, 0, 2},
                     {"wh3_main_tze_mon_soul_grinder_0", "daemonic_summoning", 0, 0, 2},
                     {"wh3_main_tze_inf_pink_horrors_0", "daemonic_summoning", 1, 0, 4},
                     {"wh_main_chs_art_hellcannon", "daemonic_summoning", 0, 0, 4},
@@ -495,7 +499,9 @@ local rhox_iee_list={
             local rhox_volrik_faction_units = {
                 ---unit_key, recruitment_source_key,  starting amount, replen chance, max in pool
                     {"wh3_dlc24_tze_mon_mutalith_vortex_beast", "daemonic_summoning", 0, 0, 2},
-                    {"wh3_dlc24_tze_mon_cockatrice", "daemonic_summoning", 0, 0, 4}
+                    {"wh3_dlc24_tze_mon_cockatrice", "daemonic_summoning", 0, 0, 4},
+                    {"wh3_dlc20_chs_mon_warshrine", "daemonic_summoning", 0, 0, 2},
+                    {"wh3_dlc20_chs_mon_warshrine_mtze", "daemonic_summoning", 0, 0, 2},
             }
             rhox_add_warriors_units(cm:get_faction(faction_key), rhox_volrik_gift_units);
             rhox_add_faction_pool_units(cm:get_faction(faction_key), rhox_volrik_faction_units);
