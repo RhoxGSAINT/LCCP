@@ -43,7 +43,7 @@ loading_screen_quotes_bulletpoints_hkrul_orghotts	[[img:ui/skins/default/icon_st
 loading_screen_quotes_bulletpoints_hkrul_hrothyogg	[[img:ui/skins/default/modifier_icon_armour_piercing.png]][[/img]]Armour-piercing||[[img:ui/battle ui/ability_icons/ogre_charge.png]][[/img]]Ogre Charge||Melee Expert	false
 loading_screen_quotes_bulletpoints_hkrul_burlok	[[img:ui/battle ui/ability_icons/charge_defense.png]][[/img]]Charge Defence Against All||Melee Expert	false
 loading_screen_quotes_bulletpoints_hkrul_dolmance	Melee Expert||Duelist	false
-loading_screen_quotes_bulletpoints_hkrul_thorgar	[[img:ui/skins/default/modifier_icon_bonus_vs_infantry.png]][[/img]]Anti-infantry||Melee expert||[[img:ui/skins/default/icon_stat_armour.png]][[/img]]Armoured	false
+loading_screen_quotes_bulletpoints_hkrul_thorgar	[[img:ui/skins/default/modifier_icon_bonus_vs_infantry.png]][[/img]]Anti-infantry||[[img:ui/skins/default/modifier_icon_armour_piercing.png]][[/img]]Armour-piercing||[[img:ui/skins/default/icon_stat_armour.png]][[/img]]Armoured	false
 loading_screen_quotes_bulletpoints_hkrul_arbaal	[[img:ui/skins/default/modifier_icon_bonus_vs_infantry.png]][[/img]]Anti-infantry||[[img:ui/skins/default/icon_stat_armour.png]][[/img]]Armoured||[[img:ui/skins/default/modifier_icon_armour_piercing.png]][[/img]]Armour-piercing||[[img:ui/battle ui/ability_icons/wh_main_unit_passive_frenzy.png]][[/img]]Frenzy	false
 loading_screen_quotes_bulletpoints_hkrul_engra	[[img:ui/skins/default/modifier_icon_armour_piercing.png]][[/img]]Armour-piercing||Melee Expert	false
 loading_screen_quotes_bulletpoints_hkrul_vroth	[[img:ui/skins/default/modifier_icon_bonus_vs_large.png]][[/img]]Anti-large Missiles||Decent Melee Combatant	false
