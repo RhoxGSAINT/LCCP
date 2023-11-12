@@ -1,6 +1,5 @@
 key	text	tooltip
 #Loc;1;text/db/hkrul_lccp_loading_screens.loc		
-loading_screen_quotes_bulletpoints_hkrul_valbrand	PLACEHOLDER	false
 loading_screen_quotes_description_hkrul_valbrand	Valbrand Fireblade, patron of Khorne and dreaded slaver of the seven seas carries a sword the size of a dozen men.	false
 loading_screen_quotes_title_hkrul_valbrand	Valbrand Fireblade	false
 loading_screen_quotes_title_hkrul_sceolan	Sceolan of the Hooked Blade	false
@@ -35,19 +34,20 @@ loading_screen_quotes_description_hkrul_karitamen	Lord Karitamen, as the Chosen 
 loading_screen_quotes_description_hkrul_duriath	Duriath Helbane is one of the most feared corsairs under employ of the Witch King, tasked with the most dangerous expeditions.	false
 loading_screen_quotes_description_hkrul_beorg	Beorg, Son of Bran is a descendant of the Great Bear and is the mighty shapeshifting chieftain of the Ursfjordings Tribe.	false
 loading_screen_quotes_description_hkrul_aelfric	Cyenwulf is the High Zar of the Iron Wolf tribe, a fearsome chaos tribe situated on the very edge of the mortal realms.	false
-loading_screen_quotes_bulletpoints_hkrul_sceolan	PLACEHOLDER	false
-loading_screen_quotes_bulletpoints_hkrul_volrik	PLACEHOLDER	false
-loading_screen_quotes_bulletpoints_hkrul_zach	PLACEHOLDER	false
-loading_screen_quotes_bulletpoints_hkrul_torinubar	PLACEHOLDER	false
-loading_screen_quotes_bulletpoints_hkrul_orghotts	PLACEHOLDER	false
-loading_screen_quotes_bulletpoints_hkrul_hrothyogg	PLACEHOLDER	false
-loading_screen_quotes_bulletpoints_hkrul_burlok	PLACEHOLDER	false
-loading_screen_quotes_bulletpoints_hkrul_dolmance	PLACEHOLDER	false
-loading_screen_quotes_bulletpoints_hkrul_thorgar	PLACEHOLDER	false
-loading_screen_quotes_bulletpoints_hkrul_arbaal	PLACEHOLDER	false
-loading_screen_quotes_bulletpoints_hkrul_engra	PLACEHOLDER	false
-loading_screen_quotes_bulletpoints_hkrul_vroth	PLACEHOLDER	false
-loading_screen_quotes_bulletpoints_hkrul_karitamen	PLACEHOLDER	false
-loading_screen_quotes_bulletpoints_hkrul_duriath	PLACEHOLDER	false
-loading_screen_quotes_bulletpoints_hkrul_beorg	PLACEHOLDER	false
-loading_screen_quotes_bulletpoints_hkrul_aelfric	PLACEHOLDER	false
+loading_screen_quotes_bulletpoints_hkrul_valbrand	The Dragon Blade||[[img:ui/skins/default/modifier_icon_bonus_vs_infantry.png]][[/img]]Anti-infantry||Duellist	false
+loading_screen_quotes_bulletpoints_hkrul_sceolan	Melee expert||[[img:ui/skins/default/icon_stat_armour.png]][[/img]]Armoured||Damage Dealer	false
+loading_screen_quotes_bulletpoints_hkrul_volrik	[[img:ui/skins/default/modifier_icon_bonus_vs_infantry.png]][[/img]]Anti-infantry||Barrier	false
+loading_screen_quotes_bulletpoints_hkrul_zach	Spellcaster||[[img:ui/skins/default/modifier_icon_bonus_vs_infantry.png]][[/img]]Anti-infantry	false
+loading_screen_quotes_bulletpoints_hkrul_torinubar	Spellcaster||[[img:ui/skins/default/modifier_icon_bonus_vs_infantry.png]][[/img]]Anti-infantry||Melee Expert	false
+loading_screen_quotes_bulletpoints_hkrul_orghotts	[[img:ui/skins/default/icon_stat_armour.png]][[/img]]Armoured||[[img:ui/skins/default/modifier_icon_poison.png]][[/img]]Poison attacks	false
+loading_screen_quotes_bulletpoints_hkrul_hrothyogg	[[img:ui/skins/default/modifier_icon_armour_piercing.png]][[/img]]Armour-piercing||[[img:ui/battle ui/ability_icons/ogre_charge.png]][[/img]]Ogre Charge||Melee Expert	false
+loading_screen_quotes_bulletpoints_hkrul_burlok	[[img:ui/battle ui/ability_icons/charge_defense.png]][[/img]]Charge Defence Against All||Melee Expert	false
+loading_screen_quotes_bulletpoints_hkrul_dolmance	Melee Expert||Duelist	false
+loading_screen_quotes_bulletpoints_hkrul_thorgar	[[img:ui/skins/default/modifier_icon_bonus_vs_infantry.png]][[/img]]Anti-infantry||[[img:ui/skins/default/modifier_icon_armour_piercing.png]][[/img]]Armour-piercing||[[img:ui/skins/default/icon_stat_armour.png]][[/img]]Armoured	false
+loading_screen_quotes_bulletpoints_hkrul_arbaal	[[img:ui/skins/default/modifier_icon_bonus_vs_infantry.png]][[/img]]Anti-infantry||[[img:ui/skins/default/icon_stat_armour.png]][[/img]]Armoured||[[img:ui/skins/default/modifier_icon_armour_piercing.png]][[/img]]Armour-piercing||[[img:ui/battle ui/ability_icons/wh_main_unit_passive_frenzy.png]][[/img]]Frenzy	false
+loading_screen_quotes_bulletpoints_hkrul_engra	[[img:ui/skins/default/modifier_icon_armour_piercing.png]][[/img]]Armour-piercing||Melee Expert	false
+loading_screen_quotes_bulletpoints_hkrul_vroth	[[img:ui/skins/default/modifier_icon_bonus_vs_large.png]][[/img]]Anti-large Missiles||Decent Melee Combatant	false
+loading_screen_quotes_bulletpoints_hkrul_karitamen	Spellcaster||[[img:ui/skins/default/modifier_icon_armour_piercing.png]][[/img]]Armour-piercing	false
+loading_screen_quotes_bulletpoints_hkrul_duriath	[[img:icon_ap_ranged]][[/img]]Armour-piercing missiles||[[img:ui/skins/default/icon_stat_armour.png]][[/img]]Armoured	false
+loading_screen_quotes_bulletpoints_hkrul_beorg	Special Ranged Weapon||[[img:ui/skins/default/modifier_icon_bonus_vs_large.png]][[/img]]Anti-large||[[img:ui/battle ui/ability_icons/stalk.png]][[/img]]Stalk||Shapeshifter	false
+loading_screen_quotes_bulletpoints_hkrul_aelfric	Melee Expert||[[img:ui/skins/default/modifier_icon_shield.png]][[/img]]Shielded||[[img:ui/skins/default/modifier_icon_frostbite.png]][[/img]]Frostbite attacks	false
