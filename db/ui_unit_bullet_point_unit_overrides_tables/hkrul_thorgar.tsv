@@ -2,8 +2,9 @@ bullet_point	unit_key
 #ui_unit_bullet_point_unit_overrides_tables;0;db/ui_unit_bullet_point_unit_overrides_tables/hkrul_thorgar	
 anti_infantry	hkrul_thorgar
 armoured	hkrul_thorgar
-melee_expert	hkrul_thorgar
+armour_piercing	hkrul_thorgar
 anti_infantry	hkrul_thorgar_chariot
 melee_expert	hkrul_thorgar_chariot
+armour_piercing	hkrul_thorgar_chariot
 terror	hkrul_thorgar_daemon_prince
 melee_expert	hkrul_thorgar_daemon_prince
