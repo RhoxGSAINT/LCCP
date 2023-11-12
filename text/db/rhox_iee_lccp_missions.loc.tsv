@@ -40,3 +40,6 @@ missions_localised_title_rhox_duriath_init_mission	Establish monopoly on the far
 missions_localised_description_rhox_duriath_init_mission	By taking this place, all the trade route from far east to Naggaroth will be yours!	false
 missions_localised_title_rhox_thorgar_olaf_mission	Find Olaf	false
 missions_localised_description_rhox_thorgar_olaf_mission	You need to build a flesh man out of Cathayans	false
+missions_localised_title_rhox_spew_survival_mission	PLACEHOLDER	false
+missions_localised_description_rhox_spew_survival_mission	PLACEHOLDER	false
+missions_localised_mission_completed_text_rhox_spew_survival_mission	PLACEHOLDER	false

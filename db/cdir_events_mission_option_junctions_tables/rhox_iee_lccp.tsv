@@ -55,3 +55,6 @@ id	mission_key	option_key	value	target
 1786528713	rhox_sceolan_conderation_mission	VAR_MISSION_LENGTH_INFINITE		default
 1786528714	rhox_sceolan_conderation_mission	GEN_TARGET_NONE		default
 1786528715	rhox_sceolan_conderation_mission	VAR_OBJECTIVE_REQUIRES_VICTORY		default
+1786528716	rhox_spew_survival_mission	VAR_CHANCE	100	default
+1786528717	rhox_spew_survival_mission	VAR_MISSION_LENGTH_INFINITE		default
+1786528718	rhox_spew_survival_mission	GEN_TARGET_NONE		default
