@@ -1,0 +1,19 @@
+key	localised_description	localised_title	bundle_target	priority	ui_icon	is_global_effect	show_in_3d_space	owner_only
+#effect_bundles_tables;4;db/effect_bundles_tables/rhox_iee_lccp_leader								
+rhox_torinubar_faction_trait			faction	1	effect_bundle_thorinubar.png	true	false	true
+rhox_valbrand_faction_trait			faction	1	effect_bundle_valbrand.png	true	false	true
+rhox_sceolan_faction_trait			faction	1	effect_bundle_sceolan.png	true	false	true
+rhox_volrik_faction_trait			faction	1	effect_bundle_volrik.png	true	false	true
+rhox_zach_faction_trait			faction	1	effect_bundle_zach.png	true	false	true
+rhox_orghotts_faction_trait			faction	1	effect_bundle_spew.png	true	false	true
+rhox_hrothyogg_faction_trait			faction	1	effect_bundle_hroth.png	true	false	true
+rhox_slaurith_faction_trait			faction	1	effect_bundle_slaurith.png	true	false	true
+rhox_burlok_faction_trait			faction	1	effect_bundle_burlok.png	true	false	true
+rhox_dolmance_faction_trait			faction	1	effect_bundle_dolmance.png	true	false	true
+rhox_thorgar_faction_trait			faction	1	effect_bundle_thorgar.png	true	false	true
+rhox_arbaal_faction_trait			faction	1	effect_bundle_arbaal.png	true	false	true
+rhox_engra_faction_trait			faction	1	effect_bundle_engra.png	true	false	true
+rhox_vroth_faction_trait			faction	1	effect_bundle_vroth.png	true	false	true
+rhox_karitamen_faction_trait			faction	1	effect_bundle_kita.png	true	false	true
+rhox_duriath_faction_trait			faction	1	effect_bundle_duriath.png	true	false	true
+rhox_beorg_faction_trait			faction	1	effect_bundle_beorg.png	true	false	true

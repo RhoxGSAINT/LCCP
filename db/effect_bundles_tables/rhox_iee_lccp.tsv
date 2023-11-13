@@ -1,31 +1,16 @@
 key	localised_description	localised_title	bundle_target	priority	ui_icon	is_global_effect	show_in_3d_space	owner_only
 #effect_bundles_tables;4;db/effect_bundles_tables/rhox_iee_lccp								
-rhox_torinubar_faction_trait			faction	1	effect_bundle_thorinubar.png	true	false	true
 rhox_torinubar_dilemma_attrition			force	1	attrition.png	true	false	true
 rhox_torinubar_dilemma_defence			force	1	defence.png	true	false	true
 rhox_torinubar_dilemma_offence			force	1	melee.png	true	false	true
 rhox_torinubar_purchase_east			none	1	rhox_torinubar_east_resource.png	true	false	true
 rhox_torinubar_purchase_west			none	1	rhox_torinubar_west_resource.png	true	false	true
-rhox_valbrand_faction_trait			faction	1	effect_bundle_valbrand.png	true	false	true
-rhox_sceolan_faction_trait			faction	1	effect_bundle_sceolan.png	true	false	true
-rhox_volrik_faction_trait			faction	1	effect_bundle_volrik.png	true	false	true
-rhox_zach_faction_trait			faction	1	effect_bundle_zach.png	true	false	true
 rhox_valbrand_innate_effect_bundle			character	1	effect_bundle_valbrand.png	false	false	true
 rhox_volrik_cotw_hidden_effect_bundle			faction	1		false	false	true
 rhox_volrik_wind_of_magic_high			force	1	magic.png	true	false	true
-rhox_orghotts_faction_trait			faction	1	effect_bundle_spew.png	true	false	true
-rhox_hrothyogg_faction_trait			faction	1	effect_bundle_hroth.png	true	false	true
-rhox_slaurith_faction_trait			faction	1	effect_bundle_slaurith.png	true	false	true
-rhox_burlok_faction_trait			faction	1	effect_bundle_burlok.png	true	false	true
-rhox_dolmance_faction_trait			faction	1	effect_bundle_dolmance.png	true	false	true
-rhox_thorgar_faction_trait			faction	1	effect_bundle_thorgar.png	true	false	true
 rhox_sceolan_embrace_cold			force	1	kislev_ice_court.png	true	true	true
 rhox_sceolan_cathay_punished			faction	1	diplomacy.png	true	false	true
 rhox_sceolan_cathay_spared			faction	1	diplomacy.png	true	false	true
-rhox_arbaal_faction_trait			faction	1	effect_bundle_arbaal.png	true	false	true
-rhox_engra_faction_trait			faction	1	effect_bundle_engra.png	true	false	true
-rhox_vroth_faction_trait			faction	1	effect_bundle_vroth.png	true	false	true
-rhox_karitamen_faction_trait			faction	1	effect_bundle_kita.png	true	false	true
 rhox_engra_campaign_progress_opeation_set_1			faction	1	effect_bundle_engra.png	true	false	true
 rhox_engra_campaign_progress_opeation_set_2			faction	1	effect_bundle_engra.png	true	false	true
 rhox_engra_campaign_progress_opeation_set_3			faction	1	effect_bundle_engra.png	true	false	true
@@ -35,5 +20,4 @@ rhox_arbaal_resource_effects_2			faction	1	effect_bundle_arbaal.png	false	false	
 rhox_arbaal_resource_effects_3			faction	1	effect_bundle_arbaal.png	false	false	true
 rhox_arbaal_resource_effects_4			faction	1	effect_bundle_arbaal.png	false	false	true
 rhox_arbaal_other_faction_curse			faction	1	effect_bundle_arbaal.png	true	false	true
-rhox_duriath_faction_trait			faction	1	effect_bundle_duriath.png	true	false	true
 rhox_karitamen_hidden_effect_bundle			faction	1		false	false	true
