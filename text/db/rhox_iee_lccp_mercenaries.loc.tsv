@@ -7,3 +7,8 @@ mercenary_unit_groups_replenishment_reason_rhox_hrothyogg_ogr_inf_maneaters_3	Yo
 mercenary_unit_groups_replenishment_reason_rhox_lenk_nor_feral_manticore	This unit can be replenished by:\\n\\n[[img:bullet_point_white]][[/img]] Raiding Chaotic Wasteland regions\\n[[img:bullet_point_white]][[/img]] Raiding Chaos Corrupted regions (Undivided or Daemonic)\\n[[img:bullet_point_white]][[/img]] Attacking Warriors of Chaos settlements	false
 mercenary_unit_groups_replenishment_reason_rhox_lenk_nor_mon_warwolves_0	This unit can be replenished by:\\n\\n[[img:bullet_point_white]][[/img]] Raiding Temperate regions\\n[[img:bullet_point_white]][[/img]] Attacking Norsca settlements	false
 mercenary_unit_groups_replenishment_reason_rhox_lenk_nor_mon_war_mammoth_0	This unit can be replenished by:\\n\\n[[img:bullet_point_white]][[/img]] Attacking Norsca settlements	false
+campaign_localised_strings_string_hkrul_bearmen_lock	[[col:red]]This Regiment of Renown will unlock only if you ally or Confederate Ursfjordings faction[[/col]]	false
+campaign_localised_strings_string_hkrul_beorg_bear_sem_lock	[[col:red]]This Regiment of Renown will unlock only if you ally or Confederate Ursfjordings faction[[/col]]	false
+mercenary_unit_groups_replenishment_reason_hkrul_beorg_brown_feral	You have chance of gaining them after winning the battle with Beorg	false
+mercenary_unit_groups_replenishment_reason_hkrul_beorg_brown_feral_marked	You have chance of gaining them after winning the battle with Beorg	false
+mercenary_unit_groups_replenishment_reason_hkrul_beorg_ice_feral	You have chance of gaining them after winning the battle with Beorg	false
