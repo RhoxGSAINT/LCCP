@@ -25,8 +25,10 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_thorgar_daemon_prince	nor_all	false
 			hkrul_valbrand	all_non_chs	false
 			hkrul_valbrand	nor_all	false
-			hkrul_volrik	all_non_chs	false
+			hkrul_volrik	all_non_chs	true
 			hkrul_volrik	nor_all	false
+			hkrul_volrik_chariot	all_non_chs	true
+			hkrul_volrik_chariot	nor_all	false
 			hkrul_vroth	all_non_chs	true
 			hkrul_vroth	nor_all	false
 			hkrul_vroth_chariot	all_non_chs	true
