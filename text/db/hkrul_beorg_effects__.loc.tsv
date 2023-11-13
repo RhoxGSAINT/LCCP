@@ -14,4 +14,4 @@ effects_description_hkrul_beorg_bear_flanker	Attribute: Devastating Flanker for 
 effects_description_hkrul_beorg_hunter_vanguard	Attribute: Vanguard Deployment for Marauder Hunter units	false
 effects_description_hkrul_beorg_missile_reload	Reload time reduction: %+n% for Marauder Hunter units	false
 effects_description_hkrul_beorg_sword		false
-effects_description_hkrul_beorg_pal		false
+effects_description_hkrul_beorg_mark	Ability: "Mark of the Bear''	false

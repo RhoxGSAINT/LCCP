@@ -7,3 +7,5 @@ hkrul_oerl_horn	stat_resistance_all	1.2500	mult
 hkrul_oerl_axe	stat_melee_attack	25.0000	add
 hkrul_oerl_horn_enemy	stat_melee_defence	-10.0000	add
 hkrul_oerl_horn_enemy	stat_resistance_physical	0.8500	mult
+hkrul_tyeddi	scalar_splash_attack_power	1.5000	mult
+hkrul_tyeddi	stat_melee_attack	20.0000	add
