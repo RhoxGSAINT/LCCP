@@ -705,6 +705,7 @@ local rhox_iee_list={
             rhox_add_faction_pool_units(cm:get_faction(faction_key), rhox_engra_faction_pool_units);
             if faction:is_human() then
                 cm:force_diplomacy("faction:"..faction_key, "faction:wh_main_chs_chaos", "war", false, false, true);
+                cm:force_diplomacy("faction:"..faction_key, "faction:wh_main_chs_chaos", "vassal", false, false, true);
                 cm:make_diplomacy_available("wh_main_chs_chaos", faction_key)
                 cm:make_diplomacy_available(faction_key, "wh_main_chs_chaos")
                 cm:force_grant_military_access(faction_key, "wh_main_chs_chaos", false)
