@@ -170,7 +170,7 @@ function burlok:initialise()
 
 
 			
-			--[[--TODO check what it does
+			--[[
 			if burlok.rituals_completed == 8 then
 				core:trigger_event("ScriptEventArtefactsForgedAll")
 			elseif burlok.rituals_completed >= 3 then

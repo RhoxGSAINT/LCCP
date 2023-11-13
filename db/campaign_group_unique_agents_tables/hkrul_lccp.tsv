@@ -2,6 +2,7 @@ campaign_group	unique_agent	base_charges
 #campaign_group_unique_agents_tables;0;db/campaign_group_unique_agents_tables/hkrul_lccp		
 wh_dlc05_feature_wood_elves	hkrul_sceolan	1
 wh3_main_feature_nurgle	hkrul_orghotts	1
+wh_main_feature_chaos	hkrul_aelfric	1
 wh_dlc08_feature_norsca	hkrul_beorg	1
 wh_main_feature_bretonnia	hkrul_dolmance	1
 wh_main_feature_chaos	hkrul_engra	1
@@ -10,3 +11,5 @@ wh_dlc08_feature_norsca	hkrul_valbrand	1
 wh_dlc08_feature_norsca	hkrul_volrik	1
 wh_dlc08_feature_norsca	hkrul_vroth	1
 wh_main_feature_vampire_counts	hkrul_zach	1
+wh_dlc08_feature_norsca	wh3_dlc24_tze_aekold_helbrass	1
+wh_dlc08_feature_norsca	wh3_dlc24_tze_blue_scribes	1
