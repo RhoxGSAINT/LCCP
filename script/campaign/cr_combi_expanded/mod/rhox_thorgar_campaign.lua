@@ -90,7 +90,7 @@ table.insert(initiative_templates,
 table.insert(initiative_templates,
     {
 
-		["initiative_key"] = "rhox_thorgar_initiative_02",--10 reginos
+		["initiative_key"] = "rhox_thorgar_initiative_02",--10 regions
 		["event"] = "CharacterTurnStart",
 		["condition"] =
 			function(context)
@@ -104,7 +104,7 @@ table.insert(initiative_templates,
 table.insert(initiative_templates,
     {
 
-		["initiative_key"] = "rhox_thorgar_initiative_02",--level 30
+		["initiative_key"] = "rhox_thorgar_initiative_03",--level 30
 		["event"] = "CharacterRankUp",
 		["condition"] =
 			function(context)
@@ -116,7 +116,7 @@ table.insert(initiative_templates,
 table.insert(initiative_templates,
     {
 
-		["initiative_key"] = "rhox_thorgar_initiative_02",--20 offensive battle win
+		["initiative_key"] = "rhox_thorgar_initiative_04",--20 offensive battle win
 		["event"] = "CharacterCompletedBattle",
 		["condition"] =
 			function(context)
