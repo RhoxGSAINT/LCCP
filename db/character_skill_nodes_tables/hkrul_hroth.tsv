@@ -8,7 +8,6 @@ hkrul_hroth_custom_5		hkrul_hroth_special_1_4		1	4		0	0	true
 hkrul_hroth_custom_6		hkrul_hroth_special_2_0		1	5		0	4	true
 hkrul_hroth_custom_7		hkrul_hroth_special_0_1		0	11		0	0	true
 hkrul_hroth_innate		innate_hkrul_hroth		6	0		1	0	false
-wh3_main_agent_action_scaling_hkrul_hroth		wh3_main_skill_agent_action_success_scaling		99	0		0	0	false
 hkrul_hroth_army_0		wh_main_skill_all_lord_battle_inspiring_presence		4	0		0	0	true
 hkrul_hroth_army_1_1		wh3_main_skill_ogr_army_buff_ogre_warriors		4	1		0	0	true
 hkrul_hroth_army_1_2		wh3_main_skill_ogr_army_buff_gnoblars		4	2		0	0	true
@@ -55,6 +54,5 @@ hkrul_hroth_unique_0		wh3_main_skill_ogr_tyrant_unique_devour_challengers		3	1		
 hkrul_hroth_unique_1		wh3_main_skill_ogr_tyrant_unique_absolute_violence		3	2		0	0	true
 hkrul_hroth_unique_2		wh3_main_skill_ogr_tyrant_unique_iron_discipline		3	3		0	0	true
 hkrul_hroth_unique_3		wh3_main_skill_ogr_tyrant_unique_tithe_taking		3	4		0	0	true
-hkrul_hroth_mentor		wh3_main_skill_all_mentor_lord		0	12		0	0	true
 hkrul_hrothyogg_crusher		hkrul_hrothyogg_crusher		0	0		0	0	true
 rhox_hrothyogg_recruiter		rhox_hrothyogg_recruiter_actions		8	0		1	0	false
