@@ -21,7 +21,6 @@ hkrul_skill_node_valbrand_battle_11		wh2_dlc11_skill_nor_army_buff_icy_wrath		4	
 hkrul_skill_node_valbrand_battle_12		wh2_dlc11_skill_nor_army_buff_hulks_of_death		4	11		0	0	true
 hkrul_skill_node_valbrand_battle_13		wh_dlc08_skill_nor_lord_battle_stand_or_die		4	12		0	1	true
 hkrul_skill_node_valbrand_battle_14		wh_dlc08_skill_nor_lords_battle_fight_or_die		4	13		0	1	true
-hkrul_skill_node_valbrand_other_01		wh3_main_skill_agent_action_success_scaling		99	0		0	0	false
 hkrul_skill_node_valbrand_campaign_01		wh_main_skill_all_lord_campaign_route_marcher		5	0		0	0	true
 hkrul_skill_node_valbrand_campaign_02		wh_dlc08_skill_nor_lord_campaign_takers_of_all		5	1		0	0	true
 hkrul_skill_node_valbrand_campaign_03		wh_main_skill_chs_lord_campaign_serve_or_die		5	2		0	0	true
@@ -40,7 +39,6 @@ hkrul_skill_node_valbrand_unique_02		hkrul_valbrand_special_0_2		0	1		0	0	true
 hkrul_skill_node_valbrand_unique_03		hkrul_valbrand_special_0_3		0	2		0	0	true
 hkrul_skill_node_valbrand_unique_04		wh_dlc08_skill_nor_lords_unique_eye_of_the_gods		0	3		0	0	true
 hkrul_skill_node_valbrand_unique_06		wh_main_skill_chs_lord_battle_voice_of_the_dark_gods		0	4		0	0	true
-hkrul_skill_node_valbrand_unique_07		wh3_main_skill_all_mentor_lord		0	13		0	0	true
 hkrul_skill_node_valbrand_innate		innate_hkrul_valbrand		6	0		1	0	false
 hkrul_valbrand_khorne_self_1		wh_main_skill_chs_lord_self_eye_of_the_gods		3	0		0	0	true
 hkrul_valbrand_khorne_self_10		wh2_dlc11_skill_all_lord_self_blade_shield		3	9		0	0	true

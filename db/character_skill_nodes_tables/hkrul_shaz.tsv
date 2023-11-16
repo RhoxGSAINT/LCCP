@@ -21,7 +21,6 @@ hkrul_shaz_skill_node_self_11		wh_main_skill_all_all_self_deadly_onslaught		2	10
 hkrul_shaz_skill_node__unique_01		wh2_dlc17_skill_unique_thane_01		0	1		0	0	true
 hkrul_shaz_skill_node__unique_02		wh2_dlc17_skill_unique_thane_02		0	2		0	0	true
 hkrul_shaz_skill_node__unique_03		wh2_dlc17_skill_unique_thane_03		0	3		0	0	true
-hkrul_shaz_skill_node_mentor		wh3_main_skill_all_mentor_hero		0	12		0	0	true
 skill_node_hkrul_shaz_innate		innate_hkrul_shaz		6	0		1	0	false
 skill_node_hkrul_shaz_special_1_0		hkrul_shaz_special_1_0		1	0		0	0	true
 skill_node_hkrul_shaz_special_1_1		hkrul_shaz_special_1_1		1	1		0	0	true

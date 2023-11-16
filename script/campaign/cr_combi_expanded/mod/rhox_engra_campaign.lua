@@ -18,26 +18,25 @@ core:add_listener(
         
         local engra_bundle = cm:create_new_custom_effect_bundle("rhox_valbrand_innate_effect_bundle");
         engra_bundle:set_duration(2); --so Archaon should not get it when Engra faction is dead
-        engra_bundle:add_effect("wh_main_effect_force_stat_ward_save", "faction_to_faction_leader", 5); --base value. Human will only get this for most of the time
+        engra_bundle:add_effect("wh_main_effect_character_stat_ward_save", "faction_to_faction_leader", 5); --base value. Human will only get this for most of the time
         if bonus_value > 0 then
             engra_bundle:add_effect("wh_main_effect_force_stat_weapon_strength", "faction_to_force_own", bonus_value);
         end
         
         
         local resource_value = faction:pooled_resource_manager():resource("rhox_engra_campaign_progress"):value()
-        if resource_value > 10000 then
+        if resource_value >= 10000 then
             engra_bundle:add_effect("wh_main_effect_force_stat_melee_attack", "faction_to_force_own", 5);
             engra_bundle:add_effect("wh_main_effect_force_stat_leadership", "faction_to_force_own", 10);
         end
-        if resource_value > 30000 then
+        if resource_value >= 30000 then
             engra_bundle:add_effect("wh_main_effect_force_stat_melee_defence", "faction_to_force_own", 5);
             engra_bundle:add_effect("wh_main_effect_character_stat_unit_health", "faction_to_character_own", 10);
         end
-        if resource_value > 50000 then
+        if resource_value >= 50000 then
             engra_bundle:add_effect("wh_main_effect_force_stat_ward_save", "faction_to_force_own", 10);
         end
         cm:apply_custom_effect_bundle_to_faction(engra_bundle, archaon_faction)
-        --TODO change effects to the one made by HKrul
     end,
     true
 );
