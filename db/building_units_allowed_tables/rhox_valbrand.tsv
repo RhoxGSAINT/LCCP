@@ -51,10 +51,10 @@ key	building	unit	XP	conditions	faction	enabled
 1092995101	rhox_valbrand_nor_military_3	wh_dlc08_nor_inf_marauder_champions_0	0	0		true
 1092995102	rhox_valbrand_nor_chaos_1	wh_dlc08_nor_mon_war_mammoth_0	0	0		true
 1092995103	rhox_valbrand_nor_creatures_2	wh_dlc08_nor_mon_fimir_0	0	0		true
-812587895	rhox_valbrand_nor_smith_3	wh_main_nor_cav_chaos_chariot	0	0		true
-829527045	rhox_valbrand_nor_beasts_2	wh_dlc08_nor_mon_skinwolves_0	0	0		true
-838940785	rhox_valbrand_nor_chaos_2	wh_dlc08_nor_mon_war_mammoth_2	0	0		true
-867036538	rhox_valbrand_nor_smith_2	wh_main_nor_cav_chaos_chariot	0	0		true
-874301833	rhox_valbrand_nor_beasts_2	wh_dlc08_nor_mon_warwolves_0	0	0		true
-89343283	rhox_valbrand_nor_smith_3	wh_dlc08_nor_veh_marauder_warwolves_chariot_0	0	0		true
-962747462	rhox_valbrand_nor_chaos_2	wh_dlc08_nor_mon_war_mammoth_1	0	0		true
+1092995104	rhox_valbrand_nor_smith_3	wh_main_nor_cav_chaos_chariot	0	0		true
+1092995105	rhox_valbrand_nor_beasts_2	wh_dlc08_nor_mon_skinwolves_0	0	0		true
+1092995106	rhox_valbrand_nor_chaos_2	wh_dlc08_nor_mon_war_mammoth_2	0	0		true
+1092995107	rhox_valbrand_nor_smith_2	wh_main_nor_cav_chaos_chariot	0	0		true
+1092995108	rhox_valbrand_nor_beasts_2	wh_dlc08_nor_mon_warwolves_0	0	0		true
+1092995109	rhox_valbrand_nor_smith_3	wh_dlc08_nor_veh_marauder_warwolves_chariot_0	0	0		true
+1092995110	rhox_valbrand_nor_chaos_2	wh_dlc08_nor_mon_war_mammoth_1	0	0		true
