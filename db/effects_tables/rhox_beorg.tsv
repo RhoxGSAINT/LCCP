@@ -1,4 +1,0 @@
-effect	icon	priority	icon_negative	category	is_positive_value_good
-#effects_tables;0;db/effects_tables/rhox_beorg					
-rhox_beorg_dummy_1	effect_bundle_beorg1.png	1	effect_bundle_beorg1.png	campaign	true
-rhox_beorg_dummy_2	effect_bundle_beorg1.png	2	effect_bundle_beorg1.png	campaign	true
