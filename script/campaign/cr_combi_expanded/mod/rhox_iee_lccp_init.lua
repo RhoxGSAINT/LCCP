@@ -450,6 +450,10 @@ local rhox_iee_list={
                     5
                 )
             end
+            
+            cm:instantly_research_technology(faction_key, "wh3_dlc20_chs_und_shared_chariots", false)
+            cm:instantly_research_technology(faction_key, "wh3_dlc20_chs_und_shared_knights", false)
+
         end,
         first_tick = function(faction, faction_key) 
             rhox_valbrand_slaves:start_listeners()
@@ -514,6 +518,9 @@ local rhox_iee_list={
                     5
                 )
             end
+            
+            cm:instantly_research_technology(faction_key, "wh3_dlc20_chs_und_shared_chariots", false)
+            cm:instantly_research_technology(faction_key, "wh3_dlc20_chs_und_shared_knights", false)
         end,
         first_tick = function(faction, faction_key) 
         end
