@@ -2,6 +2,4 @@ faction_key	campaign_key	level	skill_key	subculture_key	image_path	unlocked_at_r
 #character_skill_level_details_tables;1;db/character_skill_level_details_tables/hkrul_aelfric						
 		1	hkrul_aelfric_special_0_1		x	14
 		1	hkrul_aelfric_special_1_0		x	9
-		1	hkrul_aelfric_mount		x	8
-		1	hkrul_aelfric_mount_2		x	15
-		1	hkrul_aelfric_mount_3		x	21
+		1	hkrul_aelfric_horse		x	8

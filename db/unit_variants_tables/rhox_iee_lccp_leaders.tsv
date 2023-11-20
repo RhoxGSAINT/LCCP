@@ -38,6 +38,4 @@ faction	unit	name	variant	unit_card
 	hkrul_beorg	hkrul_beorg	hkrul_beorg	hkrul_beorg
 	hkrul_beorg_bear	hkrul_beorg_bear	hkrul_beorg_bear	hkrul_beorg_bear
 	hkrul_aelfric	hkrul_aelfric	hkrul_aelfric	hkrul_aelfric
-	hkrul_aelfric_mount	hkrul_aelfric	hkrul_aelfric	hkrul_aelfric
-	hkrul_aelfric_mount_2	hkrul_aelfric	hkrul_aelfric	hkrul_aelfric
-	hkrul_aelfric_mount_3	hkrul_aelfric	hkrul_aelfric	hkrul_aelfric
+	hkrul_aelfric_horse	hkrul_aelfric	hkrul_aelfric	hkrul_aelfric

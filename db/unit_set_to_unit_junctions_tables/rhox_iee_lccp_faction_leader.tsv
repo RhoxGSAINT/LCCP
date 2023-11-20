@@ -56,3 +56,5 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_beorg_bear	nor_all	false
 			hkrul_aelfric	all_non_chs	true
 			hkrul_aelfric	undivided_characters	false
+			hkrul_aelfric_horse	all_non_chs	true
+			hkrul_aelfric_horse	undivided_characters	false

@@ -1,6 +1,4 @@
 group_key	unit_key	quality
 #cdir_military_generator_unit_qualities_tables;1;db/cdir_military_generator_unit_qualities_tables/hkrul_aelfric		
 wh3_default_land_characters	hkrul_aelfric	10
-wh3_default_land_characters	hkrul_aelfric_mount	10
-wh3_default_land_characters	hkrul_aelfric_mount_2	10
-wh3_default_land_characters	hkrul_aelfric_mount_3	10
+wh3_default_land_characters	hkrul_aelfric_horse	10
