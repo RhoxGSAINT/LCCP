@@ -1,6 +1,4 @@
 key	text	tooltip
 #Loc;1;text/db/hkrul_aelfric_land_units__.loc		
 land_units_onscreen_name_hkrul_aelfric	Aelfric Cyenwulf	true
-land_units_onscreen_name_hkrul_aelfric_mount	Aelfric Cyenwulf	true
-land_units_onscreen_name_hkrul_aelfric_mount_2	Aelfric Cyenwulf	true
-land_units_onscreen_name_hkrul_aelfric_mount_3	Aelfric Cyenwulf	true
+land_units_onscreen_name_hkrul_aelfric_horse	Aelfric Cyenwulf	true
