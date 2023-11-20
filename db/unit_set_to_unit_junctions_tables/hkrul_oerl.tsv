@@ -16,6 +16,7 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_beorg_brown_feral	hkrul_oerl_bears	false
 			hkrul_beorg_ice_feral	hkrul_oerl_bears	false
 			wh_dlc08_nor_inf_marauder_hunters_0	hkrul_oerl_hunters	false
+			wh_dlc08_nor_inf_marauder_hunters_1	hkrul_oerl_hunters	false
 			wh_dlc08_nor_cha_skin_wolf_werekin_0	hkrul_oerl_wolves	false
 			wh_dlc08_nor_mon_skinwolves_0	hkrul_oerl_wolves	false
 			wh_dlc08_nor_mon_skinwolves_1	hkrul_oerl_wolves	false
