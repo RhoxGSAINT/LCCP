@@ -39,3 +39,4 @@ campaign_localised_strings_string_rhox_karitamen_own	(Owned by Karitamen) [[col:
 uied_component_texts_localised_string_rhox_karitamen_campaign_title	Karitamen's Campaign	false
 uied_component_texts_localised_string_rhox_karitamen_campaign_description	Karitamen will follow Amenemhetum the Great's footsteps. Onwards! (Fill something Tomb Kingy here HKrul)	false
 campaign_localised_strings_string_rhox_karitamen_tooltip_ruined	(ruined)	false
+campaign_effect_scopes_localised_text_rhox_iee_lccp_faction_to_region_own_regiontext	\\n(all regions)	false
