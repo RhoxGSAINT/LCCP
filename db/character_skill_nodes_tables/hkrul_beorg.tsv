@@ -50,3 +50,5 @@ hkrul_skill_node_beorg_misc_05		hkrul_beorg_special_1_4		1	5		0	0	true
 hkrul_skill_node_beorg_misc_06		hkrul_beorg_special_1_5		1	6		0	0	true
 hkrul_skill_node_beorg_misc_07		hkrul_beorg_special_1_6		1	7		0	0	true
 hkrul_skill_node_beorg_misc_08		hkrul_beorg_special_1_7		1	8		0	2	true
+hkrul_beorg_banner		hkrul_beorg_banner		6	10		0	0	true
+hkrul_beorg_sword		hkrul_beorg_sword		6	11		0	0	true
