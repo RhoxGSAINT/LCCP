@@ -87,3 +87,5 @@ rhox_zach_books_of_nagash_empowered_dummy	general_ability.png	500	general_abilit
 hkrul_burlok_engineer_ms	ranged_damage.png	5	ranged_damage.png	battle	true
 hkrul_zach_skeleton_ma	melee.png	423	melee.png	battle	true
 hkrul_zach_skeleton_md	defence.png	431	defence.png	battle	true
+rhox_iee_lccp_effect_winds_of_magic_pooled_resource_change_positive_mod	magic_campaign.png	100	magic_campaign.png	campaign	true
+rhox_iee_lccp_effect_winds_of_magic_pooled_resource_change_positive_mod_enemy	magic_campaign.png	100	magic_campaign.png	campaign	false
