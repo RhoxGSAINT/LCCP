@@ -180,3 +180,15 @@ effect_bundles_localised_description_rhox_karitamen_hidden_effect_bundle		false
 effect_bundles_localised_title_rhox_karitamen_hidden_effect_bundle	Hidden	false
 effect_bundles_localised_description_rhox_beorg_faction_trait	At the edge of the frozen Fjord's of Urs towers the Halls of Urslo, home of ravaging marauding Bearstrikken norsemen.	false
 effect_bundles_localised_title_rhox_beorg_faction_trait	The Ursfjordings	false
+effect_bundles_localised_description_rhox_valbrand_slave_effect_1	As higher the slave population goes, the more money Valbrand can make out	false
+effect_bundles_localised_description_rhox_valbrand_slave_effect_2	As higher the slave population goes, the more money Valbrand can make out	false
+effect_bundles_localised_description_rhox_valbrand_slave_effect_3	As higher the slave population goes, the more money Valbrand can make out	false
+effect_bundles_localised_description_rhox_valbrand_slave_effect_4	As higher the slave population goes, the more money Valbrand can make out	false
+effect_bundles_localised_description_rhox_valbrand_slave_effect_5	As higher the slave population goes, the more money Valbrand can make out	false
+effect_bundles_localised_title_rhox_valbrand_slave_effect_1	Slave Population: Low [0-800]	false
+effect_bundles_localised_title_rhox_valbrand_slave_effect_2	Slave Population: Stable [801-2000]	false
+effect_bundles_localised_title_rhox_valbrand_slave_effect_3	Slave Population: High [2001-5000]	false
+effect_bundles_localised_title_rhox_valbrand_slave_effect_4	Slave Population: Very High [5001-10000]	false
+effect_bundles_localised_title_rhox_valbrand_slave_effect_5	Slave Population: Abundant [10000+]	false
+effect_bundles_localised_description_rhox_valbrand_settle	Sets up a defensive camp, allowing for building construction, recruitment and replenishment, regardless of territory.	false
+effect_bundles_localised_title_rhox_valbrand_settle	Stance: Encamp	false
