@@ -35,3 +35,8 @@ rhox_arbaal_resource_effects_1	VALUE	25	0
 rhox_arbaal_resource_effects_2	VALUE	50	26
 rhox_arbaal_resource_effects_3	VALUE	75	51
 rhox_arbaal_resource_effects_4	VALUE	100	76
+rhox_valbrand_slave_effect_1	VALUE	800	0
+rhox_valbrand_slave_effect_2	VALUE	2000	801
+rhox_valbrand_slave_effect_3	VALUE	5000	2001
+rhox_valbrand_slave_effect_4	VALUE	10000	5001
+rhox_valbrand_slave_effect_5	VALUE	10000000	10001

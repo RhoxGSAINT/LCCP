@@ -21,3 +21,9 @@ rhox_arbaal_resource_effects_3			faction	1	effect_bundle_arbaal.png	false	false	
 rhox_arbaal_resource_effects_4			faction	1	effect_bundle_arbaal.png	false	false	true
 rhox_arbaal_other_faction_curse			faction	1	effect_bundle_arbaal.png	true	false	true
 rhox_karitamen_hidden_effect_bundle			faction	1		false	false	true
+rhox_valbrand_slave_effect_1	As higher the slave population goes, the more money Valbrand can make out	Slave Population: Low [0-800]	faction	1	edict_def_increase_slave_production_quota.png	true	false	true
+rhox_valbrand_slave_effect_2	As higher the slave population goes, the more money Valbrand can make out	Slave Population: Stable [801-2000]	faction	1	edict_def_increase_slave_production_quota.png	true	false	true
+rhox_valbrand_slave_effect_3	As higher the slave population goes, the more money Valbrand can make out	Slave Population: High [2001-5000]	faction	1	edict_def_increase_slave_production_quota.png	true	false	true
+rhox_valbrand_slave_effect_4	As higher the slave population goes, the more money Valbrand can make out	Slave Population: Very High [5001-10000]	faction	1	edict_def_increase_slave_production_quota.png	true	false	true
+rhox_valbrand_slave_effect_5	As higher the slave population goes, the more money Valbrand can make out	Slave Population: Abundant [10000+]	faction	1	edict_def_increase_slave_production_quota.png	true	false	true
+rhox_valbrand_settle	Sets up a defensive camp, allowing for building construction, recruitment and replenishment, regardless of territory.	Stance: Encamp	force	1	icon_effects_fortify.png	true	false	true
