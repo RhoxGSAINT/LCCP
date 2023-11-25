@@ -564,15 +564,11 @@
 			docking="Center"
 			dock_offset="3.00,0.00"
 			component_anchor_point="0.50,0.50"
-			componentleveltooltip="{{tt:ui/common ui/tooltip_effect_bundle}}"
 			tooltiplabel="effect_icon_Tooltip_3c005d"
 			uniqueguid="6A7654AA-56A3-9976-7F785EB4367756EC"
 			currentstate="D2FAD748-CE7E-A4BF-41EF7CE94A875181"
 			defaultstate="D2FAD748-CE7E-A4BF-41EF7CE94A875181">
 			<callbackwithcontextlist>
-				<callback_with_context
-					callback_id="ContextCustomTooltipStore"
-					context_object_id="CcoEffectBundle"/>
 				<callback_with_context
 					callback_id="ContextImageSetter"
 					context_object_id="CcoEffectBundle"
@@ -581,6 +577,21 @@
 						<property
 							name="hide_if_invalid"
 							value=""/>
+					</child_m_user_properties>
+				</callback_with_context>
+                <callback_with_context
+					callback_id="ContextLayoutTooltip"
+					context_object_id="CcoEffectBundle">
+					<child_m_user_properties>
+						<property
+							name="layout_path"
+							value="ui/common ui/tooltip_effect_bundle"/>
+						<property
+							name="offset_x"
+							value="10"/>
+						<property
+							name="offset_y"
+							value="-60"/>
 					</child_m_user_properties>
 				</callback_with_context>
 			</callbackwithcontextlist>
@@ -616,15 +627,11 @@
 			docking="Center"
 			dock_offset="1.00,-2.00"
 			component_anchor_point="0.50,0.50"
-			componentleveltooltip="{{tt:ui/common ui/tooltip_effect_bundle}}"
 			tooltiplabel="effect_icon_Tooltip_3c005d"
 			uniqueguid="44448133-88FC-7A18-8D466CD46685EF9E"
 			currentstate="52B7312E-92ED-F985-30FEFAF657AB6DF2"
 			defaultstate="52B7312E-92ED-F985-30FEFAF657AB6DF2">
 			<callbackwithcontextlist>
-				<callback_with_context
-					callback_id="ContextCustomTooltipStore"
-					context_object_id="CcoEffectBundle"/>
 				<callback_with_context
 					callback_id="ContextImageSetter"
 					context_object_id="CcoEffectBundle"
@@ -636,6 +643,21 @@
 						<property
 							name="suffix"
 							value="_large"/>
+					</child_m_user_properties>
+				</callback_with_context>
+                <callback_with_context
+					callback_id="ContextLayoutTooltip"
+					context_object_id="CcoEffectBundle">
+					<child_m_user_properties>
+						<property
+							name="layout_path"
+							value="ui/common ui/tooltip_effect_bundle"/>
+						<property
+							name="offset_x"
+							value="10"/>
+						<property
+							name="offset_y"
+							value="-60"/>
 					</child_m_user_properties>
 				</callback_with_context>
 			</callbackwithcontextlist>
@@ -668,7 +690,6 @@
 			this="0C666E9E-0968-31F5-8B4E23388DBD96F5"
 			id="gork_button"
 			offset="76.00,0.00"
-			componentleveltooltip="{{tt:ui/common ui/tooltip_effect_bundle}}"
 			tooltiplabel="gork_button_Tooltip_3c005d"
 			soundcategory="UI_CAM_HUD_DLC15_Groms_Call_To_Waaagh_Dedicate_Button"
 			uniqueguid="0C666E9E-0968-31F5-8B4E23388DBD96F5"
@@ -683,8 +704,20 @@
 					context_object_id="CcoStaticObject"
 					context_function_id="FindContext(&quot;CcoEffectBundle&quot;, &quot;wh2_main_faction_boost_gork&quot;)"/>
 				<callback_with_context
-					callback_id="ContextCustomTooltipStore"
-					context_object_id="CcoEffectBundle"/>
+					callback_id="ContextLayoutTooltip"
+					context_object_id="CcoEffectBundle">
+					<child_m_user_properties>
+						<property
+							name="layout_path"
+							value="ui/common ui/tooltip_effect_bundle"/>
+						<property
+							name="offset_x"
+							value="10"/>
+						<property
+							name="offset_y"
+							value="-60"/>
+					</child_m_user_properties>
+				</callback_with_context>
 			</callbackwithcontextlist>
 			<componentimages>
 				<component_image
@@ -1207,7 +1240,6 @@
 		<mork_button
 			this="A834C36F-7DB3-E6D8-C7A8DC919E388A90"
 			id="mork_button"
-			componentleveltooltip="{{tt:ui/common ui/tooltip_effect_bundle}}"
 			tooltiplabel="mork_button_Tooltip_3c005d"
 			soundcategory="UI_CAM_HUD_DLC15_Groms_Call_To_Waaagh_Dedicate_Button"
 			uniqueguid="A834C36F-7DB3-E6D8-C7A8DC919E388A90"
@@ -1222,8 +1254,20 @@
 					context_object_id="CcoStaticObject"
 					context_function_id="FindContext(&quot;CcoEffectBundle&quot;, &quot;wh2_main_faction_boost_mork&quot;)"/>
 				<callback_with_context
-					callback_id="ContextCustomTooltipStore"
-					context_object_id="CcoEffectBundle"/>
+					callback_id="ContextLayoutTooltip"
+					context_object_id="CcoEffectBundle">
+					<child_m_user_properties>
+						<property
+							name="layout_path"
+							value="ui/common ui/tooltip_effect_bundle"/>
+						<property
+							name="offset_x"
+							value="10"/>
+						<property
+							name="offset_y"
+							value="-60"/>
+					</child_m_user_properties>
+				</callback_with_context>
 			</callbackwithcontextlist>
 			<componentimages>
 				<component_image
