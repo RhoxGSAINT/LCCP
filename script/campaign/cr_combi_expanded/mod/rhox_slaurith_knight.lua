@@ -146,6 +146,7 @@ cm:add_first_tick_callback(
         if cm:get_local_faction_name(true) == "cr_kho_servants_of_the_blood_nagas" then  --ui thing and should be local
             local pieces_of_eight_button = find_uicomponent(core:get_ui_root(), "hud_campaign", "faction_buttons_docker", "button_group_management", "button_treasure_hunts");
             pieces_of_eight_button:SetVisible(true)
+            pieces_of_eight_button:SetImagePath("ui/skins/hkrul_slaurith/icon_treasure_hunts.png")
             pieces_of_eight_button:SetTooltipText(common.get_localised_string("campaign_localised_strings_string_rhox_slaurith_panel_open_button"),true)
             local treasure_hunt_count_ui = find_uicomponent(pieces_of_eight_button, "label_hunts_count");
             treasure_hunt_count_ui:SetVisible(false)
