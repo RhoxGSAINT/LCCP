@@ -720,9 +720,11 @@ local rhox_iee_list={
                 
                 
             else
+                --[[
                 cm:force_make_vassal("wh_main_chs_chaos", faction_key)
                 cm:disable_event_feed_events(true, "wh_event_category_diplomacy", "", "")
                 cm:force_declare_war("wh_main_chs_chaos", "cr_chs_po_hai", true, true)
+                --]]
                 cm:callback(function() cm:disable_event_feed_events(false, "wh_event_category_diplomacy", "", "") end, 0.5)
             end
             
