@@ -1,22 +1,22 @@
 key	text	tooltip
 #Loc;1;text/db/hkrul_thorgar_character_skills__.loc		
 character_skills_localised_name_innate_hkrul_thorgar	Zar of the Khazag	true
-character_skills_localised_description_innate_hkrul_thorgar	Placeholder Text Placeholder Text	true
-character_skills_localised_description_hkrul_thorgar_special_0_1	Placeholder Text Placeholder Text	true
+character_skills_localised_description_innate_hkrul_thorgar	The High Zar of the Khazag tribe chases his ultimate ambition.	true
+character_skills_localised_description_hkrul_thorgar_special_0_1	His faith? That of those who will forever be considered the antagonist.	true
 character_skills_localised_name_hkrul_thorgar_special_0_1	The Neverchosen	true
-character_skills_localised_description_hkrul_thorgar_special_1_1	Placeholder Text Placeholder Text	true
+character_skills_localised_description_hkrul_thorgar_special_1_1	Cunning and vile, yet useful enough to teach Thorgar valueable lessons of the arcane.	true
 character_skills_localised_name_hkrul_thorgar_special_1_1	Sudobaal's Teachings	true
-character_skills_localised_description_hkrul_thorgar_special_1_2	Placeholder Text Placeholder Text	true
+character_skills_localised_description_hkrul_thorgar_special_1_2	The chant can be heared from a long distance and strikes fear in the hearts of many a tribe.	true
 character_skills_localised_name_hkrul_thorgar_special_1_2	Chant of the Khazag	true
-character_skills_localised_description_hkrul_thorgar_special_2_0	Placeholder Text Placeholder Text	true
+character_skills_localised_description_hkrul_thorgar_special_2_0	His bloodcry signals the ultimate frenzy as blood flows freely, the bludgeon howls in comfort.	true
 character_skills_localised_name_hkrul_thorgar_special_2_0	Thorgar's Bloodcry	true
-character_skills_localised_description_hkrul_thorgar_special_1_0	Placeholder Text Placeholder Text	true
+character_skills_localised_description_hkrul_thorgar_special_1_0	A warmace so devestating it is rumoured to be forged by some Chaos God.	true
 character_skills_localised_name_hkrul_thorgar_special_1_0	Howling Warmace	true
-character_skills_localised_description_hkrul_thorgar_special_1_3	Placeholder Text Placeholder Text	true
+character_skills_localised_description_hkrul_thorgar_special_1_3	The mutated beasts of the steppes provide iron like furs, useful for any warmongering tribe of marauders.	true
 character_skills_localised_name_hkrul_thorgar_special_1_3	Furs of the Steppes	true
-character_skills_localised_description_hkrul_thorgar_special_0_2	Placeholder Text Placeholder Text	true
+character_skills_localised_description_hkrul_thorgar_special_0_2	The Khazag are driven onward by the ambition of their High Zar.	true
 character_skills_localised_name_hkrul_thorgar_special_0_2	The Khazag Tribe	true
-character_skills_localised_description_hkrul_thorgar_special_1_4	Placeholder Text Placeholder Text	true
+character_skills_localised_description_hkrul_thorgar_special_1_4	Fed only with meat and starved before battle, the mammoths of the Khazag tribe perform unnaturally in battle.	true
 character_skills_localised_name_hkrul_thorgar_special_1_4	Unnatural Carnivores	true
 ancillaries_colour_text_hkrul_thorgar_chariot	Marauder mobs are awarded even greater mobility when riding their crude chariots of bone and wood, lashed together with the guts and sinew of the vanquished.	false
 ancillaries_onscreen_name_hkrul_thorgar_chariot	Marauder Chariot	false

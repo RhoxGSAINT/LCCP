@@ -1,22 +1,22 @@
 key	text	tooltip
 #Loc;1;text/db/hkrul_zach_character_skills__.loc		
 character_skills_localised_name_innate_hkrul_zach	The Everliving	true
-character_skills_localised_description_innate_hkrul_zach	Placeholder Text Placeholder Text	true
-character_skills_localised_description_hkrul_zach_special_0_1	Placeholder Text Placeholder Text	true
+character_skills_localised_description_innate_hkrul_zach	The Everliving seeks his ultimate revenge and plunge the world in ultimate darkness.	true
+character_skills_localised_description_hkrul_zach_special_0_1	Hosted by Zacharias, the Everliving are a feared band throughout the Old World - even after their dissapereance.	true
 character_skills_localised_name_hkrul_zach_special_0_1	The Everliving	true
-character_skills_localised_description_hkrul_zach_special_0_2	All the region called Forest of Shadows is under his control	true
+character_skills_localised_description_hkrul_zach_special_0_2	The Forest of Shadows are a mere hunting ground for Zacharias.	true
 character_skills_localised_name_hkrul_zach_special_0_2	Forest of Shadows	true
-character_skills_localised_description_hkrul_zach_special_1_0	Allies within the token's influence gain increased resistance to physical and magical damage, making them more durable in battle.	true
+character_skills_localised_description_hkrul_zach_special_1_0	Tokens gathered on centuries of crusades against men proof useful boons.	true
 character_skills_localised_name_hkrul_zach_special_1_0	Token of Zacharias	true
-character_skills_localised_description_hkrul_zach_special_1_1	Zacharias the Everliving has acquired a collection of powerful and mysterious artifacts over the centuries. 	true
+character_skills_localised_description_hkrul_zach_special_1_1	Artifacts from a time long gone radiate dark and sinister magic when touched by Zacharias.	true
 character_skills_localised_name_hkrul_zach_special_1_1	Ancient Artifacts	true
-character_skills_localised_description_hkrul_zach_special_1_2	Zacharias the Everliving is on a relentless quest to uncover dark secrets, reclaim lost knowledge, and solidify his unholy power.	true
-character_skills_localised_name_hkrul_zach_special_1_2	Unholy Quest	true
-character_skills_localised_description_hkrul_zach_special_1_3	Zacharias the Everliving possesses a collection of ancient and mystic scriptures, allows him to tap into the power of these texts, weakening enemy units' magical resistances	true
+character_skills_localised_description_hkrul_zach_special_1_2	Quests whispered to Zacharias by his own mind send him and his armies to very corners of the World.	true
+character_skills_localised_name_hkrul_zach_special_1_2	Unholy Quests	true
+character_skills_localised_description_hkrul_zach_special_1_3	Zacharias the Everliving possesses a collection of ancient and mystic scriptures, allowomg him to tap into the power of these texts, weakening enemy armies in his presence.	true
 character_skills_localised_name_hkrul_zach_special_1_3	Enchanted Scriptures	true
-character_skills_localised_description_hkrul_zach_special_1_4	Death will come by the hand	true
+character_skills_localised_description_hkrul_zach_special_1_4	A mere touch by Zacharias may proof fatal.	true
 character_skills_localised_name_hkrul_zach_special_1_4	Death's Hand	true
-character_skills_localised_description_hkrul_zach_dragon	It is to the Plain of Bones that a Vampire Lord travels to claim a Zombie Dragon as their mount.	false
+character_skills_localised_description_hkrul_zach_dragon	His trusted mount, a massive Zombie Dragon that once roamed the Brass Keep.	false
 character_skills_localised_name_hkrul_zach_dragon	Zombie Dragon	false
-character_skills_localised_description_hkrul_zach_special_2_0	Drawing upon the power of the dragon's blood he consumed, Zacharias is infused with the might of the dragon	true
+character_skills_localised_description_hkrul_zach_special_2_0	Blood gathered from the many dragons slayed by his hand, instilling him with unnatural powers and strength.	true
 character_skills_localised_name_hkrul_zach_special_2_0	Dragon's Blood	true

@@ -16,14 +16,14 @@ missions_localised_title_rhox_burlok_ritual_burlok_artifact_7	Blessed Pick of Gr
 missions_localised_description_rhox_burlok_ritual_burlok_artifact_7	Grungni, the mighty Allfather of the Dawi, taught our Ancestors the very skills that have assured our survival for centuries. This pick is a holy relic crafted in his honour by the oldest of the Dawi, and the Longbeards will not be appeased until it is recovered.	false
 missions_localised_title_rhox_burlok_ritual_burlok_artifact_8	Thungni's Tongs of the Runesmith	false
 missions_localised_description_rhox_burlok_ritual_burlok_artifact_8	Thungni’s Tongs were utilised by some of the first Runesmiths under his tutelage, serving them well in crafting the most potent rune-weapons ever made. These powerful armaments were crucial in many of the great victories of our kin – such weapons could be forged again, but not without the tongs that gave them their power, long lost in the mists of time.	false
-missions_localised_title_rhox_dolmance_init_mission	Collect the Wineries	false
-missions_localised_description_rhox_dolmance_init_mission	I like the sound of it	false
+missions_localised_title_rhox_dolmance_init_mission	Famed Connaisseur	false
+missions_localised_description_rhox_dolmance_init_mission	Unparalled when it comes to taste, it is said Dolmancé has the best tongue of the Old World - being able to recognize any and every taste from a mere sip of a whine or any beverage.	false
 missions_localised_title_rhox_sceolan_conderation_mission	Far Away Kingdom	false
 missions_localised_description_rhox_sceolan_conderation_mission	Sceolan is having a feud with the local High Elves. He will join you if you help him	false
 missions_localised_title_rhox_slaurith_knight_1	The Hidden Sanctuary of Nippon	false
 missions_localised_description_rhox_slaurith_knight_1	In the shadowed heart of the Nippo's dense forests, a lone knight, haunted by the past, seeks refuge from the relentless pursuit of Lord Slaurith and his Khornate warband.	false
 missions_localised_title_rhox_slaurith_knight_2	Seeking Solace in the Temple of Gilgadresh	false
-missions_localised_description_rhox_slaurith_knight_2	Deep within the ancient Temple of Gilgadresh, a knight takes refuge, his faith tested, while Lord Slaurith's wrath echoes through the distant lands of Ind.	false
+missions_localised_description_rhox_slaurith_knight_2	Deep within the ancient Temple of Gilgadresh, a knight takes refuge, his faith tested, while Lord Slaurith's wrath echoes throughout the distant lands of Ind.	false
 missions_localised_title_rhox_slaurith_knight_3	Harboring the Fugitive: Gates of Calith	false
 missions_localised_description_rhox_slaurith_knight_3	Within the bustling Gates of Calith, a knight from distant lands finds sanctuary, his identity concealed amid the city's thriving trade and high elven splendor, evading the relentless pursuit of Lord Slaurith.	false
 missions_localised_title_rhox_slaurith_knight_4	Island of Secrets: Tor Elithis Refuge	false
@@ -38,8 +38,8 @@ missions_localised_title_rhox_slaurith_knight_8	Realms United: Bretonnia and Emp
 missions_localised_description_rhox_slaurith_knight_8	With support from Bretonnia and the Empire, the valiant knight stands defiant against the encroaching forces of Lord Slaurith, as a united front of human realms battles for his salvation.	false
 missions_localised_title_rhox_duriath_init_mission	Establish monopoly on the far east	false
 missions_localised_description_rhox_duriath_init_mission	By taking this place, all the trade route from far east to Naggaroth will be yours!	false
-missions_localised_title_rhox_thorgar_olaf_mission	Find Olaf	false
-missions_localised_description_rhox_thorgar_olaf_mission	You need to build a flesh man out of Cathayans	false
+missions_localised_title_rhox_thorgar_olaf_mission	Jarl Olaf	false
+missions_localised_description_rhox_thorgar_olaf_mission	Thorgar is aided by Jarl Olaf, a fearsome Khazag who follows Thorgar wherever he goes. It is he who keeps the marauders in check, and it is he who was vital in Thorgar's many feats.	false
 missions_localised_title_rhox_spew_survival_mission	Decay's Discipline	false
 missions_localised_description_rhox_spew_survival_mission	Orghotts Daemonspew, Nurgle's unwavering champion, commands a ceaseless purging in the Garden of Filth. Unworthy daemons and misguided followers disrupt the sacred cycle of decay. Stand with Orghotts in the Plague's Purge - delve into the pestilent realm, confront the impure, and restore Nurgle's garden to its true essence. Navigate treacherous terrain, for in this cleansing, the sanctity of decay shall be upheld.\\n\\n[[col:yellow]]This mission is repeatable and can be done as many times as you want[[/col]]	false
 missions_localised_title_rhox_iee_lccp_tze_blue_scribes_stage_1_nor	Parchment & Ink	false
