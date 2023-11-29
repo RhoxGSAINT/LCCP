@@ -1,22 +1,22 @@
 key	text	tooltip
 #Loc;1;text/db/hkrul_spew_.loc		
 character_skills_localised_name_innate_hkrul_spew	Bastard King of Icehorn Peak	true
-character_skills_localised_description_innate_hkrul_spew	Placeholder Text Placeholder Text	true
-character_skills_localised_description_hkrul_spew_special_0_1	Placeholder Text Placeholder Text	true
+character_skills_localised_description_innate_hkrul_spew	The King of Icehorn Peak sets forth on his everlasting quest to ascend as Nurgle's Gardener.	true
+character_skills_localised_description_hkrul_spew_special_0_1	The secret of a good Garden is not the flowers, it's the soil.	true
 character_skills_localised_name_hkrul_spew_special_0_1	Fertile Garden	true
-character_skills_localised_description_hkrul_spew_special_1_1	Placeholder Text Placeholder Text	true
+character_skills_localised_description_hkrul_spew_special_1_1	Blight Marauders strike fear in the hearts of foes with their rotten joyours grins.	true
 character_skills_localised_name_hkrul_spew_special_1_1	Marauders of Blight	true
-character_skills_localised_description_hkrul_spew_special_1_2	Placeholder Text Placeholder Text	true
+character_skills_localised_description_hkrul_spew_special_1_2	His stain may only be spread in beautiful untainted rot and blight.	true
 character_skills_localised_name_hkrul_spew_special_1_2	Spreading the Stain	true
 character_skills_localised_description_hkrul_spew_special_2_0	Orghottis is one of the true champions of Nurgle that may call upon the rotfather to rain down the garden's delight.	true
 character_skills_localised_name_hkrul_spew_special_2_0	Rotting Oasis	true
-character_skills_localised_description_hkrul_spew_special_1_0	Placeholder Text Placeholder Text	true
+character_skills_localised_description_hkrul_spew_special_1_0	The flesh as weak as it is serves as the ultimate vessel of all kindred spirits.	true
 character_skills_localised_name_hkrul_spew_special_1_0	Weak is the Flesh	true
-character_skills_localised_description_hkrul_spew_special_1_3	Placeholder Text Placeholder Text	true
+character_skills_localised_description_hkrul_spew_special_1_3	The gardener knows may tricks of rot and pus and blight and stench.	true
 character_skills_localised_name_hkrul_spew_special_1_3	Secrets of the Gardener	true
-character_skills_localised_description_hkrul_spew_special_0_2	Placeholder Text Placeholder Text	true
+character_skills_localised_description_hkrul_spew_special_0_2	The pestilent tide marches North in search of their master's ambition.	true
 character_skills_localised_name_hkrul_spew_special_0_2	Tide of Pestilence	true
-character_skills_localised_description_hkrul_spew_special_1_4	Placeholder Text Placeholder Text	true
+character_skills_localised_description_hkrul_spew_special_1_4	Decay is te pinnacle of growth, as all things wither all things are born.	true
 character_skills_localised_name_hkrul_spew_special_1_4	Horrendous Growth	true
 ancillaries_colour_text_hkrul_spew_banner	Orghotts is one of three legendary Maggoth Riders and solemnly responsible for the randsacking of large parts of Kislev. He has completely devoted himself to a frantic quest to ascend in to daemonhood. Those worthy to carry the banner of his Tide are left with the same fate of obsession.	false
 ancillaries_onscreen_name_hkrul_spew_banner	Banner of Pestilence	false

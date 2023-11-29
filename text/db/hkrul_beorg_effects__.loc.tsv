@@ -15,4 +15,4 @@ effects_description_hkrul_beorg_hunter_vanguard	Attribute: Vanguard Deployment f
 effects_description_hkrul_beorg_missile_reload	Reload time reduction: %+n% for Marauder Hunter units	false
 effects_description_hkrul_beorg_sword		false
 effects_description_hkrul_beorg_mark	Ability: "Mark of the Bear''	false
-effects_description_rhox_beorg_bear_join_chance	Chace of bear joining the faction after the battle victory: %+n%	false
+effects_description_rhox_beorg_bear_join_chance	Chance of ursine creatures joining Beorg after a battle victory: %+n%	false

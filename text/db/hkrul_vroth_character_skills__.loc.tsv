@@ -1,22 +1,22 @@
 key	text	tooltip
 #Loc;1;text/db/hkrul_vroth_character_skills__.loc		
 character_skills_localised_name_innate_hkrul_vroth	Asavar's Hunter	true
-character_skills_localised_description_innate_hkrul_vroth	Placeholder Text Placeholder Text	true
-character_skills_localised_description_hkrul_vroth_special_0_1	Placeholder Text Placeholder Text	true
+character_skills_localised_description_innate_hkrul_vroth	Asavar's Hunter may bring down the biggest of beasts and monsters.	true
+character_skills_localised_description_hkrul_vroth_special_0_1	The Tokmars tribe ventures in to Cathayan lands whenever they find a chance, plundering feats of battle.	true
 character_skills_localised_name_hkrul_vroth_special_0_1	Cathayan Influence	true
-character_skills_localised_description_hkrul_vroth_special_1_1	Placeholder Text Placeholder Text	true
+character_skills_localised_description_hkrul_vroth_special_1_1	Unparalled hunters, the Tokmars hunt and tame even the wildest of beasts and monsters.	true
 character_skills_localised_name_hkrul_vroth_special_1_1	Unmatched Hunters	true
-character_skills_localised_description_hkrul_vroth_special_1_2	Placeholder Text Placeholder Text	true
+character_skills_localised_description_hkrul_vroth_special_1_2	The secret to a nomadic life is nutrition, keeping the tribe well fed is essential when travelling long distances along the steppes.	true
 character_skills_localised_name_hkrul_vroth_special_1_2	Well Fed	true
 character_skills_localised_description_hkrul_vroth_special_1_5	With uncanning might, Surtha Lenks hewes the infamous spear of the Tokmars tribe.	true
 character_skills_localised_name_hkrul_vroth_special_1_5	Zar's Skewer	true
-character_skills_localised_description_hkrul_vroth_special_1_0	Placeholder Text Placeholder Text	true
+character_skills_localised_description_hkrul_vroth_special_1_0	Surtha's Call is a recognizeable screeching sound that strikes fear in the minds of many.	true
 character_skills_localised_name_hkrul_vroth_special_1_0	Surtha's Call	true
-character_skills_localised_description_hkrul_vroth_special_1_3	Placeholder Text Placeholder Text	true
+character_skills_localised_description_hkrul_vroth_special_1_3	None have a firmer grip over their tribe as Surtha Lenk, nailing each trophy to his belt as a display of dominance.	true
 character_skills_localised_name_hkrul_vroth_special_1_3	Tribal Dominance	true
-character_skills_localised_description_hkrul_vroth_special_0_2	Placeholder Text Placeholder Text	true
+character_skills_localised_description_hkrul_vroth_special_0_2	The Tokmars warriors hunt for rare beasts and monsters whilst plundering all things created by men.	true
 character_skills_localised_name_hkrul_vroth_special_0_2	The Tokmars Tribe	true
-character_skills_localised_description_hkrul_vroth_special_1_4	Placeholder Text Placeholder Text	true
+character_skills_localised_description_hkrul_vroth_special_1_4	The Khurgans are better tacticians as given credit for, using elements and terrain in their favour no matter the circumstances. 	true
 character_skills_localised_name_hkrul_vroth_special_1_4	Kurgan Tactics	true
 character_skills_localised_description_hkrul_vroth_chariot	Marauder mobs are awarded even greater mobility when riding their crude chariots of bone and wood, lashed together with the guts and sinew of the vanquished.	false
 character_skills_localised_name_hkrul_vroth_chariot	Marauder Chariot	false

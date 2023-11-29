@@ -1,22 +1,22 @@
 key	text	tooltip
 #Loc;1;text/db/hkrul_engra_character_skills__.loc		
 character_skills_localised_name_innate_hkrul_engra	Butcher of Praag	true
-character_skills_localised_description_innate_hkrul_engra	Placeholder Text Placeholder Text	true
-character_skills_localised_description_hkrul_engra_special_0_1	Placeholder Text Placeholder Text	true
+character_skills_localised_description_innate_hkrul_engra	The scourge of Kislev, Butcher of Praag and feared one in the Old world.	true
+character_skills_localised_description_hkrul_engra_special_0_1	Venturing further than most feared Chaos Champions, the chaos mutation take hold of most Engra's men.	true
 character_skills_localised_name_hkrul_engra_special_0_1	Mutated Furs	true
-character_skills_localised_description_hkrul_engra_special_1_1	Placeholder Text Placeholder Text	true
+character_skills_localised_description_hkrul_engra_special_1_1	Only the most crazed of marauders are found among Engra's warband.	true
 character_skills_localised_name_hkrul_engra_special_1_1	Unrivalled Marauders	true
-character_skills_localised_description_hkrul_engra_special_1_2	Placeholder Text Placeholder Text	true
+character_skills_localised_description_hkrul_engra_special_1_2	Granted by Asavar Kul, this token radiates dark and powerful energy.	true
 character_skills_localised_name_hkrul_engra_special_1_2	Asavar Kul's Token	true
 character_skills_localised_description_hkrul_engra_special_1_5	Channeled by his irreverent sword, Engra unleashes a wave of pure chaotic lightning and destruction.	true
 character_skills_localised_name_hkrul_engra_special_1_5	Anomalous Lightning	true
-character_skills_localised_description_hkrul_engra_special_1_0	Placeholder Text Placeholder Text	true
+character_skills_localised_description_hkrul_engra_special_1_0	Instruments of death are infused with rare magic harvested by the Kul.	true
 character_skills_localised_name_hkrul_engra_special_1_0	Infused Instruments	true
-character_skills_localised_description_hkrul_engra_special_1_3	Placeholder Text Placeholder Text	true
+character_skills_localised_description_hkrul_engra_special_1_3	The Sigil granted to the personal retinue of the Everchosen, a token of power amongst Chaos ranks.	true
 character_skills_localised_name_hkrul_engra_special_1_3	Everchosen's Sigil	true
-character_skills_localised_description_hkrul_engra_special_0_2	Placeholder Text Placeholder Text	true
+character_skills_localised_description_hkrul_engra_special_0_2	The Warband responsibile for much of the recruitment that later formed the herd of the end times.	true
 character_skills_localised_name_hkrul_engra_special_0_2	Deathsword's Warband	true
-character_skills_localised_description_hkrul_engra_special_1_4	Placeholder Text Placeholder Text	true
+character_skills_localised_description_hkrul_engra_special_1_4	One who has travelled the plains for centuries learn their deepest secrets.	true
 character_skills_localised_name_hkrul_engra_special_1_4	Secrets of the Plains	true
 ancillaries_colour_text_hkrul_engra_horse	The dread steeds of Chaos are more than mere horses, but creatures tainted by Daemon blood, said to be gifts from the Dark Gods themselves.	false
 ancillaries_onscreen_name_hkrul_engra_horse	Chaos Steed	false
