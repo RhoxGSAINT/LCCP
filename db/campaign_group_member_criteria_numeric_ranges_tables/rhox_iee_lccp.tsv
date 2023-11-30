@@ -1,6 +1,6 @@
 member	context	max_range	min_range
 #campaign_group_member_criteria_numeric_ranges_tables;1;db/campaign_group_member_criteria_numeric_ranges_tables/rhox_iee_lccp			
-rhox_volrik_high_wom	VALUE	100	80
+rhox_volrik_high_wom	VALUE	2147483647	80
 wh3_main_corruption_tzeentch_1-10_rhox_volrik	VALUE	10	1
 wh3_main_corruption_tzeentch_11-20_rhox_volrik	VALUE	20	11
 wh3_main_corruption_tzeentch_21-30_rhox_volrik	VALUE	30	21
