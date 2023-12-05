@@ -80,7 +80,7 @@ local rhox_iee_list={
         enemy={
             key="cr_ogr_deathtoll",
             subtype="wh3_main_ogr_tyrant",
-            unit_list="wh3_main_ogr_inf_gnoblars_0,wh3_main_ogr_inf_gnoblars_0,wh3_main_ogr_inf_gnoblars_0,wh3_main_ogr_inf_maneaters_0,wh3_main_ogr_inf_maneaters_1"
+            unit_list="wh3_main_ogr_inf_gnoblars_0,wh3_main_ogr_inf_gnoblars_0,wh3_main_ogr_inf_maneaters_0,wh3_main_ogr_inf_maneaters_1"
         },
         additional = function(faction, faction_key) 
             if faction:is_human() then

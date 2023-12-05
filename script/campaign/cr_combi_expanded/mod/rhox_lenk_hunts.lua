@@ -447,7 +447,7 @@ function LenkBeastHunts:generate_beast_incident(event_type, event_context, chanc
 		self.incident_count = self.incident_count + 1
 
 
-		local incident_builder = cm:create_incident_builder( self.lenk_incident_key)
+		local incident_builder = cm:create_incident_builder(self.lenk_incident_key)
 		incident_builder:add_target("default", cm:get_character_by_cqi(cqi_for_incident))
 		local payload_builder = cm:create_payload()
 		payload_builder:add_mercenary_to_faction_pool(unit_key, amount)  
