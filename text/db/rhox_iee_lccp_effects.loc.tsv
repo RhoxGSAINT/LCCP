@@ -42,7 +42,7 @@ effects_description_rhox_torinubar_melee_attack_gate_guard	Melee attack: %+n for
 effects_description_rhox_torinubar_melee_defence_gate_guard	Melee defence: %+n for Calith Gatekeepers units	false
 effects_description_hkrul_thorgar_ascend_dummy	Unbridled Ambition: Finish Thorgar's quests and allow him to ascend into Daemonhood	false
 effects_description_rhox_iee_dwf_burlok_dummy1	Pioneers: Has access to various Legendary Adventurers through the forge mechanic	false
-effects_description_rhox_slaurith_hunt_knight_dummy	Ultimate Challenger: Hunt famed Warlords for significant bonusses	false
+effects_description_rhox_slaurith_hunt_knight_dummy	Ultimate Challenger: Hunt down your past fellow knights and sacrifice them to Khorne for significant bonuses!	false
 effects_description_rhox_hrothyogg_mercenary_chance	Chance of getting a Mercenary Contracter after victories: %+n%	false
 effects_description_rhox_sceolan_office_woodelf_elf_melee_attack	Melee attack: %n% for all Elf units	false
 effects_description_rhox_sceolan_office_woodelf_elf_melee_defence	Melee defence: %n% for all Elf units	false

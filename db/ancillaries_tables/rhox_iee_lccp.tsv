@@ -10,7 +10,7 @@ hkrul_karitamen_chariot	wh2_dlc09_anc_mount_skeleton_chariot	.	false	false	false
 hkrul_duriath_horse	wh2_main_anc_mount_dark_steed	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	hkrul_duriath_horse		1	0		false	false	true	all
 hkrul_duriath_pegasus	wh2_main_anc_mount_dark_pegasus	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	hkrul_duriath_pegasus		1	0		false	false	true	all
 hkrul_duriath_dragon	wh2_main_anc_mount_black_dragon	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	hkrul_duriath_dragon		1	0		false	false	true	all
-hkrul_hrothyogg_crusher	wh3_main_anc_mount_stonehorn	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	hkrul_hrothyogg_crusher		1	0		false	false	true	all
+hkrul_hrothyogg_crusher	kou_hrothyogg_crusher	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	hkrul_hrothyogg_crusher		1	0		false	false	true	all
 hkrul_slaurith_mount	wh_main_anc_mount_chaos_steed	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	hkrul_slaurith_mount		1	1		false	false	true	all
 hkrul_vroth_chariot	wh_main_anc_mount_chaos_chariot	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	hkrul_vroth_chariot		1	0		false	false	true	all
 hkrul_vroth_mammoth	wh_dlc08_anc_mount_chaos_war_mammoth	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	hkrul_vroth_mammoth		1	0		false	false	true	all
@@ -25,3 +25,18 @@ rhox_burlok_infrno_frostplate	wh_main_anc_armour	.	false	false	false	1	0	9999			
 rhox_burlok_granite_gauntlet	wh_main_anc_enchanted_item	.	false	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			200	0		false	false	false	all
 rhox_burlok_leviathan_amulet	wh_main_anc_talisman	.	false	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			200	0		false	false	false	all
 hkrul_zach_circlet	wh_main_anc_enchanted_item	.	false	false	false	1	0	9999			false	false	false	enchanted_item	16	30	30	50	true			200	0		false	false	false	all
+hkrul_engra_sword	wh_main_anc_weapon	.	false	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false	false	true	all
+hkrul_engra_horse	wh_main_anc_mount_chaos_steed	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	hkrul_engra_horse		1	1		false	false	true	all
+hkrul_spew_banner	hkrul_spew_banner	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true		hkrul_spew_banner	200	1	banner	false	false	false	all
+hkrul_spew_sword	wh_main_anc_weapon	.	false	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false	false	false	all
+hkrul_thorgar_banner	hkrul_thorgar_banner	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true		hkrul_thorgar_banner	200	1	banner	false	false	false	all
+hkrul_thorgar_olaf	hkrul_thorgar_olaf	.	true	false	false	1	0	9999			false	false	false	general	1	1	50	75	true			200	0	follower	false	false	false	all
+hkrul_thorgar_flail	wh_main_anc_weapon	.	false	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false	false	false	all
+hkrul_thorgar_chariot	wh_main_anc_mount_chaos_chariot	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	hkrul_thorgar_chariot		1	1		false	false	false	all
+hkrul_thorgar_armour	wh_main_anc_armour	.	false	false	false	1	0	9999			false	false	false	armour	16	30	30	50	true			200	0		false	false	false	all
+hkrul_thorgar_ring	wh_main_anc_enchanted_item	.	false	false	false	1	0	9999			false	false	false	enchanted_item	16	30	30	50	true			200	0		false	false	false	all
+hkrul_zach_banner	hkrul_zach_banner	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true		hkrul_zach_banner	200	1	banner	false	false	false	all
+hkrul_valbrand_banner	hkrul_valbrand_banner	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true		hkrul_valbrand_banner	200	1	banner	false	false	false	all
+hkrul_valbrand_sword	wh_main_anc_weapon	.	false	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false	false	false	all
+hkrul_volrik_banner	hkrul_volrik_banner	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true		hkrul_volrik_banner	200	1	banner	false	false	false	all
+hkrul_volrik_chariot	wh_main_anc_mount_chaos_chariot	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	hkrul_volrik_chariot		1	1		false	false	false	all

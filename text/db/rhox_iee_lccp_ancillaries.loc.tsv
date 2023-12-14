@@ -36,3 +36,5 @@ ancillaries_colour_text_rhox_burlok_leviathan_amulet	The Shimmering Leviathan Am
 ancillaries_onscreen_name_rhox_burlok_leviathan_amulet	Shimmering Leviathan Amulet	false
 ancillaries_colour_text_hkrul_aelfric_horse	The dread steeds of Chaos are more than mere horses, but creatures tainted by Daemon blood, said to be gifts from the Dark Gods themselves.	false
 ancillaries_onscreen_name_hkrul_aelfric_horse	Chaos Steed	false
+ancillaries_colour_text_hkrul_engra_sword	Recognizeable by two unique red engraved swords which are rumoured to hold fragments of the essence of all the four Chaos Gods.	true
+ancillaries_onscreen_name_hkrul_engra_sword	Deathsword's Fury	true
