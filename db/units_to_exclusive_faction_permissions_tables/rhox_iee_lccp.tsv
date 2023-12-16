@@ -1,3 +1,4 @@
 key	faction	allowed
 #units_to_exclusive_faction_permissions_tables;0;db/units_to_exclusive_faction_permissions_tables/rhox_iee_lccp		
 hef_calith_gatekeepers	cr_hef_gate_guards	true
+rhox_lccp_vmp_giant	rhox_vmp_the_everliving	true

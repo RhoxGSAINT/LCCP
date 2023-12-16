@@ -27,3 +27,7 @@ melee_expert	hkrul_shaz
 shielded	hkrul_shaz
 melee_expert	hkrul_thulgrim
 fast_dwarf	hkrul_thulgrim
+anti_infantry	rhox_lccp_vmp_giant
+armour_piercing	rhox_lccp_vmp_giant
+terror	rhox_lccp_vmp_giant
+regeneration	rhox_lccp_vmp_giant

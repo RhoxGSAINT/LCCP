@@ -1,0 +1,5 @@
+key	distance	fov	phi	theta	target_x	target_y	target_z	environment_file
+#unit_porthole_camera_settings_tables;2;db/unit_porthole_camera_settings_tables/rhox_iee_lccp								
+hkrul_spew	3.0000	28.0000	175.0000	210.0000	0.0500	2.8800	1.0000	Porthole/advisor/default_porthole.lighting
+hkrul_aelfric	1.4000	28.0000	175.0000	210.0000	0.0500	1.7000	0.0000	Porthole/advisor/default_porthole.lighting
+hkrul_beorg_bear	2.8000	28.0000	180.0000	210.0000	-0.2000	2.8000	0.7000	Porthole/advisor/default_porthole.lighting

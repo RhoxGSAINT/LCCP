@@ -24,3 +24,4 @@ hkrul_bearmen	0	5	32	12	1.0000	axe	axe		1	1.0000	1.2500	0.0000	false		0	10	4.000
 hkrul_karitamen	0	0	205	95	3.0000	sword	sword	medium	5	1.0000	1.0000	0.0000	false	wh_dlc06_unit_contact_sundered_armour	0	10	4.0000		false
 hkrul_beorg_bear_sem	0	25	110	250	5.0000	axe	claw	large	8	2.0000	1.2500	0.0000	false		0	10	4.0000		false
 hkrul_beorg_bear_touched	0	30	41	35	5.0000	axe	claw	large	3	1.0000	1.2500	0.0000	false		3	2	4.0000		false
+rhox_lccp_vmp_giant	0	0	250	550	6.0000	axe	club_huge	large	11	1.7000	1.2500	0.0000	false		0	10	4.0000		false

@@ -1,6 +1,6 @@
 key	text	tooltip
 #Loc;1;text/db/hkrul_volrik_generic__.loc		
-ancillaries_colour_text_hkrul_volrik_banner	Deep within the lands of the Khurgan the mighty warlord Volrik slowly succumbs to the gifts of the ultimate schemer. As he devotes himself to Tzeentch his following grows, all impressed by his grotesque mutations. His banner feared and renowned throughout the vast steppes, only his closest retinue may carry it in to battle.	true
+ancillaries_colour_text_hkrul_volrik_banner	Deep within the lands of the Kurgan the mighty warlord Volrik slowly succumbs to the gifts of the ultimate schemer. As he devotes himself to Tzeentch his following grows, all impressed by his grotesque mutations. His banner feared and renowned throughout the vast steppes, only his closest retinue may carry it in to battle.	true
 ancillaries_onscreen_name_hkrul_volrik_banner	Banner of the Ravenblessed	true
 effect_bundles_localised_title_hkrul_volrik_banner	Banner of the Ravenblessed	false
 character_trait_levels_onscreen_name_hkrul_defeated_trait_volrik	The Cursed Raven	true
