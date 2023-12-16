@@ -282,6 +282,10 @@ local rhox_iee_list={
             for i = 1, #wef_ror do
                 cm:add_unit_to_faction_mercenary_pool(faction, wef_ror[i], "renown", 1, 100, 1, 0.1, "", "", "", true, wef_ror[i])
             end
+            local target_region = cm:get_region("cr_combi_region_elithis_2_1")
+            local target_slot = target_region:slot_list():item_at(1)
+            cm:instantly_upgrade_building_in_region(target_slot, "wh_dlc05_wef_melee_1")
+            cm:heal_garrison(target_region:cqi())
         end,
         first_tick = function(faction, faction_key) 
         end
@@ -558,7 +562,8 @@ local rhox_iee_list={
                 "wh_dlc04_vmp_inf_tithe_0",
                 "wh_dlc04_vmp_mon_devils_swartzhafen_0",
                 "wh_dlc04_vmp_veh_claw_of_nagash_0",
-                "wh_dlc04_vmp_mon_direpack_0"
+                "wh_dlc04_vmp_mon_direpack_0",
+                "rhox_lccp_vmp_giant"
             }
             for i = 1, #vmp_ror do
                 cm:add_unit_to_faction_mercenary_pool(faction, vmp_ror[i], "renown", 1, 100, 1, 0.1, "", "", "", true, vmp_ror[i])

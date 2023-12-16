@@ -15,18 +15,18 @@ effects_description_rhox_iee_nor_efficient_hunter_dummy4	Unmatched Hunter: Lenk 
 effects_description_rhox_valbrand_dedicated_to_khorne_dummy	Dedicated to Khorne: May only devote himself to Khorne	false
 effects_description_rhox_volrik_dedicated_to_tzeentch_dummy	Dedicated to Tzeentch: May only devote himself to Tzeentch	false
 effects_description_rhox_volrik_chaos_gift_dummy	Ravenblessed: May gather grimoires and use these to recieve boons of Tzeentch and Chaos	false
-effects_description_rhox_hrothyogg_recruiter_mercenary_branch_office_dummy	Master Mercenary: Contracters may spawn after succesfull battles in enemy territories	false
+effects_description_rhox_hrothyogg_recruiter_mercenary_branch_office_dummy	Master Mercenary: Contractors may spawn after successful battles in enemy territories	false
 effects_description_rhox_hrothyogg_region_owner_mercenary_gain_chance	Chance of region owner gaining Maneater unit: %n%	false
 effects_description_rhox_hrothyogg_building_destoryed_if_not_alliance_dummy	Contracter will leave if settlement owner declares war on the player	false
 effects_description_rhox_hrothyogg_effect_force_stat_melee_attack_maneaters	Melee attack: %+n for Maneaters units	false
 effects_description_rhox_hrothyogg_effect_force_stat_melee_defence_maneaters	Melee defence: %+n for Maneaters units	false
-effects_description_rhox_dolmance_devotee_dummy	Does not have access to the chapel buildings but instead has access to Slaanesh sorcerers, pleasurable acts and replenishment via captives	false
+effects_description_rhox_dolmance_devotee_dummy	Does not have access to the chapel buildings but instead has access to Slaanesh sorcerers, pleasurable acts, and replenishment via captives	false
 effects_description_rhox_dolmance_wine_dummy	Wine producing buildings provide unique global bonuses	false
-effects_description_rhox_sceolan_embrace_cold_dummy	Embrace the Cold: Recieves bonusses for entering regions with a frozen climate and magical forests.	false
+effects_description_rhox_sceolan_embrace_cold_dummy	Embrace the Cold: Recieves bonuses for entering regions with a frozen climate and magical forests.	false
 effects_description_rhox_sceolan_ice_heart_army_ability	Army ability: "Heart of Winter"	false
 effects_description_rhox_sceolan_effect_skill_weapon_damage_increase_wef_wardancers_wildwood_rangers	Weapon strength: %+n% for Wardancers, Bladesingers and Wildwood Rangers units	false
 effects_description_rhox_engra_alliance_dummy	Loyalist: Starts with unbreakable pact with [[img:ui/flags/wh_main_chs_chaos/mon_24.png]][[/img]] Warhost of the Apocalypse	false
-effects_description_rhox_engra_meter_dummy	Everchosen's Headhunter: Gifting conquered settlements to Archaon provides shared bonusses with [[img:ui/flags/wh_main_chs_chaos/mon_24.png]][[/img]] Warhost of the Apocalypse	false
+effects_description_rhox_engra_meter_dummy	Everchosen's Headhunter: Gifting conquered settlements to Archaon provides shared bonuses with [[img:ui/flags/wh_main_chs_chaos/mon_24.png]][[/img]] Warhost of the Apocalypse	false
 effects_description_rhox_engra_vassal_effect_dummy	%+n% Weapon Strength for each currently vassalised faction for own and [[img:ui/flags/wh_main_chs_chaos/mon_24.png]][[/img]] Warhost of the Apocalypse forces (all armies)	false
 effects_description_rhox_engra_vassal_effect_script_value	HIDDEN: Script value used to determine value Archaon is getting	false
 effects_description_rhox_engra_archaon_effect_dummy	Bonusses are shared with [[img:ui/flags/wh_main_chs_chaos/mon_24.png]][[/img]] Warhost of the Apocalypse	false

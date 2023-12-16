@@ -78,3 +78,6 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			wh3_dlc20_chs_cav_marauder_horsemen_mtze_javelins	hkrul_volrik_mtze	false
 			wh3_dlc20_chs_inf_chaos_marauders_mtze	hkrul_volrik_mtze	false
 			wh3_dlc20_chs_inf_chaos_marauders_mtze_spears	hkrul_volrik_mtze	false
+			rhox_lccp_vmp_giant	wh2_dlc11_vmp_vets_crypt_horrors_ghouls_dire_wolves_varghulfs_mournguls	false
+			rhox_lccp_vmp_giant	wh2_dlc11_vmp_zombies_skeletons_ghouls_graveguard	false
+			rhox_lccp_vmp_giant	wh2_main_ror_units_all	false
