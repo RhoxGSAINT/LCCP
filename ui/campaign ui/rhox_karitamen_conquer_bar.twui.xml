@@ -200,7 +200,7 @@
 				<component_image
 					this="AC258868-3BA4-A113-E1EADD0804AC13E6"
 					uniqueguid="AC258868-3BA4-A113-E1EADD0804AC13E6"
-					imagepath="ui/skins/wh3_main_cth_cathay/bastion_threat_bar_frame.png"/>
+					imagepath="ui/skins/default/partypus_bar_frame.png"/>
 			</componentimages>
 			<states>
 				<default
@@ -547,7 +547,7 @@
 				<component_image
 					this="942A2F3F-F4CA-6D90-C03D2ABBEA520B0D"
 					uniqueguid="942A2F3F-F4CA-6D90-C03D2ABBEA520B0D"
-					imagepath="ui/flags/cr_tmb_sons_of_ptra/mon_64.png"/>
+					imagepath="ui/skins/default/icon_partypus_karitamen.png"/>
 			</componentimages>
 			<states>
 				<default
