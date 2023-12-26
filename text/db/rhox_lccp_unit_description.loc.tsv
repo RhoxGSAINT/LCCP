@@ -1,0 +1,47 @@
+key	text	tooltip
+#Loc;1;text/db/rhox_lccp_unit_description.loc		
+unit_description_short_texts_text_hkrul_burlok	Burlok Damminsson is a Master Engineer and current leader of the legendary Engineers Guild.	false
+unit_description_historical_texts_text_hkrul_burlok	Burlok Damminsson is a Master Engineer and current leader of the legendary Engineers Guild.	false
+unit_description_historical_texts_text_hkrul_aelfric	Cyenwulf is the High Zar of the Iron Wolf tribe, a fearsome chaos tribe situated on the very edge of the mortal realms.	false
+unit_description_short_texts_text_hkrul_aelfric	Cyenwulf is the High Zar of the Iron Wolf tribe, a fearsome chaos tribe situated on the very edge of the mortal realms.	false
+unit_description_historical_texts_text_hkrul_duriath	Duriath Helbane is one of the most feared corsairs under employ of the Witch King, tasked with the most dangerous expeditions.	false
+unit_description_short_texts_text_hkrul_duriath	Duriath Helbane is one of the most feared corsairs under employ of the Witch King, tasked with the most dangerous expeditions.	false
+unit_description_historical_texts_text_hkrul_engra	Engra Deathsword was the right hand of Asavar Kul, he vanished after Kul's demise only to emerge to serve Archaeon.	false
+unit_description_short_texts_text_hkrul_engra	Engra Deathsword was the right hand of Asavar Kul, he vanished after Kul's demise only to emerge to serve Archaeon.	false
+unit_description_short_texts_text_hkrul_arbaal	The Undefeated destroyer of Khorne is the very paragon of the God of bloodlust, bringer of ruin.	false
+unit_description_historical_texts_text_hkrul_arbaal	The Undefeated destroyer of Khorne is the very paragon of the God of bloodlust, bringer of ruin.	false
+unit_description_short_texts_text_hkrul_dolmance	Alphonse Dolmancé is both Bretonnian nobility and staunch worshipper of the God of Excess.	false
+unit_description_historical_texts_text_hkrul_dolmance	Alphonse Dolmancé is both Bretonnian nobility and staunch worshipper of the God of Excess.	false
+unit_description_short_texts_text_hkrul_hroth	Hrothyogg is a feared maneater and the collector of tolls or bringer of death.	false
+unit_description_historical_texts_text_hkrul_hroth	Hrothyogg is a feared maneater and the collector of tolls or bringer of death.	false
+unit_description_short_texts_text_hkrul_sceolan	Sceolan of the Hooked Blade, Lord of Atylwyth, is one the oldest and most cunning of the Wood Elf warriors.	false
+unit_description_historical_texts_text_hkrul_sceolan	Sceolan of the Hooked Blade, Lord of Atylwyth, is one the oldest and most cunning of the Wood Elf warriors.	false
+unit_description_short_texts_text_hkrul_slaurith	The Champion of Bastion Stair once more roams the mortal realm, seeking his next worthy challenger and inevitable victim.	true
+unit_description_historical_texts_text_hkrul_slaurith	The Champion of Bastion Stair once more roams the mortal realm, seeking his next worthy challenger and inevitable victim.	false
+unit_description_short_texts_text_hkrul_spew	The Bastard King of Icehorn Peak vows to ascend in to daemonhood and claim his place within Nurgle's garden.	false
+unit_description_historical_texts_text_hkrul_spew	The Bastard King of Icehorn Peak vows to ascend in to daemonhood and claim his place within Nurgle's garden.	false
+unit_description_short_texts_text_hkrul_thorgar	Thorgar the Blooded one, is the High Zar of the Khazags and infamous Warlord of the Kurgan Steppes.	false
+unit_description_historical_texts_text_hkrul_thorgar	Thorgar the Blooded one, is the High Zar of the Khazags and infamous Warlord of the Kurgan Steppes.	false
+unit_description_short_texts_text_hkrul_valbrand	Valbrand Fireblade, patron of Khorne and dreaded slaver of the seven seas carries a sword the size of a dozen men.	false
+unit_description_historical_texts_text_hkrul_valbrand	Valbrand Fireblade, patron of Khorne and dreaded slaver of the seven seas carries a sword the size of a dozen men.	false
+unit_description_historical_texts_text_hkrul_volrik	Volrik Clawhand, touched by Tzeentch is a Kurgan Warlord dedicated to the ultimate schemer.	false
+unit_description_short_texts_text_hkrul_volrik	Volrik Clawhand, touched by Tzeentch is a Kurgan Warlord dedicated to the ultimate schemer.	false
+unit_description_short_texts_text_hkrul_vroth	Surtha Lenk, High Zar of the Tokmars tribe is a hunter of unmatched skill. Besting monsters ten times his own size, which is impressive in it's own right.	false
+unit_description_historical_texts_text_hkrul_vroth	Surtha Lenk, High Zar of the Tokmars tribe is a hunter of unmatched skill. Besting monsters ten times his own size, which is impressive in it's own right.	false
+unit_description_short_texts_text_hkrul_zach	Zacharias the Everliving is an immensely powerful Vampire of the Necrarch bloodline that was exiled from the Forests of Shadows.	false
+unit_description_historical_texts_text_hkrul_zach	Zacharias the Everliving is an immensely powerful Vampire of the Necrarch bloodline that was exiled from the Forests of Shadows.	false
+unit_description_short_texts_text_rhox_lccp_vmp_giant	Zach's Giant	false
+unit_description_historical_texts_text_rhox_lccp_vmp_giant	Zach's Giant	false
+unit_description_historical_texts_text_hkrul_rhobb	The strongest and bravest of legendary adventurers, Rhobb Grimly is massive - for a dwarf.	false
+unit_description_historical_texts_text_hkrul_thulgrim	Cunning and sly, Thulgrim can pick your pocket before you have a chance to say dwarf.	false
+unit_description_historical_texts_text_hkrul_shaz	Stout, determined and steadfast. Shaz Ensun is as stubborn as she is capable.	false
+unit_description_short_texts_text_hkrul_rhobb	The strongest and bravest of legendary adventurers, Rhobb Grimly is massive - for a dwarf.	false
+unit_description_short_texts_text_hkrul_thulgrim	Cunning and sly, Thulgrim can pick your pocket before you have a chance to say dwarf.	false
+unit_description_short_texts_text_hkrul_shaz	Stout, determined and steadfast. Shaz Ensun is as stubborn as she is capable.	false
+unit_description_short_texts_text_lord_slaurith	unit_description_short_texts_text_lord_slaurith	false
+unit_description_short_texts_text_hkrul_karitamen	Lord Karitamen emerges with his cultists that worship the Father of All on the distant shores of Nippon, partaking in some sinister plot involving the eternal Sun.	false
+unit_description_historical_texts_text_hkrul_karitamen	Lord Karitamen emerges with his cultists that worship the Father of All on the distant shores of Nippon, partaking in some sinister plot involving the eternal Sun.	false
+unit_description_short_texts_text_hef_calith_gatekeepers	Clad in jade armour, these elite Asur swordsmen have sworn to defend the Gates of Calith from all who threaten them.	true
+unit_description_historical_texts_text_hef_calith_gatekeepers	Clad in jade armour, these elite Asur swordsmen have sworn to defend the Gates of Calith from all who threaten them.	false
+unit_description_short_texts_text_hef_calith_torinubar	Torinubar has stood guard over the Gates of Calith for centuries now, using his mastery in Kineticism to stop any would-be invaders before they even touch him.	true
+unit_description_historical_texts_text_hef_calith_torinubar	Torinubar has stood guard over the Gates of Calith for centuries now, using his mastery in Kineticism to stop any would-be invaders before they even touch him.	false

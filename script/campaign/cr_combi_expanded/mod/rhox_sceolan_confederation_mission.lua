@@ -1,3 +1,15 @@
+table.insert(character_unlocking.character_data["ariel"]["ritual_keys"], "cr_ritual_rebirth_the_far_place")
+
+cm:add_pre_first_tick_callback(
+    function()
+        if cm:get_faction("rhox_wef_far_away_forest"):is_human() then
+            table.insert(character_unlocking.character_data["ariel"]["override_allowed_factions"], "rhox_wef_far_away_forest") --allowed factions is a saved, but override isn't so need to do it everytime
+            character_unlocking.character_data["ariel"]["mission_incidents"]["rhox_wef_far_away_forest"]="wh2_dlc16_incident_wef_ariel_arrives"
+        end
+    end
+)
+
+
 confed_missions_data["rhox_wef_far_away_forest"] = {
     factions = {"wh_dlc05_wef_wood_elves", "wh_dlc05_wef_argwylon","wh2_dlc16_wef_sisters_of_twilight"},
     target_faction = "rhox_wef_far_away_forest",

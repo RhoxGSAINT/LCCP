@@ -16,8 +16,6 @@ character_skills_localised_description_hkrul_burlok_special_2_0	Experimental wea
 character_skills_localised_name_hkrul_burlok_special_2_0	Enhanced Weaponry	false
 character_skills_localised_description_hkrul_burlok_special_0_1	The Dwarven engineers are revered and famed for their talented designs and experiments.	false
 character_skills_localised_name_hkrul_burlok_special_0_1	Engineer's Guild	false
-unit_description_short_texts_text_hkrul_burlok	Burlok Damminsson is a Master Engineer and current leader of the legendary Engineers Guild.	false
-unit_description_historical_texts_text_hkrul_burlok		false
 effects_description_hkrul_burlok_building_time_dwf_engineers	Construction time: %+n% for all Engineering chain buildings	true
 effects_description_hkrul_burlok_building_cost_dwf_engineers	Construction cost: %+n% for all Engineering chain buildings	true
 character_skill_node_sets_enc_title_skill_node_set_hkrul_burlok	Burlok Skills	false

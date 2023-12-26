@@ -9,7 +9,7 @@ character_skills_localised_name_hkrul_hroth_special_1_1	Round' Bellies	false
 character_skills_localised_description_hkrul_hroth_special_1_2	One of the most infamous and refered maneaters alive, Hrothyogg is as popular as he is feared among other warlords.	false
 character_skills_localised_name_hkrul_hroth_special_1_2	Specialist Mercenary	false
 character_skills_localised_description_hkrul_hroth_special_1_3	All these contracts have made Hrothyogg quite the negotiator, for an Orge - that is.	false
-character_skills_localised_name_hkrul_hroth_special_1_3	Shrew Negotiator	false
+character_skills_localised_name_hkrul_hroth_special_1_3	Shrewd Negotiator	false
 character_skills_localised_description_hkrul_hroth_special_1_4	Hack' em! Slash' em! Put them in our stew!	false
 character_skills_localised_name_hkrul_hroth_special_1_4	Hackin' Time	false
 character_skills_localised_description_hkrul_hroth_special_2_0	No finer stew is known to Ogre bellies than Hrothyogg's stew, it's ingredients a secret.	false
@@ -20,9 +20,7 @@ unit_abilities_tooltip_text_hkrul_hroth_stew	No finer stew is known to Ogre bell
 unit_abilities_onscreen_name_hkrul_hroth_stew	Hrothyogg's Stew	false
 effects_description_hkrul_hroth_stew	Ability: "Hrothyogg's Stew''	true
 effects_description_hkrul_hrothyogg_melee_maneaters	Melee attack: %+n for Maneater units	true
-unit_description_short_texts_text_hkrul_hroth	Hrothyogg is a feared maneater and the collector of tolls or bringer of death.	false
 effects_description_hkrul_hroth_income_negative	Income from enemy buildings: %+n%	true
-unit_description_historical_texts_text_hkrul_hroth	This is Historical Description	false
 character_skill_node_sets_enc_title_skill_node_set_hkrul_hroth	Hrothyogg Skills	false
 units_custom_battle_mounts_localised_description_hkrul_hrothyogghkrul_hrothyogg_crusher	The Rhinox are stubborn creatures with a head that could pierce the hardest of rocks with a single nudge.	false
 units_custom_battle_mounts_mount_name_hkrul_hrothyogghkrul_hrothyogg_crusher	Rhinox	false

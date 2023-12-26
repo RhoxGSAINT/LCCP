@@ -20,7 +20,7 @@ local kho_player_faction_strings = {"cr_kho_servants_of_the_blood_nagas", "rhox_
 
 function rhox_lccp_setup_khorne_skulls()
 	for i = 1, #kho_player_faction_strings do
-		if not cm:get_faction(kho_player_faction_strings[i]):pooled_resource_manager():resource("wh3_main_kho_skulls"):is_null_interface() then
+		if cm:get_faction(kho_player_faction_strings[i]):is_human() and not cm:get_faction(kho_player_faction_strings[i]):pooled_resource_manager():resource("wh3_main_kho_skulls"):is_null_interface() then
 			rhox_lccp_start_khorne_skull_listeners();
 			return;
 		end;

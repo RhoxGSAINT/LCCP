@@ -131,7 +131,7 @@ table.insert(initiative_templates,
     {
 
 		["initiative_key"] = "rhox_thorgar_ascend",
-		["event"] = "CharacterRankUp",
+		["event"] = "CharacterTurnStart",
 		["condition"] =
 			function(context)
                 local character = context:character();

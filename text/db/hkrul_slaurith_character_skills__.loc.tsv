@@ -1,7 +1,7 @@
 key	text	tooltip
 #Loc;1;text/db/hkrul_slaurith_character_skills__.loc		
 character_skills_localised_name_innate_hkrul_slaurith	Lord of Bastion Stair	true
-character_skills_localised_description_innate_hkrul_slaurith	Placeholder Text Placeholder Text	true
+character_skills_localised_description_innate_hkrul_slaurith	Impatiently waiting his next challenger, Lord Slaurith seeks eternal glory on the steps of Bastion Stair.	true
 character_skills_localised_description_hkrul_slaurith_special_0_1	A grim currency that fuels his unstoppable ascent.	true
 character_skills_localised_name_hkrul_slaurith_special_0_1	Skull Collector	true
 character_skills_localised_description_hkrul_slaurith_special_1_0	In the heat of battle, Lord Slaurith and his warriors become an unstoppable storm of carnage, fueled by Khorne's unrelenting rage	true

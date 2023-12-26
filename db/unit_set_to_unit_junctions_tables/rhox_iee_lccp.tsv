@@ -20,8 +20,10 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_vroth	hkrul_vroth_javelins	false
 			wh3_main_kho_inf_flesh_hounds_of_khorne_0	hkrul_arbaal_hound	false
 			wh3_main_pro_kho_inf_flesh_hounds_of_khorne_0	hkrul_arbaal_hound	false
+			wh3_twa10_kho_inf_flesh_hounds_of_khorne_ror	hkrul_arbaal_hound	false
 			wh3_main_kho_inf_bloodletters_0	hkrul_slaurith_blood	false
 			wh3_main_kho_inf_bloodletters_1	hkrul_slaurith_blood	false
+			wh3_twa06_kho_inf_bloodletters_ror_0	hkrul_slaurith_blood	false
 			hef_calith_gatekeepers	hef_spear_silver_swordmaster_lions_rank7	false
 			hef_calith_gatekeepers	hef_spearmen_archers_silverhelms	false
 			hef_calith_gatekeepers	wh2_dlc15_hef_all_spear_inf	false
@@ -81,3 +83,12 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			rhox_lccp_vmp_giant	wh2_dlc11_vmp_vets_crypt_horrors_ghouls_dire_wolves_varghulfs_mournguls	false
 			rhox_lccp_vmp_giant	wh2_dlc11_vmp_zombies_skeletons_ghouls_graveguard	false
 			rhox_lccp_vmp_giant	wh2_main_ror_units_all	false
+			rhox_lccp_vmp_giant	wh2_dlc11_vmp_vets_crypt_horrors_ghouls_dire_wolves_varghulfs_ror	false
+			rhox_lccp_sceolan_wef_spellweaver_ice	wef_dlc05_elf_characters	false
+			rhox_lccp_sceolan_wef_spellweaver_ice_1	wef_dlc05_elf_characters	false
+			rhox_lccp_sceolan_wef_spellweaver_ice_2	wef_dlc05_elf_characters	false
+			rhox_lccp_sceolan_wef_spellweaver_ice_3	wef_dlc05_elf_characters	false
+			rhox_lccp_sceolan_wef_spellsinger_ice	wef_dlc05_elf_characters	false
+			rhox_lccp_sceolan_wef_spellsinger_ice_1	wef_dlc05_elf_characters	false
+			rhox_lccp_sceolan_wef_spellsinger_ice_2	wef_dlc05_elf_characters	false
+			rhox_lccp_sceolan_wef_spellsinger_ice_3	wef_dlc05_elf_characters	false

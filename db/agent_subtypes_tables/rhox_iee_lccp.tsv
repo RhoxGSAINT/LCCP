@@ -8,3 +8,5 @@ hkrul_rhobb	false	true		hkrul_rhobb	wh_main_vo_actor_Dwarf_Thane	false	-1	false	
 hkrul_thulgrim	false	true		hkrul_thulgrim	wh_main_vo_actor_Dwarf_Thane	false	-1	false	true	false	false				false	false	cannot_be_saved_loaded		false	true	1100
 hkrul_shaz	false	true		hkrul_shaz	wh2_main_vo_actor_High_Elves_Princess	false	-1	false	true	false	false				false	false	cannot_be_saved_loaded		false	true	1100
 hkrul_oerl	false	false		hkrul_oerl	wh_dlc08_vo_actor_Norsca_Marauder_Chieftan	false	-1	false	true	false	false				false	false	cannot_be_saved_loaded		false	true	1100
+rhox_lccp_sceolan_wef_spellweaver_ice	true	true	ui/campaign ui/Agents/wh3_main_lore_ice.png	rhox_lccp_sceolan_wef_spellweaver_ice	wh2_dlc16_vo_actor_Wood_Elves_SpellWeaver	true	-1	true	true	false	true	wef_spellweaver	wh3_main_lore_of_ice		true	true	can_be_saved_loaded		false	true	900
+rhox_lccp_sceolan_wef_spellsinger_ice	true	true	ui/campaign ui/Agents/wh3_main_lore_ice.png	rhox_lccp_sceolan_wef_spellsinger_ice	wh_dlc05_vo_actor_Wood_Elves_Spellsinger	true	-1	true	true	false	true				true	true	can_be_saved_loaded		false	true	800

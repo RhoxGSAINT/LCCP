@@ -66,6 +66,8 @@ armoured	hkrul_hrothyogg_crusher
 ogre_charge	hkrul_hrothyogg_crusher
 armoured	hkrul_spew
 poison	hkrul_spew
+anti_infantry	hkrul_spew_rider
+poison	hkrul_spew_rider
 damage_dealer	hkrul_sceolan
 melee_expert	hkrul_sceolan
 armoured	hkrul_sceolan
