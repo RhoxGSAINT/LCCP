@@ -1,0 +1,6 @@
+set	contract
+#caravan_contract_set_items_tables;0;db/caravan_contract_set_items_tables/rhox_lccp_torinubar	
+rhox_torinubar_east	rhox_torinubar_east_buy
+rhox_torinubar_east	rhox_torinubar_west_sell
+rhox_torinubar_west	rhox_torinubar_west_buy
+rhox_torinubar_west	rhox_torinubar_east_sell

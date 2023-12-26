@@ -40,3 +40,9 @@ hkrul_valbrand_banner	hkrul_valbrand_banner	.	true	false	false	1	0	9999			false	
 hkrul_valbrand_sword	wh_main_anc_weapon	.	false	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false	false	false	all
 hkrul_volrik_banner	hkrul_volrik_banner	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true		hkrul_volrik_banner	200	1	banner	false	false	false	all
 hkrul_volrik_chariot	wh_main_anc_mount_chaos_chariot	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	hkrul_volrik_chariot		1	1		false	false	false	all
+rhox_lccp_sceolan_wef_spellweaver_ice_1	wh_dlc05_anc_mount_wef_elven_steed	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	rhox_lccp_sceolan_wef_spellweaver_ice_1		1	0		false	false	true	all
+rhox_lccp_sceolan_wef_spellweaver_ice_2	wh_dlc05_anc_mount_wef_unicorn	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	rhox_lccp_sceolan_wef_spellweaver_ice_2		1	0		false	false	true	all
+rhox_lccp_sceolan_wef_spellweaver_ice_3	wh_dlc05_anc_mount_wef_great_eagle	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	rhox_lccp_sceolan_wef_spellweaver_ice_3		1	0		false	false	true	all
+rhox_lccp_sceolan_wef_spellsinger_ice_1	wh_dlc05_anc_mount_wef_elven_steed	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	rhox_lccp_sceolan_wef_spellsinger_ice_1		1	0		false	false	true	all
+rhox_lccp_sceolan_wef_spellsinger_ice_2	wh_dlc05_anc_mount_wef_great_eagle	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	rhox_lccp_sceolan_wef_spellsinger_ice_2		1	0		false	false	true	all
+rhox_lccp_sceolan_wef_spellsinger_ice_3	wh_dlc05_anc_mount_wef_unicorn	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	rhox_lccp_sceolan_wef_spellsinger_ice_3		1	0		false	false	true	all

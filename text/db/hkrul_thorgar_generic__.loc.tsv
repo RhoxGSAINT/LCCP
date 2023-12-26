@@ -1,6 +1,6 @@
 key	text	tooltip
 #Loc;1;text/db/hkrul_thorgar_generic__.loc		
-ancillaries_colour_text_hkrul_thorgar_banner	Placeholder Text Placeholder Text	true
+ancillaries_colour_text_hkrul_thorgar_banner		true
 ancillaries_onscreen_name_hkrul_thorgar_banner	Banner of the Khazag	true
 effect_bundles_localised_title_hkrul_thorgar_banner	Banner of the Khazag	false
 character_trait_levels_onscreen_name_hkrul_defeated_trait_mack	The Bloodied One	true

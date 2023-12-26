@@ -22,6 +22,11 @@ non_vampire_territory	hkrul_spew
 nurgle_plague	hkrul_spew
 chaos_territory	hkrul_spew
 chaos_wastes	hkrul_spew
+chaos_territory	hkrul_spew_rider
+chaos_wastes	hkrul_spew_rider
+non_vampire_territory	hkrul_spew_rider
+nurgle_realm	hkrul_spew_rider
+snow	hkrul_spew_rider
 non_vampire_territory	hkrul_hrothyogg
 non_vampire_territory	hkrul_hrothyogg_crusher
 non_vampire_territory	hkrul_burlok

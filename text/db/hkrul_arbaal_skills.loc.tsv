@@ -27,6 +27,5 @@ unit_abilities_tooltip_text_hkrul_arbaal_ruiner_hidden	Hidden - Executor generat
 unit_abilities_additional_ui_effects_localised_text_hkrul_arbaal_destroyer	At max effect intensity, grants the [[img:ui/battle ui/ability_icons/executor.png]][[/img]] Executor attribute	true
 effects_description_hkrul_arbaal_hound_flanker	Attribute: Devastating Flanker for Hounds of Khorne units	false
 effects_description_hkrul_arbaal_smite	Ability: "Smite of Destruction"	false
-unit_description_short_texts_text_hkrul_arbaal	The Undefeated destroyer of Khorne is the very paragon of the God of bloodlust, bringer of ruin.	false
 unit_abilities_onscreen_name_hkrul_arbaal_smite	Smite of Destruction	false
 unit_abilities_tooltip_text_hkrul_arbaal_smite	Arbaal unleashes immense power as his axe hits it's mark, as the fury of Khorne pierces all in it's way.	false

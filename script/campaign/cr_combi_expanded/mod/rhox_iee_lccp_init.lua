@@ -108,7 +108,8 @@ local rhox_iee_list={
                 transferred_region_cqi = transferred_region:cqi()
                 cm:heal_garrison(transferred_region_cqi)
             end
-            
+            cm:instantly_research_technology(faction_key, "wh_main_tech_dwf_civ_0_2", false)
+            cm:instantly_research_technology(faction_key, "wh_main_tech_dwf_mil_0_2", false)
         end,
         first_tick = function(faction, faction_key) 
             burlok:initialise()
@@ -133,9 +134,11 @@ local rhox_iee_list={
         pic=751,
         faction_trait="rhox_dolmance_faction_trait",
         enemy={
-            key="cr_chs_the_scourgeborn",
-            subtype="wh_main_chs_lord",
-            unit_list="wh_main_chs_inf_chaos_warriors_0,wh_main_chs_inf_chaos_warriors_1,wh_main_chs_inf_chaos_marauders_0,wh_main_chs_inf_chaos_marauders_0,wh_main_chs_cav_marauder_horsemen_0"
+            key="cr_emp_guests_of_the_raja",
+            subtype="wh2_dlc13_emp_cha_huntsmarshal",
+            unit_list="wh2_dlc13_emp_inf_huntsmen_0,wh2_dlc13_emp_inf_huntsmen_0,wh_main_emp_inf_greatswords,wh_main_emp_inf_halberdiers,wh_main_emp_inf_halberdiers",
+            x=1127,
+            y=280,
         },
 
         additional = function(faction, faction_key) 
@@ -165,6 +168,11 @@ local rhox_iee_list={
                     mm:trigger()
                 end
             end
+            
+            local target_region = cm:get_region("cr_combi_region_ind_5_2")
+            cm:instantly_set_settlement_primary_slot_level(target_region:settlement(), 2)
+            local target_slot = target_region:slot_list():item_at(2)
+            cm:instantly_upgrade_building_in_region(target_slot, "wh_main_brt_barracks_1")
         end,
         first_tick = function(faction, faction_key) 
             if not campaign_traits.trait_exclusions["faction"]["wh3_main_trait_corrupted_slaanesh"] then
@@ -255,7 +263,7 @@ local rhox_iee_list={
         },
         agent={
             type="wizard",
-            subtype="wh_dlc05_wef_spellsinger_shadow"
+            subtype="rhox_lccp_sceolan_wef_spellsinger_ice"
         },
         hand_over_region="cr_combi_region_elithis_2_1",
         region="cr_combi_region_elithis_2_1",
@@ -285,6 +293,8 @@ local rhox_iee_list={
             local target_region = cm:get_region("cr_combi_region_elithis_2_1")
             local target_slot = target_region:slot_list():item_at(1)
             cm:instantly_upgrade_building_in_region(target_slot, "wh_dlc05_wef_melee_1")
+            target_slot = target_region:slot_list():item_at(2)
+            cm:instantly_upgrade_building_in_region(target_slot, "wh_dlc05_wef_growth_1")
             cm:heal_garrison(target_region:cqi())
         end,
         first_tick = function(faction, faction_key) 
@@ -586,7 +596,7 @@ local rhox_iee_list={
         leader={
             subtype="hkrul_arbaal",
             unit_list="wh3_main_kho_inf_chaos_warriors_0,wh3_main_kho_inf_chaos_warriors_0,wh3_main_kho_inf_chaos_warriors_1,wh3_main_kho_inf_flesh_hounds_of_khorne_0,wh3_main_kho_inf_chaos_warhounds_0,wh3_main_kho_mon_spawn_of_khorne_0",
-            x=1060,
+            x=1061,
             y=217,
             forename ="names_name_1369138456",
             familiyname ="names_name_1369138457",
@@ -619,10 +629,11 @@ local rhox_iee_list={
             if faction:is_human() == false then
                 local target_region = cm:get_region("cr_combi_region_ind_6_2")
                 cm:instantly_set_settlement_primary_slot_level(target_region:settlement(), 3)
-                local target_slot = target_region:slot_list():item_at(1)
+                local target_slot = target_region:slot_list():item_at(2)--1 is harbour
                 cm:instantly_upgrade_building_in_region(target_slot, "wh3_main_kho_walls_minor_2")
                 cm:heal_garrison(target_region:cqi())
             end
+            cm:apply_effect_bundle("rhox_arbaal_hidden_first_turn", faction_key, 2)
         end,
         first_tick = function(faction, faction_key) 
         end
@@ -720,8 +731,8 @@ local rhox_iee_list={
                 cm:force_diplomacy("faction:"..faction_key, "faction:wh_main_chs_chaos", "vassal", false, false, true);
                 cm:make_diplomacy_available("wh_main_chs_chaos", faction_key)
                 cm:make_diplomacy_available(faction_key, "wh_main_chs_chaos")
-                cm:force_grant_military_access(faction_key, "wh_main_chs_chaos", false)
-                cm:force_grant_military_access("wh_main_chs_chaos", faction_key, false)
+                --cm:force_grant_military_access(faction_key, "wh_main_chs_chaos", false)
+                --cm:force_grant_military_access("wh_main_chs_chaos", faction_key, false)
                 
                 
             else
@@ -729,8 +740,8 @@ local rhox_iee_list={
                 cm:force_make_vassal("wh_main_chs_chaos", faction_key)
                 cm:disable_event_feed_events(true, "wh_event_category_diplomacy", "", "")
                 cm:force_declare_war("wh_main_chs_chaos", "cr_chs_po_hai", true, true)
-                --]]
                 cm:callback(function() cm:disable_event_feed_events(false, "wh_event_category_diplomacy", "", "") end, 0.5)
+                --]]
             end
             
             local rhox_province_chaos_units={--dogs only as I don't know other thing's requirement
@@ -1052,7 +1063,7 @@ cm:add_first_tick_callback(
             faction_info.first_tick(cm:get_faction(faction_key), faction_key)
         end
         
-        if cm:model():turn_number() < 3 then
+        if cm:model():turn_number() < 3 and false then --TEMP remove this after addition
             core:add_listener(
                 "rhox_lccp_turn2_incidents_RoundStart",
                 "FactionRoundStart",
@@ -1070,6 +1081,5 @@ cm:add_first_tick_callback(
         end
 	end
 )
-
 
 

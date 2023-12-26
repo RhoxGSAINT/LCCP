@@ -192,3 +192,5 @@ effect_bundles_localised_title_rhox_valbrand_slave_effect_4	Slave Population: Ve
 effect_bundles_localised_title_rhox_valbrand_slave_effect_5	Slave Population: Abundant [10000+]	false
 effect_bundles_localised_description_rhox_valbrand_settle	Sets up a defensive camp, allowing for building construction, recruitment and replenishment, regardless of territory.	false
 effect_bundles_localised_title_rhox_valbrand_settle	Stance: Encamp	false
+effect_bundles_localised_description_rhox_arbaal_hidden_first_turn	Hiddne only for first turn so he can reach the settlement	false
+effect_bundles_localised_title_rhox_arbaal_hidden_first_turn	Hiddne only for first turn so he can reach the settlement	false

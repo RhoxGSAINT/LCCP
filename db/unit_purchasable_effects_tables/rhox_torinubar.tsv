@@ -1,4 +1,0 @@
-key	cost	effect_bundle	category	pre_requisite_set
-#unit_purchasable_effects_tables;2;db/unit_purchasable_effects_tables/rhox_torinubar				
-rhox_torinubar_purchase_east	rhox_torinubar_purchase_east	rhox_torinubar_purchase_east	arrow	
-rhox_torinubar_purchase_west	rhox_torinubar_purchase_west	rhox_torinubar_purchase_west	weapon	
