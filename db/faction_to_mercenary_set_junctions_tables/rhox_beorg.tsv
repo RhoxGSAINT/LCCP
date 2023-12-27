@@ -1,0 +1,4 @@
+faction	mercenary_set
+#faction_to_mercenary_set_junctions_tables;0;db/faction_to_mercenary_set_junctions_tables/rhox_beorg	
+mixer_nur_rotbloods	wh_dlc08_nor_units_of_renown_pool
+mixer_nur_rotbloods	rhox_beorg_bears

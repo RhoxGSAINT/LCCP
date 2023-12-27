@@ -1,0 +1,11 @@
+key	text	tooltip
+#Loc;1;text/db/rhox_beorg_faction.loc		
+frontend_faction_leaders_frontend_description_mixer_nur_rotbloods	The Bearstrikken son of Bran sets out to sink his chaos touched claws in the mortal realms of men.	false
+frontend_faction_leaders_loading_screen_text_mixer_nur_rotbloods	The Bearstrikken son of Bran sets out to sink his chaos touched claws in the mortal realms of men.	false
+frontend_faction_leaders_localised_action_points_mixer_nur_rotbloods	The Bearstrikken son of Bran sets out to sink his chaos touched claws in the mortal realms of men.	false
+frontend_faction_leaders_localised_description_mixer_nur_rotbloods	The Bearstrikken son of Bran sets out to sink his chaos touched claws in the mortal realms of men.	false
+factions_attack_desc_mixer_nur_rotbloods	You are attacking the Ursfjordings!	false
+factions_defend_desc_mixer_nur_rotbloods	You are defending against the Ursfjordings!	false
+factions_screen_adjective_mixer_nur_rotbloods		false
+factions_screen_name_mixer_nur_rotbloods	Ursfjordings	false
+factions_screen_name_when_rebels_mixer_nur_rotbloods	Ursfjordings Rebels	false
