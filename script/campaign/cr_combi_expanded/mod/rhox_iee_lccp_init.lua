@@ -542,7 +542,7 @@ local rhox_iee_list={
     rhox_vmp_the_everliving ={
         leader={
             subtype="hkrul_zach",
-            unit_list="wh_main_vmp_inf_zombie,wh_main_vmp_inf_zombie,wh_main_vmp_inf_skeleton_warriors_1,wh_main_vmp_inf_skeleton_warriors_0,wh_main_vmp_inf_skeleton_warriors_0,wh_main_vmp_inf_grave_guard_0,wh_main_vmp_cav_black_knights_0,wh_dlc04_vmp_veh_mortis_engine_0",
+            unit_list="wh_main_vmp_inf_zombie,wh_main_vmp_inf_zombie,wh_main_vmp_inf_skeleton_warriors_1,wh_main_vmp_inf_skeleton_warriors_0,wh_main_vmp_inf_skeleton_warriors_0,wh_main_vmp_inf_grave_guard_0,wh_main_vmp_cav_black_knights_0,wh_dlc04_vmp_veh_mortis_engine_0,rhox_lccp_vmp_giant",
             x=1259,
             y=313,
             forename ="names_name_6670702834",
@@ -572,8 +572,7 @@ local rhox_iee_list={
                 "wh_dlc04_vmp_inf_tithe_0",
                 "wh_dlc04_vmp_mon_devils_swartzhafen_0",
                 "wh_dlc04_vmp_veh_claw_of_nagash_0",
-                "wh_dlc04_vmp_mon_direpack_0",
-                "rhox_lccp_vmp_giant"
+                "wh_dlc04_vmp_mon_direpack_0"
             }
             for i = 1, #vmp_ror do
                 cm:add_unit_to_faction_mercenary_pool(faction, vmp_ror[i], "renown", 1, 100, 1, 0.1, "", "", "", true, vmp_ror[i])
@@ -588,6 +587,8 @@ local rhox_iee_list={
                 cm:instantly_upgrade_building_in_region(target_slot, "wh_main_vmp_garrison_2")
                 cm:heal_garrison(target_region:cqi())
             end
+            
+            
         end,
         first_tick = function(faction, faction_key) 
         end
