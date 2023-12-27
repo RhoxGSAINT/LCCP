@@ -1,0 +1,4 @@
+key	campaign_key	faction_key	culture	subculture	technology_category	colour_hex
+#technology_node_sets_tables;2;db/technology_node_sets_tables/rhox_beorg						
+nur_rotbloods_tech			wh_dlc08_nor_norsca	mixer_nur_rotbloods	rom_roman_mil_top	000255
+rhox_beorg_dump				mixer_nur_rotbloods	rom_roman_mil_top	000255

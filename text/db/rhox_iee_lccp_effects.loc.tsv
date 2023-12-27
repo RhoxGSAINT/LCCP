@@ -80,3 +80,10 @@ effects_description_rhox_karitamen_effect_army_ability_enable_legacy_of_conquest
 effects_description_hkrul_aelfric_horse	Mount: Chaos Steed	false
 effects_description_rhox_valbrand_no_access_encamp_raid_dummy	Has no access to the Raiding Camp stance	false
 effects_description_rhox_karitamen_conquer_effect_dummy	Karitamen can earn additional rewards by reconquesting Amenemhetum the Great's realm	false
+effects_description_rhox_sceolan_ror_cap	Unit capacity: %+n\\nWraiths of the Frozen Heart (Dryads)\\nWinterheart Guards (Eternal Guard - Shields)	false
+effects_description_rhox_sceolan_ror_weapon_strength	Weapon strength: %+n% for Wraiths of the Frozen Heart (Dryads) and Winterheart Guards (Eternal Guard - Shields) units	false
+effects_description_rhox_sceolan_ror_melee_defence	Melee defence: %+n for Wraiths of the Frozen Heart (Dryads) and Winterheart Guards (Eternal Guard - Shields) units	false
+effects_description_hkrul_spew_bombard	Ability: "Rotting Oasis''	true
+effects_description_hkrul_spew_riders_rank	Recruit rank: %+n for Pox Riders	false
+effects_description_rhox_sceolan_lore_of_ice_dummy	Spellsingers and Spellweavers have access to the lore of Ice	false
+effects_description_rhox_lccp_spew_mount	Mount: Pox Maggoth	false

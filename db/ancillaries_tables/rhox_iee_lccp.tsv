@@ -46,3 +46,4 @@ rhox_lccp_sceolan_wef_spellweaver_ice_3	wh_dlc05_anc_mount_wef_great_eagle	.	fal
 rhox_lccp_sceolan_wef_spellsinger_ice_1	wh_dlc05_anc_mount_wef_elven_steed	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	rhox_lccp_sceolan_wef_spellsinger_ice_1		1	0		false	false	true	all
 rhox_lccp_sceolan_wef_spellsinger_ice_2	wh_dlc05_anc_mount_wef_great_eagle	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	rhox_lccp_sceolan_wef_spellsinger_ice_2		1	0		false	false	true	all
 rhox_lccp_sceolan_wef_spellsinger_ice_3	wh_dlc05_anc_mount_wef_unicorn	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	rhox_lccp_sceolan_wef_spellsinger_ice_3		1	0		false	false	true	all
+rhox_lccp_sprw_maggoth	wh3_main_anc_mount_stonehorn	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	hkrul_spew_rider		1	0		false	false	true	all

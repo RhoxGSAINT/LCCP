@@ -4,12 +4,12 @@ cr_dwf_firebeards_excavators	false	hkrul_rhobb	true	true	ui/portraits/portholes/
 cr_dwf_firebeards_excavators	false	hkrul_thulgrim	true	true	ui/portraits/portholes/wh_main_dwf_dwarfs/hkrul_thulgrim.png	hkrul_uniform_thulgrim	hkrul_thulgrim	false		false
 cr_dwf_firebeards_excavators	false	hkrul_shaz	true	true	ui/portraits/portholes/wh_main_dwf_dwarfs/hkrul_shaz.png	hkrul_shaz	hkrul_shaz	false		false
 cr_hef_gate_guards	false	hef_calith_gatekeepers	true	true				false		false
-wh_dlc08_nor_norsca	false	hkrul_oerl	true	true	ui/portraits/portholes/no_culture/hkrul_oerl.png	hkrul_oerl	hkrul_oerl	false		false
-wh_dlc08_nor_norsca	false	hkrul_bearmen	false	true				false		false
-wh_dlc08_nor_norsca	false	hkrul_beorg_brown_feral	false	true				true		false
-wh_dlc08_nor_norsca	false	hkrul_beorg_ice_feral	false	true				true		false
-wh_dlc08_nor_norsca	false	hkrul_beorg_bear_sem	false	true				true		false
-wh_dlc08_nor_norsca	false	hkrul_beorg_brown_feral_marked	false	true				true		false
+mixer_nur_rotbloods	false	hkrul_oerl	true	true	ui/portraits/portholes/no_culture/hkrul_oerl.png	hkrul_oerl	hkrul_oerl	false		false
+mixer_nur_rotbloods	false	hkrul_bearmen	false	true				false		false
+mixer_nur_rotbloods	false	hkrul_beorg_brown_feral	false	true				true		false
+mixer_nur_rotbloods	false	hkrul_beorg_ice_feral	false	true				true		false
+mixer_nur_rotbloods	false	hkrul_beorg_bear_sem	false	true				true		false
+mixer_nur_rotbloods	false	hkrul_beorg_brown_feral_marked	false	true				true		false
 rhox_vmp_the_everliving	false	rhox_lccp_vmp_giant	true	true				false		false
 rhox_wef_far_away_forest	true	rhox_lccp_sceolan_wef_spellweaver_ice	true	true	ui/portraits/portholes/no_culture/wef_spellweaver_campaign_05_0.png	wh2_dlc16_uniform_wef_spellweaver_05		false		false
 rhox_wef_far_away_forest	true	rhox_lccp_sceolan_wef_spellweaver_ice_1	true	true	ui/portraits/portholes/no_culture/wef_spellweaver_campaign_05_0.png	wh2_dlc16_uniform_wef_spellweaver_05		false		false

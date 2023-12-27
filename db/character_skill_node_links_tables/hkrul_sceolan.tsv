@@ -1,2 +1,8 @@
 child_key	parent_key	initial_descent_tiers	parent_link_position	child_link_position	parent_link_position_offset	child_link_position_offset	link_type
 #character_skill_node_links_tables;3;db/character_skill_node_links_tables/hkrul_sceolan							
+rhox_sceolan_special_02	rhox_sceolan_special_01	0	1	1	0.0000	0.0000	REQUIRED
+rhox_sceolan_special_03	rhox_sceolan_special_01	0	1	1	0.0000	0.0000	REQUIRED
+rhox_sceolan_special_04	rhox_sceolan_special_01	0	1	1	0.0000	0.0000	REQUIRED
+rhox_sceolan_special_05	rhox_sceolan_special_02	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
+rhox_sceolan_special_05	rhox_sceolan_special_03	0	0	0	0.0000	0.0000	SUBSET_REQUIRED
+rhox_sceolan_special_05	rhox_sceolan_special_04	0	0	0	0.0000	0.0000	SUBSET_REQUIRED

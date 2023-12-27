@@ -54,3 +54,7 @@ hkrul_skill_node_thorgark_misc_010		hkrul_thorgar_banner		6	21		0	0	true
 hkrul_skill_node_thorgark_misc_011		hkrul_thorgar_olaf		6	22		0	0	true
 hkrul_skill_node_thorgark_misc_012		hkrul_thorgar_armour		6	23		0	0	true
 hkrul_skill_node_thorgark_misc_013		hkrul_thorgar_ring		6	24		0	0	true
+rhox_thorgar_prince_self_01		wh_dlc08_skill_nor_lord_self_fury_of_the_hound		2	12		0	0	true
+rhox_thorgar_prince_self_02		wh_dlc08_skill_nor_lord_self_plague_of_the_crow		2	13		0	0	true
+rhox_thorgar_prince_self_03		wh_dlc08_skill_nor_lord_self_seduction_of_the_serpent		2	14		0	0	true
+rhox_thorgar_prince_self_04		wh_dlc08_skill_nor_lord_self_sorcery_of_the_eagle		2	15		0	0	true

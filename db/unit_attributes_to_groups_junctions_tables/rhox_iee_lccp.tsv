@@ -40,3 +40,8 @@ causes_fear	rhox_lccp_vmp_giant_attributes
 causes_terror	rhox_lccp_vmp_giant_attributes
 wallbreaker	rhox_lccp_vmp_giant_attributes
 undead	rhox_lccp_vmp_giant_attributes
+causes_fear	hkrul_spew_rider
+causes_terror	hkrul_spew_rider
+encourages	hkrul_spew_rider
+wallbreaker	hkrul_spew_rider
+mark_nurgle	hkrul_spew_rider
