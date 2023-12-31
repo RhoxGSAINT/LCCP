@@ -1,0 +1,3 @@
+key	uniform	x_offset	y_offset	character_image	prelude_battle	video	loading_screen_image	loading_screen_intro_video	override_force_location_x	override_force_location_y	voiceover	show_full_intro_option	difficulty	startpos_map	agent_subtype_record	faction
+#frontend_faction_leaders_tables;1;db/frontend_faction_leaders_tables/!!rhox_tow_lccp																
+cr_oldworld_political_party_vmp_the_everliving	composite_scene\winds_of_magic.csc	0.0000	0.0000	ui/portraits/faction_leaders/hkrul_zach.png	wh_main_empire_intro	todbringer_defeated	ui/loading_ui/load_images/campaign_vampire_counts1.png		-1.0000	-1.0000	wh_silent	false		default	hkrul_zach	cr_vmp_the_everliving
