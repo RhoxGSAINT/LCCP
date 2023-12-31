@@ -86,4 +86,5 @@ effects_description_rhox_sceolan_ror_melee_defence	Melee defence: %+n for Wraith
 effects_description_hkrul_spew_bombard	Ability: "Rotting Oasis''	true
 effects_description_hkrul_spew_riders_rank	Recruit rank: %+n for Pox Riders	false
 effects_description_rhox_sceolan_lore_of_ice_dummy	Spellsingers and Spellweavers have access to the lore of Ice	false
-effects_description_rhox_lccp_spew_mount	Mount: Pox Maggoth	false
+effects_description_rhox_lccp_spew_mount	Mount: Whipermaw	false
+effects_description_rhox_duriath_black_ark_dummy	Has access to shipbuilding, but recruitment and construction are only possible while stationing in the settlement or sea	false
