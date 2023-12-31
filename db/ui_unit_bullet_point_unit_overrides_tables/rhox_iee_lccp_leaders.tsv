@@ -82,6 +82,9 @@ spellcaster	hkrul_karitamen_horse
 anti_infantry	hkrul_karitamen_chariot
 armoured	hkrul_karitamen_chariot
 spellcaster	hkrul_karitamen_chariot
+anti_infantry	hkrul_karitamen_dwarf_chariot
+armoured	hkrul_karitamen_dwarf_chariot
+spellcaster	hkrul_karitamen_dwarf_chariot
 armour_piercing_ranged	hkrul_duriath
 armoured	hkrul_duriath
 armour_piercing_ranged	hkrul_duriath_horse

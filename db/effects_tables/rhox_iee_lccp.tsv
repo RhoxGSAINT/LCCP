@@ -98,3 +98,4 @@ hkrul_burlok_engineer_ms	ranged_damage.png	5	ranged_damage.png	battle	true
 hkrul_zach_skeleton_ma	melee.png	423	melee.png	battle	true
 hkrul_zach_skeleton_md	defence.png	431	defence.png	battle	true
 rhox_lccp_spew_mount	mount.png	50	mount.png	both	true
+rhox_duriath_black_ark_dummy	pirate_crew.png	105	pirate_crew.png	campaign	true

@@ -11,6 +11,7 @@ hef_calith_torinubar	wh2_main_hef
 hef_calith_torinubar_eagle	wh2_main_hef
 hef_calith_torinubar_dragon	wh2_main_hef
 hkrul_spew	wh3_main_nur
+hkrul_spew_rider	wh3_main_nur
 hkrul_dolmance	wh_main_group_bretonnia
 hkrul_thorgar	wh_main_group_norsca
 hkrul_thorgar_chariot	wh_main_group_norsca
@@ -25,6 +26,7 @@ hkrul_vroth_mammoth	wh_main_group_norsca
 hkrul_karitamen	wh2_dlc09_tomb_kings
 hkrul_karitamen_horse	wh2_dlc09_tomb_kings
 hkrul_karitamen_chariot	wh2_dlc09_tomb_kings
+hkrul_karitamen_dwarf_chariot	wh2_dlc09_tomb_kings
 hkrul_duriath	wh2_main_def
 hkrul_duriath_horse	wh2_main_def
 hkrul_duriath_pegasus	wh2_main_def
