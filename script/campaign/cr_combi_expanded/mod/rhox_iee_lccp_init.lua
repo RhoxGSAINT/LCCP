@@ -814,6 +814,9 @@ local rhox_iee_list={
                     v[6] -- merc unit group
                 )
             end	
+            
+            
+            
             if faction:is_human() then
                 cm:transfer_region_to_faction("cr_combi_region_the_bloodrift","cr_grn_nag_rippers")
                 local transferred_region = cm:get_region("cr_combi_region_the_bloodrift")
@@ -831,6 +834,10 @@ local rhox_iee_list={
                     5
                 )
             end
+            
+            --cm:force_diplomacy("all", "faction:"..faction_key, "vassal", false, false, true)--it doesn't work
+            
+            
         end,
         first_tick = function(faction, faction_key) 
             LenkBeastHunts:setup_lenk_listeners()

@@ -1,4 +1,4 @@
-table.insert(character_unlocking.character_data["ariel"]["ritual_keys"], "cr_ritual_rebirth_the_far_place")
+--table.insert(character_unlocking.character_data["ariel"]["ritual_keys"], "cr_ritual_rebirth_the_far_place") --don't need it anymore as IEE added it
 
 cm:add_pre_first_tick_callback(
     function()
