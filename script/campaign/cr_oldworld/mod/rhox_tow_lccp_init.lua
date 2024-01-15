@@ -76,8 +76,8 @@ local rhox_tow_list={
 		    cm:add_event_restricted_unit_record_for_faction("wh_dlc08_nor_mon_frost_wyrm_ror_0", faction_key, "norsca_monster_hunt_ror_unlock") 
 		    cm:spawn_unique_agent(faction:command_queue_index(), "hkrul_oerl", true)
 		    
-		    if not vfs.exists("script/frontend/mod/str_rotblood_frontend.lua") then
-                cm:force_confederation("mixer_nur_rotbloods", "mixer_nor_ursfjordlings")
+		    if cm:get_faction("cr_nor_ursfjordlings"):is_human() == false then
+                cm:force_confederation("mixer_nur_rotbloods", "cr_nor_ursfjordlings")
 		    end
 
         end,
@@ -103,6 +103,30 @@ local rhox_tow_list={
         faction_trait="rhox_zach_faction_trait",
         
         additional = function(faction, faction_key) 
+        end,
+        first_tick = function(faction, faction_key) 
+        end
+    },
+    cr_def_corsairs_of_spite ={
+        leader={
+            subtype="hkrul_duriath",
+            unit_list="wh2_main_def_inf_bleakswords_0,wh2_main_def_inf_darkshards_1,wh2_main_def_inf_black_ark_corsairs_1,wh2_main_def_inf_black_ark_corsairs_0,wh2_main_def_inf_black_ark_corsairs_0,wh2_main_def_inf_black_ark_corsairs_0",
+            x=693,
+            y=1060,
+            forename ="names_name_1369138461",
+            familiyname ="names_name_1369138462",
+        },
+        agent={
+            type="wizard",
+            subtype="wh2_dlc10_def_sorceress_death"
+        },
+        hand_over_region=nil,
+        region="cr_oldworld_region_se_athil",
+        how_they_play="rhox_iee_lccp_how_they_play_duriath",
+        pic=782,
+        faction_trait="rhox_duriath_faction_trait",
+        additional = function(faction, faction_key) 
+            cm:add_building_to_force(faction:faction_leader():military_force():command_queue_index(), "rhox_duriath_black_ark_special_1")
         end,
         first_tick = function(faction, faction_key) 
         end

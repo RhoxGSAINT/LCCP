@@ -107,7 +107,7 @@ function rhox_valbrand_slaves:start_listeners()
 		
 	-- set the amonut of slaves to provide when channeling for ui display when an army enters the raiding stance
 	core:add_listener(
-		"def_raiding_calculate_slaves",
+		"rhox_lccp_valbrand_def_raiding_calculate_slaves",
 		"ForceAdoptsStance",
 		function(context)
 			local faction = context:military_force():faction()
@@ -123,7 +123,7 @@ function rhox_valbrand_slaves:start_listeners()
 	)
 
 	core:add_listener(
-		"def_raiding_calculate_slaves_disband",
+		"rhox_lccp_valbrand_def_raiding_calculate_slaves_disband",
 		"UnitDisbanded",
 		function(context)
 			local faction = context:unit():force_commander():faction()
@@ -146,7 +146,7 @@ function rhox_valbrand_slaves:start_listeners()
 
 	-- update the amount of slaves if the character moves in raiding stance
 	core:add_listener(
-		"def_raiding_calculate_slaves_post_movement",
+		"rhox_lccp_valbrand_def_raiding_calculate_slaves_post_movement",
 		"CharacterFinishedMovingEvent",
 		function(context)
 			local character = context:character()
@@ -162,7 +162,7 @@ function rhox_valbrand_slaves:start_listeners()
 
 	--add the slaves for the armies in raiding stance
 	core:add_listener(
-		"def_raiding_add_slaves",
+		"rhox_lccp_valbrand_def_raiding_add_slaves",
 		"FactionTurnStart",
 		function(context)	
 			return context:faction():name() == self.faction_key
