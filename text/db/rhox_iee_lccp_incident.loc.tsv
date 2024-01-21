@@ -3,30 +3,30 @@ key	text	tooltip
 incidents_localised_description_rhox_hrothyogg_mercenary_recruiter	From your last battle, your mercenaries have become famous. You may use this chance to establish a mercenary branch in a friendly settlement.\\n\\n[[col:red]]This branch will be destroyed when you're at war with the settlement's owner[[/col]]	false
 incidents_localised_title_rhox_hrothyogg_mercenary_recruiter	Famed Mercenaries	false
 incidents_localised_description_rhox_hrothyogg_mercenary_branch_established	Hrothyogg, Ogre renowned for his mercenary business, has established a mercenary branch in one of your settlements. You will receive Ogre Maneater mercenaries from time to time from now\\n\\n[[col:red]]This branch will be destroyed when you're at the war with the Hrothyogg[[/col]]	false
-incidents_localised_title_rhox_hrothyogg_mercenary_branch_established	Mercenary Branch Established	false
+incidents_localised_title_rhox_hrothyogg_mercenary_branch_established	Manhunter Contractor Employed	false
 incidents_localised_description_rhox_hrothyogg_mercenary_recieved	Ogre mercenaries are recruited from Hrothyogg's mercenary branch and now is at your hand for disposal\\n\\n[[col:red]]This branch will be destroyed when you're at the war with the Hrothyogg[[/col]]	false
-incidents_localised_title_rhox_hrothyogg_mercenary_recieved	Mercenary Received	false
+incidents_localised_title_rhox_hrothyogg_mercenary_recieved	Manhunter Contractor Received	false
 event_feed_strings_text_rhox_arbaal_punishment_title	Khorne's punishment	false
 event_feed_strings_text_rhox_arbaal_punishment_primary_detail	Khorne's punishment	false
 event_feed_strings_text_rhox_arbaal_punishment_secondary_detail	Retreat, withdrawal or defeat by his Destroyer bring shame on Khorne's name. His punishment is grave. \\n\\n[[col:dark_r]][[img:ui/campaign ui/effect_bundles/effect_bundle_arbaal.png]][[/img]] Arbaal has lost a huge amount of reputation and will suffer from the consequences[[/col]]	false
 incidents_localised_description_rhox_hrothyogg_toll_collected	You have collected a toll from tresspassing forces. Lovely	false
 incidents_localised_title_rhox_hrothyogg_toll_collected	Toll Collected	false
-incidents_localised_description_rhox_hrothyogg_toll_gang	Notorious Ogre Hrothyogg, has collected toll from you\\n\\n[[col:red]]This has happened because you were in the same region with Hrothyogg where he is controlling the settlement while not having allaince or war with him[[/col]]	false
+incidents_localised_description_rhox_hrothyogg_toll_gang	Notorious Ogre Hrothyogg, has collected toll from you\\n\\n[[col:red]]This has happened because you were in the same region as Hrothyogg where the settlement is under his rule, whilst not having allegiance or waging war with him[[/col]]	false
 incidents_localised_title_rhox_hrothyogg_toll_gang	Toll Robbery	false
 incidents_localised_description_rhox_tokmar_captured_beast	From recent hunts, the Tokmars Tribe have captured beasts for battle.	false
 incidents_localised_title_rhox_tokmar_captured_beast	Animal Capture	false
-incidents_button_text_rhox_lccp_turn_two_incident_thorgar	incidents_button_text_rhox_lccp_turn_two_incident_thorgar	false
-incidents_localised_description_rhox_lccp_turn_two_incident_thorgar	incidents_localised_description_rhox_lccp_turn_two_incident_thorgar	false
-incidents_localised_title_rhox_lccp_turn_two_incident_thorgar	incidents_localised_title_rhox_lccp_turn_two_incident_thorgar	false
-incidents_button_text_rhox_lccp_turn_two_incident_engra	incidents_button_text_rhox_lccp_turn_two_incident_engra	false
-incidents_localised_description_rhox_lccp_turn_two_incident_engra	incidents_localised_description_rhox_lccp_turn_two_incident_engra	false
-incidents_localised_title_rhox_lccp_turn_two_incident_engra	incidents_localised_title_rhox_lccp_turn_two_incident_engra	false
-incidents_button_text_rhox_lccp_turn_two_incident_arbaal	incidents_button_text_rhox_lccp_turn_two_incident_arbaal	false
-incidents_localised_description_rhox_lccp_turn_two_incident_arbaal	incidents_localised_description_rhox_lccp_turn_two_incident_arbaal	false
-incidents_localised_title_rhox_lccp_turn_two_incident_arbaal	incidents_localised_title_rhox_lccp_turn_two_incident_arbaal	false
-incidents_button_text_rhox_lccp_turn_two_incident_duriath	incidents_button_text_rhox_lccp_turn_two_incident_duriath	false
-incidents_localised_description_rhox_lccp_turn_two_incident_duriath	incidents_localised_description_rhox_lccp_turn_two_incident_duriath	false
-incidents_localised_title_rhox_lccp_turn_two_incident_duriath	incidents_localised_title_rhox_lccp_turn_two_incident_duriath	false
+incidents_button_text_rhox_lccp_turn_two_incident_thorgar	Start Thorgar's Path to Glory Quests	false
+incidents_localised_description_rhox_lccp_turn_two_incident_thorgar	Thorgar the Blooded One, fervent Khurgan Zar, hungers for ultimate power. In the desolate lands where blood stains the snow, he aims to forge a dark pact with the Chaos Gods. His every deed, every soul claimed in the name of the Ruinous Powers, propels him toward the coveted title of Daemon Prince. Thorgar's ambition echoes across the icy wastes, a symphony of chaos drawing him closer to the immortal realm of the unholy. The mighty Khazag Tribe, his loyal marauders, willingly tread the path of anarchy alongside their leader, bound to his destiny by the crimson threads of allegiance.	false
+incidents_localised_title_rhox_lccp_turn_two_incident_thorgar	Daemonic Aspirations	false
+incidents_button_text_rhox_lccp_turn_two_incident_engra	In the Everchosen's name	false
+incidents_localised_description_rhox_lccp_turn_two_incident_engra	In the desolation of the Chaos Wastes, Engra Deathsword emerges as Archaon's formidable lieutenant and chief recruiter. Clad in malevolent armor, he strides with purpose, gathering the mighty chaos champions who heed the call of destruction. Engra, a living shadow in the unholy legion, beckons warriors to Archaon's banner. Under his ominous guidance, they form a dark brotherhood, ready to unleash chaos upon the world at the Everchosen's command	false
+incidents_localised_title_rhox_lccp_turn_two_incident_engra	Headhunter of the End times	false
+incidents_button_text_rhox_lccp_turn_two_incident_arbaal	FOR KHORNE!	false
+incidents_localised_description_rhox_lccp_turn_two_incident_arbaal	Fueled by bloodlust, the Destroyer of Khorne remains undefeated, and as he strings together more victories and his power grows, so does his unbridled lust for more slaughter. But suffer defeat or dare retreat and Khorne's punishment will be unrelenting..	false
+incidents_localised_title_rhox_lccp_turn_two_incident_arbaal	Unbridled Momentum	false
+incidents_button_text_rhox_lccp_turn_two_incident_duriath	Set Sails to Tor Elithis	false
+incidents_localised_description_rhox_lccp_turn_two_incident_duriath	Entrusted with a task deemed insurmountable, Duriath Helbane, the Witch King's fierce corsair, sets sail for the enigmatic Island of Tor Elithis. Cloaked in mystery and under High Elven dominion, the island lies distant and perilous, a realm untouched by the ambitions of the Dark Elves. Yet, the Witch King's will has spoken, and Duriath is the chosen harbinger of impending conquest	false
+incidents_localised_title_rhox_lccp_turn_two_incident_duriath	Harbinger of the Distant Abyss	false
 incidents_localised_description_rhox_arbaal_used_button_ritual	His momentum breaks the very laws of time. \\n\\n[[col:green]]Due to Arbaal's rage, all of your character's movement is restored[[/col]]\\n[[col:red]]But Khorne is still not satisfied and demands even more blood, decreasing your reputation[[/col]]	false
 incidents_localised_title_rhox_arbaal_used_button_ritual	Arbaal's Eruption	false
 incidents_localised_description_rhox_beorg_bear_unit_incident	After Beorg's victory, some Ursine creatures are drawn to his banner	false
