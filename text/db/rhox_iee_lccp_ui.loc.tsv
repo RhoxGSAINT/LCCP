@@ -23,13 +23,13 @@ mission_text_text_piece_of_eight_success	{{tr:mod_mission_text_text_piece_of_eig
 ui_text_replacements_localised_text_mod_mission_text_text_piece_of_eight_abort	Piece of Eight Abandoned!	false
 ui_text_replacements_localised_text_mod_mission_text_text_piece_of_eight_fail	Piece of Eight Lost!	false
 ui_text_replacements_localised_text_mod_mission_text_text_piece_of_eight_success	Piece of Eight Collected!	false
-ui_text_replacements_localised_text_mod_mission_text_text_piece_of_eight_abort_rhox_slaurith	Knight Escaped	false
-ui_text_replacements_localised_text_mod_mission_text_text_piece_of_eight_fail_rhox_slaurith	Knight Escaped	false
-ui_text_replacements_localised_text_mod_mission_text_text_piece_of_eight_success_rhox_slaurith	Knight Tracked Down	false
-campaign_localised_strings_string_rhox_slaurith_panel_open_button	Hunting Knights||Track your former fellows and hunt them down for Khorne	false
-campaign_localised_strings_string_rhox_slaurith_piece_tab	Hunting Knights	false
-mission_text_text_rhox_slaurith_objective_override_occupy_settlement	Occupy the following settlement to search and kill the knight there:	false
-mission_text_text_rhox_slaurith_objective_override_defeat_army	Defeat the following [[img:icon_general]][[/img]]Lord's army to kill the knight they're protecting:	false
+ui_text_replacements_localised_text_mod_mission_text_text_piece_of_eight_abort_rhox_slaurith	Champion Escaped	false
+ui_text_replacements_localised_text_mod_mission_text_text_piece_of_eight_fail_rhox_slaurith	Champion Escaped	false
+ui_text_replacements_localised_text_mod_mission_text_text_piece_of_eight_success_rhox_slaurith	Champion pinpointed	false
+campaign_localised_strings_string_rhox_slaurith_panel_open_button	Hunting Champions||Track your former fellows and hunt them down for Khorne's eternal Glory	false
+campaign_localised_strings_string_rhox_slaurith_piece_tab	Hunting Champions	false
+mission_text_text_rhox_slaurith_objective_override_occupy_settlement	Occupy the following settlement to search and kill the Champion there:	false
+mission_text_text_rhox_slaurith_objective_override_defeat_army	Defeat the following [[img:icon_general]][[/img]]Lord's army to kill the Champion they're protecting:	false
 campaign_localised_strings_string_rhox_burlok_ancillary_top_button_tooltip	[[col:yellow]]Experimental Study[[/col]]||By collecting the necessary ingredients from around the campaign map, unique and powerful result can be earned via experiement. Locations of ingredients are revealed in the Experimental Study tab within the Forge.	false
 campaign_localised_strings_string_rhox_thorgar_building_lock	[[col:red]]To unlock this building you must first ascend Thorgar to Daemon Prince[[/col]]	false
 campaign_localised_strings_string_rhox_karitamen_complete_bonus	Conquered all settlements: +%d% \\nCompletion Bonus: [[img:ui/battle ui/ability_icons/wh2_dlc09_spell_nehekhara_sakhmets_incantation_of_the_skullstorm.png]][[/img]][[col:green]]Army Ability: Legacy of Conquest (all armies)[[/col:green]]	false
@@ -37,6 +37,6 @@ campaign_localised_strings_string_rhox_karitamen_tooltip_current_progress	Progre
 campaign_localised_strings_string_rhox_karitamen_not_owned	(not occupied by Karitamen)	false
 campaign_localised_strings_string_rhox_karitamen_own	(Owned by Karitamen) [[col:green]]%d%[[/col:green]]	false
 uied_component_texts_localised_string_rhox_karitamen_campaign_title	Karitamen's Campaign	false
-uied_component_texts_localised_string_rhox_karitamen_campaign_description	Karitamen will follow Amenemhetum the Great's footsteps, and all of his forces will get stronger as your progress increases by reconquering the lost lands.\\nYou'll get special effects for finishing your reconquest. Onwards! 	false
+uied_component_texts_localised_string_rhox_karitamen_campaign_description	Karitamen will follow Amenemhetum the Great's footsteps, and all of his forces will get stronger as your progress increases by reconquering the lost lands.\\nThe conquest shall provide you with unique boons, onwards! 	false
 campaign_localised_strings_string_rhox_karitamen_tooltip_ruined	(ruined)	false
 campaign_effect_scopes_localised_text_rhox_iee_lccp_faction_to_region_own_regiontext	\\n(all regions)	false

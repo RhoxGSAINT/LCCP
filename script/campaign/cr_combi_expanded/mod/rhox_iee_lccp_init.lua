@@ -814,9 +814,6 @@ local rhox_iee_list={
                     v[6] -- merc unit group
                 )
             end	
-            
-            
-            
             if faction:is_human() then
                 cm:transfer_region_to_faction("cr_combi_region_the_bloodrift","cr_grn_nag_rippers")
                 local transferred_region = cm:get_region("cr_combi_region_the_bloodrift")
@@ -834,10 +831,6 @@ local rhox_iee_list={
                     5
                 )
             end
-            
-            --cm:force_diplomacy("all", "faction:"..faction_key, "vassal", false, false, true)--it doesn't work
-            
-            
         end,
         first_tick = function(faction, faction_key) 
             LenkBeastHunts:setup_lenk_listeners()
@@ -1071,7 +1064,7 @@ cm:add_first_tick_callback(
             faction_info.first_tick(cm:get_faction(faction_key), faction_key)
         end
         
-        if cm:model():turn_number() < 3 and false then --TEMP remove this after addition
+        if cm:model():turn_number() < 3 then --TEMP remove this after addition
             core:add_listener(
                 "rhox_lccp_turn2_incidents_RoundStart",
                 "FactionRoundStart",
