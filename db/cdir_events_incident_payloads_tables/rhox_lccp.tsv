@@ -1,0 +1,6 @@
+id	incident_key	payload_key	value	target_key
+#cdir_events_incident_payloads_tables;2;db/cdir_events_incident_payloads_tables/rhox_lccp				
+1260800771	wh2_dlc16_incident_wef_ritual_succeeded_the_far_place	FACTION_POOLED_RESOURCE_TRANSACTION	RESOURCE[wef_amber];FACTOR[wef_amber_rituals];AMOUNT[1];CONTEXT[absolute]	default
+1260800772	wh2_dlc16_incident_wef_ritual_succeeded_the_far_place	TREASURY	AMOUNT[5000]	default
+1260800773	wh2_dlc16_incident_wef_ritual_succeeded_the_far_place	EFFECT_BUNDLE	KEY[wh2_dlc16_open_worldroots];DURATION[10]	default
+1260800774	wh2_dlc16_incident_wef_ritual_succeeded_the_far_place	EFFECT_BUNDLE	KEY[wh2_dlc16_tree_spirits_happy];DURATION[10]	default

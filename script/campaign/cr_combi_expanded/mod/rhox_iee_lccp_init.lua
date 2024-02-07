@@ -383,7 +383,7 @@ local rhox_iee_list={
     cr_hef_gate_guards ={
         leader={
             subtype="hef_calith_torinubar",
-            unit_list="wh2_main_hef_inf_lothern_sea_guard_1,wh2_main_hef_inf_lothern_sea_guard_1,wh2_main_hef_inf_lothern_sea_guard_1,wh2_main_hef_inf_lothern_sea_guard_1,wh2_main_hef_inf_archers_0,wh2_main_hef_inf_archers_0,wh2_main_hef_cav_ellyrian_reavers_1,wh2_main_hef_cav_ellyrian_reavers_1,wh2_main_hef_art_eagle_claw_bolt_thrower",
+            unit_list="wh2_main_hef_inf_lothern_sea_guard_1,wh2_main_hef_inf_lothern_sea_guard_1,wh2_main_hef_inf_lothern_sea_guard_1,wh2_main_hef_inf_lothern_sea_guard_1,wh2_main_hef_inf_archers_0,wh2_main_hef_inf_archers_0,wh2_main_hef_cav_ellyrian_reavers_1,wh2_main_hef_cav_ellyrian_reavers_1,wh2_main_hef_art_eagle_claw_bolt_thrower,hef_calith_gatekeepers",
             x=1297,
             y=68,
             forename ="names_name_9987364589",
@@ -1064,7 +1064,7 @@ cm:add_first_tick_callback(
             faction_info.first_tick(cm:get_faction(faction_key), faction_key)
         end
         
-        if cm:model():turn_number() < 3 then --TEMP remove this after addition
+        if cm:model():turn_number() < 3 then 
             core:add_listener(
                 "rhox_lccp_turn2_incidents_RoundStart",
                 "FactionRoundStart",
