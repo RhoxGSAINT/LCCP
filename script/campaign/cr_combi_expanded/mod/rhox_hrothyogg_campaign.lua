@@ -8,7 +8,9 @@ table.insert(initiative_templates,
 			function(context)
 				local character = context:character();
 				
-				return character:won_battle() and cm:count_char_army_has_unit(character, {"wh3_main_ogr_inf_maneaters_0", "wh3_main_ogr_inf_maneaters_1", "wh3_main_ogr_inf_maneaters_2", "wh3_main_ogr_inf_maneaters_3"}) > 4;
+				return character:won_battle() and cm:count_char_army_has_unit(character, {"wh3_main_ogr_inf_maneaters_0", "wh3_main_ogr_inf_maneaters_1", "wh3_main_ogr_inf_maneaters_2", "wh3_main_ogr_inf_maneaters_3", "wh3_twa06_ogr_inf_maneaters_ror_0"}) > 3;
+				
+				
 			end
 	}
 )

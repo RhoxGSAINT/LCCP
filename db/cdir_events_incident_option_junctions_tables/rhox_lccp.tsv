@@ -1,0 +1,4 @@
+id	incident_key	option_key	value	target
+#cdir_events_incident_option_junctions_tables;1;db/cdir_events_incident_option_junctions_tables/rhox_lccp				
+2301467	wh2_dlc16_incident_wef_ritual_succeeded_the_far_place	GEN_TARGET_MODEL		default
+2301468	wh2_dlc16_incident_wef_ritual_succeeded_the_far_place	VAR_CHANCE	100	default
