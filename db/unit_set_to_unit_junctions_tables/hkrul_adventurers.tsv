@@ -22,3 +22,18 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			wh_main_dwf_art_flame_cannon	hkrul_dwarf_artillery	false
 			wh_main_dwf_art_grudge_thrower	hkrul_dwarf_artillery	false
 			wh_main_dwf_art_organ_gun	hkrul_dwarf_artillery	false
+			hkrul_gargul	mp_cap_group_heroes	false
+			hkrul_skargel	mp_cap_group_heroes	false
+			hkrul_wundal	mp_cap_group_heroes	false
+			hkrul_wundal	dwarf_all_units_exclude_slayers	false
+			hkrul_wundal	dwf_all_units_characters	false
+			hkrul_wundal	dwf_characters	false
+			hkrul_wundal	dwf_thane	false
+			hkrul_skargel	dwarf_all_units_exclude_slayers	false
+			hkrul_skargel	dwf_all_units_characters	false
+			hkrul_skargel	dwf_characters	false
+			hkrul_skargel	dwf_thane	false
+			hkrul_gargul	dwarf_all_units_exclude_slayers	false
+			hkrul_gargul	dwf_all_units_characters	false
+			hkrul_gargul	dwf_characters	false
+			hkrul_gargul	dwf_master_engineer	false

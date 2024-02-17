@@ -31,3 +31,6 @@ hkrul_oerl	champion				false	true	hkrul_oerl	1.0900
 rhox_lccp_sceolan_wef_spellweaver_ice	general				false	true	rhox_lccp_sceolan_wef_spellweaver_ice	1.0000
 rhox_lccp_sceolan_wef_spellsinger_ice	wizard				false	false	rhox_lccp_sceolan_wef_spellsinger_ice	1.0000
 rhox_lccp_sceolan_wef_spellsinger_ice_2	wizard				false	false	rhox_lccp_sceolan_wef_spellsinger_ice	1.0000
+hkrul_gargul	engineer				false	true	hkrul_gargul	1.0200
+hkrul_wundal	champion				false	true	hkrul_wundal	1.0400
+hkrul_skargel	champion				false	true	hkrul_skargel	1.0000

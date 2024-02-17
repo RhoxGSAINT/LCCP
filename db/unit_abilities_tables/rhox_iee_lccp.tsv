@@ -14,3 +14,6 @@ rhox_slaurith_bloodrage	true	hkrul_slaurith_hack		wh_type_augment		wh_main_anc_g
 hkrul_burlok_warm	true	hkrul_burlok_warm		wh_type_augment		wh_main_anc_group_rare	true	false	passive		false
 rhox_karitamen_legacy_of_conquest	true	wh2_dlc09_spell_nehekhara_sakhmets_incantation_of_the_skullstorm		wh_type_vortex		wh_main_anc_group_rare	true	false	army		false
 hkrul_sceolan_ranger	true	hkrul_sceolan_rangers		wh_type_augment		wh_main_anc_group_rare	true	false	passive		false
+hkrul_gargul_aim	true	hkrul_gargul_aim		wh_type_augment		wh_main_anc_group_rare	true	false	active		false
+hkrul_skargel_mine	true	hkrul_skargel_mine		wh_type_augment		wh_main_anc_group_rare	true	false	active		false
+hkrul_wundal_frog	true	hkrul_wundal_frog		wh_type_augment		wh_main_anc_group_rare	true	false	active		false
