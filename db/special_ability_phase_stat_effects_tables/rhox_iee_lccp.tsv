@@ -10,3 +10,8 @@ rhox_slaurith_bloodrage	stat_melee_damage_base	1.5000	mult
 rhox_slaurith_bloodrage	stat_melee_defence	-10.0000	add
 hkrul_burlok_warm	scalar_speed	1.3000	mult
 hkrul_burlok_warm	scalar_entity_acceleration_modifier	1.2000	mult
+hkrul_gargul_aim	scalar_missile_range	1.2500	mult
+hkrul_gargul_aim	scalar_missile_damage_ap	1.2500	mult
+hkrul_skargel_mine	stat_melee_damage_ap	1.3000	mult
+hkrul_skargel_mine	stat_bonus_vs_infantry	15.0000	add
+hkrul_wundal_frog	stat_resistance_all	1.2000	mult

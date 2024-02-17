@@ -40,3 +40,5 @@ uied_component_texts_localised_string_rhox_karitamen_campaign_title	Karitamen's 
 uied_component_texts_localised_string_rhox_karitamen_campaign_description	Karitamen will follow Amenemhetum the Great's footsteps, and all of his forces will get stronger as your progress increases by reconquering the lost lands.\\nThe conquest shall provide you with unique boons, onwards! 	false
 campaign_localised_strings_string_rhox_karitamen_tooltip_ruined	(ruined)	false
 campaign_effect_scopes_localised_text_rhox_iee_lccp_faction_to_region_own_regiontext	\\n(all regions)	false
+event_feed_strings_text_wh2_dlc17_event_feed_string_burlok_artifact_found_title	Exotic Ingredients Secured!	false
+event_feed_strings_text_wh2_dlc17_event_feed_string_burlok_artifact_found_secondary_detail	Rare and Exotic ingredients have been secured — when combined correctly, they promise to yield astonishing experimental results.	false

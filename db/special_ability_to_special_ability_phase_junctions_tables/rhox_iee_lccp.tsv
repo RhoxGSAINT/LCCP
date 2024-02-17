@@ -20,3 +20,6 @@ order	special_ability	target_self	target_friends	target_enemies	phase
 1	hkrul_burlok_warm	true	false	false	hkrul_burlok_warm
 1	hkrul_burlok_arm	true	false	false	hkrul_burlok_arm
 0	hkrul_sceolan_ranger	true	false	false	hkrul_sceolan_ranger
+1	hkrul_gargul_aim	true	false	false	hkrul_gargul_aim
+1	hkrul_skargel_mine	true	false	false	hkrul_skargel_mine
+1	hkrul_wundal_frog	true	false	false	hkrul_wundal_frog

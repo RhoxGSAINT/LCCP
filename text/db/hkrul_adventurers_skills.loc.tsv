@@ -45,3 +45,39 @@ unit_abilities_tooltip_text_hkrul_shaz_stout	Dwarves eagerly follow Ensun in to 
 effects_description_hkrul_shaz_stout	Ability: "Stout Inspirator''	true
 effects_description_hkrul_thulgrim_time	Ability: "No time to Waste''	true
 effects_description_hkrul_rhobb_axe	Ability: "Hulking Smite''	true
+character_skills_localised_name_innate_hkrul_gargul	The Surest Shot	true
+character_skills_localised_description_innate_hkrul_gargul	Rumoured to have shot the lid of a Bugman barrel from over a thousand yards, Gargul surely is a master gunner.	true
+character_skills_localised_description_hkrul_gargul_special_1_0	With his fabled tescope Gargul spots his targets hours before they even know he is there.	true
+character_skills_localised_name_hkrul_gargul_special_1_0	Fabeled Telescope	true
+character_skills_localised_description_hkrul_gargul_special_1_1	His rifle as steady as the sturdiest of Laurelorn trees - a weapon of pure brilliance.	true
+character_skills_localised_name_hkrul_gargul_special_1_1	Gargul's Rifle	true
+character_skills_localised_description_hkrul_gargul_special_1_2	Gargul crafts a particular mixture of powder and herbs, causing his weaponry to carry explosive tendencies.	true
+character_skills_localised_name_hkrul_gargul_special_1_2	Homemade Powder	true
+character_skills_localised_name_innate_hkrul_wundal	Makeshift Wizard	true
+character_skills_localised_description_innate_hkrul_wundal	All his kin know he's not a real wizard, making his dramatic act all the more frustrating for his Dawi brethren.	true
+character_skills_localised_description_hkrul_wundal_special_1_0	Wundal claims he has the original Great Book of Grudges, and all the Dwarven Kings carry copies. It looks just like a plain old book however.	true
+character_skills_localised_name_hkrul_wundal_special_1_0	Book of Fudges	true
+character_skills_localised_description_hkrul_wundal_special_1_1	Wundal flexes his trinkets to any innocent bystander, claiming their worth is beyond compare.	true
+character_skills_localised_name_hkrul_wundal_special_1_1	Worthless Trinket	true
+character_skills_localised_description_hkrul_wundal_special_1_2	Wundal's hat does appear to hold some magic tendencies, which instantly points to the fact he stole it from an actual wizard.	true
+character_skills_localised_name_hkrul_wundal_special_1_2	Stolen Hat	true
+character_skills_localised_name_innate_hkrul_skargel	Indifferent Miner	true
+character_skills_localised_description_innate_hkrul_skargel	Skargell is a master Miner who has dug in mountains from Ind to the very planes of Frost themselves.	true
+character_skills_localised_description_hkrul_skargel_special_1_0	A master miner fears nothing but the prospect of being prospectless.	true
+character_skills_localised_name_hkrul_skargel_special_1_0	Master Miner	true
+character_skills_localised_description_hkrul_skargel_special_1_1	With the rarest of steel one forges the sturdiest of equipment.	true
+character_skills_localised_name_hkrul_skargel_special_1_1	Expertly Forged	true
+character_skills_localised_description_hkrul_skargel_special_1_2	Skargell has explored mines from the far north to the distant south in search of treasure and minerals.	true
+character_skills_localised_name_hkrul_skargel_special_1_2	Cave Explorer	true
+character_skills_localised_description_hkrul_skargel_special_1_3	Skargel has commanded many carts on explorations in uncharted mines and caverns.	true
+character_skills_localised_name_hkrul_skargel_special_1_3	Cart Commander	true
+character_skills_localised_description_hkrul_skargel_special_1_4	The best miners know exactly where to strike to make the sturdiest of stone crack with a single well placed strike.	true
+character_skills_localised_name_hkrul_skargel_special_1_4	Excavator's Strike	true
+character_skills_localised_description_hkrul_wundal_special_1_3	Wundal claims he retrieved ancient Dwarven runes from a lost Karak, they look just look regular stones however.	true
+character_skills_localised_name_hkrul_wundal_special_1_3	Fake Runes	true
+character_skills_localised_description_hkrul_wundal_special_1_4	Nobody knows exactly where Wundal retrieves his frogs from, that they are poisonous is a fact however.	true
+character_skills_localised_name_hkrul_wundal_special_1_4	Magical Frog	true
+character_skills_localised_description_hkrul_gargul_special_1_3	Dynamite crafted from the finest powder makes the tallest mountain go ''Boom''.	true
+character_skills_localised_name_hkrul_gargul_special_1_3	Sticky Dynamite	true
+character_skills_localised_description_hkrul_gargul_special_1_4	Suresight is required for a true Master Gunner.	true
+character_skills_localised_name_hkrul_gargul_special_1_4	Surest Aim	true

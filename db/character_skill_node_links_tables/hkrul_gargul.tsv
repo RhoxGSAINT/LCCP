@@ -1,0 +1,14 @@
+child_key	parent_key	initial_descent_tiers	parent_link_position	child_link_position	parent_link_position_offset	child_link_position_offset	link_type
+#character_skill_node_links_tables;3;db/character_skill_node_links_tables/hkrul_gargul							
+hkrul_gargul_self_02	hkrul_gargul_self_01	0	1	1	0.0000	0.0000	REQUIRED
+hkrul_gargul_self_04	hkrul_gargul_self_01	0	1	1	0.0000	0.0000	REQUIRED
+hkrul_gargul_self_07	hkrul_gargul_self_01	0	1	1	0.0000	0.0000	REQUIRED
+hkrul_gargul_self_10	hkrul_gargul_self_01	0	1	1	0.0000	0.0000	REQUIRED
+hkrul_gargul_self_06	hkrul_gargul_self_05	0	1	1	0.0000	0.0000	REQUIRED
+hkrul_gargul_self_03	hkrul_gargul_self_08	0	1	1	0.0000	0.0000	REQUIRED
+skill_node_hkrul_gargul_special_1_1	skill_node_hkrul_gargul_special_1_0	0	1	1	0.0000	0.0000	REQUIRED
+skill_node_hkrul_gargul_special_1_2	skill_node_hkrul_gargul_special_1_0	0	1	1	0.0000	0.0000	REQUIRED
+skill_node_hkrul_gargul_special_1_3	skill_node_hkrul_gargul_special_1_0	0	1	1	0.0000	0.0000	REQUIRED
+skill_node_hkrul_gargul_special_1_4	skill_node_hkrul_gargul_special_1_1	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
+skill_node_hkrul_gargul_special_1_4	skill_node_hkrul_gargul_special_1_2	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
+skill_node_hkrul_gargul_special_1_4	skill_node_hkrul_gargul_special_1_3	0	1	1	0.0000	0.0000	SUBSET_REQUIRED

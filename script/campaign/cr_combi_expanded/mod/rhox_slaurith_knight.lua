@@ -153,7 +153,7 @@ cm:add_first_tick_callback(
             
             
             core:add_listener(
-                "rhox_dauphine_treasure_panel_open_listener",
+                "rhox_slaurith_treasure_panel_open_listener",
                 "PanelOpenedCampaign",
                 function(context)
                     return context.string == "treasure_hunts";

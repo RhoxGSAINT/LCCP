@@ -29,3 +29,6 @@ skill_node_set_hkrul_oerl	champion	false	false				hkrul_oerl
 skill_node_set_hkrul_aelfric	general	false	false				hkrul_aelfric
 rhox_lccp_sceolan_wef_spellweaver_ice	general	false	false				rhox_lccp_sceolan_wef_spellweaver_ice
 rhox_lccp_sceolan_wef_spellsinger_ice	wizard	false	false				rhox_lccp_sceolan_wef_spellsinger_ice
+skill_node_set_hkrul_gargul	engineer	false	false				hkrul_gargul
+skill_node_set_hkrul_wundal	champion	false	false				hkrul_wundal
+skill_set_hkrul_skargel	champion	false	false				hkrul_skargel

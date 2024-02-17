@@ -1,0 +1,29 @@
+key	text	tooltip
+#Loc;1;text/db/hkrul_adventurers_s2_agent_subtypes__.loc		
+agent_subtypes_onscreen_name_override_hkrul_gargul	Legendary Adventurer	false
+agent_subtypes_description_text_override_hkrul_gargul		false
+agent_subtypes_onscreen_name_override_hkrul_wundal	Legendary Adventurer	false
+agent_subtypes_description_text_override_hkrul_wundal		false
+agent_subtypes_onscreen_name_override_hkrul_skargel	Legendary Adventurer	false
+agent_subtypes_description_text_override_hkrul_skargel		false
+unit_description_short_texts_text_hkrul_gargul	Said to have shot the lid of a Bugman barrel from a thousand yards away. True or not: Gargul is a master gunner.	false
+unit_description_short_texts_text_hkrul_wundal	It is quite clear Wundal is not actually a wizard - yet he steadfastly believes to be the incarnate of the magical winds themselves.	false
+unit_description_short_texts_text_hkrul_skargel	Fabeled for mining even the most exotic mountains and caverns, stretching from Ind to the Frozen Wastes.	false
+land_units_onscreen_name_hkrul_gargul	Gargul the Gunner	true
+land_units_onscreen_name_hkrul_wundal	Wundal the Wizard	true
+land_units_onscreen_name_hkrul_skargel	Skargel the Miner	true
+names_name_1270717830	the Wizard	false
+names_name_1270717831	Wundal	true
+names_name_1270717828	the Gunner	true
+names_name_1270717829	Gargul	true
+names_name_1270717833	the Miner	true
+names_name_1270717834	Skargel	true
+unit_abilities_onscreen_name_hkrul_gargul_aim	Suresight Aim	false
+unit_abilities_tooltip_text_hkrul_gargul_aim	The best gunner of the Dawi kind never misses, atleast according to Gargul.	false
+effects_description_hkrul_gargul_aim	Ability: "Suresight Aim"	false
+unit_abilities_onscreen_name_hkrul_skargel_mine	Excavator's Strike	false
+unit_abilities_tooltip_text_hkrul_skargel_mine	The best miners know it's not the size of the pickaxe that counts, it's how you wield it.	false
+effects_description_hkrul_skargel_mine	Ability: "Excavator's Strike"	false
+unit_abilities_onscreen_name_hkrul_wundal_frog	Magical Frog	false
+unit_abilities_tooltip_text_hkrul_wundal_frog	No one knows where Wundal gets these frogs from, it's clear something's fishy about them however.	false
+effects_description_hkrul_wundal_frog	Ability: "Magical Frog"	false

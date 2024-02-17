@@ -48,3 +48,8 @@ spellcaster	rhox_lccp_sceolan_wef_spellsinger_ice_2
 very_fast	rhox_lccp_sceolan_wef_spellsinger_ice_2
 spellcaster	rhox_lccp_sceolan_wef_spellsinger_ice_3
 ogre_charge	rhox_hrothyogg_recruiter
+ranged_attack	hkrul_gargul
+armour_piercing	hkrul_gargul
+melee_expert	hkrul_skargel
+ballistics_expert	hkrul_skargel
+poison	hkrul_gargul
