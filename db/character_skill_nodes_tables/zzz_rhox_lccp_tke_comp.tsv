@@ -1,0 +1,9 @@
+key	campaign_key	character_skill_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
+#character_skill_nodes_tables;6;db/character_skill_nodes_tables/zzz_rhox_lccp_tke_comp									
+skill_tmb_tomb_king_god_blessing_4		skill_tmb_god_blessing_4		1	4		0	0	true
+skill_tmb_tomb_king_god_blessing_5		skill_tmb_god_blessing_5		1	5		0	0	true
+skill_tmb_tomb_king_god_blessing_6		skill_tmb_god_blessing_6		1	6		0	0	true
+skill_tmb_tomb_king_god_blessing_7		skill_tmb_god_blessing_7		1	7		0	0	true
+skill_tmb_tomb_king_god_blessing_8		skill_tmb_god_blessing_8		1	8		0	0	true
+skill_tmb_tomb_king_god_blessing_9		skill_tmb_god_blessing_9		1	9		0	0	true
+skill_tmb_tomb_king_god_blessing_10		skill_tmb_god_blessing_10		1	10		0	0	true
