@@ -3,7 +3,7 @@ phase	stat	value	how
 hkrul_oerl_axes	stat_bonus_vs_infantry	10.0000	add
 hkrul_oerl_axes	scalar_missile_damage_ap	1.3000	mult
 hkrul_oerl_frenzy	stat_resistance_physical	1.3000	mult
-hkrul_oerl_horn	stat_resistance_all	1.2500	mult
+hkrul_oerl_horn	stat_resistance_all	1.4000	mult
 hkrul_oerl_axe	stat_melee_attack	25.0000	add
 hkrul_oerl_horn_enemy	stat_melee_defence	-10.0000	add
 hkrul_oerl_horn_enemy	stat_resistance_physical	0.8500	mult
