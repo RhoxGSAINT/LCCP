@@ -27,3 +27,9 @@ effects_description_hkrul_skargel_mine	Ability: "Excavator's Strike"	false
 unit_abilities_onscreen_name_hkrul_wundal_frog	Magical Frog	false
 unit_abilities_tooltip_text_hkrul_wundal_frog	No one knows where Wundal gets these frogs from, it's clear something's fishy about them however.	false
 effects_description_hkrul_wundal_frog	Ability: "Magical Frog"	false
+character_skill_node_sets_enc_title_skill_node_set_hkrul_gargul	Legendary Adventurer	false
+character_skill_node_sets_enc_title_skill_node_set_hkrul_wundal	Legendary Adventurer	false
+character_skill_node_sets_enc_title_skill_set_hkrul_skargel	Legendary Adventurer	false
+unit_description_historical_texts_text_hkrul_gargul	Said to have shot the lid of a Bugman barrel from a thousand yards away. True or not: Gargul is a master gunner.	false
+unit_description_historical_texts_text_hkrul_wundal	It is quite clear Wundal is not actually a wizard - yet he steadfastly believes to be the incarnate of the magical winds themselves.	false
+unit_description_historical_texts_text_hkrul_skargel	Fabeled for mining even the most exotic mountains and caverns, stretching from Ind to the Frozen Wastes.	false

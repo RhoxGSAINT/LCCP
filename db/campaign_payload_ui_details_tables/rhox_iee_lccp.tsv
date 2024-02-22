@@ -1,3 +1,4 @@
 component	icon	state	sort_order
 #campaign_payload_ui_details_tables;2;db/campaign_payload_ui_details_tables/rhox_iee_lccp			
 dummy_confederate_faction_sceolan	ui/campaign ui/effect_bundles/confederation.png	default	0
+rhox_burlok_ritual_burlok_artifact_extra	ui/campaign ui/effect_bundles/agent.png	positive	0

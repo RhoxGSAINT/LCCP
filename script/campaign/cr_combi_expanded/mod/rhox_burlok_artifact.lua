@@ -158,7 +158,7 @@ function burlok:initialise()
 
 			
 			if context:ritual():ritual_key() == "rhox_burlok_ritual_burlok_artifact_1" then
-				cm:spawn_unique_agent(faction:command_queue_index(), "hkrul_gargul", true)
+				cm:spawn_unique_agent(faction:command_queue_index(), "hkrul_skargel", true)
             elseif context:ritual():ritual_key() == "rhox_burlok_ritual_burlok_artifact_2" then
 				cm:spawn_unique_agent(faction:command_queue_index(), "hkrul_thulgrim", true)
             elseif context:ritual():ritual_key() == "rhox_burlok_ritual_burlok_artifact_3" then
@@ -167,7 +167,10 @@ function burlok:initialise()
 			
             burlok:ui_stuff()
 
-
+            if burlok.rituals_completed == 4 then
+                cm:spawn_unique_agent(faction:command_queue_index(), "hkrul_wundal", true)
+                cm:complete_scripted_mission_objective(faction:name(), "rhox_burlok_ritual_burlok_artifact_extra", "rhox_burlok_ritual_burlok_artifact_extra", true)
+            end
 
 			
 			--[[
@@ -232,7 +235,7 @@ core:add_listener(
         
         
         if turn >=8 then
-            cm:spawn_unique_agent(faction:command_queue_index(), "hkrul_gargul", true)
+            cm:spawn_unique_agent(faction:command_queue_index(), "hkrul_skargel", true)
         end
         if turn >=16 then
             cm:spawn_unique_agent(faction:command_queue_index(), "hkrul_thulgrim", true)
@@ -240,6 +243,10 @@ core:add_listener(
         if turn >=24 then
             cm:spawn_unique_agent(faction:command_queue_index(), "hkrul_shaz", true)
         end
+        if turn >=24 then
+            cm:spawn_unique_agent(faction:command_queue_index(), "hkrul_wundal", true)
+        end
+        
 			
     end,
     true

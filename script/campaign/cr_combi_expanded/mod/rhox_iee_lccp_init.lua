@@ -68,10 +68,6 @@ local rhox_iee_list={
             forename ="names_name_1369138454",
             familiyname ="names_name_1369138455",
         },
-        agent={
-            type="engineer",
-            subtype="wh_main_dwf_master_engineer"
-        },
         hand_over_region=nil,
         region="cr_combi_region_ind_4_1",
         how_they_play="rhox_iee_lccp_how_they_play_burlok",
@@ -98,6 +94,14 @@ local rhox_iee_list={
                     cm:trigger_mission(faction_key, grudge_list[i], true)
                 end
                 
+                local mm = mission_manager:new(faction_key, "rhox_burlok_ritual_burlok_artifact_extra")
+                mm:add_new_objective("SCRIPTED");
+                mm:add_condition("script_key rhox_burlok_ritual_burlok_artifact_extra");
+                mm:add_condition("override_text mission_text_text_rhox_burlok_ritual_burlok_artifact_extra");
+                mm:add_payload("text_display rhox_burlok_ritual_burlok_artifact_extra");
+                mm:trigger()
+                
+                
                 cm:transfer_region_to_faction("cr_combi_region_ind_2_2","cr_ogr_deathtoll")
                 local transferred_region = cm:get_region("cr_combi_region_ind_2_2")
                 local transferred_region_cqi = transferred_region:cqi()
@@ -108,6 +112,8 @@ local rhox_iee_list={
                 transferred_region_cqi = transferred_region:cqi()
                 cm:heal_garrison(transferred_region_cqi)
             end
+            
+            cm:spawn_unique_agent(faction:command_queue_index(), "hkrul_gargul", true)
             cm:instantly_research_technology(faction_key, "wh_main_tech_dwf_civ_0_2", false)
             cm:instantly_research_technology(faction_key, "wh_main_tech_dwf_mil_0_2", false)
         end,
