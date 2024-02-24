@@ -8,14 +8,14 @@ character_skills_localised_name_hkrul_oerl_special_1_2	Token of the Bear	true
 character_skills_localised_name_hkrul_oerl_special_1_3	Raging Rythm	true
 character_skills_localised_name_hkrul_oerl_special_1_4	Tribal Hunters	true
 character_skills_localised_name_hkrul_oerl_special_1_5	Ursfjord Beserkers	true
-character_skills_localised_name_hkrul_oerl_special_1_6	Horn of Ursfjord	true
+character_skills_localised_name_hkrul_oerl_special_1_6	Huern's Axe	true
 character_skills_localised_description_hkrul_oerl_special_1_0	None hurl axes further than the beserkers of the Ursfjordings tribe, catching ongoing vessels from a top the Fjords of Urslo.	true
 character_skills_localised_description_hkrul_oerl_special_1_1	All Bear-stricken clans fight with their ancestral claws strapped closely to their bodies.	true
 character_skills_localised_description_hkrul_oerl_special_1_2	The Bear Clans of Urslo are blessed by the Great one, and deem no rival clans. Especially those of the Wolf.	true
 character_skills_localised_description_hkrul_oerl_special_1_3	Blowing his horn, Oerl sends the beasts of Urslo into a frantic trans of bloodlust and rage.	true
 character_skills_localised_description_hkrul_oerl_special_1_4	Leader of the Tribal Hunters, Oerl knows the importance of catching large prey to keep his Clan fed.	true
 character_skills_localised_description_hkrul_oerl_special_1_5	The finest are considered the retinue of Chieftain Beorg, both fierce and deadly - they are the beserkers of the Ursfjord.	true
-character_skills_localised_description_hkrul_oerl_special_1_6	As he blows his horn the marauders of the tribe chant the name of their great leader. Oblivious and careless to any harm caused to them.	true
+character_skills_localised_description_hkrul_oerl_special_1_6	When Beorg snapped the necks of Uldsdau and Graille, twin sons of Huern the Jarl of the Tribe of the Wolf, he gifted their magical heirloom to Clan Oerl.	true
 unit_abilities_onscreen_name_hkrul_oerl_horn	Horn of Ursfjord	false
 unit_abilities_tooltip_text_hkrul_oerl_horn	As he blows his horn the marauders of the tribe chant the name of their great leader. Oblivious and careless to any harm caused to them.	false
 unit_abilities_onscreen_name_hkrul_oerl_axes	Bran's Hurl	true
@@ -48,3 +48,7 @@ land_units_onscreen_name_hkrul_beorg_brown_feral_marked	Chaos Touched Bears	true
 unit_abilities_onscreen_name_hkrul_tyeddi	Bearsson's Smite	true
 unit_abilities_tooltip_text_hkrul_tyeddi	Once a proud would be poet, all that remains of Tyeddi Bearsson is untameable fury - which he unleashes with tremendous force.	false
 effects_description_hkrul_beorg_pal		false
+ui_unit_bullet_point_enums_tooltip_hkrul_hornblower	A hornblower inspires allies with invigorating blasts from his horn, while striking fear into the hearts of enemies with its ominous resonance.	false
+ui_unit_bullet_point_enums_onscreen_name_hkrul_hornblower	Hornblower	false
+ui_unit_groupings_onscreen_hkrul_hornblower	Hornblower Infantry	false
+ui_unit_groupings_tooltip_hkrul_hornblower	Hornblower Infantry	false
