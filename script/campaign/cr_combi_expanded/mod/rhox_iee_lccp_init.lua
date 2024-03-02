@@ -447,8 +447,6 @@ local rhox_iee_list={
                 ---unit_key, recruitment_source_key,  starting amount, replen chance, max in pool
                     {"wh3_main_kho_inf_bloodletters_0", "daemonic_summoning", 1, 0, 4},
                     {"wh3_main_kho_mon_bloodthirster_0", "daemonic_summoning", 0, 0, 2},
-                    {"wh3_dlc20_chs_mon_warshrine", "daemonic_summoning", 0, 0, 2},
-                    {"wh3_dlc20_chs_mon_warshrine_mkho", "daemonic_summoning", 0, 0, 2},
                     {"wh3_main_kho_mon_soul_grinder_0", "daemonic_summoning", 0, 0, 2},
                     {"wh3_main_kho_inf_flesh_hounds_of_khorne_0", "daemonic_summoning", 0, 0, 4},
                     {"wh_main_chs_art_hellcannon", "daemonic_summoning", 0, 0, 4},
@@ -738,6 +736,7 @@ local rhox_iee_list={
                 cm:force_diplomacy("faction:"..faction_key, "faction:wh_main_chs_chaos", "vassal", false, false, true);
                 cm:make_diplomacy_available("wh_main_chs_chaos", faction_key)
                 cm:make_diplomacy_available(faction_key, "wh_main_chs_chaos")
+                cm:faction_add_pooled_resource(faction_key, "rhox_engra_hidden_block_ai", "other", 100)
                 --cm:force_grant_military_access(faction_key, "wh_main_chs_chaos", false)
                 --cm:force_grant_military_access("wh_main_chs_chaos", faction_key, false)
                 
@@ -776,6 +775,9 @@ local rhox_iee_list={
                 end,
                 true
             )
+            if faction:is_human() then
+                cm:faction_add_pooled_resource(faction_key, "rhox_engra_hidden_block_ai", "other", 100) --remove it after some time
+            end
         end
     },
     cr_nor_tokmars ={
