@@ -524,6 +524,7 @@ local rhox_iee_list={
                     {"wh3_dlc24_tze_mon_cockatrice", "daemonic_summoning", 0, 0, 4},
                     {"wh3_dlc20_chs_mon_warshrine", "daemonic_summoning", 0, 0, 2},
                     {"wh3_dlc20_chs_mon_warshrine_mtze", "daemonic_summoning", 0, 0, 2},
+                    {"wh3_dlc24_tze_mon_flamers_changebringers", "daemonic_summoning", 0, 0, 2},
             }
             rhox_add_warriors_units(cm:get_faction(faction_key), rhox_volrik_gift_units);
             rhox_add_faction_pool_units(cm:get_faction(faction_key), rhox_volrik_faction_units);
@@ -704,7 +705,8 @@ local rhox_iee_list={
                     {"wh3_dlc20_chs_mon_warshrine_mnur", "daemonic_summoning", 0, 0, 2},
                     {"wh3_dlc24_tze_mon_cockatrice", "daemonic_summoning", 0, 0, 4},
                     {"wh3_dlc24_tze_mon_mutalith_vortex_beast", "daemonic_summoning", 0, 0, 2},
-                    {"wh3_main_dae_inf_chaos_furies_0", "daemonic_summoning", 0, 0, 4}
+                    {"wh3_main_dae_inf_chaos_furies_0", "daemonic_summoning", 0, 0, 4},
+                    {"wh3_dlc24_tze_mon_flamers_changebringers", "daemonic_summoning", 0, 0, 2},
             }
             local chs_ror ={
                 "wh3_dlc20_chs_cav_chaos_chariot_msla_ror",
