@@ -175,6 +175,7 @@ local rhox_iee_list={
                 end
             end
             
+            --cm:add_unit_to_faction_mercenary_pool(faction,"wh_pro04_brt_inf_battle_pilgrims_ror_0", "renown",0,0,0,0,"","","",false,"wh_pro04_brt_inf_battle_pilgrims_ror_0");--removing the unit, let's not do this
             local target_region = cm:get_region("cr_combi_region_ind_5_2")
             cm:instantly_set_settlement_primary_slot_level(target_region:settlement(), 2)
             local target_slot = target_region:slot_list():item_at(2)
