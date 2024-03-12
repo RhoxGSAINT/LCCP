@@ -7,3 +7,5 @@ rhox_dolmance_tech_2_1		rhox_brt_reveller_of_domance	2	rhox_dolmance_sla_2	brt_m
 rhox_dolmance_tech_2_2		rhox_brt_reveller_of_domance	2	tech_dlc14_brt_righteous_strength	brt_mil	2	400	0	0			0	0	0
 rhox_dolmance_tech_2_3		rhox_brt_reveller_of_domance	2	wh3_dlc20_chs_und_shared_chosen	brt_mil	3	400	0	0			0	0	0
 rhox_dolmance_tech_4_2		rhox_brt_reveller_of_domance	4	tech_dlc14_brt_rally_the_peasants	brt_mil	2	300	0	0	brt_heraldry		0	0	0
+rhox_dolmance_tech_fanaticism		rhox_brt_reveller_of_domance	0	wh3_main_tech_sla_1_2	brt_mil	9	1200	0	0			0	0	0
+rhox_dolmance_tech_tithe		rhox_brt_reveller_of_domance	0	wh_dlc07_tech_brt_economy_other_tithes	brt_mil	10	1	10000	0			0	0	0

@@ -7,3 +7,5 @@ rhox_dolmance_tech_2_2	rhox_dolmance_tech_1_2	0	3	1	0.0000	0.0000	true
 rhox_dolmance_tech_1_1	wh_dlc07_tech_brt_heraldry_start	0	2	1	0.0000	0.0000	true
 rhox_dolmance_tech_1_3	wh_dlc07_tech_brt_heraldry_start	0	2	1	0.0000	0.0000	true
 rhox_dolmance_tech_1_2	wh_dlc07_tech_brt_heraldry_start	0	2	1	0.0000	0.0000	true
+rhox_dolmance_tech_fanaticism	wh_dlc07_tech_brt_economy_other_4	0	2	4	0.0000	0.0000	true
+rhox_dolmance_tech_tithe	rhox_dolmance_tech_fanaticism	0	2	4	0.0000	0.0000	true
