@@ -66,10 +66,12 @@ core:add_listener(
     end,
     function(context) 
         local character=context:character()--he might have passed to other faction via two confederations
-        rhox_beorg_faction_list[character:faction():name()] = true
-        cm:add_unit_to_faction_mercenary_pool(character:faction():name(),"hkrul_beorg_brown_feral","renown",0,100,20,0,"","","",true,"hkrul_beorg_brown_feral")
-        cm:add_unit_to_faction_mercenary_pool(character:faction():name(),"hkrul_beorg_brown_feral_marked","renown",0,100,20,0,"","","",true,"hkrul_beorg_brown_feral_marked")
-        cm:add_unit_to_faction_mercenary_pool(character:faction():name(),"hkrul_beorg_ice_feral","renown",0,100,20,0,"","","",true,"hkrul_beorg_ice_feral")
+        if not rhox_beorg_faction_list[character:faction():name()] then
+            rhox_beorg_faction_list[character:faction():name()] = true
+            cm:add_unit_to_faction_mercenary_pool(character:faction():name(),"hkrul_beorg_brown_feral","renown",0,100,20,0,"","","",true,"hkrul_beorg_brown_feral")
+            cm:add_unit_to_faction_mercenary_pool(character:faction():name(),"hkrul_beorg_brown_feral_marked","renown",0,100,20,0,"","","",true,"hkrul_beorg_brown_feral_marked")
+            cm:add_unit_to_faction_mercenary_pool(character:faction():name(),"hkrul_beorg_ice_feral","renown",0,100,20,0,"","","",true,"hkrul_beorg_ice_feral")
+        end
     end,
     true
 )
