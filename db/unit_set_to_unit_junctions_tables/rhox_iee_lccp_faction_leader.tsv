@@ -25,7 +25,7 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_thorgar_chariot	all_non_chs	true
 			hkrul_thorgar_chariot	nor_all	false
 			hkrul_thorgar_daemon_prince	nor_all	false
-			hkrul_valbrand	all_non_chs	false
+			hkrul_valbrand	all_non_chs	true
 			hkrul_valbrand	nor_all	false
 			hkrul_volrik	all_non_chs	true
 			hkrul_volrik	nor_all	false
@@ -50,9 +50,9 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_zach_dragon	vmp_all	false
 			hkrul_zach_dragon	vmp_characters	false
 			hkrul_zach_dragon	vmp_dlc04_all_characters	false
-			hkrul_beorg	all_non_chs	false
+			hkrul_beorg	all_non_chs	true
 			hkrul_beorg	nor_all	false
-			hkrul_beorg_bear	all_non_chs	false
+			hkrul_beorg_bear	all_non_chs	true
 			hkrul_beorg_bear	nor_all	false
 			hkrul_aelfric	all_non_chs	true
 			hkrul_aelfric	undivided_characters	false

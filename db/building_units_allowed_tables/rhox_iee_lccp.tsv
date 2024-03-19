@@ -3,3 +3,6 @@ key	building	unit	XP	conditions	faction	enabled
 2147171588	rhox_torinubar_sound_toll_1	hef_calith_gatekeepers	0	0		true
 2147171589	rhox_torinubar_sound_toll_2	hef_calith_gatekeepers	0	0		false
 2147171590	rhox_torinubar_sound_toll_3	hef_calith_gatekeepers	0	0		false
+2147171591	rhox_beorg_halls_of_urslo	hkrul_beorg_brown_feral	0	0		true
+2147171592	rhox_beorg_halls_of_urslo	hkrul_beorg_brown_feral_marked	0	0		true
+2147171593	rhox_beorg_halls_of_urslo	hkrul_beorg_ice_feral	0	0		true
