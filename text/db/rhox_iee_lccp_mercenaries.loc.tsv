@@ -9,7 +9,7 @@ mercenary_unit_groups_replenishment_reason_rhox_lenk_nor_mon_warwolves_0	This un
 mercenary_unit_groups_replenishment_reason_rhox_lenk_nor_mon_war_mammoth_0	This unit can be replenished by:\\n\\n[[img:bullet_point_white]][[/img]] Attacking Norsca settlements	false
 campaign_localised_strings_string_hkrul_bearmen_lock	[[col:red]]This Regiment of Renown will unlock only if you ally or Confederate Ursfjordings faction[[/col]]	false
 campaign_localised_strings_string_hkrul_beorg_bear_sem_lock	[[col:red]]This Regiment of Renown will unlock only if you ally or Confederate Ursfjordings faction[[/col]]	false
-mercenary_unit_groups_replenishment_reason_hkrul_beorg_brown_feral	Replenishing when obtaining victories with Beorg Bearstruck	false
-mercenary_unit_groups_replenishment_reason_hkrul_beorg_brown_feral_marked	Replenishing when obtaining victories with Beorg Bearstruck	false
-mercenary_unit_groups_replenishment_reason_hkrul_beorg_ice_feral	Replenishing when obtaining victories with Beorg Bearstruck	false
+mercenary_unit_groups_replenishment_reason_hkrul_beorg_brown_feral	\\nReplenish this unit by achieving victories with Beorg Bearstruck	false
+mercenary_unit_groups_replenishment_reason_hkrul_beorg_brown_feral_marked	\\nReplenish this unit by achieving victories with Beorg Bearstruck	false
+mercenary_unit_groups_replenishment_reason_hkrul_beorg_ice_feral	\\nReplenish this unit by achieving victories with Beorg Bearstruck	false
 campaign_localised_strings_string_rhox_lccp_vmp_giant_lock	[[col:red]]This Regiment of Renown will unlock only if you ally or Confederate The Everliving faction[[/col]]	false

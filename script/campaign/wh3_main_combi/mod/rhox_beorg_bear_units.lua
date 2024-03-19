@@ -4,6 +4,10 @@ local rhox_beorg_ror_list={
     hkrul_beorg_bear_sem =true
 }
 
+local rhox_beorg_faction_list={
+    mixer_nur_rotbloods=true
+}
+
 
 core:add_listener(
     "Beorg_makes_alliance",
@@ -29,8 +33,10 @@ core:add_listener(
     true
 )
 
+
+
 core:add_listener(
-    "Beorg_confederation",
+    "rhox_Beorg_confederation",
     "FactionJoinsConfederation",
     function(context)
         return context:confederation():culture() == "wh_dlc08_nor_norsca" and context:faction():name() == "mixer_nur_rotbloods"
@@ -40,9 +46,30 @@ core:add_listener(
             cm:remove_event_restricted_unit_record_for_faction(unit_key, context:confederation():name())
         end
         
-        cm:add_unit_to_faction_mercenary_pool(context:confederation(),"hkrul_beorg_brown_feral","renown",0,100,20,0,"","","",true,"hkrul_beorg_brown_feral")
-        cm:add_unit_to_faction_mercenary_pool(context:confederation(),"hkrul_beorg_brown_feral_marked","renown",0,100,20,0,"","","",true,"hkrul_beorg_brown_feral_marked")
-        cm:add_unit_to_faction_mercenary_pool(context:confederation(),"hkrul_beorg_ice_feral","renown",0,100,20,0,"","","",true,"hkrul_beorg_ice_feral")
+        if not rhox_beorg_faction_list[context:confederation()] then
+            rhox_beorg_faction_list[context:confederation()]= true
+            cm:add_unit_to_faction_mercenary_pool(context:confederation(),"hkrul_beorg_brown_feral","renown",0,100,20,0,"","","",true,"hkrul_beorg_brown_feral")
+            cm:add_unit_to_faction_mercenary_pool(context:confederation(),"hkrul_beorg_brown_feral_marked","renown",0,100,20,0,"","","",true,"hkrul_beorg_brown_feral_marked")
+            cm:add_unit_to_faction_mercenary_pool(context:confederation(),"hkrul_beorg_ice_feral","renown",0,100,20,0,"","","",true,"hkrul_beorg_ice_feral")
+        end
+    end,
+    true
+)
+
+core:add_listener(
+    "rhox_beorg_CharacterTurnStart",
+    "CharacterTurnStart",
+    function(context) 
+        local character=context:character()--he might have passed to other faction via two confederations
+        
+        return character:character_subtype_key() == "hkrul_beorg" and not rhox_beorg_faction_list[character:faction():name()]
+    end,
+    function(context) 
+        local character=context:character()--he might have passed to other faction via two confederations
+        rhox_beorg_faction_list[character:faction():name()] = true
+        cm:add_unit_to_faction_mercenary_pool(character:faction():name(),"hkrul_beorg_brown_feral","renown",0,100,20,0,"","","",true,"hkrul_beorg_brown_feral")
+        cm:add_unit_to_faction_mercenary_pool(character:faction():name(),"hkrul_beorg_brown_feral_marked","renown",0,100,20,0,"","","",true,"hkrul_beorg_brown_feral_marked")
+        cm:add_unit_to_faction_mercenary_pool(character:faction():name(),"hkrul_beorg_ice_feral","renown",0,100,20,0,"","","",true,"hkrul_beorg_ice_feral")
     end,
     true
 )
@@ -101,4 +128,20 @@ cm:add_first_tick_callback_new(
             end
         end;
     end
+)
+
+
+----save/load
+
+cm:add_saving_game_callback(
+	function(context)
+		cm:save_named_value("rhox_beorg_faction_list", rhox_beorg_faction_list, context)
+	end
+)
+cm:add_loading_game_callback(
+	function(context)
+		if not cm:is_new_game() then
+			rhox_beorg_faction_list = cm:load_named_value("rhox_beorg_faction_list", rhox_beorg_faction_list, context)
+		end
+	end
 )
