@@ -929,6 +929,7 @@ local rhox_iee_list={
                 transferred_region_cqi = transferred_region:cqi()
                 cm:heal_garrison(transferred_region_cqi)
                 
+                --Pol uses it, add exception
                 cm:transfer_region_to_faction("cr_combi_region_ind_3_3","cr_emp_guests_of_the_raja")
                 transferred_region = cm:get_region("cr_combi_region_ind_3_3")
                 transferred_region_cqi = transferred_region:cqi()

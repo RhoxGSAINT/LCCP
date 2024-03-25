@@ -13,3 +13,4 @@ rhox_torinubar_west_foreign_2	rhox_torinubar_west_foreign	1	2	4000	0		false	fals
 rhox_torinubar_west_foreign_3	rhox_torinubar_west_foreign	2	3	6000	0		false	false			false	rhox_torinubar_west_foreign	false	0.0000	0	true	3		true	0	0	rhox_torinubar_west_tier_2	0
 rhox_torinubar_west_foreign_4	rhox_torinubar_west_foreign	3	4	8000	0		false	false			false	rhox_torinubar_west_foreign	false	0.0000	0	true	4		true	0	0	rhox_torinubar_west_tier_3	0
 rhox_torinubar_west_foreign_5	rhox_torinubar_west_foreign	4	5	10000	0		false	false			false	rhox_torinubar_west_foreign	false	0.0000	0	true	5		true	0	0	rhox_torinubar_west_tier_4	0
+rhox_torinubar_tor_larha_colony	rhox_torinubar_tor_larha_colony	0	3	7000	0		false	false			true	rhox_torinubar_tor_larha_colony	false	0.0000	0	true	1		true	0	0		0

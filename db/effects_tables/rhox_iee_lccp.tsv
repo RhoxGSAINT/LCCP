@@ -102,3 +102,5 @@ rhox_duriath_black_ark_dummy	pirate_crew.png	105	pirate_crew.png	campaign	true
 hkrul_gargul_aim	item_ability.png	300	item_ability.png	battle	true
 hkrul_skargel_mine	item_ability.png	300	item_ability.png	battle	true
 hkrul_wundal_frog	item_ability.png	300	item_ability.png	battle	true
+rhox_torinubar_effect_caravan_cargo_percent_point_DUMMY	cargo.png	10	cargo.png	campaign	true
+rhox_torinubar_negate_climate_dummy	climate_uninhabitable.png	1	climate_uninhabitable.png	campaign	true

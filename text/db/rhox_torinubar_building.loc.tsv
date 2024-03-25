@@ -25,3 +25,6 @@ building_sets_onscreen_description_rhox_torinubar_trade		false
 building_sets_onscreen_name_rhox_torinubar_trade	Foreign Trade	false
 building_effect_context_expressions_display_text_RhoxEasternGreaterThan50	When total [[img:ui/skins/default/rhox_torinubar_east_resource.png]][[/img]]Eastern Commodities higher than 50 at the start of turn:	false
 building_effect_context_expressions_display_text_RhoxWesternGreaterThan50	When total [[img:ui/skins/default/rhox_torinubar_west_resource.png]][[/img]]Western Commodities higher than 50 at the start of turn:	false
+building_chains_chain_tooltip_rhox_torinubar_tor_larha_colony	Citadel of Tor Larha	false
+building_culture_variants_name_rhox_torinubar_tor_larha_colony	Citadel of Tor Larha	false
+building_short_description_texts_short_description_rhox_torinubar_tor_larha_colony	Nestled within the craggy embrace of Tor Larha, this bastion of High Elf strength commands the southern gate. Its soaring towers pierce the sky, a steadfast bulwark against the encroaching tides of Chaos. Within its walls, the flame of Elven resilience burns bright.	false
