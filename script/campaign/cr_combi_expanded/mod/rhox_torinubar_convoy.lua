@@ -88,10 +88,11 @@ local rhox_torinubar_event_tables = {
             local attacking_force, enemy_faction_name = rhox_torinubar_generate_attackers(bandit_threat, "");
 
             local cargo_amount = caravan_handle:cargo();
-
+    
+            local new_cargo_amount = math.floor(cargo_amount*0.9)
             --Dilemma option to remove cargo
             function remove_cargo()
-                cm:set_caravan_cargo(caravan_handle, cargo_amount - 200)
+                cm:set_caravan_cargo(caravan_handle, new_cargo_amount)
             end
 
             custom_option = remove_cargo;
@@ -122,7 +123,7 @@ local rhox_torinubar_event_tables = {
             payload_builder:clear();
 
             local cargo_bundle = cm:create_new_custom_effect_bundle("wh3_main_dilemma_cth_caravan_2_b");
-            cargo_bundle:add_effect("wh3_main_effect_caravan_cargo_DUMMY", "force_to_force_own", -200);
+            cargo_bundle:add_effect("rhox_torinubar_effect_caravan_cargo_percent_point_DUMMY", "force_to_force_own", -10);
             cargo_bundle:set_duration(0);
 
             payload_builder:effect_bundle_to_force(caravan_handle:caravan_force(), cargo_bundle);
