@@ -24,6 +24,7 @@ causes_fear	hkrul_slaurith
 causes_terror	hkrul_slaurith
 encourages	hkrul_slaurith
 hide_forest	hkrul_slaurith
+mark_khorne	hkrul_slaurith
 encourages	hkrul_valbrand_attributes
 hide_forest	hkrul_valbrand_attributes
 hide_forest	hkrul_volrik
@@ -44,3 +45,8 @@ causes_terror	hkrul_spew_rider
 encourages	hkrul_spew_rider
 wallbreaker	hkrul_spew_rider
 mark_nurgle	hkrul_spew_rider
+mark_khorne	hkrul_slaurith_dragon
+causes_fear	hkrul_slaurith_dragon
+causes_terror	hkrul_slaurith_dragon
+encourages	hkrul_slaurith_dragon
+flying	hkrul_slaurith_dragon
