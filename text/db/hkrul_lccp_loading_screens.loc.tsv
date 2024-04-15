@@ -16,7 +16,6 @@ loading_screen_quotes_title_hkrul_engra	Engra Deathsword	false
 loading_screen_quotes_title_hkrul_vroth	Surtha Lenk	false
 loading_screen_quotes_title_hkrul_karitamen	Karitamen the Liche Lord	false
 loading_screen_quotes_title_hkrul_duriath	Duriath Helbane	false
-loading_screen_quotes_title_hkrul_beorg	Beorg Bearstruck	false
 loading_screen_quotes_title_hkrul_aelfric	Aelfric Cyenwulf	false
 loading_screen_quotes_description_hkrul_sceolan	Sceolan of the Hooked Blade, Lord of Atylwyth, is one the oldest and most cunning of the Wood Elf warriors.	false
 loading_screen_quotes_description_hkrul_volrik	Volrik Clawhand, touched by Tzeentch is a Kurgan Warlord dedicated to the ultimate schemer.	false
@@ -32,7 +31,6 @@ loading_screen_quotes_description_hkrul_engra	Engra Deathsword was the right han
 loading_screen_quotes_description_hkrul_vroth	Surtha Lenk, High Zar of the Tokmars tribe is a hunter of unmatched skill. Besting monsters ten times his own size, which is impressive in it's own right.	false
 loading_screen_quotes_description_hkrul_karitamen	Lord Karitamen, as the Chosen of Phakth, embodies the might and favor of the God of Sky and Justice	false
 loading_screen_quotes_description_hkrul_duriath	Duriath Helbane is one of the most feared corsairs under employ of the Witch King, tasked with the most dangerous expeditions.	false
-loading_screen_quotes_description_hkrul_beorg	Beorg, Son of Bran is a descendant of the Great Bear and is the mighty shapeshifting chieftain of the Ursfjordings Tribe.	false
 loading_screen_quotes_description_hkrul_aelfric	Cyenwulf is the High Zar of the Iron Wolf tribe, a fearsome chaos tribe situated on the very edge of the mortal realms.	false
 loading_screen_quotes_bulletpoints_hkrul_valbrand	The Dragon Blade||[[img:ui/skins/default/modifier_icon_bonus_vs_infantry.png]][[/img]]Anti-infantry||Duellist	false
 loading_screen_quotes_bulletpoints_hkrul_sceolan	Melee expert||[[img:ui/skins/default/icon_stat_armour.png]][[/img]]Armoured||Damage Dealer	false
@@ -49,5 +47,4 @@ loading_screen_quotes_bulletpoints_hkrul_engra	[[img:ui/skins/default/modifier_i
 loading_screen_quotes_bulletpoints_hkrul_vroth	[[img:ui/skins/default/modifier_icon_bonus_vs_large.png]][[/img]]Anti-large Missiles||Decent Melee Combatant	false
 loading_screen_quotes_bulletpoints_hkrul_karitamen	Spellcaster||[[img:ui/skins/default/modifier_icon_armour_piercing.png]][[/img]]Armour-piercing	false
 loading_screen_quotes_bulletpoints_hkrul_duriath	[[img:icon_ap_ranged]][[/img]]Armour-piercing missiles||[[img:ui/skins/default/icon_stat_armour.png]][[/img]]Armoured	false
-loading_screen_quotes_bulletpoints_hkrul_beorg	Special Ranged Weapon||[[img:ui/skins/default/modifier_icon_bonus_vs_large.png]][[/img]]Anti-large||[[img:ui/battle ui/ability_icons/stalk.png]][[/img]]Stalk||Shapeshifter	false
 loading_screen_quotes_bulletpoints_hkrul_aelfric	Melee Expert||[[img:ui/skins/default/modifier_icon_shield.png]][[/img]]Shielded||[[img:ui/skins/default/modifier_icon_frostbite.png]][[/img]]Frostbite attacks	false

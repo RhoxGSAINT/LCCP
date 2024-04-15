@@ -2,3 +2,5 @@ key	text	tooltip
 #Loc;1;text/db/hkrul_vroth_unit_abilities__.loc		
 unit_abilities_onscreen_name_hkrul_vroth_skewer	Zar's Skewer	false
 unit_abilities_tooltip_text_hkrul_vroth_skewer	With uncanning might, Surtha Lenks hewes the infamous spear of the Tokmars tribe.	false
+unit_abilities_tooltip_text_hkrul_vroth_horse	The mighty nomadic tribes of the Kurgan are revered horsemasters, feared throughout the universe for their skill as riders.	true
+unit_abilities_onscreen_name_hkrul_vroth_horse	Kurgan Bred	true

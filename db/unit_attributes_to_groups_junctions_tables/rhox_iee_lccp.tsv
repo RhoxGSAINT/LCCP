@@ -5,12 +5,6 @@ encourages	hkrul_hrothyogg_crusher
 hide_forest	hkrul_hrothyogg_crusher
 ogre_charge	hkrul_hrothyogg_crusher
 wallbreaker	hkrul_hrothyogg_crusher
-encourages	hkrul_beorg_bear_sem
-hide_forest	hkrul_beorg_bear_sem
-causes_fear	hkrul_beorg_bear_sem
-strider	hkrul_beorg_bear_sem
-guerrilla_deploy	hkrul_beorg_bear_sem
-ignore_trees	hkrul_beorg_bear_sem
 encourages	hkrul_sceolan_attr
 hide_forest	hkrul_sceolan_attr
 mounted_fire_move	hkrul_sceolan_attr

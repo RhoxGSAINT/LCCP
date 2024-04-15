@@ -3,7 +3,6 @@ banner	unit_set
 hkrul_thorgar_banner	nor_all
 hkrul_valbrand_banner	nor_all
 hkrul_volrik_banner	nor_all
-hkrul_beorg_banner	nor_all
-hkrul_aelfric_banner	emp_infantry
+hkrul_aelfric_banner	all_units
 hkrul_zach_banner	vmp_all
 hkrul_spew_banner	all_units
