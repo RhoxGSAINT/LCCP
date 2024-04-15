@@ -2,4 +2,3 @@ effect	bonus_value_id
 #effect_bonus_value_basic_junction_tables;0;db/effect_bonus_value_basic_junction_tables/hkrul_lccp	
 hkrul_enable_immortality	immortal
 hkrul_hroth_income_negative	gdp_mod_all
-hkrul_oerl_bear_xp	mercenary_unit_exp_mod

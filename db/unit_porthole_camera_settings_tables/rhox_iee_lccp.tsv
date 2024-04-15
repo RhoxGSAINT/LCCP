@@ -3,5 +3,4 @@ key	distance	fov	phi	theta	target_x	target_y	target_z	environment_file
 hkrul_spew	3.0000	28.0000	175.0000	210.0000	0.0500	2.8800	1.0000	Porthole/advisor/default_porthole.lighting
 hkrul_spew_rider	2.4000	28.0000	175.0000	210.0000	0.2000	3.0000	1.0000	Porthole/advisor/default_porthole.lighting
 hkrul_aelfric	1.4000	28.0000	175.0000	210.0000	0.0500	1.7000	0.0000	Porthole/advisor/default_porthole.lighting
-hkrul_beorg_bear	2.8000	28.0000	180.0000	210.0000	-0.2000	2.8000	0.7000	Porthole/advisor/default_porthole.lighting
 hkrul_slaurith	1.8000	28.0000	195.0000	195.0000	0.1900	1.6500	0.0000	Porthole/advisor/default_porthole.lighting

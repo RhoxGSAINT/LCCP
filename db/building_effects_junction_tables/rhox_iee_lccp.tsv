@@ -19,5 +19,3 @@ rhox_zach_malevolent_museum	wh3_main_effect_building_mannfred_museum		faction_to
 rhox_zach_malevolent_museum	wh_main_effect_technology_research_points		faction_to_faction_own_unseen	10.0000	0.0000	0.0000
 rhox_zach_malevolent_museum	wh3_main_effect_winds_of_magic_pool_cap		faction_to_force_own	3.0000	3.0000	0.0000
 rhox_zach_malevolent_museum	wh_main_effect_public_order_global		province_to_province_own_factionwide	3.0000	3.0000	0.0000
-rhox_beorg_halls_of_urslo	hkrul_beorg_bear_defence		faction_to_force_own	5.0000	3.0000	0.0000
-rhox_beorg_halls_of_urslo	wh_main_effect_force_all_campaign_raid_income		building_to_force_own_in_adjacent_provinces	25.0000	13.0000	0.0000

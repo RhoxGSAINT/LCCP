@@ -48,6 +48,16 @@ cm:add_first_tick_callback(
         campaign_traits.legendary_lord_defeated_traits["hkrul_vroth"] ="hkrul_defeated_trait_vroth"
         campaign_traits.legendary_lord_defeated_traits["hkrul_karitamen"] ="hkrul_defeated_trait_karitamen"
         campaign_traits.legendary_lord_defeated_traits["hkrul_duriath"] ="hkrul_defeated_trait_duriath"
-        campaign_traits.legendary_lord_defeated_traits["hkrul_beorg"] ="hkrul_defeated_trait_beorg"
 	end
 )
+----------------Confederate execution
+NORSCA_LEGENDARY_LORDS["hkrul_valbrand"]=true
+NORSCA_LEGENDARY_LORDS["hkrul_volrik"]=true
+NORSCA_LEGENDARY_LORDS["hkrul_thorgar"]=true
+NORSCA_LEGENDARY_LORDS["hkrul_thorgar_daemon_prince"]=true
+NORSCA_LEGENDARY_LORDS["hkrul_vroth"]=true
+
+
+
+
+

@@ -36,6 +36,3 @@ unit_abilities_tooltip_text_hkrul_burlok_arm	Burlok's Ingenious Offensive New-ma
 unit_abilities_onscreen_name_hkrul_burlok_arm	B.I.O.N.I.C Arm	true
 effects_description_hkrul_burlok_arm	Ability: "B.I.O.N.I.C Arm''	false
 effects_description_hkrul_burlok_engineer_ms	Missile Damage: %+n% for Master Engineers	false
-unit_abilities_tooltip_text_hkrul_vroth_horse	The mighty nomadic tribes of the Kurgan are revered horsemasters, feared throughout the universe for their skill as riders.	true
-unit_abilities_onscreen_name_hkrul_vroth_horse	Kurgan Bred	true
-effects_description_hkrul_vroth_horse	Ability: "Kurgan Bred'' for Marauder Horsemen units	false
