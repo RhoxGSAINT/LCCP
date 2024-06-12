@@ -36,3 +36,9 @@ unit_abilities_tooltip_text_hkrul_burlok_arm	Burlok's Ingenious Offensive New-ma
 unit_abilities_onscreen_name_hkrul_burlok_arm	B.I.O.N.I.C Arm	true
 effects_description_hkrul_burlok_arm	Ability: "B.I.O.N.I.C Arm''	false
 effects_description_hkrul_burlok_engineer_ms	Missile Damage: %+n% for Master Engineers	false
+rituals_display_name_rhox_burlok_dwf_ritual_legendary_lord_burlok	Burlok Damminsson	false
+rituals_description_rhox_burlok_dwf_ritual_legendary_lord_burlok	Burlok’s faction will be confederated! However, if his faction has already perished, this Legendary Lord will still become recruitable!	false
+effect_bundles_localised_title_rhox_burlok_dwf_ritual_legendary_lord_burlok	Unlock Burlok	false
+effect_bundles_localised_description_rhox_burlok_dwf_ritual_legendary_lord_burlok	Burlok’s faction will be confederated! However, if his faction has already perished, this Legendary Lord will still become recruitable!	false
+effects_description_rhox_burlok_dwf_ritual_confederation_burlok_cost_mod	[HIDDEN] - increases cost of this ritual	false
+effects_description_rhox_burlok_dwf_ritual_legendary_lord_burlok	Confederates Burlok Damminsson's faction\\n(if perished, Burlok is added to your Lord pool)	false

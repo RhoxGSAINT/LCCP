@@ -1,0 +1,30 @@
+2024/JUN/? SCM
+- Changed the faction skin path for Torinubar so it wouldn't override other High Elves
+
+2024/MAY/14 SCM
+-Changed the mentor node to updated one.
+
+2024/MAY/12 SCM
+- Added missing DLC agent subtypes to Nurgle
+
+2024/MAY/08 SCM
+- Fixed the issue of Valbrand and Torinubar convoys not getting military force Grudges
+- Added DLC agents to Brulok 
+
+2024/MAY/07 SCM
+- Now Tor Larha landmark will not show what the effect they're negating.+now they get the garrison effect
+
+2024/MAY/06 SCM-3
+- Fixed the issue of female sound occuring at Volrik's sieging
+
+2024/MAY/06 SCM-2
+- Fixed the issue of Volrik not having access to Changing of Ways UI
+
+2024/MAY/06 SCM
+- Fixed the issue of Orghott faction not having access to Nurgle plague
+
+2024/MAY/02 SCM
+- Changed Pestilence to Defilement for Spew related things as CR changed their faction name
+
+2024/MAY/01 SCM
+- Init upload

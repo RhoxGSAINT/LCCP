@@ -9,3 +9,11 @@ rhox_torinubar_purchase_west	rhox_torinubar_west_resource.png	1	rhox_torinubar_w
 rhox_torinubar_entrepot_dummy	resource_gemstones_large.png	2	resource_gemstones_large.png	campaign	true
 rhox_torinubar_melee_attack_gate_guard	melee.png	431	melee.png	battle	true
 rhox_torinubar_melee_defence_gate_guard	defence.png	451	defence.png	battle	true
+rhox_torinubar_negate_climate_dummy	climate_uninhabitable.png	1	climate_uninhabitable.png	campaign	true
+rhox_torinubar_effect_building_construction_time_mod_all		0		campaign	false
+rhox_torinubar_effect_climate_recruitment_duration_all		0		campaign	false
+rhox_torinubar_effect_province_growth_climate		0		campaign	true
+rhox_torinubar_effect_public_order_climate		0		campaign	true
+rhox_torinubar_effect_building_construction_cost_mod		0		campaign	false
+rhox_torinubar_effect_economy_gdp_mod_all		0		campaign	true
+rhox_torinubar_effect_force_all_campaign_replenishment_rate		0		campaign	true

@@ -778,9 +778,7 @@ local rhox_iee_list={
                 end,
                 true
             )
-            if faction:is_human() then
-                cm:faction_add_pooled_resource(faction_key, "rhox_engra_hidden_block_ai", "other", 100) --remove it after some time
-            end
+            cm:force_diplomacy("faction:"..faction_key, "faction:wh_main_chs_chaos", "vassal", false, false, true);--because it does not work when he does not have settlement
         end
     },
     cr_nor_tokmars ={

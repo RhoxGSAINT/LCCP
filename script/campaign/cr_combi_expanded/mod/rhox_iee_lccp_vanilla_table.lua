@@ -15,7 +15,9 @@ character_unlocking.character_data["scribes"]["mission_keys"]["rhox_nor_ravenble
 character_unlocking.character_data["scribes"]["mission_keys"]["rhox_nor_ravenblessed"]["main_warhammer"]="rhox_iee_lccp_tze_blue_scribes_stage_1_nor"
 
 
-
+-----------Nurgle Plague
+nurgle_plagues.plague_faction_info["cr_nur_tide_of_pestilence"] = {max_blessed_symptoms = 1, current_symptoms_list = {}, plague_creation_counter = 3}
+nurgle_plagues.plague_button_unlock["cr_nur_tide_of_pestilence"] = {button_locked = true, infections_gained = 0, infections_end_of_last_turn = 200}
 
 
 
@@ -57,7 +59,14 @@ NORSCA_LEGENDARY_LORDS["hkrul_thorgar"]=true
 NORSCA_LEGENDARY_LORDS["hkrul_thorgar_daemon_prince"]=true
 NORSCA_LEGENDARY_LORDS["hkrul_vroth"]=true
 
+--------------Dwarfs
+table.insert(book_of_grudges.confederation_factions_list, "cr_dwf_firebeards_excavators")
 
+
+book_of_grudges.faction_confederation_data["cr_dwf_firebeards_excavators"]= {
+    ritual = "rhox_burlok_dwf_ritual_legendary_lord_burlok",
+    cost_mod_effect = "rhox_burlok_dwf_ritual_confederation_burlok_cost_mod"
+}
 
 
 

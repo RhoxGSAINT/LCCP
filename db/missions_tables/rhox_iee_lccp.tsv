@@ -1,14 +1,14 @@
 key	mission_type	localised_title	localised_description	ui_image	ui_icon	generate	prioritised	event_category	set_piece_battle	location_x	location_y	quest_mission	quest_mission_final	trigger_radius	quest_character	sticky_by_default	localised_mission_completed_text	can_be_manually_cancelled
 #missions_tables;0;db/missions_tables/rhox_iee_lccp																		
-rhox_burlok_ritual_burlok_artifact_1	PERFORM_RITUAL			dwf/generic	event_province_positive.png	false	false	Grudges		0	0	false	false	0.0000		true		false
-rhox_burlok_ritual_burlok_artifact_2	PERFORM_RITUAL			dwf/generic	event_province_positive.png	false	false	Grudges		0	0	false	false	0.0000		true		false
-rhox_burlok_ritual_burlok_artifact_3	PERFORM_RITUAL			dwf/generic	event_province_positive.png	false	false	Grudges		0	0	false	false	0.0000		true		false
-rhox_burlok_ritual_burlok_artifact_4	PERFORM_RITUAL			dwf/generic	event_province_positive.png	false	false	Grudges		0	0	false	false	0.0000		true		false
-rhox_burlok_ritual_burlok_artifact_5	PERFORM_RITUAL			dwf/generic	event_province_positive.png	false	false	Grudges		0	0	false	false	0.0000		true		false
-rhox_burlok_ritual_burlok_artifact_6	PERFORM_RITUAL			dwf/generic	event_province_positive.png	false	false	Grudges		0	0	false	false	0.0000		true		false
-rhox_burlok_ritual_burlok_artifact_7	PERFORM_RITUAL			dwf/generic	event_province_positive.png	false	false	Grudges		0	0	false	false	0.0000		true		false
-rhox_burlok_ritual_burlok_artifact_8	PERFORM_RITUAL			dwf/generic	event_province_positive.png	false	false	Grudges		0	0	false	false	0.0000		true		false
-rhox_burlok_ritual_burlok_artifact_extra	SCRIPTED			dwf/generic	event_province_positive.png	false	false	Grudges		0	0	false	false	0.0000		true		false
+rhox_burlok_ritual_burlok_artifact_1	PERFORM_RITUAL			dwf/generic	event_province_positive.png	false	false	Military		0	0	false	false	0.0000		true		false
+rhox_burlok_ritual_burlok_artifact_2	PERFORM_RITUAL			dwf/generic	event_province_positive.png	false	false	Military		0	0	false	false	0.0000		true		false
+rhox_burlok_ritual_burlok_artifact_3	PERFORM_RITUAL			dwf/generic	event_province_positive.png	false	false	Military		0	0	false	false	0.0000		true		false
+rhox_burlok_ritual_burlok_artifact_4	PERFORM_RITUAL			dwf/generic	event_province_positive.png	false	false	Military		0	0	false	false	0.0000		true		false
+rhox_burlok_ritual_burlok_artifact_5	PERFORM_RITUAL			dwf/generic	event_province_positive.png	false	false	Military		0	0	false	false	0.0000		true		false
+rhox_burlok_ritual_burlok_artifact_6	PERFORM_RITUAL			dwf/generic	event_province_positive.png	false	false	Military		0	0	false	false	0.0000		true		false
+rhox_burlok_ritual_burlok_artifact_7	PERFORM_RITUAL			dwf/generic	event_province_positive.png	false	false	Military		0	0	false	false	0.0000		true		false
+rhox_burlok_ritual_burlok_artifact_8	PERFORM_RITUAL			dwf/generic	event_province_positive.png	false	false	Military		0	0	false	false	0.0000		true		false
+rhox_burlok_ritual_burlok_artifact_extra	SCRIPTED			dwf/generic	event_province_positive.png	false	false	Military		0	0	false	false	0.0000		true		false
 rhox_dolmance_init_mission	SCRIPTED			brt/generic	rom_event_mission.png	false	true	Military		0	0	false	false	0.0000		true	Success! You have achieved one of your goals.	false
 rhox_sceolan_conderation_mission	DEFEAT_N_ARMIES_OF_FACTION			bst/generic	rom_event_mission.png	false	false	Military		0	0	false	false	0.0000		true		false
 rhox_slaurith_knight_1	SCRIPTED			tmb/generic	rom_event_mission.png	false	false	piece_of_eight		0	0	false	false	0.0000		true		false

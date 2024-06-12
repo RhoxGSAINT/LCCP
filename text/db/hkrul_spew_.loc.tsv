@@ -15,11 +15,11 @@ character_skills_localised_name_hkrul_spew_special_1_0	Weak is the Flesh	true
 character_skills_localised_description_hkrul_spew_special_1_3	The gardener knows may tricks of rot and pus and blight and stench.	true
 character_skills_localised_name_hkrul_spew_special_1_3	Secrets of the Gardener	true
 character_skills_localised_description_hkrul_spew_special_0_2	The pestilent tide marches North in search of their master's ambition.	true
-character_skills_localised_name_hkrul_spew_special_0_2	Tide of Pestilence	true
+character_skills_localised_name_hkrul_spew_special_0_2	Tide of Defilement	true
 character_skills_localised_description_hkrul_spew_special_1_4	Decay is te pinnacle of growth, as all things wither all things are born.	true
 character_skills_localised_name_hkrul_spew_special_1_4	Horrendous Growth	true
 ancillaries_colour_text_hkrul_spew_banner	Orghotts is one of three legendary Maggoth Riders and solemnly responsible for the randsacking of large parts of Kislev. He has completely devoted himself to a frantic quest to ascend in to daemonhood. Those worthy to carry the banner of his Tide are left with the same fate of obsession.	false
-ancillaries_onscreen_name_hkrul_spew_banner	Banner of Pestilence	false
+ancillaries_onscreen_name_hkrul_spew_banner	Banner of Defilement	false
 ancillaries_colour_text_hkrul_spew_sword	The Rotaxes are a pair of magical Daemon Weapons taken from the Garden of Nurgle. Infected with the blight of that daemonic domain of the Realm of Chaos, all that these axes touch are infected with that plane's corruption. Only a true champion of Nurgle is bestowed the blessing of the rotfather to wield these magnificent tokens of blight, withering and decay. 	false
 ancillaries_onscreen_name_hkrul_spew_sword	The Rotaxes	false
 unit_abilities_onscreen_name_hkrul_spew_bombard	Rotting Oasis	false
@@ -32,3 +32,4 @@ unit_abilities_tooltip_text_hkrul_spew_riders	The Legendary Maggoth Riders commu
 effects_description_hkrul_spew_riders	Ability: "Orghott's Riders'' for Pox Riders	false
 effects_description_hkrul_spew_dummy_quest	Aspirant Gardener: Orghotts seeks the Rotfather's favor by cleansing the unfaithful from his gardens	false
 effect_bundles_localised_description_hkrul_spew_banner		false
+effect_bundles_localised_title_hkrul_spew_banner	Banner of Defilement	false

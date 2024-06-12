@@ -21,3 +21,4 @@ rhox_burlok_payload_artifact_2_ritual_dummy			faction	1	thane.png	false	false	tr
 rhox_burlok_payload_artifact_3_ritual_dummy			faction	1	thane.png	false	false	true
 rhox_burlok_payload_artifact_4_elixir_morning_calm			faction	1	hkrul_burlok_elixir.png	true	false	true
 rhox_burlok_payload_artifact_5_ethereal_fusion			faction	1	hkrul_burlok_cloak.png	true	false	true
+rhox_burlok_dwf_ritual_legendary_lord_burlok	Burlok’s faction will be confederated! However, if his faction has already perished, this Legendary Lord will still become recruitable!	Unlock Burlok	faction	1	confederation.png	false	false	true
