@@ -91,3 +91,10 @@ effects_description_rhox_duriath_black_ark_dummy	Has access to shipbuilding, but
 effects_description_hkrul_save_keeping	In the savage heart of chaos, Aelfric Cynewulf reigns as the High Zar of the Ironwolf Tribe. A warband of marauding chaos warriors, eager to ravage the South Lands, follows his every command. As the alpha of a wolf pack, he leads with an iron fist, his authority unchallenged among the relentless chaos horde. A mighty champion within the ranks of chaos, Cynewulf's allegiance is a coveted prize, sought by many who seek the power and ferocity that the Ironwolf Tribe brings to the tumultuous lands of the Old World.	false
 effects_description_rhox_torinubar_effect_caravan_cargo_percent_point_DUMMY	Cargo: %+n%	false
 effects_description_rhox_torinubar_negate_climate_dummy	[[col:yellow]]Negates the climate penalty[[/col]]	false
+effects_description_rhox_torinubar_effect_building_construction_time_mod_all	HIDDEN: To negate the climate penalty	false
+effects_description_rhox_torinubar_effect_climate_recruitment_duration_all	HIDDEN: To negate the climate penalty	false
+effects_description_rhox_torinubar_effect_province_growth_climate	HIDDEN: To negate the climate penalty	false
+effects_description_rhox_torinubar_effect_public_order_climate	HIDDEN: To negate the climate penalty	false
+effects_description_rhox_torinubar_effect_building_construction_cost_mod	HIDDEN: To negate the climate penalty	false
+effects_description_rhox_torinubar_effect_economy_gdp_mod_all	HIDDEN: To negate the climate penalty	false
+effects_description_rhox_torinubar_effect_force_all_campaign_replenishment_rate	HIDDEN: To negate the climate penalty	false

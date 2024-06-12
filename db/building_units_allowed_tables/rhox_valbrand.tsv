@@ -12,7 +12,7 @@ key	building	unit	XP	conditions	faction	enabled
 1092995062	rhox_valbrand_nor_beasts_3	wh_dlc08_nor_mon_warwolves_0	0	0		true
 1092995063	rhox_valbrand_nor_chaos_2	wh_dlc08_nor_mon_norscan_giant_0	0	0		true
 1092995064	rhox_valbrand_nor_beasts_2	wh_main_nor_mon_chaos_warhounds_0	0	0		true
-1092995065	rhox_valbrand_nor_chaos_1	wh_dlc08_nor_mon_war_mammoth_1	0	0		true
+1092995065	rhox_valbrand_nor_chaos_1	wh_dlc08_nor_mon_norscan_giant_0	0	0		true
 1092995066	rhox_valbrand_nor_creatures_2	wh_main_nor_mon_chaos_trolls	0	0		true
 1092995067	rhox_valbrand_nor_creatures_2	wh_dlc08_nor_feral_manticore	0	0		true
 1092995068	rhox_valbrand_nor_stables_2	wh_main_nor_cav_marauder_horsemen_1	0	0		true

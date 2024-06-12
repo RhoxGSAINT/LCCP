@@ -103,4 +103,5 @@ hkrul_gargul_aim	item_ability.png	300	item_ability.png	battle	true
 hkrul_skargel_mine	item_ability.png	300	item_ability.png	battle	true
 hkrul_wundal_frog	item_ability.png	300	item_ability.png	battle	true
 rhox_torinubar_effect_caravan_cargo_percent_point_DUMMY	cargo.png	10	cargo.png	campaign	true
-rhox_torinubar_negate_climate_dummy	climate_uninhabitable.png	1	climate_uninhabitable.png	campaign	true
+rhox_burlok_dwf_ritual_confederation_burlok_cost_mod	confederation.png	0	confederation.png	campaign	true
+rhox_burlok_dwf_ritual_legendary_lord_burlok	confederation.png	1	confederation.png	campaign	true
