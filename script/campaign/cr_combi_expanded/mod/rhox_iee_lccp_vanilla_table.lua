@@ -15,6 +15,26 @@ character_unlocking.character_data["scribes"]["mission_keys"]["rhox_nor_ravenble
 character_unlocking.character_data["scribes"]["mission_keys"]["rhox_nor_ravenblessed"]["main_warhammer"]="rhox_iee_lccp_tze_blue_scribes_stage_1_nor"
 
 
+------------Arbaal, Slaurith, and Valbrand
+table.insert(character_unlocking.character_data["karanak"]["override_allowed_factions"]["main_warhammer"], "cr_kho_servants_of_the_blood_nagas")
+table.insert(character_unlocking.character_data["karanak"]["override_allowed_factions"]["main_warhammer"], "rhox_kho_destroyers_of_khorne")
+table.insert(character_unlocking.character_data["karanak"]["override_allowed_factions"]["main_warhammer"], "rhox_nor_firebrand_slavers")
+
+character_unlocking.character_data["karanak"]["mission_keys"]["cr_kho_servants_of_the_blood_nagas"]={}
+character_unlocking.character_data["karanak"]["mission_keys"]["rhox_kho_destroyers_of_khorne"]={}
+character_unlocking.character_data["karanak"]["mission_keys"]["rhox_nor_firebrand_slavers"]={}
+
+character_unlocking.character_data["karanak"]["mission_keys"]["cr_kho_servants_of_the_blood_nagas"]["main_warhammer"] ="wh3_pro12_mis_ie_kho_karanak_unlock_01"
+character_unlocking.character_data["karanak"]["mission_keys"]["rhox_kho_destroyers_of_khorne"]["main_warhammer"] ="wh3_pro12_mis_ie_kho_karanak_unlock_01"
+character_unlocking.character_data["karanak"]["mission_keys"]["rhox_nor_firebrand_slavers"]["main_warhammer"] = "rhox_iee_lccp_mis_ie_valbrand_karanak_unlock_01"
+
+
+table.insert(character_unlocking.character_data["karanak"]["mission_chain_keys"]["main_warhammer"], "rhox_iee_lccp_mis_ie_valbrand_karanak_unlock_01")
+table.insert(character_unlocking.character_data["karanak"]["missions_to_trigger_dilemma"]["main_warhammer"], "rhox_iee_lccp_mis_ie_valbrand_karanak_unlock_01")
+
+
+
+
 -----------Nurgle Plague
 nurgle_plagues.plague_faction_info["cr_nur_tide_of_pestilence"] = {max_blessed_symptoms = 1, current_symptoms_list = {}, plague_creation_counter = 3}
 nurgle_plagues.plague_button_unlock["cr_nur_tide_of_pestilence"] = {button_locked = true, infections_gained = 0, infections_end_of_last_turn = 200}
@@ -67,6 +87,4 @@ book_of_grudges.faction_confederation_data["cr_dwf_firebeards_excavators"]= {
     ritual = "rhox_burlok_dwf_ritual_legendary_lord_burlok",
     cost_mod_effect = "rhox_burlok_dwf_ritual_confederation_burlok_cost_mod"
 }
-
-
 

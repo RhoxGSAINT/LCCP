@@ -22,7 +22,6 @@ hkrul_gargul_unique_03		wh_main_skill_dwf_all_unique_relentless		0	3		0	0	true
 hkrul_gargul_unique_04		wh_main_skill_dwf_all_unique_rune_of_grimnir		0	4		0	0	true
 hkrul_gargul_skill_node_unique_02		wh2_dlc17_skill_unique_thane_02		0	5		0	0	true
 hkrul_gargul_skill_node_unique_03		wh2_dlc17_skill_unique_thane_03		0	6		0	0	true
-hkrul_gargul_skill_node_mentor		wh3_main_skill_all_mentor_hero		0	12		0	0	true
 skill_node_hkrul_gargul_innate		innate_hkrul_gargul		6	0		1	0	false
 skill_node_hkrul_gargul_special_1_0		hkrul_gargul_special_1_0		1	0		0	0	true
 skill_node_hkrul_gargul_special_1_1		hkrul_gargul_special_1_1		1	1		0	0	true
