@@ -1,7 +1,5 @@
 key	text	tooltip
 #Loc;1;text/db/hkrul_slaurith_unit_abilities.loc		
-unit_abilities_onscreen_name_hkrul_arbaal_bloody_reward	Bloody Reward	false
-unit_abilities_tooltip_text_hkrul_arbaal_bloody_reward	Khorne looked upon slaurith's first slaughter from his Skull Throne and smiled, the Bloodfather sending down his dark blessings upon Abrax and claiming him as a new champion	false
 unit_abilities_onscreen_name_hkrul_arbaal_hound_fury	Hound's Fury	false
 unit_abilities_tooltip_text_hkrul_arbaal_hound_fury	The sagas record slaurith falling upon entire warbands with screams of hate and rage, exterminating the lesser warriors as easily as he did the villages that happened to lie in his path	false
 unit_abilities_onscreen_name_hkrul_arbaal_bloodrage	Bloodrage	false

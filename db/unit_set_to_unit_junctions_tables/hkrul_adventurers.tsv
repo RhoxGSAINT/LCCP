@@ -5,15 +5,12 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_thulgrim	mp_cap_group_heroes	false
 			hkrul_thulgrim	dwarf_all_units_exclude_slayers	false
 			hkrul_thulgrim	dwf_all_units_characters	false
-			hkrul_thulgrim	dwf_characters	false
 			hkrul_thulgrim	dwf_thane	false
 			hkrul_shaz	dwarf_all_units_exclude_slayers	false
 			hkrul_shaz	dwf_all_units_characters	false
-			hkrul_shaz	dwf_characters	false
 			hkrul_shaz	dwf_thane	false
 			hkrul_rhobb	dwarf_all_units_exclude_slayers	false
 			hkrul_rhobb	dwf_all_units_characters	false
-			hkrul_rhobb	dwf_characters	false
 			hkrul_rhobb	dwf_thane	false
 			wh_main_dwf_cha_master_engineer_0	hkrul_burlok_engineer	false
 			wh_dlc06_dwf_art_bolt_thrower_0	hkrul_dwarf_artillery	false
@@ -27,13 +24,10 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_wundal	mp_cap_group_heroes	false
 			hkrul_wundal	dwarf_all_units_exclude_slayers	false
 			hkrul_wundal	dwf_all_units_characters	false
-			hkrul_wundal	dwf_characters	false
 			hkrul_wundal	dwf_thane	false
 			hkrul_skargel	dwarf_all_units_exclude_slayers	false
 			hkrul_skargel	dwf_all_units_characters	false
-			hkrul_skargel	dwf_characters	false
 			hkrul_skargel	dwf_thane	false
 			hkrul_gargul	dwarf_all_units_exclude_slayers	false
 			hkrul_gargul	dwf_all_units_characters	false
-			hkrul_gargul	dwf_characters	false
 			hkrul_gargul	dwf_master_engineer	false

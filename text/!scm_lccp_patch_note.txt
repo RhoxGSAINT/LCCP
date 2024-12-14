@@ -1,3 +1,25 @@
+2024/NOV/07 SCM 
+- Dolmance now gains bonus from Exquisite Vineyard
+- Some typo fixes of Archaeon->Archaon
+
+
+2024/SEP/19 SCM 
+- Removed Abrax related model things
+- Added dump loc and removed unused loc entry
+
+2024/AUG/29 SCM
+- Changed the caravan overriding script to fit with the 5.2.2 patch
+
+2024/AUG/26 SCM
+- Fixed TOW spawn postion and added Lenk
+
+2024/AUG/22 SCM
+- Added Burlok's faction to dwarf_playable_factions faction_set. (It blocks confederation via diplomacy. As there is a Grudge ritual for that, it ain't needed)
+
+2024/AUG/21 SCM
+- Fixed the caravan script
+- Changed the cdir quality thing to meet with the new 5.2 standard
+
 2024/AUG/06 SCM
 - Immortality skill node has been changed to generic ones to fit with CA's 5.1.3 change
 - All of the Legendary heroes' upkeep is set to 0 to fit with CA's change

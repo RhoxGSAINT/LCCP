@@ -54,8 +54,6 @@ local rhox_tow_list={
         leader={
             subtype="hkrul_zach",
             unit_list="wh_main_vmp_inf_zombie,wh_main_vmp_inf_zombie,wh_main_vmp_inf_skeleton_warriors_1,wh_main_vmp_inf_skeleton_warriors_0,wh_main_vmp_inf_skeleton_warriors_0,wh_main_vmp_inf_grave_guard_0,wh_main_vmp_cav_black_knights_0,wh_dlc04_vmp_veh_mortis_engine_0,rhox_lccp_vmp_giant",
-            x=877,
-            y=1013,
             forename ="names_name_6670702834",
             familiyname ="names_name_6670702833",
         },
@@ -77,8 +75,6 @@ local rhox_tow_list={
         leader={
             subtype="hkrul_duriath",
             unit_list="wh2_main_def_inf_bleakswords_0,wh2_main_def_inf_darkshards_1,wh2_main_def_inf_black_ark_corsairs_1,wh2_main_def_inf_black_ark_corsairs_0,wh2_main_def_inf_black_ark_corsairs_0,wh2_main_def_inf_black_ark_corsairs_0",
-            x=693,
-            y=1060,
             forename ="names_name_1369138461",
             familiyname ="names_name_1369138462",
         },
@@ -95,6 +91,44 @@ local rhox_tow_list={
             cm:add_building_to_force(faction:faction_leader():military_force():command_queue_index(), "rhox_duriath_black_ark_special_1")
         end,
         first_tick = function(faction, faction_key) 
+        end
+    },
+    cr_nor_tokmars ={
+        leader={
+            subtype="hkrul_vroth",
+            unit_list="wh_main_nor_inf_chaos_marauders_0,wh_main_nor_inf_chaos_marauders_0,wh_dlc08_nor_feral_manticore,wh_dlc08_nor_inf_marauder_hunters_1,wh_dlc08_nor_inf_marauder_hunters_1,wh_main_nor_cav_chaos_chariot,wh_main_nor_inf_chaos_marauders_1,wh_main_nor_mon_chaos_warhounds_0",
+            forename ="names_name_5670700722",
+            familiyname ="names_name_5670700719",
+        },
+        agent={
+            type="wizard",
+            subtype="wh_dlc08_nor_shaman_sorcerer_metal"
+        },
+        hand_over_region=nil,
+        region="cr_oldworld_region_tokmars_camp",
+        how_they_play="rhox_iee_lccp_how_they_play_vroth",
+        pic=800,
+        faction_trait="rhox_vroth_faction_trait",
+        additional = function(faction, faction_key) 
+            for i, v in pairs(LenkBeastHunts.ai_units) do
+                cm:add_unit_to_faction_mercenary_pool(
+                    faction,
+                    v[1], -- key
+                    v[2], -- recruitment source
+                    0, -- count
+                    0, --replen chance
+                    v[5], -- max units
+                    0, -- max per turn
+                    "",
+                    "",
+                    "",
+                    false,
+                    v[6] -- merc unit group
+                )
+            end	
+        end,
+        first_tick = function(faction, faction_key) 
+            LenkBeastHunts:setup_lenk_listeners()
         end
     },
 }
@@ -116,6 +150,20 @@ cm:add_first_tick_callback_new(
                 cm:transfer_region_to_faction(faction_info.hand_over_region,faction_key)
                 local target_region_cqi = cm:get_region(faction_info.hand_over_region):cqi()
                 cm:heal_garrison(target_region_cqi)
+            end
+            
+            if not faction_info.region then
+                faction_info.region = faction:home_region():name()
+            end
+
+            if not faction_info.leader.x or not faction_info.leader.y then
+                faction_info.leader.x, faction_info.leader.y = cm:find_valid_spawn_location_for_character_from_settlement(
+                    faction_key,
+                    faction_info.region,
+                    false,
+                    true,
+                    5
+                )
             end
 
             cm:create_force_with_general(
