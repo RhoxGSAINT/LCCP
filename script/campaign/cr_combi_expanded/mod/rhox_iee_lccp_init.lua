@@ -442,6 +442,7 @@ local rhox_iee_list={
             for i, ror in pairs(norsca_ror_table) do
                 cm:add_unit_to_faction_mercenary_pool(faction,ror[1],"renown",1,100,1,0.1,"","","",true,ror[2])
             end
+            cm:add_unit_to_faction_mercenary_pool(faction,"wh3_dlc26_kho_inf_wrathmongers_ror", "renown", 1, 20, 1, 0.1, "", "", "", true,"wh3_dlc26_kho_inf_wrathmongers_ror")
             cm:add_event_restricted_unit_record_for_faction("wh_dlc08_nor_mon_war_mammoth_ror_1",faction_key, "norsca_monster_hunt_ror_unlock")
 		    cm:add_event_restricted_unit_record_for_faction("wh_dlc08_nor_mon_frost_wyrm_ror_0", faction_key, "norsca_monster_hunt_ror_unlock") 
             local rhox_valbrand_gift_units = {
@@ -468,6 +469,8 @@ local rhox_iee_list={
                     end,
                     5
                 )
+                
+                cm:trigger_mission(faction_key, "wh3_dlc26_kho_exiles_of_khorne_skarr_bloodwrath_unlock_1", true)--because the normal building completed listener doesn't work
             end
             
             cm:instantly_research_technology(faction_key, "wh3_dlc20_chs_und_shared_chariots", false)
@@ -549,8 +552,8 @@ local rhox_iee_list={
         leader={
             subtype="hkrul_zach",
             unit_list="wh_main_vmp_inf_zombie,wh_main_vmp_inf_zombie,wh_main_vmp_inf_skeleton_warriors_1,wh_main_vmp_inf_skeleton_warriors_0,wh_main_vmp_inf_skeleton_warriors_0,wh_main_vmp_inf_grave_guard_0,wh_main_vmp_cav_black_knights_0,wh_dlc04_vmp_veh_mortis_engine_0,rhox_lccp_vmp_giant",
-            x=1259,
-            y=313,
+            x=1264,
+            y=333,
             forename ="names_name_6670702834",
             familiyname ="names_name_6670702833",
         },
@@ -558,13 +561,13 @@ local rhox_iee_list={
             type="spy",
             subtype="wh_main_vmp_banshee"
         },
-        hand_over_region="cr_combi_region_khuresh_1_2",
-        region="cr_combi_region_khuresh_1_2",
+        hand_over_region="wh3_main_combi_region_gateway_to_khuresh",
+        region="wh3_main_combi_region_gateway_to_khuresh",
         how_they_play="rhox_iee_lccp_how_they_play_zach",
         pic=594,
         faction_trait="rhox_zach_faction_trait",
         enemy={
-            key="cr_grn_snakebiter_tribe",
+            key="wh3_dlc26_grn_cluster_eye_tribe",
             subtype="wh_main_grn_orc_warboss",
             unit_list="wh_main_grn_inf_orc_boyz,wh_main_grn_inf_orc_boyz,wh_main_grn_inf_orc_arrer_boyz,wh_main_grn_inf_orc_arrer_boyz,wh_main_grn_inf_orc_big_uns,wh_main_grn_cav_orc_boar_boyz"
         },
@@ -587,7 +590,7 @@ local rhox_iee_list={
             cm:add_unit_to_faction_mercenary_pool(faction, "wh2_dlc11_vmp_inf_handgunners", "renown", 0, 100, 1, 0, "", "", "", true, "wh2_dlc11_vmp_inf_handgunners")
             
             if faction:is_human() == false then
-                local target_region = cm:get_region("cr_combi_region_khuresh_1_2")
+                local target_region = cm:get_region("wh3_main_combi_region_gateway_to_khuresh")
                 cm:instantly_set_settlement_primary_slot_level(target_region:settlement(), 3)
                 local target_slot = target_region:slot_list():item_at(1)
                 cm:instantly_upgrade_building_in_region(target_slot, "wh_main_vmp_garrison_2")
@@ -599,7 +602,7 @@ local rhox_iee_list={
         first_tick = function(faction, faction_key) 
         end
     },
-    rhox_kho_destroyers_of_khorne ={
+    --[[rhox_kho_destroyers_of_khorne ={
         leader={
             subtype="hkrul_arbaal",
             unit_list="wh3_main_kho_inf_chaos_warriors_0,wh3_main_kho_inf_chaos_warriors_0,wh3_main_kho_inf_chaos_warriors_1,wh3_main_kho_inf_flesh_hounds_of_khorne_0,wh3_main_kho_inf_chaos_warhounds_0,wh3_main_kho_mon_spawn_of_khorne_0",
@@ -644,7 +647,7 @@ local rhox_iee_list={
         end,
         first_tick = function(faction, faction_key) 
         end
-    },
+    },--]]
     
     rhox_chs_the_deathswords ={
         leader={
@@ -983,6 +986,7 @@ cm:add_first_tick_callback_new(
                 "",
                 true,
                 function(cqi)
+                    cm:set_character_unique(cm:char_lookup_str(cqi),true)
                 end
             );
             cm:disable_event_feed_events(true, "wh_event_category_character", "", "")
@@ -1061,7 +1065,6 @@ cm:add_first_tick_callback_new(
 local turn2_incidents={
     rhox_nor_khazags="rhox_lccp_turn_two_incident_thorgar",
     rhox_chs_the_deathswords="rhox_lccp_turn_two_incident_engra",
-    rhox_kho_destroyers_of_khorne="rhox_lccp_turn_two_incident_arbaal",
     cr_def_corsairs_of_spite= "rhox_lccp_turn_two_incident_duriath",
 }
 

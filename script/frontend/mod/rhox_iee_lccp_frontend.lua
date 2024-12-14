@@ -58,10 +58,10 @@ core:add_ui_created_callback(
             mixer_add_faction_to_major_faction_list("rhox_nor_khazags")
 
             
-            mixer_change_lord_name("1174946007", "hkrul_arbaal_mounted") 
+            --[[mixer_change_lord_name("1174946007", "hkrul_arbaal_mounted") 
             mixer_enable_custom_faction("1174946007")
             mixer_add_starting_unit_list_for_faction("rhox_kho_destroyers_of_khorne", {"wh3_main_kho_inf_chaos_warriors_0","wh3_main_kho_inf_chaos_warriors_1","wh3_main_kho_inf_flesh_hounds_of_khorne_0","wh3_main_kho_inf_chaos_warhounds_0","wh3_main_kho_mon_spawn_of_khorne_0"})
-            mixer_add_faction_to_major_faction_list("rhox_kho_destroyers_of_khorne")
+            mixer_add_faction_to_major_faction_list("rhox_kho_destroyers_of_khorne")--]]
             
             
             mixer_change_lord_name("1316697836", "hkrul_engra") 

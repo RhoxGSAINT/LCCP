@@ -1,27 +1,27 @@
-key	maximum	minimum	ai_ignored	default_factor	optional_icon_path	income_policy	reset_before_income	scope	has_persistent_factors	sort_order	battle_conversion	appy_income_on_creation	always_display_zero_factors
-#pooled_resources_tables;1;db/pooled_resources_tables/rhox_iee_lccp													
-rhox_torinubar_east	10000	0	false	other	rhox_torinubar_east_resource.png	END_OF_ROUND	false	FACTION	false	0		false	true
-rhox_torinubar_west	10000	0	false	other	rhox_torinubar_west_resource.png	END_OF_ROUND	false	FACTION	false	0		false	true
-rhox_valbrand_slaves_spent_und	2147483647	0	false	wh2_main_resource_factor_other	icon_soul_hybrid_undivided.png	END_OF_ROUND	false	FACTION	false	1		false	true
-rhox_valbrand_slaves_spent_kho	2147483647	0	false	wh2_main_resource_factor_other	icon_soul_hybrid_khorne.png	END_OF_ROUND	false	FACTION	false	1		false	true
-rhox_volrik_book_spent_und	2147483647	0	false	wh2_main_resource_factor_other	icon_soul_hybrid_undivided.png	END_OF_ROUND	false	FACTION	false	1		false	true
-rhox_volrik_book_spent_tze	2147483647	0	false	wh2_main_resource_factor_other	icon_soul_hybrid_tzeentch.png	END_OF_ROUND	false	FACTION	false	1		false	true
-rhox_burlok_artifact_part_1a	5	0	false	other	hkrul_burlok_artifact_part_1a_large.png	END_OF_ROUND	false	FACTION	false	0		false	true
-rhox_burlok_artifact_part_1b	5	0	false	other	hkrul_burlok_artifact_part_1b_large.png	END_OF_ROUND	false	FACTION	false	0		false	true
-rhox_burlok_artifact_part_2a	5	0	false	other	hkrul_burlok_artifact_part_2a_large.png	END_OF_ROUND	false	FACTION	false	0		false	true
-rhox_burlok_artifact_part_2b	5	0	false	other	hkrul_burlok_artifact_part_2b_large.png	END_OF_ROUND	false	FACTION	false	0		false	true
-rhox_burlok_artifact_part_3a	5	0	false	other	hkrul_burlok_artifact_part_3a_large.png	END_OF_ROUND	false	FACTION	false	0		false	true
-rhox_burlok_artifact_part_3b	5	0	false	other	hkrul_burlok_artifact_part_3b_large.png	END_OF_ROUND	false	FACTION	false	0		false	true
-rhox_burlok_artifact_part_4a	5	0	false	other	hkrul_burlok_artifact_part_4a_large.png	END_OF_ROUND	false	FACTION	false	0		false	true
-rhox_burlok_artifact_part_4b	5	0	false	other	hkrul_burlok_artifact_part_4b_large.png	END_OF_ROUND	false	FACTION	false	0		false	true
-rhox_burlok_artifact_part_5a	5	0	false	other	hkrul_burlok_artifact_part_5a_large.png	END_OF_ROUND	false	FACTION	false	0		false	true
-rhox_burlok_artifact_part_5b	5	0	false	other	hkrul_burlok_artifact_part_5b_large.png	END_OF_ROUND	false	FACTION	false	0		false	true
-rhox_burlok_artifact_part_6a	5	0	false	other	hkrul_burlok_artifact_part_6a_large.png	END_OF_ROUND	false	FACTION	false	0		false	true
-rhox_burlok_artifact_part_6b	5	0	false	other	hkrul_burlok_artifact_part_6b_large.png	END_OF_ROUND	false	FACTION	false	0		false	true
-rhox_burlok_artifact_part_7a	5	0	false	other	hkrul_burlok_artifact_part_7a_large.png	END_OF_ROUND	false	FACTION	false	0		false	true
-rhox_burlok_artifact_part_7b	5	0	false	other	hkrul_burlok_artifact_part_7b_large.png	END_OF_ROUND	false	FACTION	false	0		false	true
-rhox_burlok_artifact_part_8a	5	0	false	other	hkrul_burlok_artifact_part_8a_large.png	END_OF_ROUND	false	FACTION	false	0		false	true
-rhox_burlok_artifact_part_8b	5	0	false	other	hkrul_burlok_artifact_part_8b_large.png	END_OF_ROUND	false	FACTION	false	0		false	true
-rhox_engra_campaign_progress	50000	0	false	wh2_main_resource_factor_other	icon_soul_hybrid_undivided.png	END_OF_ROUND	false	FACTION	true	1		false	true
-rhox_arbaal_resource	100	0	false	battles	icon_waaagh.png	END_OF_ROUND	false	FACTION	false	0		false	true
-rhox_engra_hidden_block_ai	10000	0	false	other	icon_waaagh.png	END_OF_ROUND	false	FACTION	false	0		false	true
+key	maximum	minimum	ai_ignored	default_factor	optional_icon_path	income_policy	reset_before_income	scope	has_persistent_factors	sort_order	battle_conversion	appy_income_on_creation	always_display_zero_factors	can_scale_effect_thresholds_per_unit
+#pooled_resources_tables;2;db/pooled_resources_tables/rhox_iee_lccp														
+rhox_torinubar_east	10000	0	false	other	rhox_torinubar_east_resource.png	END_OF_ROUND	false	FACTION	false	0		false	true	false
+rhox_torinubar_west	10000	0	false	other	rhox_torinubar_west_resource.png	END_OF_ROUND	false	FACTION	false	0		false	true	false
+rhox_valbrand_slaves_spent_und	2147483647	0	false	wh2_main_resource_factor_other	icon_soul_hybrid_undivided.png	END_OF_ROUND	false	FACTION	false	1		false	true	false
+rhox_valbrand_slaves_spent_kho	2147483647	0	false	wh2_main_resource_factor_other	icon_soul_hybrid_khorne.png	END_OF_ROUND	false	FACTION	false	1		false	true	false
+rhox_volrik_book_spent_und	2147483647	0	false	wh2_main_resource_factor_other	icon_soul_hybrid_undivided.png	END_OF_ROUND	false	FACTION	false	1		false	true	false
+rhox_volrik_book_spent_tze	2147483647	0	false	wh2_main_resource_factor_other	icon_soul_hybrid_tzeentch.png	END_OF_ROUND	false	FACTION	false	1		false	true	false
+rhox_burlok_artifact_part_1a	5	0	false	other	hkrul_burlok_artifact_part_1a_large.png	END_OF_ROUND	false	FACTION	false	0		false	true	false
+rhox_burlok_artifact_part_1b	5	0	false	other	hkrul_burlok_artifact_part_1b_large.png	END_OF_ROUND	false	FACTION	false	0		false	true	false
+rhox_burlok_artifact_part_2a	5	0	false	other	hkrul_burlok_artifact_part_2a_large.png	END_OF_ROUND	false	FACTION	false	0		false	true	false
+rhox_burlok_artifact_part_2b	5	0	false	other	hkrul_burlok_artifact_part_2b_large.png	END_OF_ROUND	false	FACTION	false	0		false	true	false
+rhox_burlok_artifact_part_3a	5	0	false	other	hkrul_burlok_artifact_part_3a_large.png	END_OF_ROUND	false	FACTION	false	0		false	true	false
+rhox_burlok_artifact_part_3b	5	0	false	other	hkrul_burlok_artifact_part_3b_large.png	END_OF_ROUND	false	FACTION	false	0		false	true	false
+rhox_burlok_artifact_part_4a	5	0	false	other	hkrul_burlok_artifact_part_4a_large.png	END_OF_ROUND	false	FACTION	false	0		false	true	false
+rhox_burlok_artifact_part_4b	5	0	false	other	hkrul_burlok_artifact_part_4b_large.png	END_OF_ROUND	false	FACTION	false	0		false	true	false
+rhox_burlok_artifact_part_5a	5	0	false	other	hkrul_burlok_artifact_part_5a_large.png	END_OF_ROUND	false	FACTION	false	0		false	true	false
+rhox_burlok_artifact_part_5b	5	0	false	other	hkrul_burlok_artifact_part_5b_large.png	END_OF_ROUND	false	FACTION	false	0		false	true	false
+rhox_burlok_artifact_part_6a	5	0	false	other	hkrul_burlok_artifact_part_6a_large.png	END_OF_ROUND	false	FACTION	false	0		false	true	false
+rhox_burlok_artifact_part_6b	5	0	false	other	hkrul_burlok_artifact_part_6b_large.png	END_OF_ROUND	false	FACTION	false	0		false	true	false
+rhox_burlok_artifact_part_7a	5	0	false	other	hkrul_burlok_artifact_part_7a_large.png	END_OF_ROUND	false	FACTION	false	0		false	true	false
+rhox_burlok_artifact_part_7b	5	0	false	other	hkrul_burlok_artifact_part_7b_large.png	END_OF_ROUND	false	FACTION	false	0		false	true	false
+rhox_burlok_artifact_part_8a	5	0	false	other	hkrul_burlok_artifact_part_8a_large.png	END_OF_ROUND	false	FACTION	false	0		false	true	false
+rhox_burlok_artifact_part_8b	5	0	false	other	hkrul_burlok_artifact_part_8b_large.png	END_OF_ROUND	false	FACTION	false	0		false	true	false
+rhox_engra_campaign_progress	50000	0	false	wh2_main_resource_factor_other	icon_soul_hybrid_undivided.png	END_OF_ROUND	false	FACTION	true	1		false	true	false
+rhox_arbaal_resource	100	0	false	battles	icon_waaagh.png	END_OF_ROUND	false	FACTION	false	0		false	true	false
+rhox_engra_hidden_block_ai	10000	0	false	other	icon_waaagh.png	END_OF_ROUND	false	FACTION	false	0		false	true	false

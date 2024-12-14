@@ -42,3 +42,4 @@ campaign_localised_strings_string_rhox_karitamen_tooltip_ruined	(ruined)	false
 event_feed_strings_text_wh2_dlc17_event_feed_string_burlok_artifact_found_title	Exotic Ingredients Secured!	false
 event_feed_strings_text_wh2_dlc17_event_feed_string_burlok_artifact_found_secondary_detail	Rare and Exotic ingredients have been secured — when combined correctly, they promise to yield astonishing experimental results.	false
 campaign_payload_ui_details_description_rhox_burlok_ritual_burlok_artifact_extra	Inspired by your milestone, Wundal the Wizard will join you	false
+ui_text_replacements_localised_text_scrap_panel_button_tooltip_rhox_torinubar	Unit Upgrades||Use commodities to increase your units’ battle capabilities.	false

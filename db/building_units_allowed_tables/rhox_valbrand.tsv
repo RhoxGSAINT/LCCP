@@ -58,3 +58,5 @@ key	building	unit	XP	conditions	faction	enabled
 1092995108	rhox_valbrand_nor_beasts_2	wh_dlc08_nor_mon_warwolves_0	0	0		true
 1092995109	rhox_valbrand_nor_smith_3	wh_dlc08_nor_veh_marauder_warwolves_chariot_0	0	0		true
 1092995110	rhox_valbrand_nor_chaos_2	wh_dlc08_nor_mon_war_mammoth_1	0	0		true
+1092995111	rhox_valbrand_nor_military_3	wh3_dlc26_kho_inf_skullreapers	0	0		true
+1092995112	rhox_valbrand_nor_military_3	wh3_dlc26_kho_inf_wrathmongers	0	0		true

@@ -1,3 +1,4 @@
+--[[
 cm:add_first_tick_callback(
     function()
         if cm:get_local_faction_name(true) == "rhox_kho_destroyers_of_khorne" then --ui things 
@@ -138,3 +139,4 @@ core:add_listener(
     end,
     true
 )
+--]]

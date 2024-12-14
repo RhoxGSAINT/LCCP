@@ -1,3 +1,5 @@
 alternate_unit	base_unit	type_category	type_icon	show_base_in_unit_list	id	colour	sort_order
 #units_custom_battle_types_tables;3;db/units_custom_battle_types_tables/rhox_iee_lccp							
 hkrul_thorgar_daemon_prince	hkrul_thorgar	type_mark	ui/skins/default/icon_wh_main_lore_undivided.png	false	2045845471	D35F12	0
+rhox_lccp_sceolan_wef_spellsinger_ice	wh_dlc05_wef_cha_spellsinger_beasts_0	type_spell_lore		false	2045845472	FFFFFF	90
+rhox_lccp_sceolan_wef_spellweaver_ice	wh2_dlc16_wef_cha_spellweaver_beasts_0	type_spell_lore		false	2045845473	FFFFFF	90

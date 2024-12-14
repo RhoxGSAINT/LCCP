@@ -214,6 +214,7 @@ core:add_listener(
 				cm:replenish_action_points(new_char_lookup, 100)
 				cm:add_agent_experience(new_char_lookup, old_char_details.rank, true)
 				cm:remove_event_restricted_building_record_for_faction("rhox_thorgar_dae_advanced_1",faction_key)
+				cm:set_character_unique(cm:char_lookup_str(cqi),true)
             end
         );
 	end,

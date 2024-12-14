@@ -1,3 +1,15 @@
+2024/DEC/15 SCM 
+- Sent Arbaal to the farm
+- Added access to new Khorne LHs to Engra, Valbrand, and Slaurith
+- Added wrath and skullreaper to Valbrand. Mostly due to LHs
+- Some CB change for the ice lore spellweaver, slinger
+- Some stance effect things
+- Added PH scrap upgrade thing UI for the Torinubar
+- Set characters unique in the script so that they get an LL bonus in Skulltaker's mechanism
+- changed Zach's position to new region as his former starting region has been removed
+
+- I haven't tested many of them, so there will be bugs, if there are, please report in Discord
+
 2024/NOV/07 SCM 
 - Dolmance now gains bonus from Exquisite Vineyard
 - Some typo fixes of Archaeon->Archaon
