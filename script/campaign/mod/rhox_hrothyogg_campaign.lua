@@ -8,7 +8,7 @@ table.insert(initiative_templates,
 			function(context)
 				local character = context:character();
 				
-				return character:won_battle() and cm:count_char_army_has_unit(character, {"wh3_main_ogr_inf_maneaters_0", "wh3_main_ogr_inf_maneaters_1", "wh3_main_ogr_inf_maneaters_2", "wh3_main_ogr_inf_maneaters_3", "wh3_twa06_ogr_inf_maneaters_ror_0"}) > 3;
+				return character:won_battle() and cm:count_char_army_has_unit(character, {"wh3_main_ogr_inf_maneaters_0", "wh3_main_ogr_inf_maneaters_1", "wh3_main_ogr_inf_maneaters_2", "wh3_main_ogr_inf_maneaters_3", "wh3_twa06_ogr_inf_maneaters_ror_0", "wh3_dlc26_ogr_inf_eshin_maneater_ror", "wh3_dlc26_ogr_inf_golgfags_maneaters"}) > 3;
 				
 				
 			end
@@ -236,7 +236,7 @@ core:add_listener(
 
 
 local function rhox_hrothyogg_trigger_incident(hrothyogg_character, hrothyogg_faction, character_list, candidate_faction)
-    out("Rhox Hrothyogg: Checking faction: ".. faction:name())
+    --out("Rhox Hrothyogg: Checking faction: ".. candidate_faction:name())
 	local target = nil
 	for i=0, character_list:num_items()-1 do
 		local candidate = character_list:item_at(i)
@@ -309,7 +309,81 @@ core:add_listener(--this is too expensive should I keep doing it
 )
 
 
+--------------------------------------------Mercenary contract
 
+if common.get_context_value("CcoOwnershipProductRecord", "TW_WH3_OMENS_OF_DESTRUCTION_OGR", "IsOwned") then
+    if merc_contracts then
+        merc_contracts.mercenary_factions["cr_ogr_deathtoll"]=true
+    end
+    cm:add_first_tick_callback(
+        function()
+            if cm:get_local_faction_name(true) == "cr_ogr_deathtoll" then --ui things 
+                local parent_ui = find_uicomponent(core:get_ui_root(), "hud_campaign", "faction_buttons_docker", "button_group_management");
+                local panel = core:get_or_create_component("rhox_hrothyogg_mercenary_contract", "ui/campaign ui/rhox_hrothyogg_mercenary_contract.twui.xml", parent_ui)
+                
+                core:add_listener(
+                    "rhox_hrotythyogg_panel_open_button_leftclick",
+                    "ComponentLClickUp",
+                    function (context)
+                        return context.string == "rhox_hrothyogg_mercenary_contract"
+                    end,
+                    function ()
+                        local existing_panel = find_uicomponent(core:get_ui_root(), "rhox_hrothyogg_mercenary_contract_panel");
+                        if existing_panel then
+                        existing_panel:Destroy() 
+                        else
+                            core:get_or_create_component("rhox_hrothyogg_mercenary_contract_panel", "ui/campaign ui/dlc26_ogre_war_contracts.twui.xml", core:get_ui_root())
+                        end
+                    end,
+                    true
+                )
+                core:add_listener(
+                    "rhox_hrotythyogg_panel_close_button_leftclick",
+                    "ComponentLClickUp",
+                    function (context)
+                        return context.string == "button_close"
+                    end,
+                    function ()
+                        local panel = find_uicomponent(core:get_ui_root(), "rhox_hrothyogg_mercenary_contract_panel")
+                        if panel then
+                            panel:Destroy()
+                        end
+                    end,
+                    true
+                )
+                core:add_listener(
+                    "rhox_hrotythyogg_MercContractAccepted",
+                    "WarContractAcceptedEvent",
+                    true,
+                    function(context)
+                        local panel = find_uicomponent(core:get_ui_root(), "rhox_hrothyogg_mercenary_contract_panel")
+                        if panel then
+                            panel:Destroy()
+                        end
+                    end,
+                    true
+                )
+                
+                core:add_listener(
+                    "rhox_hrotythyogg_MercContractSuccess",
+                    "WarContractSuccessEvent",
+                    true,
+                    function(context)
+                        local panel = find_uicomponent(core:get_ui_root(), "rhox_hrothyogg_mercenary_contract_panel")
+                        if panel then
+                            panel:Destroy()
+                        end
+                    end,
+                    true
+                )
+
+            end
+        end
+    );
+    
+    
+
+end
 
 --------------------------------------------------------------
 ----------------------- SAVING / LOADING ---------------------

@@ -196,8 +196,9 @@ core:add_listener(
 				
                 cm:disable_event_feed_events(true, "wh_event_category_character", "", "")
                 cm:suppress_immortality(character:family_member():command_queue_index() ,true)
-                --cm:set_character_immortality(cm:char_lookup_str(character_cqi), false);          
-                cm:kill_character(cm:char_lookup_str(character_cqi), true)
+                
+                --cm:kill_character(cm:char_lookup_str(character_cqi), true)
+                cm:callback(function() cm:kill_character_and_commanded_unit(cm:char_lookup_str(character_cqi), true) end, 0.1);
                 cm:callback(function() cm:disable_event_feed_events(false, "", "", "wh_event_category_character") end, 0.2);
 
                 local composite_scene = "wh3_campaign_chaos_upgrade_daemons"

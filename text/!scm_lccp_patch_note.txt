@@ -1,3 +1,38 @@
+2025/FEB/21 SCM
+- Moved Zach's starting position to Tarangnagar (Arbaal's previous starting position). this is due to his previous starting position becoming vanilla's. To keep the spirit of this mod, we're moving him to somewhere else
+- Removed Maggoth ride from Spew in the campaign as it is broken. (it is only removed from character_skill_node_set_items_tables so it won't break your saves). If you can fix the ride, please note how to do it in the Modding Den Discord's SCM channel
+
+2025/JAN/12 SCM
+- Gave all Norsca factions access to Scyla as vanilla playable factions gain access to them
+
+2025/JAN/9 SCM
+- Fixed the issue of Thorgar ascending causing CTD
+
+2025/JAN/8 SCM
+- Fixed the issue of rhox_hrothyogg_merc_active_contract_points group member missing faction criteria
+
+2025/JAN/5 SCM
+- fixed the issue of script break in Hrothyogg's toll script. Sorry
+
+2025/JAN/2 SCM
+- Added missing Karanak, Scyla, and Skarr to the Engra's campaign group
+
+2024/DEC/21 SCM
+- Added slaughterbrute and bloodbeast gift access to Valbrand (It's a vanilla gift)
+
+2024/DEC/20 SCM
+- Added missing "Rule of Chaos" skill (undivided authority skill) to Engra
+
+2024/DEC/18 SCM -2 
+- Added TOW support for the Hrothyogg and Orghott
+
+2024/DEC/18 SCM
+- Added mercenary contract to Hrothyogg (requires Golgfag DLC)
+
+2024/DEC/15 SCM -2
+- Fixed the issue of Hrothyogg unable to perform meat offering
+- Fixed the issue of Hrothyogg big name not counting Golgfag and Eshin maneater as maneaters
+
 2024/DEC/15 SCM 
 - Sent Arbaal to the farm
 - Added access to new Khorne LHs to Engra, Valbrand, and Slaurith

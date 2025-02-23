@@ -35,10 +35,9 @@ table.insert(character_unlocking.character_data["skarr"]["override_allowed_facti
 
 table.insert(character_unlocking.character_data["scyla"]["override_allowed_factions"], "cr_kho_servants_of_the_blood_nagas")
 table.insert(character_unlocking.character_data["scyla"]["override_allowed_factions"], "rhox_nor_firebrand_slavers")
-
-
-
-
+table.insert(character_unlocking.character_data["scyla"]["override_allowed_factions"], "cr_nor_tokmars")
+table.insert(character_unlocking.character_data["scyla"]["override_allowed_factions"], "rhox_nor_ravenblessed")
+table.insert(character_unlocking.character_data["scyla"]["override_allowed_factions"], "rhox_nor_khazags")
 
 ----------Engra
 table.insert(character_unlocking.character_data["aekold"]["override_allowed_factions"]["main_warhammer"], "rhox_chs_the_deathswords")

@@ -18,3 +18,6 @@ id	mission_key	payload_key	status_key	value	target_key
 200006572	rhox_spew_survival_mission	TREASURY	SUCCESS	AMOUNT[5000]	default
 200006573	rhox_spew_survival_mission	ADD_ANCILLARY	SUCCESS	RANDOM_ANCILLARY;TARGET_OWNING_FACTION	default
 200006574	rhox_iee_lccp_mis_ie_valbrand_karanak_unlock_01	TEXT_DISPLAY	SUCCESS	LOOKUP[dummy_mission_1_karanak]	default
+200006575	rhox_spew_tow_survival_mission	FACTION_POOLED_RESOURCE_TRANSACTION	SUCCESS	RESOURCE[wh3_main_nur_infections];FACTOR[wh3_main_nur_infections_factor_incubated_captives];AMOUNT[100];CONTEXT[absolute]	default
+200006576	rhox_spew_tow_survival_mission	TREASURY	SUCCESS	AMOUNT[5000]	default
+200006577	rhox_spew_tow_survival_mission	ADD_ANCILLARY	SUCCESS	RANDOM_ANCILLARY;TARGET_OWNING_FACTION	default

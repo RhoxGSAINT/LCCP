@@ -57,3 +57,6 @@ missions_localised_description_rhox_burlok_ritual_burlok_artifact_extra	A Dwarf 
 mission_text_text_rhox_burlok_ritual_burlok_artifact_extra	Complete 4 Experiments	false
 missions_localised_title_rhox_iee_lccp_mis_ie_valbrand_karanak_unlock_01	{{tr:missions_localised_title_wh3_pro12_mis_ie_kho_karanak_unlock_01}}	false
 missions_localised_description_rhox_iee_lccp_mis_ie_valbrand_karanak_unlock_01	{{tr:missions_localised_description_wh3_pro12_mis_ie_kho_karanak_unlock_01}}	false
+missions_localised_title_rhox_spew_tow_survival_mission	Decay's Discipline	false
+missions_localised_description_rhox_spew_tow_survival_mission	Orghotts Daemonspew, Nurgle's unwavering champion, commands a ceaseless purging in the Garden of Filth. Unworthy daemons and misguided followers disrupt the sacred cycle of decay. Stand with Orghotts in the Plague's Purge - delve into the pestilent realm, confront the impure, and restore Nurgle's garden to its true essence. Navigate treacherous terrain, for in this cleansing, the sanctity of decay shall be upheld.\\n\\n[[col:yellow]]Nurgle's Garden needs constant cleansing, Orghotts may face the wrathful spoils of decay repeteadly.[[/col]]	false
+missions_localised_mission_completed_text_rhox_spew_tow_survival_mission		false

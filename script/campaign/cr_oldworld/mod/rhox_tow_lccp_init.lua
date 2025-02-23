@@ -131,6 +131,53 @@ local rhox_tow_list={
             LenkBeastHunts:setup_lenk_listeners()
         end
     },
+    cr_ogr_deathtoll ={
+        leader={
+            subtype="hkrul_hrothyogg",
+            unit_list="wh3_main_ogr_inf_gnoblars_0,wh3_main_ogr_inf_gnoblars_0,wh3_main_ogr_inf_gnoblars_0,wh3_main_ogr_inf_gnoblars_0,wh3_main_ogr_inf_maneaters_0,wh3_main_ogr_inf_maneaters_1",
+            forename ="names_name_1369138460",
+            familiyname ="",
+        },
+        agent={
+            type="wizard",
+            subtype="wh3_main_ogr_butcher_great_maw"
+        },
+        hand_over_region=nil,
+        region="cr_oldworld_region_deathtoll_hold",
+        how_they_play="rhox_iee_lccp_how_they_play_hrothyogg",
+        pic=16,
+        faction_trait="rhox_hrothyogg_faction_trait",
+        enemy=nil,
+        additional = function(faction, faction_key) 
+        end,
+        first_tick = function(faction, faction_key) 
+        end
+    },
+    cr_nur_tide_of_pestilence ={
+        leader={
+            subtype="hkrul_orghotts",
+            unit_list="wh3_main_nur_inf_nurglings_0,wh3_main_nur_inf_nurglings_0,wh3_dlc20_chs_inf_chaos_marauders_mnur,wh3_dlc20_chs_inf_chaos_marauders_mnur,wh3_main_nur_cav_pox_riders_of_nurgle_0,wh3_main_nur_mon_plague_toads_0",
+            forename ="names_name_24444424",
+            familiyname ="names_name_24444423",
+        },
+        agent={
+            type="spy",
+            subtype="wh3_main_nur_plagueridden_nurgle"
+        },
+        hand_over_region=nil,
+        region="cr_oldworld_region_valley_of_locust",
+        how_they_play="rhox_iee_lccp_how_they_play_orghotts",
+        pic=12,
+        faction_trait="rhox_orghotts_faction_trait",
+        enemy=nil,
+        additional = function(faction, faction_key) 
+            if faction:is_human() then
+                cm:trigger_mission(faction_key, "rhox_spew_tow_survival_mission", true)
+            end
+        end,
+        first_tick = function(faction, faction_key) 
+        end
+    },
 }
 
 

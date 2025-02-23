@@ -254,6 +254,7 @@ local rhox_iee_list={
                 transferred_region = cm:get_region("cr_combi_region_wei_tu_encampment")
                 transferred_region_cqi = transferred_region:cqi()
                 cm:heal_garrison(transferred_region_cqi)
+                cm:trigger_mission(faction_key, "rhox_spew_survival_mission", true)
             end
         end,
         first_tick = function(faction, faction_key) 
@@ -452,7 +453,9 @@ local rhox_iee_list={
                     {"wh3_main_kho_mon_soul_grinder_0", "daemonic_summoning", 0, 0, 2},
                     {"wh3_main_kho_inf_flesh_hounds_of_khorne_0", "daemonic_summoning", 0, 0, 4},
                     {"wh_main_chs_art_hellcannon", "daemonic_summoning", 0, 0, 4},
-                    {"wh3_main_kho_veh_skullcannon_0", "daemonic_summoning", 0, 0, 4}
+                    {"wh3_main_kho_veh_skullcannon_0", "daemonic_summoning", 0, 0, 4},
+                    {"wh3_dlc26_kho_mon_bloodbeast_of_khorne", "daemonic_summoning", 0, 0, 2},
+                    {"wh3_dlc26_kho_mon_slaughterbrute", "daemonic_summoning", 0, 0, 2}
             }
             local rhox_valbrand_faction_units = {
                 ---unit_key, recruitment_source_key,  starting amount, replen chance, max in pool
@@ -552,8 +555,8 @@ local rhox_iee_list={
         leader={
             subtype="hkrul_zach",
             unit_list="wh_main_vmp_inf_zombie,wh_main_vmp_inf_zombie,wh_main_vmp_inf_skeleton_warriors_1,wh_main_vmp_inf_skeleton_warriors_0,wh_main_vmp_inf_skeleton_warriors_0,wh_main_vmp_inf_grave_guard_0,wh_main_vmp_cav_black_knights_0,wh_dlc04_vmp_veh_mortis_engine_0,rhox_lccp_vmp_giant",
-            x=1264,
-            y=333,
+            x=1061,
+            y=217,
             forename ="names_name_6670702834",
             familiyname ="names_name_6670702833",
         },
@@ -561,15 +564,15 @@ local rhox_iee_list={
             type="spy",
             subtype="wh_main_vmp_banshee"
         },
-        hand_over_region="wh3_main_combi_region_gateway_to_khuresh",
-        region="wh3_main_combi_region_gateway_to_khuresh",
+        hand_over_region="cr_combi_region_ind_6_2",
+        region="cr_combi_region_ind_6_2",
         how_they_play="rhox_iee_lccp_how_they_play_zach",
         pic=594,
         faction_trait="rhox_zach_faction_trait",
         enemy={
-            key="wh3_dlc26_grn_cluster_eye_tribe",
-            subtype="wh_main_grn_orc_warboss",
-            unit_list="wh_main_grn_inf_orc_boyz,wh_main_grn_inf_orc_boyz,wh_main_grn_inf_orc_arrer_boyz,wh_main_grn_inf_orc_arrer_boyz,wh_main_grn_inf_orc_big_uns,wh_main_grn_cav_orc_boar_boyz"
+            key="cr_chs_the_scourgeborn"
+            --[[subtype="wh_main_grn_orc_warboss",
+            unit_list="wh_main_grn_inf_orc_boyz,wh_main_grn_inf_orc_boyz,wh_main_grn_inf_orc_arrer_boyz,wh_main_grn_inf_orc_arrer_boyz,wh_main_grn_inf_orc_big_uns,wh_main_grn_cav_orc_boar_boyz"--]]
         },
         additional = function(faction, faction_key) 
             local vmp_ror ={
@@ -590,7 +593,7 @@ local rhox_iee_list={
             cm:add_unit_to_faction_mercenary_pool(faction, "wh2_dlc11_vmp_inf_handgunners", "renown", 0, 100, 1, 0, "", "", "", true, "wh2_dlc11_vmp_inf_handgunners")
             
             if faction:is_human() == false then
-                local target_region = cm:get_region("wh3_main_combi_region_gateway_to_khuresh")
+                local target_region = cm:get_region("cr_combi_region_ind_6_2")
                 cm:instantly_set_settlement_primary_slot_level(target_region:settlement(), 3)
                 local target_slot = target_region:slot_list():item_at(1)
                 cm:instantly_upgrade_building_in_region(target_slot, "wh_main_vmp_garrison_2")

@@ -98,3 +98,4 @@ effects_description_rhox_torinubar_effect_public_order_climate	HIDDEN: To negate
 effects_description_rhox_torinubar_effect_building_construction_cost_mod	HIDDEN: To negate the climate penalty	false
 effects_description_rhox_torinubar_effect_economy_gdp_mod_all	HIDDEN: To negate the climate penalty	false
 effects_description_rhox_torinubar_effect_force_all_campaign_replenishment_rate	HIDDEN: To negate the climate penalty	false
+effects_description_rhox_hrothyogg_contracts_dummy	Has access to Mercenary Contracts, allowing the Hrothyogg's faction to be hired as mercenaries by other factions	false

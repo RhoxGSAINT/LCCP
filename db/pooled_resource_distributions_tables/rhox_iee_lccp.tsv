@@ -1,0 +1,3 @@
+pooled_resource	faction	pooled_resource_distributed	entities_disabled_by_default
+#pooled_resource_distributions_tables;0;db/pooled_resource_distributions_tables/rhox_iee_lccp			
+wh3_dlc26_ogr_meat_hidden	cr_ogr_deathtoll	wh3_main_ogr_meat	false

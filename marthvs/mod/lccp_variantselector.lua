@@ -6,3 +6,8 @@ return {
 ["wh3_dlc20_chs_sorcerer_shadows_msla"] = {"rhox_dolmance_art_set_chs_sorcerer_shadows_msla_01","rhox_dolmance_art_set_chs_sorcerer_shadows_msla_02","rhox_dolmance_art_set_chs_sorcerer_shadows_msla_03","rhox_dolmance_art_set_chs_sorcerer_shadows_msla_04","rhox_dolmance_art_set_chs_sorcerer_shadows_msla_05"}
 };
 
+--["wh3_dlc26_kho_arbaal_the_undefeated"] = {"wh3_dlc26_art_set_kho_arbaal_the_undefeated","hkrul_arbaal"}
+
+
+
+
