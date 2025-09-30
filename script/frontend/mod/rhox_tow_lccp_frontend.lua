@@ -16,6 +16,15 @@ core:add_ui_created_callback(
             
             mixer_change_lord_name("2014822955", "hkrul_hrothyogg") 
             mixer_change_lord_name("981103236", "hkrul_spew") 
+            
+            mixer_change_lord_name("880031795", "hkrul_valbrand") 
+            mixer_enable_custom_faction("880031795")
+            
+            mixer_change_lord_name("1997150535", "hkrul_thorgar") 
+            mixer_enable_custom_faction("1997150535")
+            
+            mixer_change_lord_name("1846952719", "hkrul_slaurith") 
+            mixer_enable_custom_faction("1846952719")
         end        
     end
 )

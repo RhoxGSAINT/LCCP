@@ -83,6 +83,10 @@ core:add_ui_created_callback(
             mixer_enable_custom_faction("2066159894")
             mixer_add_starting_unit_list_for_faction("cr_def_corsairs_of_spite", {"wh2_main_def_inf_bleakswords_0","wh2_main_def_inf_darkshards_1", "wh2_main_def_inf_black_ark_corsairs_0", "wh2_main_def_inf_black_ark_corsairs_1"})
             mixer_add_faction_to_major_faction_list("cr_def_corsairs_of_spite")
+            
+            mixer_change_lord_name("1901497633", "hkrul_aelfric") 
+            mixer_add_starting_unit_list_for_faction("cr_chs_iron_wolves", {"wh_dlc01_chs_inf_chaos_warriors_2","wh_dlc01_chs_mon_dragon_ogre", "wh_main_chs_mon_chaos_warhounds_0", "wh_main_chs_mon_trolls", "wh_dlc08_nor_mon_warwolves_0"})
+            mixer_add_faction_to_major_faction_list("cr_chs_iron_wolves")
         end        
     end
 )

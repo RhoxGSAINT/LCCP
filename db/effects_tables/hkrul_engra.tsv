@@ -1,6 +1,5 @@
 effect	icon	priority	icon_negative	category	is_positive_value_good
 #effects_tables;0;db/effects_tables/hkrul_engra					
-hkrul_enable_immortality		0		campaign	true
 hkrul_engra_helm	item_ability.png	300	item_ability.png	battle	true
 hkrul_engra_sword	item_ability.png	300	item_ability.png	battle	true
 hkrul_engra_pal	item_ability.png	300	item_ability.png	battle	true

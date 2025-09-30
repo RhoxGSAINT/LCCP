@@ -36,5 +36,5 @@ cr_def_corsairs_of_spite	true	hkrul_duriath	true	true	ui/portraits/portholes/no_
 cr_def_corsairs_of_spite	true	hkrul_duriath_horse	true	true	ui/portraits/portholes/no_culture/hkrul_duriath.png	hkrul_duriath	hkrul_duriath	false		false
 cr_def_corsairs_of_spite	true	hkrul_duriath_dragon	true	true	ui/portraits/portholes/no_culture/hkrul_duriath.png	hkrul_duriath	hkrul_duriath	false		false
 cr_def_corsairs_of_spite	true	hkrul_duriath_pegasus	true	true	ui/portraits/portholes/no_culture/hkrul_duriath.png	hkrul_duriath	hkrul_duriath	false		false
-wh_main_chs_chaos	true	hkrul_aelfric	true	true	ui/portraits/portholes/no_culture/hkrul_aelfric.png	hkrul_aelfric	hkrul_aelfric	true		false
-wh_main_chs_chaos	true	hkrul_aelfric_horse	true	true	ui/portraits/portholes/no_culture/hkrul_aelfric.png	hkrul_aelfric	hkrul_aelfric	true		false
+cr_chs_iron_wolves	true	hkrul_aelfric	true	true	ui/portraits/portholes/no_culture/hkrul_aelfric.png	hkrul_aelfric	hkrul_aelfric	true		false
+cr_chs_iron_wolves	true	hkrul_aelfric_horse	true	true	ui/portraits/portholes/no_culture/hkrul_aelfric.png	hkrul_aelfric	hkrul_aelfric	true		false

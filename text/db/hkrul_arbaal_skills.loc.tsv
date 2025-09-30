@@ -29,3 +29,4 @@ effects_description_hkrul_arbaal_hound_flanker	Attribute: Devastating Flanker fo
 effects_description_hkrul_arbaal_smite	Ability: "Smite of Destruction"	false
 unit_abilities_onscreen_name_hkrul_arbaal_smite	Smite of Destruction	false
 unit_abilities_tooltip_text_hkrul_arbaal_smite	Arbaal unleashes immense power as his axe hits it's mark, as the fury of Khorne pierces all in it's way.	false
+effects_description_rhox_aelfric_effect_force_stat_charge_bonus_marauder	Charge bonus: %+n for Marauders units	false

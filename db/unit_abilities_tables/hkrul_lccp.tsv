@@ -13,3 +13,4 @@ hkrul_slaurith_blood	true	hkrul_slaurith_army		wh_type_augment		wh_main_anc_grou
 hkrul_burlok_hammer	true	hkrul_burlok_hammer		wh_type_explosion		wh_main_anc_group_rare	true	false	active		false
 hkrul_burlok_arm	true	hkrul_burlok_arm		wh_type_augment		wh_main_anc_group_rare	true	false	active		false
 hkrul_kita_bombard	true	hkrul_kita_rain		wh_type_bombardment		wh_main_anc_group_unique	true	false	bound		false
+hkrul_sceolan_blast	true	hkrul_sceolan_frost		wh_type_explosion		wh_main_anc_group_rare	true	false	active		false

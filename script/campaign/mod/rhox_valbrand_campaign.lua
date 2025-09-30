@@ -69,8 +69,30 @@ local rhox_norsca_region_to_tech= {
     wh3_main_combi_region_zharr_naggrund = "wh3_main_ie_tech_nor_darklands_chaos_dwarfs_capital",
     wh3_main_combi_region_kislev = "wh3_main_ie_tech_nor_oldworld_kislev_capital",
     wh3_main_chaos_region_kislev = "wh3_main_ie_tech_nor_oldworld_kislev_capital",
-    wh3_main_combi_region_wei_jin =  "wh3_main_ie_tech_nor_darklands_cathay_capital"
+    wh3_main_combi_region_wei_jin =  "wh3_main_ie_tech_nor_darklands_cathay_capital",
+    --TOW regions
+    
+    cr_oldworld_region_nagronath =  "wh_dlc08_tech_nor_nw_03",
+    cr_oldworld_region_elftown =   "wh_dlc08_tech_nor_nw_05",
+    cr_oldworld_region_konquata =   "wh_dlc08_tech_nor_nw_07",
+    cr_oldworld_region_skavenblight =  "wh_dlc08_tech_nor_nw_09",
+    cr_oldworld_region_khemri = "wh_dlc08_tech_nor_nw_11",
+    cr_oldworld_region_sartosa = "wh_dlc08_tech_nor_nw_21",
+    cr_oldworld_region_couronne =  "wh_dlc08_tech_nor_other_08",
+    cr_oldworld_region_miragliano = "wh_dlc08_tech_nor_other_10",
+    cr_oldworld_region_karaz_a_karak =  "wh_dlc08_tech_nor_other_12",
+    cr_oldworld_region_altdorf = "wh_dlc08_tech_nor_other_15",
+    cr_oldworld_region_castle_drakenhof =  "wh_dlc08_tech_nor_other_17",
+    cr_oldworld_region_black_crag =  "wh_dlc08_tech_nor_other_19",
+    cr_oldworld_region_giants_rocks = "wh3_main_ie_tech_nor_darklands_ogre_kingdoms_capital",
+    cr_oldworld_region_the_oak_of_ages = "wh_dlc08_tech_nor_other_21",
+    cr_oldworld_region_zharr_naggrund = "wh3_main_ie_tech_nor_darklands_chaos_dwarfs_capital",
+    cr_oldworld_region_kislev = "wh3_main_ie_tech_nor_oldworld_kislev_capital",
+    cr_oldworld_region_spice_market =  "wh3_main_ie_tech_nor_darklands_cathay_capital",
+    
 }
+
+
 
 
 

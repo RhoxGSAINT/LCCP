@@ -1,3 +1,80 @@
+2025/SEP/29 SCM-2
+- Now Ironwolf starts with one region when human, and his starting position has been adjusted so that he uses less space
+- Now Duriath doesn't give away land that isn't his to initial enemy when Duriath is human
+- Now Orghots doesn't give away land that isn't his to initial enemy when Orghots is human
+
+2025/SEP/29 SCM
+- Fixed the issue of Burlok giving away his last settlement Nandakshi to the initial enemy
+
+2025/SEP/25 SCM-3
+- Fixed the issue of Slaurith's initial enemy spawnined in a faw away northern steppe
+
+2025/SEP/25 SCM-2
+- Now the Lenk doesn't give off bloodrift settlement to the Nag Rippers when the Lenk is human (Forgot to change it during the last last IEE update)
+
+2025/SEP/25 SCM
+- Changed below things to meet the changes of IEE
+-- Torinubar trade route
+-- Torinubar's starting point
+-- tor Larha colony now Nullifies all province rather than a single region since Tor Larha is a favoured climate of the High Elves
+-- Slaurith's starting point and initial enemy
+
+2025/SEP/23 SCM
+- Removed wh_dlc08_skill_node_set_nor_marauder_chieftan_innate_01 from Valbrand since CA also removed it from the hotfix.
+
+2025/SEP/17 SCM
+- Changed the province mercenary dog adding script to have WoC subculture, instead of faction requirement.
+- This is due to province can only have one main unit mecenary via script rule, hence Aelfric and Engra can't have access to those together if faction restriction is set
+- AI WoC might be able to recruit more dogs, but I think the damage is minimal even if that's the case
+
+2025/SEP/12 SCM
+- Fixed the issue of me confusing Duriath and Aelfric's name in the files
+
+2025/SEP/11 SCM
+- Added Aelfric as a playable. All the flavor text, and the faction mechanic is PH, and can be changed in the future
+
+2025/SEP/7 SCM
+- Changed starting region, coordinate, and some of the starting enemy as some of LCCP's factions' starting position have been changed.
+ - Burlok
+ - Dolmance
+ - Orghotts
+ - Thorgar
+ - Volrik
+ - Engra
+ - Surtha Lenk
+ - Duriath
+ 
+2025/SEP/2 SCM
+- Now Tor Larha colony uses proper effect from vanilla to nullify the climate effect
+
+2025/AUG/29 SCM-2
+- Fixed the issue of Spew not able to access the mission place
+
+2025/AUG/29 SCM
+- Adjusted the region codes and coordinates to meet the IEE change
+And friendly reminder that bug report has to be done in the Discord. The one who does patch doesn't look at the LCCP Steam comments section
+
+2025/Jun/17 SCM
+- Excluded Valbrand's faction from NotFavouredCorruptionKhorne so that it ignores Khorne book
+- Fixed the issue of Torinubar not appearing in the faction selection window
+
+2025/APR/03 SCM 
+- Added Slaurith, Valbarnad, and Thorgar to TOW (Haven't added knight catching thing for Slaurith)
+- Removed old Arbbal from this mod from Changeling candidate as this mod doesn't add him to campaign anymore
+
+2025/Mar/30 SCM 
+- fixed the issue of AI Zacharias breaking port slot
+
+2025/Mar/27 SCM 
+- Some tables' schema was updated. I haven't tested anything besides that so please report bugs you see in the Modding Den Discord
+
+2025/FEB/25 Partypus
+- Empty update for the thumbnail update
+
+2025/FEB/23 Phyrex (+GreenPhoenix & DeadBaron)
+- Fixed the Spew's mount and readded the mount skill
+
+
 2025/FEB/21 SCM
 - Moved Zach's starting position to Tarangnagar (Arbaal's previous starting position). this is due to his previous starting position becoming vanilla's. To keep the spirit of this mod, we're moving him to somewhere else
 - Removed Maggoth ride from Spew in the campaign as it is broken. (it is only removed from character_skill_node_set_items_tables so it won't break your saves). If you can fix the ride, please note how to do it in the Modding Den Discord's SCM channel

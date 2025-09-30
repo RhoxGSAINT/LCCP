@@ -1,0 +1,3 @@
+key	campaign_key	faction_key	indent	technology_key	technology_node_set	tier	research_points_required	cost_per_round	food_cost	optional_ui_group	resource_cost	required_parents	pixel_offset_x	pixel_offset_y
+#technology_nodes_tables;0;db/technology_nodes_tables/rhox_aelfric														
+rhox_aelfric_tze_final		cr_chs_iron_wolves	1	wh3_dlc20_chs_tze_vilitch_heroes_lords	chs_mil	13	800	0	0			3	0	0

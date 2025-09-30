@@ -63,13 +63,13 @@ local rhox_iee_list={
         leader={
             subtype="hkrul_burlok",
             unit_list="wh_main_dwf_inf_dwarf_warrior_0,wh_main_dwf_inf_dwarf_warrior_0,wh_main_dwf_inf_thunderers_0,wh_main_dwf_inf_dwarf_warrior_1,wh_main_dwf_inf_longbeards,wh_main_dwf_art_cannon",
-            x=1187,
-            y=321,
+            x=1180,
+            y=351,
             forename ="names_name_1369138454",
             familiyname ="names_name_1369138455",
         },
         hand_over_region=nil,
-        region="cr_combi_region_ind_4_1",
+        region="cr_combi_region_nandakshi",
         how_they_play="rhox_iee_lccp_how_they_play_burlok",
         pic=592,
         faction_trait="rhox_burlok_faction_trait",
@@ -101,14 +101,8 @@ local rhox_iee_list={
                 mm:add_payload("text_display rhox_burlok_ritual_burlok_artifact_extra");
                 mm:trigger()
                 
-                
-                cm:transfer_region_to_faction("cr_combi_region_ind_2_2","cr_ogr_deathtoll")
-                local transferred_region = cm:get_region("cr_combi_region_ind_2_2")
-                local transferred_region_cqi = transferred_region:cqi()
-                cm:heal_garrison(transferred_region_cqi)
-                
-                cm:transfer_region_to_faction("cr_combi_region_ind_2_3","cr_ogr_deathtoll")
-                transferred_region = cm:get_region("cr_combi_region_ind_2_3")
+                cm:transfer_region_to_faction("cr_combi_region_shantivara","cr_ogr_deathtoll")
+                transferred_region = cm:get_region("cr_combi_region_shantivara")
                 transferred_region_cqi = transferred_region:cqi()
                 cm:heal_garrison(transferred_region_cqi)
             end
@@ -125,8 +119,8 @@ local rhox_iee_list={
         leader={
             subtype="hkrul_dolmance",
             unit_list="wh_dlc07_brt_inf_spearmen_at_arms_1,wh3_dlc20_chs_inf_chaos_marauders_msla,wh3_dlc20_chs_inf_chaos_marauders_msla,wh_main_brt_art_field_trebuchet,wh_main_brt_cav_mounted_yeomen_1,wh_main_brt_cav_mounted_yeomen_0,wh_main_brt_cav_knights_of_the_realm,wh_main_brt_cav_mounted_yeomen_1",
-            x=1121,
-            y=283,
+            x=1062,
+            y=251,
             forename ="names_name_2670700824",
             familiyname ="names_name_2670700823",
         },
@@ -134,17 +128,17 @@ local rhox_iee_list={
             type="wizard",
             subtype="wh3_dlc20_chs_sorcerer_slaanesh_msla"
         },
-        hand_over_region="cr_combi_region_ind_5_2",
-        region="cr_combi_region_ind_5_2",
+        hand_over_region="cr_combi_region_suryapuri",
+        region="cr_combi_region_suryapuri",
         how_they_play="rhox_iee_lccp_how_they_play_dolmance",
         pic=751,
         faction_trait="rhox_dolmance_faction_trait",
         enemy={
-            key="cr_emp_guests_of_the_raja",
-            subtype="wh2_dlc13_emp_cha_huntsmarshal",
-            unit_list="wh2_dlc13_emp_inf_huntsmen_0,wh2_dlc13_emp_inf_huntsmen_0,wh_main_emp_inf_greatswords,wh_main_emp_inf_halberdiers,wh_main_emp_inf_halberdiers",
-            x=1127,
-            y=280,
+            key="cr_lzd_one_hundred_thousand",
+            subtype="wh2_dlc12_lzd_red_crested_skink_chief",
+            unit_list="wh2_main_lzd_inf_skink_cohort_0,wh2_main_lzd_inf_skink_cohort_0,wh2_main_lzd_inf_skink_cohort_1,wh2_main_lzd_cav_cold_ones_1",
+            x=1070,
+            y=253,
         },
 
         additional = function(faction, faction_key) 
@@ -176,7 +170,7 @@ local rhox_iee_list={
             end
             
             --cm:add_unit_to_faction_mercenary_pool(faction,"wh_pro04_brt_inf_battle_pilgrims_ror_0", "renown",0,0,0,0,"","","",false,"wh_pro04_brt_inf_battle_pilgrims_ror_0");--removing the unit, let's not do this
-            local target_region = cm:get_region("cr_combi_region_ind_5_2")
+            local target_region = cm:get_region("cr_combi_region_suryapuri")
             cm:instantly_set_settlement_primary_slot_level(target_region:settlement(), 2)
             local target_slot = target_region:slot_list():item_at(2)
             cm:instantly_upgrade_building_in_region(target_slot, "wh_main_brt_barracks_1")
@@ -202,15 +196,15 @@ local rhox_iee_list={
             subtype="wh3_main_ogr_butcher_great_maw"
         },
         hand_over_region=nil,
-        region="cr_combi_region_ind_1_2",
+        region="cr_combi_region_himaranya",
         how_they_play="rhox_iee_lccp_how_they_play_hrothyogg",
         pic=16,
         faction_trait="rhox_hrothyogg_faction_trait",
         enemy=nil,
         additional = function(faction, faction_key) 
             if faction:is_human() and vfs.exists("script/frontend/mod/hkrul_fooger_frontend.lua") then --fooger exists
-                cm:transfer_region_to_faction("cr_combi_region_ind_2_1","ovn_mar_house_fooger")
-                local transferred_region = cm:get_region("cr_combi_region_ind_2_1")
+                cm:transfer_region_to_faction("cr_combi_region_caves_of_fire","ovn_mar_house_fooger")
+                local transferred_region = cm:get_region("cr_combi_region_caves_of_fire")
                 local transferred_region_cqi = transferred_region:cqi()
                 cm:heal_garrison(transferred_region_cqi)
             end
@@ -222,8 +216,8 @@ local rhox_iee_list={
         leader={
             subtype="hkrul_orghotts",
             unit_list="wh3_main_nur_inf_nurglings_0,wh3_main_nur_inf_nurglings_0,wh3_dlc20_chs_inf_chaos_marauders_mnur,wh3_dlc20_chs_inf_chaos_marauders_mnur,wh3_main_nur_cav_pox_riders_of_nurgle_0,wh3_main_nur_mon_plague_toads_0",
-            x=1536,
-            y=775,
+            x=244,
+            y=938,
             forename ="names_name_24444424",
             familiyname ="names_name_24444423",
         },
@@ -232,28 +226,19 @@ local rhox_iee_list={
             subtype="wh3_main_nur_plagueridden_nurgle"
         },
         hand_over_region=nil,
-        region="cr_combi_region_seagrave_port",
+        region="cr_combi_region_chi_an_encampment",
         how_they_play="rhox_iee_lccp_how_they_play_orghotts",
         pic=12,
         faction_trait="rhox_orghotts_faction_trait",
         enemy={
-            key="wh3_dlc20_nor_kuj",
+            key="wh2_main_nor_aghol",
             subtype="wh_main_nor_marauder_chieftain",
             unit_list="wh_main_nor_inf_chaos_marauders_0,wh_main_nor_inf_chaos_marauders_0,wh_main_nor_inf_chaos_marauders_1,wh_dlc08_nor_inf_marauder_spearman_0,wh_dlc08_nor_inf_marauder_hunters_1",
-            x= 1535,
-            y=787
+            x= 249,
+            y=940
         },
         additional = function(faction, faction_key) 
             if faction:is_human() then
-                cm:transfer_region_to_faction("cr_combi_region_man_churia","wh3_dlc20_nor_kuj")
-                local transferred_region = cm:get_region("cr_combi_region_man_churia")
-                local transferred_region_cqi = transferred_region:cqi()
-                cm:heal_garrison(transferred_region_cqi)
-                
-                cm:transfer_region_to_faction("cr_combi_region_wei_tu_encampment","wh3_dlc20_nor_kuj")
-                transferred_region = cm:get_region("cr_combi_region_wei_tu_encampment")
-                transferred_region_cqi = transferred_region:cqi()
-                cm:heal_garrison(transferred_region_cqi)
                 cm:trigger_mission(faction_key, "rhox_spew_survival_mission", true)
             end
         end,
@@ -312,8 +297,8 @@ local rhox_iee_list={
         leader={
             subtype="hkrul_slaurith",
             unit_list="wh3_main_kho_inf_bloodletters_0,wh3_main_kho_inf_chaos_warriors_1,wh3_main_kho_inf_bloodletters_0,wh3_main_kho_inf_chaos_warriors_1,wh3_main_kho_cav_skullcrushers_0",
-            x=1250,
-            y=183,
+            x=1267,
+            y=181,
             forename ="names_name_466124000",
             familiyname ="",
         },
@@ -322,18 +307,18 @@ local rhox_iee_list={
             subtype="wh3_main_kho_bloodreaper"
         },
         hand_over_region=nil,
-        region="cr_combi_region_khuresh_4_3",
+        region="cr_combi_region_soglap",
         how_they_play="rhox_iee_lccp_how_they_play_slaurith",
         pic=11,
         faction_trait="rhox_slaurith_faction_trait",
-        enemy=nil,
+        enemy={
+            key="cr_nor_stormravens",
+            subtype="wh_main_nor_marauder_chieftain",
+            unit_list="wh_main_nor_inf_chaos_marauders_0,wh_main_nor_inf_chaos_marauders_0,wh_main_nor_inf_chaos_marauders_1,wh_dlc08_nor_inf_marauder_spearman_0,wh_dlc08_nor_inf_marauder_hunters_1",
+            x=1267,
+            y=184
+        },
         additional = function(faction, faction_key) 
-            if faction:is_human() and vfs.exists("script/frontend/mod/hkrul_dauphine_frontend.lua") then --Dauphine exists
-                cm:transfer_region_to_faction("cr_combi_region_isles_of_the_monkey_king","ovn_mar_cult_of_manann")--Might need to change after adding some pirate faction here
-                local transferred_region = cm:get_region("cr_combi_region_isles_of_the_monkey_king")
-                local transferred_region_cqi = transferred_region:cqi()
-                cm:heal_garrison(transferred_region_cqi)
-            end
         end,
         first_tick = function(faction, faction_key) 
         end
@@ -342,8 +327,8 @@ local rhox_iee_list={
         leader={
             subtype="hkrul_thorgar",
             unit_list="wh_dlc08_nor_inf_marauder_spearman_0,wh_main_nor_mon_chaos_warhounds_0,wh_main_nor_inf_chaos_marauders_0,wh_main_nor_inf_chaos_marauders_0,wh_dlc08_nor_mon_skinwolves_0,wh_main_nor_cav_marauder_horsemen_0,wh_dlc08_nor_inf_marauder_hunters_1,wh_dlc08_nor_mon_war_mammoth_0,",
-            x=1273,
-            y=750,
+            x=1232,
+            y=744,
             forename ="names_name_5670700836",
             familiyname ="names_name_5670700835",
         },
@@ -360,8 +345,8 @@ local rhox_iee_list={
             key="cr_grn_nag_rippers",
             subtype="wh_main_grn_goblin_great_shaman",
             unit_list="wh_dlc06_grn_inf_nasty_skulkers_0,wh_dlc06_grn_inf_nasty_skulkers_0,wh_main_grn_inf_night_goblin_fanatics,wh2_dlc15_grn_mon_river_trolls_0,wh_dlc06_grn_cav_squig_hoppers_0",
-            x=1277,
-            y=758
+            x=1236,
+            y=743
         },
         additional = function(faction, faction_key)
             for i, ror in pairs(norsca_ror_table) do
@@ -392,8 +377,8 @@ local rhox_iee_list={
         leader={
             subtype="hef_calith_torinubar",
             unit_list="wh2_main_hef_inf_lothern_sea_guard_1,wh2_main_hef_inf_lothern_sea_guard_1,wh2_main_hef_inf_lothern_sea_guard_1,wh2_main_hef_inf_lothern_sea_guard_1,wh2_main_hef_inf_archers_0,wh2_main_hef_inf_archers_0,wh2_main_hef_cav_ellyrian_reavers_1,wh2_main_hef_cav_ellyrian_reavers_1,wh2_main_hef_art_eagle_claw_bolt_thrower,hef_calith_gatekeepers",
-            x=1297,
-            y=68,
+            x=1292,
+            y=70,
             forename ="names_name_9987364589",
             familiyname ="",
         },
@@ -488,8 +473,8 @@ local rhox_iee_list={
         leader={
             subtype="hkrul_volrik",
             unit_list="wh_dlc08_nor_inf_marauder_spearman_0,wh_dlc08_nor_inf_marauder_hunters_1,wh3_dlc24_tze_mon_cockatrice,wh3_dlc20_chs_cav_marauder_horsemen_mtze_javelins,wh3_dlc20_chs_cav_marauder_horsemen_mtze_javelins,wh_main_nor_inf_chaos_marauders_0,wh_main_nor_inf_chaos_marauders_0,wh3_dlc20_chs_cav_chaos_chariot_mtze",
-            x=1416,
-            y=765,
+            x=1327,
+            y=797,
             forename ="names_name_4170700722",
             familiyname ="names_name_4170700720",
         },
@@ -506,8 +491,8 @@ local rhox_iee_list={
             key="cr_nor_avags",
             subtype="wh_main_nor_marauder_chieftain",
             unit_list="wh_dlc08_nor_inf_marauder_spearman_0,wh_dlc08_nor_inf_marauder_hunters_1",
-            x=1402,
-            y=766,
+            x=1329,
+            y=799,
         },
         additional = function(faction, faction_key)
             
@@ -555,8 +540,8 @@ local rhox_iee_list={
         leader={
             subtype="hkrul_zach",
             unit_list="wh_main_vmp_inf_zombie,wh_main_vmp_inf_zombie,wh_main_vmp_inf_skeleton_warriors_1,wh_main_vmp_inf_skeleton_warriors_0,wh_main_vmp_inf_skeleton_warriors_0,wh_main_vmp_inf_grave_guard_0,wh_main_vmp_cav_black_knights_0,wh_dlc04_vmp_veh_mortis_engine_0,rhox_lccp_vmp_giant",
-            x=1061,
-            y=217,
+            x=1046,
+            y=202,
             forename ="names_name_6670702834",
             familiyname ="names_name_6670702833",
         },
@@ -564,8 +549,8 @@ local rhox_iee_list={
             type="spy",
             subtype="wh_main_vmp_banshee"
         },
-        hand_over_region="cr_combi_region_ind_6_2",
-        region="cr_combi_region_ind_6_2",
+        hand_over_region="cr_combi_region_tarangnagar",
+        region="cr_combi_region_tarangnagar",
         how_they_play="rhox_iee_lccp_how_they_play_zach",
         pic=594,
         faction_trait="rhox_zach_faction_trait",
@@ -593,9 +578,9 @@ local rhox_iee_list={
             cm:add_unit_to_faction_mercenary_pool(faction, "wh2_dlc11_vmp_inf_handgunners", "renown", 0, 100, 1, 0, "", "", "", true, "wh2_dlc11_vmp_inf_handgunners")
             
             if faction:is_human() == false then
-                local target_region = cm:get_region("cr_combi_region_ind_6_2")
+                local target_region = cm:get_region("cr_combi_region_tarangnagar")
                 cm:instantly_set_settlement_primary_slot_level(target_region:settlement(), 3)
-                local target_slot = target_region:slot_list():item_at(1)
+                local target_slot = target_region:slot_list():item_at(2)
                 cm:instantly_upgrade_building_in_region(target_slot, "wh_main_vmp_garrison_2")
                 cm:heal_garrison(target_region:cqi())
             end
@@ -618,8 +603,8 @@ local rhox_iee_list={
             type="dignitary",
             subtype="wh3_main_kho_bloodreaper"
         },
-        hand_over_region="cr_combi_region_ind_6_2",
-        region="cr_combi_region_ind_6_2",
+        hand_over_region="cr_combi_region_tarangnagar",
+        region="cr_combi_region_tarangnagar",
         how_they_play="rhox_iee_lccp_how_they_play_arbaal",
         pic=11,
         faction_trait="rhox_arbaal_faction_trait",
@@ -640,7 +625,7 @@ local rhox_iee_list={
             end
             
             if faction:is_human() == false then
-                local target_region = cm:get_region("cr_combi_region_ind_6_2")
+                local target_region = cm:get_region("cr_combi_region_tarangnagar")
                 cm:instantly_set_settlement_primary_slot_level(target_region:settlement(), 3)
                 local target_slot = target_region:slot_list():item_at(2)--1 is harbour
                 cm:instantly_upgrade_building_in_region(target_slot, "wh3_main_kho_walls_minor_2")
@@ -656,8 +641,8 @@ local rhox_iee_list={
         leader={
             subtype="hkrul_engra",
             unit_list="wh_dlc01_chs_inf_chaos_warriors_2,wh_dlc01_chs_inf_chosen_2,wh_dlc01_chs_inf_chaos_warriors_2,wh_main_chs_mon_giant,wh_main_chs_cav_chaos_knights_0",
-            x=1388,
-            y=695,
+            x=1432,
+            y=653,
             forename ="names_name_5670700325",
             familiyname ="names_name_5670700324",
         },
@@ -768,9 +753,9 @@ local rhox_iee_list={
             for i=0,region_list:num_items()-1 do
                 local region= region_list:item_at(i)
                 for key, unit in pairs(rhox_province_chaos_units) do
-                    cm:add_unit_to_province_mercenary_pool(region, key, "raise_dead", unit[1], unit[2], unit[3], 1, faction_key, "", "", false, "wh3_dlc20_chs_province_pool")
+                    cm:add_unit_to_province_mercenary_pool(region, key, "raise_dead", unit[1], unit[2], unit[3], 1, "", "wh_main_sc_chs_chaos", "", false, "wh3_dlc20_chs_province_pool")
                 end
-            end
+            end--it has to be a subculture since one province can have only one main unit per region
         end,
         first_tick = function(faction, faction_key) 
             cm:add_pooled_resource_changed_listener_by_faction(
@@ -791,8 +776,8 @@ local rhox_iee_list={
         leader={
             subtype="hkrul_vroth",
             unit_list="wh_main_nor_inf_chaos_marauders_0,wh_main_nor_inf_chaos_marauders_0,wh_dlc08_nor_feral_manticore,wh_dlc08_nor_inf_marauder_hunters_1,wh_dlc08_nor_inf_marauder_hunters_1,wh_main_nor_cav_chaos_chariot,wh_main_nor_inf_chaos_marauders_1,wh_main_nor_mon_chaos_warhounds_0",
-            x=1202,
-            y=831,
+            x=1242,
+            y=791,
             forename ="names_name_5670700722",
             familiyname ="names_name_5670700719",
         },
@@ -809,8 +794,8 @@ local rhox_iee_list={
             key="cr_grn_nag_rippers",
             subtype="wh_main_grn_orc_warboss",
             unit_list="wh_main_grn_inf_orc_boyz,wh_main_grn_inf_orc_boyz,wh_main_grn_inf_orc_arrer_boyz,wh_main_grn_inf_orc_arrer_boyz,wh_main_grn_cav_orc_boar_boyz",
-            x=1200,
-            y=839,
+            x=1242,
+            y=787,
         },
         additional = function(faction, faction_key) 
             for i, v in pairs(LenkBeastHunts.ai_units) do
@@ -830,11 +815,6 @@ local rhox_iee_list={
                 )
             end	
             if faction:is_human() then
-                cm:transfer_region_to_faction("cr_combi_region_the_bloodrift","cr_grn_nag_rippers")
-                local transferred_region = cm:get_region("cr_combi_region_the_bloodrift")
-                local transferred_region_cqi = transferred_region:cqi()
-                cm:heal_garrison(transferred_region_cqi)
-                
                 cm:transfer_region_to_faction("cr_combi_region_tong_war_monolith","cr_grn_nag_rippers")
                 transferred_region = cm:get_region("cr_combi_region_tong_war_monolith")
                 transferred_region_cqi = transferred_region:cqi()
@@ -887,8 +867,8 @@ local rhox_iee_list={
         leader={
             subtype="hkrul_duriath",
             unit_list="wh2_main_def_inf_bleakswords_0,wh2_main_def_inf_darkshards_1,wh2_main_def_inf_black_ark_corsairs_1,wh2_main_def_inf_black_ark_corsairs_0,wh2_main_def_inf_black_ark_corsairs_0,wh2_main_def_inf_black_ark_corsairs_0",
-            x=1095,
-            y=374,
+            x=1128,
+            y=240,
             forename ="names_name_1369138461",
             familiyname ="names_name_1369138462",
         },
@@ -897,7 +877,7 @@ local rhox_iee_list={
             subtype="wh2_dlc10_def_sorceress_death"
         },
         hand_over_region=nil,
-        region="cr_combi_region_ind_1_1",
+        region="cr_combi_region_pubjiwanpur",
         how_they_play="rhox_iee_lccp_how_they_play_duriath",
         pic=782,
         faction_trait="rhox_duriath_faction_trait",
@@ -905,8 +885,8 @@ local rhox_iee_list={
             key="cr_emp_guests_of_the_raja",
             subtype="wh2_dlc13_emp_cha_huntsmarshal",
             unit_list="wh2_dlc13_emp_inf_huntsmen_0,wh2_dlc13_emp_inf_huntsmen_0,wh_main_emp_inf_greatswords,wh_main_emp_inf_halberdiers,wh_main_emp_inf_halberdiers",
-            x=1101,
-            y=365,
+            x=1130,
+            y=241,
         },
         additional = function(faction, faction_key) 
             cm:add_building_to_force(faction:faction_leader():military_force():command_queue_index(), "rhox_duriath_black_ark_special_1")
@@ -922,23 +902,128 @@ local rhox_iee_list={
                     mm:add_payload("money 1000");
                     mm:trigger()
                 end
-                
-                cm:transfer_region_to_faction("cr_combi_region_ind_3_1","cr_emp_guests_of_the_raja")
-                local transferred_region = cm:get_region("cr_combi_region_ind_3_1")
+            end
+        end,
+        first_tick = function(faction, faction_key) 
+        end
+    },
+    cr_chs_iron_wolves ={
+        leader={
+            subtype="hkrul_aelfric",
+            unit_list="wh_dlc01_chs_inf_chaos_warriors_2,wh_dlc01_chs_mon_dragon_ogre,wh_dlc01_chs_inf_chaos_warriors_2,wh_main_chs_mon_chaos_warhounds_0,wh_main_chs_mon_trolls,wh_dlc08_nor_mon_warwolves_0,wh_dlc08_nor_mon_warwolves_0",
+            x=1496,
+            y=735,
+            forename ="names_name_5670500325",
+            familiyname ="names_name_5670500324",
+        },
+        agent={
+            type="wizard",
+            subtype="wh3_dlc20_chs_sorcerer_tzeentch_mtze"
+        },
+        hand_over_region=nil,
+        region="cr_combi_region_xeich_lus_last_stand",
+        how_they_play="rhox_iee_lccp_how_they_play_aelfric",
+        pic=595,
+        faction_trait="rhox_aelfric_faction_trait",
+        enemy={
+            key="cr_nor_wei_tu",
+            subtype="wh_main_nor_marauder_chieftain",
+            unit_list="wh_dlc08_nor_inf_marauder_spearman_0,wh_dlc08_nor_inf_marauder_hunters_1",
+            x=1484,
+            y=730,
+        },
+        additional = function(faction, faction_key) 
+            local rhox_engra_gift_units = {
+                ---unit_key, recruitment_source_key,  starting amount, replen chance, max in pool
+                    {"wh_main_chs_art_hellcannon", "daemonic_summoning", 1, 0, 4},
+                    {"wh3_main_kho_inf_bloodletters_0", "daemonic_summoning", 0, 0, 4},
+                    {"wh3_main_sla_inf_daemonette_0", "daemonic_summoning", 0, 0, 4},
+                    {"wh3_main_nur_inf_plaguebearers_0", "daemonic_summoning", 0, 0, 4},
+                    {"wh3_main_nur_inf_nurglings_0", "daemonic_summoning", 0, 0, 4},
+                    {"wh3_main_tze_inf_pink_horrors_0", "daemonic_summoning", 0, 0, 4},
+                    {"wh3_main_sla_veh_seeker_chariot_0", "daemonic_summoning", 0, 0, 4},
+                    {"wh3_main_nur_mon_great_unclean_one_0", "daemonic_summoning", 0, 0, 2},
+                    {"wh3_main_kho_mon_bloodthirster_0", "daemonic_summoning", 0, 0, 2},
+                    {"wh3_main_nur_mon_soul_grinder_0", "daemonic_summoning", 0, 0, 2},
+                    {"wh3_main_tze_mon_lord_of_change_0", "daemonic_summoning", 0, 0, 2},
+                    {"wh3_main_kho_mon_soul_grinder_0", "daemonic_summoning", 0, 0, 2},
+                    {"wh3_main_sla_mon_keeper_of_secrets_0", "daemonic_summoning", 0, 0, 2},
+                    {"wh3_main_sla_mon_soul_grinder_0", "daemonic_summoning", 0, 0, 2},
+                    {"wh3_main_tze_mon_soul_grinder_0", "daemonic_summoning", 0, 0, 2},
+                    {"wh_dlc01_chs_mon_dragon_ogre_shaggoth", "daemonic_summoning", 0, 0, 2},
+                    {"wh3_dlc20_chs_mon_warshrine_mkho", "daemonic_summoning", 0, 0, 2},
+                    {"wh3_dlc20_chs_mon_warshrine", "daemonic_summoning", 0, 0, 2},
+                    {"wh3_main_sla_mon_fiends_of_slaanesh_0", "daemonic_summoning", 0, 0, 4},
+                    {"wh3_main_tze_mon_flamers_0", "daemonic_summoning", 0, 0, 4},
+                    {"wh3_main_tze_mon_screamers_0", "daemonic_summoning", 0, 0, 4},
+                    {"wh3_main_kho_inf_flesh_hounds_of_khorne_0", "daemonic_summoning", 0, 0, 4},
+                    {"wh3_main_nur_cav_plague_drones_0", "daemonic_summoning", 0, 0, 4},
+                    {"wh3_main_nur_mon_beast_of_nurgle_0", "daemonic_summoning", 0, 0, 4},
+                    {"wh3_main_kho_veh_skullcannon_0", "daemonic_summoning", 0, 0, 4}
+            }
+            
+            local rhox_engra_faction_pool_units = {
+                ---unit_key, recruitment_source_key,  starting amount, replen chance, max in pool
+                    {"wh3_dlc20_chs_mon_warshrine", "daemonic_summoning", 0, 0, 2},
+                    {"wh3_dlc20_chs_mon_warshrine_mkho", "daemonic_summoning", 0, 0, 2},
+                    {"wh3_dlc20_chs_mon_warshrine_msla", "daemonic_summoning", 0, 0, 2},
+                    {"wh3_dlc20_chs_mon_warshrine_mtze", "daemonic_summoning", 0, 0, 2},
+                    {"wh3_dlc20_chs_mon_warshrine_mnur", "daemonic_summoning", 0, 0, 2},
+                    {"wh3_dlc24_tze_mon_cockatrice", "daemonic_summoning", 0, 0, 4},
+                    {"wh3_dlc24_tze_mon_mutalith_vortex_beast", "daemonic_summoning", 0, 0, 2},
+                    {"wh3_main_dae_inf_chaos_furies_0", "daemonic_summoning", 0, 0, 4},
+                    {"wh3_dlc24_tze_mon_flamers_changebringers", "daemonic_summoning", 0, 0, 2},
+            }
+            local chs_ror ={
+                "wh3_dlc20_chs_cav_chaos_chariot_msla_ror",
+                "wh3_dlc20_chs_inf_aspiring_champions_mtze_ror",
+                "wh3_dlc20_chs_mon_giant_mnur_ror",
+                "wh3_dlc20_kho_cav_skullcrushers_mkho_ror",
+                "wh3_twa07_tze_cav_doom_knights_ror_0",
+                "wh3_twa08_kho_mon_bloodthirster_0_ror",
+                "wh3_twa08_nur_mon_great_unclean_one_0_ror",
+                "wh3_twa08_sla_mon_keeper_of_secrets_0_ror",
+                "wh3_twa08_tze_mon_lord_of_change_0_ror",
+                "wh3_twa10_kho_inf_flesh_hounds_of_khorne_ror",
+                "wh3_twa10_nur_inf_nurglings_ror",
+                "wh3_twa10_tze_inf_blue_horrors_ror",
+                "wh_pro04_chs_art_hellcannon_ror_0",
+                "wh_pro04_chs_cav_chaos_knights_ror_0",
+                "wh_pro04_chs_inf_chaos_warriors_ror_0",
+                "wh_pro04_chs_inf_forsaken_ror_0",
+                "wh_pro04_chs_mon_chaos_spawn_ror_0",
+                "wh_pro04_chs_mon_dragon_ogre_ror_0"
+            }
+            for i = 1, #chs_ror do
+                cm:add_unit_to_faction_mercenary_pool(faction, chs_ror[i], "renown", 1, 100, 1, 0.1, "", "", "", true, chs_ror[i])
+            end
+            rhox_add_warriors_units(cm:get_faction(faction_key), rhox_engra_gift_units);
+            rhox_add_faction_pool_units(cm:get_faction(faction_key), rhox_engra_faction_pool_units);
+                        
+            local rhox_province_chaos_units={--dogs only as I don't know other thing's requirement
+                wh_main_chs_mon_chaos_warhounds_0= {1, 20, 1},
+                wh_main_chs_mon_chaos_warhounds_1= {0, 20, 1},
+            }
+            
+            if faction:is_human() then                
+                cm:transfer_region_to_faction("cr_combi_region_wo_camp","cr_nor_wei_tu")
+                local transferred_region = cm:get_region("cr_combi_region_wo_camp")
                 local transferred_region_cqi = transferred_region:cqi()
                 cm:heal_garrison(transferred_region_cqi)
                 
-                cm:transfer_region_to_faction("cr_combi_region_ind_3_2","cr_emp_guests_of_the_raja")
-                transferred_region = cm:get_region("cr_combi_region_ind_3_2")
-                transferred_region_cqi = transferred_region:cqi()
-                cm:heal_garrison(transferred_region_cqi)
-                
-                --Pol uses it, add exception
-                cm:transfer_region_to_faction("cr_combi_region_ind_3_3","cr_emp_guests_of_the_raja")
-                transferred_region = cm:get_region("cr_combi_region_ind_3_3")
+                cm:transfer_region_to_faction("cr_combi_region_man_churia","cr_nor_wei_tu")
+                transferred_region = cm:get_region("cr_combi_region_man_churia")
                 transferred_region_cqi = transferred_region:cqi()
                 cm:heal_garrison(transferred_region_cqi)
             end
+            
+            --[[local region_list = cm:model():world():region_manager():region_list()
+            for i=0,region_list:num_items()-1 do
+                local region= region_list:item_at(i)
+                for key, unit in pairs(rhox_province_chaos_units) do
+                    cm:add_unit_to_province_mercenary_pool(region, key, "raise_dead", unit[1], unit[2], unit[3], 1, faction_key, "", "", false, "wh3_dlc20_chs_province_pool")
+                end
+            end--]]--one province can have only one main unit in the province pool, so it's added as subculture, and added via Engra
         end,
         first_tick = function(faction, faction_key) 
         end
@@ -959,7 +1044,7 @@ cm:add_first_tick_callback_new(
             rhox_iee_list["rhox_chs_the_deathswords"].enemy.x=1381
 			rhox_iee_list["rhox_chs_the_deathswords"].enemy.y=687
 			rhox_iee_list["rhox_chs_the_deathswords"].enemy.subtype="wh_main_chs_lord"
-			rhox_iee_list["rhox_chs_the_deathswords"].enemy.unit_list="wh_main_chs_art_hellcannon,wh_dlc01_chs_inf_chosen_2,wh_main_chs_inf_chaos_marauders_0,wh_main_chs_inf_chaos_marauders_0,wh_main_chs_inf_chaos_marauders_0"
+        rhox_iee_list["rhox_chs_the_deathswords"].enemy.unit_list="wh_main_chs_art_hellcannon,wh_dlc01_chs_inf_chosen_2,wh_main_chs_inf_chaos_marauders_0,wh_main_chs_inf_chaos_marauders_0,wh_main_chs_inf_chaos_marauders_0"
 
 		end
 
@@ -1098,5 +1183,3 @@ cm:add_first_tick_callback(
         end
 	end
 )
-
-

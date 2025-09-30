@@ -8,8 +8,8 @@ rhox_torinubar_network_busan	1440	589	rhox_torinubar_east	1	10
 rhox_torinubar_network_north_nippon_sea	1420	286		1	0
 rhox_torinubar_network_south_nippon_sea	1460	186		1	0
 rhox_torinubar_network_palace_of_devine_sun	1478	215	rhox_torinubar_east	1	10
-rhox_torinubar_network_malay_sea	1418	61		1	0
-rhox_torinubar_network_calis_sea	1280	42		1	0
+rhox_torinubar_network_malay_sea	1379	75		1	0
+rhox_torinubar_network_calis_sea	1284	60		1	0
 rhox_torinubar_network_the_jade_sea	1406	399		1	0
 rhox_torinubar_network_red_river	1373	494		1	0
 rhox_torinubar_network_northern_straits_of_the_jade_sea	1368	559		1	0
@@ -40,4 +40,4 @@ rhox_torinubar_network_shark_straights	433	330		1	0
 rhox_torinubar_network_serpent_coast_sea	615	48		1	0
 rhox_torinubar_network_miragliano	504	462	rhox_torinubar_west	1	10
 rhox_torinubar_network_eastern_sea_of_dread	1178	218		1	0
-rhox_torinubar_network_ind	1205	302	rhox_torinubar_east	1	10
+rhox_torinubar_network_ind	1195	285	rhox_torinubar_east	1	10

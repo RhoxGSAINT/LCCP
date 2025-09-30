@@ -899,7 +899,7 @@ function rhox_torinubar_initalize_end_node_values()
     --randomise the end node values
     local end_nodes = {
         ["cr_combi_region_nippon_3_1"]       = 75 - cm:random_number(50, 0),
-        ["cr_combi_region_ind_4_2"]          = 75 - cm:random_number(50, 0),
+        ["cr_combi_region_shantivara"]          = 75 - cm:random_number(50, 0),
         ["wh3_main_combi_region_dai_cheng"]  = 75 - cm:random_number(50, 0),
         ["cr_combi_region_ihan_3_1"]         = cm:random_number(150, 60),
         ["wh3_main_combi_region_fu_chow"]    = cm:random_number(150, 60),

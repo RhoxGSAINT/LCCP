@@ -20,7 +20,7 @@ local order_cultures={
 
 local eastern_regions={
 	["cr_combi_region_nippon_3_1"]				= true,
-	["cr_combi_region_ind_4_2"]					= true,
+	["cr_combi_region_somnagiri"]					= true,
 	["wh3_main_combi_region_dai_cheng"]			= true,
 	["cr_combi_region_ihan_3_1"]				= true,
 	["wh3_main_combi_region_fu_chow"]			= true,

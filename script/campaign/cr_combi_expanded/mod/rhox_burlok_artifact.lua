@@ -1,12 +1,12 @@
 burlok = {}
 burlok.artifact_parts = {
 	--- artifact pooled resource key = region key, bundle key
-	rhox_burlok_artifact_part_1a = {region = "cr_combi_region_ind_1_1", bundle = "rhox_burlok_effect_bundle_burlok_artifact_part_1a"},
+	rhox_burlok_artifact_part_1a = {region = "cr_combi_region_city_of_spires", bundle = "rhox_burlok_effect_bundle_burlok_artifact_part_1a"},
 	rhox_burlok_artifact_part_1b = {region = "wh3_main_combi_region_tower_of_the_sun", bundle = "rhox_burlok_effect_bundle_burlok_artifact_part_1b"},
 	rhox_burlok_artifact_part_2a = {region = "cr_combi_region_gates_of_calith_1", bundle = "rhox_burlok_effect_bundle_burlok_artifact_part_2a"},
 	rhox_burlok_artifact_part_2b = {region = "cr_combi_region_elithis_1_1", bundle = "rhox_burlok_effect_bundle_burlok_artifact_part_2b"},
 	rhox_burlok_artifact_part_3a = {region = "cr_combi_region_nippon_2_1", bundle = "rhox_burlok_effect_bundle_burlok_artifact_part_3a"},
-	rhox_burlok_artifact_part_3b = {region = "cr_combi_region_khuresh_6_1", bundle = "rhox_burlok_effect_bundle_burlok_artifact_part_3b"},
+	rhox_burlok_artifact_part_3b = {region = "cr_combi_region_junkselon", bundle = "rhox_burlok_effect_bundle_burlok_artifact_part_3b"},
 	rhox_burlok_artifact_part_4a = {region = "wh3_main_combi_region_jungles_of_chian", bundle = "rhox_burlok_effect_bundle_burlok_artifact_part_4a"},
 	rhox_burlok_artifact_part_4b = {region = "wh3_main_combi_region_wei_jin", bundle = "rhox_burlok_effect_bundle_burlok_artifact_part_4b"},
 	rhox_burlok_artifact_part_5a = {region = "cr_combi_region_ihan_3_1", bundle = "rhox_burlok_effect_bundle_burlok_artifact_part_5a"},

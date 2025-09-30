@@ -1,3 +1,6 @@
+
+
+
 local norsca_ror_table={
     {"wh_dlc08_nor_art_hellcannon_battery", "wh_dlc08_nor_art_hellcannon_battery"},
     {"wh_pro04_nor_mon_war_mammoth_ror_0", "wh_pro04_nor_mon_war_mammoth_ror_0"},
@@ -176,6 +179,117 @@ local rhox_tow_list={
             end
         end,
         first_tick = function(faction, faction_key) 
+        end
+    },
+    cr_kho_servants_of_the_blood_nagas ={
+        leader={
+            subtype="hkrul_slaurith",
+            unit_list="wh3_main_kho_inf_bloodletters_0,wh3_main_kho_inf_chaos_warriors_1,wh3_main_kho_inf_bloodletters_0,wh3_main_kho_inf_chaos_warriors_1,wh3_main_kho_cav_skullcrushers_0",
+            x=1838,
+            y=1569,
+            forename ="names_name_466124000",
+            familiyname ="",
+        },
+        agent={
+            type="dignitary",
+            subtype="wh3_main_kho_bloodreaper"
+        },
+        hand_over_region="cr_oldworld_region_bastion_stair",
+        region="cr_oldworld_region_bastion_stair",
+        how_they_play="rhox_iee_lccp_how_they_play_slaurith",
+        pic=11,
+        faction_trait="rhox_slaurith_faction_trait",
+        enemy=nil,
+        additional = function(faction, faction_key) 
+        end,
+        first_tick = function(faction, faction_key) 
+        end
+    },
+    rhox_nor_khazags ={
+        leader={
+            subtype="hkrul_thorgar",
+            unit_list="wh_dlc08_nor_inf_marauder_spearman_0,wh_main_nor_mon_chaos_warhounds_0,wh_main_nor_inf_chaos_marauders_0,wh_main_nor_inf_chaos_marauders_0,wh_dlc08_nor_mon_skinwolves_0,wh_main_nor_cav_marauder_horsemen_0,wh_dlc08_nor_inf_marauder_hunters_1,wh_dlc08_nor_mon_war_mammoth_0,",
+            x=1963,
+            y=1374,
+            forename ="names_name_5670700836",
+            familiyname ="names_name_5670700835",
+        },
+        agent={
+            type="wizard",
+            subtype="wh_dlc08_nor_shaman_sorcerer_metal"
+        },
+        hand_over_region="cr_oldworld_region_khazags_camp",
+        region="cr_oldworld_region_khazags_camp",
+        how_they_play="rhox_iee_lccp_how_they_play_thorgar",
+        pic=800,
+        faction_trait="rhox_thorgar_faction_trait",
+        enemy=nil,
+        additional = function(faction, faction_key)
+            for i, ror in pairs(norsca_ror_table) do
+                cm:add_unit_to_faction_mercenary_pool(faction,ror[1],"renown",1,100,1,0.1,"","","",true,ror[2])
+            end 
+            cm:add_event_restricted_unit_record_for_faction("wh_dlc08_nor_mon_war_mammoth_ror_1",faction_key, "norsca_monster_hunt_ror_unlock")
+		    cm:add_event_restricted_unit_record_for_faction("wh_dlc08_nor_mon_frost_wyrm_ror_0", faction_key, "norsca_monster_hunt_ror_unlock") 
+		    cm:add_event_restricted_building_record_for_faction("rhox_thorgar_dae_advanced_1", faction_key, "rhox_thorgar_building_lock")
+        end,
+        first_tick = function(faction, faction_key) 
+        end
+    },
+    rhox_nor_firebrand_slavers ={
+        leader={
+            subtype="hkrul_valbrand",
+            unit_list="wh_dlc08_nor_inf_marauder_spearman_0,wh_dlc08_nor_inf_marauder_hunters_1,wh3_main_kho_inf_chaos_warriors_0,wh3_main_kho_inf_chaos_warriors_0,wh3_dlc20_chs_inf_chaos_marauders_mkho,wh3_dlc20_chs_inf_chaos_marauders_mkho,wh_dlc08_nor_mon_norscan_giant_0,wh3_dlc20_chs_cav_chaos_chariot_mkho,wh3_dlc20_chs_cav_chaos_chariot_mkho",
+            x=558,
+            y=1623,
+            forename ="names_name_6330700834",
+            familiyname ="names_name_6330700833",
+        },
+        agent={
+            type="wizard",
+            subtype="wh_dlc08_nor_shaman_sorcerer_fire"
+        },
+        hand_over_region=nil,
+        region="cr_oldworld_region_monolith_of_valbrand_fireblade",
+        how_they_play="rhox_iee_lccp_how_they_play_valbrand",
+        pic=800,
+        faction_trait="rhox_valbrand_faction_trait",
+        enemy=nil,--because they don't spawn enemy force for it
+        additional = function(faction, faction_key)            
+            for i, ror in pairs(norsca_ror_table) do
+                cm:add_unit_to_faction_mercenary_pool(faction,ror[1],"renown",1,100,1,0.1,"","","",true,ror[2])
+            end
+            cm:add_unit_to_faction_mercenary_pool(faction,"wh3_dlc26_kho_inf_wrathmongers_ror", "renown", 1, 20, 1, 0.1, "", "", "", true,"wh3_dlc26_kho_inf_wrathmongers_ror")
+            cm:add_event_restricted_unit_record_for_faction("wh_dlc08_nor_mon_war_mammoth_ror_1",faction_key, "norsca_monster_hunt_ror_unlock")
+		    cm:add_event_restricted_unit_record_for_faction("wh_dlc08_nor_mon_frost_wyrm_ror_0", faction_key, "norsca_monster_hunt_ror_unlock") 
+            local rhox_valbrand_gift_units = {
+                ---unit_key, recruitment_source_key,  starting amount, replen chance, max in pool
+                    {"wh3_main_kho_inf_bloodletters_0", "daemonic_summoning", 1, 0, 4},
+                    {"wh3_main_kho_mon_bloodthirster_0", "daemonic_summoning", 0, 0, 2},
+                    {"wh3_main_kho_mon_soul_grinder_0", "daemonic_summoning", 0, 0, 2},
+                    {"wh3_main_kho_inf_flesh_hounds_of_khorne_0", "daemonic_summoning", 0, 0, 4},
+                    {"wh_main_chs_art_hellcannon", "daemonic_summoning", 0, 0, 4},
+                    {"wh3_main_kho_veh_skullcannon_0", "daemonic_summoning", 0, 0, 4},
+                    {"wh3_dlc26_kho_mon_bloodbeast_of_khorne", "daemonic_summoning", 0, 0, 2},
+                    {"wh3_dlc26_kho_mon_slaughterbrute", "daemonic_summoning", 0, 0, 2}
+            }
+            local rhox_valbrand_faction_units = {
+                ---unit_key, recruitment_source_key,  starting amount, replen chance, max in pool
+                    {"wh3_dlc20_chs_mon_warshrine", "daemonic_summoning", 0, 0, 2},
+                    {"wh3_dlc20_chs_mon_warshrine_mkho", "daemonic_summoning", 0, 0, 2},
+            }
+            rhox_add_warriors_units(cm:get_faction(faction_key), rhox_valbrand_gift_units);
+            rhox_add_faction_pool_units(cm:get_faction(faction_key), rhox_valbrand_faction_units);
+            
+            if faction:is_human() then                
+                cm:trigger_mission(faction_key, "wh3_dlc26_kho_exiles_of_khorne_skarr_bloodwrath_unlock_1", true)--because the normal building completed listener doesn't work
+            end
+            
+            cm:instantly_research_technology(faction_key, "wh3_dlc20_chs_und_shared_chariots", false)
+            cm:instantly_research_technology(faction_key, "wh3_dlc20_chs_und_shared_knights", false)
+
+        end,
+        first_tick = function(faction, faction_key) 
+            rhox_valbrand_slaves:start_listeners()
         end
     },
 }

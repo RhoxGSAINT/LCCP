@@ -1,3 +1,6 @@
 agent	faction	subtype	mod_disabled
 #faction_agent_permitted_subtypes_tables;1;db/faction_agent_permitted_subtypes_tables/rhox_iee_lccp			
 general	cr_hef_gate_guards	rhox_torinubar_convoy	false
+wizard	cr_chs_iron_wolves	wh3_dlc20_chs_sorcerer_tzeentch_mtze	false
+champion	cr_chs_iron_wolves	wh3_dlc24_chs_exalted_hero_mtze	false
+wizard	cr_chs_iron_wolves	wh3_dlc20_chs_sorcerer_metal_mtze	false

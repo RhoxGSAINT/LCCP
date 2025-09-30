@@ -28,7 +28,7 @@ end
 
 rhox_slaurith_book_objective_list_faction = {
     {objective = "CAPTURE_REGIONS", target = "cr_combi_region_nippon_3_1"},
-    {objective = "CAPTURE_REGIONS", target = "cr_combi_region_ind_5_1"},
+    {objective = "CAPTURE_REGIONS", target = "cr_combi_region_suryapuri"},
     {objective = "CAPTURE_REGIONS", target = "cr_combi_region_gates_of_calith_1"},
     {objective = "CAPTURE_REGIONS", target = "cr_combi_region_elithis_1_2"},
     {objective = "ENGAGE_FORCE", target = "wh2_dlc09_rogue_black_creek_raiders", pos = {x = 1345, y = 156}, patrol = {{x = 1339, y = 188}, {x = 1355, y = 219}, {x = 1345, y = 156}}},

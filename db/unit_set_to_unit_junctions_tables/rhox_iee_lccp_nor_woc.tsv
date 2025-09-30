@@ -318,3 +318,11 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			wh3_dlc26_kho_mon_slaughterbrute	wh2_dlc11_nor_skin_wolves_trolls	false
 			wh3_dlc26_kho_mon_slaughterbrute	wh2_dlc11_nor_vets_trolls_frost_wyrm_giant_mammoth_fimir	false
 			wh3_dlc26_kho_mon_slaughterbrute	nor_all	false
+			wh_dlc08_nor_mon_warwolves_0	all_non_chs	true
+			wh_dlc08_nor_mon_warwolves_0	chs_hounds_rank7	false
+			wh_dlc08_nor_mon_warwolves_0	chs_hounds	false
+			wh_dlc08_nor_mon_warwolves_0	chs_warhound_manticore_rank_4	false
+			wh_dlc08_nor_mon_warwolves_0	merc_set_chs_hounds_und	false
+			wh_dlc08_nor_mon_warwolves_0	monsters	false
+			wh_dlc08_nor_mon_warwolves_0	mp_cap_unit_chs_inf_chaos_warhounds_0	false
+			wh_dlc08_nor_mon_warwolves_0	wh3_dlc20_chs_inf_chaos_warhounds_all	false
