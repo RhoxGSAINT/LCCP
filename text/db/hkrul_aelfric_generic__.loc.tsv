@@ -5,7 +5,7 @@ ancillaries_onscreen_name_hkrul_aelfric_banner	PLACEHOLDER	true
 effect_bundles_localised_title_hkrul_aelfric_banner	PLACEHOLDER	false
 ancillaries_colour_text_hkrul_aelfric_holz	PLACEHOLDER	true
 ancillaries_onscreen_name_hkrul_aelfric_holz	PLACEHOLDER	true
-ancillaries_colour_text_hkrul_aelfric_sword	PLACEHOLDER	true
-ancillaries_onscreen_name_hkrul_aelfric_sword	PLACEHOLDER	true
+ancillaries_colour_text_hkrul_aelfric_sword	Inscribed with hex-breaking runes in ancient Reikspiel, Faithrend is Aelfric’s infamous blade. Some say it weeps when sorcery is near, others that it drinks the essence of the damned. Whatever the truth, none who have wielded Chaos have survived its edge.	true
+ancillaries_onscreen_name_hkrul_aelfric_sword	Faithrend	true
 effects_description_rhox_aelfric_ice_wolf_dummy	After battles against the forces of Man, there is a chance that Ice Wolves will heed the call and join your host, if space allows.	false
 effects_description_rhox_aelfric_tzeentch_dummy	Has access to several additional Tzeentch agents	false

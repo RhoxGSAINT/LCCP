@@ -1,17 +1,13 @@
 child_key	parent_key	initial_descent_tiers	parent_link_position	child_link_position	parent_link_position_offset	child_link_position_offset	visible_in_ui
 #technology_node_links_tables;0;db/technology_node_links_tables/rhox_iee_lccp							
-rhox_valbrand_kho_1	wh_dlc08_tech_nor_creatures_03	0	2	4	0.0000	-0.1000	true
-rhox_valbrand_kho_2	wh_dlc08_tech_nor_creatures_05	0	2	4	0.0000	-0.1000	true
-rhox_valbrand_kho_3	wh_dlc08_tech_nor_creatures_07	0	2	4	0.0000	-0.1000	true
-rhox_valbrand_normal_1	wh_dlc08_tech_nor_marauders_05	0	2	4	0.0000	0.1000	true
-rhox_valbrand_normal_2	wh_dlc08_tech_nor_marauders_06	0	2	4	0.0000	0.1000	true
-rhox_valbrand_normal_3	wh_dlc08_tech_nor_marauders_07	0	2	4	0.0000	0.1000	true
-rhox_volrik_tze_1	wh_dlc08_tech_nor_creatures_03	0	2	4	0.0000	-0.1000	true
-rhox_volrik_tze_2	wh_dlc08_tech_nor_creatures_05	0	2	4	0.0000	-0.1000	true
-rhox_volrik_tze_3	wh_dlc08_tech_nor_creatures_07	0	2	4	0.0000	-0.1000	true
-rhox_volrik_normal_1	wh_dlc08_tech_nor_marauders_05	0	2	4	0.0000	0.1000	true
-rhox_volrik_normal_2	wh_dlc08_tech_nor_marauders_06	0	2	4	0.0000	0.1000	true
-rhox_volrik_normal_3	wh_dlc08_tech_nor_marauders_07	0	2	4	0.0000	0.1000	true
+rhox_valbrand_normal_2	rhox_valbrand_normal_1	0	2	4	0.0000	0.0000	true
+rhox_valbrand_normal_3	rhox_valbrand_normal_2	0	2	4	0.0000	0.0000	true
+rhox_valbrand_kho_2	rhox_valbrand_kho_1	0	2	4	0.0000	0.0000	true
+rhox_valbrand_kho_3	rhox_valbrand_kho_2	0	2	4	0.0000	0.0000	true
+rhox_volrik_normal_2	rhox_volrik_normal_1	0	2	4	0.0000	0.0000	true
+rhox_volrik_normal_3	rhox_volrik_normal_2	0	2	4	0.0000	0.0000	true
+rhox_volrik_tze_2	rhox_volrik_tze_1	0	2	4	0.0000	0.0000	true
+rhox_volrik_tze_3	rhox_volrik_tze_2	0	2	4	0.0000	0.0000	true
 rhox_aelfric_tze_final	dlc20_chs_tze_0	0	0	0	0.0000	0.0000	false
 rhox_aelfric_tze_final	dlc20_chs_tze_1	0	0	0	0.0000	0.0000	false
 rhox_aelfric_tze_final	dlc20_chs_tze_2	0	0	0	0.0000	0.0000	false

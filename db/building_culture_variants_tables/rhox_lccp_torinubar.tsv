@@ -1,16 +1,16 @@
-building	culture	subculture	faction	description	icon	disables	short_description	display_tooltip
-#building_culture_variants_tables;4;db/building_culture_variants_tables/rhox_lccp_torinubar								
-rhox_torinubar_sound_toll_1				wh_main_PLACEHOLDER	special_lothern_port	false	rhox_torinubar_sound_toll_1	true
-rhox_torinubar_sound_toll_2				wh_main_PLACEHOLDER	special_lothern_port	false	rhox_torinubar_sound_toll_2	true
-rhox_torinubar_sound_toll_3				wh_main_PLACEHOLDER	special_lothern_port	false	rhox_torinubar_sound_toll_3	true
-rhox_torinubar_east_foreign_1			cr_hef_gate_guards	wh_main_PLACEHOLDER	cathay_settlement	false		true
-rhox_torinubar_east_foreign_2			cr_hef_gate_guards	wh_main_PLACEHOLDER	cathay_settlement	false		true
-rhox_torinubar_east_foreign_3			cr_hef_gate_guards	wh_main_PLACEHOLDER	cathay_settlement	false		true
-rhox_torinubar_east_foreign_4			cr_hef_gate_guards	wh_main_PLACEHOLDER	cathay_settlement	false		true
-rhox_torinubar_east_foreign_5			cr_hef_gate_guards	wh_main_PLACEHOLDER	cathay_settlement	false		true
-rhox_torinubar_west_foreign_1			cr_hef_gate_guards	wh_main_PLACEHOLDER	empire_city	false		true
-rhox_torinubar_west_foreign_2			cr_hef_gate_guards	wh_main_PLACEHOLDER	empire_city	false		true
-rhox_torinubar_west_foreign_3			cr_hef_gate_guards	wh_main_PLACEHOLDER	empire_city	false		true
-rhox_torinubar_west_foreign_4			cr_hef_gate_guards	wh_main_PLACEHOLDER	empire_city	false		true
-rhox_torinubar_west_foreign_5			cr_hef_gate_guards	wh_main_PLACEHOLDER	empire_city	false		true
-rhox_torinubar_tor_larha_colony				wh_main_PLACEHOLDER	awakening_settlement	false	rhox_torinubar_tor_larha_colony	true
+building	culture	subculture	faction	description	icon	disables	short_description	display_tooltip	building_frame_override
+#building_culture_variants_tables;5;db/building_culture_variants_tables/rhox_lccp_torinubar									
+rhox_torinubar_sound_toll_1				wh_main_PLACEHOLDER	special_lothern_port	false	rhox_torinubar_sound_toll_1	true	
+rhox_torinubar_sound_toll_2				wh_main_PLACEHOLDER	special_lothern_port	false	rhox_torinubar_sound_toll_2	true	
+rhox_torinubar_sound_toll_3				wh_main_PLACEHOLDER	special_lothern_port	false	rhox_torinubar_sound_toll_3	true	
+rhox_torinubar_east_foreign_1			cr_hef_gate_guards	wh_main_PLACEHOLDER	cathay_settlement	false		true	
+rhox_torinubar_east_foreign_2			cr_hef_gate_guards	wh_main_PLACEHOLDER	cathay_settlement	false		true	
+rhox_torinubar_east_foreign_3			cr_hef_gate_guards	wh_main_PLACEHOLDER	cathay_settlement	false		true	
+rhox_torinubar_east_foreign_4			cr_hef_gate_guards	wh_main_PLACEHOLDER	cathay_settlement	false		true	
+rhox_torinubar_east_foreign_5			cr_hef_gate_guards	wh_main_PLACEHOLDER	cathay_settlement	false		true	
+rhox_torinubar_west_foreign_1			cr_hef_gate_guards	wh_main_PLACEHOLDER	empire_city	false		true	
+rhox_torinubar_west_foreign_2			cr_hef_gate_guards	wh_main_PLACEHOLDER	empire_city	false		true	
+rhox_torinubar_west_foreign_3			cr_hef_gate_guards	wh_main_PLACEHOLDER	empire_city	false		true	
+rhox_torinubar_west_foreign_4			cr_hef_gate_guards	wh_main_PLACEHOLDER	empire_city	false		true	
+rhox_torinubar_west_foreign_5			cr_hef_gate_guards	wh_main_PLACEHOLDER	empire_city	false		true	
+rhox_torinubar_tor_larha_colony				wh_main_PLACEHOLDER	awakening_settlement	false	rhox_torinubar_tor_larha_colony	true	

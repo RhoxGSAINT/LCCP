@@ -13,7 +13,7 @@ burlok.artifact_parts = {
 	rhox_burlok_artifact_part_5b = {region = "cr_combi_region_ihan_1_1", bundle = "rhox_burlok_effect_bundle_burlok_artifact_part_5b"},
 	rhox_burlok_artifact_part_6a = {region = "cr_combi_region_seagrave_port", bundle = "rhox_burlok_effect_bundle_burlok_artifact_part_6a"},
 	rhox_burlok_artifact_part_6b = {region = "cr_combi_region_avags_camp", bundle = "rhox_burlok_effect_bundle_burlok_artifact_part_6b"},
-	rhox_burlok_artifact_part_7a = {region = "cr_combi_region_khazags_khural", bundle = "rhox_burlok_effect_bundle_burlok_artifact_part_7a"},
+	rhox_burlok_artifact_part_7a = {region = "cr_combi_region_dolgan_encampment", bundle = "rhox_burlok_effect_bundle_burlok_artifact_part_7a"},
 	rhox_burlok_artifact_part_7b = {region = "cr_combi_region_tokmars_encampment", bundle = "rhox_burlok_effect_bundle_burlok_artifact_part_7b"},
 	rhox_burlok_artifact_part_8a = {region = "wh3_main_combi_region_the_volary", bundle = "rhox_burlok_effect_bundle_burlok_artifact_part_8a"},
 	rhox_burlok_artifact_part_8b = {region = "wh3_main_combi_region_karak_azorn", bundle = "rhox_burlok_effect_bundle_burlok_artifact_part_8b"}

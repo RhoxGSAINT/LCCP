@@ -2,6 +2,6 @@ key	requires_effect_enabling	icon_name	overpower_option	type	video	uniqueness	is
 #unit_abilities_tables;17;db/unit_abilities_tables/hkrul_aelfric											
 hkrul_aelfric_helm	true	hkrul_aelfric_helm		wh_type_regeneration		wh_main_anc_group_unique	true	false	passive		false
 hkrul_aelfric_pal	true	hkrul_aelfric_pal		wh_type_area_of_augments		wh_main_anc_group_uncommon	true	false	passive		false
-hkrul_aelfric_sword	true	hkrul_aelfric_sword		wh_type_augment		wh_main_anc_group_rare	true	false	active		false
 hkrul_aelfric_mark	true	hkrul_aelfric_mark		wh_type_augment		wh_main_anc_group_rare	true	false	passive		false
 hkrul_aelfric_howl	true	hkrul_aelfric_howl		wh_type_hex		wh_main_anc_group_unique	true	false	active		false
+hkrul_aelfric_sword	true	hkrul_cyenwulf_sword		wh_type_area_of_augments		wh_main_anc_group_rare	true	false	passive		false

@@ -21,6 +21,13 @@ table.insert(character_unlocking.character_data["scyla"]["override_allowed_facti
 table.insert(character_unlocking.character_data["scyla"]["override_allowed_factions"], "rhox_nor_khazags")
 
 
+table.insert(character_unlocking.character_data["beorg_bearstruck"]["override_allowed_factions"], "rhox_nor_firebrand_slavers")
+table.insert(character_unlocking.character_data["beorg_bearstruck"]["override_allowed_factions"], "cr_nor_tokmars")
+table.insert(character_unlocking.character_data["beorg_bearstruck"]["override_allowed_factions"], "rhox_nor_khazags")
+
+
+table.insert(nor_pillaging.pillage_enabled_factions, "rhox_nor_khazags")--add only rhox guys. IEE faction on the board are added by IEE, do not add for Valbrand
+
 
 -----------Nurgle Plague
 nurgle_plagues.plague_faction_info["cr_nur_tide_of_pestilence"] = {max_blessed_symptoms = 1, current_symptoms_list = {}, plague_creation_counter = 3}

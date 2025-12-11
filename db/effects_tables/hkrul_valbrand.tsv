@@ -11,3 +11,4 @@ rhox_valbrand_capital_tech_dummy	effect_valbrand_horde.png	61	effect_valbrand_ho
 rhox_valbrand_chaos_gift_dummy	effect_valbrand_slaver.png	2	effect_valbrand_slaver.png	both	true
 rhox_valbrand_dedicated_to_khorne_dummy	corruption_khorne.png	101	corruption_khorne.png	campaign	true
 rhox_valbrand_no_access_encamp_raid_dummy	icon_effects_fortify.png	103	icon_effects_fortify.png	campaign	false
+rhox_valbrand_no_access_pillage_dummy	treasury.png	103	treasury.png	campaign	false

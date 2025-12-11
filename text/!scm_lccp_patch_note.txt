@@ -1,3 +1,56 @@
+2025/DEC/11 SCM
+- DB
+-- unit_set wh2_dlc11_nor_vets_warhounds_ice_wolves_manticore_skin_wolves_chariots changed into wh2_dlc11_nor_vets_warhounds_ice_wolves_manticore_skin_wolves_chariots_kurgan
+-- Now Valbrand can attack from the sea
+-- Adjusted positions of Volrik and Valbrand tech node position to meet that of vanilla's change
+-- Now four factions have access to the ALLEGIANCE_TO_THE_GODS UI_feature
+-- Added wh3_dlc27_kho_inf_chaos_warriors_2 to the unit_sets also 
+-- Added new settlement type for the Hrothyogg foreign building
+-- Added Idolatry marauding option for the 4 Norscan guys (Firebrand does not needs it but did it just in case)
+-- Changed some landmark using old depreciated Mixer slot to the vanilla one.
+-- Copy-pasted vanilla buildings into Valbrand. again... I expect lots of bugs from this one
+-- Volrik now only has access to Tzeentch raising only
+
+- SCRIPT
+-- Fixed the issue of script break coming from using cr_combi_region_khazags_khural, CR removed this region in 7.0
+-- Gave access to Beorg to 4 Norscan factions 
+-- Gave access to caradryan to Torinubar
+-- Fixed the province mercenary adding function so that it works with 7.0
+-- Fixed the issue of Tokmar not getting mercenary due to 7.0 function update
+-- Added pillage and hunting script insert for the rhox prefixed factions (cr prefixed ones are added by CR)
+-- Removed god dedcated RoR from god dedicated Norsca faction of which that does not match the gods
+-- Added a feature that Vlabrand gains allegiance to hound by razing
+-- Adjusted raze to unlock tech thing for Valbrand to match that of changed vanilla
+-- Added a script that LCCP Norsca guys could get a LL on the dilemma decision making
+-- Added a script for the Valbrand that spawns champions invaion on the Khonre rejection. This is due to them not having home region, and causing script break when used vanilla's
+
+- SETTING
+-- Changed Ravenblessed's initial enemy to cr_chd_slaves_of_the_black_dwarf from cr_nor_avags to follow CR's change
+-- Changed THORGAR's initial enemy to wh3_dlc27_nor_avags from that northern greenskin
+
+- DEPRECIATED REMOVAL
+-- Removed Norsca challenger spawning location script since it ain't needed anymore
+-- Removed the old monster hunts script since it isn't needed anymore
+-- Removed direct hunting mentioning and script for the monster hunt as that ain't needed anymore
+-- removed the script that added vanilla RoR to Norsca. This is due to 7.0 script change
+-- Removed occupation panel hider script for Valbrand and Volrik
+
+2025/DEC/8 HKrul
+- Updated anim slots
+- Updated tables
+- Made changes to the init script that was causing script breaks due to regions changing (Thorgar)
+- Gave thorgar a different starting position
+- Gave Aelfric Cyenwulf a legendary item
+- Changed his name to Aelfric Cyenwulf instead of just Aelfric
+
+
+
+2025/NOV/14 SCM
+- Changed patrol and spawn coordinates for the Slaurith's knight
+
+2025/OCT/1 SCM
+- Added a script so that scrap upgrade cost for Torinubar would show proper color depending on the player's pooled resource amount
+
 2025/SEP/29 SCM-2
 - Now Ironwolf starts with one region when human, and his starting position has been adjusted so that he uses less space
 - Now Duriath doesn't give away land that isn't his to initial enemy when Duriath is human

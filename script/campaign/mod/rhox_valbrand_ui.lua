@@ -32,6 +32,7 @@ cm:add_first_tick_callback(
     function()
     
         if cm:get_local_faction_name(true) == valbrand_faction then
+            --[[--doesn't work anymore
             core:add_listener(
                 "rhox_firebrand_disable_vanilla_occupation_options",
                 "PanelOpenedCampaign",
@@ -56,7 +57,7 @@ cm:add_first_tick_callback(
                 end,
                 true
             )
-
+            --]]
             rhox_valbrand_god_bar_ui()
             
             

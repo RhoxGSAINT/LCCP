@@ -180,6 +180,51 @@ function rhox_torinubar_set_coven_listeners()
 end
 
 
+--------------------------------------------scrap upgrade stuff
+local function rhox_loop_and_change_cost_text_color()
+    local effects_parent = find_uicomponent(core:get_ui_root(), "units_panel_scrap_upgrades", "scrap_upgrades_parent", "list_box");
+    if effects_parent then
+        local childCount = effects_parent:ChildCount()
+        for i=1, childCount - 1  do
+            local child = UIComponent(effects_parent:Find(i))
+            if not child then
+                return
+            end
+            local scrap_component = find_uicomponent(child, "scrap_text")
+            if not scrap_component then
+                return
+            end
+            
+            local scrap_icon_component = find_uicomponent(child, "scrap_icon")
+            if not scrap_icon_component then
+                return
+            end
+            
+            local scarap_cost_text= scrap_component:GetStateText()
+            --out("Rhox Octopus check: "..scarap_cost_text)
+            local scrap_cost = tonumber(scarap_cost_text)
+            
+            
+            local image_path = scrap_icon_component:GetImagePath()
+            --out("Rhox: Torinubar check: ".. image_path)
+            local pooled_resource
+            if string.find(image_path, "rhox_torinubar_east_resource.png") then --exact match doesn't work well
+                pooled_resource = "rhox_torinubar_east"
+                --out("Rhox: Torinubar check: If clause worked fine")
+            else
+                pooled_resource = "rhox_torinubar_west"
+            end
+            
+            
+            
+            local pooled_resource_amount = cm:get_local_faction(true):pooled_resource_manager():resource(pooled_resource):value()
+            
+            if pooled_resource_amount >= scrap_cost then
+                scrap_component:SetState("positive")
+            end
+        end
+    end
+end
 
 
 
@@ -228,13 +273,12 @@ cm:add_first_tick_callback(
             )
 
             core:add_listener(
-                'rhox_lccp_torinubar_clicked_upgrade_button',
+                'rhox_lccp_clicked_button_purchase_unit_upgrades',
                 'ComponentLClickUp',
                 function(context)
                     return context.string == "button_purchase_unit_upgrades" 
                 end,
                 function(context)
-                    
                     cm:callback(
                         function()
                             local upgrade_button = find_uicomponent(core:get_ui_root(), "units_panel_scrap_upgrades", "button_upgrade");
@@ -242,6 +286,41 @@ cm:add_first_tick_callback(
                                 upgrade_button:SetVisible(true)
                                 upgrade_button:SetState("active")
                             end
+                            rhox_loop_and_change_cost_text_color()
+                        end,
+                        0.1
+                    )
+                end,
+                true
+            )
+            
+            core:add_listener(
+                'rhox_lccp_clicked_upgrade_button',
+                'ComponentLClickUp',
+                function(context)
+                    return context.string == "button_upgrade" 
+                end,
+                function(context)
+                    cm:callback(
+                        function()
+                            rhox_loop_and_change_cost_text_color()
+                        end,
+                        0.1
+                    )
+                end,
+                true
+            )
+            
+            core:add_listener(
+                'rhox_lccp_clicked_land_unit',
+                'ComponentLClickUp',
+                function(context)
+                    return string.find(context.string, "LandUnit")
+                end,
+                function(context)
+                    cm:callback(
+                        function()
+                            rhox_loop_and_change_cost_text_color()
                         end,
                         0.1
                     )

@@ -61,6 +61,58 @@ nurgle_plagues.plague_faction_info["cr_nur_tide_of_pestilence"] = {max_blessed_s
 nurgle_plagues.plague_button_unlock["cr_nur_tide_of_pestilence"] = {button_locked = true, infections_gained = 0, infections_end_of_last_turn = 200}
 
 
+-----------Norsca guys for Beorg
+table.insert(character_unlocking.character_data["beorg_bearstruck"]["override_allowed_factions"], "rhox_nor_ravenblessed")
+table.insert(character_unlocking.character_data["beorg_bearstruck"]["override_allowed_factions"], "rhox_nor_khazags")
+table.insert(character_unlocking.character_data["beorg_bearstruck"]["override_allowed_factions"], "rhox_nor_firebrand_slavers")
+table.insert(character_unlocking.character_data["beorg_bearstruck"]["override_allowed_factions"], "cr_nor_tokmars")
+table.insert(character_unlocking.character_data["caradryan"]["override_allowed_factions"], "cr_hef_gate_guards")
+
+
+-----------Norsca pillage and hunting --only add rhox prefix guys. cr guys are added by CR in the IEE
+table.insert(nor_pillaging.pillage_enabled_factions, "rhox_nor_ravenblessed")
+table.insert(nor_pillaging.pillage_enabled_factions, "rhox_nor_khazags")
+--table.insert(nor_pillaging.pillage_enabled_factions, "rhox_nor_firebrand_slavers")
+
+monster_hunt.config.ultimate_monster_hunter_rewards["rhox_nor_ravenblessed"] = {
+    incident = "wh3_dlc27_nor_become_ultimate_monster_hunter",
+    effect_bundle = "wh3_dlc27_nor_monstrous_arcanum_ultimate_hunter_reward_bundle",
+}
+monster_hunt.config.ultimate_monster_hunter_rewards["rhox_nor_khazags"] = {
+    incident = "wh3_dlc27_nor_become_ultimate_monster_hunter",
+    effect_bundle = "wh3_dlc27_nor_monstrous_arcanum_ultimate_hunter_reward_bundle",
+}
+monster_hunt.config.ultimate_monster_hunter_rewards["rhox_nor_firebrand_slavers"] = {
+    incident = "wh3_dlc27_nor_become_ultimate_monster_hunter",
+    effect_bundle = "wh3_dlc27_nor_monstrous_arcanum_ultimate_hunter_reward_bundle",
+}
+
+table.insert(monster_hunt.config.playable_monster_hunt_factions, "rhox_nor_ravenblessed")
+table.insert(monster_hunt.config.playable_monster_hunt_factions, "rhox_nor_khazags")
+table.insert(monster_hunt.config.playable_monster_hunt_factions, "rhox_nor_firebrand_slavers")
+
+monster_hunt.config.turn_to_unlock["rhox_nor_ravenblessed"] = 8
+monster_hunt.config.turn_to_unlock["rhox_nor_khazags"] = 8
+monster_hunt.config.turn_to_unlock["rhox_nor_firebrand_slavers"] = 8
+
+----Norsca dedication
+
+norscan_gods.allegiance_factions["rhox_nor_khazags"]= norscan_gods.allegiance_factions["wh_dlc08_nor_norsca"]
+norscan_gods.allegiance_factions["cr_nor_tokmars"]= norscan_gods.allegiance_factions["wh_dlc08_nor_norsca"]
+norscan_gods.allegiance_factions["rhox_nor_ravenblessed"]= {crow_dilemma_spawned = true, eagle_dilemma_spawned = false, hound_dilemma_spawned = true, serpent_dilemma_spawned = true, champion_spawned = false}
+--norscan_gods.allegiance_factions["rhox_nor_firebrand_slavers"]= {crow_dilemma_spawned = true, eagle_dilemma_spawned = true, hound_dilemma_spawned = false, serpent_dilemma_spawned = true, champion_spawned = false}--because of home_region error thing, we're manually triggering this
+norscan_gods.allegiance_factions["rhox_nor_firebrand_slavers"]= norscan_gods.allegiance_factions["wh_dlc08_nor_norsca"]
+
+norscan_gods.allegiance_advice_tracker["rhox_nor_khazags"]=norscan_gods.allegiance_advice_tracker["wh_dlc08_nor_norsca"]
+norscan_gods.allegiance_advice_tracker["cr_nor_tokmars"]=norscan_gods.allegiance_advice_tracker["wh_dlc08_nor_norsca"]
+norscan_gods.allegiance_advice_tracker["rhox_nor_ravenblessed"]=norscan_gods.allegiance_advice_tracker["wh_dlc08_nor_norsca"]
+norscan_gods.allegiance_advice_tracker["rhox_nor_firebrand_slavers"]=norscan_gods.allegiance_advice_tracker["wh_dlc08_nor_norsca"]
+
+
+nor_generic_config.altar_raise_occupation_options_display_overrides["1197046429"]="wh_main_settlement_norscaruin_khorne"
+nor_generic_config.altar_raise_occupation_options_display_overrides["1197046430"]="wh_main_settlement_norscaruin_tzeentch"
+
+
 
 cm:add_first_tick_callback(
 	function()

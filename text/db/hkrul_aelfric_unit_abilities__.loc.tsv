@@ -2,8 +2,8 @@ key	text	tooltip
 #Loc;1;text/db/hkrul_aelfric_unit_abilities__.loc		
 unit_abilities_tooltip_text_hkrul_aelfric_mark	The mark of the Iron Wolf unlocks a glimpse of the future, be it mere seconds.	true
 unit_abilities_onscreen_name_hkrul_aelfric_mark	Wolf's Mark	true
-effects_description_hkrul_aelfric_mark	Ability: "Wolf's Mark''	false
-effects_description_hkrul_aelfric_mark_trait	Ability: "Wolf's Mark''	false
+effects_description_hkrul_aelfric_mark	Passive Ability: "Wolf's Mark''	false
+effects_description_hkrul_aelfric_mark_trait	Passive Ability: "Wolf's Mark''	false
 unit_abilities_onscreen_name_hkrul_aelfric_howl	Iron Howl	true
 unit_abilities_tooltip_text_hkrul_aelfric_howl	The sound made by Aelfric as he howls is both unnatural, mindcrushing and devastating.	false
 effects_description_hkrul_aelfric_howl	Ability: "Iron Howl''	false

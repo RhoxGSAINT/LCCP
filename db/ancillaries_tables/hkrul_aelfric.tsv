@@ -2,5 +2,5 @@ key	type	applies_to	transferrable	unique_to_world	unique_to_faction	precedence	s
 #ancillaries_tables;0;db/ancillaries_tables/hkrul_aelfric																												
 hkrul_aelfric_banner	hkrul_aelfric_banner	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true		hkrul_aelfric_banner	49	1	banner	false	false	true	all
 hkrul_aelfric_holz	hkrul_aelfric_holz	.	true	false	false	1	0	9999			false	false	false	general	1	1	50	75	true			100	0	follower	false	false	true	all
-hkrul_aelfric_sword	wh_main_anc_weapon	.	false	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			100	0		false	false	true	all
+hkrul_aelfric_sword	wh_main_anc_weapon	.	true	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false	false	true	all
 hkrul_aelfric_horse	wh_main_anc_mount_chaos_steed	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	hkrul_aelfric_horse		1	0		false	false	true	all

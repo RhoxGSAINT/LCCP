@@ -51,46 +51,6 @@ core:add_listener(
 
 --unlock techs by sacking instead
 ------------------------------------------
-local rhox_norsca_region_to_tech= {
-    wh3_main_combi_region_naggarond =  "wh_dlc08_tech_nor_nw_03",
-    wh3_main_combi_region_lothern =   "wh_dlc08_tech_nor_nw_05",
-    wh3_main_combi_region_hexoatl =   "wh_dlc08_tech_nor_nw_07",
-    wh3_main_combi_region_skavenblight =  "wh_dlc08_tech_nor_nw_09",
-    wh3_main_combi_region_khemri = "wh_dlc08_tech_nor_nw_11",
-    wh3_main_combi_region_the_awakening = "wh_dlc08_tech_nor_nw_21",
-    wh3_main_combi_region_couronne =  "wh_dlc08_tech_nor_other_08",
-    wh3_main_combi_region_miragliano = "wh_dlc08_tech_nor_other_10",
-    wh3_main_combi_region_karaz_a_karak =  "wh_dlc08_tech_nor_other_12",
-    wh3_main_combi_region_altdorf = "wh_dlc08_tech_nor_other_15",
-    wh3_main_combi_region_castle_drakenhof =  "wh_dlc08_tech_nor_other_17",
-    wh3_main_combi_region_black_crag =  "wh_dlc08_tech_nor_other_19",
-    wh3_main_combi_region_great_hall_of_greasus = "wh3_main_ie_tech_nor_darklands_ogre_kingdoms_capital",
-    wh3_main_combi_region_the_oak_of_ages = "wh_dlc08_tech_nor_other_21",
-    wh3_main_combi_region_zharr_naggrund = "wh3_main_ie_tech_nor_darklands_chaos_dwarfs_capital",
-    wh3_main_combi_region_kislev = "wh3_main_ie_tech_nor_oldworld_kislev_capital",
-    wh3_main_chaos_region_kislev = "wh3_main_ie_tech_nor_oldworld_kislev_capital",
-    wh3_main_combi_region_wei_jin =  "wh3_main_ie_tech_nor_darklands_cathay_capital",
-    --TOW regions
-    
-    cr_oldworld_region_nagronath =  "wh_dlc08_tech_nor_nw_03",
-    cr_oldworld_region_elftown =   "wh_dlc08_tech_nor_nw_05",
-    cr_oldworld_region_konquata =   "wh_dlc08_tech_nor_nw_07",
-    cr_oldworld_region_skavenblight =  "wh_dlc08_tech_nor_nw_09",
-    cr_oldworld_region_khemri = "wh_dlc08_tech_nor_nw_11",
-    cr_oldworld_region_sartosa = "wh_dlc08_tech_nor_nw_21",
-    cr_oldworld_region_couronne =  "wh_dlc08_tech_nor_other_08",
-    cr_oldworld_region_miragliano = "wh_dlc08_tech_nor_other_10",
-    cr_oldworld_region_karaz_a_karak =  "wh_dlc08_tech_nor_other_12",
-    cr_oldworld_region_altdorf = "wh_dlc08_tech_nor_other_15",
-    cr_oldworld_region_castle_drakenhof =  "wh_dlc08_tech_nor_other_17",
-    cr_oldworld_region_black_crag =  "wh_dlc08_tech_nor_other_19",
-    cr_oldworld_region_giants_rocks = "wh3_main_ie_tech_nor_darklands_ogre_kingdoms_capital",
-    cr_oldworld_region_the_oak_of_ages = "wh_dlc08_tech_nor_other_21",
-    cr_oldworld_region_zharr_naggrund = "wh3_main_ie_tech_nor_darklands_chaos_dwarfs_capital",
-    cr_oldworld_region_kislev = "wh3_main_ie_tech_nor_oldworld_kislev_capital",
-    cr_oldworld_region_spice_market =  "wh3_main_ie_tech_nor_darklands_cathay_capital",
-    
-}
 
 
 
@@ -102,12 +62,31 @@ core:add_listener(
     "CharacterPerformsSettlementOccupationDecision",
     function(context)
         local region_key = context:garrison_residence():region():name()
-        return context:occupation_decision() == "1963655228" and context:character():faction():name() == "rhox_nor_firebrand_slavers" and rhox_norsca_region_to_tech[region_key]--raze for hound
+        return context:occupation_decision() == "1197046429" and context:character():faction():name() == "rhox_nor_firebrand_slavers"--raze for hound
     end,
-    function(context) 
-        local region_key = context:garrison_residence():region():name()
-        local tech_key = rhox_norsca_region_to_tech[region_key]
-        cm:unlock_technology(context:character():faction():name(), tech_key)
+    function(context)
+        local faction = context:character():faction()
+        local character_faction_name = context:character():faction():name()
+        if scripted_technology_tree.region_mapping[region_key] then--tech unlocking thing
+            local region_key = context:garrison_residence():region():name()
+            local tech_table = scripted_technology_tree.region_mapping[region_key]
+            for tech_key, detail in pairs(tech_table) do
+                if detail.culture == context:character():faction():culture() then
+                    cm:unlock_technology(context:character():faction():name(), tech_key)
+                end
+            end
+        end
+        
+        --increasing Khorne dedication
+        local current_value = cm:get_factions_bonus_value(faction, "nor_progress_hound_count")
+        --out("Rhox Valbrand: Current value "..current_value)
+        local valbarand_bundle = cm:create_new_custom_effect_bundle("rhox_valbrand_raze_count");
+        valbarand_bundle:set_duration(0);
+        valbarand_bundle:add_effect("wh3_dlc27_pooled_resource_nor_progress_hound_buildings", "faction_to_faction_own", current_value+1);
+        cm:apply_custom_effect_bundle_to_faction(valbarand_bundle, faction)
+
+        norscan_gods:update_allegiance_pooled_resources(character_faction_name)
+        norscan_gods:process_allegiance(character_faction_name)
     end,
     true
 );
@@ -275,3 +254,86 @@ function rhox_valbrand_slaves:get_army_count_raiding_region(region_interface, fa
 
 	return army_count
 end
+
+-----------------------------------spawning challenger army. because vanilla will break
+
+function norscan_gods:rhox_lccp_valbrand_spawning(target_faction_key, chaos_god)
+    local invasion_key = "invasion_"..target_faction_key.."_"..chaos_god
+	local unit_list = self:create_challenger_force(chaos_god)
+
+
+	local target_faction = cm:model():world():faction_by_key(target_faction_key)
+	local target_faction_leader = target_faction:faction_leader()
+	local target_faction_capital_key = "cr_combi_region_ihan_3_1"
+	
+	if cm:get_campaign_name() == "cr_oldworld" then
+        target_faction_capital_key= cr_oldworld_region_monolith_of_valbrand_fireblade
+	end
+
+	local x,y
+	local challenger_spawn_distance_min = cm:campaign_var_int_value(self.challenger_spawn_distance_min_key)
+	local challenger_spawn_distance_max = cm:campaign_var_int_value(self.challenger_spawn_distance_max_key)
+	local challenger_spawn_distance = cm:random_number(challenger_spawn_distance_max, challenger_spawn_distance_min)
+	if target_faction_leader:is_null_interface() == false and target_faction_leader:has_military_force() == true and target_faction_leader:has_region() then
+		x, y = cm:find_valid_spawn_location_for_character_from_character(target_faction_key, cm:char_lookup_str(target_faction_leader), false, challenger_spawn_distance)
+	else
+		x,y = cm:find_valid_spawn_location_for_character_from_settlement(target_faction_key, target_faction_capital_key, false, true, challenger_spawn_distance)
+	end
+	local coordinates = {x, y}	
+	local challenger_invasion = invasion_manager:new_invasion(invasion_key, self.challenger_faction_prefix..chaos_god, unit_list, coordinates)
+
+	if not cm:is_multiplayer() then
+		if target_faction:is_null_interface() == false and target_faction:has_faction_leader() == true then
+			if target_faction_leader:is_null_interface() == false and target_faction_leader:has_military_force() == true then
+				local target_faction_leader_cqi = target_faction_leader:command_queue_index()
+				challenger_invasion:set_target("CHARACTER", target_faction_leader_cqi, target_faction_key)
+			else
+				challenger_invasion:set_target("NONE", nil, target_faction_key)
+			end
+		end
+		
+		-- Add army XP based on difficulty in SP
+		local difficulty = cm:model():difficulty_level()
+		
+		if difficulty == -1 then
+			-- Hard
+			challenger_invasion:add_unit_experience(1)
+		elseif difficulty == -2 then
+			-- Very Hard
+			challenger_invasion:add_unit_experience(2)
+		elseif difficulty == -3 then
+			-- Legendary
+			challenger_invasion:add_unit_experience(3)
+		end
+	end
+	
+	-- Set up the General
+	local challenger_details = self.challenger_details
+	challenger_invasion:create_general(false, challenger_details[chaos_god].agent_subtype, challenger_details[chaos_god].forename, challenger_details[chaos_god].clan_name, challenger_details[chaos_god].family_name, challenger_details[chaos_god].other_name)
+	challenger_invasion:add_character_experience(30, true) -- Level 30
+	challenger_invasion:apply_effect(challenger_details[chaos_god].effect_bundle, -1)
+	challenger_invasion:start_invasion(true, true, false, false)
+end
+
+
+
+core:add_listener(
+    "RhoxLCCPChampion_DilemmaChoiceMadeEvent_valbrand_reject",
+    "DilemmaChoiceMadeEvent",
+    function(context)
+        return context:dilemma()== norscan_gods.dilemma_key_prefix.."hound" and context:faction():name()=="rhox_nor_firebrand_slavers" and context:choice() == 1
+    end,
+    function(context)
+        out("Rhox Valbrand check 1")
+        local faction_name = context:faction():name()
+        local dilemma= context:dilemma()
+        local choice = context:choice()
+        
+        for chaos_god, _ in dpairs(norscan_gods.rivalry_conversion_table) do
+            norscan_gods:rhox_lccp_valbrand_spawning(faction_name, chaos_god)
+        end
+        norscan_gods:destroy_challenger_forces_mission(faction_name)
+        out("Rhox Valbrand check 2")
+    end,
+    true
+)

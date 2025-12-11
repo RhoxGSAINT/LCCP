@@ -34,7 +34,7 @@ cm:add_first_tick_callback(
         if cm:get_local_faction_name(true) == volrik_faction then
             local parent_ui = find_uicomponent(core:get_ui_root(), "hud_campaign", "resources_bar_holder", "resources_bar");
             local result = core:get_or_create_component("rhox_volrik_grimoire_holder", "ui/campaign ui/rhox_volrik_grimoire_holder.twui.xml", parent_ui)
-            
+            --[[
             core:add_listener(
                 "rhox_volrik_disable_occupation_options",
                 "PanelOpenedCampaign",
@@ -59,7 +59,7 @@ cm:add_first_tick_callback(
                 end,
                 true
             )
-            
+            --]]
             rhox_volrik_god_bar_ui()
             
             

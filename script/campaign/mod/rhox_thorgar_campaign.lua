@@ -179,7 +179,7 @@ core:add_listener(
             -- faction_key, unit_list, region_key, x, y, agent_type, agent_subtype, forename, clan_name, family_name, other_name, id, make_faction_leader, success_callback
             faction_key,
             "",
-            "cr_combi_region_khazags_khural",--doesn't matter
+            "cr_combi_region_tokmars_encampment",--doesn't matter
             x,
             y,
             "general",

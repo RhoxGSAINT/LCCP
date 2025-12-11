@@ -1,3 +1,5 @@
 key	text	tooltip
 #Loc;1;text/db/rhox_iee_lccp_occupation.loc		
 culture_settlement_occupation_options_tooltip_1197046428	Tribute to Archaon||Archaon will be pleased	false
+culture_settlement_occupation_options_tooltip_1197046429	Raze for the Hound||You raze this region and erect a monument to the Great Hound.	false
+culture_settlement_occupation_options_tooltip_1197046430	Raise Altar – Eagle||Pillage and raze this region while erecting an Altar to the Great Eagle.\\n\\nAttaining allegiance to this God will reward you with powerful benefits, potentially allowing access to a mighty Lord of Change, [[img:icon_god_eagle]][[/img]][[col:yellow]]Azrik the Maze Keeper[[/col]], who can be recruited to fight for your faction.\\n\\n{{tr:ui_text_replacements_localised_text_wh3_dlc27_nor_allegiance_altar_landmark_limitation}}	false

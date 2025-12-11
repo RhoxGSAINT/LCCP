@@ -1,35 +1,35 @@
-art_set_id	agent_type	culture	subculture	faction	is_custom	is_male	agent_subtype	campaign_map_scale
-#campaign_character_art_sets_tables;6;db/campaign_character_art_sets_tables/rhox_iee_lccp								
-rhox_valbrand_art_set_nor_marauder_chieftain_01	general				false	true	rhox_valbrand_nor_marauder_chieftain_horde	1.0000
-rhox_valbrand_art_set_nor_marauder_chieftain_02	general				false	true	rhox_valbrand_nor_marauder_chieftain_horde	1.0000
-rhox_valbrand_art_set_nor_marauder_chieftain_03	general				false	true	rhox_valbrand_nor_marauder_chieftain_horde	1.0000
-rhox_valbrand_art_set_nor_marauder_chieftain_04	general				false	true	rhox_valbrand_nor_marauder_chieftain_horde	1.0000
-rhox_volrik_art_set_chs_sorcerer_lord_tzeentch_mtze_01	general				false	true	rhox_volrik_chs_sorcerer_lord_tzeentch_mtze	1.0000
-rhox_volrik_art_set_chs_sorcerer_lord_tzeentch_mtze_02	general				false	true	rhox_volrik_chs_sorcerer_lord_tzeentch_mtze	1.0000
-rhox_volrik_art_set_chs_sorcerer_lord_tzeentch_mtze_03	general				false	true	rhox_volrik_chs_sorcerer_lord_tzeentch_mtze	1.0000
-rhox_volrik_art_set_chs_sorcerer_lord_tzeentch_mtze_04	general				false	true	rhox_volrik_chs_sorcerer_lord_tzeentch_mtze	1.0000
-rhox_volrik_art_set_chs_sorcerer_lord_tzeentch_mtze_05	general				false	true	rhox_volrik_chs_sorcerer_lord_tzeentch_mtze	1.0000
-rhox_torinubar_convoy_01	general				false	true	rhox_torinubar_convoy	1.0000
-rhox_torinubar_convoy_02	general				false	true	rhox_torinubar_convoy	1.0000
-rhox_torinubar_convoy_03	general				false	true	rhox_torinubar_convoy	1.0000
-rhox_torinubar_convoy_04	general				false	true	rhox_torinubar_convoy	1.0000
-rhox_hrothyogg_recruiter	wizard				false	true	rhox_hrothyogg_recruiter	0.8500
-rhox_dolmance_art_set_chs_sorcerer_slaanesh_msla_01	wizard				false	false	wh3_dlc20_chs_sorcerer_slaanesh_msla	1.0000
-rhox_dolmance_art_set_chs_sorcerer_slaanesh_msla_02	wizard				false	false	wh3_dlc20_chs_sorcerer_slaanesh_msla	1.0000
-rhox_dolmance_art_set_chs_sorcerer_slaanesh_msla_03	wizard				false	false	wh3_dlc20_chs_sorcerer_slaanesh_msla	1.0000
-rhox_dolmance_art_set_chs_sorcerer_slaanesh_msla_04	wizard				false	false	wh3_dlc20_chs_sorcerer_slaanesh_msla	1.0000
-rhox_dolmance_art_set_chs_sorcerer_slaanesh_msla_05	wizard				false	false	wh3_dlc20_chs_sorcerer_slaanesh_msla	1.0000
-rhox_dolmance_art_set_chs_sorcerer_shadows_msla_01	wizard				false	false	wh3_dlc20_chs_sorcerer_shadows_msla	1.0000
-rhox_dolmance_art_set_chs_sorcerer_shadows_msla_02	wizard				false	false	wh3_dlc20_chs_sorcerer_shadows_msla	1.0000
-rhox_dolmance_art_set_chs_sorcerer_shadows_msla_03	wizard				false	false	wh3_dlc20_chs_sorcerer_shadows_msla	1.0000
-rhox_dolmance_art_set_chs_sorcerer_shadows_msla_04	wizard				false	false	wh3_dlc20_chs_sorcerer_shadows_msla	1.0000
-rhox_dolmance_art_set_chs_sorcerer_shadows_msla_05	wizard				false	false	wh3_dlc20_chs_sorcerer_shadows_msla	1.0000
-hkrul_rhobb	champion				false	true	hkrul_rhobb	1.0200
-hkrul_thulgrim	champion				false	true	hkrul_thulgrim	1.0400
-hkrul_shaz	champion				false	true	hkrul_shaz	1.0000
-rhox_lccp_sceolan_wef_spellweaver_ice	general				false	true	rhox_lccp_sceolan_wef_spellweaver_ice	1.0000
-rhox_lccp_sceolan_wef_spellsinger_ice	wizard				false	false	rhox_lccp_sceolan_wef_spellsinger_ice	1.0000
-rhox_lccp_sceolan_wef_spellsinger_ice_2	wizard				false	false	rhox_lccp_sceolan_wef_spellsinger_ice	1.0000
-hkrul_gargul	engineer				false	true	hkrul_gargul	1.0200
-hkrul_wundal	champion				false	true	hkrul_wundal	1.0400
-hkrul_skargel	champion				false	true	hkrul_skargel	1.0000
+art_set_id	agent_type	culture	subculture	faction	is_custom	is_male	agent_subtype	campaign_map_scale	prebattle_separation_offset
+#campaign_character_art_sets_tables;7;db/campaign_character_art_sets_tables/rhox_iee_lccp									
+rhox_valbrand_art_set_nor_marauder_chieftain_01	general				false	true	rhox_valbrand_nor_marauder_chieftain_horde	1.0000	0.0000
+rhox_valbrand_art_set_nor_marauder_chieftain_02	general				false	true	rhox_valbrand_nor_marauder_chieftain_horde	1.0000	0.0000
+rhox_valbrand_art_set_nor_marauder_chieftain_03	general				false	true	rhox_valbrand_nor_marauder_chieftain_horde	1.0000	0.0000
+rhox_valbrand_art_set_nor_marauder_chieftain_04	general				false	true	rhox_valbrand_nor_marauder_chieftain_horde	1.0000	0.0000
+rhox_volrik_art_set_chs_sorcerer_lord_tzeentch_mtze_01	general				false	true	rhox_volrik_chs_sorcerer_lord_tzeentch_mtze	1.0000	0.0000
+rhox_volrik_art_set_chs_sorcerer_lord_tzeentch_mtze_02	general				false	true	rhox_volrik_chs_sorcerer_lord_tzeentch_mtze	1.0000	0.0000
+rhox_volrik_art_set_chs_sorcerer_lord_tzeentch_mtze_03	general				false	true	rhox_volrik_chs_sorcerer_lord_tzeentch_mtze	1.0000	0.0000
+rhox_volrik_art_set_chs_sorcerer_lord_tzeentch_mtze_04	general				false	true	rhox_volrik_chs_sorcerer_lord_tzeentch_mtze	1.0000	0.0000
+rhox_volrik_art_set_chs_sorcerer_lord_tzeentch_mtze_05	general				false	true	rhox_volrik_chs_sorcerer_lord_tzeentch_mtze	1.0000	0.0000
+rhox_torinubar_convoy_01	general				false	true	rhox_torinubar_convoy	1.0000	0.0000
+rhox_torinubar_convoy_02	general				false	true	rhox_torinubar_convoy	1.0000	0.0000
+rhox_torinubar_convoy_03	general				false	true	rhox_torinubar_convoy	1.0000	0.0000
+rhox_torinubar_convoy_04	general				false	true	rhox_torinubar_convoy	1.0000	0.0000
+rhox_hrothyogg_recruiter	wizard				false	true	rhox_hrothyogg_recruiter	0.8500	0.0000
+rhox_dolmance_art_set_chs_sorcerer_slaanesh_msla_01	wizard				false	false	wh3_dlc20_chs_sorcerer_slaanesh_msla	1.0000	0.0000
+rhox_dolmance_art_set_chs_sorcerer_slaanesh_msla_02	wizard				false	false	wh3_dlc20_chs_sorcerer_slaanesh_msla	1.0000	0.0000
+rhox_dolmance_art_set_chs_sorcerer_slaanesh_msla_03	wizard				false	false	wh3_dlc20_chs_sorcerer_slaanesh_msla	1.0000	0.0000
+rhox_dolmance_art_set_chs_sorcerer_slaanesh_msla_04	wizard				false	false	wh3_dlc20_chs_sorcerer_slaanesh_msla	1.0000	0.0000
+rhox_dolmance_art_set_chs_sorcerer_slaanesh_msla_05	wizard				false	false	wh3_dlc20_chs_sorcerer_slaanesh_msla	1.0000	0.0000
+rhox_dolmance_art_set_chs_sorcerer_shadows_msla_01	wizard				false	false	wh3_dlc20_chs_sorcerer_shadows_msla	1.0000	0.0000
+rhox_dolmance_art_set_chs_sorcerer_shadows_msla_02	wizard				false	false	wh3_dlc20_chs_sorcerer_shadows_msla	1.0000	0.0000
+rhox_dolmance_art_set_chs_sorcerer_shadows_msla_03	wizard				false	false	wh3_dlc20_chs_sorcerer_shadows_msla	1.0000	0.0000
+rhox_dolmance_art_set_chs_sorcerer_shadows_msla_04	wizard				false	false	wh3_dlc20_chs_sorcerer_shadows_msla	1.0000	0.0000
+rhox_dolmance_art_set_chs_sorcerer_shadows_msla_05	wizard				false	false	wh3_dlc20_chs_sorcerer_shadows_msla	1.0000	0.0000
+hkrul_rhobb	champion				false	true	hkrul_rhobb	1.0200	0.0000
+hkrul_thulgrim	champion				false	true	hkrul_thulgrim	1.0400	0.0000
+hkrul_shaz	champion				false	true	hkrul_shaz	1.0000	0.0000
+rhox_lccp_sceolan_wef_spellweaver_ice	general				false	true	rhox_lccp_sceolan_wef_spellweaver_ice	1.0000	0.0000
+rhox_lccp_sceolan_wef_spellsinger_ice	wizard				false	false	rhox_lccp_sceolan_wef_spellsinger_ice	1.0000	0.0000
+rhox_lccp_sceolan_wef_spellsinger_ice_2	wizard				false	false	rhox_lccp_sceolan_wef_spellsinger_ice	1.0000	0.0000
+hkrul_gargul	engineer				false	true	hkrul_gargul	1.0200	0.0000
+hkrul_wundal	champion				false	true	hkrul_wundal	1.0400	0.0000
+hkrul_skargel	champion				false	true	hkrul_skargel	1.0000	0.0000

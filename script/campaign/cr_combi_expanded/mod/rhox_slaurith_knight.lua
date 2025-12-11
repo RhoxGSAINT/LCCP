@@ -31,10 +31,10 @@ rhox_slaurith_book_objective_list_faction = {
     {objective = "CAPTURE_REGIONS", target = "cr_combi_region_suryapuri"},
     {objective = "CAPTURE_REGIONS", target = "cr_combi_region_gates_of_calith_1"},
     {objective = "CAPTURE_REGIONS", target = "cr_combi_region_elithis_1_2"},
-    {objective = "ENGAGE_FORCE", target = "wh2_dlc09_rogue_black_creek_raiders", pos = {x = 1345, y = 156}, patrol = {{x = 1339, y = 188}, {x = 1355, y = 219}, {x = 1345, y = 156}}},
+    {objective = "ENGAGE_FORCE", target = "wh2_dlc09_rogue_black_creek_raiders", pos = {x = 1350, y = 147}, patrol = {{x = 1325, y = 128}, {x = 1367, y = 153}, {x = 1350, y = 1147}}},
     {objective = "ENGAGE_FORCE", target = "wh2_dlc09_rogue_eyes_of_the_jungle", pos = {x = 1045, y = 152}, patrol = {{x = 1030, y = 123}, {x = 998, y = 132}, {x = 1045, y = 152}}},
-    {objective = "ENGAGE_FORCE", target = "wh2_dlc09_rogue_dwellers_of_zardok", pos = {x = 1271, y = 791}, patrol = {{x = 1266, y = 753}, {x = 1319, y = 737}, {x = 1271, y = 791}}},
-    {objective = "ENGAGE_FORCE", target = "wh2_dlc09_rogue_pilgrims_of_myrmidia", pos = {x = 1436, y = 604}, patrol = {{x = 1461, y = 656}, {x = 1411, y = 634}, {x = 158, y = 572}, {x = 1436, y = 604}}}
+    {objective = "ENGAGE_FORCE", target = "wh2_dlc09_rogue_dwellers_of_zardok", pos = {x = 1270, y = 776}, patrol = {{x = 1272, y = 750}, {x = 1303, y = 782}, {x = 1270, y = 776}}},
+    {objective = "ENGAGE_FORCE", target = "wh2_dlc09_rogue_pilgrims_of_myrmidia", pos = {x = 1436, y = 604}, patrol = {{x = 1433, y = 568}, {x = 1407, y = 552}, {x = 1403, y = 595}, {x = 1436, y = 604}}}
 };
 
 

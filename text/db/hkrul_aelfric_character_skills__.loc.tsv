@@ -22,10 +22,10 @@ unit_abilities_onscreen_name_hkrul_aelfric_helm		false
 unit_abilities_tooltip_text_hkrul_aelfric_helm		false
 unit_abilities_onscreen_name_hkrul_aelfric_pal		false
 unit_abilities_tooltip_text_hkrul_aelfric_pal		false
-unit_abilities_onscreen_name_hkrul_aelfric_sword		false
-unit_abilities_tooltip_text_hkrul_aelfric_sword		false
+unit_abilities_onscreen_name_hkrul_aelfric_sword	Faithrend	false
+unit_abilities_tooltip_text_hkrul_aelfric_sword	A blade handed down by his forefathers, now wielded only in righteous condemnation.	false
 effects_description_hkrul_aelfric_helm		false
-effects_description_hkrul_aelfric_sword		false
+effects_description_hkrul_aelfric_sword	Passive Ability: "Faithrend''	false
 effects_description_hkrul_aelfric_pal		false
 effect_bundles_localised_description_hkrul_aelfric_banner		false
 character_skills_localised_description_hkrul_aelfric_horse	The dread steeds of Chaos are more than mere horses, but creatures tainted by Daemon blood, said to be gifts from the Dark Gods themselves.	false
