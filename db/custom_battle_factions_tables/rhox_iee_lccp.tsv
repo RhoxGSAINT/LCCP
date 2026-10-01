@@ -1,6 +1,5 @@
 faction_key	sort_order	culture_sort_order
 #custom_battle_factions_tables;1;db/custom_battle_factions_tables/rhox_iee_lccp		
-cr_brt_leofrics_fellowship	300	10
 cr_def_corsairs_of_spite	301	40
 cr_dwf_firebeards_excavators	302	50
 cr_hef_gate_guards	303	80

@@ -11,7 +11,6 @@ character_unlocking.character_data["karanak"]["starting_mission_keys"]["rhox_nor
 table.insert(character_unlocking.character_data["karanak"]["mission_chain_keys"]["main_warhammer"], "rhox_iee_lccp_mis_ie_valbrand_karanak_unlock_01")
 table.insert(character_unlocking.character_data["karanak"]["missions_to_trigger_dilemma"]["main_warhammer"], "rhox_iee_lccp_mis_ie_valbrand_karanak_unlock_01")
 
-table.insert(character_unlocking.character_data["skarr"]["override_allowed_factions"], "cr_kho_servants_of_the_blood_nagas")
 table.insert(character_unlocking.character_data["skarr"]["override_allowed_factions"], "rhox_nor_firebrand_slavers")
 
 
@@ -28,10 +27,41 @@ table.insert(character_unlocking.character_data["beorg_bearstruck"]["override_al
 
 table.insert(nor_pillaging.pillage_enabled_factions, "rhox_nor_khazags")--add only rhox guys. IEE faction on the board are added by IEE, do not add for Valbrand
 
+----Norsca dedication
+RHOX_LCCP_SPECIAL_FACTIONS={
+    rhox_nor_firebrand_slavers="khorne",
+}
+for faction_key, god in pairs(RHOX_LCCP_SPECIAL_FACTIONS) do
+    if god ~= "nurgle" then
+        character_unlocking.character_data["gutrot_spume"].factions_involved[faction_key] = true
+    end
+    if MIXER_SPECIAL_DEDICATED_NORSCA then
+        MIXER_SPECIAL_DEDICATED_NORSCA[faction_key]=true
+    end
+end
+
+----------Engra
+table.insert(character_unlocking.character_data["aekold"]["override_allowed_factions"]["main_warhammer"], "rhox_chs_the_deathswords")
+character_unlocking.character_data["aekold"]["starting_mission_keys"]["rhox_chs_the_deathswords"]={}
+character_unlocking.character_data["aekold"]["starting_mission_keys"]["rhox_chs_the_deathswords"]["main_warhammer"]="wh3_dlc24_mis_ie_tze_aekold_helbrass_stage_1_chs"
+
+table.insert(character_unlocking.character_data["scribes"]["override_allowed_factions"]["main_warhammer"], "rhox_chs_the_deathswords")
+character_unlocking.character_data["scribes"]["starting_mission_keys"]["rhox_chs_the_deathswords"]={}
+character_unlocking.character_data["scribes"]["starting_mission_keys"]["rhox_chs_the_deathswords"]["main_warhammer"]="wh3_dlc24_mis_tze_blue_scribes_stage_1_chs"
+
+table.insert(character_unlocking.character_data["karanak"]["override_allowed_factions"]["main_warhammer"], "rhox_chs_the_deathswords")
+character_unlocking.character_data["karanak"]["starting_mission_keys"]["rhox_chs_the_deathswords"]={}
+character_unlocking.character_data["karanak"]["starting_mission_keys"]["rhox_chs_the_deathswords"]["main_warhammer"] ="wh3_pro12_mis_ie_chs_karanak_unlock_01"
+
+
+table.insert(character_unlocking.character_data["skarr"]["override_allowed_factions"], "rhox_chs_the_deathswords")
+table.insert(character_unlocking.character_data["scyla"]["override_allowed_factions"], "rhox_chs_the_deathswords")
+
 
 -----------Nurgle Plague
 nurgle_plagues.plague_faction_info["cr_nur_tide_of_pestilence"] = {max_blessed_symptoms = 1, current_symptoms_list = {}, plague_creation_counter = 3}
 nurgle_plagues.plague_button_unlock["cr_nur_tide_of_pestilence"] = {button_locked = true, infections_gained = 0, infections_end_of_last_turn = 200}
+
 
 
 cm:add_first_tick_callback(
@@ -44,6 +74,7 @@ cm:add_first_tick_callback(
 		campaign_traits.legendary_lord_defeated_traits["hkrul_thorgar"] ="hkrul_defeated_trait_thorgar"
 		campaign_traits.legendary_lord_defeated_traits["hkrul_slaurith"] ="hkrul_defeated_trait_slaurith"
         campaign_traits.legendary_lord_defeated_traits["hkrul_vroth"] ="hkrul_defeated_trait_vroth"
+        campaign_traits.legendary_lord_defeated_traits["hkrul_engra"] ="hkrul_defeated_trait_engra"
 	end
 )
 

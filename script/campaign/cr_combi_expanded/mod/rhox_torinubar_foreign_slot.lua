@@ -19,10 +19,10 @@ local order_cultures={
 
 
 local eastern_regions={
-	["cr_combi_region_nippon_3_1"]				= true,
+	["cr_combi_region_nippon_1_1"]				= true,
 	["cr_combi_region_somnagiri"]					= true,
 	["wh3_main_combi_region_dai_cheng"]			= true,
-	["cr_combi_region_ihan_3_1"]				= true,
+	["cr_combi_region_doryang"]				= true,
 	["wh3_main_combi_region_fu_chow"]			= true,
 	["wh3_main_combi_region_beichai"]			= true,
 	["wh3_main_combi_region_haichai"]			= true
@@ -88,98 +88,6 @@ function rhox_torinubar_build_or_upgrade_foreign(region, region_owner)
 end
 
 
-
-
-
-
-
-
-
-
-----------------------------things for cove visibility 
-
-
-
-local function coven_visibility()
-    --- get UI components
-    local settlement_list = find_uicomponent(core:get_ui_root(), "settlement_panel", "settlement_list")
-    if not settlement_list then
-        return
-    end
-    local childCount = settlement_list:ChildCount()
-    
-    --- Turn on visibility in every settlement
-    for i=1, childCount - 1  do
-        local child = UIComponent(settlement_list:Find(i))
-        if not child then
-            return
-        end
-        local foreign_building = find_uicomponent(child, "settlement_view", "hostile_views", "wh3_daemon_factions")
-		if foreign_building then
-        	foreign_building:SetVisible(true)
-		end
-    end
-end
-
-
-function rhox_torinubar_set_coven_listeners()
-    core:add_listener(
-        "rhox_torinubar_settlement_panel",
-        "SettlementSelected",
-        true,
-        function(context)
-            core:get_tm():real_callback(function()
-                coven_visibility()
-            end, 1)
-                
-            
-        end,
-        true
-    )
-    
-    core:add_listener(
-        "rhox_torinubar_expand_slot",
-        "ComponentLClickUp",
-        function (context)
-            return context.string == "button_expand_slot"
-        end,
-        function()
-            core:get_tm():real_callback(function()
-                coven_visibility()
-            end, 100)
-        end,
-        true
-    )
-    core:add_listener(
-        "rhox_torinubar_building",
-        "ComponentLClickUp",
-        function (context)
-            return context.string == "square_building_button"
-        end,
-        function()
-            core:get_tm():real_callback(function()
-                coven_visibility()
-            end, 100)
-        end,
-        true
-    )
-    
-    core:add_listener(
-        "rhox_torinubar_razing",
-        "ComponentLClickUp",
-        function (context)
-            return context.string == "button_raze"
-        end,
-        function()
-            core:get_tm():real_callback(function()
-                coven_visibility()
-            end, 100)
-        end,
-        true
-    )
-end
-
-
 --------------------------------------------scrap upgrade stuff
 local function rhox_loop_and_change_cost_text_color()
     local effects_parent = find_uicomponent(core:get_ui_root(), "units_panel_scrap_upgrades", "scrap_upgrades_parent", "list_box");
@@ -231,7 +139,6 @@ end
 cm:add_first_tick_callback(
 	function()		
 		if cm:get_local_faction_name(true) == torinubar_faction then
-            rhox_torinubar_set_coven_listeners()
             core:add_listener(
 				"rhox_lccp_CharacterSelected_scrap_upgrade_button_shower",
 				"CharacterSelected",

@@ -4,10 +4,10 @@ rhox_torinubar_start	1287	67		1	0
 rhox_torinubar_network_dai_cheng	1366	384	rhox_torinubar_east	1	10
 rhox_torinubar_network_beichai	1356	557	rhox_torinubar_east	1	10
 rhox_torinubar_network_haichai	1348	620	rhox_torinubar_east	1	10
-rhox_torinubar_network_busan	1440	589	rhox_torinubar_east	1	10
+rhox_torinubar_network_busan	1450	580	rhox_torinubar_east	1	10
 rhox_torinubar_network_north_nippon_sea	1420	286		1	0
-rhox_torinubar_network_south_nippon_sea	1460	186		1	0
-rhox_torinubar_network_palace_of_devine_sun	1478	215	rhox_torinubar_east	1	10
+rhox_torinubar_network_south_nippon_sea	1443	182		1	0
+rhox_torinubar_network_palace_of_devine_sun	1541	195	rhox_torinubar_east	1	10
 rhox_torinubar_network_malay_sea	1379	75		1	0
 rhox_torinubar_network_calis_sea	1284	60		1	0
 rhox_torinubar_network_the_jade_sea	1406	399		1	0

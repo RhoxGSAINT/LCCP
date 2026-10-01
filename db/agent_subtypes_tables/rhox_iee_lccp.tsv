@@ -12,3 +12,6 @@ rhox_lccp_sceolan_wef_spellsinger_ice	true	true	ui/campaign ui/Agents/wh3_main_l
 hkrul_gargul	false	false		hkrul_gargul	wh_main_vo_actor_Dwarf_MasterEngineer	true	-1	false	true	false	true				false	true	cannot_be_loaded_in_campaign		false	true	1100			false
 hkrul_wundal	false	false		hkrul_wundal	wh_main_vo_actor_Dwarf_RuneSmith	true	-1	false	true	false	true				false	true	cannot_be_loaded_in_campaign		false	true	1100			false
 hkrul_skargel	false	false		hkrul_skargel	wh_main_vo_actor_Dwarf_Thane	true	-1	false	true	false	true				false	true	cannot_be_loaded_in_campaign		false	true	1100			false
+wh3_dlc26_ogr_golgfag	false	false		wh3_dlc26_ogr_cha_golgfag_maneater	wh3_main_vo_actor_Ogres_Skrag_the_Slaughterer	true	-1	false	true	false	true	legendary_lords			false	true	cannot_be_loaded_in_campaign	wh3_main_vo_culture_Ogres	false	true	1234			false
+wh3_dlc26_ogr_golgfag_maneater	false	false		wh3_dlc26_ogr_cha_golgfag_maneater	wh3_dlc26_vo_actor_Ogres_Golgfag_Maneater	true	-1	false	true	false	true	legendary_lords			false	true	cannot_be_loaded_in_campaign	wh3_main_vo_culture_Ogres	false	true	1000			false
+wh3_dlc26_ogr_golgfag_maneater_placeholder	false	false			wh3_dlc26_vo_actor_Ogres_Golgfag_Maneater	true	-1	false	true	false	true	legendary_lords			false	false	cannot_be_loaded_in_campaign	wh3_main_vo_culture_Ogres	false	false	0			false

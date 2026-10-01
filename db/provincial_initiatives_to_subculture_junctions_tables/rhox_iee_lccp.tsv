@@ -3,3 +3,8 @@ provincial_initiative_key	subculture	province	faction	always_include
 wh3_dlc20_edict_woc_exploit_vassals			rhox_chs_the_deathswords	false
 wh3_dlc20_edict_woc_portent_of_doom			rhox_chs_the_deathswords	false
 wh3_main_edict_dae_foster_cults			rhox_chs_the_deathswords	false
+wh2_main_edict_hef_banish_corruption			cr_hef_gate_guards	false
+wh2_main_edict_hef_rally_citizen_militia			cr_hef_gate_guards	false
+wh2_main_edict_hef_reaver_patrols			cr_hef_gate_guards	false
+wh2_main_edict_hef_rebuild_lost_splendour			cr_hef_gate_guards	false
+wh2_main_edict_hef_tribute_for_the_king			cr_hef_gate_guards	false

@@ -21,3 +21,6 @@ id	mission_key	payload_key	status_key	value	target_key
 200006575	rhox_spew_tow_survival_mission	FACTION_POOLED_RESOURCE_TRANSACTION	SUCCESS	RESOURCE[wh3_main_nur_infections];FACTOR[wh3_main_nur_infections_factor_incubated_captives];AMOUNT[100];CONTEXT[absolute]	default
 200006576	rhox_spew_tow_survival_mission	TREASURY	SUCCESS	AMOUNT[5000]	default
 200006577	rhox_spew_tow_survival_mission	ADD_ANCILLARY	SUCCESS	RANDOM_ANCILLARY;TARGET_OWNING_FACTION	default
+200006578	hkrul_engra_praag	TREASURY	SUCCESS	AMOUNT[12500]	default
+200006579	hkrul_engra_praag	ADD_ANCILLARY	SUCCESS	ANCILLARY_KEY[hkrul_engra_sword]	default
+200006580	hkrul_engra_praag	EFFECT_BUNDLE	SUCCESS	KEY[wh3_dlc20_payload_effect_casualty_replenishment];DURATION[2]	default

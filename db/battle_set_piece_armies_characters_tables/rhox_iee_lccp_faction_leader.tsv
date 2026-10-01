@@ -12,8 +12,9 @@ hkrul_burlok	1	2147343937		100	2147343940	hkrul_burlok	general	hkrul_burlok	ui/p
 hkrul_dolmance	1	2147343937		100	2147343940	hkrul_dolmance	general	hkrul_dolmance	ui/portraits/portholes/no_culture/hkrul_dolmance.png	672250340		true
 hkrul_thorgar	1	2147343937		100	2147343940	hkrul_thorgar	general	hkrul_thorgar	ui/portraits/portholes/no_culture/hkrul_thorgar.png	672250341		true
 hkrul_slaurith	1	466124000		100	2147360732	hkrul_slaurith	general	hkrul_slaurith	ui/portraits/portholes/no_culture/hkrul_slaurith.png	672250338		true
-hkrul_engra	1	2147343937		100	2147343940	hkrul_engra	general	hkrul_engra	ui/portraits/portholes/no_culture/hkrul_engra.png	672250343		true
+hkrul_engra	1	5670700325		100	5670700324	hkrul_engra	general	hkrul_engra	ui/portraits/portholes/no_culture/hkrul_engra.png	672250343		true
 hkrul_arbaal	1	2147343937		100	2147343940	hkrul_arbaal_mounted	general	hkrul_arbaal	ui/portraits/portholes/no_culture/hkrul_arbaal.png	672250342		true
 hkrul_vroth	1	2147343937		100	2147343940	hkrul_vroth	general	hkrul_vroth	ui/portraits/portholes/no_culture/hkrul_vroth.png	672250344		true
 hkrul_karitamen	1	2147343937		100	2147343940	hkrul_vroth	general	hkrul_karitamen	ui/portraits/portholes/no_culture/hkrul_karitamen.png	672250345		true
 hkrul_duriath	1	2147343937		100	2147343940	hkrul_vroth	general	hkrul_duriath	ui/portraits/portholes/no_culture/hkrul_duriath.png	672250347		true
+hkrul_engra_cb	19	5670700325		100	5670700324	hkrul_engra_horse	general	hkrul_engra	ui/portraits/portholes/no_culture/hkrul_engra.png	672250343		true

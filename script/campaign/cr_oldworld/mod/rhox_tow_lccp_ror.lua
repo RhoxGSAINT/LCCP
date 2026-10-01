@@ -40,7 +40,7 @@ cm:add_first_tick_callback_new(
         for i = 0, all_factions:num_items()-1 do
             local faction = all_factions:item_at(i);
             if faction:culture() == "wh_main_vmp_vampire_counts" then
-                cm:add_unit_to_faction_mercenary_pool(faction, "rhox_lccp_vmp_giant", "renown", 1, 20, 1, 0.1, "", "", "", true, "rhox_lccp_vmp_giant")
+                cm:add_unit_to_faction_mercenary_pool(faction, "rhox_lccp_vmp_giant", "wh3_main_regiments_of_renown_pool", 1, 20, 1, 0.1, "", "", "", true, "rhox_lccp_vmp_giant")
                 if faction:name() ~= "cr_vmp_the_everliving" then
                     cm:add_event_restricted_unit_record_for_faction("rhox_lccp_vmp_giant", faction:name(), "rhox_lccp_vmp_giant_lock")
                 end
@@ -48,7 +48,6 @@ cm:add_first_tick_callback_new(
         end;
     end
 )
-
 
 
 

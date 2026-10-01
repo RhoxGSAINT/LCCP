@@ -1,6 +1,5 @@
 member	climate
 #campaign_group_member_criteria_climates_tables;0;db/campaign_group_member_criteria_climates_tables/rhox_iee_lccp	
-rhox_torinubar_jungle_climate	climate_jungle
 rhox_dolmance_jungle	climate_jungle
 rhox_zach_jungle	climate_jungle
 rhox_zach_mountain	climate_mountain
@@ -14,3 +13,6 @@ rhox_slaurith_jungle	climate_jungle
 rhox_hroth_savannah	climate_savannah
 rhox_arbaal_jungle	climate_jungle
 rhox_arbaal_savannah	climate_savannah
+wh2_climate_hef_gate_guards_savannah	climate_savannah
+rhox_torinubar_wasteland_climate	climate_wasteland
+rhox_torinubar_desert_climate	climate_desert

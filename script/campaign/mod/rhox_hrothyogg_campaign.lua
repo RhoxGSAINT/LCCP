@@ -176,7 +176,7 @@ core:add_listener(
         if not rhox_hrothyogg_mercenary_factions[owner_faction:name()] then
             rhox_hrothyogg_mercenary_factions[owner_faction:name()] = true
             for i = 1, #ogre_maneater_list do
-                cm:add_unit_to_faction_mercenary_pool(owner_faction, ogre_maneater_list[i], "renown", 0, 0, 10, 0, "", "", "", true, ogre_maneater_list[i])
+                cm:add_unit_to_faction_mercenary_pool(owner_faction, ogre_maneater_list[i], "wh3_main_regiments_of_renown_pool", 0, 0, 10, 0, "", "", "", false, ogre_maneater_list[i])
             end
         end--add initial mercenary if they haven't got one
 
@@ -211,7 +211,7 @@ core:add_listener(
         if not rhox_hrothyogg_mercenary_factions[owner_faction:name()] then
             rhox_hrothyogg_mercenary_factions[owner_faction:name()] = true
             for i = 1, #ogre_maneater_list do
-                cm:add_unit_to_faction_mercenary_pool(owner_faction, unit, "renown", 0, 0, 10, 0, "", "", "", true, ogre_maneater_list[i])
+                cm:add_unit_to_faction_mercenary_pool(owner_faction, unit, "wh3_main_regiments_of_renown_pool", 0, 0, 10, 0, "", "", "", true, ogre_maneater_list[i])
             end
         end--add initial mercenary if they haven't got one. Owners might change, so have to do it here also
 

@@ -66,6 +66,9 @@ table.insert(character_unlocking.character_data["beorg_bearstruck"]["override_al
 table.insert(character_unlocking.character_data["beorg_bearstruck"]["override_allowed_factions"], "rhox_nor_khazags")
 table.insert(character_unlocking.character_data["beorg_bearstruck"]["override_allowed_factions"], "rhox_nor_firebrand_slavers")
 table.insert(character_unlocking.character_data["beorg_bearstruck"]["override_allowed_factions"], "cr_nor_tokmars")
+
+
+--caradryan for Gate guard
 table.insert(character_unlocking.character_data["caradryan"]["override_allowed_factions"], "cr_hef_gate_guards")
 
 
@@ -111,6 +114,51 @@ norscan_gods.allegiance_advice_tracker["rhox_nor_firebrand_slavers"]=norscan_god
 
 nor_generic_config.altar_raise_occupation_options_display_overrides["1197046429"]="wh_main_settlement_norscaruin_khorne"
 nor_generic_config.altar_raise_occupation_options_display_overrides["1197046430"]="wh_main_settlement_norscaruin_tzeentch"
+
+RHOX_LCCP_SPECIAL_FACTIONS={
+    rhox_nor_ravenblessed="tzeentch",
+    rhox_nor_firebrand_slavers="khorne",
+}
+
+for faction_key, god in pairs(RHOX_LCCP_SPECIAL_FACTIONS) do
+    if god ~= "nurgle" then
+        character_unlocking.character_data["gutrot_spume"].factions_involved[faction_key] = true
+    end
+    if MIXER_SPECIAL_DEDICATED_NORSCA then
+        MIXER_SPECIAL_DEDICATED_NORSCA[faction_key]=true
+    end
+end
+
+
+
+--Book of Nagash
+nagash_book_participant_factions["rhox_vmp_the_everliving"]=true
+
+
+
+--Zach
+
+local zach = {
+    key = "rhox_vmp_the_everliving",
+    first_lair = "cr_combi_region_tarangnagar",
+    lair_pools = {
+        {key = "close", distance = 35000, lair_count = 2}, -- Distance set at the value at which at least 50 regions are within range
+        {key = "medium", distance = 240000, lair_count = 2}, -- Distance set at the value at which 50% of all regions are within range
+        {key = "far", distance = 400000, lair_count = 3}, -- Distance set at the value at which 75% of all region are within range
+        {key = "random", distance = 9999999, lair_count = 3}, -- All regions are valid at this distance
+    }
+}
+
+table.insert(vampire_lairs.lair_spawning_data.factions, zach)	
+
+table.insert(vampire_technology.locked_techs_necromancers.factions, "rhox_vmp_the_everliving")
+table.insert(vampire_technology.locked_techs_necromancers.factions, "rhox_vmp_the_everliving")
+
+
+table.insert(vampire_technology.starting_vampire_techs, {faction = "rhox_vmp_the_everliving", tech = "wh3_main_tech_vmp_vampires_main_1"})
+table.insert(vampire_technology.starting_vampire_techs, {faction = "rhox_vmp_the_everliving", tech = "wh3_main_tech_vmp_vampires_main_2"})
+table.insert(vampire_technology.starting_necromancer_techs, {faction = "rhox_vmp_the_everliving", tech = "wh3_main_tech_vmp_necromancers_0"})
+
 
 
 

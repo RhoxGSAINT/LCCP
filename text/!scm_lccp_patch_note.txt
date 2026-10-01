@@ -1,3 +1,96 @@
+2026/SEP/28 SCM
+- Changed "renown" into "wh3_main_regiments_of_renown_pool" to make it count towards the renown cap in the army
+-- Fixed the RoR removing scripts for the god dedicated Norscas
+- blocked non-Nurgle dedicated Norsca from getting the Gutrot
+-- If all players are that faction, script in our code will give Gutrot to the other applicable AI 
+- Removed Orghotts from the mod
+-- init script
+-- campaign_to_agent_subtypes_tables
+-- frontend
+- Now Zach's Books of Nagash system uses the same system as Maanfred except for the museum location
+- Added Boris fervor point to Valbrand horde and Torinubar caravan
+- Changed RoR adding for the Hrothyog so that they show up in the panel
+- Some debugging for the renown skill
+-- Added LL one to Sceolan, Duriath, Torinubar
+-- Added normal one to Sceolan ice lord
+-- Removed one from Torinubar convoy
+- Some Zach DLC update stuff
+-- Instant construction
+-- Gave access to the DLC agent subtypes as he has rhox prefix
+-- Vampire lair setting
+-- Initial tech setting
+-- corpse and blood recruiting
+-- New mourngul RoR
+- Changed Karitamen's starting coordinates due to CR's revamp on the map
+- Fixed the issue of using cr_kho_third_host_of_murder instead of cr_kho_servants_of_the_blood_nagas in the IEE
+- Changed the coordinates of the nodes in the east due to the terrain change
+
+2026/SEP/12
+- Fixed a script error that causes the TOW map to break (line 282 in tow_lccp_init)
+- Rebalanced several combat stats for faction leaders
+- Removed Anti-Infantry tag for Fredrik van Hal as he was not anti-infantry
+- Added the temporary golgfag T-pose fix made by Snek
+- Added Engra Deathsword to TOW with the upcoming End Times DLC in mind
+- Addded a ancillary for Engra Deathsword
+- Nerfed Engra Deathsword's defeat trait
+- Drastically increased cooldown for Engra's anamolous lighting ability
+- wh3_main_skill_node_all_army_of_renown_ was added to legendary and normal lords
+- removed book of nagash rewards for Zach to prevent a start up CTD
+- removed wh3_dlc24_effect_cult_foreign_slot_diplomatic_change from buildings_effects_tables to prevent a start up CTD
+
+
+2026/JUN/06 SCM
+And wh3_dlc27_nor_fimir_noble
+
+2026/MAY/31 SCM
+- Added access to the following subtypes for the Thorgar. Thanks Valas
+-- wh3_dlc27_nor_great_shaman_sorcerer_death
+-- wh3_dlc27_nor_great_shaman_sorcerer_fire
+-- wh3_dlc27_nor_great_shaman_sorcerer_metal
+-- wh3_dlc27_nor_marauder_chieftain_spawned_army
+
+
+2026/MAY/22 SCM
+- rhox_mar_replace_vanilla.lua has been updated to meet the changes made in the vanilla
+- military force campaign group for the tiger lady
+- Table Schema update
+
+
+2026/MAR/21 SCM
+- Removed Leofric from the tables since it was overriding it while not actually using it
+
+
+2026/FEB/06 SCM
+- Fixed the issue of Valbrand's loot building's effect being wrongly assigned between normal and advanced
+
+2025/DEC/15 SCM
+- Fixed the issue of script breaking due to wme removing the coven showing script
+
+2025/DEC/13 SCM-2
+- Fixeed the duplicate UI issue of Torinubar foreign by removing the script for showing off foreign slots of Torinubar. As vanilla shows the foreign stuff via Aislinn's UI
+- Added faction banned upgrades for the newly added high elves (because otheriwise they would see unusable upgrades)
+- Now Torinubar has jungle, savannah as unsuitable, but have desert and wasteland as suitable due to IEE map update about one or two months ago
+- Added settlement_type_to_building_chains_junctions_tables for the Torinubar which I doubt he will use it, but just in case
+- Changed the prority of the climate table of this mod to override ChaosRobie's campaign group for climate
+
+2025/DEC/13 SCM
+- Removed Norsca LL adding function since Mixer adds it, and ours would give duplicate
+
+2025/DEC/12 SCM-2
+- Added missing captive option to the Norscas
+
+2025/DEC/12 SCM
+- Added missing edict to the Torinubar
+
+
+2025/DEC/11 SCM-3
+- Fixed a typo in the Azrik and spewpit giving script
+- Fixed an issue of these two getting blank names
+
+
+2025/DEC/11 SCM-2
+- Fixed the issue of Volrik missing normal occupy option
+
 2025/DEC/11 SCM
 - DB
 -- unit_set wh2_dlc11_nor_vets_warhounds_ice_wolves_manticore_skin_wolves_chariots changed into wh2_dlc11_nor_vets_warhounds_ice_wolves_manticore_skin_wolves_chariots_kurgan

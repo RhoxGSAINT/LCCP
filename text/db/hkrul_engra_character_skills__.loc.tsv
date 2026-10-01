@@ -24,3 +24,24 @@ character_skills_localised_description_hkrul_engra_horse	The dread steeds of Cha
 character_skills_localised_name_hkrul_engra_horse	Chaos Steed	false
 units_custom_battle_mounts_localised_description_hkrul_engrahkrul_engra_horse	The dread steeds of Chaos are more than mere horses, but creatures tainted by Daemon blood, said to be gifts from the Dark Gods themselves.	false
 units_custom_battle_mounts_mount_name_hkrul_engrahkrul_engra_horse	Chaos Steed	false
+scripted_objectives_localised_text_hkrul_engra_praag_qb_0001_hint_outer_wards	The outer wards have fallen! Press the attack and drive the Kislevites deeper into Praag!	false
+scripted_objectives_localised_text_hkrul_engra_praag_qb_0001_obj_act1	Storm the City of Praag	false
+scripted_objectives_localised_text_hkrul_engra_praag_qb_0001_obj_act2	Crush Praag's Inner Defences	false
+scripted_subtitles_localised_text_hkrul_engra_praag_qb_0001_opening_shot3	Look upon Praag. Starved. Sickened. Still they cling to their walls. Long enough have we watched them die by inches.	false
+scripted_subtitles_localised_text_hkrul_engra_praag_qb_0001_opening_shot4	Now we give the Gods what remains.	false
+scripted_subtitles_localised_text_hkrul_engra_praag_qb_0001_opening_shot5	Break their gates. Drown their streets in blood.	false
+scripted_subtitles_localised_text_hkrul_engra_praag_qb_0001_opening_shot6	Praag falls today!	false
+scripted_subtitles_localised_text_hkrul_engra_praag_qb_0001_act2_shot2	Hold! The Empire guns are in position!	false
+scripted_subtitles_localised_text_hkrul_engra_praag_qb_0001_act2_shot4	Let them fire. Praag burns either way.	false
+scripted_objectives_localised_text_hkrul_engra_praag_qb_0001_hint_reserve	See how they scurry uphill! Already the Kislevites crawl back to their holes.	false
+scripted_objectives_localised_text_hkrul_engra_praag_qb_0001_hint_artillery	Imperial guns rain death from the heights! Press on and silence them!	false
+scripted_objectives_localised_text_hkrul_engra_praag_qb_0001_hint_tzarguard	Still they rally! Praag's Tzar Guard gather at the city's heart, ready to sell their lives dearly.	false
+scripted_objectives_localised_text_hkrul_engra_praag_qb_0001_hint_kholek	Kholek Suneater joins the slaughter! The Dragon Ogres descend upon Praag!	false
+scripted_objectives_localised_text_hkrul_engra_praag_qb_0001_obj_kholek	Kholek Suneater must survive	false
+battle_set_pieces_localised_name_hkrul_engra_praag_qb_0001	The Siege of Praag	false
+battle_set_pieces_localised_description_hkrul_engra_praag_qb_0001	For long months Praag has endured plague, starvation and the ceaseless attentions of the Northmen. Engra Deathsword has tired of watching the city die by inches. Now the walls must break, the streets must run red, and the Dark Gods shall have what remains.	false
+missions_localised_description_hkrul_engra_praag	Praag has endured long enough. Plague and starvation have weakened its people, yet still they cower behind their walls and defy the will of the Gods. Lead the final assault, shatter the city's defences and offer Praag to Chaos in blood and ruin.	false
+missions_localised_title_hkrul_engra_praag	The Siege of Praag	false
+missions_localised_mission_completed_text_hkrul_engra_praag	Praag has fallen. Its walls are broken, its defenders butchered and its streets run red with the blood of the vanquished.	false
+loading_screen_quotes_title_hkrul_engra_praag_qb_0001	The Siege of Praag	false
+loading_screen_quotes_description_hkrul_engra_praag_qb_0001	For months, Engra Deathsword has watched Praag wither behind its walls. Refugees crowd its streets, hunger gnaws at its people and pestilence festers within, while the servants of the Dark Gods harry those who still dare venture beyond the gates. Yet the city endures. Such defiance has amused Engra long enough. The time for starvation and sickness is over. Kholek Suneater marches with the host, and the warriors of Chaos gather beneath Praag's walls. By nightfall, the city shall stand no more.	false

@@ -321,7 +321,6 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			wh_dlc08_nor_mon_warwolves_0	all_non_chs	true
 			wh_dlc08_nor_mon_warwolves_0	chs_hounds_rank7	false
 			wh_dlc08_nor_mon_warwolves_0	chs_hounds	false
-			wh_dlc08_nor_mon_warwolves_0	chs_warhound_manticore_rank_4	false
 			wh_dlc08_nor_mon_warwolves_0	merc_set_chs_hounds_und	false
 			wh_dlc08_nor_mon_warwolves_0	monsters	false
 			wh_dlc08_nor_mon_warwolves_0	mp_cap_unit_chs_inf_chaos_warhounds_0	false

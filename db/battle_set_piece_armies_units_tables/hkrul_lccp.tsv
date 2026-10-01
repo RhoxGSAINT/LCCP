@@ -1,0 +1,5 @@
+unit_name	unit_level	unit_type	percentage_num_men	percentage_num_health	reduce_max_number
+#battle_set_piece_armies_units_tables;4;db/battle_set_piece_armies_units_tables/hkrul_lccp					
+wh_main_chs_inf_chaos_warriors_0	0	wh_main_chs_inf_chaos_warriors_0	100	100	false
+wh_main_chs_inf_chaos_marauders_0	0	wh_main_chs_inf_chaos_marauders_0	100	100	false
+wh3_main_ksl_inf_tzar_guard_0	0	wh3_main_ksl_inf_tzar_guard_0	100	100	false

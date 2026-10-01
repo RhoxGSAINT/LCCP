@@ -264,7 +264,7 @@ function norscan_gods:rhox_lccp_valbrand_spawning(target_faction_key, chaos_god)
 
 	local target_faction = cm:model():world():faction_by_key(target_faction_key)
 	local target_faction_leader = target_faction:faction_leader()
-	local target_faction_capital_key = "cr_combi_region_ihan_3_1"
+	local target_faction_capital_key = "cr_combi_region_doryang"
 	
 	if cm:get_campaign_name() == "cr_oldworld" then
         target_faction_capital_key= cr_oldworld_region_monolith_of_valbrand_fireblade

@@ -1,4 +1,4 @@
-key	composite_scene	type
-#slot_sets_tables;0;db/slot_sets_tables/rhox_iee_lccp		
-rhox_torinubar_foreign_slot_set		SILENT_SANCTUM
-rhox_hrothyogg_mercenary_branch		SILENT_SANCTUM
+key	composite_scene	type	non_owner_composite_scene
+#slot_sets_tables;1;db/slot_sets_tables/rhox_iee_lccp			
+rhox_torinubar_foreign_slot_set		SILENT_SANCTUM	
+rhox_hrothyogg_mercenary_branch		SILENT_SANCTUM	
