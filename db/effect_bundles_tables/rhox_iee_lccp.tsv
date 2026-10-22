@@ -33,3 +33,8 @@ rhox_key_keepers_ritual_slave_work			region	1	growth.png	true	false	true
 rhox_key_keepers_ritual_slave_levy			region	1	dlc23_region_action_set_example.png	true	false	true
 rhox_key_keepers_ritual_slave_auction			region	1	treasury.png	true	false	true
 rhox_key_keepers_witch_king_support			faction	1	effect_bundle_duriath.png	true	false	true
+rhox_key_keepers_vigil_effects_1			faction	1	effect_bundle_duriath.png	false	false	true
+rhox_key_keepers_vigil_effects_2			faction	1	effect_bundle_duriath.png	false	false	true
+rhox_key_keepers_vigil_effects_3			faction	1	effect_bundle_duriath.png	false	false	true
+rhox_key_keepers_vigil_effects_4			faction	1	effect_bundle_duriath.png	false	false	true
+rhox_key_keepers_ritual_vigil_beacons			region	1	siege_defence.png	true	false	true

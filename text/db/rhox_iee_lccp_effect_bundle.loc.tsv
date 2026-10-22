@@ -208,3 +208,13 @@ effect_bundles_localised_title_rhox_key_keepers_ritual_slave_auction	{{tr:ritual
 effect_bundles_localised_description_rhox_key_keepers_ritual_slave_auction	{{tr:rituals_description_rhox_key_keepers_ritual_slave_auction}}	false
 effect_bundles_localised_title_rhox_key_keepers_witch_king_support	Witch King's Support	false
 effect_bundles_localised_description_rhox_key_keepers_witch_king_support	Malekith has granted his Lord High Marshall men, gold and slaves to restore the northern watch. Such generosity will not last; the Witch King expects results.	false
+effect_bundles_localised_title_rhox_key_keepers_vigil_effects_1	The North Unwatched	false
+effect_bundles_localised_title_rhox_key_keepers_vigil_effects_2	A Thin Watch	false
+effect_bundles_localised_title_rhox_key_keepers_vigil_effects_3	The Vigilant North	false
+effect_bundles_localised_title_rhox_key_keepers_vigil_effects_4	The Unbroken Vigil	false
+effect_bundles_localised_description_rhox_key_keepers_vigil_effects_1	The watch fires have guttered out. Corruption seeps south unopposed and order falters across the realm.	false
+effect_bundles_localised_description_rhox_key_keepers_vigil_effects_2	The towers stand, but their garrisons are stretched thin and their beacons burn low.	false
+effect_bundles_localised_description_rhox_key_keepers_vigil_effects_3	Every beacon is lit and every rampart manned. The north is quiet enough that the Keeper's overseers can be spared for other work.	false
+effect_bundles_localised_description_rhox_key_keepers_vigil_effects_4	Not a single marauder crosses the northern border unseen. With the frontier secure, the Keeper's thralls and overseers are put to work across the realm.	false
+effect_bundles_localised_title_rhox_key_keepers_ritual_vigil_beacons	{{tr:rituals_display_name_rhox_key_keepers_ritual_vigil_beacons}}	false
+effect_bundles_localised_description_rhox_key_keepers_ritual_vigil_beacons	{{tr:rituals_description_rhox_key_keepers_ritual_vigil_beacons}}	false

@@ -8,3 +8,4 @@ rhox_key_keepers_ritual_slave_work	0	RITUAL	RITUAL	ARMY_UPKEEP	BACKGROUND_INCOME
 rhox_key_keepers_ritual_slave_levy	0	RITUAL	RITUAL	ARMY_UPKEEP	BACKGROUND_INCOME
 rhox_key_keepers_ritual_slave_auction	0	RITUAL	RITUAL	ARMY_UPKEEP	BACKGROUND_INCOME
 rhox_key_keepers_ritual_slave_auction_reward	4000	RITUAL	RITUAL	ARMY_UPKEEP	BACKGROUND_INCOME
+rhox_key_keepers_ritual_vigil_beacons	0	RITUAL	RITUAL	ARMY_UPKEEP	BACKGROUND_INCOME

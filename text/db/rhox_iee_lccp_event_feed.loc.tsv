@@ -18,3 +18,6 @@ event_feed_strings_text_rhox_iee_lccp_how_they_play_karitamen	[[img:ui/campaign 
 event_feed_strings_text_rhox_iee_lccp_how_they_play_duriath	[[img:bullet_def_black_arks]][[/img]] [[col:green]]Duriath has access to his special flagship, while it gives him great benefits, he can only recruit units on land when garrisoned inside a settlement[[/col]]\\n\\n{{tr:how_they_play_dark_elves}}	false
 event_feed_strings_text_rhox_hrothyogg_bransh_established	You have garrisoned a Manhunter Contractor in #(settlement.region_and_province)!	false
 event_feed_strings_text_rhox_iee_lccp_how_they_play_aelfric	[[img:ui/campaign ui/skills/hkrul_aelfric_special_0_1.png]][[/img]] [[col:green]]After winning a battle against human factions, Ice Wolves may join your army if there is an empty unit slot available.[[/col]]\\n\\n{{tr:how_they_play_warriors_of_chaos}}	false
+event_feed_strings_text_rhox_key_keepers_incursion_title	Chaos Incursion	false
+event_feed_strings_text_rhox_key_keepers_incursion_primary_detail	The Northern Watch Has Failed	false
+event_feed_strings_text_rhox_key_keepers_incursion_secondary_detail	With the watch towers blind, a warband of the Northern Wastes has slipped past the border. Shamed by the breach, the garrisons of the north rally to the Keeper, and the Vigil is restored.	false

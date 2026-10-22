@@ -116,3 +116,5 @@ rhox_dorian_iron_key_dummy	slaves.png	1	slaves.png	campaign	true
 rhox_key_keepers_ritual_slave_auction_reward_dummy	treasury.png	100	treasury.png	campaign	true
 rhox_dorian_watch_tower_dummy	siege_defence.png	2	siege_defence.png	campaign	true
 rhox_key_keepers_vigil_witch_king_gain	icon_dread.png	4	icon_dread.png	campaign	true
+rhox_dorian_vigil_dummy	defence.png	3	defence.png	campaign	true
+rhox_key_keepers_vigil_incursion_warning_dummy	attrition.png	1	attrition.png	campaign	false

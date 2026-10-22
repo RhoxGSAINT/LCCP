@@ -10,3 +10,4 @@ wh3_dlc29_vmp_power_confederation	rhox_lccp_vmp_ritual_confederate_lord_zach	-20
 def_slaves_diktats	rhox_key_keepers_ritual_slave_work	-500	absolute	default
 def_slaves_diktats	rhox_key_keepers_ritual_slave_levy	-600	absolute	default
 def_slaves_diktats	rhox_key_keepers_ritual_slave_auction	-800	absolute	default
+rhox_key_keepers_vigil_diktats	rhox_key_keepers_ritual_vigil_beacons	-15	absolute	default
