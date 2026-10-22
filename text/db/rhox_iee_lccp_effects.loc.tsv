@@ -104,3 +104,4 @@ effects_description_rhox_lccp_vmp_ritual_confederate_lord_zach	Confederate [[b]]
 effects_description_rhox_dorian_iron_key_dummy	[[col:yellow]]Keeper of the Iron Key:[[/col]] Grants access to enhanced [[img:icon_slaves]][[/img]]Slave Diktats	false
 effects_description_rhox_key_keepers_ritual_slave_auction_reward_dummy	Generates [[img:icon_treasury]][[/img]] %n for the treasury when activated	false
 effects_description_rhox_dorian_watch_tower_dummy	Must raise and maintain the [[col:yellow]]Watch Towers of Naggaroth[[/col]]: each tower strengthens all armies against the forces of Chaos, but devours [[img:icon_slaves]][[/img]]Slaves every turn	false
+effects_description_rhox_key_keepers_vigil_witch_king_gain	[[img:icon_dread]][[/img]]Vigil of the North: %+n per turn	false

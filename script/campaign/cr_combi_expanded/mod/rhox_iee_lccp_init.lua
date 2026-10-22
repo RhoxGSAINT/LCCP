@@ -1056,8 +1056,9 @@ local rhox_iee_list={
     },
     rhox_def_key_keepers ={
         leader={
-            subtype="hkrul_dorian",
-            unit_list="wh2_main_def_inf_bleakswords_0,wh2_main_def_inf_darkshards_1",
+            --subtype="hkrul_dorian",
+            subtype="wh2_main_def_dreadlord",--temp
+            unit_list="wh2_main_def_inf_bleakswords_0,wh2_main_def_inf_bleakswords_0,wh2_main_def_inf_bleakswords_0,wh2_main_def_inf_bleakswords_0,wh2_main_def_inf_darkshards_1,wh2_main_def_inf_darkshards_1,wh2_main_def_inf_darkshards_1,wh2_main_def_inf_darkshards_1",
             x=244,
             y=938,
             forename ="names_name_24444424",--temp
@@ -1079,9 +1080,10 @@ local rhox_iee_list={
             x= 249,
             y=940
         },
-        additional = function(faction, faction_key) 
+        additional = function(faction, faction_key)
+            cm:apply_effect_bundle("rhox_key_keepers_witch_king_support", faction_key, 10)
         end,
-        first_tick = function(faction, faction_key) 
+        first_tick = function(faction, faction_key)
         end
     },
 }

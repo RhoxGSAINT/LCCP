@@ -32,3 +32,4 @@ rhox_valbrand_raze_count			faction	1	norse_god_hound.png	false	false	true
 rhox_key_keepers_ritual_slave_work			region	1	growth.png	true	false	true
 rhox_key_keepers_ritual_slave_levy			region	1	dlc23_region_action_set_example.png	true	false	true
 rhox_key_keepers_ritual_slave_auction			region	1	treasury.png	true	false	true
+rhox_key_keepers_witch_king_support			faction	1	effect_bundle_duriath.png	true	false	true

@@ -1,3 +1,11 @@
 key	is_hidden
 #pooled_resource_factors_tables;5;db/pooled_resource_factors_tables/rhox_iee_lccp	
 rhox_arbaal_wrath	false
+rhox_key_keepers_vigil_witch_king	false
+rhox_key_keepers_vigil_tower_ashrak	false
+rhox_key_keepers_vigil_tower_dargoth	false
+rhox_key_keepers_vigil_tower_kauark	false
+rhox_key_keepers_vigil_tower_nagrar	false
+rhox_key_keepers_vigil_tower_shagrath	false
+rhox_key_keepers_vigil_tower_ghrond	false
+rhox_key_keepers_vigil_battles	false
