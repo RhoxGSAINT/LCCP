@@ -79,3 +79,9 @@ rhox_valbrand_nor_worship_1	rhox_valbrand_NORSCA_worship	0	1	500	0		false	false	
 rhox_valbrand_nor_worship_2	rhox_valbrand_NORSCA_worship	1	2	1000	0		false	false			true	wh_main_NORSCA_worship	true	0.0000	0	true	1		true	0	0		0		-1	false
 rhox_valbrand_nor_worship_3	rhox_valbrand_NORSCA_worship	2	3	0	0		false	false			true	wh_main_NORSCA_worship	true	0.0000	0	true	3		true	0	0	wh3_dlc27_nor_spoils_building_600	0		-1	false
 rhox_valbrand_nor_worship_4	rhox_valbrand_NORSCA_worship	3	99	999999	0		false	false			false	wh_main_NORSCA_worship	false	0.0000	0	true	4		false	0	0		0		-1	false
+rhox_key_keepers_watch_tower_ashrak	rhox_key_keepers_watch_tower_ashrak	0	4	6000	0		false	false			true	rhox_key_keepers_watch_tower_ashrak	false	0.0000	0	true	3		true	0	0		0		-1	false
+rhox_key_keepers_watch_tower_dargoth	rhox_key_keepers_watch_tower_dargoth	0	4	6000	0		false	false			true	rhox_key_keepers_watch_tower_dargoth	false	0.0000	0	true	3		true	0	0		0		-1	false
+rhox_key_keepers_watch_tower_kauark	rhox_key_keepers_watch_tower_kauark	0	4	6000	0		false	false			true	rhox_key_keepers_watch_tower_kauark	false	0.0000	0	true	3		true	0	0		0		-1	false
+rhox_key_keepers_watch_tower_nagrar	rhox_key_keepers_watch_tower_nagrar	0	4	6000	0		false	false			true	rhox_key_keepers_watch_tower_nagrar	false	0.0000	0	true	3		true	0	0		0		-1	false
+rhox_key_keepers_watch_tower_shagrath	rhox_key_keepers_watch_tower_shagrath	0	4	6000	0		false	false			true	rhox_key_keepers_watch_tower_shagrath	false	0.0000	0	true	3		true	0	0		0		-1	false
+rhox_key_keepers_watch_tower_ghrond	rhox_key_keepers_watch_tower_ghrond	0	4	6000	0		false	false			true	rhox_key_keepers_watch_tower_ghrond	false	0.0000	0	true	3		true	0	0		0		-1	false

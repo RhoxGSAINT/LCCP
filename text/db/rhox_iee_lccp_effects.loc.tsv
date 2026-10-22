@@ -101,3 +101,6 @@ effects_description_rhox_torinubar_effect_force_all_campaign_replenishment_rate	
 effects_description_rhox_hrothyogg_contracts_dummy	Has access to Mercenary Contracts, allowing the Hrothyogg's faction to be hired as mercenaries by other factions	false
 effects_description_rhox_valbrand_no_access_pillage_dummy	Pillages will be distributed immediately, and there will be no pillage forces	false
 effects_description_rhox_lccp_vmp_ritual_confederate_lord_zach	Confederate [[b]][[col:yellow]]Zacharias the Everliving's[[/col]][[/b]] faction	false
+effects_description_rhox_dorian_iron_key_dummy	[[col:yellow]]Keeper of the Iron Key:[[/col]] Grants access to enhanced [[img:icon_slaves]][[/img]]Slave Diktats	false
+effects_description_rhox_key_keepers_ritual_slave_auction_reward_dummy	Generates [[img:icon_treasury]][[/img]] %n for the treasury when activated	false
+effects_description_rhox_dorian_watch_tower_dummy	Must raise and maintain the [[col:yellow]]Watch Towers of Naggaroth[[/col]]: each tower strengthens all armies against the forces of Chaos, but devours [[img:icon_slaves]][[/img]]Slaves every turn	false

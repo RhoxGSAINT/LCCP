@@ -29,3 +29,6 @@ rhox_valbrand_slave_effect_5	As higher the slave population goes, the more money
 rhox_valbrand_settle	Sets up a defensive camp, allowing for building construction, recruitment and replenishment, regardless of territory.	Stance: Encamp	force	1	icon_effects_fortify.png	true	false	true
 rhox_arbaal_hidden_first_turn			faction	0	daemonic_progression/wh3_main_bundle_dae_khorne_07.png	false	false	true
 rhox_valbrand_raze_count			faction	1	norse_god_hound.png	false	false	true
+rhox_key_keepers_ritual_slave_work			region	1	growth.png	true	false	true
+rhox_key_keepers_ritual_slave_levy			region	1	dlc23_region_action_set_example.png	true	false	true
+rhox_key_keepers_ritual_slave_auction			region	1	treasury.png	true	false	true

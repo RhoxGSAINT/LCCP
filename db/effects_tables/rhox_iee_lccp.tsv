@@ -112,3 +112,6 @@ hkrul_zach_mortis	item_ability.png	23	item_ability.png	battle	true
 hkrul_zach_frederik_melee_attack	melee.png	431	melee.png	battle	true
 hkrul_zach_frederik_melee_defence	defence.png	451	defence.png	battle	true
 hkrul_zach_frederik_weapon_strength	weapon_damage.png	461	weapon_damage.png	battle	true
+rhox_dorian_iron_key_dummy	slaves.png	1	slaves.png	campaign	true
+rhox_key_keepers_ritual_slave_auction_reward_dummy	treasury.png	100	treasury.png	campaign	true
+rhox_dorian_watch_tower_dummy	siege_defence.png	2	siege_defence.png	campaign	true

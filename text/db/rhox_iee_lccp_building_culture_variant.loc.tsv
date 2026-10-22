@@ -67,3 +67,17 @@ building_short_description_texts_short_description_rhox_duriath_tor_elithis	Tor 
 building_culture_variants_name_rhox_zach_malevolent_museumrhox_vmp_the_everliving	Shadeheart Fortress	false
 building_short_description_texts_short_description_rhox_zach_malevolent_museum	It's a formidable bastion in the heart of the Forest of Shadows, serving as a sanctuary for dark rituals and a stronghold against the encroaching horrors.	false
 building_culture_variants_name_rhox_zach_malevolent_museumcr_vmp_the_everliving	Shadeheart Fortress	false
+building_culture_variants_name_rhox_key_keepers_watch_tower_ashrak	Watch Tower of Ashrak	false
+building_short_description_texts_short_description_rhox_key_keepers_watch_tower_ashrak	One of the Watch Towers of Naggaroth, kept by thrall labour and thrall blood. Fed, it sees all that crawls out of the north; starved, it is blind.	false
+building_culture_variants_name_rhox_key_keepers_watch_tower_dargoth	Watch Tower of Dargoth	false
+building_short_description_texts_short_description_rhox_key_keepers_watch_tower_dargoth	One of the Watch Towers of Naggaroth, kept by thrall labour and thrall blood. Fed, it sees all that crawls out of the north; starved, it is blind.	false
+building_culture_variants_name_rhox_key_keepers_watch_tower_kauark	Watch Tower of Kauark	false
+building_short_description_texts_short_description_rhox_key_keepers_watch_tower_kauark	One of the Watch Towers of Naggaroth, kept by thrall labour and thrall blood. Fed, it sees all that crawls out of the north; starved, it is blind.	false
+building_culture_variants_name_rhox_key_keepers_watch_tower_nagrar	Watch Tower of Nagrar	false
+building_short_description_texts_short_description_rhox_key_keepers_watch_tower_nagrar	One of the Watch Towers of Naggaroth, kept by thrall labour and thrall blood. Fed, it sees all that crawls out of the north; starved, it is blind.	false
+building_culture_variants_name_rhox_key_keepers_watch_tower_shagrath	Watch Tower of Shagrath	false
+building_short_description_texts_short_description_rhox_key_keepers_watch_tower_shagrath	One of the Watch Towers of Naggaroth, kept by thrall labour and thrall blood. Fed, it sees all that crawls out of the north; starved, it is blind.	false
+building_culture_variants_name_rhox_key_keepers_watch_tower_ghrond	Beacon-Spire of Ghrond	false
+building_short_description_texts_short_description_rhox_key_keepers_watch_tower_ghrond	One of the Watch Towers of Naggaroth, kept by thrall labour and thrall blood. Fed, it sees all that crawls out of the north; starved, it is blind.	false
+building_effect_context_expressions_display_text_RhoxKeyKeepersSlavesAtLeast500	While at least [[img:icon_slaves]][[/img]]500 Slaves are held:	false
+building_effect_context_expressions_display_text_RhoxKeyKeepersSlavesBelow500	While fewer than [[img:icon_slaves]][[/img]]500 Slaves are held:	false

@@ -7,3 +7,6 @@ nor_progress_eagle_events	rhox_thorgar_ascend	5	absolute	default
 nor_progress_hound_events	rhox_thorgar_ascend	5	absolute	default
 nor_progress_serpent_events	rhox_thorgar_ascend	5	absolute	default
 wh3_dlc29_vmp_power_confederation	rhox_lccp_vmp_ritual_confederate_lord_zach	-2000	absolute	default
+def_slaves_diktats	rhox_key_keepers_ritual_slave_work	-500	absolute	default
+def_slaves_diktats	rhox_key_keepers_ritual_slave_levy	-600	absolute	default
+def_slaves_diktats	rhox_key_keepers_ritual_slave_auction	-800	absolute	default

@@ -3,3 +3,5 @@ key	expression	display_only_active_effects	always_show_display_text
 RhoxEasternGreaterThan50	Owner.ModelPooledResourceContext("rhox_torinubar_east").Total >= 50	false	false
 RhoxWesternGreaterThan50	Owner.ModelPooledResourceContext("rhox_torinubar_west").Total >= 50	false	false
 RhoxDolmance	Owner.RecordKeyIsOneOf("rhox_brt_reveller_of_domance")	true	false
+RhoxKeyKeepersSlavesAtLeast500	Owner.ModelPooledResourceContext("def_slaves").Total >= 500	false	false
+RhoxKeyKeepersSlavesBelow500	Owner.ModelPooledResourceContext("def_slaves").Total < 500	false	false

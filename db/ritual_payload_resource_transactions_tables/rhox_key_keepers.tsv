@@ -1,0 +1,3 @@
+payload	transaction	is_transfer
+#ritual_payload_resource_transactions_tables;1;db/ritual_payload_resource_transactions_tables/rhox_key_keepers		
+rhox_key_keepers_ritual_slave_auction	rhox_key_keepers_ritual_slave_auction_reward	false

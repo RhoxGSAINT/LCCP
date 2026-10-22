@@ -19,3 +19,10 @@ rhox_dolmance_feature	wh3_main_ritual_sla_pleasure_party		0	true
 wh3_dlc25_dwf_rituals	rhox_burlok_dwf_ritual_legendary_lord_burlok		0	true
 rhox_hrothyogg_feature	wh3_dlc26_ogr_ritual_golgfag_teleport		0	true
 wh3_dlc29_vmp_rituals	rhox_lccp_vmp_ritual_confederate_lord_zach		0	false
+rhox_key_keepers_feature	rhox_key_keepers_ritual_slave_work		0	true
+rhox_key_keepers_feature	rhox_key_keepers_ritual_slave_levy		0	true
+rhox_key_keepers_feature	rhox_key_keepers_ritual_slave_auction		0	true
+rhox_key_keepers_feature	wh2_dlc10_ritual_def_drakira		0	true
+rhox_key_keepers_feature	wh2_main_ritual_def_atharti		0	true
+rhox_key_keepers_feature	wh2_main_ritual_def_khaine		0	true
+rhox_key_keepers_feature	wh2_main_ritual_def_mathlann		0	true

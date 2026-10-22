@@ -16,3 +16,9 @@ rituals_description_rhox_arbaal_move_ritual	Arbaal unleashes his fury and slaugh
 rituals_display_name_rhox_arbaal_move_ritual	Bloodthirsty Rampage	false
 rituals_display_name_rhox_lccp_vmp_ritual_confederate_lord_zach	Zacharias the Everliving	false
 rituals_description_rhox_lccp_vmp_ritual_confederate_lord_zach	{{tr:ui_text_replacements_localised_text_bloodline_confederate_tooltip}}	false
+rituals_display_name_rhox_key_keepers_ritual_slave_work	Chain-Gangs of the Watch	false
+rituals_description_rhox_key_keepers_ritual_slave_work	Shackle them to the quarries and the ramparts. The Watch Towers of the north were raised upon thrall-bones, and thrall-bones shall keep them standing.	false
+rituals_display_name_rhox_key_keepers_ritual_slave_levy	Thrall Levies	false
+rituals_description_rhox_key_keepers_ritual_slave_levy	Drive the hardiest of the chattel into the baggage trains and siege lines, so that every true Druchii blade is free for the slaughter.	false
+rituals_display_name_rhox_key_keepers_ritual_slave_auction	Auction of the Iron Key	false
+rituals_description_rhox_key_keepers_ritual_slave_auction	By the Keeper's leave, the choicest stock of the northern pens goes beneath the hammer. Highborn from every city bid for the privilege, and pay dearly for it.	false

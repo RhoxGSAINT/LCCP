@@ -1,3 +1,4 @@
 faction	resource_cost_per_turn	scope
 #building_instant_constructions_tables;0;db/building_instant_constructions_tables/rhox_iee_lccp		
 rhox_vmp_the_everliving	wh3_main_vmp_instant_construction_cost	FACTION
+rhox_def_key_keepers	wh3_main_def_rush_construction_slave_cost	FACTION
