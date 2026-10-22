@@ -1,0 +1,6 @@
+<model version="1">
+  <geometry>VariantMeshes/wh_variantmodels/hu1d/hef/hef_props/hef_staff_mage_long.rigid_model_v2</geometry>
+  <materials>
+    <material part_index="0" lod_index="0">VariantMeshes/wh_variantmodels/hu1d/hef/hef_props/materials/hef_mage_staff_long_alpha_off.xml.material</material>
+  </materials>
+</model>

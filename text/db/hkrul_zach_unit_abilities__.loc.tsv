@@ -1,0 +1,14 @@
+key	text	tooltip
+#Loc;1;text/db/hkrul_zach_unit_abilities__.loc		
+unit_abilities_tooltip_text_hkrul_zach_heart	Zacharias hears the soft beating of any mortal heart from miles away, eagerly sucking the life essence from it's core.	true
+unit_abilities_onscreen_name_hkrul_zach_heart	Sycophant of Life	true
+effects_description_hkrul_zach_heart	Ability: "Sycophant of Life"	false
+unit_abilities_onscreen_name_hkrul_zach_circlet	Circlet of Rathek	false
+unit_abilities_tooltip_text_hkrul_zach_circlet	Its jewel invokes the protection of the gods of lost Nehekhara on the bearer. Its power swells with every death nearby.	true
+special_ability_phases_onscreen_name_hkrul_zach_heart_self	Sycophant of Life	true
+special_ability_phases_onscreen_name_hkrul_zach_heart	Sycophant of Life	true
+effects_description_hkrul_zach_mortis	Ability: ''Pall of Mortis''	true
+unit_abilities_onscreen_name_hkrul_zach_mortis	Pall of Mortis	true
+unit_abilities_tooltip_text_hkrul_zach_mortis	A pall of Mortis clings to the Everliving, the cold breath of a death he has cheated for centuries. The living who come near feel their strength fail and their courage wither, and the more of them crowd around him, the deeper it bites. Living enemies only: Undead and Daemonic units are unaffected.	true
+special_ability_phases_onscreen_name_hkrul_zach_mortis	Pall of Mortis	true
+special_ability_phases_onscreen_name_hkrul_zach_circlet	Circlet of Rathek	true

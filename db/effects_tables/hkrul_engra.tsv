@@ -1,0 +1,8 @@
+effect	icon	priority	icon_negative	category	is_positive_value_good
+#effects_tables;0;db/effects_tables/hkrul_engra					
+hkrul_engra_helm	item_ability.png	300	item_ability.png	battle	true
+hkrul_engra_sword	item_ability.png	300	item_ability.png	battle	true
+hkrul_engra_pal	item_ability.png	300	item_ability.png	battle	true
+hkrul_engra_nordland_damage	weapon_damage.png	97	weapon_damage.png	battle	true
+hkrul_engra_kislev_damage	weapon_damage.png	461	weapon_damage.png	battle	true
+hkrul_engra_lightning	item_ability.png	300	item_ability.png	battle	true

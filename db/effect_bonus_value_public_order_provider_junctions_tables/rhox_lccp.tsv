@@ -1,0 +1,3 @@
+bonus_value_id	effect	public_order_provider
+#effect_bonus_value_public_order_provider_junctions_tables;0;db/effect_bonus_value_public_order_provider_junctions_tables/rhox_lccp		
+BASE	rhox_torinubar_effect_public_order_climate	wh3_main_public_order_climate

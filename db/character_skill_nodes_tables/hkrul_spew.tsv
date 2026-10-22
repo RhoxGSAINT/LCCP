@@ -1,0 +1,56 @@
+key	campaign_key	character_skill_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
+#character_skill_nodes_tables;6;db/character_skill_nodes_tables/hkrul_spew									
+hkrul_skill_node_spew_death_unique_0		wh3_main_skill_nur_locus_of_contagion		2	0		0	0	true
+hkrul_skill_node_spew_death_unique_1		wh3_main_skill_nur_locus_of_fecundity		2	1		0	0	true
+hkrul_skill_node_spew_death_unique_2		wh3_main_skill_nur_locus_of_virulence		2	2		0	0	true
+hkrul_skill_node_spew_death_unique_3		wh3_main_skill_nur_generic_hates_tzeentch		0	2		0	0	true
+hkrul_skill_node_spew_death_unique_4		wh3_main_skill_nur_all_unique_missile_resist		0	3		0	0	true
+hkrul_skill_node_spew_nurgle_army_0		wh_main_skill_all_lord_battle_inspiring_presence		4	0		0	0	true
+hkrul_skill_node_spew_nurgle_army_1_2		wh3_main_skill_nur_lord_army_buff_1_1		4	2		0	0	true
+hkrul_skill_node_spew_nurgle_army_1_3		wh3_main_skill_nur_lord_army_buff_1_2		4	3		0	0	true
+hkrul_skill_node_spew_nurgle_army_1_4		wh3_main_skill_nur_lord_army_buff_1_3		4	4		0	0	true
+hkrul_skill_node_spew_nurgle_army_1_5		wh3_main_skill_nur_lord_army_buff_1_4		4	5		0	0	true
+hkrul_skill_node_spew_nurgle_army_1_6		wh3_main_skill_nur_lord_army_buff_1_5		4	6		0	0	true
+hkrul_skill_node_spew_nurgle_army_2		wh3_main_skill_nur_lord_army_blight_swarm		4	7		0	6	true
+hkrul_skill_node_spew_nurgle_army_3_1		wh3_main_skill_nur_lord_army_buff_3_1		4	8		0	0	true
+hkrul_skill_node_spew_nurgle_army_3_2		wh3_main_skill_nur_lord_army_buff_3_2		4	9		0	0	true
+hkrul_skill_node_spew_nurgle_army_3_3		wh3_main_skill_nur_lord_army_buff_3_3		4	10		0	0	true
+hkrul_skill_node_spew_nurgle_army_3_4		wh3_main_skill_nur_lord_army_buff_3_4		4	11		0	0	true
+hkrul_skill_node_spew_nurgle_army_4		wh3_main_skill_nur_lord_army_virulent_contagion		4	12		0	1	true
+hkrul_skill_node_spew_nurgle_campaign_0		wh_main_skill_all_lord_campaign_route_marcher		5	0		0	0	true
+hkrul_skill_node_spew_nurgle_campaign_1_1		wh3_main_skill_nur_lord_campaign_serve_or_die		5	1		0	0	true
+hkrul_skill_node_spew_nurgle_campaign_1_2		wh_main_skill_grn_lord_campaign_looter		5	2		0	0	true
+hkrul_skill_node_spew_nurgle_campaign_1_3		wh_main_skill_chs_lord_campaign_despoilers		5	3		0	0	true
+hkrul_skill_node_spew_nurgle_campaign_1_4		wh3_main_skill_nur_lord_campaign_corruption		5	4		0	0	true
+hkrul_skill_node_spew_nurgle_campaign_2		wh_main_skill_chs_lord_campaign_unholy_resilience		5	5		0	4	true
+hkrul_skill_node_spew_nurgle_campaign_3_1		wh_main_skill_all_lord_campaign_lightning_strike		5	6		0	0	true
+hkrul_skill_node_spew_nurgle_campaign_3_2		wh3_main_skill_nur_lord_campaign_replenish_growth		5	9	wh3_main_sc_nur_nurgle	0	0	true
+hkrul_skill_node_spew_nurgle_campaign_3_2_dae		wh3_main_skill_dae_lord_campaign_nurgle		5	9	wh3_main_sc_dae_daemons	0	0	true
+hkrul_skill_node_spew_nurgle_campaign_3_3		wh3_main_skill_nur_lord_campaign_upkeep		5	7		0	0	true
+hkrul_skill_node_spew_nurgle_campaign_3_4		wh3_main_skill_kho_lord_campaign_attrition_reduction		5	8		0	0	true
+hkrul_skill_node_spew_nurgle_campaign_4		wh2_main_skill_ll_self_defense_nur		5	10		0	4	true
+hkrul_skill_node_spew_nurgle_combat_0		wh_main_skill_chs_lord_self_eye_of_the_gods		3	0		0	0	true
+hkrul_skill_node_spew_nurgle_combat_1_1		wh2_dlc11_skill_all_lord_self_devastating_charge		3	1		0	0	true
+hkrul_skill_node_spew_nurgle_combat_1_2		wh2_dlc11_skill_all_lord_self_thick-skinned		3	2		0	0	true
+hkrul_skill_node_spew_nurgle_combat_1_3		wh2_dlc11_skill_all_lord_self_hard_to_hit		3	3		0	0	true
+hkrul_skill_node_spew_nurgle_combat_1_4		wh2_dlc11_skill_all_lord_self_deadly_blade		3	4		0	0	true
+hkrul_skill_node_spew_nurgle_combat_2		wh_main_skill_all_all_self_foe-seeker		3	5		0	4	true
+hkrul_skill_node_spew_nurgle_combat_3_1		wh2_dlc11_skill_all_lord_self_wound-maker		3	6		0	0	true
+hkrul_skill_node_spew_nurgle_combat_3_2		wh2_dlc11_skill_all_lord_self_scarred_veteran		3	7		0	0	true
+hkrul_skill_node_spew_nurgle_combat_3_3		wh2_dlc11_skill_all_lord_self_self_indomitable		3	8		0	0	true
+hkrul_skill_node_spew_nurgle_combat_3_4		wh2_dlc11_skill_all_lord_self_blade_shield		3	9		0	0	true
+hkrul_skill_node_spew_nurgle_combat_4		wh_main_skill_all_all_self_deadly_onslaught		3	10		0	4	true
+hkrul_skill_node_spew_innate		innate_hkrul_spew		6	0		1	0	false
+hkrul_skill_node_spew_misc_07		hkrul_spew_special_1_0		1	1		0	0	true
+hkrul_skill_node_spew_misc_06		hkrul_spew_special_1_1		1	2		0	0	true
+hkrul_skill_node_spew_misc_05		hkrul_spew_special_1_2		1	3		0	0	true
+hkrul_skill_node_spew_misc_04		hkrul_spew_special_1_3		1	4		0	0	true
+hkrul_skill_node_spew_misc_03		hkrul_spew_special_1_4		1	5		0	0	true
+hkrul_skill_node_spew_misc_02		hkrul_spew_special_2_0		1	6		0	4	true
+hkrul_skill_node_spew_misc_01		hkrul_spew_special_0_1		0	11		0	0	true
+hkrul_skill_node_spew_misc_08		hkrul_spew_special_0_2		0	12		0	0	true
+hkrul_skill_node_spew_misc_09		hkrul_spew_banner		6	20		0	0	true
+hkrul_skill_node_spew_misc_10		hkrul_spew_sword		6	21		0	0	true
+hkrul_skill_node_spew_misc_11		wh_main_skill_chs_lord_battle_hearts_of_iron		0	6		0	0	true
+hkrul_skill_node_spew_misc_12		wh_main_skill_chs_lord_battle_voice_of_the_dark_gods		0	7		0	0	true
+rhox_lccp_sprw_maggoth		rhox_lccp_sprw_maggoth		0	1		0	0	true

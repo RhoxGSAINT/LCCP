@@ -1,0 +1,9 @@
+key	text	tooltip
+#Loc;1;text/db/hkrul_vroth_generic__.loc		
+character_trait_levels_onscreen_name_hkrul_defeated_trait_vroth	Hunter Hunted	true
+character_trait_levels_colour_text_hkrul_defeated_trait_vroth	Not the real Surtha after all..	true
+character_trait_levels_explanation_text_hkrul_defeated_trait_vroth	Defeated Surtha Lenk	true
+ancillaries_colour_text_hkrul_vroth_holz	Originally the Watch Captain of Ubersreik, X was drafted to serve as Captain Guard in the Fortress of Helmgart. X is a bear of a man unfased by the cold climate of the Grey Mountains and has faced all kinds of threats in the melting pot that is Ubersreik. His presence on the Fortress Walls inspire the brethren facing any foe daring enough to climb their final fate.	true
+ancillaries_onscreen_name_hkrul_vroth_holz	Captain X	true
+ancillaries_colour_text_hkrul_vroth_sword	Passed on from Margrave to Margrave, Helmgart's Brand is the token worn by the Lord-Warden of the Grey Mountains. Forged by the Dwarfs of Karak Zorn it is enchanted with magical essence, hence why it's hilt always remains warm and pleasant to handle - regardless of the terrain the sword finds itself in. Making it easy for any wielder to fight regardless of the climate. 	true
+ancillaries_onscreen_name_hkrul_vroth_sword	Helmgart's Brand	true
