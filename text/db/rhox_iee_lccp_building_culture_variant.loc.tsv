@@ -81,3 +81,9 @@ building_culture_variants_name_rhox_key_keepers_watch_tower_ghrond	Beacon-Spire 
 building_short_description_texts_short_description_rhox_key_keepers_watch_tower_ghrond	One of the Watch Towers of Naggaroth, kept by thrall labour and thrall blood. Fed, it sees all that crawls out of the north; starved, it is blind.	false
 building_effect_context_expressions_display_text_RhoxKeyKeepersSlavesAtLeast500	While at least [[img:icon_slaves]][[/img]]500 Slaves are held:	false
 building_effect_context_expressions_display_text_RhoxKeyKeepersSlavesBelow500	While fewer than [[img:icon_slaves]][[/img]]500 Slaves are held:	false
+building_culture_variants_name_rhox_key_keepers_watch_tower_ashrakrhox_def_key_keepers	Watch Tower of Ashrak	false
+building_culture_variants_name_rhox_key_keepers_watch_tower_dargothrhox_def_key_keepers	Watch Tower of Dargoth	false
+building_culture_variants_name_rhox_key_keepers_watch_tower_kauarkrhox_def_key_keepers	Watch Tower of Kauark	false
+building_culture_variants_name_rhox_key_keepers_watch_tower_nagrarrhox_def_key_keepers	Watch Tower of Nagrar	false
+building_culture_variants_name_rhox_key_keepers_watch_tower_shagrathrhox_def_key_keepers	Watch Tower of Shagrath	false
+building_culture_variants_name_rhox_key_keepers_watch_tower_ghrondrhox_def_key_keepers	Beacon-Spire of Ghrond	false

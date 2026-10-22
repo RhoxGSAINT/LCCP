@@ -191,6 +191,9 @@ core:add_listener(
             is_leader,
             function(cqi)
                 new_char_interface = cm:get_character_by_cqi(cqi)
+                if episode_chaos_invasion and episode_chaos_invasion.persistent.legendary_lords then
+					episode_chaos_invasion.persistent.legendary_lords["hkrul_thorgar_daemon_prince"] = new_char_interface:family_member():command_queue_index()
+				end
 				local new_char_lookup = cm:char_lookup_str(cqi)
 				cm:reassign_ancillaries_to_character_of_same_faction(old_char_details.character_details, new_char_interface:character_details())
 				

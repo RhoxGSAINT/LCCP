@@ -44,3 +44,35 @@ event_feed_strings_text_wh2_dlc17_event_feed_string_burlok_artifact_found_second
 campaign_payload_ui_details_description_rhox_burlok_ritual_burlok_artifact_extra	Inspired by your milestone, Wundal the Wizard will join you	false
 ui_text_replacements_localised_text_scrap_panel_button_tooltip_rhox_torinubar	Unit Upgrades||Use commodities to increase your units’ battle capabilities.	false
 campaign_payload_ui_details_description_dummy_confederate_lord_zach	[[col:yellow]]Zacharias the Everliving[[/col]] is now available to confederate via the Confederation panel	false
+advice_info_texts_localised_text_rhox_lccp_cheatsheet_burlok_header	Burlok's Experiments	false
+advice_info_texts_localised_text_rhox_lccp_cheatsheet_burlok_text	[[img:bullet_dwf_crafting]][[/img]] Seek out exotic ingredients during your campaign to perform experiments in return for unique rewards.	false
+advice_info_texts_localised_text_rhox_lccp_cheatsheet_dolmance_header	The Reveller of Slaanesh	false
+advice_info_texts_localised_text_rhox_lccp_cheatsheet_dolmance_text	[[img:ui/campaign ui/skills/hkrul_dolmance_special_0_2.png]][[/img]] Dolmance does not have access to worship buildings and Prophetesses, but has access to Slaanesh units and Chaos Sorcerers of Slaanesh instead.\\n\\n[[img:icon_devotees]][[/img]] Gather Devotees throughout your campaign to spend on Pleasurable Acts that benefit your home regions, or build a special building that allows you to recruit Slaanesh's followers.\\n\\n[[img:ui/campaign ui/effect_bundles/resource_wine.png]][[/img]] Collect wine-producing places across the world, which give extraordinary benefits to Dolmance.	false
+advice_info_texts_localised_text_rhox_lccp_cheatsheet_hrothyogg_header	Mercenary Reputation	false
+advice_info_texts_localised_text_rhox_lccp_cheatsheet_hrothyogg_text	[[img:ui/campaign ui/skills/hkrul_hroth_special_0_1.png]][[/img]] Win battles to increase your reputation and make mercenary contracts across the world.	false
+advice_info_texts_localised_text_rhox_lccp_cheatsheet_sceolan_header	Embrace of the Cold	false
+advice_info_texts_localised_text_rhox_lccp_cheatsheet_sceolan_text	[[img:ui/campaign ui/skills/innate_sceolan.png]][[/img]] Your forces will gain a special ability if they start a turn in a Magical Forest or Frozen climate settlement.	false
+advice_info_texts_localised_text_rhox_lccp_cheatsheet_slaurith_header	Fallen Brethren	false
+advice_info_texts_localised_text_rhox_lccp_cheatsheet_slaurith_text	[[img:ui/campaign ui/skills/hkrul_slaurith_special_0_1.png]][[/img]] Seek out your past fellow knights by occupying the settlements and defeating the characters that protect them to gain great powers.	false
+advice_info_texts_localised_text_rhox_lccp_cheatsheet_thorgar_header	Path to Daemonhood	false
+advice_info_texts_localised_text_rhox_lccp_cheatsheet_thorgar_text	[[img:hkrul_image_khazag]][[/img]] Thorgar's sole ambition is to ascend as a Daemon Prince, which he can achieve through various Paths to Glory.\\n\\n[[img:icon_confederation]][[/img]] Defeat the faction leaders of rival Norscan tribes to be given the option to form tribal confederations.	false
+advice_info_texts_localised_text_rhox_lccp_cheatsheet_torinubar_header	Tycoon of the Transit Trade	false
+advice_info_texts_localised_text_rhox_lccp_cheatsheet_torinubar_text	[[img:icon_caravan_cargo]][[/img]] Send trade caravans across the world and become the tycoon of the transit trade.	false
+advice_info_texts_localised_text_rhox_lccp_cheatsheet_valbrand_header	Slaves for the Blood God	false
+advice_info_texts_localised_text_rhox_lccp_cheatsheet_valbrand_text	[[img:icon_chaos_gifts]][[/img]] Capture Slaves and sacrifice them to the Dark Gods in return for factionwide boons granted by Khorne.\\n\\n[[img:icon_army]][[/img]] Send your forces into multiple successive battles to progress through Bloodletting levels and accumulate bonuses.	false
+advice_info_texts_localised_text_rhox_lccp_cheatsheet_volrik_header	Grimoires for the Changer	false
+advice_info_texts_localised_text_rhox_lccp_cheatsheet_volrik_text	[[img:icon_chaos_gifts]][[/img]] Grimoires can also be sacrificed to the Dark Gods in return for factionwide boons granted by Tzeentch.	false
+advice_info_texts_localised_text_rhox_lccp_cheatsheet_zach_header	The Shadeheart Fortress	false
+advice_info_texts_localised_text_rhox_lccp_cheatsheet_zach_text	[[img:icon_books_of_nagash]][[/img]] Amplify the powers of the Books of Nagash by constructing the Shadeheart Fortress at Zacharias' homeland, the Forest of Shadows, Wolfenburg.	false
+advice_info_texts_localised_text_rhox_lccp_cheatsheet_engra_header	Herald of Archaon	false
+advice_info_texts_localised_text_rhox_lccp_cheatsheet_engra_text	[[img:icon_souls_resource]][[/img]] Empower Archaon and yourself by collecting souls and handing off settlements to him.	false
+advice_info_texts_localised_text_rhox_lccp_cheatsheet_aelfric_header	The Ice Wolves	false
+advice_info_texts_localised_text_rhox_lccp_cheatsheet_aelfric_text	[[img:ui/campaign ui/skills/hkrul_aelfric_special_0_1.png]][[/img]] After winning a battle against human factions, Ice Wolves may join your army if there is an empty unit slot available.	false
+advice_info_texts_localised_text_rhox_lccp_cheatsheet_vroth_header	The Master Hunter	false
+advice_info_texts_localised_text_rhox_lccp_cheatsheet_vroth_text	[[img:hkrul_image_tokmars]][[/img]] Surtha Lenk is a master hunter with the ability to trap and tame even the fiercest of beasts through the monster pen mechanic.\\n\\n[[img:icon_confederation]][[/img]] Defeat the faction leaders of rival Norscan tribes to be given the option to form tribal confederations.	false
+advice_info_texts_localised_text_rhox_lccp_cheatsheet_karitamen_header	The Realm of Amenemhetum	false
+advice_info_texts_localised_text_rhox_lccp_cheatsheet_karitamen_text	[[img:ui/campaign ui/skills/hkrul_kita_special_0_1.png]][[/img]] Grow your strength and reconquer Amenemhetum the Great's realm to show your might unto the world.	false
+advice_info_texts_localised_text_rhox_lccp_cheatsheet_duriath_header	Duriath's Flagship	false
+advice_info_texts_localised_text_rhox_lccp_cheatsheet_duriath_text	[[img:bullet_def_black_arks]][[/img]] Duriath has access to his special flagship. While it gives him great benefits, he can only recruit units on land when garrisoned inside a settlement.	false
+advice_info_texts_localised_text_rhox_lccp_cheatsheet_dorian_header	Vigil of the North	false
+advice_info_texts_localised_text_rhox_lccp_cheatsheet_dorian_text	[[img:icon_dread]][[/img]] Hold the Watch Towers of Naggaroth and defeat the forces of Chaos to raise the Vigil of the North. Towers in the hands of outsiders and lost battles will weaken it, and should it fall too low, Chaos warbands will break through the northern border.\\n\\n[[img:icon_slaves]][[/img]] Each Watch Tower empowers your armies against Chaos while you hold at least 500 Slaves, but devours Slaves every turn. As the Keeper of the Iron Key, Dorian has access to enhanced Slave Diktats and can spend Vigil to kindle the beacons of a province.	false

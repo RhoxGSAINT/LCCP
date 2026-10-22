@@ -176,15 +176,42 @@ local zach = {
 
 table.insert(vampire_lairs.lair_spawning_data.factions, zach)
 
-
-
 table.insert(vampire_technology.locked_techs_necromancers.factions, "rhox_vmp_the_everliving")
 table.insert(vampire_technology.locked_techs_necromancers.factions, "rhox_vmp_the_everliving")
-
 
 table.insert(vampire_technology.starting_vampire_techs, {faction = "rhox_vmp_the_everliving", tech = "wh3_main_tech_vmp_vampires_main_1"})
 table.insert(vampire_technology.starting_vampire_techs, {faction = "rhox_vmp_the_everliving", tech = "wh3_main_tech_vmp_vampires_main_2"})
 table.insert(vampire_technology.starting_necromancer_techs, {faction = "rhox_vmp_the_everliving", tech = "wh3_main_tech_vmp_necromancers_0"})
+
+
+-------------------------------Chaos invasion
+episode_chaos_invasion.chaos_legendary_lords["hkrul_thorgar_daemon_prince"]= {status = "unkown", forename = "1270717839", surname = "1270717838", army = "chaos"}
+episode_chaos_invasion.chaos_legendary_lords["hkrul_engra"]= {status = "unkown", forename = "5670700325", surname = "5670700324", army = "chaos"}
+episode_chaos_invasion.chaos_legendary_lords["hkrul_aelfric"]= {status = "unkown", forename = "5670500325", surname = "5670500324", army = "chaos"}
+
+--because we want him transformed
+cm:add_post_first_tick_callback(
+	function()
+		if not cm:is_new_game() then
+			return
+		end
+		if not episode_chaos_invasion or not episode_chaos_invasion.persistent.legendary_lords then
+			return
+		end
+		local faction = cm:get_faction("rhox_nor_khazags")
+		if not faction then
+			return
+		end
+		local character_list = faction:character_list()
+		for i = 0, character_list:num_items() - 1 do
+			local character = character_list:item_at(i)
+			if character:character_subtype("hkrul_thorgar") then
+				episode_chaos_invasion.persistent.legendary_lords["hkrul_thorgar_daemon_prince"] = character:family_member():command_queue_index()
+				break
+			end
+		end
+	end
+)
 
 
 

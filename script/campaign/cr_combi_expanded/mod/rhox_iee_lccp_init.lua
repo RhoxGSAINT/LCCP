@@ -1070,7 +1070,7 @@ local rhox_iee_list={
         },
         hand_over_region="cr_combi_region_chi_an_encampment",
         region="cr_combi_region_chi_an_encampment",
-        how_they_play="rhox_iee_lccp_how_they_play_orghotts",--temp
+        how_they_play="rhox_iee_lccp_how_they_play_dorian",--temp
         pic=12,
         faction_trait="rhox_dorian_faction_trait",
         enemy={

@@ -45,3 +45,5 @@ id	names_group	type	gender	frequency
 1270717835	names_nor_norsca	forename	b	0
 1270717836	names_nor_norsca	forename	b	0
 1270717837	names_nor_norsca	family_name	b	0
+1270717838	names_chs_chaos	family_name	b	0
+1270717839	names_chs_chaos	forename	b	0
