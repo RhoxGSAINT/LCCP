@@ -1,0 +1,21 @@
+<model version="1">
+	<geometry>variantmeshes\wh_variantmodels\hu1\vmp\kayoh_zach\kayoh_zacharias_staff.rigid_model_v2</geometry>
+		<materials>
+			<material lod_index="0" part_index="0">variantmeshes\wh_variantmodels\hu1\vmp\kayoh_zach\materials\emp_grey_wizard_staff_1h_01_lod__rigid_alpha_on.xml.material</material>
+			<material lod_index="0" part_index="1">variantmeshes\wh_variantmodels\hu1\vmp\kayoh_zach\materials\brt_damsel_staff_1h_02_lod1_subm_rigid_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="2">variantmeshes\wh_variantmodels\hu1\vmp\kayoh_zach\materials\skv_seer_staff_2h_02_lod1_rigid_alpha_on.xml.material</material>
+			<material lod_index="0" part_index="3">variantmeshes\wh_variantmodels\hu1\vmp\kayoh_zach\materials\skv_seer_staff_2h_02_lod1_submes_rigid_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="0">variantmeshes\wh_variantmodels\hu1\vmp\kayoh_zach\materials\emp_grey_wizard_staff_1h_01_lod__rigid_alpha_on.xml.material</material>
+			<material lod_index="1" part_index="1">variantmeshes\wh_variantmodels\hu1\vmp\kayoh_zach\materials\brt_damsel_staff_1h_02_lod1_subm_rigid_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="2">variantmeshes\wh_variantmodels\hu1\vmp\kayoh_zach\materials\skv_seer_staff_2h_02_lod1_rigid_alpha_on.xml.material</material>
+			<material lod_index="1" part_index="3">variantmeshes\wh_variantmodels\hu1\vmp\kayoh_zach\materials\skv_seer_staff_2h_02_lod1_submes_rigid_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="0">variantmeshes\wh_variantmodels\hu1\vmp\kayoh_zach\materials\emp_grey_wizard_staff_1h_01_lod__rigid_alpha_on.xml.material</material>
+			<material lod_index="2" part_index="1">variantmeshes\wh_variantmodels\hu1\vmp\kayoh_zach\materials\brt_damsel_staff_1h_02_lod1_subm_rigid_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="2">variantmeshes\wh_variantmodels\hu1\vmp\kayoh_zach\materials\skv_seer_staff_2h_02_lod1_rigid_alpha_on.xml.material</material>
+			<material lod_index="2" part_index="3">variantmeshes\wh_variantmodels\hu1\vmp\kayoh_zach\materials\skv_seer_staff_2h_02_lod1_submes_rigid_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="0">variantmeshes\wh_variantmodels\hu1\vmp\kayoh_zach\materials\emp_grey_wizard_staff_1h_01_lod__rigid_alpha_on.xml.material</material>
+			<material lod_index="3" part_index="1">variantmeshes\wh_variantmodels\hu1\vmp\kayoh_zach\materials\brt_damsel_staff_1h_02_lod1_subm_rigid_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="2">variantmeshes\wh_variantmodels\hu1\vmp\kayoh_zach\materials\skv_seer_staff_2h_02_lod1_rigid_alpha_on.xml.material</material>
+			<material lod_index="3" part_index="3">variantmeshes\wh_variantmodels\hu1\vmp\kayoh_zach\materials\skv_seer_staff_2h_02_lod1_submes_rigid_alpha_off.xml.material</material>
+	</materials>
+</model>

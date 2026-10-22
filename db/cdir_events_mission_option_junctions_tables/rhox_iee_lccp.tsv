@@ -98,3 +98,5 @@ id	mission_key	option_key	value	target
 1786528757	hkrul_engra_praag	VAR_MISSION_LENGTH_INFINITE		default
 1786528758	hkrul_engra_praag	VAR_CHANCE	100	default
 1786528759	hkrul_engra_praag	GEN_TARGET_NONE		default
+1786528760	rhox_lccp_vmp_mission_confederate_lord_zach	VAR_CHANCE	100	default
+1786528761	rhox_lccp_vmp_mission_confederate_lord_zach	GEN_TARGET_NONE		default

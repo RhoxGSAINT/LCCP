@@ -14,3 +14,5 @@ mortuary_cult_categories_localised_description_rhox_burlok_experiment	Experiment
 mortuary_cult_categories_localised_name_rhox_burlok_experiment	Artefact Vault	false
 rituals_description_rhox_arbaal_move_ritual	Arbaal unleashes his fury and slaughters his foes with reckless abandon. He gains a surge of energy and can move again on the campaign map. However, this also drains some of his bloodlust and reduces his favor with Khorne.	false
 rituals_display_name_rhox_arbaal_move_ritual	Bloodthirsty Rampage	false
+rituals_display_name_rhox_lccp_vmp_ritual_confederate_lord_zach	Zacharias the Everliving	false
+rituals_description_rhox_lccp_vmp_ritual_confederate_lord_zach	{{tr:ui_text_replacements_localised_text_bloodline_confederate_tooltip}}	false

@@ -328,3 +328,4 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			wh3_main_kho_inf_chaos_warriors_2	nor_all	false
 			wh3_main_kho_inf_chaos_warriors_2	wh2_dlc11_nor_marauders_spearmen_berserkers_champions	false
 			wh3_main_kho_inf_chaos_warriors_2	wh2_dlc11_nor_vets_marauders_spearmen_berserkers_champions	false
+			wh3_dlc20_chs_inf_chaos_marauders_msla_hellscourges	wh3_dlc27_sla_marauders_units_styrkaar	false

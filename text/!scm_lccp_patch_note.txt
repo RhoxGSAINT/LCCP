@@ -1,3 +1,40 @@
+2026/OCT/20 SCM-2
+- Changed the location for Zach's initial lair to Lion's den since it wasn't working when the first lair is same with starting region (You need a new campaign start)
+
+
+2026/OCT/20 SCM
+- New skin for Zacharias made by Kayoh
+- Rebalanced Zacharias defeat trait
+- New effects for Zacharias his unique skill line
+- New ability icons made by HKrul for his abilities
+- One new ability for Zacharias
+- New effects for his quest items
+- His unique banner can now be given to Fredrik von Hal (he was missing a unit set record)
+- Fixed Zacharias on his Zombie Dragon 
+
+2026/OCT/19 SCM
+- Changed vampire lair setting so that it matches that of vanilla
+- Now you can also confederate Zach via VC confederate panel
+-- Image is made by HKrul
+-- You need a new campaign start for this confederation if you were playing as VC
+
+2026/OCT/11 SCM
+- Added wh3_main_vmp_effect_legendary_vampire_dummy to the faction effect bundle of Zach so that people will know that he starts with vampire tech unlocked
+- Gave access to styrkaar to the following factions: Tokmar, Khazag, Engra, Aelfric, and Dolmance
+- Gave LH access to the Iron wolf also
+
+2026/OCT/06 SCM
+- Added Chaos Gift UI feature to Engra and Aelfric
+
+2026/OCT/05 SCM2
+- Fixed the issue of rhox_mar_replace_vanilla.lua not coping with vanilla change. Now it properly uses grant_human_rewards rather than reward_item_check
+
+2026/OCT/05 SCM
+- Fixed an issue with several corrupted rigid models
+
+2026/OCT/01 SCM
+- Removed frontend and overriding text of Spew
+
 2026/SEP/28 SCM
 - Changed "renown" into "wh3_main_regiments_of_renown_pool" to make it count towards the renown cap in the army
 -- Fixed the RoR removing scripts for the god dedicated Norscas

@@ -7,4 +7,5 @@ hkrul_slaurith_blood	0.0000	200.0000	time_in_melee	linear_multiplier	-1.0000	0.0
 hkrul_dolmance_favorite	0.0000	200.0000	kills_made	linear_multiplier	-1.0000	0.0000	false
 hkrul_dolmance_favorite2	0.0000	200.0000	kills_made	linear_multiplier	-1.0000	0.0000	false
 hkrul_burlok_warm	0.0000	200.0000	time_in_melee	linear_multiplier	-1.0000	0.0000	false
-hkrul_zach_circlet	0.0000	200.0000	nearby_all_deaths	linear_multiplier	-1.0000	0.0000	false
+hkrul_zach_circlet	0.0000	200.0000	nearby_all_deaths	linear_multiplier	-1.0000	0.0000	true
+hkrul_zach_mortis	0.0000	200.0000	enemies_in_range	linear_multiplier	-1.0000	0.0000	true

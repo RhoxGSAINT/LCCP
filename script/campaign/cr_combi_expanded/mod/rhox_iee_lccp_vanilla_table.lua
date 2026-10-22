@@ -55,17 +55,42 @@ character_unlocking.character_data["karanak"]["starting_mission_keys"]["rhox_chs
 
 table.insert(character_unlocking.character_data["skarr"]["override_allowed_factions"], "rhox_chs_the_deathswords")
 table.insert(character_unlocking.character_data["scyla"]["override_allowed_factions"], "rhox_chs_the_deathswords")
+table.insert(character_unlocking.character_data["styrkaar"]["override_allowed_factions"], "rhox_chs_the_deathswords")
+character_unlocking.character_data["styrkaar"]["starting_mission_keys"]["rhox_chs_the_deathswords"] ="wh3_dlc27_ie_sla_styrkaar_stage_1"
 
------------Nurgle Plague
-nurgle_plagues.plague_faction_info["cr_nur_tide_of_pestilence"] = {max_blessed_symptoms = 1, current_symptoms_list = {}, plague_creation_counter = 3}
-nurgle_plagues.plague_button_unlock["cr_nur_tide_of_pestilence"] = {button_locked = true, infections_gained = 0, infections_end_of_last_turn = 200}
+----------Aelfric
+table.insert(character_unlocking.character_data["aekold"]["override_allowed_factions"]["main_warhammer"], "cr_chs_iron_wolves")
+character_unlocking.character_data["aekold"]["starting_mission_keys"]["cr_chs_iron_wolves"]={}
+character_unlocking.character_data["aekold"]["starting_mission_keys"]["cr_chs_iron_wolves"]["main_warhammer"]="wh3_dlc24_mis_ie_tze_aekold_helbrass_stage_1_chs"
 
+table.insert(character_unlocking.character_data["scribes"]["override_allowed_factions"]["main_warhammer"], "cr_chs_iron_wolves")
+character_unlocking.character_data["scribes"]["starting_mission_keys"]["cr_chs_iron_wolves"]={}
+character_unlocking.character_data["scribes"]["starting_mission_keys"]["cr_chs_iron_wolves"]["main_warhammer"]="wh3_dlc24_mis_tze_blue_scribes_stage_1_chs"
+
+table.insert(character_unlocking.character_data["karanak"]["override_allowed_factions"]["main_warhammer"], "cr_chs_iron_wolves")
+character_unlocking.character_data["karanak"]["starting_mission_keys"]["cr_chs_iron_wolves"]={}
+character_unlocking.character_data["karanak"]["starting_mission_keys"]["cr_chs_iron_wolves"]["main_warhammer"] ="wh3_pro12_mis_ie_chs_karanak_unlock_01"
+
+
+table.insert(character_unlocking.character_data["skarr"]["override_allowed_factions"], "cr_chs_iron_wolves")
+table.insert(character_unlocking.character_data["scyla"]["override_allowed_factions"], "cr_chs_iron_wolves")
+table.insert(character_unlocking.character_data["styrkaar"]["override_allowed_factions"], "cr_chs_iron_wolves")
+character_unlocking.character_data["styrkaar"]["starting_mission_keys"]["cr_chs_iron_wolves"] ="wh3_dlc27_ie_sla_styrkaar_stage_1"
 
 -----------Norsca guys for Beorg
 table.insert(character_unlocking.character_data["beorg_bearstruck"]["override_allowed_factions"], "rhox_nor_ravenblessed")
 table.insert(character_unlocking.character_data["beorg_bearstruck"]["override_allowed_factions"], "rhox_nor_khazags")
 table.insert(character_unlocking.character_data["beorg_bearstruck"]["override_allowed_factions"], "rhox_nor_firebrand_slavers")
 table.insert(character_unlocking.character_data["beorg_bearstruck"]["override_allowed_factions"], "cr_nor_tokmars")
+
+
+----------styrkaar for Norsca and Bretonnia
+table.insert(character_unlocking.character_data["styrkaar"]["override_allowed_factions"], "cr_nor_tokmars")
+character_unlocking.character_data["styrkaar"]["starting_mission_keys"]["cr_nor_tokmars"] ="wh3_dlc29_ie_nor_styrkaar_stage_1"
+table.insert(character_unlocking.character_data["styrkaar"]["override_allowed_factions"], "rhox_nor_khazags")
+character_unlocking.character_data["styrkaar"]["starting_mission_keys"]["rhox_nor_khazags"] ="wh3_dlc29_ie_nor_styrkaar_stage_1"
+table.insert(character_unlocking.character_data["styrkaar"]["override_allowed_factions"], "rhox_brt_reveller_of_domance")
+character_unlocking.character_data["styrkaar"]["starting_mission_keys"]["rhox_brt_reveller_of_domance"] ="wh3_dlc29_ie_nor_styrkaar_stage_1"
 
 
 --caradryan for Gate guard
@@ -140,16 +165,18 @@ nagash_book_participant_factions["rhox_vmp_the_everliving"]=true
 
 local zach = {
     key = "rhox_vmp_the_everliving",
-    first_lair = "cr_combi_region_tarangnagar",
+    first_lair = "cr_combi_region_lions_den",
     lair_pools = {
-        {key = "close", distance = 35000, lair_count = 2}, -- Distance set at the value at which at least 50 regions are within range
+        {key = "close", distance = 35000, lair_count = 1}, -- Distance set at the value at which at least 50 regions are within range
         {key = "medium", distance = 240000, lair_count = 2}, -- Distance set at the value at which 50% of all regions are within range
         {key = "far", distance = 400000, lair_count = 3}, -- Distance set at the value at which 75% of all region are within range
-        {key = "random", distance = 9999999, lair_count = 3}, -- All regions are valid at this distance
+        {key = "random", distance = 9999999, lair_count = 4}, -- All regions are valid at this distance
     }
 }
 
-table.insert(vampire_lairs.lair_spawning_data.factions, zach)	
+table.insert(vampire_lairs.lair_spawning_data.factions, zach)
+
+
 
 table.insert(vampire_technology.locked_techs_necromancers.factions, "rhox_vmp_the_everliving")
 table.insert(vampire_technology.locked_techs_necromancers.factions, "rhox_vmp_the_everliving")

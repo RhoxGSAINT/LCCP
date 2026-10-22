@@ -82,6 +82,7 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			wh3_dlc20_chs_inf_chaos_marauders_mtze_spears	hkrul_volrik_mtze	false
 			rhox_lccp_vmp_giant	wh2_dlc11_vmp_vets_crypt_horrors_ghouls_dire_wolves_varghulfs_mournguls	false
 			rhox_lccp_vmp_giant	wh2_dlc11_vmp_zombies_skeletons_ghouls_graveguard	false
+			rhox_lccp_vmp_giant	vmp_all	false
 			rhox_lccp_vmp_giant	wh2_main_ror_units_all	false
 			rhox_lccp_vmp_giant	wh2_dlc11_vmp_vets_crypt_horrors_ghouls_dire_wolves_varghulfs_ror	false
 			rhox_lccp_sceolan_wef_spellweaver_ice	wef_dlc05_elf_characters	false
@@ -94,3 +95,4 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			rhox_lccp_sceolan_wef_spellsinger_ice_3	wef_dlc05_elf_characters	false
 			wh2_dlc16_wef_inf_dryads_ror_0	rhox_sceolan_ror	false
 			wh_pro04_wef_inf_eternal_guard_ror_0	rhox_sceolan_ror	false
+			rhox_lccp_vmp_giant	hkrul_zach_frederik_van_hal	false

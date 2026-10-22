@@ -107,3 +107,8 @@ rhox_torinubar_effect_caravan_cargo_percent_point_DUMMY	cargo.png	10	cargo.png	c
 rhox_burlok_dwf_ritual_confederation_burlok_cost_mod	confederation.png	0	confederation.png	campaign	true
 rhox_burlok_dwf_ritual_legendary_lord_burlok	confederation.png	1	confederation.png	campaign	true
 rhox_hrothyogg_contracts_dummy	ogr_golgfags_contracts.png	1	ogr_golgfags_contracts.png	campaign	true
+rhox_lccp_vmp_ritual_confederate_lord_zach	confederation.png	1	confederation.png	campaign	true
+hkrul_zach_mortis	item_ability.png	23	item_ability.png	battle	true
+hkrul_zach_frederik_melee_attack	melee.png	431	melee.png	battle	true
+hkrul_zach_frederik_melee_defence	defence.png	451	defence.png	battle	true
+hkrul_zach_frederik_weapon_strength	weapon_damage.png	461	weapon_damage.png	battle	true
