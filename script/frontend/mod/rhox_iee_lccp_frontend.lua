@@ -82,6 +82,11 @@ core:add_ui_created_callback(
             mixer_change_lord_name("1901497633", "hkrul_aelfric") 
             mixer_add_starting_unit_list_for_faction("cr_chs_iron_wolves", {"wh_dlc01_chs_inf_chaos_warriors_2","wh_dlc01_chs_mon_dragon_ogre", "wh_main_chs_mon_chaos_warhounds_0", "wh_main_chs_mon_trolls", "wh_dlc08_nor_mon_warwolves_0"})
             mixer_add_faction_to_major_faction_list("cr_chs_iron_wolves")
+            
+            mixer_change_lord_name("269126187", "hkrul_dorian") 
+            mixer_enable_custom_faction("269126187")
+            mixer_add_starting_unit_list_for_faction("rhox_def_key_keepers", {"wh2_main_def_inf_bleakswords_0","wh2_main_def_inf_darkshards_1"})
+            mixer_add_faction_to_major_faction_list("rhox_def_key_keepers")
         end        
     end
 )

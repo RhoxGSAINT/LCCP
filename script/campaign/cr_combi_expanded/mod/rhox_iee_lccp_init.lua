@@ -1053,7 +1053,37 @@ local rhox_iee_list={
         end,
         first_tick = function(faction, faction_key) 
         end
-    }
+    },
+    rhox_def_key_keepers ={
+        leader={
+            subtype="hkrul_dorian",
+            unit_list="wh2_main_def_inf_bleakswords_0,wh2_main_def_inf_darkshards_1",
+            x=244,
+            y=938,
+            forename ="names_name_24444424",--temp
+                familiyname ="names_name_24444423",--temp
+        },
+        agent={
+            type="wizard",
+            subtype="wh2_dlc10_def_sorceress_beasts"
+        },
+        hand_over_region="cr_combi_region_chi_an_encampment",
+        region="cr_combi_region_chi_an_encampment",
+        how_they_play="rhox_iee_lccp_how_they_play_orghotts",--temp
+        pic=12,
+        faction_trait="rhox_dorian_faction_trait",
+        enemy={
+            key="cr_nur_tide_of_pestilence",
+            subtype="wh3_dlc25_chs_lord_mnur",
+            unit_list="wh3_main_nur_inf_nurglings_0,wh3_main_nur_inf_nurglings_0,wh3_dlc20_chs_inf_chaos_marauders_mnur,wh3_dlc20_chs_inf_chaos_marauders_mnur",
+            x= 249,
+            y=940
+        },
+        additional = function(faction, faction_key) 
+        end,
+        first_tick = function(faction, faction_key) 
+        end
+    },
 }
 
 
