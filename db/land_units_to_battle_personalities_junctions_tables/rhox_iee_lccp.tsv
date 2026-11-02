@@ -27,3 +27,5 @@ wh2_dlc16_hef_spellweaver_shadows_great_eagle_rider1	rhox_lccp_sceolan_wef_spell
 wh_dlc05_wef_cha_spellsinger_shadows_2	rhox_lccp_sceolan_wef_spellsinger_ice_2	autonomous_rider		-1	true
 rhox_spew_rider	hkrul_spew_rider	autonomous_rider	ap_rider_01	-1	true
 hkrul_zach_dragon	hkrul_zach_dragon	autonomous_rider	ap_riderposition_0	-1	true
+hkrul_aelfric_horse	hkrul_aelfric_horse	autonomous_rider	ap_riderposition_0	-1	true
+hkrul_aelfric_horse_rider	hkrul_aelfric_horse	autonomous_rider	ap_riderposition_0	-1	true

@@ -1,3 +1,21 @@
+2026/OCT/30 SCM
+- Fixed the issue of this mod overriding secessionist's Mack defeat trait
+- Fixed the issue of Thorgar on the invasion using wrong name
+
+
+2026/OCT/24 SCM
+- Added a new campaign model for Slaurith
+- Added a new campaign animset to negate the Aekold Helbrass campaign vfx
+- Added a new battle personality to fix the vanilla glowing eyes bug for HU1C chaos steed riders
+- Added a missing land unit entry for hkrul_aelfric_horse
+
+
+2026/OCT/24 SCM
+- Added missing effect to the Valbrand size
+
+2026/OCT/23 SCM
+- Foreign building to settlement types
+
 2026/OCT/22 SCM
 - Some special setting for Engra, Aelfric, and Thorgar in the Chaos invasion
 - Added cheat sheet based on How they play. (The one you see when you press esc)
