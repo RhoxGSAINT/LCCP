@@ -75,6 +75,15 @@ cm:add_first_tick_callback(
                 function ()
                     
                     local panel = core:get_or_create_component("rhox_valbrand_chaos_gift_panel", "ui/campaign ui/rhox_valbrand_chaos_gift_panel.twui.xml", core:get_ui_root())
+
+                    cm:steal_escape_key_with_callback(
+                        "rhox_valbrand_destroy_panel",
+                        function()
+                            panel:Destroy()
+                            cm:release_escape_key_with_callback("rhox_valbrand_destroy_panel")
+                        end,
+                        false
+                    )
                 end,
                 true
             )
@@ -92,6 +101,7 @@ cm:add_first_tick_callback(
                     if panel then
                         panel:Destroy()
                     end
+                    cm:release_escape_key_with_callback("rhox_valbrand_destroy_panel")
                 end,
                 true
             )

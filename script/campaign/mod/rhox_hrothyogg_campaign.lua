@@ -330,9 +330,19 @@ if common.get_context_value("CcoOwnershipProductRecord", "TW_WH3_OMENS_OF_DESTRU
                     function ()
                         local existing_panel = find_uicomponent(core:get_ui_root(), "rhox_hrothyogg_mercenary_contract_panel");
                         if existing_panel then
-                        existing_panel:Destroy() 
+                            existing_panel:Destroy()
+                            cm:release_escape_key_with_callback("rhox_hrothyogg_destroy_panel")
                         else
-                            core:get_or_create_component("rhox_hrothyogg_mercenary_contract_panel", "ui/campaign ui/dlc26_ogre_war_contracts.twui.xml", core:get_ui_root())
+                            local panel = core:get_or_create_component("rhox_hrothyogg_mercenary_contract_panel", "ui/campaign ui/dlc26_ogre_war_contracts.twui.xml", core:get_ui_root())
+
+                            cm:steal_escape_key_with_callback(
+                                "rhox_hrothyogg_destroy_panel",
+                                function()
+                                    panel:Destroy()
+                                    cm:release_escape_key_with_callback("rhox_hrothyogg_destroy_panel")
+                                end,
+                                false
+                            )
                         end
                     end,
                     true
@@ -348,6 +358,7 @@ if common.get_context_value("CcoOwnershipProductRecord", "TW_WH3_OMENS_OF_DESTRU
                         if panel then
                             panel:Destroy()
                         end
+                        cm:release_escape_key_with_callback("rhox_hrothyogg_destroy_panel")
                     end,
                     true
                 )
@@ -360,6 +371,7 @@ if common.get_context_value("CcoOwnershipProductRecord", "TW_WH3_OMENS_OF_DESTRU
                         if panel then
                             panel:Destroy()
                         end
+                        cm:release_escape_key_with_callback("rhox_hrothyogg_destroy_panel")
                     end,
                     true
                 )
@@ -373,6 +385,7 @@ if common.get_context_value("CcoOwnershipProductRecord", "TW_WH3_OMENS_OF_DESTRU
                         if panel then
                             panel:Destroy()
                         end
+                        cm:release_escape_key_with_callback("rhox_hrothyogg_destroy_panel")
                     end,
                     true
                 )

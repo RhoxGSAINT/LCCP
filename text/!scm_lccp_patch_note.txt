@@ -2,7 +2,7 @@
 - More initial mission for the Duriath
 - Dragon blood feature for the Zacharias
 - Now Dolmance gets extra bonus from the Exquisite Vineyard also (unusual location)
-
+- Hrothyogg, Valbrand, and Volrik's panel will now close with the esc key
 
 2026/OCT/30 SCM
 - Fixed the issue of this mod overriding secessionist's Mack defeat trait
