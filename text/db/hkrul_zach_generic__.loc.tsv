@@ -12,3 +12,19 @@ ancillaries_colour_text_hkrul_zach_sword	Passed on from Margrave to Margrave, He
 ancillaries_onscreen_name_hkrul_zach_sword	Helmgart's Brand	true
 ancillaries_colour_text_hkrul_zach_circlet	The Jewel in the center of this unholy object has the power of invoking on the bearer the protection of the gods of lost Nehekhara. It is most sought after by rival Lords of the night, who would do anything to claim this artifact for their own.	true
 ancillaries_onscreen_name_hkrul_zach_circlet	Circlet of Rathek	true
+character_trait_levels_onscreen_name_rhox_zach_dragon_blood_trait_1	Taste for Dragon's Blood	false
+character_trait_levels_colour_text_rhox_zach_dragon_blood_trait_1	Once more, the old hunger stirs.	false
+character_trait_levels_explanation_text_rhox_zach_dragon_blood_trait_1	Gained by defeating a Dragon in battle	false
+character_trait_levels_removal_text_rhox_zach_dragon_blood_trait_1		false
+character_trait_levels_onscreen_name_rhox_zach_dragon_blood_trait_2	Wyrm-Drainer	false
+character_trait_levels_colour_text_rhox_zach_dragon_blood_trait_2	Even a Dragon cannot wake from his deathly bite.	false
+character_trait_levels_explanation_text_rhox_zach_dragon_blood_trait_2	Gained by defeating 4 Dragons in battle	false
+character_trait_levels_removal_text_rhox_zach_dragon_blood_trait_2		false
+character_trait_levels_onscreen_name_rhox_zach_dragon_blood_trait_3	Bane of Dragonkind	false
+character_trait_levels_colour_text_rhox_zach_dragon_blood_trait_3	The great wyrms have learned to fear the shadow of the Everliving.	false
+character_trait_levels_explanation_text_rhox_zach_dragon_blood_trait_3	Gained by defeating 8 Dragons in battle	false
+character_trait_levels_removal_text_rhox_zach_dragon_blood_trait_3		false
+character_trait_levels_onscreen_name_rhox_zach_dragon_blood_trait_4	The Dragon-Drinker	false
+character_trait_levels_colour_text_rhox_zach_dragon_blood_trait_4	The blood of countless Dragons burns within him, and with each one the Everliving grows ever closer to true immortality.	false
+character_trait_levels_explanation_text_rhox_zach_dragon_blood_trait_4	Gained by defeating 14 Dragons in battle	false
+character_trait_levels_removal_text_rhox_zach_dragon_blood_trait_4		false

@@ -64,3 +64,5 @@ missions_localised_title_rhox_lccp_vmp_mission_confederate_lord_zach	Confederate
 missions_localised_description_rhox_lccp_vmp_mission_confederate_lord_zach	Far away from the Forest of Shadows, the defeated Zacharias plots his return to the Old World, aiming to destroy all that betrayed him before his demise. His talents could be put towards a much greater purpose.	false
 mission_text_text_rhox_lccp_vmp_zach_ranked_ethereal_units	Field units: Grave Guard {{tr:rank7}}.\\nCurrent total: %n / %n	false
 mission_text_text_rhox_lccp_vmp_zach_collect_books_of_nagash	Collect at least 1 [[img:icon_books_of_nagash]][[/img]]{{tr:uied_component_texts_localised_string_tx_objectives_NewState_Text_180079}}.\\nCurrent total: %n / %n	false
+missions_localised_title_rhox_zach_dragon_hunt_mission	The Wyrm Hunt	false
+missions_localised_description_rhox_zach_dragon_hunt_mission	Word has reached the Everliving of an army marching with a Dragon in its ranks. Zacharias remembers well the taste of such blood. Bring this host to battle and claim the beast's lifeblood.	false

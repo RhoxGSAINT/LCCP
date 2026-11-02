@@ -7,3 +7,6 @@ effects_description_hkrul_zach_circlet	Ability: ''Circlet of Rathek''	false
 effects_description_hkrul_zach_frederik_melee_attack	Melee attack: %+n for Frederik van Hal	true
 effects_description_hkrul_zach_frederik_melee_defence	Melee defence: %+n for Frederik van Hal	true
 effects_description_hkrul_zach_frederik_weapon_strength	Weapon strength: %+n% for Frederik van Hal	true
+effects_description_rhox_zach_dragon_blood_faction_dummy	Winning a battle against an army containing Dragons grants Necrotic Power (more for each Dragon)	false
+effects_description_rhox_zach_dragon_hunt_faction_dummy	Occasionally receive missions to hunt down armies containing Dragons	false
+effects_description_rhox_zach_dragon_trait_dummy	When leading an army to victory against Dragons, gains a trait that grows stronger with each Dragon defeated	false

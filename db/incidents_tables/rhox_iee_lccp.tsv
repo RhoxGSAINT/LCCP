@@ -13,3 +13,4 @@ rhox_lccp_turn_two_incident_arbaal	false	messenger	false	Event		true		0.0000	fal
 rhox_lccp_turn_two_incident_duriath	false	messenger	false	Event		true		0.0000	false
 wh2_dlc16_incident_wef_ritual_succeeded_the_far_place	false	wh2_dlc16_forest_healed	false	Event		false		0.0000	false
 rhox_aelfric_wolf_unit_incident	false	messenger	false	Event		false		0.0000	false
+rhox_zach_dragon_blood_incident	false	vmp/generic	false	Event		false		0.0000	false

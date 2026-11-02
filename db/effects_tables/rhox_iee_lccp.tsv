@@ -118,3 +118,6 @@ rhox_dorian_watch_tower_dummy	siege_defence.png	2	siege_defence.png	campaign	tru
 rhox_key_keepers_vigil_witch_king_gain	icon_dread.png	4	icon_dread.png	campaign	true
 rhox_dorian_vigil_dummy	defence.png	3	defence.png	campaign	true
 rhox_key_keepers_vigil_incursion_warning_dummy	attrition.png	1	attrition.png	campaign	false
+rhox_zach_dragon_blood_faction_dummy	wh3_dlc29_vmp_necrotic_power.png	4	wh3_dlc29_vmp_necrotic_power.png	campaign	true
+rhox_zach_dragon_hunt_faction_dummy	wh3_dlc29_vmp_necrotic_power.png	5	wh3_dlc29_vmp_necrotic_power.png	campaign	true
+rhox_zach_dragon_trait_dummy	bonus_vs_large_character.png	301	bonus_vs_large_character.png	campaign	true
