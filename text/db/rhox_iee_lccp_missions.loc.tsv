@@ -66,3 +66,12 @@ mission_text_text_rhox_lccp_vmp_zach_ranked_ethereal_units	Field units: Grave Gu
 mission_text_text_rhox_lccp_vmp_zach_collect_books_of_nagash	Collect at least 1 [[img:icon_books_of_nagash]][[/img]]{{tr:uied_component_texts_localised_string_tx_objectives_NewState_Text_180079}}.\\nCurrent total: %n / %n	false
 missions_localised_title_rhox_zach_dragon_hunt_mission	The Wyrm Hunt	false
 missions_localised_description_rhox_zach_dragon_hunt_mission	Word has reached the Everliving of an army marching with a Dragon in its ranks. Zacharias remembers well the taste of such blood. Bring this host to battle and claim the beast's lifeblood.	false
+missions_localised_title_rhox_duriath_raid_ind_mission	The Bloodsteel of Gilgadresh	false
+missions_localised_description_rhox_duriath_raid_ind_mission	The temples of Ind hoard treasures beyond reckoning. Sack or raze the Temple of Gilgadresh and carry its riches back to the Temple of Spite.	false
+missions_localised_title_rhox_duriath_raid_southlands_mission	Chains from the Southlands	false
+missions_localised_description_rhox_duriath_raid_southlands_mission	The settlers of the Southlands live far from any aid. Sack or raze Sudenburg and fill the holds of the Black Ark with fresh slaves.	false
+missions_localised_title_rhox_duriath_raid_dragon_isles_mission	Hunt on the Dragon Isles	false
+missions_localised_description_rhox_duriath_raid_dragon_isles_mission	The jungles of the Dragon Isles teem with cold-blooded beasts and their scaled masters. Sack or raze Dread Rock and drag its monsters back in chains.	false
+missions_localised_title_rhox_duriath_lokhir_mission	Humble the Krakenlord	false
+missions_localised_description_rhox_duriath_lokhir_mission	Lokhir Fellheart's fleets claim the seas as their own. Defeat the Krakenlord in battle and prove that the Temple of Spite answers to no admiral.	false
+mission_text_text_rhox_duriath_lokhir_mission	Defeat Lokhir Fellheart in battle	false

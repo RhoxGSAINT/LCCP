@@ -38,3 +38,7 @@ rhox_key_keepers_vigil_effects_2			faction	1	effect_bundle_duriath.png	false	fal
 rhox_key_keepers_vigil_effects_3			faction	1	effect_bundle_duriath.png	false	false	true
 rhox_key_keepers_vigil_effects_4			faction	1	effect_bundle_duriath.png	false	false	true
 rhox_key_keepers_ritual_vigil_beacons			region	1	siege_defence.png	true	false	true
+rhox_duriath_raid_ind_bundle			faction	1	effect_bundle_duriath.png	true	false	true
+rhox_duriath_raid_southlands_bundle			faction	1	effect_bundle_duriath.png	true	false	true
+rhox_duriath_raid_dragon_isles_bundle			faction	1	effect_bundle_duriath.png	true	false	true
+rhox_duriath_lokhir_bundle			faction	1	effect_bundle_duriath.png	true	false	true

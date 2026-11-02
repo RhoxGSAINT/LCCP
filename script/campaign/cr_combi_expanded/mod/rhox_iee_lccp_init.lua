@@ -924,10 +924,36 @@ local rhox_iee_list={
                     mm:add_condition("region cr_combi_region_elithis_1_1");
                     mm:add_condition("region cr_combi_region_elithis_1_2");
                     mm:add_condition("region cr_combi_region_elithis_1_3");
+                    mm:add_condition("region cr_combi_region_elithis_1_4");
+                    mm:add_condition("region cr_combi_region_elithis_1_5");
+                    mm:add_condition("region cr_combi_region_elithis_2_1");
                     mm:add_condition("ignore_allies");
-                    mm:add_payload("money 1000");
+                    mm:add_payload("money 20000");
                     mm:trigger()
                 end
+
+                local raid_targets = {
+                    {mission = "rhox_duriath_raid_ind_mission", region = "cr_combi_region_temple_of_gilgadresh", bundle = "rhox_duriath_raid_ind_bundle"},
+                    {mission = "rhox_duriath_raid_southlands_mission", region = "wh3_main_combi_region_sudenburg", bundle = "rhox_duriath_raid_southlands_bundle"},
+                    {mission = "rhox_duriath_raid_dragon_isles_mission", region = "wh3_main_combi_region_dread_rock", bundle = "rhox_duriath_raid_dragon_isles_bundle"},
+                }
+                for _, target in ipairs(raid_targets) do
+                    local raid_mm = mission_manager:new(faction_key, target.mission)
+                    raid_mm:add_new_objective("RAZE_OR_SACK_N_DIFFERENT_SETTLEMENTS_INCLUDING")
+                    raid_mm:add_condition("region " .. target.region)
+                    raid_mm:add_condition("total 1")
+                    raid_mm:add_condition("prevent_fail_if_sacked_or_razed_by_other true")
+                    raid_mm:add_payload("effect_bundle{bundle_key " .. target.bundle .. ";turns 0;}")
+                    raid_mm:trigger()
+                end
+
+                local lokhir_mm = mission_manager:new(faction_key, "rhox_duriath_lokhir_mission")
+                lokhir_mm:add_new_objective("SCRIPTED")
+                lokhir_mm:add_condition("script_key rhox_duriath_lokhir_mission")
+                lokhir_mm:add_condition("override_text mission_text_text_rhox_duriath_lokhir_mission")
+                lokhir_mm:add_payload("effect_bundle{bundle_key rhox_duriath_lokhir_bundle;turns 0;}")
+                lokhir_mm:trigger()
+                cm:set_scripted_mission_entity_completion_states("rhox_duriath_lokhir_mission", "rhox_duriath_lokhir_mission", {{cm:get_faction("wh2_dlc11_def_the_blessed_dread"), false}})
             end
         end,
         first_tick = function(faction, faction_key) 

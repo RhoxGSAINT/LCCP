@@ -32,3 +32,7 @@ rhox_iee_lccp_mis_ie_valbrand_karanak_unlock_01	KILL_X_ENTITIES	{{tr:missions_lo
 hkrul_engra_praag	FIGHT_SET_PIECE_BATTLE	The Fall of Praag	Praag stands as Kislev's great northern bastion, its walls proof against every horror the Wastes have hurled at them -- until now. Engra Deathswords means to see the city burn, and word has reached his horde that Kholek Suneater marches to join the slaughter. Should the Suneater's warband arrive before the last of Praag's defenders fall, the Tzar's northern bulwark will not stand a second time.	chs/generic	rom_event_mission.png	false	false	Quest	hkrul_engra_praag_qb_0001	485	596	true	true	10.0000		true		false
 rhox_lccp_vmp_mission_confederate_lord_zach	SCRIPTED			vmp/generic	rom_event_mission.png	false	true	vmp_confederation		0	0	false	false	0.0000		false		false
 rhox_zach_dragon_hunt_mission	ENGAGE_FORCE			vmp/generic	rom_event_mission.png	false	false	Military		0	0	false	false	0.0000		true		true
+rhox_duriath_raid_ind_mission	SCRIPTED			def/generic	rom_event_mission.png	false	true	Military		0	0	false	false	0.0000		true		false
+rhox_duriath_raid_southlands_mission	SCRIPTED			def/generic	rom_event_mission.png	false	true	Military		0	0	false	false	0.0000		true		false
+rhox_duriath_raid_dragon_isles_mission	SCRIPTED			def/generic	rom_event_mission.png	false	true	Military		0	0	false	false	0.0000		true		false
+rhox_duriath_lokhir_mission	SCRIPTED			def/generic	rom_event_mission.png	false	true	Military		0	0	false	false	0.0000		true		false
