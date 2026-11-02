@@ -5,3 +5,4 @@ RhoxWesternGreaterThan50	Owner.ModelPooledResourceContext("rhox_torinubar_west")
 RhoxDolmance	Owner.RecordKeyIsOneOf("rhox_brt_reveller_of_domance")	true	false
 RhoxKeyKeepersSlavesAtLeast500	Owner.ModelPooledResourceContext("def_slaves").Total >= 500	false	false
 RhoxKeyKeepersSlavesBelow500	Owner.ModelPooledResourceContext("def_slaves").Total < 500	false	false
+RhoxRegionOwnerDolmance	Region.Owner.RecordKeyIsOneOf("rhox_brt_reveller_of_domance")	true	false

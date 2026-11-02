@@ -1,3 +1,9 @@
+2026/NOV/1 SCM
+- More initial mission for the Duriath
+- Dragon blood feature for the Zacharias
+- Now Dolmance gets extra bonus from the Exquisite Vineyard also (unusual location)
+
+
 2026/OCT/30 SCM
 - Fixed the issue of this mod overriding secessionist's Mack defeat trait
 - Fixed the issue of Thorgar on the invasion using wrong name
