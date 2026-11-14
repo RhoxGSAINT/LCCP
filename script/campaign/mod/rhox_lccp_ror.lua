@@ -32,6 +32,36 @@ core:add_listener(
     true
 )
 
+core:add_listener(
+    "Zach_confederation_ritual",
+    "RitualCompletedEvent",
+    function(context)
+        local ritual = context:ritual()
+        return ritual:ritual_key() == "rhox_lccp_vmp_ritual_confederate_lord_zach"
+    end,
+    function(context)
+        local faction = context:performing_faction()
+        cm:remove_event_restricted_unit_record_for_faction("rhox_lccp_vmp_giant", faction:name())
+    end,
+    true
+)
+
+--failsafe
+core:add_listener(
+    "rhox_Zach_CharacterTurnStart",
+    "CharacterTurnStart",
+    function(context) 
+        local character=context:character()
+        return character:character_subtype_key() == "hkrul_zach"
+    end,
+    function(context)
+        local character=context:character()
+        cm:remove_event_restricted_unit_record_for_faction("rhox_lccp_vmp_giant", character:faction():name())
+
+    end,
+    true
+)
+
 
 cm:add_first_tick_callback_new(
     function()

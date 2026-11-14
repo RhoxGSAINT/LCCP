@@ -1,4 +1,13 @@
+2026/NOV/14 SCM
+- Added occupation group to the key keepers
+- Slave thing to the key keepers
+
+2026/NOV/7 SCM
+- Added ritual performed to the Zach RoR unlocking script
+- Also added character turn start script for it, since otherwise players have to start a new game, or there might be some other edge cases
+
 2026/NOV/1 SCM
+- Removed swamp from campaign_map_attrition_faction_immunities_tables from the Zach's faction since 9.0.5 hotfix removed it from all Vampire Counts
 - More initial mission for the Duriath
 - Dragon blood feature for the Zacharias
 - Now Dolmance gets extra bonus from the Exquisite Vineyard also (unusual location)

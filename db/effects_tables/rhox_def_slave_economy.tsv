@@ -1,0 +1,7 @@
+effect	icon	priority	icon_negative	category	is_positive_value_good
+#effects_tables;0;db/effects_tables/rhox_def_slave_economy					
+rhox_def_effect_province_slave_need	slaves.png	55	slaves.png	campaign	true
+rhox_def_effect_public_order_slaves	public_order.png	160	public_order.png	campaign	true
+rhox_def_effect_gdp_mod_slaves	income.png	162	income.png	campaign	true
+rhox_def_effect_gdp_slaves_flat	income.png	175	income.png	campaign	true
+rhox_dorian_slave_distribution_dummy	slaves.png	2	slaves.png	campaign	true

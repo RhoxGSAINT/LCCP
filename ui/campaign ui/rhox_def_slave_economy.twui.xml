@@ -1,0 +1,1452 @@
+<?xml version="1.0"?>
+<layout version="142" comment="">
+	<hierarchy>
+		<root this="4FE6D2C2-43C9-5B1A-81EE447AEF5C189C">
+			<rhox_def_slave_economy this="1E1BB838-A1C6-5158-A542066854C307E1">
+				<labour_economy_panel this="AA4A4C5F-E8D5-54BD-A44CE8968DF61278">
+					<panel_background this="07C4BB2D-EB5A-5D83-98638CB7D00387C3">
+						<panel_smoke_t this="4CC27BB8-3F8B-53D6-967D9FBB45580E00" />
+						<panel_smoke_b this="8909DAC2-D5C9-5EF7-A532AD079B7F19D0" />
+						<panel_frame this="8E13B575-FE8C-54BA-B922F8636CC14392" />
+					</panel_background>
+					<header_frame this="E4480941-53AE-5662-A5D96EF9362636D2">
+						<dy_text this="D15DB237-8D66-5C9B-BDB4428999760C9E" />
+					</header_frame>
+					<holder_data_table this="FE5D294C-9843-5592-A876AE2289AF94EF">
+						<holder_headers this="FEA8BB62-B2B5-5FF1-AE0F039D99C73DA3">
+							<header_01 this="371D1741-B6FD-5050-A88CD4BD90721498" />
+							<header_04 this="C0FD6E0A-958F-5545-A3C1313802F5A027" />
+							<holder_header_05 this="746228E7-BEB8-547F-877A9082B694401E">
+								<header_05 this="E326A195-1F72-5A7B-BBB131C493E8BD37" />
+								<holder_text_centering this="1B2A965C-A59F-5D63-B8600A9EA4E2F4AD">
+									<holder_labour_surplus this="D09B3D41-F6B9-5163-943898D2149993C1">
+										<tx_labour_surplus this="379ABD1F-EA3C-5B64-A9BC38FA2A03FA34" />
+										<dy_value this="C9F9D381-A47B-5DC4-9962045099EF96B6" />
+									</holder_labour_surplus>
+								</holder_text_centering>
+							</holder_header_05>
+							<header_06 this="31FC94BA-B3D6-5BD0-862D219B0194D90A" />
+							<header_07 this="8C6B11B5-9FFC-5527-8BA643809474AC1E" />
+							<header_slave_income this="239C4F67-966C-5F65-96EEC5289788F391" />
+							<header_income_mod this="F41E9FF8-4D93-5A47-BD5E4AE916E21282" />
+						</holder_headers>
+						<rhox_def_list_provinces this="0DEAD58B-A643-5CAE-81E519637BBE07A7">
+							<list_clip this="DF6AF1C6-3FA6-5104-9C0BA16C039A5C19">
+								<list_box this="8EBCC7E6-7114-56B9-B719C249A231F294">
+									<template_entry this="7AFEE83E-1EC1-585F-B02648743BB3FD44">
+										<dy_province_name this="CC2FDE51-2992-5397-90DAA830D070C517" />
+										<public_order_holder this="FC727247-6090-54B6-B2B905DE514C54B1">
+											<icon_public_order this="0DF868C9-84B7-58FE-967CD24ECD4B1273" />
+											<dy_growth this="8500BA49-7927-56D2-BB3834E6FAB5E2B0" />
+											<dy_change this="87F5353A-1923-5F4F-81B3EE408BC3CC4E" />
+										</public_order_holder>
+										<holder_labour_workload this="E75B3AA5-3473-5ADF-AAAF090D97DFAF84">
+											<arrow_down this="58CE4D2C-6365-57F2-BA1DEF03DD2EB3BC" />
+											<arrow_more_big this="09826E1E-8224-5162-91CA3D745489402B" />
+											<amount this="A241D1FE-DD6D-50F7-A9E9C8EA18637A7D" />
+											<tx_division this="A6CA3EB4-111F-5158-988798D9129D9C3B" />
+											<dy_workload this="25925D1C-5FA1-5FE7-87FA16FE87B89F2A" />
+										</holder_labour_workload>
+										<dy_efficiency this="D91C0EDA-7199-5C6F-B51D3BF63F8951C3" />
+										<temp_efficiency this="D15605F7-FC75-55F2-BEBA94DBE99F507C" />
+										<dy_raw_materials this="C8CB4314-B741-559A-8EBC904D8A9BCA0E" />
+										<dy_slave_income this="B1766ED9-BC11-5FFB-B7AD95ABC08C7623" />
+										<dy_income_mod this="4E7FBD8A-955B-5174-B4E5DE0D71C9243B" />
+									</template_entry>
+								</list_box>
+							</list_clip>
+							<vslider this="EA8DA582-E3C0-5149-ABA1021AD61F5427">
+								<frame_top this="9CC3B5CB-6BD5-5016-BBDB26C9F267379C" />
+								<frame_bottom this="2B367DB7-4724-529B-BB4DC1DBFABA02D3" />
+								<handle this="C2D1D033-DDAB-533B-ADF55F92537CDBED" />
+								<top this="9647C9BB-C591-523C-AA67D61AD0F95BED" />
+								<bottom this="9600594D-32B9-516D-8BAB5013917C9790" />
+							</vslider>
+						</rhox_def_list_provinces>
+						<holder_total_values this="16BFAF5A-CFA4-51C4-B9736A72B76FF391">
+							<tx_total this="F7775261-0FC8-57D8-961E5C0CD5BC1F42" />
+							<dy_total_efficiency this="356D0B83-E90C-5AA6-84749782E7E8A058" />
+							<temp_total_efficiency this="35442034-1CBF-55A8-86A357C5E6BB7C4B" />
+							<dy_total_raw_materials this="9CD59CFA-F26B-5DCF-BFA920508EC56139" />
+							<dy_total_slave_income this="F55ED3F5-E6D0-51EF-BBDC4E7D53447611" />
+							<holder_total_labour_workload this="4EBD375A-C839-5EAE-B234D34FDB8BCD5C">
+								<dy_total_labour this="ECEEA7F4-2F27-5494-813E4330026C959E" />
+								<tx_division this="4178F8FE-6009-5049-A27A9232CDEB3A12" />
+								<dy_total_workload this="2D5CBCD1-10E6-596D-9F8E8133C073A2B4" />
+							</holder_total_labour_workload>
+						</holder_total_values>
+					</holder_data_table>
+					<holder_panel_buttons this="C49A75BB-196D-546B-86AA7308D8DFFA20">
+						<button_reset_changes this="B0813D42-0B7F-5F4A-A1B52D7EEDCD8D4D">
+							<button_flame this="967208DD-73DD-550C-A6A0A68EABB84922" />
+							<button_txt this="942FAAF1-A1D4-5010-A0F2E27BC3162F34" />
+						</button_reset_changes>
+						<rhox_def_slave_accept this="80CC03CA-1B5C-57D2-87D883C7028697A5">
+							<button_flame this="D3D0F721-DD2A-577A-AFA1317B053A9EBB" />
+							<button_txt this="609EC12D-CE29-5A7C-B1FA8C0E18714A2E" />
+						</rhox_def_slave_accept>
+					</holder_panel_buttons>
+				</labour_economy_panel>
+				<rhox_def_slave_close this="DEB29065-0B58-53B1-A7C3A2C67C2DD725" />
+			</rhox_def_slave_economy>
+		</root>
+	</hierarchy>
+	<components>
+		<amount this="A241D1FE-DD6D-50F7-A9E9C8EA18637A7D" id="amount" uniqueguid_in_template="19CFC39E-4F71-498A-BBF5D8E8D6D1A6DE" offset="64.00,0.00" allowverticalresize="false" priority="45" componentleveltooltip="{{tt:ui/campaign ui/tooltip_pooled_resource_breakdown}}" tooltiplabel="ComponentTooltip_c67addd8" text_label="ComponentText_c67addd8" uniqueguid="A241D1FE-DD6D-50F7-A9E9C8EA18637A7D" currentstate="E1032221-BDD7-4A2B-9D9249B0EF571DDE">
+			<callbackwithcontextlist>
+				<callback_with_context callback_id="ContextTextLabel" context_object_id="CcoCampaignPooledResource" context_function_id="Total">
+					<child_m_user_properties>
+						<property name="event0" value="RhoxDefSlavesClearAll" />
+						<property name="event1" value="PooledResourceTransaction" />
+					</child_m_user_properties>
+				</callback_with_context>
+				<callback_with_context callback_id="ContextEventBroadcaster">
+					<child_m_user_properties>
+						<property name="onkey" value="RhoxDefSlavesChanged" />
+					</child_m_user_properties>
+				</callback_with_context>
+				<callback_with_context callback_id="#ContextCommandGiverOnContextSet" context_object_id="CcoCampaignPooledResource" context_function_id="self.SetValue(this.Total)" />
+				<callback_with_context callback_id="ContextPropagator" context_object_id="CcoCampaignProvince" context_function_id="RhoxExSlaves" />
+				<callback_with_context callback_id="ContextCustomTooltipStore" context_object_id="CcoCampaignPooledResource" />
+			</callbackwithcontextlist>
+			<userproperties>
+				<property name="MinValue" value="0" />
+			</userproperties>
+			<states>
+				<newstate this="E1032221-BDD7-4A2B-9D9249B0EF571DDE" name="NewState" width="80" height="40" interactive="true" disabled="true" uniqueguid="E1032221-BDD7-4A2B-9D9249B0EF571DDE">
+					<component_text text="999999" textvalign="Center" texthalign="Right" font_m_size="12" font_m_colour="#FFF8D7FF" font_m_leading="3" fontcat_name="body_12" />
+				</newstate>
+			</states>
+		</amount>
+		<arrow_down this="58CE4D2C-6365-57F2-BA1DEF03DD2EB3BC" id="arrow_down" uniqueguid_in_template="D1E5F727-0B03-4A92-B29D9C9D3CCE9256" priority="51" tooltipslocalised="true" componentleveltooltip="Select Next" tooltiplabel="ComponentTooltip_45d890ed" soundcategory="UI_GBL_TMP_Arrow_Next" uniqueguid="58CE4D2C-6365-57F2-BA1DEF03DD2EB3BC" currentstate="A6293ED2-3D1B-4E50-8858098914F5D5D1" defaultstate="A6293ED2-3D1B-4E50-8858098914F5D5D1">
+			<callbackwithcontextlist>
+				<callback_with_context callback_id="Button" />
+				<callback_with_context callback_id="ContextCommandLeftClick" context_object_id="CcoCampaignProvince" context_function_id="RhoxDefSlaveEconomy.IncreaseSlaves(-RhoxDefSlaveEconomy.SlaveChangeMajor, this)" />
+				<callback_with_context callback_id="ContextInactiveStateSetter" context_object_id="CcoCampaignProvince" context_function_id="RhoxExSlaves.Total + RhoxDefSlaveEconomy.WantedSlaves(this) &gt; 0">
+					<child_m_user_properties>
+						<property name="event0" value="RhoxDefSlavesChanged" />
+						<property name="event1" value="RhoxDefSlavesUpdate" />
+						<property name="event2" value="PooledResourceTransaction" />
+					</child_m_user_properties>
+				</callback_with_context>
+				<callback_with_context callback_id="ContextTooltipSetter" context_object_id="CcoStaticObject" context_function_id="Loc(&quot;rhox_def_slaves_tooltip_remove&quot;, RhoxDefSlaveEconomy.SlaveChangeMajor)" />
+			</callbackwithcontextlist>
+			<userproperties>
+				<property name="override_sound" value="" />
+			</userproperties>
+			<componentimages>
+				<component_image this="52BE1D6C-947D-4315-A17418992BC866CC" uniqueguid="52BE1D6C-947D-4315-A17418992BC866CC" imagepath="ui/skins/default/button_cycle_arrow_inactive.png" />
+				<component_image this="0A53E65D-4F7C-4F2D-80DFF53E0CA22DA8" uniqueguid="0A53E65D-4F7C-4F2D-80DFF53E0CA22DA8" imagepath="ui/skins/default/button_cycle_arrow_active.png" />
+				<component_image this="46929361-8FA0-4BE9-971635DCC289B0A2" uniqueguid="46929361-8FA0-4BE9-971635DCC289B0A2" imagepath="ui/skins/default/button_cycle_arrow_hover.png" />
+				<component_image this="1662F07A-2D0E-4173-AFDE1169CD0C54BA" uniqueguid="1662F07A-2D0E-4173-AFDE1169CD0C54BA" imagepath="ui/skins/default/button_cycle_arrow_pressed.png" />
+				<component_image this="87759A0F-9458-42BB-A9766F720832CB7F" uniqueguid="87759A0F-9458-42BB-A9766F720832CB7F" imagepath="ui/skins/default/button_cycle_arrow_underlay.png" />
+			</componentimages>
+			<states>
+				<active this="A6293ED2-3D1B-4E50-8858098914F5D5D1" name="active" height="40" interactive="true" shader_name="brighten_t0" shadervars="1.00,0.00,0.00,0.00" uniqueguid="A6293ED2-3D1B-4E50-8858098914F5D5D1" stateeditordisplaypos="53.00,149.00">
+					<imagemetrics>
+						<image this="BC2F89F9-A36D-4D6D-87C25CB20BB3A7F4" uniqueguid="BC2F89F9-A36D-4D6D-87C25CB20BB3A7F4" componentimage="87759A0F-9458-42BB-A9766F720832CB7F" offset="2.00,2.00" width="28" height="36" x_flipped="true" dockpoint="Center" canresizeheight="false" canresizewidth="false" rotation_angle="1.57079637" />
+						<image this="21C67EA2-5BD6-49B5-96F7573E2D454065" uniqueguid="21C67EA2-5BD6-49B5-96F7573E2D454065" componentimage="0A53E65D-4F7C-4F2D-80DFF53E0CA22DA8" offset="2.00,2.00" width="28" height="36" x_flipped="true" dockpoint="Center" canresizeheight="false" canresizewidth="false" rotation_angle="1.57079637" />
+						<image this="48C5AC59-6BB3-4821-9C3FE8026641BAA9" uniqueguid="48C5AC59-6BB3-4821-9C3FE8026641BAA9" componentimage="46929361-8FA0-4BE9-971635DCC289B0A2" offset="2.00,2.00" width="28" height="36" colour="#FFFFFF00" x_flipped="true" dockpoint="Center" canresizeheight="false" canresizewidth="false" rotation_angle="1.57079637" />
+					</imagemetrics>
+					<transitionmap>
+						<transition transition_m_target_state="1168A29B-A830-476B-8906343BF2E958AD" transition_m_transition_time="200" transition_m_interpolation_property_mask="64" />
+						<transition index="1" transition_m_target_state="AD41FCCA-701C-4EA3-9D9CAC3A93416159" />
+						<transition index="2" transition_m_target_state="E310FAAF-3325-4BA7-B69137B6E9B8FAB7" />
+					</transitionmap>
+				</active>
+				<down this="E310FAAF-3325-4BA7-B69137B6E9B8FAB7" name="down" height="40" interactive="true" uniqueguid="E310FAAF-3325-4BA7-B69137B6E9B8FAB7" stateeditordisplaypos="360.00,147.00">
+					<imagemetrics>
+						<image this="C8628616-90BB-442B-A750CDCD8513A001" uniqueguid="C8628616-90BB-442B-A750CDCD8513A001" componentimage="87759A0F-9458-42BB-A9766F720832CB7F" offset="2.00,2.00" width="28" height="36" x_flipped="true" dockpoint="Center" canresizeheight="false" canresizewidth="false" rotation_angle="1.57079637" />
+						<image this="8842398C-CF4A-4B05-8ADA55C673B6C60E" uniqueguid="8842398C-CF4A-4B05-8ADA55C673B6C60E" componentimage="1662F07A-2D0E-4173-AFDE1169CD0C54BA" offset="2.00,2.00" width="28" height="36" x_flipped="true" dockpoint="Center" canresizeheight="false" canresizewidth="false" rotation_angle="1.57079637" />
+					</imagemetrics>
+					<transitionmap>
+						<transition index="1" transition_m_target_state="AD41FCCA-701C-4EA3-9D9CAC3A93416159" />
+						<transition index="3" transition_m_target_state="1168A29B-A830-476B-8906343BF2E958AD" />
+					</transitionmap>
+				</down>
+				<down_off this="AD41FCCA-701C-4EA3-9D9CAC3A93416159" name="down_off" height="40" interactive="true" uniqueguid="AD41FCCA-701C-4EA3-9D9CAC3A93416159" stateeditordisplaypos="222.00,267.00">
+					<imagemetrics>
+						<image this="435065ED-4D3D-4763-91CF893FC5F36932" uniqueguid="435065ED-4D3D-4763-91CF893FC5F36932" componentimage="87759A0F-9458-42BB-A9766F720832CB7F" offset="2.00,2.00" width="28" height="36" x_flipped="true" dockpoint="Center" canresizeheight="false" canresizewidth="false" rotation_angle="1.57079637" />
+						<image this="48270890-0C33-4028-ADE6C724539CF882" uniqueguid="48270890-0C33-4028-ADE6C724539CF882" componentimage="1662F07A-2D0E-4173-AFDE1169CD0C54BA" offset="2.00,2.00" width="28" height="36" colour="#FFFFFF00" x_flipped="true" dockpoint="Center" canresizeheight="false" canresizewidth="false" rotation_angle="1.57079637" />
+						<image this="C2245BD6-D8CB-4EEE-874DC58441409310" uniqueguid="C2245BD6-D8CB-4EEE-874DC58441409310" componentimage="0A53E65D-4F7C-4F2D-80DFF53E0CA22DA8" offset="2.00,2.00" width="28" height="36" x_flipped="true" dockpoint="Center" canresizeheight="false" canresizewidth="false" rotation_angle="1.57079637" />
+					</imagemetrics>
+					<transitionmap>
+						<transition transition_m_target_state="E310FAAF-3325-4BA7-B69137B6E9B8FAB7" />
+						<transition index="8" transition_m_target_state="A6293ED2-3D1B-4E50-8858098914F5D5D1" />
+					</transitionmap>
+				</down_off>
+				<hover this="1168A29B-A830-476B-8906343BF2E958AD" name="hover" height="40" interactive="true" uniqueguid="1168A29B-A830-476B-8906343BF2E958AD" stateeditordisplaypos="213.00,20.00">
+					<imagemetrics>
+						<image this="ED0BCF58-F05F-4B47-B646F66B8B4D7632" uniqueguid="ED0BCF58-F05F-4B47-B646F66B8B4D7632" componentimage="87759A0F-9458-42BB-A9766F720832CB7F" offset="2.00,2.00" width="28" height="36" x_flipped="true" dockpoint="Center" canresizeheight="false" canresizewidth="false" rotation_angle="1.57079637" />
+						<image this="2BD12868-F7F6-44AD-8FF8519B07CAC4DB" uniqueguid="2BD12868-F7F6-44AD-8FF8519B07CAC4DB" componentimage="0A53E65D-4F7C-4F2D-80DFF53E0CA22DA8" offset="2.00,2.00" width="28" height="36" colour="#FFFFFF00" x_flipped="true" dockpoint="Center" canresizeheight="false" canresizewidth="false" rotation_angle="1.57079637" />
+						<image this="25FE3F78-18CF-46DA-A5D49D4CAE268F24" uniqueguid="25FE3F78-18CF-46DA-A5D49D4CAE268F24" componentimage="46929361-8FA0-4BE9-971635DCC289B0A2" offset="2.00,2.00" width="28" height="36" x_flipped="true" dockpoint="Center" canresizeheight="false" canresizewidth="false" rotation_angle="1.57079637" shadertechnique_vars="3.00,0.00,0.00,0.00" shader_name="brighten_t0" />
+					</imagemetrics>
+					<transitionmap>
+						<transition index="1" transition_m_target_state="A6293ED2-3D1B-4E50-8858098914F5D5D1" transition_m_transition_time="200" transition_m_interpolation_property_mask="64" />
+						<transition index="2" transition_m_target_state="E310FAAF-3325-4BA7-B69137B6E9B8FAB7" transition_m_transition_time="10" transition_m_interpolation_property_mask="64" />
+					</transitionmap>
+				</hover>
+				<inactive this="CF1238E4-4A17-4B56-B0A3C20C5574ECBE" name="inactive" height="40" interactive="true" disabled="true" uniqueguid="CF1238E4-4A17-4B56-B0A3C20C5574ECBE">
+					<imagemetrics>
+						<image this="3934EEF8-ADAA-42EA-95AE3D6A925DD139" uniqueguid="3934EEF8-ADAA-42EA-95AE3D6A925DD139" componentimage="87759A0F-9458-42BB-A9766F720832CB7F" offset="2.00,2.00" width="28" height="36" x_flipped="true" dockpoint="Center" canresizeheight="false" canresizewidth="false" rotation_angle="1.57079637" />
+						<image this="D427CA2A-31CB-4879-8684C40D5FC9310D" uniqueguid="D427CA2A-31CB-4879-8684C40D5FC9310D" componentimage="52BE1D6C-947D-4315-A17418992BC866CC" offset="2.00,2.00" width="28" height="36" x_flipped="true" dockpoint="Center" canresizeheight="false" canresizewidth="false" rotation_angle="1.57079637" />
+					</imagemetrics>
+				</inactive>
+			</states>
+		</arrow_down>
+		<arrow_more_big this="09826E1E-8224-5162-91CA3D745489402B" id="arrow_more_big" uniqueguid_in_template="1A083386-E251-4651-8E712026373BFA04" offset="32.00,0.00" priority="51" tooltipslocalised="true" componentleveltooltip="Select Previous" tooltiplabel="ComponentTooltip_98cb5d58" soundcategory="UI_GBL_TMP_Arrow_Previous" uniqueguid="09826E1E-8224-5162-91CA3D745489402B" currentstate="6BE0E910-175D-43F8-B764EE251B4BFD78" defaultstate="6BE0E910-175D-43F8-B764EE251B4BFD78">
+			<callbackwithcontextlist>
+				<callback_with_context callback_id="Button" />
+				<callback_with_context callback_id="ContextCommandLeftClick" context_object_id="CcoCampaignProvince" context_function_id="RhoxDefSlaveEconomy.IncreaseSlaves(RhoxDefSlaveEconomy.SlaveChangeMajor, this)" />
+				<callback_with_context callback_id="ContextInactiveStateSetter" context_object_id="CcoCampaignProvince" context_function_id="RhoxDefSlaveEconomy.Available &gt; 0">
+					<child_m_user_properties>
+						<property name="event0" value="RhoxDefSlavesChanged" />
+						<property name="event1" value="RhoxDefSlavesUpdate" />
+						<property name="event2" value="PooledResourceTransaction" />
+					</child_m_user_properties>
+				</callback_with_context>
+				<callback_with_context callback_id="ContextTooltipSetter" context_object_id="CcoStaticObject" context_function_id="Loc(&quot;rhox_def_slaves_tooltip_add&quot;, RhoxDefSlaveEconomy.SlaveChangeMajor)" />
+			</callbackwithcontextlist>
+			<userproperties>
+				<property name="override_sound" value="" />
+			</userproperties>
+			<componentimages>
+				<component_image this="016412F5-9CBC-48B2-8093FA2761693359" uniqueguid="016412F5-9CBC-48B2-8093FA2761693359" imagepath="ui/skins/default/button_cycle_arrow_inactive.png" />
+				<component_image this="37331467-333C-4268-A051B5D7752273E4" uniqueguid="37331467-333C-4268-A051B5D7752273E4" imagepath="ui/skins/default/button_cycle_arrow_active.png" />
+				<component_image this="BE2A05E5-3E05-4396-BDA73647FA475985" uniqueguid="BE2A05E5-3E05-4396-BDA73647FA475985" imagepath="ui/skins/default/button_cycle_arrow_hover.png" />
+				<component_image this="EA882AF7-D90B-4545-844AF73483234CEC" uniqueguid="EA882AF7-D90B-4545-844AF73483234CEC" imagepath="ui/skins/default/button_cycle_arrow_pressed.png" />
+				<component_image this="AED5BC93-DC99-495C-A06F9E737FC60EB0" uniqueguid="AED5BC93-DC99-495C-A06F9E737FC60EB0" imagepath="ui/skins/default/button_cycle_arrow_underlay.png" />
+			</componentimages>
+			<states>
+				<active this="6BE0E910-175D-43F8-B764EE251B4BFD78" name="active" height="40" interactive="true" shader_name="brighten_t0" shadervars="1.00,0.00,0.00,0.00" uniqueguid="6BE0E910-175D-43F8-B764EE251B4BFD78" stateeditordisplaypos="53.00,149.00">
+					<imagemetrics>
+						<image this="A650BE61-009B-4D37-B501071A2FC7528D" uniqueguid="A650BE61-009B-4D37-B501071A2FC7528D" componentimage="AED5BC93-DC99-495C-A06F9E737FC60EB0" offset="2.00,2.00" width="28" height="36" dockpoint="Center" canresizeheight="false" canresizewidth="false" rotation_angle="1.57079637" />
+						<image this="3EC27FC5-8C35-457B-B32FD751A330A674" uniqueguid="3EC27FC5-8C35-457B-B32FD751A330A674" componentimage="37331467-333C-4268-A051B5D7752273E4" offset="2.00,2.00" width="28" height="36" dockpoint="Center" canresizeheight="false" canresizewidth="false" rotation_angle="1.57079637" />
+						<image this="F1EFD884-DC70-4542-87138CB6B8C91A42" uniqueguid="F1EFD884-DC70-4542-87138CB6B8C91A42" componentimage="BE2A05E5-3E05-4396-BDA73647FA475985" offset="2.00,2.00" width="28" height="36" colour="#FFFFFF00" dockpoint="Center" canresizeheight="false" canresizewidth="false" rotation_angle="1.57079637" />
+					</imagemetrics>
+					<transitionmap>
+						<transition transition_m_target_state="241781E3-4E9D-4AC4-A8F0D6A967612BD6" transition_m_transition_time="200" transition_m_interpolation_property_mask="64" />
+						<transition index="1" transition_m_target_state="1998B5DB-D5E6-4B9D-B5498B05EFC85B61" />
+						<transition index="2" transition_m_target_state="BD72FAF5-94E3-4F1D-93EDFE451662CAAB" />
+					</transitionmap>
+				</active>
+				<down this="BD72FAF5-94E3-4F1D-93EDFE451662CAAB" name="down" height="40" interactive="true" uniqueguid="BD72FAF5-94E3-4F1D-93EDFE451662CAAB" stateeditordisplaypos="360.00,147.00">
+					<imagemetrics>
+						<image this="68F103F7-A947-4F61-9CC27B06EB67295E" uniqueguid="68F103F7-A947-4F61-9CC27B06EB67295E" componentimage="AED5BC93-DC99-495C-A06F9E737FC60EB0" offset="2.00,2.00" width="28" height="36" dockpoint="Center" canresizeheight="false" canresizewidth="false" rotation_angle="1.57079637" />
+						<image this="F1FAB20F-6102-41D8-A15B128D5962CA6F" uniqueguid="F1FAB20F-6102-41D8-A15B128D5962CA6F" componentimage="EA882AF7-D90B-4545-844AF73483234CEC" offset="2.00,2.00" width="28" height="36" dockpoint="Center" canresizeheight="false" canresizewidth="false" rotation_angle="1.57079637" />
+					</imagemetrics>
+					<transitionmap>
+						<transition index="1" transition_m_target_state="1998B5DB-D5E6-4B9D-B5498B05EFC85B61" />
+						<transition index="3" transition_m_target_state="241781E3-4E9D-4AC4-A8F0D6A967612BD6" />
+					</transitionmap>
+				</down>
+				<down_off this="1998B5DB-D5E6-4B9D-B5498B05EFC85B61" name="down_off" height="40" interactive="true" uniqueguid="1998B5DB-D5E6-4B9D-B5498B05EFC85B61" stateeditordisplaypos="222.00,267.00">
+					<imagemetrics>
+						<image this="40BA2080-CC36-4755-88CC3A91383ED956" uniqueguid="40BA2080-CC36-4755-88CC3A91383ED956" componentimage="AED5BC93-DC99-495C-A06F9E737FC60EB0" offset="2.00,2.00" width="28" height="36" dockpoint="Center" canresizeheight="false" canresizewidth="false" rotation_angle="1.57079637" />
+						<image this="D97EDB79-535C-4ABF-A43A829B6ACF7E44" uniqueguid="D97EDB79-535C-4ABF-A43A829B6ACF7E44" componentimage="EA882AF7-D90B-4545-844AF73483234CEC" offset="2.00,2.00" width="28" height="36" colour="#FFFFFF00" dockpoint="Center" canresizeheight="false" canresizewidth="false" rotation_angle="1.57079637" />
+						<image this="EC687742-2147-4929-B8D629D603BB3BFD" uniqueguid="EC687742-2147-4929-B8D629D603BB3BFD" componentimage="37331467-333C-4268-A051B5D7752273E4" offset="2.00,2.00" width="28" height="36" dockpoint="Center" canresizeheight="false" canresizewidth="false" rotation_angle="1.57079637" />
+					</imagemetrics>
+					<transitionmap>
+						<transition transition_m_target_state="BD72FAF5-94E3-4F1D-93EDFE451662CAAB" />
+						<transition index="8" transition_m_target_state="6BE0E910-175D-43F8-B764EE251B4BFD78" />
+					</transitionmap>
+				</down_off>
+				<hover this="241781E3-4E9D-4AC4-A8F0D6A967612BD6" name="hover" height="40" interactive="true" uniqueguid="241781E3-4E9D-4AC4-A8F0D6A967612BD6" stateeditordisplaypos="213.00,20.00">
+					<imagemetrics>
+						<image this="3F9D5BF2-9359-4C0D-89D00A8F6872CC57" uniqueguid="3F9D5BF2-9359-4C0D-89D00A8F6872CC57" componentimage="AED5BC93-DC99-495C-A06F9E737FC60EB0" offset="2.00,2.00" width="28" height="36" dockpoint="Center" canresizeheight="false" canresizewidth="false" rotation_angle="1.57079637" />
+						<image this="3097CBF0-EA80-4406-B1783BEA93A2BF97" uniqueguid="3097CBF0-EA80-4406-B1783BEA93A2BF97" componentimage="37331467-333C-4268-A051B5D7752273E4" offset="2.00,2.00" width="28" height="36" colour="#FFFFFF00" dockpoint="Center" canresizeheight="false" canresizewidth="false" rotation_angle="1.57079637" />
+						<image this="3BABB9A3-3197-4AF0-9074364F3DF22D02" uniqueguid="3BABB9A3-3197-4AF0-9074364F3DF22D02" componentimage="BE2A05E5-3E05-4396-BDA73647FA475985" offset="2.00,2.00" width="28" height="36" dockpoint="Center" canresizeheight="false" canresizewidth="false" rotation_angle="1.57079637" shadertechnique_vars="3.00,0.00,0.00,0.00" shader_name="brighten_t0" />
+					</imagemetrics>
+					<transitionmap>
+						<transition index="1" transition_m_target_state="6BE0E910-175D-43F8-B764EE251B4BFD78" transition_m_transition_time="200" transition_m_interpolation_property_mask="64" />
+						<transition index="2" transition_m_target_state="BD72FAF5-94E3-4F1D-93EDFE451662CAAB" transition_m_transition_time="10" transition_m_interpolation_property_mask="64" />
+					</transitionmap>
+				</hover>
+				<inactive this="142DFDEC-1DF0-48DE-BB0FC1A8E0744CE3" name="inactive" height="40" interactive="true" disabled="true" uniqueguid="142DFDEC-1DF0-48DE-BB0FC1A8E0744CE3">
+					<imagemetrics>
+						<image this="CBAB9F73-7A09-4C30-9E9C55A753410D20" uniqueguid="CBAB9F73-7A09-4C30-9E9C55A753410D20" componentimage="AED5BC93-DC99-495C-A06F9E737FC60EB0" offset="2.00,2.00" width="28" height="36" dockpoint="Center" canresizeheight="false" canresizewidth="false" rotation_angle="1.57079637" />
+						<image this="6F99AC40-5136-442E-B23F7765C85A6B9A" uniqueguid="6F99AC40-5136-442E-B23F7765C85A6B9A" componentimage="016412F5-9CBC-48B2-8093FA2761693359" offset="2.00,2.00" width="28" height="36" dockpoint="Center" canresizeheight="false" canresizewidth="false" rotation_angle="1.57079637" />
+					</imagemetrics>
+				</inactive>
+			</states>
+		</arrow_more_big>
+		<bottom this="9600594D-32B9-516D-8BAB5013917C9790" id="bottom" part_of_template="true" uniqueguid_in_template="14EE31B8-28AF-4A50-93B1E0AF78E85719" uniqueguid="9600594D-32B9-516D-8BAB5013917C9790" dimensions="15.00,22.00" dock_point="Bottom Center" offset="1.00,21.00" priority="45" sound_category="UI_GBL_TMP_Slider_Arrows">
+			<state_uniqueguids>
+				<state_uniqueguid name="active" uniqueguid="67583D14-A146-44CF-9E1C987FA5524EE8" />
+				<state_uniqueguid name="down" uniqueguid="09E52640-C74E-4A46-8403366C334073E5" />
+				<state_uniqueguid name="down_off" uniqueguid="35C053C6-361F-4CB5-A382E08B513467C5" />
+				<state_uniqueguid name="hover" uniqueguid="318D8295-8561-464C-9F155F50DCC9526F" />
+				<state_uniqueguid name="inactive" uniqueguid="9DD4B8B4-08A7-4C86-99C5A8957EEDB72A" />
+			</state_uniqueguids>
+			<component_image_uniqueguids>
+				<component_image_uniqueguid name="ui/skins/default/slider_vertical_bottom_active.png" uniqueguid="7C154ABE-B986-454A-B3F0F70D34BAE7EE" />
+				<component_image_uniqueguid name="ui/skins/default/slider_vertical_bottom_pressed.png" uniqueguid="CE23D457-8F75-450F-A148B90755049170" />
+				<component_image_uniqueguid name="ui/skins/default/slider_vertical_bottom_hover.png" uniqueguid="A1553139-6829-4C83-84F6941FD61F0D69" />
+			</component_image_uniqueguids>
+			<callbacks_with_context>
+				<callback_with_context callback_id="SliderIncrementButton" />
+			</callbacks_with_context>
+			<user_properties>
+				<property name="disable_override" value="position" />
+				<property name="disable_override0" value="resizable" />
+				<property name="stepSize" value="10" />
+			</user_properties>
+			<localised_texts>
+				<localised_text />
+				<localised_text state="active" is_text_localised="false" />
+				<localised_text state="down" is_text_localised="false" />
+				<localised_text state="down_off" is_text_localised="false" />
+				<localised_text state="hover" is_text_localised="false" />
+				<localised_text state="inactive" is_text_localised="false" />
+			</localised_texts>
+			<override_images>
+				<element value="ui/skins/default/slider_vertical_bottom_active.png" />
+				<element value="ui/skins/default/slider_vertical_bottom_pressed.png" />
+				<element value="ui/skins/default/slider_vertical_bottom_hover.png" />
+			</override_images>
+		</bottom>
+		<rhox_def_slave_accept this="80CC03CA-1B5C-57D2-87D883C7028697A5" id="rhox_def_slave_accept" template_id="square_large_text_button" part_of_template="true" uniqueguid_in_template="D8275039-5A3B-40C0-974330DBC4409AFD" uniqueguid="80CC03CA-1B5C-57D2-87D883C7028697A5" dimensions="233.00,51.00" priority="51" sound_category="UI_GBL_HUD_Purchase">
+			<state_uniqueguids>
+				<state_uniqueguid name="active" uniqueguid="6BB9C492-17D0-44D9-A47A7C2C33ACFA13" />
+				<state_uniqueguid name="down" uniqueguid="24E6BD4E-9DAC-4BE1-B7C1B8C2DC73A700" />
+				<state_uniqueguid name="down_off" uniqueguid="A6689270-40A7-4894-9EA690DF395B593E" />
+				<state_uniqueguid name="hover" uniqueguid="9C80A348-61FA-4759-B6E6ABB632FFCF9A" />
+				<state_uniqueguid name="inactive" uniqueguid="CC514F4E-3BCF-4A58-B6C0FA04BC86B99F" />
+			</state_uniqueguids>
+			<component_image_uniqueguids>
+				<component_image_uniqueguid name="ui/skins/default/button_square_large_text_pressed.png" uniqueguid="7D96D20C-29D9-4286-9ECE3471558DACEE" />
+				<component_image_uniqueguid name="ui/skins/default/button_square_large_text_active.png" uniqueguid="478509EA-0C03-4784-8E79B1B18CE51764" />
+				<component_image_uniqueguid name="ui/skins/default/button_square_large_text_hover.png" uniqueguid="C96B9FD4-E7BE-4539-AD9EE8C2C7DEDE59" />
+				<component_image_uniqueguid name="ui/skins/default/button_square_large_text_inactive.png" uniqueguid="1E97AB8D-E111-47BD-A75E5F2CD4AE4294" />
+				<component_image_uniqueguid name="ui/skins/default/button_square_large_text_underlay.png" uniqueguid="7EFFA348-994F-4EB3-BFB326ED874796DF" />
+			</component_image_uniqueguids>
+			<callbacks_with_context>
+				<callback_with_context callback_id="TextButton" />
+				<callback_with_context callback_id="StatePropagatorCallback" />
+				<callback_with_context callback_id="ContextInactiveStateSetter" context_object_id="CcoStaticObject" context_function_id="RhoxDefSlaveEconomy.CanAccept">
+					<child_m_user_properties>
+						<property name="event0" value="RhoxDefSlavesUpdate" />
+						<property name="event1" value="PooledResourceTransaction" />
+					</child_m_user_properties>
+				</callback_with_context>
+				<callback_with_context callback_id="ContextCommandLeftClick" context_object_id="CcoStaticObject" context_function_id="ShowPrompt(Loc(&quot;rhox_def_slaves_confirm_title&quot;), Loc(&quot;rhox_def_slaves_confirm_body&quot;), RhoxDefSlaveEconomy.ProcessChanges)" />
+				<callback_with_context callback_id="ContextTooltipSetter" context_object_id="CcoStaticObject" context_function_id="GetIfElse(RhoxDefSlaveEconomy.CanAccept, Loc(&quot;rhox_def_slaves_tooltip_accept&quot;), Loc(&quot;rhox_def_slaves_tooltip_accept_disabled&quot;))">
+					<child_m_user_properties>
+						<property name="event0" value="RhoxDefSlavesUpdate" />
+						<property name="event1" value="PooledResourceTransaction" />
+					</child_m_user_properties>
+				</callback_with_context>
+			</callbacks_with_context>
+			<user_properties>
+				<property name="override_sound" value="" />
+			</user_properties>
+			<localised_texts>
+				<localised_text />
+				<localised_text state="active" is_text_localised="false" />
+				<localised_text state="down" is_text_localised="false" />
+				<localised_text state="down_off" is_text_localised="false" />
+				<localised_text state="hover" is_text_localised="false" />
+				<localised_text state="inactive" is_text_localised="false" />
+			</localised_texts>
+			<override_images>
+				<element value="ui/skins/default/button_square_large_text_pressed.png" />
+				<element value="ui/skins/default/button_square_large_text_active.png" />
+				<element value="ui/skins/default/button_square_large_text_hover.png" />
+				<element value="ui/skins/default/button_square_large_text_inactive.png" />
+				<element value="ui/skins/default/button_square_large_text_underlay.png" />
+			</override_images>
+		</rhox_def_slave_accept>
+		<button_flame this="967208DD-73DD-550C-A6A0A68EABB84922" id="button_flame" part_of_template="true" uniqueguid_in_template="43E521B0-0A25-4C22-82FE029058200FF9" uniqueguid="967208DD-73DD-550C-A6A0A68EABB84922" dimensions="169.00,28.00" dock_point="Center" offset="0.00,-1.00" priority="100">
+			<state_uniqueguids>
+				<state_uniqueguid name="default" uniqueguid="DDE1AAF6-46BF-4CD2-9A9CB43238143A16" />
+			</state_uniqueguids>
+			<callbacks_with_context>
+				<callback_with_context callback_id="ContextVisibilitySetter" context_object_id="CcoStaticObject" context_function_id="self.ParentContext.IsMouseOver &amp;&amp; self.ParentContext.IsDisabled == false">
+					<child_m_user_properties>
+						<property name="update_constant" value="" />
+					</child_m_user_properties>
+				</callback_with_context>
+			</callbacks_with_context>
+			<user_properties>
+				<property name="disable_override" value="callbacks" />
+				<property name="disable_override1" value="position" />
+			</user_properties>
+			<localised_texts>
+				<localised_text />
+				<localised_text state="default" is_text_localised="false" />
+			</localised_texts>
+			<override_images>
+				<element value="" />
+			</override_images>
+		</button_flame>
+		<button_flame this="D3D0F721-DD2A-577A-AFA1317B053A9EBB" id="button_flame" part_of_template="true" uniqueguid_in_template="43E521B0-0A25-4C22-82FE029058200FF9" uniqueguid="D3D0F721-DD2A-577A-AFA1317B053A9EBB" dimensions="169.00,28.00" dock_point="Center" offset="0.00,-1.00" priority="100">
+			<state_uniqueguids>
+				<state_uniqueguid name="default" uniqueguid="80565C0E-57B1-4491-BEB7326F299FBDB9" />
+			</state_uniqueguids>
+			<callbacks_with_context>
+				<callback_with_context callback_id="ContextVisibilitySetter" context_object_id="CcoStaticObject" context_function_id="self.ParentContext.IsMouseOver &amp;&amp; self.ParentContext.IsDisabled == false">
+					<child_m_user_properties>
+						<property name="update_constant" value="" />
+					</child_m_user_properties>
+				</callback_with_context>
+			</callbacks_with_context>
+			<user_properties>
+				<property name="disable_override" value="callbacks" />
+				<property name="disable_override1" value="position" />
+			</user_properties>
+			<localised_texts>
+				<localised_text />
+				<localised_text state="default" is_text_localised="false" />
+			</localised_texts>
+			<override_images>
+				<element value="" />
+			</override_images>
+		</button_flame>
+		<rhox_def_slave_close this="DEB29065-0B58-53B1-A7C3A2C67C2DD725" id="rhox_def_slave_close" template_id="round_medium_button" part_of_template="true" uniqueguid_in_template="4E08AA99-2BAB-4DB6-AC47ACC0CEBD26BE" uniqueguid="DEB29065-0B58-53B1-A7C3A2C67C2DD725" dimensions="56.00,56.00" dock_point="Top Right" is_visible="true" offset="-10.00,30.00" priority="45" sound_category="UI_GBL_HUD_Generic_Accept_Confirm">
+			<state_uniqueguids>
+				<state_uniqueguid name="active" uniqueguid="386C53D1-101C-4FDE-A0D5E2E8A86C70D2" />
+				<state_uniqueguid name="down" uniqueguid="2A30689A-866E-4F6B-BD9481A9449DC1EE" />
+				<state_uniqueguid name="down_off" uniqueguid="71629286-CCD9-44AF-BF31F7B7D728A49D" />
+				<state_uniqueguid name="hover" uniqueguid="5A8916F5-0F6B-4E2B-BE8944A50B29A1BD" />
+				<state_uniqueguid name="inactive" uniqueguid="1E1B4B7F-5120-4604-A090723CE4EC9794" />
+			</state_uniqueguids>
+			<component_image_uniqueguids>
+				<component_image_uniqueguid name="ui/skins/default/icon_cross_small.png" uniqueguid="3B7BE8F7-0C2C-499E-A1C708D311F2C2B8" />
+				<component_image_uniqueguid name="ui/skins/default/button_round_medium_pressed.png" uniqueguid="CE535EBA-8A62-4DA1-82C1452196118468" />
+				<component_image_uniqueguid name="ui/skins/default/button_round_medium_hover.png" uniqueguid="0F177C48-F0B1-4A7A-8D5A927A2077B5EF" />
+				<component_image_uniqueguid name="ui/skins/default/button_round_medium_active.png" uniqueguid="5A58AB6A-A55C-4893-8AFE0B62EF87F42C" />
+				<component_image_uniqueguid name="ui/skins/default/button_round_medium_inactive.png" uniqueguid="965B475E-17B0-4B53-8BD88DDC13621473" />
+				<component_image_uniqueguid name="ui/skins/default/button_round_medium_underlay.png" uniqueguid="C17B8537-CE9B-49E0-87E6739EB67E6A23" />
+			</component_image_uniqueguids>
+			<callbacks_with_context>
+				<callback_with_context callback_id="Button" />
+				<callback_with_context callback_id="StatePropagatorCallback">
+					<child_m_user_properties>
+						<property name="use_transitions" value="" />
+					</child_m_user_properties>
+				</callback_with_context>
+				<callback_with_context callback_id="ContextCommandLeftClick" context_function_id="UiMsg(&quot;RhoxDefSlavesClearAll&quot;)" />
+				<callback_with_context callback_id="CallbackAnimTrigger" />
+				<callback_with_context callback_id="ContextTooltipSetter" context_object_id="CcoStaticObject" context_function_id="Loc(&quot;rhox_def_slaves_tooltip_close&quot;)" />
+			</callbacks_with_context>
+			<user_properties>
+				<property name="disable_override" value="resizable" />
+				<property name="disable_override0" value="CallbackAnimTrigger" />
+				<property name="dynamic_image" value="0" />
+				<property name="override_sound" value="" />
+			</user_properties>
+			<localised_texts>
+				<localised_text />
+				<localised_text state="active" is_text_localised="false" />
+				<localised_text state="down" is_text_localised="false" />
+				<localised_text state="down_off" is_text_localised="false" />
+				<localised_text state="hover" is_text_localised="false" />
+				<localised_text state="inactive" is_text_localised="false" />
+			</localised_texts>
+			<override_images>
+				<element value="ui/skins/default/icon_cross_small.png" />
+				<element value="ui/skins/default/button_round_medium_pressed.png" />
+				<element value="ui/skins/default/button_round_medium_hover.png" />
+				<element value="ui/skins/default/button_round_medium_active.png" />
+				<element value="ui/skins/default/button_round_medium_inactive.png" />
+				<element value="ui/skins/default/button_round_medium_underlay.png" />
+				<element value="" />
+			</override_images>
+		</rhox_def_slave_close>
+		<button_reset_changes this="B0813D42-0B7F-5F4A-A1B52D7EEDCD8D4D" id="button_reset_changes" template_id="square_large_text_button" part_of_template="true" uniqueguid_in_template="D8275039-5A3B-40C0-974330DBC4409AFD" uniqueguid="B0813D42-0B7F-5F4A-A1B52D7EEDCD8D4D" dimensions="233.00,51.00" priority="51" sound_category="UI_GBL_HUD_Generic_Cancel_Decline">
+			<state_uniqueguids>
+				<state_uniqueguid name="active" uniqueguid="ACABFD32-453E-45BD-8F84307AD425AAED" />
+				<state_uniqueguid name="down" uniqueguid="9D954089-CE6B-4672-B4A52A6415709B63" />
+				<state_uniqueguid name="down_off" uniqueguid="74A23926-2AD0-4249-B4CA50F93EDA5499" />
+				<state_uniqueguid name="hover" uniqueguid="1289C87E-04DE-4B56-9C169F8ECADCFE10" />
+				<state_uniqueguid name="inactive" uniqueguid="5A98DD04-CC88-4274-85A23A1300DD188C" />
+			</state_uniqueguids>
+			<component_image_uniqueguids>
+				<component_image_uniqueguid name="ui/skins/default/button_square_large_text_pressed.png" uniqueguid="1210B24E-4BB7-419B-98786366C955068B" />
+				<component_image_uniqueguid name="ui/skins/default/button_square_large_text_active.png" uniqueguid="C2B182D3-B0F8-4A34-A5A425AAA23662B4" />
+				<component_image_uniqueguid name="ui/skins/default/button_square_large_text_hover.png" uniqueguid="CD47EA60-AC98-48F9-9F4409012286BD06" />
+				<component_image_uniqueguid name="ui/skins/default/button_square_large_text_inactive.png" uniqueguid="6D214AC5-8BA8-4F18-984767CCC68AD514" />
+				<component_image_uniqueguid name="ui/skins/default/button_square_large_text_underlay.png" uniqueguid="F18EE9B1-C342-4B53-8B54FB945F89FC01" />
+			</component_image_uniqueguids>
+			<callbacks_with_context>
+				<callback_with_context callback_id="TextButton" />
+				<callback_with_context callback_id="StatePropagatorCallback" />
+				<callback_with_context callback_id="ContextCommandLeftClick" context_object_id="CcoStaticObject" context_function_id="UiMsg(&quot;RhoxDefSlavesClearAll&quot;)" />
+				<callback_with_context callback_id="ContextInactiveStateSetter" context_object_id="CcoStaticObject" context_function_id="RhoxDefSlaveEconomy.AnyChangeWanted">
+					<child_m_user_properties>
+						<property name="event0" value="RhoxDefSlavesChanged" />
+						<property name="event1" value="RhoxDefSlavesClearAll" />
+					</child_m_user_properties>
+				</callback_with_context>
+				<callback_with_context callback_id="ContextTooltipSetter" context_object_id="CcoStaticObject" context_function_id="Loc(&quot;rhox_def_slaves_tooltip_reset&quot;)" />
+			</callbacks_with_context>
+			<user_properties>
+				<property name="override_sound" value="" />
+			</user_properties>
+			<localised_texts>
+				<localised_text />
+				<localised_text state="active" is_text_localised="false" />
+				<localised_text state="down" is_text_localised="false" />
+				<localised_text state="down_off" is_text_localised="false" />
+				<localised_text state="hover" is_text_localised="false" />
+				<localised_text state="inactive" is_text_localised="false" />
+			</localised_texts>
+			<override_images>
+				<element value="ui/skins/default/button_square_large_text_pressed.png" />
+				<element value="ui/skins/default/button_square_large_text_active.png" />
+				<element value="ui/skins/default/button_square_large_text_hover.png" />
+				<element value="ui/skins/default/button_square_large_text_inactive.png" />
+				<element value="ui/skins/default/button_square_large_text_underlay.png" />
+			</override_images>
+		</button_reset_changes>
+		<button_txt this="942FAAF1-A1D4-5010-A0F2E27BC3162F34" id="button_txt" part_of_template="true" uniqueguid_in_template="BF9E2DF6-9810-4FAE-97B856F2B15FB826" uniqueguid="942FAAF1-A1D4-5010-A0F2E27BC3162F34" dimensions="158.00,51.00" dock_point="Center" priority="51">
+			<state_uniqueguids>
+				<state_uniqueguid name="active" uniqueguid="A923FCAE-B6FD-4041-9A552938ACE380AE" />
+				<state_uniqueguid name="inactive" uniqueguid="76A0FC0A-ECFC-4B17-9025FE7A7FF38913" />
+			</state_uniqueguids>
+			<user_properties>
+				<property name="disable_override" value="instance_resize" />
+			</user_properties>
+			<localised_texts>
+				<localised_text text="Reset" text_label="ComponentText_b5bbf1d3" />
+				<localised_text state="active" text="Reset" text_label="StateText_d6d27b7c" />
+				<localised_text state="inactive" text="Reset" text_label="StateText_cc932d18" />
+			</localised_texts>
+		</button_txt>
+		<button_txt this="609EC12D-CE29-5A7C-B1FA8C0E18714A2E" id="button_txt" part_of_template="true" uniqueguid_in_template="BF9E2DF6-9810-4FAE-97B856F2B15FB826" uniqueguid="609EC12D-CE29-5A7C-B1FA8C0E18714A2E" dimensions="158.00,51.00" dock_point="Center" priority="51">
+			<state_uniqueguids>
+				<state_uniqueguid name="active" uniqueguid="50C8CF42-7D3E-4CA7-BA5B4301A246E083" />
+				<state_uniqueguid name="inactive" uniqueguid="5BBEA27C-69C7-461E-9B00403F9E7DBDEA" />
+			</state_uniqueguids>
+			<user_properties>
+				<property name="disable_override" value="instance_resize" />
+			</user_properties>
+			<localised_texts>
+				<localised_text text="Accept" text_label="ComponentText_67846c2" />
+				<localised_text state="active" text="Accept" text_label="StateText_f06f2110" />
+				<localised_text state="inactive" text="Accept" text_label="StateText_32999e46" />
+			</localised_texts>
+		</button_txt>
+		<dy_change this="87F5353A-1923-5F4F-81B3EE408BC3CC4E" id="dy_change" offset="48.00,8.00" allowverticalresize="false" priority="51" tooltipslocalised="true" uniqueguid="87F5353A-1923-5F4F-81B3EE408BC3CC4E" currentstate="07778CA9-466C-4A9B-B9587B20AC10F361">
+			<callbackwithcontextlist>
+				<callback_with_context callback_id="ContextTextLabel" context_object_id="CcoCampaignPublicOrder" context_function_id="GetIfElse(ChangePerTurn &gt; 0, Format(&quot;(+%d)&quot;, ChangePerTurn), Format(&quot;(%d)&quot;, ChangePerTurn))">
+					<child_m_user_properties>
+						<property name="event0" value="TaxLevelChanged" />
+						<property name="event1" value="DevoteesEffectsChanged" />
+						<property name="event2" value="PooledResourceTransaction" />
+					</child_m_user_properties>
+				</callback_with_context>
+			</callbackwithcontextlist>
+			<states>
+				<newstate this="07778CA9-466C-4A9B-B9587B20AC10F361" name="NewState" width="41" height="24" uniqueguid="07778CA9-466C-4A9B-B9587B20AC10F361">
+					<component_text text="(+99)" textvalign="Center" texthalign="Right" textxoffset="0.00,4.00" texthbehaviour="Resize" textlabel="StateText_dc18fe38" font_m_size="12" font_m_colour="#FFF8D7FF" font_m_leading="3" fontcat_name="body_12" />
+				</newstate>
+			</states>
+		</dy_change>
+		<dy_efficiency this="D91C0EDA-7199-5C6F-B51D3BF63F8951C3" id="dy_efficiency" uniqueguid_in_template="19CFC39E-4F71-498A-BBF5D8E8D6D1A6DE" offset="677.00,3.00" allowverticalresize="false" priority="51" tooltipslocalised="true" component_level_text="100%" text_label="ComponentText_683b340b" uniqueguid="D91C0EDA-7199-5C6F-B51D3BF63F8951C3" currentstate="EBF11961-225F-4077-87177000DB7DC7DF">
+			<callbackwithcontextlist>
+				<callback_with_context callback_id="ContextTextLabel" context_object_id="CcoCampaignProvince" context_function_id="RhoxExSlaveNeed.Total &gt; 0 | Format(&quot;%d%%&quot;, 100 - RhoxExSlaveInefficiency.Total)  | &quot;-&quot;">
+					<child_m_user_properties>
+						<property name="event0" value="RhoxDefSlavesUpdate" />
+						<property name="event1" value="PooledResourceTransaction" />
+					</child_m_user_properties>
+				</callback_with_context>
+				<callback_with_context callback_id="ContextStateSetterConditional" context_object_id="CcoCampaignProvince">
+					<child_m_user_properties>
+						<property name="event0" value="RhoxDefSlavesUpdate" />
+						<property name="event1" value="PooledResourceTransaction" />
+						<property name="fallback_state" value="green" />
+						<property name="invalid" value="RhoxExSlaveNeed.Total == 0" />
+						<property name="red" value="RhoxExSlaveNeed.Total &gt; 0 &amp;&amp; 100 - RhoxExSlaveInefficiency.Total &lt; 50" />
+						<property name="yellow" value="RhoxExSlaveNeed.Total &gt; 0 &amp;&amp; 100 - RhoxExSlaveInefficiency.Total &gt; 49 &amp;&amp; 100 - RhoxExSlaveInefficiency.Total &lt; 100" />
+					</child_m_user_properties>
+				</callback_with_context>
+				<callback_with_context callback_id="ContextVisibilitySetter" context_object_id="CcoCampaignProvince" context_function_id="RhoxDefSlaveEconomy.SlaveChangeWanted(this) == false || RhoxExSlaveNeed.Total == 0">
+					<child_m_user_properties>
+						<property name="event0" value="RhoxDefSlavesUpdate" />
+						<property name="event1" value="PooledResourceTransaction" />
+					</child_m_user_properties>
+				</callback_with_context>
+				<callback_with_context callback_id="ContextTooltipSetter" context_object_id="CcoStaticObject" context_function_id="Loc(&quot;rhox_def_slaves_tooltip_efficiency&quot;)" />
+			</callbackwithcontextlist>
+			<userproperties>
+				<property name="MinValue" value="0" />
+			</userproperties>
+			<states>
+				<green this="EBF11961-225F-4077-87177000DB7DC7DF" name="green" width="64" height="40" interactive="true" disabled="true" uniqueguid="EBF11961-225F-4077-87177000DB7DC7DF">
+					<component_text textvalign="Center" texthalign="Right" font_m_size="12" font_m_colour="#FFF8D7FF" font_m_leading="3" fontcat_name="body_12" font_colour_override_preset_key="green" />
+				</green>
+				<invalid this="E51C0F9F-0EA2-46B1-8C0D7D97326361CC" name="invalid" width="64" height="40" interactive="true" disabled="true" uniqueguid="E51C0F9F-0EA2-46B1-8C0D7D97326361CC">
+					<component_text text="-" textvalign="Center" texthalign="Right" textxoffset="0.00,10.00" texthbehaviour="Never split" textlabel="StateText_c94ea422" font_m_font_name="brand_header" font_m_size="12" font_m_colour="#FFF8D7FF" font_m_leading="3" fontcat_name="header_12" />
+				</invalid>
+				<red this="7168EDA0-7EFD-4E1A-9B76E3669475469B" name="red" width="64" height="40" interactive="true" disabled="true" uniqueguid="7168EDA0-7EFD-4E1A-9B76E3669475469B">
+					<component_text textvalign="Center" texthalign="Right" font_m_size="12" font_m_colour="#FFF8D7FF" font_m_leading="3" fontcat_name="body_12" font_colour_override_preset_key="red" />
+				</red>
+				<yellow this="F2D21B76-165B-4B70-A9A65A428384C8A0" name="yellow" width="64" height="40" interactive="true" disabled="true" uniqueguid="F2D21B76-165B-4B70-A9A65A428384C8A0">
+					<component_text textvalign="Center" texthalign="Right" font_m_size="12" font_m_colour="#FFF8D7FF" font_m_leading="3" fontcat_name="body_12" font_colour_override_preset_key="ui_font_yellow" />
+				</yellow>
+			</states>
+		</dy_efficiency>
+		<dy_growth this="8500BA49-7927-56D2-BB3834E6FAB5E2B0" id="dy_growth" offset="26.00,8.00" allowverticalresize="false" priority="51" tooltipslocalised="true" uniqueguid="8500BA49-7927-56D2-BB3834E6FAB5E2B0" currentstate="2D602166-2897-4C30-87BF6584F2EC7781">
+			<callbackwithcontextlist>
+				<callback_with_context callback_id="ContextTextLabel" context_object_id="CcoCampaignPublicOrder" context_function_id="Balance" />
+			</callbackwithcontextlist>
+			<states>
+				<newstate this="2D602166-2897-4C30-87BF6584F2EC7781" name="NewState" width="22" height="24" uniqueguid="2D602166-2897-4C30-87BF6584F2EC7781">
+					<component_text text="99" textvalign="Center" texthalign="Right" textxoffset="0.00,4.00" texthbehaviour="Resize" textlabel="StateText_2191bb3d" font_m_size="12" font_m_colour="#FFF8D7FF" font_m_leading="3" fontcat_name="body_12" />
+				</newstate>
+			</states>
+		</dy_growth>
+		<dy_province_name this="CC2FDE51-2992-5397-90DAA830D070C517" id="dy_province_name" uniqueguid_in_template="1C8EDA53-EA66-4DA5-A8BDA60677F32723" offset="2.00,1.00" allowverticalresize="false" priority="51" tooltipslocalised="true" component_level_text="Montanhas da borda do mundo de Southlands" text_label="ComponentText_98f114dc" uniqueguid="CC2FDE51-2992-5397-90DAA830D070C517" currentstate="853C6F76-8797-4C49-A5F4AE696AFA09C1">
+			<callbackwithcontextlist>
+				<callback_with_context callback_id="ContextTextLabel" context_object_id="CcoCampaignProvince" context_function_id="Name" />
+				<callback_with_context callback_id="ContextSelectableItem" context_object_id="CcoCampaignProvince">
+					<child_m_user_properties>
+						<property name="selection_parent" value="8EBCC7E6-7114-56B9-B719C249A231F294" />
+					</child_m_user_properties>
+				</callback_with_context>
+			</callbackwithcontextlist>
+			<states>
+				<newstate this="853C6F76-8797-4C49-A5F4AE696AFA09C1" name="NewState" width="356" height="42" interactive="true" uniqueguid="853C6F76-8797-4C49-A5F4AE696AFA09C1">
+					<component_text textvalign="Center" textxoffset="16.00,0.00" font_m_size="12" font_m_colour="#FFF8D7FF" font_m_leading="3" fontcat_name="body_12" textshadervars="0.00,1.00,2.00,0.00" />
+				</newstate>
+			</states>
+		</dy_province_name>
+		<dy_raw_materials this="C8CB4314-B741-559A-8EBC904D8A9BCA0E" id="dy_raw_materials" offset="1140.00,3.00" allowverticalresize="false" priority="60" tooltipslocalised="true" component_level_text="999999" text_label="ComponentText_e09882d8" uniqueguid="C8CB4314-B741-559A-8EBC904D8A9BCA0E" updatewhennotvisible="true" currentstate="57D1DD63-EB9C-437D-9B5019100B02E26E" defaultstate="57D1DD63-EB9C-437D-9B5019100B02E26E">
+			<callbackwithcontextlist>
+				<callback_with_context callback_id="ContextTextLabel" context_object_id="CcoCampaignProvince" context_function_id="RhoxExGoldOutput">
+					<child_m_user_properties>
+						<property name="event0" value="RhoxDefSlavesUpdate" />
+						<property name="event1" value="PooledResourceTransaction" />
+					</child_m_user_properties>
+				</callback_with_context>
+				<callback_with_context callback_id="ContextTooltipSetter" context_object_id="CcoStaticObject" context_function_id="Loc(&quot;rhox_def_slaves_tooltip_output&quot;)" />
+			</callbackwithcontextlist>
+			<states>
+				<default this="57D1DD63-EB9C-437D-9B5019100B02E26E" name="default" width="100" height="40" interactive="true" disabled="true" uniqueguid="57D1DD63-EB9C-437D-9B5019100B02E26E">
+					<component_text textvalign="Center" texthalign="Right" font_m_size="12" font_m_colour="#FFF8D7FF" font_m_leading="3" fontcat_name="body_12" />
+				</default>
+			</states>
+		</dy_raw_materials>
+		<dy_slave_income this="B1766ED9-BC11-5FFB-B7AD95ABC08C7623" id="dy_slave_income" offset="963.00,3.00" allowverticalresize="false" priority="60" tooltipslocalised="true" component_level_text="999999" text_label="ComponentText_e09882d8" uniqueguid="B1766ED9-BC11-5FFB-B7AD95ABC08C7623" updatewhennotvisible="true" currentstate="D6CED10D-6462-528C-912ABFD3336C2B07" defaultstate="D6CED10D-6462-528C-912ABFD3336C2B07">
+			<callbackwithcontextlist>
+				<callback_with_context callback_id="ContextTextLabel" context_object_id="CcoCampaignProvince" context_function_id="RhoxExSlaveFlatIncome">
+					<child_m_user_properties>
+						<property name="event0" value="RhoxDefSlavesUpdate" />
+						<property name="event1" value="PooledResourceTransaction" />
+					</child_m_user_properties>
+				</callback_with_context>
+				<callback_with_context callback_id="ContextTooltipSetter" context_object_id="CcoStaticObject" context_function_id="Loc(&quot;rhox_def_slaves_tooltip_slave_income&quot;)" />
+			</callbackwithcontextlist>
+			<states>
+				<default this="D6CED10D-6462-528C-912ABFD3336C2B07" name="default" width="100" height="40" interactive="true" disabled="true" uniqueguid="D6CED10D-6462-528C-912ABFD3336C2B07">
+					<component_text textvalign="Center" texthalign="Right" font_m_size="12" font_m_colour="#FFF8D7FF" font_m_leading="3" fontcat_name="body_12" />
+				</default>
+			</states>
+		</dy_slave_income>
+		<dy_income_mod this="4E7FBD8A-955B-5174-B4E5DE0D71C9243B" id="dy_income_mod" offset="828.00,3.00" allowverticalresize="false" priority="60" tooltipslocalised="true" component_level_text="999999" text_label="ComponentText_e09882d8" uniqueguid="4E7FBD8A-955B-5174-B4E5DE0D71C9243B" updatewhennotvisible="true" currentstate="00359EEA-136D-52D0-AB913C631810CEA3" defaultstate="00359EEA-136D-52D0-AB913C631810CEA3">
+			<callbackwithcontextlist>
+				<callback_with_context callback_id="ContextTextLabel" context_object_id="CcoCampaignProvince" context_function_id="RhoxGoldModifierText">
+					<child_m_user_properties>
+						<property name="event0" value="RhoxDefSlavesUpdate" />
+						<property name="event1" value="RhoxDefSlavesChanged" />
+						<property name="event2" value="PooledResourceTransaction" />
+					</child_m_user_properties>
+				</callback_with_context>
+				<callback_with_context callback_id="ContextTooltipSetter" context_object_id="CcoStaticObject" context_function_id="Loc(&quot;rhox_def_slaves_tooltip_income_mod&quot;)" />
+			</callbackwithcontextlist>
+			<states>
+				<default this="00359EEA-136D-52D0-AB913C631810CEA3" name="default" width="100" height="40" interactive="true" disabled="true" uniqueguid="00359EEA-136D-52D0-AB913C631810CEA3">
+					<component_text textvalign="Center" texthalign="Right" font_m_size="12" font_m_colour="#FFF8D7FF" font_m_leading="3" fontcat_name="body_12" />
+				</default>
+			</states>
+		</dy_income_mod>
+		<dy_text this="D15DB237-8D66-5C9B-BDB4428999760C9E" id="dy_text" offset="5.00,9.00" docking="Center" component_anchor_point="0.50,0.50" priority="51" tooltipslocalised="true" component_level_text="Labour Economy" text_label="ComponentText_14a24010" uniqueguid="D15DB237-8D66-5C9B-BDB4428999760C9E" currentstate="574978D1-794D-48AD-9CBE10719A8BCA39" defaultstate="574978D1-794D-48AD-9CBE10719A8BCA39">
+			<callbackwithcontextlist>
+				<callback_with_context callback_id="ContextTextLabel" context_object_id="CcoStaticObject" context_function_id="Loc(&quot;rhox_def_slaves_panel_title&quot;)" />
+			</callbackwithcontextlist>
+			<states>
+				<newstate this="574978D1-794D-48AD-9CBE10719A8BCA39" name="NewState" width="282" height="27" interactive="true" uniqueguid="574978D1-794D-48AD-9CBE10719A8BCA39">
+					<component_text textvalign="Center" texthalign="Center" texthbehaviour="Never split" textlocalised="true" textlabel="StateText_2182dcb1" font_m_font_name="la_gioconda_uppercase" font_m_size="18" font_m_colour="#FFF8D7FF" font_m_leading="3" fontcat_name="header_18_bold" text_shader_name="drop_shadow_t0" textshadervars="0.00,2.00,1.00,0.00" />
+				</newstate>
+			</states>
+		</dy_text>
+		<dy_total_efficiency this="356D0B83-E90C-5AA6-84749782E7E8A058" id="dy_total_efficiency" offset="706.00,7.00" allowhorizontalresize="false" allowverticalresize="false" priority="51" component_level_text="100%" text_label="ComponentText_8e5749ea" uniqueguid="356D0B83-E90C-5AA6-84749782E7E8A058" currentstate="99842FFB-8AF8-4813-AC3FB06EB9DDFCFC" defaultstate="99842FFB-8AF8-4813-AC3FB06EB9DDFCFC">
+			<callbackwithcontextlist>
+				<callback_with_context callback_id="ContextTextLabel" context_object_id="CcoCampaignFaction" context_function_id="(provinces = ProvinceList.Filter(RhoxExSlaveNeed.Total &gt; 0)) =&gt; Format(&quot;%d%%&quot;, RoundFloat(provinces.Sum(100 - RhoxExSlaveInefficiency.Total) / provinces.Size))">
+					<child_m_user_properties>
+						<property name="event0" value="RhoxDefSlavesUpdate" />
+						<property name="event1" value="PooledResourceTransaction" />
+					</child_m_user_properties>
+				</callback_with_context>
+				<callback_with_context callback_id="ContextStateSetterConditional" context_object_id="CcoCampaignFaction">
+					<child_m_user_properties>
+						<property name="event0" value="RhoxDefSlavesUpdate" />
+						<property name="event1" value="PooledResourceTransaction" />
+						<property name="fallback_state" value="green" />
+						<property name="red" value="(provinces = ProvinceList.Filter(RhoxExSlaveNeed.Total &gt; 0)) =&gt; RoundFloat(provinces.Sum(100 - RhoxExSlaveInefficiency.Total) / provinces.Size) &lt; 50" />
+						<property name="yellow" value="(provinces = ProvinceList.Filter(RhoxExSlaveNeed.Total &gt; 0)) =&gt; RoundFloat(provinces.Sum(100 - RhoxExSlaveInefficiency.Total) / provinces.Size) &gt; 49 &amp;&amp; RoundFloat(provinces.Sum(100 - RhoxExSlaveInefficiency.Total) / provinces.Size) &lt; 100" />
+					</child_m_user_properties>
+				</callback_with_context>
+				<callback_with_context callback_id="ContextVisibilitySetter" context_object_id="CcoCampaignFaction" context_function_id="RhoxDefSlaveEconomy.AnyMeaningfulChangeWanted == false">
+					<child_m_user_properties>
+						<property name="event0" value="RhoxDefSlavesUpdate" />
+						<property name="event1" value="PooledResourceTransaction" />
+					</child_m_user_properties>
+				</callback_with_context>
+				<callback_with_context callback_id="ContextTooltipSetter" context_object_id="CcoStaticObject" context_function_id="Loc(&quot;rhox_def_slaves_tooltip_total_efficiency&quot;)" />
+			</callbackwithcontextlist>
+			<states>
+				<green this="4B42BE26-F3CA-4CE0-9F5CF50A3E5E16BF" name="green" width="64" height="40" interactive="true" disabled="true" uniqueguid="4B42BE26-F3CA-4CE0-9F5CF50A3E5E16BF">
+					<component_text textvalign="Center" texthalign="Right" texthbehaviour="Never split" font_m_font_name="la_gioconda_uppercase" font_m_size="16" font_m_colour="#FFF8D7FF" font_m_leading="3" fontcat_name="header_16_bold" font_colour_override_preset_key="green" />
+				</green>
+				<red this="99842FFB-8AF8-4813-AC3FB06EB9DDFCFC" name="red" width="64" height="40" interactive="true" disabled="true" uniqueguid="99842FFB-8AF8-4813-AC3FB06EB9DDFCFC">
+					<component_text textvalign="Center" texthalign="Right" texthbehaviour="Never split" font_m_font_name="la_gioconda_uppercase" font_m_size="16" font_m_colour="#FFF8D7FF" font_m_leading="3" fontcat_name="header_16_bold" font_colour_override_preset_key="red" />
+				</red>
+				<yellow this="1D2C8F3A-25DC-4901-8B17972BAADDA600" name="yellow" width="64" height="40" interactive="true" disabled="true" uniqueguid="1D2C8F3A-25DC-4901-8B17972BAADDA600">
+					<component_text textvalign="Center" texthalign="Right" texthbehaviour="Never split" font_m_font_name="la_gioconda_uppercase" font_m_size="16" font_m_colour="#FFF8D7FF" font_m_leading="3" fontcat_name="header_16_bold" font_colour_override_preset_key="ui_font_yellow" />
+				</yellow>
+			</states>
+		</dy_total_efficiency>
+		<dy_total_labour this="ECEEA7F4-2F27-5494-813E4330026C959E" id="dy_total_labour" allowverticalresize="false" priority="51" tooltipslocalised="true" component_level_text="999999" text_label="ComponentText_26809cc2" uniqueguid="ECEEA7F4-2F27-5494-813E4330026C959E" currentstate="856F400F-25CB-47AC-89761DB0E721CA97" defaultstate="856F400F-25CB-47AC-89761DB0E721CA97">
+			<callbackwithcontextlist>
+				<callback_with_context callback_id="ContextTextLabel" context_object_id="CcoCampaignFaction" context_function_id="RoundFloat(ProvinceList.Sum(RhoxExSlaves.Total))">
+					<child_m_user_properties>
+						<property name="event0" value="RhoxDefSlavesUpdate" />
+						<property name="event1" value="PooledResourceTransaction" />
+					</child_m_user_properties>
+				</callback_with_context>
+			</callbackwithcontextlist>
+			<states>
+				<default this="856F400F-25CB-47AC-89761DB0E721CA97" name="default" width="73" height="40" uniqueguid="856F400F-25CB-47AC-89761DB0E721CA97">
+					<component_text textvalign="Center" texthalign="Right" texthbehaviour="Never split" font_m_font_name="brand_header" font_m_size="16" font_m_colour="#FFF8D7FF" font_m_leading="3" fontcat_name="header_16" />
+				</default>
+			</states>
+		</dy_total_labour>
+		<dy_total_raw_materials this="9CD59CFA-F26B-5DCF-BFA920508EC56139" id="dy_total_raw_materials" offset="1140.00,7.00" allowhorizontalresize="false" allowverticalresize="false" priority="51" tooltipslocalised="true" component_level_text="999999" text_label="ComponentText_6523951d" uniqueguid="9CD59CFA-F26B-5DCF-BFA920508EC56139" currentstate="A8970FDB-C853-4C49-93DAA79F4FB69249" defaultstate="A8970FDB-C853-4C49-93DAA79F4FB69249">
+			<callbackwithcontextlist>
+				<callback_with_context callback_id="ContextTextLabel" context_object_id="CcoCampaignFaction" context_function_id="RoundFloat(ProvinceList.Sum(RhoxExGoldOutput))">
+					<child_m_user_properties>
+						<property name="event0" value="RhoxDefSlavesUpdate" />
+						<property name="event1" value="PooledResourceTransaction" />
+					</child_m_user_properties>
+				</callback_with_context>
+			</callbackwithcontextlist>
+			<states>
+				<default this="A8970FDB-C853-4C49-93DAA79F4FB69249" name="default" width="100" height="40" uniqueguid="A8970FDB-C853-4C49-93DAA79F4FB69249">
+					<component_text textvalign="Center" texthalign="Right" texthbehaviour="Never split" font_m_font_name="brand_header" font_m_size="16" font_m_colour="#FFF8D7FF" font_m_leading="3" fontcat_name="header_16" />
+				</default>
+			</states>
+		</dy_total_raw_materials>
+		<dy_total_slave_income this="F55ED3F5-E6D0-51EF-BBDC4E7D53447611" id="dy_total_slave_income" offset="963.00,7.00" allowhorizontalresize="false" allowverticalresize="false" priority="51" tooltipslocalised="true" component_level_text="999999" text_label="ComponentText_6523951d" uniqueguid="F55ED3F5-E6D0-51EF-BBDC4E7D53447611" currentstate="24A62FB0-3BE9-5EC3-ACF02F5BCA21A7F1" defaultstate="24A62FB0-3BE9-5EC3-ACF02F5BCA21A7F1">
+			<callbackwithcontextlist>
+				<callback_with_context callback_id="ContextTextLabel" context_object_id="CcoCampaignFaction" context_function_id="RoundFloat(ProvinceList.Sum(RhoxExSlaveFlatIncome))">
+					<child_m_user_properties>
+						<property name="event0" value="RhoxDefSlavesUpdate" />
+						<property name="event1" value="PooledResourceTransaction" />
+					</child_m_user_properties>
+				</callback_with_context>
+			</callbackwithcontextlist>
+			<states>
+				<default this="24A62FB0-3BE9-5EC3-ACF02F5BCA21A7F1" name="default" width="100" height="40" uniqueguid="24A62FB0-3BE9-5EC3-ACF02F5BCA21A7F1">
+					<component_text textvalign="Center" texthalign="Right" texthbehaviour="Never split" font_m_font_name="brand_header" font_m_size="16" font_m_colour="#FFF8D7FF" font_m_leading="3" fontcat_name="header_16" />
+				</default>
+			</states>
+		</dy_total_slave_income>
+		<dy_total_workload this="2D5CBCD1-10E6-596D-9F8E8133C073A2B4" id="dy_total_workload" offset="105.00,0.00" allowverticalresize="false" priority="51" tooltipslocalised="true" component_level_text="999999" text_label="ComponentText_101508e6" uniqueguid="2D5CBCD1-10E6-596D-9F8E8133C073A2B4" currentstate="43B33D85-486C-461E-B1571B4664C88CE2" defaultstate="43B33D85-486C-461E-B1571B4664C88CE2">
+			<callbackwithcontextlist>
+				<callback_with_context callback_id="ContextTextLabel" context_object_id="CcoCampaignFaction" context_function_id="RoundFloat(ProvinceList.Sum(RhoxExSlaveNeed.Total))">
+					<child_m_user_properties>
+						<property name="event0" value="RhoxDefSlavesUpdate" />
+						<property name="event1" value="PooledResourceTransaction" />
+					</child_m_user_properties>
+				</callback_with_context>
+			</callbackwithcontextlist>
+			<states>
+				<default this="43B33D85-486C-461E-B1571B4664C88CE2" name="default" width="73" height="40" uniqueguid="43B33D85-486C-461E-B1571B4664C88CE2">
+					<component_text textvalign="Center" texthbehaviour="Never split" font_m_font_name="brand_header" font_m_size="16" font_m_colour="#FFF8D7FF" font_m_leading="3" fontcat_name="header_16" />
+				</default>
+			</states>
+		</dy_total_workload>
+		<dy_value this="C9F9D381-A47B-5DC4-9962045099EF96B6" id="dy_value" offset="110.00,0.00" allowverticalresize="false" priority="51" tooltipslocalised="true" component_level_text="999999" text_label="ComponentText_a98cf29a" uniqueguid="C9F9D381-A47B-5DC4-9962045099EF96B6" currentstate="5DCA2368-B100-4913-B2BC2552F97A37CF" defaultstate="5DCA2368-B100-4913-B2BC2552F97A37CF">
+			<callbackwithcontextlist>
+				<callback_with_context callback_id="ContextTextLabel" context_object_id="CcoStaticObject" context_function_id="RhoxDefSlaveEconomy.Available">
+					<child_m_user_properties>
+						<property name="event0" value="RhoxDefSlavesUpdate" />
+						<property name="event1" value="PooledResourceTransaction" />
+					</child_m_user_properties>
+				</callback_with_context>
+			</callbackwithcontextlist>
+			<states>
+				<default this="5DCA2368-B100-4913-B2BC2552F97A37CF" name="default" width="62" tooltip="99999" tooltiplabel="StateTooltip_8784889a" uniqueguid="5DCA2368-B100-4913-B2BC2552F97A37CF">
+					<component_text textvalign="Center" textxoffset="8.00,0.00" texthbehaviour="Resize" font_m_size="12" font_m_colour="#FFF8D7FF" font_m_leading="3" fontcat_name="body_12" font_colour_override_preset_key="red" />
+				</default>
+			</states>
+		</dy_value>
+		<dy_workload this="25925D1C-5FA1-5FE7-87FA16FE87B89F2A" id="dy_workload" uniqueguid_in_template="324A18ED-8ABF-4CA9-8AF0A0A930D043FE" offset="176.00,0.00" allowverticalresize="false" priority="51" componentleveltooltip="{{tt:ui/campaign ui/tooltip_pooled_resource_breakdown}}" tooltiplabel="ComponentTooltip_81f8cf38" component_level_text="999999" text_label="ComponentText_81f8cf38" uniqueguid="25925D1C-5FA1-5FE7-87FA16FE87B89F2A" currentstate="0D77BE4E-9DA4-4915-BD546DDB73CF2A98" defaultstate="0D77BE4E-9DA4-4915-BD546DDB73CF2A98">
+			<callbackwithcontextlist>
+				<callback_with_context callback_id="ContextTextLabel" context_object_id="CcoCampaignPooledResource" context_function_id="Total">
+					<child_m_user_properties>
+						<property name="event0" value="PooledResourceTransaction" />
+					</child_m_user_properties>
+				</callback_with_context>
+				<callback_with_context callback_id="ContextCustomTooltipStore" context_object_id="CcoCampaignPooledResource" />
+				<callback_with_context callback_id="ContextPropagator" context_object_id="CcoCampaignProvince" context_function_id="RhoxExSlaveNeed" />
+			</callbackwithcontextlist>
+			<states>
+				<default this="0D77BE4E-9DA4-4915-BD546DDB73CF2A98" name="default" width="64" height="40" interactive="true" uniqueguid="0D77BE4E-9DA4-4915-BD546DDB73CF2A98">
+					<component_text textvalign="Center" texthbehaviour="Never split" font_m_size="12" font_m_colour="#FFF8D7FF" font_m_leading="3" fontcat_name="body_12" font_colour_override_preset_key="ui_font_faded_grey_beige" />
+				</default>
+			</states>
+		</dy_workload>
+		<frame_bottom this="2B367DB7-4724-529B-BB4DC1DBFABA02D3" id="frame_bottom" part_of_template="true" uniqueguid_in_template="7C0BF9D5-3175-4CEA-AAA912149CDA2D7D" uniqueguid="2B367DB7-4724-529B-BB4DC1DBFABA02D3" dimensions="19.00,24.00" dock_point="Bottom Center" offset="0.00,24.00" priority="45">
+			<state_uniqueguids>
+				<state_uniqueguid name="NewState" uniqueguid="A5587303-3E68-4361-A1D5857018D19182" />
+			</state_uniqueguids>
+			<component_image_uniqueguids>
+				<component_image_uniqueguid name="ui/skins/default/slider_vertical_bottom.png" uniqueguid="8ED2E605-4649-4767-ADDD331B89D28A3C" />
+			</component_image_uniqueguids>
+			<user_properties>
+				<property name="disable_override" value="position" />
+				<property name="disable_override0" value="resizable" />
+			</user_properties>
+			<localised_texts>
+				<localised_text />
+				<localised_text state="NewState" is_text_localised="false" />
+			</localised_texts>
+			<override_images>
+				<element value="ui/skins/default/slider_vertical_bottom.png" />
+			</override_images>
+		</frame_bottom>
+		<frame_top this="9CC3B5CB-6BD5-5016-BBDB26C9F267379C" id="frame_top" part_of_template="true" uniqueguid_in_template="7CE59DB6-48EA-4C97-9ED6752EE53823C3" uniqueguid="9CC3B5CB-6BD5-5016-BBDB26C9F267379C" dimensions="20.00,24.00" dock_point="Top Center" offset="1.00,-24.00" priority="45">
+			<state_uniqueguids>
+				<state_uniqueguid name="NewState" uniqueguid="4BEB2DE8-6FE3-4CC9-B6556E27548ABC9E" />
+			</state_uniqueguids>
+			<component_image_uniqueguids>
+				<component_image_uniqueguid name="ui/skins/default/slider_vertical_top.png" uniqueguid="7F67F73E-6D91-4150-A6BD90B1CA3E57A7" />
+			</component_image_uniqueguids>
+			<user_properties>
+				<property name="disable_override" value="position" />
+				<property name="disable_override0" value="resizable" />
+			</user_properties>
+			<localised_texts>
+				<localised_text />
+				<localised_text state="NewState" is_text_localised="false" />
+			</localised_texts>
+			<override_images>
+				<element value="ui/skins/default/slider_vertical_top.png" />
+			</override_images>
+		</frame_top>
+		<handle this="C2D1D033-DDAB-533B-ADF55F92537CDBED" id="handle" part_of_template="true" uniqueguid_in_template="6B2825FF-80AB-4E6D-9AAD032FDA71D153" uniqueguid="C2D1D033-DDAB-533B-ADF55F92537CDBED" dimensions="18.00,39.00" offset="2.00,0.00" priority="45" sound_category="UI_GBL_TMP_Slider_Handle">
+			<state_uniqueguids>
+				<state_uniqueguid name="active" uniqueguid="82427719-05A9-4A12-89B5542A1C794216" />
+				<state_uniqueguid name="down_off" uniqueguid="EA909FC0-D0FA-4047-B0E943B5E2E0046F" />
+				<state_uniqueguid name="hover" uniqueguid="7E251DAD-6A1D-4B32-B8EE4A5EBFBB7430" />
+				<state_uniqueguid name="inactive" uniqueguid="B969108F-0BE5-4781-A75759CE5DCCD774" />
+			</state_uniqueguids>
+			<component_image_uniqueguids>
+				<component_image_uniqueguid name="ui/skins/default/slider_vertical_handle.png" uniqueguid="44319F06-FDE5-4DD3-8546AD43F7215688" />
+				<component_image_uniqueguid name="ui/skins/default/slider_vertical_handle_underlay.png" uniqueguid="A8B1278F-091A-4C0B-B38AECF3FE132F23" />
+			</component_image_uniqueguids>
+			<callbacks_with_context>
+				<callback_with_context callback_id="VSliderHandle" />
+			</callbacks_with_context>
+			<user_properties>
+				<property name="min_size" value="39" />
+			</user_properties>
+			<localised_texts>
+				<localised_text />
+				<localised_text state="active" is_text_localised="false" />
+				<localised_text state="down_off" is_text_localised="false" />
+				<localised_text state="hover" is_text_localised="false" />
+				<localised_text state="inactive" is_text_localised="false" />
+			</localised_texts>
+			<override_images>
+				<element value="ui/skins/default/slider_vertical_handle.png" />
+				<element value="ui/skins/default/slider_vertical_handle_underlay.png" />
+			</override_images>
+		</handle>
+		<header_01 this="371D1741-B6FD-5050-A88CD4BD90721498" id="header_01" allowhorizontalresize="false" allowverticalresize="false" priority="51" tooltipslocalised="true" component_level_text="Province Name" text_label="ComponentText_a5c8a068" uniqueguid="371D1741-B6FD-5050-A88CD4BD90721498" currentstate="D172D842-61E9-4028-A6998CA29FCEC0A4" defaultstate="D172D842-61E9-4028-A6998CA29FCEC0A4" offset="0.00,-1.00">
+			<states>
+				<default this="D172D842-61E9-4028-A6998CA29FCEC0A4" name="default" width="339" height="39" uniqueguid="D172D842-61E9-4028-A6998CA29FCEC0A4">
+					<component_text textvalign="Center" textxoffset="16.00,0.00" textlocalised="true" textlabel="StateText_d084f6d7" font_m_font_name="brand_header" font_m_size="14" font_m_colour="#FFF8D7FF" font_m_leading="3" fontcat_name="header_14" />
+				</default>
+			</states>
+		</header_01>
+		<header_04 this="C0FD6E0A-958F-5545-A3C1313802F5A027" id="header_04" offset="545.00,-1.00" allowhorizontalresize="false" allowverticalresize="false" priority="51" tooltipslocalised="true" component_level_text="Control" text_label="ComponentText_55d25ad2" uniqueguid="C0FD6E0A-958F-5545-A3C1313802F5A027" currentstate="32165CDF-3522-45E5-ACB635BAE8AAA779" defaultstate="32165CDF-3522-45E5-ACB635BAE8AAA779">
+			<states>
+				<default this="32165CDF-3522-45E5-ACB635BAE8AAA779" name="default" width="89" height="39" uniqueguid="32165CDF-3522-45E5-ACB635BAE8AAA779">
+					<component_text textvalign="Center" texthalign="Center" textlocalised="true" textlabel="StateText_c05fd209" font_m_font_name="brand_header" font_m_size="14" font_m_colour="#FFF8D7FF" font_m_leading="3" fontcat_name="header_14" />
+				</default>
+			</states>
+		</header_04>
+		<header_05 this="E326A195-1F72-5A7B-BBB131C493E8BD37" id="header_05" offset="0.00,-1.00" allowhorizontalresize="false" allowverticalresize="false" priority="51" tooltipslocalised="true" component_level_text="[[img:icon_labour]][[/img]] Labour / [[img:icon_workload]][[/img]] Workload" text_label="ComponentText_cff5554a" uniqueguid="E326A195-1F72-5A7B-BBB131C493E8BD37" currentstate="4A2EBDBA-D359-4E75-B94BC08A8BFC12D1" defaultstate="4A2EBDBA-D359-4E75-B94BC08A8BFC12D1">
+			<callbackwithcontextlist>
+				<callback_with_context callback_id="ContextTextLabel" context_object_id="CcoStaticObject" context_function_id="Loc(&quot;rhox_def_slaves_header_slaves_need&quot;)" />
+			</callbackwithcontextlist>
+			<states>
+				<default this="4A2EBDBA-D359-4E75-B94BC08A8BFC12D1" name="default" width="224" height="39" uniqueguid="4A2EBDBA-D359-4E75-B94BC08A8BFC12D1">
+					<component_text textvalign="Center" texthalign="Center" texthbehaviour="Never split" font_m_font_name="brand_header" font_m_size="14" font_m_colour="#FFF8D7FF" font_m_leading="3" fontcat_name="header_14" />
+				</default>
+			</states>
+		</header_05>
+		<header_06 this="31FC94BA-B3D6-5BD0-862D219B0194D90A" id="header_06" offset="680.00,-1.00" allowverticalresize="false" priority="51" tooltipslocalised="true" component_level_text="Efficiency" text_label="ComponentText_d2bbb0c0" uniqueguid="31FC94BA-B3D6-5BD0-862D219B0194D90A" currentstate="041EBCD9-6430-45DE-95CFC49D03789D2E" defaultstate="041EBCD9-6430-45DE-95CFC49D03789D2E">
+			<userproperties>
+				<property name="dynamic_child" value="1" />
+			</userproperties>
+			<states>
+				<default this="041EBCD9-6430-45DE-95CFC49D03789D2E" name="default" width="100" height="39" uniqueguid="041EBCD9-6430-45DE-95CFC49D03789D2E">
+					<component_text textvalign="Center" texthalign="Center" texthbehaviour="Never split" textlocalised="true" textlabel="StateText_a485885f" font_m_font_name="brand_header" font_m_size="14" font_m_colour="#FFF8D7FF" font_m_leading="3" fontcat_name="header_14" />
+				</default>
+			</states>
+		</header_06>
+		<header_07 this="8C6B11B5-9FFC-5527-8BA643809474AC1E" id="header_07" offset="1095.00,-1.00" allowverticalresize="false" priority="51" tooltipslocalised="true" component_level_text="[[img:icon_raw_materials]][[/img]] Raw Materials" text_label="ComponentText_b8802614" uniqueguid="8C6B11B5-9FFC-5527-8BA643809474AC1E" currentstate="DEE3E2E0-F214-405D-ABF013DBA98B7C3F" defaultstate="DEE3E2E0-F214-405D-ABF013DBA98B7C3F">
+			<callbackwithcontextlist>
+				<callback_with_context callback_id="ContextTextLabel" context_object_id="CcoStaticObject" context_function_id="Loc(&quot;rhox_def_slaves_header_total_income&quot;)" />
+			</callbackwithcontextlist>
+			<states>
+				<default this="DEE3E2E0-F214-405D-ABF013DBA98B7C3F" name="default" width="190" height="39" uniqueguid="DEE3E2E0-F214-405D-ABF013DBA98B7C3F">
+					<component_text textvalign="Center" texthalign="Center" texthbehaviour="Never split" font_m_font_name="brand_header" font_m_size="14" font_m_colour="#FFF8D7FF" font_m_leading="3" fontcat_name="header_14" />
+				</default>
+			</states>
+		</header_07>
+		<header_slave_income this="239C4F67-966C-5F65-96EEC5289788F391" id="header_slave_income" offset="950.00,-1.00" allowverticalresize="false" priority="51" tooltipslocalised="true" component_level_text="[[img:icon_raw_materials]][[/img]] Raw Materials" text_label="ComponentText_b8802614" uniqueguid="239C4F67-966C-5F65-96EEC5289788F391" currentstate="36633789-8E64-5134-B36EBD1AFD32AE24" defaultstate="36633789-8E64-5134-B36EBD1AFD32AE24">
+			<callbackwithcontextlist>
+				<callback_with_context callback_id="ContextTextLabel" context_object_id="CcoStaticObject" context_function_id="Loc(&quot;rhox_def_slaves_header_slave_income&quot;)" />
+			</callbackwithcontextlist>
+			<states>
+				<default this="36633789-8E64-5134-B36EBD1AFD32AE24" name="default" width="138" height="39" uniqueguid="36633789-8E64-5134-B36EBD1AFD32AE24">
+					<component_text textvalign="Center" texthalign="Center" texthbehaviour="Never split" font_m_font_name="brand_header" font_m_size="14" font_m_colour="#FFF8D7FF" font_m_leading="3" fontcat_name="header_14" />
+				</default>
+			</states>
+		</header_slave_income>
+		<header_income_mod this="F41E9FF8-4D93-5A47-BD5E4AE916E21282" id="header_income_mod" offset="815.00,-1.00" allowverticalresize="false" priority="51" tooltipslocalised="true" component_level_text="[[img:icon_raw_materials]][[/img]] Raw Materials" text_label="ComponentText_b8802614" uniqueguid="F41E9FF8-4D93-5A47-BD5E4AE916E21282" currentstate="30C073E7-3E29-5080-9F7566C278A0AC51" defaultstate="30C073E7-3E29-5080-9F7566C278A0AC51">
+			<callbackwithcontextlist>
+				<callback_with_context callback_id="ContextTextLabel" context_object_id="CcoStaticObject" context_function_id="Loc(&quot;rhox_def_slaves_header_income_mod&quot;)" />
+			</callbackwithcontextlist>
+			<states>
+				<default this="30C073E7-3E29-5080-9F7566C278A0AC51" name="default" width="138" height="39" uniqueguid="30C073E7-3E29-5080-9F7566C278A0AC51">
+					<component_text textvalign="Center" texthalign="Center" texthbehaviour="Never split" font_m_font_name="brand_header" font_m_size="14" font_m_colour="#FFF8D7FF" font_m_leading="3" fontcat_name="header_14" />
+				</default>
+			</states>
+		</header_income_mod>
+		<header_frame this="E4480941-53AE-5662-A5D96EF9362636D2" id="header_frame" offset="512.00,-18.00" allowhorizontalresize="false" dock_offset="0.00,-18.00" priority="51" tooltipslocalised="true" uniqueguid="E4480941-53AE-5662-A5D96EF9362636D2" currentstate="4E1DB1A1-9B69-4824-8F5B3834B27A495D" defaultstate="4E1DB1A1-9B69-4824-8F5B3834B27A495D">
+			<componentimages>
+				<component_image this="40D3E405-1538-44D4-BEE692B192429EA8" uniqueguid="40D3E405-1538-44D4-BEE692B192429EA8" imagepath="ui/skins/default/panel_title_large.png" />
+			</componentimages>
+			<states>
+				<newstate this="4E1DB1A1-9B69-4824-8F5B3834B27A495D" name="NewState" width="292" height="46" interactive="true" uniqueguid="4E1DB1A1-9B69-4824-8F5B3834B27A495D">
+					<imagemetrics>
+						<image this="4D5EDECB-EBBA-4C10-87CFDCC1247DE5BC" uniqueguid="4D5EDECB-EBBA-4C10-87CFDCC1247DE5BC" componentimage="40D3E405-1538-44D4-BEE692B192429EA8" offset="-215.00,-10.00" width="722" height="67" tile="true" dockpoint="Center" margin="0.00,230.00,0.00,230.00" />
+					</imagemetrics>
+					<component_text textvalign="Center" texthalign="Center" texthbehaviour="Never split" font_m_font_name="brand_header" font_m_size="16" font_m_colour="#FFF8D7FF" font_m_leading="3" fontcat_name="header_16" text_shader_name="drop_shadow_t0" textshadervars="0.00,1.00,2.00,0.00" />
+				</newstate>
+			</states>
+		</header_frame>
+		<holder_data_table this="FE5D294C-9843-5592-A876AE2289AF94EF" id="holder_data_table" offset="7.00,78.00" priority="51" tooltipslocalised="true" uniqueguid="FE5D294C-9843-5592-A876AE2289AF94EF" currentstate="017E65FA-0B82-47DA-B346801295E857AF" defaultstate="017E65FA-0B82-47DA-B346801295E857AF">
+			<states>
+				<default this="017E65FA-0B82-47DA-B346801295E857AF" name="default" width="1302" height="628" uniqueguid="017E65FA-0B82-47DA-B346801295E857AF" />
+			</states>
+		</holder_data_table>
+		<holder_headers this="FEA8BB62-B2B5-5FF1-AE0F039D99C73DA3" id="holder_headers" offset="0.00,8.00" docking="Top Left" dock_offset="0.00,8.00" priority="51" tooltipslocalised="true" uniqueguid="FEA8BB62-B2B5-5FF1-AE0F039D99C73DA3" currentstate="4B459308-BB7E-4057-801619422E5EC002" defaultstate="4B459308-BB7E-4057-801619422E5EC002">
+			<componentimages>
+				<component_image this="8BCA66C0-1C80-40E0-A3D0D5B6AF64FB9B" uniqueguid="8BCA66C0-1C80-40E0-A3D0D5B6AF64FB9B" imagepath="ui/skins/default/panel_back_divider.png" />
+				<component_image this="DA6203BA-EEA3-45FF-A0A190C51F73EF6A" uniqueguid="DA6203BA-EEA3-45FF-A0A190C51F73EF6A" imagepath="ui/skins/default/parchment_row_pressed.png" />
+			</componentimages>
+			<states>
+				<default this="4B459308-BB7E-4057-801619422E5EC002" name="default" width="1301" height="60" uniqueguid="4B459308-BB7E-4057-801619422E5EC002">
+					<imagemetrics>
+						<image this="C49C3ACE-C1F6-405E-8AC866C9D44B5DF1" uniqueguid="C49C3ACE-C1F6-405E-8AC866C9D44B5DF1" componentimage="8BCA66C0-1C80-40E0-A3D0D5B6AF64FB9B" offset="0.00,54.00" width="1301" height="6" dockpoint="Bottom Left" />
+						<image this="0EA0C7F7-E7AC-43D6-B2D65C760E4DDFD9" uniqueguid="0EA0C7F7-E7AC-43D6-B2D65C760E4DDFD9" componentimage="DA6203BA-EEA3-45FF-A0A190C51F73EF6A" offset="0.00,25.00" width="1301" height="33" tile="true" dockpoint="Bottom Left" dock_offset="0.00,-2.00" margin="0.00,40.00,0.00,40.00" />
+					</imagemetrics>
+				</default>
+			</states>
+		</holder_headers>
+		<holder_header_05 this="746228E7-BEB8-547F-877A9082B694401E" id="holder_header_05" offset="271.00,0.00" priority="51" tooltipslocalised="true" uniqueguid="746228E7-BEB8-547F-877A9082B694401E" currentstate="0B30513A-2075-4D6A-AD1EBFF93FF3021C" defaultstate="0B30513A-2075-4D6A-AD1EBFF93FF3021C">
+			<states>
+				<default this="0B30513A-2075-4D6A-AD1EBFF93FF3021C" name="default" width="224" height="59" uniqueguid="0B30513A-2075-4D6A-AD1EBFF93FF3021C" />
+			</states>
+			<LayoutEngine type="HorizontalList" spacing="0.00,-12.00" itemsperrow="2" vertical_alignment="Center" />
+		</holder_header_05>
+		<holder_labour_surplus this="D09B3D41-F6B9-5163-943898D2149993C1" id="holder_labour_surplus" offset="27.00,2.00" allowhorizontalresize="false" allowverticalresize="false" docking="Bottom Center" component_anchor_point="0.50,1.00" priority="51" tooltipslocalised="true" uniqueguid="D09B3D41-F6B9-5163-943898D2149993C1" currentstate="EE084118-42FA-4B2D-B1CB69A46AB39BE5" defaultstate="EE084118-42FA-4B2D-B1CB69A46AB39BE5">
+			<states>
+				<default this="EE084118-42FA-4B2D-B1CB69A46AB39BE5" name="default" width="170" uniqueguid="EE084118-42FA-4B2D-B1CB69A46AB39BE5" />
+			</states>
+			<LayoutEngine type="HorizontalList" sizetocontent="true" />
+		</holder_labour_surplus>
+		<holder_labour_workload this="E75B3AA5-3473-5ADF-AAAF090D97DFAF84" id="holder_labour_workload" offset="260.00,3.00" allowverticalresize="false" priority="51" tooltipslocalised="true" uniqueguid="E75B3AA5-3473-5ADF-AAAF090D97DFAF84" currentstate="9848B954-161C-4A4F-8F7ECFE8A3F0329F" defaultstate="9848B954-161C-4A4F-8F7ECFE8A3F0329F">
+			<states>
+				<default this="9848B954-161C-4A4F-8F7ECFE8A3F0329F" name="default" width="240" height="40" uniqueguid="9848B954-161C-4A4F-8F7ECFE8A3F0329F" />
+			</states>
+			<LayoutEngine type="HorizontalList" sizetocontent="true" />
+		</holder_labour_workload>
+		<holder_panel_buttons this="C49A75BB-196D-546B-86AA7308D8DFFA20" id="holder_panel_buttons" offset="425.00,714.00" dock_offset="0.00,8.00" priority="51" tooltipslocalised="true" uniqueguid="C49A75BB-196D-546B-86AA7308D8DFFA20" currentstate="822125EB-B209-4901-80465D01FC1D1044" defaultstate="822125EB-B209-4901-80465D01FC1D1044">
+			<states>
+				<default this="822125EB-B209-4901-80465D01FC1D1044" name="default" width="466" height="51" uniqueguid="822125EB-B209-4901-80465D01FC1D1044" />
+			</states>
+			<LayoutEngine type="HorizontalList" sizetocontent="true" />
+		</holder_panel_buttons>
+		<holder_text_centering this="1B2A965C-A59F-5D63-B8600A9EA4E2F4AD" id="holder_text_centering" offset="0.00,26.00" priority="51" tooltipslocalised="true" uniqueguid="1B2A965C-A59F-5D63-B8600A9EA4E2F4AD" currentstate="ECE9E46F-78F3-4D1F-B6EE59848BB63059" defaultstate="ECE9E46F-78F3-4D1F-B6EE59848BB63059">
+			<callbackwithcontextlist />
+			<states>
+				<default this="ECE9E46F-78F3-4D1F-B6EE59848BB63059" name="default" width="224" height="34" uniqueguid="ECE9E46F-78F3-4D1F-B6EE59848BB63059" />
+			</states>
+		</holder_text_centering>
+		<holder_total_labour_workload this="4EBD375A-C839-5EAE-B234D34FDB8BCD5C" id="holder_total_labour_workload" offset="332.00,7.00" allowhorizontalresize="false" allowverticalresize="false" priority="51" tooltipslocalised="true" uniqueguid="4EBD375A-C839-5EAE-B234D34FDB8BCD5C" currentstate="80C16A77-7220-4D72-A76F8F42B97CC48C" defaultstate="80C16A77-7220-4D72-A76F8F42B97CC48C">
+			<states>
+				<default this="80C16A77-7220-4D72-A76F8F42B97CC48C" name="default" width="178" height="40" uniqueguid="80C16A77-7220-4D72-A76F8F42B97CC48C" />
+			</states>
+			<LayoutEngine type="HorizontalList" sizetocontent="true" />
+		</holder_total_labour_workload>
+		<holder_total_values this="16BFAF5A-CFA4-51C4-B9736A72B76FF391" id="holder_total_values" offset="0.00,572.00" docking="Bottom Left" component_anchor_point="0.00,1.00" priority="51" tooltipslocalised="true" uniqueguid="16BFAF5A-CFA4-51C4-B9736A72B76FF391" currentstate="E2D8646C-C5A7-4C08-A6180FECC995852E" defaultstate="E2D8646C-C5A7-4C08-A6180FECC995852E">
+			<componentimages>
+				<component_image this="197EC980-1507-4FE1-AD1E3D3F8D1CCAB1" uniqueguid="197EC980-1507-4FE1-AD1E3D3F8D1CCAB1" imagepath="ui/skins/default/parchment_row_pressed.png" />
+				<component_image this="A2977CA8-92D1-49F2-9887E088448C33E7" uniqueguid="A2977CA8-92D1-49F2-9887E088448C33E7" imagepath="ui/skins/default/panel_back_divider.png" />
+			</componentimages>
+			<states>
+				<default this="E2D8646C-C5A7-4C08-A6180FECC995852E" name="default" width="1301" height="56" uniqueguid="E2D8646C-C5A7-4C08-A6180FECC995852E">
+					<imagemetrics>
+						<image this="82B3E533-61A1-4831-AFFCA9B986FF252C" uniqueguid="82B3E533-61A1-4831-AFFCA9B986FF252C" componentimage="197EC980-1507-4FE1-AD1E3D3F8D1CCAB1" width="1304" height="31" tile="true" y_flipped="true" dockpoint="Top Left" margin="0.00,40.00,0.00,40.00" />
+						<image this="0C4D9A98-10A6-4D50-A05DDBAD62F5DB4E" uniqueguid="0C4D9A98-10A6-4D50-A05DDBAD62F5DB4E" componentimage="A2977CA8-92D1-49F2-9887E088448C33E7" offset="0.00,-3.00" width="1301" height="6" tile="true" margin="0.00,16.00,0.00,16.00" />
+					</imagemetrics>
+				</default>
+			</states>
+		</holder_total_values>
+		<icon_public_order this="0DF868C9-84B7-58FE-967CD24ECD4B1273" id="icon_public_order" offset="0.00,7.00" allowhorizontalresize="false" allowverticalresize="false" priority="51" tooltipslocalised="true" uniqueguid="0DF868C9-84B7-58FE-967CD24ECD4B1273" currentstate="61325DBF-6D7C-4ECA-90DBD2612D3EF428" defaultstate="61325DBF-6D7C-4ECA-90DBD2612D3EF428">
+			<callbackwithcontextlist>
+				<callback_with_context callback_id="ContextStateSetter" context_object_id="CcoCampaignPublicOrder" context_function_id="State">
+					<child_m_user_properties>
+						<property name="event0" value="DevoteesEffectsChanged" />
+						<property name="event1" value="TaxLevelChanged" />
+					</child_m_user_properties>
+				</callback_with_context>
+			</callbackwithcontextlist>
+			<componentimages>
+				<component_image this="22865D51-95D7-4E0F-85961138FE6E96B4" uniqueguid="22865D51-95D7-4E0F-85961138FE6E96B4" imagepath="ui/skins/default/icon_public_order_neutral.png" />
+				<component_image this="A56182A7-0BAC-4374-A5BBBD82208851AE" uniqueguid="A56182A7-0BAC-4374-A5BBBD82208851AE" imagepath="ui/skins/default/icon_public_order_positive.png" />
+				<component_image this="0E258D9F-9717-462E-B48E798ACD6D2DEA" uniqueguid="0E258D9F-9717-462E-B48E798ACD6D2DEA" imagepath="ui/skins/default/icon_public_order_negative.png" />
+			</componentimages>
+			<states>
+				<happy this="97DE6980-3206-4A0F-ACF184D89F4D3A30" name="happy" width="26" height="26" tooltip="Under control||The population is either happy, or too scared of you to do anything!||Although both will keep order in your province, a happy population will increase town growth. " tooltiplabel="StateTooltip_fa5c8de4" uniqueguid="97DE6980-3206-4A0F-ACF184D89F4D3A30">
+					<imagemetrics>
+						<image this="0728AF32-A65C-47A7-A5D1880F0F11A3EB" uniqueguid="0728AF32-A65C-47A7-A5D1880F0F11A3EB" componentimage="A56182A7-0BAC-4374-A5BBBD82208851AE" width="26" height="26" />
+					</imagemetrics>
+				</happy>
+				<neutral this="61325DBF-6D7C-4ECA-90DBD2612D3EF428" name="neutral" width="26" height="26" tooltip="Neutral||The population are neither unhappy nor completely under your control.||You may wish to take steps to improve your control over them, such as increasing repression. " tooltiplabel="StateTooltip_8a670e4a" uniqueguid="61325DBF-6D7C-4ECA-90DBD2612D3EF428">
+					<imagemetrics>
+						<image this="53E73B7A-6B0F-4D38-906C186BB608DB8C" uniqueguid="53E73B7A-6B0F-4D38-906C186BB608DB8C" componentimage="22865D51-95D7-4E0F-85961138FE6E96B4" width="26" height="26" />
+					</imagemetrics>
+				</neutral>
+				<unhappy this="4D8173D3-B1F4-4F2A-83EDC743478A9F24" name="unhappy" width="26" height="26" tooltip="Unhappy||The population is unhappy and could easily riot and rebel.||Increase repression in this area to keep things from getting worse. " tooltiplabel="StateTooltip_d30aa93c" shader_name="glow_pulse_t0" shadervars="1.00,2.00,1.00,0.00" uniqueguid="4D8173D3-B1F4-4F2A-83EDC743478A9F24">
+					<imagemetrics>
+						<image this="780A5B86-8903-451C-A1C43105B34A10CD" uniqueguid="780A5B86-8903-451C-A1C43105B34A10CD" componentimage="0E258D9F-9717-462E-B48E798ACD6D2DEA" width="26" height="26" />
+					</imagemetrics>
+				</unhappy>
+			</states>
+		</icon_public_order>
+		<rhox_def_slave_economy this="1E1BB838-A1C6-5158-A542066854C307E1" id="rhox_def_slave_economy" uniqueguid_in_template="049117DB-792B-4870-8CD1D183605BCADE" offset="0.00,0.00" allowhorizontalresize="false" allowverticalresize="false" docking="Center" component_anchor_point="0.50,0.50" tooltipslocalised="true" soundcategory="UI_CAM_HUD_DLC23_CHD_Labour_Economy" uniqueguid="1E1BB838-A1C6-5158-A542066854C307E1" currentstate="616A0C75-13CB-4C0D-AEC83AB48FA957F5" defaultstate="616A0C75-13CB-4C0D-AEC83AB48FA957F5">
+			<callbackwithcontextlist>
+				<callback_with_context callback_id="AnimationReporter" />
+			</callbackwithcontextlist>
+			<states>
+				<default this="616A0C75-13CB-4C0D-AEC83AB48FA957F5" name="default" width="1311" height="819" interactive="true" uniqueguid="616A0C75-13CB-4C0D-AEC83AB48FA957F5" />
+			</states>
+		</rhox_def_slave_economy>
+		<labour_economy_panel this="AA4A4C5F-E8D5-54BD-A44CE8968DF61278" id="labour_economy_panel" offset="-2.00,19.00" allowhorizontalresize="false" allowverticalresize="false" docking="Bottom Center" component_anchor_point="0.50,1.00" priority="51" tooltipslocalised="true" soundcategory="UI_CAM_HUD_DLC13_Wulfhearts_Hunters_Panel" uniqueguid="AA4A4C5F-E8D5-54BD-A44CE8968DF61278" updatewhennotvisible="true" currentstate="5DB6941C-B9D5-42C1-B997AC5F0FB51C11" defaultstate="5DB6941C-B9D5-42C1-B997AC5F0FB51C11">
+			<callbackwithcontextlist>
+				<callback_with_context callback_id="ContextInitPlayerFaction" />
+			</callbackwithcontextlist>
+			<userproperties>
+				<property name="block_events" value="" />
+			</userproperties>
+			<componentimages>
+				<component_image this="B9C5187E-CEE1-4CFC-84571200A3F19A05" uniqueguid="B9C5187E-CEE1-4CFC-84571200A3F19A05" imagepath="ui/skins/default/panel_back_tile.png" />
+				<component_image this="B2FBB9DB-0464-48DE-87513A213F2C650E" uniqueguid="B2FBB9DB-0464-48DE-87513A213F2C650E" imagepath="ui/skins/default/panel_back_frame.png" />
+				<component_image this="6855B55B-49D2-4D01-BB111727E49C056C" uniqueguid="6855B55B-49D2-4D01-BB111727E49C056C" imagepath="ui/skins/default/chd_labour_economy/labour_panel_top_bg.png" />
+				<component_image this="EA5C6B8D-A9EC-4C20-9BE570FE8084F0D8" uniqueguid="EA5C6B8D-A9EC-4C20-9BE570FE8084F0D8" imagepath="ui/skins/default/chd_labour_economy/labour_panel_bottom_bg.png" />
+			</componentimages>
+			<states>
+				<newstate this="5DB6941C-B9D5-42C1-B997AC5F0FB51C11" name="NewState" width="1315" height="800" focustype="Active" interactive="true" uniqueguid="5DB6941C-B9D5-42C1-B997AC5F0FB51C11">
+					<imagemetrics>
+						<image this="557F8832-B732-4FDB-AFA4C8C7CB5C6B5F" uniqueguid="557F8832-B732-4FDB-AFA4C8C7CB5C6B5F" componentimage="B9C5187E-CEE1-4CFC-84571200A3F19A05" width="1315" height="800" tile="true" margin="5.00,5.00,5.00,5.00" />
+						<image this="C969CFE7-C3FE-4AA3-B0A3F411126F3834" uniqueguid="C969CFE7-C3FE-4AA3-B0A3F411126F3834" componentimage="EA5C6B8D-A9EC-4C20-9BE570FE8084F0D8" offset="6.00,707.00" width="1303" height="86" tile="true" dockpoint="Bottom Center" dock_offset="0.00,-7.00" margin="0.00,190.00,0.00,190.00" />
+						<image this="9633E2B3-7F8D-4491-A18123A471D7EE98" uniqueguid="9633E2B3-7F8D-4491-A18123A471D7EE98" componentimage="6855B55B-49D2-4D01-BB111727E49C056C" offset="6.00,6.00" width="1302" height="80" tile="true" dockpoint="Top Center" dock_offset="0.00,6.00" margin="0.00,190.00,0.00,190.00" />
+						<image this="D5D6B38F-AD1B-4B49-9AF0E7E223C53A41" uniqueguid="D5D6B38F-AD1B-4B49-9AF0E7E223C53A41" componentimage="B2FBB9DB-0464-48DE-87513A213F2C650E" width="1315" height="800" tile="true" margin="30.00,30.00,30.00,30.00" />
+					</imagemetrics>
+				</newstate>
+			</states>
+			<LayoutEngine type="List" horizontal_alignment="Center">
+				<columnwidths>
+					<column width="1315" />
+				</columnwidths>
+			</LayoutEngine>
+		</labour_economy_panel>
+		<list_box this="8EBCC7E6-7114-56B9-B719C249A231F294" id="list_box" uniqueguid_in_template="11778914-9716-4A27-805B79AC6989F774" tooltipslocalised="true" uniqueguid="8EBCC7E6-7114-56B9-B719C249A231F294" currentstate="D1149CD8-6739-4D23-9FFD698F5FE09829">
+			<callbackwithcontextlist>
+				<callback_with_context callback_id="List" context_object_id="CcoStaticObject" context_function_id="PlayersFaction.ProvinceList" />
+				<callback_with_context callback_id="ContextSelectionParent" context_object_id="CcoCampaignProvince">
+					<child_m_user_properties>
+						<property name="allow_multiple_selected" value="" />
+						<property name="allow_none_selected" value="" />
+					</child_m_user_properties>
+				</callback_with_context>
+				<callback_with_context callback_id="ContextCommandEvent" context_function_id="Do(self.ChildList.ForEach(SetProperty(&quot;labour_diff&quot;, 0)), UiMsg(&quot;RhoxDefSlavesUpdate&quot;))">
+					<child_m_user_properties>
+						<property name="event0" value="RhoxDefSlavesClearAll" />
+					</child_m_user_properties>
+				</callback_with_context>
+			</callbackwithcontextlist>
+			<states>
+				<newstate this="D1149CD8-6739-4D23-9FFD698F5FE09829" name="NewState" width="1270" height="48" interactive="true" uniqueguid="D1149CD8-6739-4D23-9FFD698F5FE09829">
+					<component_text font_m_size="12" font_m_colour="#FFF8D7FF" font_m_leading="3" fontcat_name="body_12" />
+				</newstate>
+			</states>
+			<LayoutEngine type="List" sizetocontent="true">
+				<columnwidths>
+					<column width="264" />
+				</columnwidths>
+			</LayoutEngine>
+		</list_box>
+		<list_clip this="DF6AF1C6-3FA6-5104-9C0BA16C039A5C19" id="list_clip" uniqueguid_in_template="FFA4E0F5-A62E-4595-8396308477FD4348" clipchildren="true" docking="Top Left" priority="45" tooltipslocalised="true" uniqueguid="DF6AF1C6-3FA6-5104-9C0BA16C039A5C19" isrelativeresize="true" currentstate="B75C6E5A-38A0-4468-8CD0169A82761EA8">
+			<states>
+				<newstate this="B75C6E5A-38A0-4468-8CD0169A82761EA8" name="NewState" width="1271" height="485" shadervars="0.00,10.00,0.00,10.00" uniqueguid="B75C6E5A-38A0-4468-8CD0169A82761EA8">
+					<component_text font_m_size="12" font_m_colour="#FFF8D7FF" font_m_leading="3" fontcat_name="body_12" />
+				</newstate>
+			</states>
+		</list_clip>
+		<rhox_def_list_provinces this="0DEAD58B-A643-5CAE-81E519637BBE07A7" id="rhox_def_list_provinces" uniqueguid_in_template="54C6DEFC-946D-4744-A48A8DD06EAC0B8F" offset="0.00,67.00" priority="45" tooltipslocalised="true" uniqueguid="0DEAD58B-A643-5CAE-81E519637BBE07A7" currentstate="EBA50FC8-C2D0-4813-8F7B15775E620D8B">
+			<callbackwithcontextlist>
+				<callback_with_context callback_id="Listview" />
+			</callbackwithcontextlist>
+			<states>
+				<newstate this="EBA50FC8-C2D0-4813-8F7B15775E620D8B" name="NewState" width="1301" height="505" interactive="true" uniqueguid="EBA50FC8-C2D0-4813-8F7B15775E620D8B">
+					<component_text font_m_size="12" font_m_colour="#FFF8D7FF" font_m_leading="3" fontcat_name="body_12" />
+				</newstate>
+			</states>
+		</rhox_def_list_provinces>
+		<panel_background this="07C4BB2D-EB5A-5D83-98638CB7D00387C3" id="panel_background" offset="-3.00,0.00" visible="false" priority="60" tooltipslocalised="true" uniqueguid="07C4BB2D-EB5A-5D83-98638CB7D00387C3" currentstate="46B1B24A-46E9-4B02-AB653D3045D937A1">
+			<componentimages>
+				<component_image this="66EC646F-1F59-4848-9D149A6018D78DD5" uniqueguid="66EC646F-1F59-4848-9D149A6018D78DD5" imagepath="ui/skins/default/panel_back_tile.png" />
+			</componentimages>
+			<states>
+				<newstate this="46B1B24A-46E9-4B02-AB653D3045D937A1" name="NewState" width="1320" height="800" interactive="true" uniqueguid="46B1B24A-46E9-4B02-AB653D3045D937A1">
+					<imagemetrics>
+						<image this="FEA7C9F7-8BD5-4214-8EF365389B5201E7" uniqueguid="FEA7C9F7-8BD5-4214-8EF365389B5201E7" componentimage="66EC646F-1F59-4848-9D149A6018D78DD5" width="1320" height="800" tile="true" dockpoint="Center" margin="5.00,5.00,5.00,5.00" />
+					</imagemetrics>
+					<component_text font_m_size="12" font_m_colour="#FFF8D7FF" font_m_leading="3" fontcat_name="body_12" />
+				</newstate>
+			</states>
+		</panel_background>
+		<panel_frame this="8E13B575-FE8C-54BA-B922F8636CC14392" id="panel_frame" offset="-1.00,0.00" docking="Center" component_anchor_point="0.50,0.50" priority="60" tooltipslocalised="true" uniqueguid="8E13B575-FE8C-54BA-B922F8636CC14392" currentstate="02C216BF-A3DA-43D3-85D6B588ECA8BED2" defaultstate="02C216BF-A3DA-43D3-85D6B588ECA8BED2">
+			<userproperties>
+				<property name="dynamic_child" value="" />
+				<property name="dynamic_child_parent" value="panel_frame" />
+			</userproperties>
+			<componentimages>
+				<component_image this="35A98CE5-EA86-472A-BCD8524B98BDFD4C" uniqueguid="35A98CE5-EA86-472A-BCD8524B98BDFD4C" imagepath="ui/skins/default/dlc23_chd_narrative_panel/chd_narrative_panel_bg_top.png" />
+				<component_image this="7519F1C5-7141-4E21-BF578D3323367401" uniqueguid="7519F1C5-7141-4E21-BF578D3323367401" imagepath="ui/skins/default/panel_back_border.png" />
+				<component_image this="8E2487D3-62C2-4BED-860616E56D0C7F9F" uniqueguid="8E2487D3-62C2-4BED-860616E56D0C7F9F" imagepath="ui/skins/default/dlc23_chd_narrative_panel/chd_narrative_panel_bg_bottom.png" />
+			</componentimages>
+			<states>
+				<newstate this="02C216BF-A3DA-43D3-85D6B588ECA8BED2" name="NewState" width="1322" height="800" interactive="true" uniqueguid="02C216BF-A3DA-43D3-85D6B588ECA8BED2">
+					<imagemetrics>
+						<image this="CEB576F2-182F-4385-B7674620EFFEFFEC" uniqueguid="CEB576F2-182F-4385-B7674620EFFEFFEC" componentimage="35A98CE5-EA86-472A-BCD8524B98BDFD4C" offset="9.00,8.00" width="1304" height="108" dockpoint="Top Center" dock_offset="0.00,8.00" canresizeheight="false" canresizewidth="false" />
+						<image this="126F27E6-DCBE-4179-A7798BDD3A360BC9" uniqueguid="126F27E6-DCBE-4179-A7798BDD3A360BC9" componentimage="7519F1C5-7141-4E21-BF578D3323367401" width="1322" height="800" tile="true" dockpoint="Center" margin="30.00,30.00,30.00,30.00" />
+						<image this="BACF1523-9E6C-4DD3-B76F2DAAFFBBADAC" uniqueguid="BACF1523-9E6C-4DD3-B76F2DAAFFBBADAC" componentimage="8E2487D3-62C2-4BED-860616E56D0C7F9F" offset="8.00,744.00" width="1306" height="48" dockpoint="Bottom Center" dock_offset="0.00,-8.00" />
+					</imagemetrics>
+				</newstate>
+			</states>
+		</panel_frame>
+		<panel_smoke_b this="8909DAC2-D5C9-5EF7-A532AD079B7F19D0" id="panel_smoke_b" offset="7.00,549.00" allowverticalresize="false" docking="Bottom Center" dock_offset="0.00,-35.00" component_anchor_point="0.50,1.00" priority="60" tooltipslocalised="true" uniqueguid="8909DAC2-D5C9-5EF7-A532AD079B7F19D0" currentstate="D77AE710-BF8B-43F6-8CC9F0B2FD88E4FA" defaultstate="D77AE710-BF8B-43F6-8CC9F0B2FD88E4FA">
+			<componentimages>
+				<component_image this="6CFC086F-A443-41E6-802081325C23E62D" uniqueguid="6CFC086F-A443-41E6-802081325C23E62D" />
+			</componentimages>
+			<states>
+				<default this="D77AE710-BF8B-43F6-8CC9F0B2FD88E4FA" name="default" width="1306" height="216" material_name="ui/effects/materials/magic_flame.xml.material" uniqueguid="D77AE710-BF8B-43F6-8CC9F0B2FD88E4FA">
+					<imagemetrics>
+						<image this="017D5BAF-8048-4678-B1857D6C58B0C7A7" uniqueguid="017D5BAF-8048-4678-B1857D6C58B0C7A7" componentimage="6CFC086F-A443-41E6-802081325C23E62D" width="1306" height="216" y_flipped="true" />
+					</imagemetrics>
+					<material_m_parameter_overrides>
+						<property name="distortion_strength" x="0.200000003" y="0" z="0" w="0" is_override_of_default="true" />
+						<property name="flow_speed" x="-0.00999999978" y="0" z="0" w="0" is_override_of_default="true" />
+						<property name="sparkle_distortion" x="0.100000001" y="0" z="0" w="0" is_override_of_default="false" />
+						<property name="sparkle_ro" x="0" y="0" z="0" w="0" is_override_of_default="false" />
+						<property name="sparkle_speed1" x="0.150000006" y="0" z="0" w="0" is_override_of_default="false" />
+						<property name="sparkle_speed2" x="0.100000001" y="0" z="0" w="0" is_override_of_default="false" />
+						<property name="sparkle_strength" x="0" y="0" z="0" w="0" is_override_of_default="true" />
+						<property name="sparkle_tiling" x="2" y="0" z="0" w="0" is_override_of_default="false" />
+						<property name="uv_distortion_pan" x="0.100000001" y="0.100000001" z="0" w="0" is_override_of_default="true" />
+						<property name="u_tiling" x="8" y="0" z="0" w="0" is_override_of_default="false" />
+						<property name="v_tiling" x="5" y="0" z="0" w="0" is_override_of_default="false" />
+						<property name="heat_percent" x="1" y="0" z="0" w="0" is_override_of_default="false" />
+					</material_m_parameter_overrides>
+					<material_m_texture_overrides>
+						<property slot_id="t_xml_effect_colours" filepath="ui\effects\textures\effect_panel_smoke.dds" is_override_of_default="true" />
+						<property slot_id="t_xml_heat_mask" filepath="ui\effects\textures\panel_smoke_heat_DU.dds" is_override_of_default="true" />
+						<property slot_id="t_xml_shape_flow" filepath="ui\effects\textures\magic_flame_flow_UD.dds" is_override_of_default="true" />
+						<property slot_id="t_xml_uv_distortion" filepath="commontextures\cloud_shadow_02.dds" is_override_of_default="false" />
+						<property slot_id="t_xml_uv_element" filepath="commontextures\default_noise1.dds" is_override_of_default="false" />
+						<property slot_id="t_xml_general_mask" filepath="commontextures\default_white.dds" is_override_of_default="false" />
+						<property slot_id="t_xml_sparkle1" filepath="commontextures\volumetric_noise.dds" is_override_of_default="false" />
+					</material_m_texture_overrides>
+				</default>
+			</states>
+		</panel_smoke_b>
+		<panel_smoke_t this="4CC27BB8-3F8B-53D6-967D9FBB45580E00" id="panel_smoke_t" offset="7.00,113.00" allowverticalresize="false" docking="Top Center" dock_offset="0.00,113.00" component_anchor_point="0.50,0.00" priority="60" tooltipslocalised="true" uniqueguid="4CC27BB8-3F8B-53D6-967D9FBB45580E00" currentstate="50972945-8D0E-4FE2-A998BEFCC1C88A31" defaultstate="50972945-8D0E-4FE2-A998BEFCC1C88A31">
+			<componentimages>
+				<component_image this="9F1A89BC-281D-4DAC-B1D30A1E7BC24D25" uniqueguid="9F1A89BC-281D-4DAC-B1D30A1E7BC24D25" />
+			</componentimages>
+			<states>
+				<default this="50972945-8D0E-4FE2-A998BEFCC1C88A31" name="default" width="1306" height="216" material_name="ui/effects/materials/magic_flame.xml.material" uniqueguid="50972945-8D0E-4FE2-A998BEFCC1C88A31">
+					<imagemetrics>
+						<image this="245D57BA-B6F2-4AC3-87DE8807EB2A2EC9" uniqueguid="245D57BA-B6F2-4AC3-87DE8807EB2A2EC9" componentimage="9F1A89BC-281D-4DAC-B1D30A1E7BC24D25" width="1306" height="216" />
+					</imagemetrics>
+					<material_m_parameter_overrides>
+						<property name="distortion_strength" x="0.200000003" y="0" z="0" w="0" is_override_of_default="true" />
+						<property name="flow_speed" x="-0.00999999978" y="0" z="0" w="0" is_override_of_default="true" />
+						<property name="sparkle_distortion" x="0.100000001" y="0" z="0" w="0" is_override_of_default="false" />
+						<property name="sparkle_ro" x="0" y="0" z="0" w="0" is_override_of_default="false" />
+						<property name="sparkle_speed1" x="0.150000006" y="0" z="0" w="0" is_override_of_default="false" />
+						<property name="sparkle_speed2" x="0.100000001" y="0" z="0" w="0" is_override_of_default="false" />
+						<property name="sparkle_strength" x="0" y="0" z="0" w="0" is_override_of_default="true" />
+						<property name="sparkle_tiling" x="2" y="0" z="0" w="0" is_override_of_default="false" />
+						<property name="uv_distortion_pan" x="0.100000001" y="0.100000001" z="0" w="0" is_override_of_default="true" />
+						<property name="u_tiling" x="8" y="0" z="0" w="0" is_override_of_default="false" />
+						<property name="v_tiling" x="5" y="0" z="0" w="0" is_override_of_default="false" />
+						<property name="heat_percent" x="1" y="0" z="0" w="0" is_override_of_default="false" />
+					</material_m_parameter_overrides>
+					<material_m_texture_overrides>
+						<property slot_id="t_xml_effect_colours" filepath="ui\effects\textures\effect_panel_smoke.dds" is_override_of_default="true" />
+						<property slot_id="t_xml_heat_mask" filepath="ui\effects\textures\panel_smoke_heat_DU.dds" is_override_of_default="true" />
+						<property slot_id="t_xml_shape_flow" filepath="ui\effects\textures\magic_flame_flow_UD.dds" is_override_of_default="true" />
+						<property slot_id="t_xml_uv_distortion" filepath="commontextures\cloud_shadow_02.dds" is_override_of_default="false" />
+						<property slot_id="t_xml_uv_element" filepath="commontextures\default_noise1.dds" is_override_of_default="false" />
+						<property slot_id="t_xml_general_mask" filepath="commontextures\default_white.dds" is_override_of_default="false" />
+						<property slot_id="t_xml_sparkle1" filepath="commontextures\volumetric_noise.dds" is_override_of_default="false" />
+					</material_m_texture_overrides>
+				</default>
+			</states>
+		</panel_smoke_t>
+		<public_order_holder this="FC727247-6090-54B6-B2B905DE514C54B1" id="public_order_holder" offset="543.00,3.00" allowverticalresize="false" priority="51" componentleveltooltip="{{tt:ui/campaign ui/province_publicorder_tooltip}}" tooltiplabel="ComponentTooltip_f01a7c43" uniqueguid="FC727247-6090-54B6-B2B905DE514C54B1" currentstate="F74CC977-3AAE-4FEF-9582D007A1726CD6" defaultstate="F74CC977-3AAE-4FEF-9582D007A1726CD6">
+			<callbackwithcontextlist>
+				<callback_with_context callback_id="ContextCustomTooltipStore" context_object_id="CcoCampaignPublicOrder" />
+				<callback_with_context callback_id="ContextPropagator" context_object_id="CcoCampaignFactionProvinceManager" context_function_id="PublicOrderContext" />
+				<callback_with_context callback_id="ContextPropagator" context_object_id="CcoCampaignProvince" context_function_id="LocalPlayerProvinceManagerContext" />
+			</callbackwithcontextlist>
+			<states>
+				<newstate this="F74CC977-3AAE-4FEF-9582D007A1726CD6" name="NewState" width="104" height="40" interactive="true" uniqueguid="F74CC977-3AAE-4FEF-9582D007A1726CD6" />
+			</states>
+			<LayoutEngine type="HorizontalList" vertical_alignment="Center" />
+		</public_order_holder>
+		<root this="4FE6D2C2-43C9-5B1A-81EE447AEF5C189C" id="root" tooltipslocalised="true" uniqueguid="4FE6D2C2-43C9-5B1A-81EE447AEF5C189C" currentstate="E4752489-5913-406E-8F776C08ED73C42A" defaultstate="E4752489-5913-406E-8F776C08ED73C42A">
+			<componentimages>
+				<component_image this="E167ED3A-7C75-4C76-9076888C65477C00" uniqueguid="E167ED3A-7C75-4C76-9076888C65477C00" />
+			</componentimages>
+			<states>
+				<default this="E4752489-5913-406E-8F776C08ED73C42A" name="default" width="1600" height="900" uniqueguid="E4752489-5913-406E-8F776C08ED73C42A">
+					<imagemetrics>
+						<image this="51CD5E7B-FAB9-477F-972711781EFE615A" uniqueguid="51CD5E7B-FAB9-477F-972711781EFE615A" componentimage="E167ED3A-7C75-4C76-9076888C65477C00" width="1600" height="900" colour="#464646FF" />
+					</imagemetrics>
+				</default>
+			</states>
+		</root>
+		<template_entry this="7AFEE83E-1EC1-585F-B02648743BB3FD44" id="template_entry" tooltipslocalised="true" uniqueguid="7AFEE83E-1EC1-585F-B02648743BB3FD44" updatewhennotvisible="true" currentstate="600FC84E-3428-43FA-9DD9179FBB4CED99" defaultstate="600FC84E-3428-43FA-9DD9179FBB4CED99">
+			<callbackwithcontextlist>
+				<callback_with_context callback_id="ContextCommandEvent" context_object_id="CcoStaticObject" context_function_id="(RequestedLabour = Floor(ToNumber(self.ChildContext(&quot;holder_labour_workload&quot;).ChildContext(&quot;amount&quot;).CurrentText)), &#10; CurrentLabour = Floor(self.StoredContextRequired(&quot;CcoCampaignProvince&quot;).LocalPlayerProvinceManagerContext.PooledResourceContext(&quot;rhox_def_province&quot;).Total)) =&gt; {&#10;  Do(self.SetProperty(&quot;labour_diff&quot;,  RequestedLabour - CurrentLabour), UiMsg(&quot;RhoxDefSlavesUpdate&quot;))&#10;}">
+					<child_m_user_properties>
+						<property name="event0" value="RhoxDefSlavesChanged" />
+					</child_m_user_properties>
+				</callback_with_context>
+				<callback_with_context callback_id="ContextObjectStore" context_object_id="CcoCampaignProvince" />
+			</callbackwithcontextlist>
+			<userproperties>
+				<property name="labour_diff" value="0" />
+			</userproperties>
+			<componentimages>
+				<component_image this="76B792E9-83DB-4A8C-ACE70EF7DFB96E6E" uniqueguid="76B792E9-83DB-4A8C-ACE70EF7DFB96E6E" imagepath="ui/skins/default/panel_back_divider.png" />
+			</componentimages>
+			<states>
+				<default this="600FC84E-3428-43FA-9DD9179FBB4CED99" name="default" width="1270" height="48" uniqueguid="600FC84E-3428-43FA-9DD9179FBB4CED99">
+					<imagemetrics>
+						<image this="7B6246A2-5338-4CB9-AC5251AD3205BEEC" uniqueguid="7B6246A2-5338-4CB9-AC5251AD3205BEEC" componentimage="76B792E9-83DB-4A8C-ACE70EF7DFB96E6E" offset="0.00,44.00" width="1270" height="6" colour="#FFFFFF7D" tile="true" dockpoint="Bottom Left" dock_offset="0.00,2.00" canresizeheight="false" margin="0.00,16.00,0.00,16.00" />
+					</imagemetrics>
+				</default>
+			</states>
+		</template_entry>
+		<temp_efficiency this="D15605F7-FC75-55F2-BEBA94DBE99F507C" id="temp_efficiency" uniqueguid_in_template="19CFC39E-4F71-498A-BBF5D8E8D6D1A6DE" offset="677.00,3.00" allowverticalresize="false" priority="51" tooltipslocalised="true" component_level_text="100%" text_label="ComponentText_630528b5" uniqueguid="D15605F7-FC75-55F2-BEBA94DBE99F507C" currentstate="AE379C4D-EC64-4397-B1088D7A0AA33685">
+			<callbackwithcontextlist>
+				<callback_with_context callback_id="ContextTextLabel" context_object_id="CcoCampaignProvince" context_function_id="Format(&quot;~%d%%&quot;, (value = RoundFloat(RhoxTempEfficiency * 100)) =&gt; value &lt; 100 | RoundFloat(RhoxTempEfficiency * 100) | 100)">
+					<child_m_user_properties>
+						<property name="event0" value="RhoxDefSlavesUpdate" />
+						<property name="event1" value="PooledResourceTransaction" />
+					</child_m_user_properties>
+				</callback_with_context>
+				<callback_with_context callback_id="ContextStateSetterConditional" context_object_id="CcoCampaignProvince">
+					<child_m_user_properties>
+						<property name="event0" value="RhoxDefSlavesUpdate" />
+						<property name="event1" value="PooledResourceTransaction" />
+						<property name="fallback_state" value="green" />
+						<property name="invalid" value="(100 - RhoxExSlaveInefficiency.Total) == RoundFloat(RhoxTempEfficiency * 100)" />
+						<property name="red" value="(100 - RhoxExSlaveInefficiency.Total) &gt; RoundFloat(RhoxTempEfficiency * 100)" />
+					</child_m_user_properties>
+				</callback_with_context>
+				<callback_with_context callback_id="ContextVisibilitySetter" context_object_id="CcoCampaignProvince" context_function_id="RhoxDefSlaveEconomy.SlaveChangeWanted(this) &amp;&amp; RhoxExSlaveNeed.Total &gt; 0">
+					<child_m_user_properties>
+						<property name="event0" value="RhoxDefSlavesUpdate" />
+						<property name="event1" value="PooledResourceTransaction" />
+					</child_m_user_properties>
+				</callback_with_context>
+				<callback_with_context callback_id="ContextTooltipSetter" context_object_id="CcoStaticObject" context_function_id="Loc(&quot;rhox_def_slaves_tooltip_efficiency&quot;)" />
+			</callbackwithcontextlist>
+			<userproperties>
+				<property name="MinValue" value="0" />
+			</userproperties>
+			<states>
+				<green this="AE379C4D-EC64-4397-B1088D7A0AA33685" name="green" width="64" height="40" interactive="true" disabled="true" uniqueguid="AE379C4D-EC64-4397-B1088D7A0AA33685">
+					<component_text textvalign="Center" texthalign="Right" font_m_size="12" font_m_colour="#FFF8D7FF" font_m_leading="3" fontcat_name="body_12" font_colour_override_preset_key="green" />
+				</green>
+				<invalid this="1E1AEA34-42AD-4E1B-BB12D13A47498C0E" name="invalid" width="64" height="40" interactive="true" disabled="true" uniqueguid="1E1AEA34-42AD-4E1B-BB12D13A47498C0E">
+					<component_text text="-" textvalign="Center" texthalign="Right" textxoffset="0.00,10.00" texthbehaviour="Never split" textlabel="StateText_bef852a1" font_m_size="12" font_m_colour="#FFF8D7FF" font_m_leading="3" fontcat_name="body_12" font_colour_override_preset_key="ui_font_faded_grey_beige" />
+				</invalid>
+				<red this="11BFDAB4-8642-426A-8CEC4B5DE3289E09" name="red" width="64" height="40" interactive="true" disabled="true" uniqueguid="11BFDAB4-8642-426A-8CEC4B5DE3289E09">
+					<component_text textvalign="Center" texthalign="Right" font_m_size="12" font_m_colour="#FFF8D7FF" font_m_leading="3" fontcat_name="body_12" font_colour_override_preset_key="red" />
+				</red>
+				<yellow this="230C0369-57B4-4529-8159E799AA65858E" name="yellow" width="64" height="40" interactive="true" disabled="true" uniqueguid="230C0369-57B4-4529-8159E799AA65858E">
+					<component_text textvalign="Center" texthalign="Right" font_m_size="12" font_m_colour="#FFF8D7FF" font_m_leading="3" fontcat_name="body_12" font_colour_override_preset_key="ui_font_yellow" />
+				</yellow>
+			</states>
+		</temp_efficiency>
+		<temp_total_efficiency this="35442034-1CBF-55A8-86A357C5E6BB7C4B" id="temp_total_efficiency" offset="705.00,7.00" allowhorizontalresize="false" allowverticalresize="false" priority="51" component_level_text="100%" text_label="ComponentText_6d6bf86" uniqueguid="35442034-1CBF-55A8-86A357C5E6BB7C4B" currentstate="2A1C8944-18BC-4806-875C1433137D8EB2" defaultstate="2A1C8944-18BC-4806-875C1433137D8EB2">
+			<callbackwithcontextlist>
+				<callback_with_context callback_id="ContextTextLabel" context_object_id="CcoCampaignFaction" context_function_id="(provinces = ProvinceList.Filter(RhoxExSlaveNeed.Total &gt; 0)) =&gt; Format(&quot;%d%%&quot;, RoundFloat(provinces.Sum(MinNumericValue(RhoxTempEfficiency * 100, 100.0)) / provinces.Size))">
+					<child_m_user_properties>
+						<property name="event0" value="RhoxDefSlavesUpdate" />
+						<property name="event1" value="PooledResourceTransaction" />
+					</child_m_user_properties>
+				</callback_with_context>
+				<callback_with_context callback_id="ContextStateSetterConditional" context_object_id="CcoCampaignFaction">
+					<child_m_user_properties>
+						<property name="event0" value="RhoxDefSlavesUpdate" />
+						<property name="event1" value="PooledResourceTransaction" />
+						<property name="fallback_state" value="green" />
+						<property name="invalid" value="(provinces = ProvinceList.Filter(RhoxExSlaveNeed.Total &gt; 0)) =&gt;RoundFloat(provinces.Sum(MinNumericValue(RhoxTempEfficiency * 100, 100.0)) / provinces.Size) == RoundFloat(provinces.Sum(100 - RhoxExSlaveInefficiency.Total) / provinces.Size)" />
+						<property name="red" value="(provinces = ProvinceList.Filter(RhoxExSlaveNeed.Total &gt; 0)) =&gt;RoundFloat(provinces.Sum(MinNumericValue(RhoxTempEfficiency * 100, 100.0)) / provinces.Size) &lt; RoundFloat(provinces.Sum(100 - RhoxExSlaveInefficiency.Total) / provinces.Size)" />
+					</child_m_user_properties>
+				</callback_with_context>
+				<callback_with_context callback_id="ContextVisibilitySetter" context_object_id="CcoCampaignFaction" context_function_id="RhoxDefSlaveEconomy.AnyMeaningfulChangeWanted">
+					<child_m_user_properties>
+						<property name="event0" value="RhoxDefSlavesUpdate" />
+						<property name="event1" value="PooledResourceTransaction" />
+					</child_m_user_properties>
+				</callback_with_context>
+				<callback_with_context callback_id="ContextTooltipSetter" context_object_id="CcoStaticObject" context_function_id="Loc(&quot;rhox_def_slaves_tooltip_total_efficiency&quot;)" />
+			</callbackwithcontextlist>
+			<states>
+				<green this="A966293A-2B47-48CC-98285BF52D5756BB" name="green" width="64" height="40" interactive="true" disabled="true" uniqueguid="A966293A-2B47-48CC-98285BF52D5756BB">
+					<component_text textvalign="Center" texthalign="Right" texthbehaviour="Never split" font_m_font_name="la_gioconda_uppercase" font_m_size="16" font_m_colour="#FFF8D7FF" font_m_leading="3" fontcat_name="header_16_bold" font_colour_override_preset_key="green" />
+				</green>
+				<invalid this="78B498D7-EA9A-4BE7-96ED9F89C052B309" name="invalid" width="64" height="40" interactive="true" disabled="true" uniqueguid="78B498D7-EA9A-4BE7-96ED9F89C052B309">
+					<component_text textvalign="Center" texthalign="Right" texthbehaviour="Never split" font_m_font_name="brand_header" font_m_size="16" font_m_colour="#FFF8D7FF" font_m_leading="3" fontcat_name="header_16" font_colour_override_preset_key="ui_font_inactive_grey" />
+				</invalid>
+				<red this="2A1C8944-18BC-4806-875C1433137D8EB2" name="red" width="64" height="40" interactive="true" disabled="true" uniqueguid="2A1C8944-18BC-4806-875C1433137D8EB2">
+					<component_text textvalign="Center" texthalign="Right" texthbehaviour="Never split" font_m_font_name="la_gioconda_uppercase" font_m_size="16" font_m_colour="#FFF8D7FF" font_m_leading="3" fontcat_name="header_16_bold" font_colour_override_preset_key="red" />
+				</red>
+				<yellow this="5C052E8F-466B-4340-8A99C74AA002CEFB" name="yellow" width="64" height="40" interactive="true" disabled="true" uniqueguid="5C052E8F-466B-4340-8A99C74AA002CEFB">
+					<component_text textvalign="Center" texthalign="Right" texthbehaviour="Never split" font_m_font_name="la_gioconda_uppercase" font_m_size="16" font_m_colour="#FFF8D7FF" font_m_leading="3" fontcat_name="header_16_bold" font_colour_override_preset_key="ui_font_yellow" />
+				</yellow>
+			</states>
+		</temp_total_efficiency>
+		<top this="9647C9BB-C591-523C-AA67D61AD0F95BED" id="top" part_of_template="true" uniqueguid_in_template="BEE2A27D-90CE-46BB-A4B29AD04E9B9ED0" uniqueguid="9647C9BB-C591-523C-AA67D61AD0F95BED" dimensions="15.00,22.00" dock_point="Top Center" offset="1.00,-23.00" priority="45" sound_category="UI_GBL_TMP_Slider_Arrows">
+			<state_uniqueguids>
+				<state_uniqueguid name="active" uniqueguid="3C53297F-54B0-4C18-9D272BE12A7D5F73" />
+				<state_uniqueguid name="down" uniqueguid="8D258AFF-B96E-454E-AE1DD98EBEC130E3" />
+				<state_uniqueguid name="down_off" uniqueguid="2E8082AD-87C8-4566-9E72E735DE378295" />
+				<state_uniqueguid name="hover" uniqueguid="E35E6A59-A91A-4586-967C952DA1E84389" />
+				<state_uniqueguid name="inactive" uniqueguid="279662B6-6CD6-4DDB-BB5B0445395967E2" />
+			</state_uniqueguids>
+			<component_image_uniqueguids>
+				<component_image_uniqueguid name="ui/skins/default/slider_vertical_top_active.png" uniqueguid="387192BE-2586-4EC1-BE6A3430F524AD91" />
+				<component_image_uniqueguid name="ui/skins/default/slider_vertical_top_pressed.png" uniqueguid="81BEC4C7-1174-4007-A5D82B8A43A4CB41" />
+				<component_image_uniqueguid name="ui/skins/default/slider_vertical_top_hover.png" uniqueguid="E30CE0DF-D000-483F-8FDC32585E15076F" />
+			</component_image_uniqueguids>
+			<callbacks_with_context>
+				<callback_with_context callback_id="SliderDecrementButton" />
+			</callbacks_with_context>
+			<user_properties>
+				<property name="disable_override" value="position" />
+				<property name="disable_override0" value="resizable" />
+				<property name="stepSize" value="10" />
+			</user_properties>
+			<localised_texts>
+				<localised_text />
+				<localised_text state="active" is_text_localised="false" />
+				<localised_text state="down" is_text_localised="false" />
+				<localised_text state="down_off" is_text_localised="false" />
+				<localised_text state="hover" is_text_localised="false" />
+				<localised_text state="inactive" is_text_localised="false" />
+			</localised_texts>
+			<override_images>
+				<element value="ui/skins/default/slider_vertical_top_active.png" />
+				<element value="ui/skins/default/slider_vertical_top_pressed.png" />
+				<element value="ui/skins/default/slider_vertical_top_hover.png" />
+			</override_images>
+		</top>
+		<tx_division this="4178F8FE-6009-5049-A27A9232CDEB3A12" id="tx_division" offset="73.00,0.00" priority="51" tooltipslocalised="true" component_level_text="/" text_label="ComponentText_e0a85498" uniqueguid="4178F8FE-6009-5049-A27A9232CDEB3A12" currentstate="F9AD6CBE-9D4D-4949-B7FEA332186F2D3F" defaultstate="F9AD6CBE-9D4D-4949-B7FEA332186F2D3F">
+			<states>
+				<default this="F9AD6CBE-9D4D-4949-B7FEA332186F2D3F" name="default" height="40" uniqueguid="F9AD6CBE-9D4D-4949-B7FEA332186F2D3F">
+					<component_text textvalign="Center" texthalign="Center" texthbehaviour="Never split" font_m_font_name="brand_header" font_m_size="16" font_m_colour="#FFF8D7FF" font_m_leading="3" fontcat_name="header_16" />
+				</default>
+			</states>
+		</tx_division>
+		<tx_division this="A6CA3EB4-111F-5158-988798D9129D9C3B" id="tx_division" offset="144.00,0.00" priority="51" tooltipslocalised="true" component_level_text="/" text_label="ComponentText_d0a10e79" uniqueguid="A6CA3EB4-111F-5158-988798D9129D9C3B" currentstate="DB65D94C-5572-45CA-BDF06CC892BF183B" defaultstate="DB65D94C-5572-45CA-BDF06CC892BF183B">
+			<states>
+				<default this="DB65D94C-5572-45CA-BDF06CC892BF183B" name="default" height="40" uniqueguid="DB65D94C-5572-45CA-BDF06CC892BF183B">
+					<component_text textvalign="Center" texthalign="Center" texthbehaviour="Never split" font_m_size="12" font_m_colour="#FFF8D7FF" font_m_leading="3" fontcat_name="body_12" font_colour_override_preset_key="ui_font_faded_grey_beige" />
+				</default>
+			</states>
+		</tx_division>
+		<tx_labour_surplus this="379ABD1F-EA3C-5B64-A9BC38FA2A03FA34" id="tx_labour_surplus" allowverticalresize="false" priority="51" tooltipslocalised="true" component_level_text="Labour Surplus:" text_label="ComponentText_328cd76e" uniqueguid="379ABD1F-EA3C-5B64-A9BC38FA2A03FA34" currentstate="23366DE3-9B6B-4EFD-A0A37536BBD1CA7B" defaultstate="23366DE3-9B6B-4EFD-A0A37536BBD1CA7B">
+			<callbackwithcontextlist>
+				<callback_with_context callback_id="ContextTextLabel" context_object_id="CcoStaticObject" context_function_id="Loc(&quot;rhox_def_slaves_available&quot;)" />
+			</callbackwithcontextlist>
+			<states>
+				<default this="23366DE3-9B6B-4EFD-A0A37536BBD1CA7B" name="default" width="110" uniqueguid="23366DE3-9B6B-4EFD-A0A37536BBD1CA7B">
+					<component_text textvalign="Center" texthalign="Right" texthbehaviour="Resize" font_m_size="12" font_m_colour="#FFF8D7FF" font_m_leading="3" fontcat_name="body_12" font_colour_override_preset_key="red" />
+				</default>
+			</states>
+		</tx_labour_surplus>
+		<tx_total this="F7775261-0FC8-57D8-961E5C0CD5BC1F42" id="tx_total" offset="0.00,7.00" allowhorizontalresize="false" allowverticalresize="false" priority="51" tooltipslocalised="true" component_level_text="Total" text_label="ComponentText_a6739fac" uniqueguid="F7775261-0FC8-57D8-961E5C0CD5BC1F42" currentstate="111EF1FF-2D98-4E45-AE1C9E4FFA94C057" defaultstate="111EF1FF-2D98-4E45-AE1C9E4FFA94C057">
+			<states>
+				<default this="111EF1FF-2D98-4E45-AE1C9E4FFA94C057" name="default" width="200" height="40" uniqueguid="111EF1FF-2D98-4E45-AE1C9E4FFA94C057">
+					<component_text textvalign="Center" textxoffset="16.00,0.00" font_m_font_name="brand_header" font_m_size="16" font_m_colour="#FFF8D7FF" font_m_leading="3" fontcat_name="header_16" />
+				</default>
+			</states>
+		</tx_total>
+		<vslider this="EA8DA582-E3C0-5149-ABA1021AD61F5427" id="vslider" template_id="parchment_slider_vertical" part_of_template="true" uniqueguid_in_template="6C253EE7-62DB-42FC-967ED9468F399339" uniqueguid="EA8DA582-E3C0-5149-ABA1021AD61F5427" dimensions="20.00,435.00" dock_point="Center Right" offset="-5.00,0.00" priority="45">
+			<state_uniqueguids>
+				<state_uniqueguid name="active" uniqueguid="F9B8B160-95A8-4621-97DB70A723BD2BF0" />
+				<state_uniqueguid name="inactive" uniqueguid="4A1D9641-7FA6-4764-B1FB685AF3C93C88" />
+			</state_uniqueguids>
+			<component_image_uniqueguids>
+				<component_image_uniqueguid name="ui/skins/default/slider_vertical_mid.png" uniqueguid="B0689C1E-2611-4947-9D17C9D38BD3E5BD" />
+			</component_image_uniqueguids>
+			<callbacks_with_context>
+				<callback_with_context callback_id="VSlider" />
+			</callbacks_with_context>
+			<user_properties>
+				<property name="Notify" value="" />
+				<property name="Value" value="0" />
+				<property name="maxValue" value="100" />
+				<property name="minValue" value="0" />
+			</user_properties>
+			<localised_texts>
+				<localised_text />
+				<localised_text state="active" is_text_localised="false" />
+				<localised_text state="inactive" is_text_localised="false" />
+			</localised_texts>
+			<override_images>
+				<element value="ui/skins/default/slider_vertical_mid.png" />
+			</override_images>
+		</vslider>
+	</components>
+</layout>

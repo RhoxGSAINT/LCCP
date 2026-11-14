@@ -1,0 +1,5 @@
+key	maximum	minimum	ai_ignored	default_factor	optional_icon_path	income_policy	reset_before_income	scope	has_persistent_factors	sort_order	battle_conversion	appy_income_on_creation	always_display_zero_factors	can_scale_effect_thresholds_per_unit
+#pooled_resources_tables;2;db/pooled_resources_tables/rhox_def_slave_economy														
+rhox_def_province	2147483647	0	true	other	icon_slaves.png	END_OF_ROUND	false	FACTION_PROVINCE	false	0		false	true	false
+rhox_def_province_need	2147483647	0	true	other	icon_slaves.png	END_OF_ROUND	true	FACTION_PROVINCE	false	1		false	true	false
+rhox_def_province_inefficiency	100	0	true	other	icon_slaves.png	END_OF_ROUND	false	FACTION_PROVINCE	false	2		false	true	false

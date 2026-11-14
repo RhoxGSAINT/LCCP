@@ -1,0 +1,3 @@
+key	expression	display_only_active_effects	always_show_display_text
+#building_effect_context_expressions_tables;2;db/building_effect_context_expressions_tables/rhox_def_slave_economy			
+RhoxDefFactionIsKeyKeepers	Owner.RecordKeyIsOneOf("rhox_def_key_keepers")	true	false
