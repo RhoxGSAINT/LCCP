@@ -25,6 +25,20 @@ local rhox_key_keeper_slaves = {
 	gold_neutral_efficiency = 50,
 	gold_per_slave = 1,
 
+	-- per-turn loss of assigned slaves, copied from the Chaos Dwarf labour loss (wh3_dlc23_labour_loss.lua)
+	loss_factor_key = "rhox_key_keeper_slaves_loss",
+	loss_control_brackets = {
+		{min = -100, max = -75, loss_percent = 20},
+		{min = -74, max = -50, loss_percent = 15},
+		{min = -49, max = -25, loss_percent = 10},
+		{min = -24, max = 24, loss_percent = 5},
+		{min = 25, max = 49, loss_percent = 5},
+		{min = 50, max = 74, loss_percent = 3},
+		{min = 75, max = 100, loss_percent = 3},
+	},
+	-- minimum loss per province per turn when the percentage is smaller than this
+	min_slave_loss = 5,
+
 	-- starting slaves for new games: faction -> province -> amount
 	starting_slaves = {
 		rhox_def_key_keepers = {
@@ -158,6 +172,29 @@ function rhox_key_keeper_slaves:apply_region_income(faction_province, gdp_mod, f
 			end
 			bundle:set_duration(0)
 			cm:apply_custom_effect_bundle_to_region(bundle, region)
+		end
+	end
+end
+
+-- Per-turn loss, same brackets as wh3_dlc23_labour_loss.lua: the lower the control, the more slaves die or escape.
+function rhox_key_keeper_slaves:apply_slave_loss(faction)
+	local province_list = faction:provinces()
+	for i = 0, province_list:num_items() - 1 do
+		local faction_province = province_list:item_at(i)
+		local slaves = faction_province:pooled_resource_manager():resource(self.province_resource_key)
+		local region_list = faction_province:regions()
+
+		if not slaves:is_null_interface() and slaves:value() > 0 and region_list:num_items() > 0 then
+			local control = region_list:item_at(0):public_order()
+
+			for _, bracket in ipairs(self.loss_control_brackets) do
+				if control >= bracket.min and control <= bracket.max then
+					local loss = math.floor((slaves:value() / 100) * bracket.loss_percent)
+					loss = math.min(math.max(loss, self.min_slave_loss), slaves:value())
+					cm:pooled_resource_factor_transaction(slaves, self.loss_factor_key, -loss)
+					break
+				end
+			end
 		end
 	end
 end
@@ -407,6 +444,9 @@ function rhox_key_keeper_slaves:setup_listeners()
 			return self:is_valid_faction(context:faction())
 		end,
 		function(context)
+			if cm:turn_number() >= 2 then
+				self:apply_slave_loss(context:faction())
+			end
 			self:refresh_need(context:faction())
 		end,
 		true

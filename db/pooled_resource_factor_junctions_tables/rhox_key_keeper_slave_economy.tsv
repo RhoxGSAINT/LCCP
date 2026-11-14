@@ -6,3 +6,4 @@ rhox_key_keeper_province_other	other	rhox_key_keeper_province	-2147483647	214748
 rhox_key_keeper_province_need_buildings	buildings	rhox_key_keeper_province_need	0	2147483647		0
 rhox_key_keeper_province_need_other	other	rhox_key_keeper_province_need	-2147483647	2147483647		0
 rhox_key_keeper_province_inefficiency_other	other	rhox_key_keeper_province_inefficiency	-2147483647	2147483647		0
+rhox_key_keeper_province_loss	rhox_key_keeper_slaves_loss	rhox_key_keeper_province	-2147483647	0		0
