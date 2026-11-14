@@ -1,26 +1,26 @@
-local rhox_def_slaves = {
+local rhox_key_keeper_slaves = {
     --currently, only one faction
 	faction_keys = {
 		rhox_def_key_keepers = true,
 	},
 
 	pool_resource_key = "def_slaves",
-	pool_factor_key = "rhox_def_slaves_distributed",
+	pool_factor_key = "rhox_key_keeper_slaves_distributed",
 
-	province_resource_key = "rhox_def_province",
-	province_factor_key = "rhox_def_slaves_distributed",
+	province_resource_key = "rhox_key_keeper_province",
+	province_factor_key = "rhox_key_keeper_slaves_distributed",
 
-	need_resource_key = "rhox_def_province_need",
+	need_resource_key = "rhox_key_keeper_province_need",
 
-	inefficiency_resource_key = "rhox_def_province_inefficiency",
+	inefficiency_resource_key = "rhox_key_keeper_province_inefficiency",
 	other_factor_key = "other",
 
 	-- Income is applied with a scripted region effect bundle:
 	--   every owned region: income from all buildings = efficiency - 50 (%), so -50% .. +50%
 	--   province capital (or first owned region): flat income = slaves * gold_per_slave
-	region_bundle_key = "rhox_def_slaves_region_income",
-	gdp_mod_effect_key = "rhox_def_effect_gdp_mod_slaves",
-	gdp_flat_effect_key = "rhox_def_effect_gdp_slaves_flat",
+	region_bundle_key = "rhox_key_keeper_slaves_region_income",
+	gdp_mod_effect_key = "rhox_key_keeper_effect_gdp_mod_slaves",
+	gdp_flat_effect_key = "rhox_key_keeper_effect_gdp_slaves_flat",
 	region_effect_scope = "region_to_region_own",
 	gold_neutral_efficiency = 50,
 	gold_per_slave = 1,
@@ -32,23 +32,23 @@ local rhox_def_slaves = {
 		},
 	},
 
-	move_event_prefix = "rhox_def_slaves_move:",
+	move_event_prefix = "rhox_key_keeper_slaves_move:",
 
-	panel_name = "rhox_def_slave_economy",
-	escape_callback_name = "rhox_def_slaves_close_panel",
-	panel_path = "ui/campaign ui/rhox_def_slave_economy.twui.xml",
-	close_button_name = "rhox_def_slave_close",
+	panel_name = "rhox_key_keeper_slave_economy",
+	escape_callback_name = "rhox_key_keeper_slaves_close_panel",
+	panel_path = "ui/campaign ui/rhox_key_keeper_slave_economy.twui.xml",
+	close_button_name = "rhox_key_keeper_slave_close",
 
-	hud_button_name = "rhox_def_slave_economy_button",
+	hud_button_name = "rhox_key_keeper_slave_economy_button",
 	hud_button_template = "ui/templates/round_hud_button_toggle",
 	hud_button_icon = "ui/skins/default/icon_slaves.png",
 }
 
-function rhox_def_slaves:is_valid_faction(faction)
+function rhox_key_keeper_slaves:is_valid_faction(faction)
 	return faction and not faction:is_null_interface() and self.faction_keys[faction:name()] == true
 end
 
-function rhox_def_slaves:get_faction_province(faction, province_key)
+function rhox_key_keeper_slaves:get_faction_province(faction, province_key)
 	local province_list = faction:provinces()
 	for i = 0, province_list:num_items() - 1 do
 		local faction_province = province_list:item_at(i)
@@ -60,7 +60,7 @@ function rhox_def_slaves:get_faction_province(faction, province_key)
 end
 
 
-function rhox_def_slaves:refresh_need(faction)
+function rhox_key_keeper_slaves:refresh_need(faction)
 	local faction_key = faction:name()
 	local province_list = faction:provinces()
 	for i = 0, province_list:num_items() - 1 do
@@ -79,14 +79,14 @@ function rhox_def_slaves:refresh_need(faction)
 	)
 end
 
-function rhox_def_slaves:update_faction(faction)
+function rhox_key_keeper_slaves:update_faction(faction)
 	local province_list = faction:provinces()
 	for i = 0, province_list:num_items() - 1 do
 		self:update_efficiency(province_list:item_at(i))
 	end
 end
 
-function rhox_def_slaves:update_all_factions()
+function rhox_key_keeper_slaves:update_all_factions()
 	for faction_key in pairs(self.faction_keys) do
 		local faction = cm:get_faction(faction_key)
 		if self:is_valid_faction(faction) then
@@ -96,7 +96,7 @@ function rhox_def_slaves:update_all_factions()
 end
 
 
-function rhox_def_slaves:update_efficiency(faction_province)
+function rhox_key_keeper_slaves:update_efficiency(faction_province)
 	local manager = faction_province:pooled_resource_manager()
 	local slaves = manager:resource(self.province_resource_key)
 	local need = manager:resource(self.need_resource_key)
@@ -120,7 +120,7 @@ function rhox_def_slaves:update_efficiency(faction_province)
 	self:apply_region_income(faction_province, gdp_mod, slaves:value() * self.gold_per_slave)
 end
 
-function rhox_def_slaves:apply_region_income(faction_province, gdp_mod, flat_income)
+function rhox_key_keeper_slaves:apply_region_income(faction_province, gdp_mod, flat_income)
 	local region_list = faction_province:regions()
 	if region_list:num_items() == 0 then
 		return
@@ -162,7 +162,7 @@ function rhox_def_slaves:apply_region_income(faction_province, gdp_mod, flat_inc
 	end
 end
 
-function rhox_def_slaves:grant_starting_slaves()
+function rhox_key_keeper_slaves:grant_starting_slaves()
 	for faction_key, provinces in pairs(self.starting_slaves) do
 		local faction = cm:get_faction(faction_key)
 		if self:is_valid_faction(faction) then
@@ -179,7 +179,7 @@ function rhox_def_slaves:grant_starting_slaves()
 	end
 end
 
-function rhox_def_slaves:set_resource_value(resource, target)
+function rhox_key_keeper_slaves:set_resource_value(resource, target)
 	local delta = target - resource:value()
 	if delta ~= 0 then
 		cm:pooled_resource_factor_transaction(resource, self.other_factor_key, delta)
@@ -187,7 +187,7 @@ function rhox_def_slaves:set_resource_value(resource, target)
 end
 
 -- Positive amount: faction pool -> province. Negative amount: province -> faction pool.
-function rhox_def_slaves:move_slaves(faction, province_key, amount)
+function rhox_key_keeper_slaves:move_slaves(faction, province_key, amount)
 	local faction_province = self:get_faction_province(faction, province_key)
 	if not faction_province then
 		return
@@ -216,11 +216,11 @@ function rhox_def_slaves:move_slaves(faction, province_key, amount)
 	cm:pooled_resource_factor_transaction(province_resource, self.province_factor_key, amount)
 end
 
-function rhox_def_slaves:get_panel()
+function rhox_key_keeper_slaves:get_panel()
 	return find_uicomponent(core:get_ui_root(), self.panel_name)
 end
 
-function rhox_def_slaves:close_panel()
+function rhox_key_keeper_slaves:close_panel()
 	local panel = self:get_panel()
 	if panel then
 		panel:Destroy()
@@ -233,7 +233,7 @@ function rhox_def_slaves:close_panel()
 	end
 end
 
-function rhox_def_slaves:toggle_panel()
+function rhox_key_keeper_slaves:toggle_panel()
 	if self:get_panel() then
 		self:close_panel()
 	else
@@ -248,7 +248,7 @@ function rhox_def_slaves:toggle_panel()
 	end
 end
 
-function rhox_def_slaves:create_hud_button()
+function rhox_key_keeper_slaves:create_hud_button()
 	local parent = find_uicomponent(core:get_ui_root(), "hud_campaign", "faction_buttons_docker", "button_group_management")
 	if not parent then
 		return
@@ -260,11 +260,11 @@ function rhox_def_slaves:create_hud_button()
 	end
 
 	button:SetImagePath(self.hud_button_icon, 0)
-	button:SetTooltipText(common.get_localised_string("campaign_localised_strings_string_rhox_def_slaves_hud_button"), true)
+	button:SetTooltipText(common.get_localised_string("campaign_localised_strings_string_rhox_key_keeper_slaves_hud_button"), true)
 	button:SetVisible(true)
 end
 
-function rhox_def_slaves:setup_ui()
+function rhox_key_keeper_slaves:setup_ui()
 	local local_faction = cm:get_faction(cm:get_local_faction_name(true))
 	if not self:is_valid_faction(local_faction) then
 		return
@@ -273,7 +273,7 @@ function rhox_def_slaves:setup_ui()
 	self:create_hud_button()
 
 	core:add_listener(
-		"rhox_def_slaves_hud_button",
+		"rhox_key_keeper_slaves_hud_button",
 		"ComponentLClickUp",
 		function(context)
 			return context.string == self.hud_button_name
@@ -285,7 +285,7 @@ function rhox_def_slaves:setup_ui()
 	)
 
 	core:add_listener(
-		"rhox_def_slaves_close_button",
+		"rhox_key_keeper_slaves_close_button",
 		"ComponentLClickUp",
 		function(context)
 			return context.string == self.close_button_name
@@ -298,7 +298,7 @@ function rhox_def_slaves:setup_ui()
 
 	-- The panel fires a local ContextTriggerEvent per province; relay it as a synced UITrigger.
 	core:add_listener(
-		"rhox_def_slaves_context_trigger",
+		"rhox_key_keeper_slaves_context_trigger",
 		"ContextTriggerEvent",
 		function(context)
 			return context.string:starts_with(self.move_event_prefix)
@@ -311,9 +311,9 @@ function rhox_def_slaves:setup_ui()
 	)
 end
 
-function rhox_def_slaves:setup_listeners()
+function rhox_key_keeper_slaves:setup_listeners()
 	core:add_listener(
-		"rhox_def_slaves_ui_trigger",
+		"rhox_key_keeper_slaves_ui_trigger",
 		"UITrigger",
 		function(context)
 			return context:trigger():starts_with(self.move_event_prefix)
@@ -337,7 +337,7 @@ function rhox_def_slaves:setup_listeners()
 	)
 
 	core:add_listener(
-		"rhox_def_slaves_efficiency_changed",
+		"rhox_key_keeper_slaves_efficiency_changed",
 		"PooledResourceChanged",
 		function(context)
 			local key = context:resource():key()
@@ -350,7 +350,7 @@ function rhox_def_slaves:setup_listeners()
 	)
 
 	core:add_listener(
-		"rhox_def_slaves_efficiency_income",
+		"rhox_key_keeper_slaves_efficiency_income",
 		"PooledResourceRegularIncome",
 		function(context)
 			local key = context:resource():key()
@@ -364,7 +364,7 @@ function rhox_def_slaves:setup_listeners()
 
 	-- the region bundle must not stay on a region that changed hands; the new province layout also moves the flat income
 	core:add_listener(
-		"rhox_def_slaves_region_owner_changed",
+		"rhox_key_keeper_slaves_region_owner_changed",
 		"RegionFactionChangeEvent",
 		true,
 		function(context)
@@ -389,7 +389,7 @@ function rhox_def_slaves:setup_listeners()
 
 	-- new buildings change the need immediately instead of at the end of the round
 	core:add_listener(
-		"rhox_def_slaves_building_completed",
+		"rhox_key_keeper_slaves_building_completed",
 		"BuildingCompleted",
 		function(context)
 			return self:is_valid_faction(context:building():faction())
@@ -401,7 +401,7 @@ function rhox_def_slaves:setup_listeners()
 	)
 
 	core:add_listener(
-		"rhox_def_slaves_refresh_need",
+		"rhox_key_keeper_slaves_refresh_need",
 		"FactionTurnStart",
 		function(context)
 			return self:is_valid_faction(context:faction())
@@ -415,18 +415,18 @@ end
 
 cm:add_first_tick_callback(
 	function()
-		rhox_def_slaves:setup_listeners()
+		rhox_key_keeper_slaves:setup_listeners()
 
 		if cm:is_new_game() then
-			rhox_def_slaves:grant_starting_slaves()
-			for faction_key in pairs(rhox_def_slaves.faction_keys) do
+			rhox_key_keeper_slaves:grant_starting_slaves()
+			for faction_key in pairs(rhox_key_keeper_slaves.faction_keys) do
 				local faction = cm:get_faction(faction_key)
-				if rhox_def_slaves:is_valid_faction(faction) then
-					rhox_def_slaves:refresh_need(faction)
+				if rhox_key_keeper_slaves:is_valid_faction(faction) then
+					rhox_key_keeper_slaves:refresh_need(faction)
 				end
 			end
 		end
 
-		rhox_def_slaves:setup_ui()
+		rhox_key_keeper_slaves:setup_ui()
 	end
 )

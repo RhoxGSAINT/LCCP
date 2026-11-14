@@ -2,7 +2,7 @@
 <layout version="142" comment="">
 	<hierarchy>
 		<root this="4FE6D2C2-43C9-5B1A-81EE447AEF5C189C">
-			<rhox_def_slave_economy this="1E1BB838-A1C6-5158-A542066854C307E1">
+			<rhox_key_keeper_slave_economy this="1E1BB838-A1C6-5158-A542066854C307E1">
 				<labour_economy_panel this="AA4A4C5F-E8D5-54BD-A44CE8968DF61278">
 					<panel_background this="07C4BB2D-EB5A-5D83-98638CB7D00387C3">
 						<panel_smoke_t this="4CC27BB8-3F8B-53D6-967D9FBB45580E00" />
@@ -30,7 +30,7 @@
 							<header_slave_income this="239C4F67-966C-5F65-96EEC5289788F391" />
 							<header_income_mod this="F41E9FF8-4D93-5A47-BD5E4AE916E21282" />
 						</holder_headers>
-						<rhox_def_list_provinces this="0DEAD58B-A643-5CAE-81E519637BBE07A7">
+						<rhox_key_keeper_list_provinces this="0DEAD58B-A643-5CAE-81E519637BBE07A7">
 							<list_clip this="DF6AF1C6-3FA6-5104-9C0BA16C039A5C19">
 								<list_box this="8EBCC7E6-7114-56B9-B719C249A231F294">
 									<template_entry this="7AFEE83E-1EC1-585F-B02648743BB3FD44">
@@ -62,7 +62,7 @@
 								<top this="9647C9BB-C591-523C-AA67D61AD0F95BED" />
 								<bottom this="9600594D-32B9-516D-8BAB5013917C9790" />
 							</vslider>
-						</rhox_def_list_provinces>
+						</rhox_key_keeper_list_provinces>
 						<holder_total_values this="16BFAF5A-CFA4-51C4-B9736A72B76FF391">
 							<tx_total this="F7775261-0FC8-57D8-961E5C0CD5BC1F42" />
 							<dy_total_efficiency this="356D0B83-E90C-5AA6-84749782E7E8A058" />
@@ -81,14 +81,14 @@
 							<button_flame this="967208DD-73DD-550C-A6A0A68EABB84922" />
 							<button_txt this="942FAAF1-A1D4-5010-A0F2E27BC3162F34" />
 						</button_reset_changes>
-						<rhox_def_slave_accept this="80CC03CA-1B5C-57D2-87D883C7028697A5">
+						<rhox_key_keeper_slave_accept this="80CC03CA-1B5C-57D2-87D883C7028697A5">
 							<button_flame this="D3D0F721-DD2A-577A-AFA1317B053A9EBB" />
 							<button_txt this="609EC12D-CE29-5A7C-B1FA8C0E18714A2E" />
-						</rhox_def_slave_accept>
+						</rhox_key_keeper_slave_accept>
 					</holder_panel_buttons>
 				</labour_economy_panel>
-				<rhox_def_slave_close this="DEB29065-0B58-53B1-A7C3A2C67C2DD725" />
-			</rhox_def_slave_economy>
+				<rhox_key_keeper_slave_close this="DEB29065-0B58-53B1-A7C3A2C67C2DD725" />
+			</rhox_key_keeper_slave_economy>
 		</root>
 	</hierarchy>
 	<components>
@@ -96,13 +96,13 @@
 			<callbackwithcontextlist>
 				<callback_with_context callback_id="ContextTextLabel" context_object_id="CcoCampaignPooledResource" context_function_id="Total">
 					<child_m_user_properties>
-						<property name="event0" value="RhoxDefSlavesClearAll" />
+						<property name="event0" value="RhoxKeyKeeperSlavesClearAll" />
 						<property name="event1" value="PooledResourceTransaction" />
 					</child_m_user_properties>
 				</callback_with_context>
 				<callback_with_context callback_id="ContextEventBroadcaster">
 					<child_m_user_properties>
-						<property name="onkey" value="RhoxDefSlavesChanged" />
+						<property name="onkey" value="RhoxKeyKeeperSlavesChanged" />
 					</child_m_user_properties>
 				</callback_with_context>
 				<callback_with_context callback_id="#ContextCommandGiverOnContextSet" context_object_id="CcoCampaignPooledResource" context_function_id="self.SetValue(this.Total)" />
@@ -121,15 +121,15 @@
 		<arrow_down this="58CE4D2C-6365-57F2-BA1DEF03DD2EB3BC" id="arrow_down" uniqueguid_in_template="D1E5F727-0B03-4A92-B29D9C9D3CCE9256" priority="51" tooltipslocalised="true" componentleveltooltip="Select Next" tooltiplabel="ComponentTooltip_45d890ed" soundcategory="UI_GBL_TMP_Arrow_Next" uniqueguid="58CE4D2C-6365-57F2-BA1DEF03DD2EB3BC" currentstate="A6293ED2-3D1B-4E50-8858098914F5D5D1" defaultstate="A6293ED2-3D1B-4E50-8858098914F5D5D1">
 			<callbackwithcontextlist>
 				<callback_with_context callback_id="Button" />
-				<callback_with_context callback_id="ContextCommandLeftClick" context_object_id="CcoCampaignProvince" context_function_id="RhoxDefSlaveEconomy.IncreaseSlaves(-RhoxDefSlaveEconomy.SlaveChangeMajor, this)" />
-				<callback_with_context callback_id="ContextInactiveStateSetter" context_object_id="CcoCampaignProvince" context_function_id="RhoxExSlaves.Total + RhoxDefSlaveEconomy.WantedSlaves(this) &gt; 0">
+				<callback_with_context callback_id="ContextCommandLeftClick" context_object_id="CcoCampaignProvince" context_function_id="RhoxKeyKeeperSlaveEconomy.IncreaseSlaves(-RhoxKeyKeeperSlaveEconomy.SlaveChangeMajor, this)" />
+				<callback_with_context callback_id="ContextInactiveStateSetter" context_object_id="CcoCampaignProvince" context_function_id="RhoxExSlaves.Total + RhoxKeyKeeperSlaveEconomy.WantedSlaves(this) &gt; 0">
 					<child_m_user_properties>
-						<property name="event0" value="RhoxDefSlavesChanged" />
-						<property name="event1" value="RhoxDefSlavesUpdate" />
+						<property name="event0" value="RhoxKeyKeeperSlavesChanged" />
+						<property name="event1" value="RhoxKeyKeeperSlavesUpdate" />
 						<property name="event2" value="PooledResourceTransaction" />
 					</child_m_user_properties>
 				</callback_with_context>
-				<callback_with_context callback_id="ContextTooltipSetter" context_object_id="CcoStaticObject" context_function_id="Loc(&quot;rhox_def_slaves_tooltip_remove&quot;, RhoxDefSlaveEconomy.SlaveChangeMajor)" />
+				<callback_with_context callback_id="ContextTooltipSetter" context_object_id="CcoStaticObject" context_function_id="Loc(&quot;rhox_key_keeper_slaves_tooltip_remove&quot;, RhoxKeyKeeperSlaveEconomy.SlaveChangeMajor)" />
 			</callbackwithcontextlist>
 			<userproperties>
 				<property name="override_sound" value="" />
@@ -197,15 +197,15 @@
 		<arrow_more_big this="09826E1E-8224-5162-91CA3D745489402B" id="arrow_more_big" uniqueguid_in_template="1A083386-E251-4651-8E712026373BFA04" offset="32.00,0.00" priority="51" tooltipslocalised="true" componentleveltooltip="Select Previous" tooltiplabel="ComponentTooltip_98cb5d58" soundcategory="UI_GBL_TMP_Arrow_Previous" uniqueguid="09826E1E-8224-5162-91CA3D745489402B" currentstate="6BE0E910-175D-43F8-B764EE251B4BFD78" defaultstate="6BE0E910-175D-43F8-B764EE251B4BFD78">
 			<callbackwithcontextlist>
 				<callback_with_context callback_id="Button" />
-				<callback_with_context callback_id="ContextCommandLeftClick" context_object_id="CcoCampaignProvince" context_function_id="RhoxDefSlaveEconomy.IncreaseSlaves(RhoxDefSlaveEconomy.SlaveChangeMajor, this)" />
-				<callback_with_context callback_id="ContextInactiveStateSetter" context_object_id="CcoCampaignProvince" context_function_id="RhoxDefSlaveEconomy.Available &gt; 0">
+				<callback_with_context callback_id="ContextCommandLeftClick" context_object_id="CcoCampaignProvince" context_function_id="RhoxKeyKeeperSlaveEconomy.IncreaseSlaves(RhoxKeyKeeperSlaveEconomy.SlaveChangeMajor, this)" />
+				<callback_with_context callback_id="ContextInactiveStateSetter" context_object_id="CcoCampaignProvince" context_function_id="RhoxKeyKeeperSlaveEconomy.Available &gt; 0">
 					<child_m_user_properties>
-						<property name="event0" value="RhoxDefSlavesChanged" />
-						<property name="event1" value="RhoxDefSlavesUpdate" />
+						<property name="event0" value="RhoxKeyKeeperSlavesChanged" />
+						<property name="event1" value="RhoxKeyKeeperSlavesUpdate" />
 						<property name="event2" value="PooledResourceTransaction" />
 					</child_m_user_properties>
 				</callback_with_context>
-				<callback_with_context callback_id="ContextTooltipSetter" context_object_id="CcoStaticObject" context_function_id="Loc(&quot;rhox_def_slaves_tooltip_add&quot;, RhoxDefSlaveEconomy.SlaveChangeMajor)" />
+				<callback_with_context callback_id="ContextTooltipSetter" context_object_id="CcoStaticObject" context_function_id="Loc(&quot;rhox_key_keeper_slaves_tooltip_add&quot;, RhoxKeyKeeperSlaveEconomy.SlaveChangeMajor)" />
 			</callbackwithcontextlist>
 			<userproperties>
 				<property name="override_sound" value="" />
@@ -305,7 +305,7 @@
 				<element value="ui/skins/default/slider_vertical_bottom_hover.png" />
 			</override_images>
 		</bottom>
-		<rhox_def_slave_accept this="80CC03CA-1B5C-57D2-87D883C7028697A5" id="rhox_def_slave_accept" template_id="square_large_text_button" part_of_template="true" uniqueguid_in_template="D8275039-5A3B-40C0-974330DBC4409AFD" uniqueguid="80CC03CA-1B5C-57D2-87D883C7028697A5" dimensions="233.00,51.00" priority="51" sound_category="UI_GBL_HUD_Purchase">
+		<rhox_key_keeper_slave_accept this="80CC03CA-1B5C-57D2-87D883C7028697A5" id="rhox_key_keeper_slave_accept" template_id="square_large_text_button" part_of_template="true" uniqueguid_in_template="D8275039-5A3B-40C0-974330DBC4409AFD" uniqueguid="80CC03CA-1B5C-57D2-87D883C7028697A5" dimensions="233.00,51.00" priority="51" sound_category="UI_GBL_HUD_Purchase">
 			<state_uniqueguids>
 				<state_uniqueguid name="active" uniqueguid="6BB9C492-17D0-44D9-A47A7C2C33ACFA13" />
 				<state_uniqueguid name="down" uniqueguid="24E6BD4E-9DAC-4BE1-B7C1B8C2DC73A700" />
@@ -323,16 +323,16 @@
 			<callbacks_with_context>
 				<callback_with_context callback_id="TextButton" />
 				<callback_with_context callback_id="StatePropagatorCallback" />
-				<callback_with_context callback_id="ContextInactiveStateSetter" context_object_id="CcoStaticObject" context_function_id="RhoxDefSlaveEconomy.CanAccept">
+				<callback_with_context callback_id="ContextInactiveStateSetter" context_object_id="CcoStaticObject" context_function_id="RhoxKeyKeeperSlaveEconomy.CanAccept">
 					<child_m_user_properties>
-						<property name="event0" value="RhoxDefSlavesUpdate" />
+						<property name="event0" value="RhoxKeyKeeperSlavesUpdate" />
 						<property name="event1" value="PooledResourceTransaction" />
 					</child_m_user_properties>
 				</callback_with_context>
-				<callback_with_context callback_id="ContextCommandLeftClick" context_object_id="CcoStaticObject" context_function_id="ShowPrompt(Loc(&quot;rhox_def_slaves_confirm_title&quot;), Loc(&quot;rhox_def_slaves_confirm_body&quot;), RhoxDefSlaveEconomy.ProcessChanges)" />
-				<callback_with_context callback_id="ContextTooltipSetter" context_object_id="CcoStaticObject" context_function_id="GetIfElse(RhoxDefSlaveEconomy.CanAccept, Loc(&quot;rhox_def_slaves_tooltip_accept&quot;), Loc(&quot;rhox_def_slaves_tooltip_accept_disabled&quot;))">
+				<callback_with_context callback_id="ContextCommandLeftClick" context_object_id="CcoStaticObject" context_function_id="ShowPrompt(Loc(&quot;rhox_key_keeper_slaves_confirm_title&quot;), Loc(&quot;rhox_key_keeper_slaves_confirm_body&quot;), RhoxKeyKeeperSlaveEconomy.ProcessChanges)" />
+				<callback_with_context callback_id="ContextTooltipSetter" context_object_id="CcoStaticObject" context_function_id="GetIfElse(RhoxKeyKeeperSlaveEconomy.CanAccept, Loc(&quot;rhox_key_keeper_slaves_tooltip_accept&quot;), Loc(&quot;rhox_key_keeper_slaves_tooltip_accept_disabled&quot;))">
 					<child_m_user_properties>
-						<property name="event0" value="RhoxDefSlavesUpdate" />
+						<property name="event0" value="RhoxKeyKeeperSlavesUpdate" />
 						<property name="event1" value="PooledResourceTransaction" />
 					</child_m_user_properties>
 				</callback_with_context>
@@ -355,7 +355,7 @@
 				<element value="ui/skins/default/button_square_large_text_inactive.png" />
 				<element value="ui/skins/default/button_square_large_text_underlay.png" />
 			</override_images>
-		</rhox_def_slave_accept>
+		</rhox_key_keeper_slave_accept>
 		<button_flame this="967208DD-73DD-550C-A6A0A68EABB84922" id="button_flame" part_of_template="true" uniqueguid_in_template="43E521B0-0A25-4C22-82FE029058200FF9" uniqueguid="967208DD-73DD-550C-A6A0A68EABB84922" dimensions="169.00,28.00" dock_point="Center" offset="0.00,-1.00" priority="100">
 			<state_uniqueguids>
 				<state_uniqueguid name="default" uniqueguid="DDE1AAF6-46BF-4CD2-9A9CB43238143A16" />
@@ -402,7 +402,7 @@
 				<element value="" />
 			</override_images>
 		</button_flame>
-		<rhox_def_slave_close this="DEB29065-0B58-53B1-A7C3A2C67C2DD725" id="rhox_def_slave_close" template_id="round_medium_button" part_of_template="true" uniqueguid_in_template="4E08AA99-2BAB-4DB6-AC47ACC0CEBD26BE" uniqueguid="DEB29065-0B58-53B1-A7C3A2C67C2DD725" dimensions="56.00,56.00" dock_point="Top Right" is_visible="true" offset="-10.00,30.00" priority="45" sound_category="UI_GBL_HUD_Generic_Accept_Confirm">
+		<rhox_key_keeper_slave_close this="DEB29065-0B58-53B1-A7C3A2C67C2DD725" id="rhox_key_keeper_slave_close" template_id="round_medium_button" part_of_template="true" uniqueguid_in_template="4E08AA99-2BAB-4DB6-AC47ACC0CEBD26BE" uniqueguid="DEB29065-0B58-53B1-A7C3A2C67C2DD725" dimensions="56.00,56.00" dock_point="Top Right" is_visible="true" offset="-10.00,30.00" priority="45" sound_category="UI_GBL_HUD_Generic_Accept_Confirm">
 			<state_uniqueguids>
 				<state_uniqueguid name="active" uniqueguid="386C53D1-101C-4FDE-A0D5E2E8A86C70D2" />
 				<state_uniqueguid name="down" uniqueguid="2A30689A-866E-4F6B-BD9481A9449DC1EE" />
@@ -425,9 +425,9 @@
 						<property name="use_transitions" value="" />
 					</child_m_user_properties>
 				</callback_with_context>
-				<callback_with_context callback_id="ContextCommandLeftClick" context_function_id="UiMsg(&quot;RhoxDefSlavesClearAll&quot;)" />
+				<callback_with_context callback_id="ContextCommandLeftClick" context_function_id="UiMsg(&quot;RhoxKeyKeeperSlavesClearAll&quot;)" />
 				<callback_with_context callback_id="CallbackAnimTrigger" />
-				<callback_with_context callback_id="ContextTooltipSetter" context_object_id="CcoStaticObject" context_function_id="Loc(&quot;rhox_def_slaves_tooltip_close&quot;)" />
+				<callback_with_context callback_id="ContextTooltipSetter" context_object_id="CcoStaticObject" context_function_id="Loc(&quot;rhox_key_keeper_slaves_tooltip_close&quot;)" />
 			</callbacks_with_context>
 			<user_properties>
 				<property name="disable_override" value="resizable" />
@@ -452,7 +452,7 @@
 				<element value="ui/skins/default/button_round_medium_underlay.png" />
 				<element value="" />
 			</override_images>
-		</rhox_def_slave_close>
+		</rhox_key_keeper_slave_close>
 		<button_reset_changes this="B0813D42-0B7F-5F4A-A1B52D7EEDCD8D4D" id="button_reset_changes" template_id="square_large_text_button" part_of_template="true" uniqueguid_in_template="D8275039-5A3B-40C0-974330DBC4409AFD" uniqueguid="B0813D42-0B7F-5F4A-A1B52D7EEDCD8D4D" dimensions="233.00,51.00" priority="51" sound_category="UI_GBL_HUD_Generic_Cancel_Decline">
 			<state_uniqueguids>
 				<state_uniqueguid name="active" uniqueguid="ACABFD32-453E-45BD-8F84307AD425AAED" />
@@ -471,14 +471,14 @@
 			<callbacks_with_context>
 				<callback_with_context callback_id="TextButton" />
 				<callback_with_context callback_id="StatePropagatorCallback" />
-				<callback_with_context callback_id="ContextCommandLeftClick" context_object_id="CcoStaticObject" context_function_id="UiMsg(&quot;RhoxDefSlavesClearAll&quot;)" />
-				<callback_with_context callback_id="ContextInactiveStateSetter" context_object_id="CcoStaticObject" context_function_id="RhoxDefSlaveEconomy.AnyChangeWanted">
+				<callback_with_context callback_id="ContextCommandLeftClick" context_object_id="CcoStaticObject" context_function_id="UiMsg(&quot;RhoxKeyKeeperSlavesClearAll&quot;)" />
+				<callback_with_context callback_id="ContextInactiveStateSetter" context_object_id="CcoStaticObject" context_function_id="RhoxKeyKeeperSlaveEconomy.AnyChangeWanted">
 					<child_m_user_properties>
-						<property name="event0" value="RhoxDefSlavesChanged" />
-						<property name="event1" value="RhoxDefSlavesClearAll" />
+						<property name="event0" value="RhoxKeyKeeperSlavesChanged" />
+						<property name="event1" value="RhoxKeyKeeperSlavesClearAll" />
 					</child_m_user_properties>
 				</callback_with_context>
-				<callback_with_context callback_id="ContextTooltipSetter" context_object_id="CcoStaticObject" context_function_id="Loc(&quot;rhox_def_slaves_tooltip_reset&quot;)" />
+				<callback_with_context callback_id="ContextTooltipSetter" context_object_id="CcoStaticObject" context_function_id="Loc(&quot;rhox_key_keeper_slaves_tooltip_reset&quot;)" />
 			</callbacks_with_context>
 			<user_properties>
 				<property name="override_sound" value="" />
@@ -547,13 +547,13 @@
 			<callbackwithcontextlist>
 				<callback_with_context callback_id="ContextTextLabel" context_object_id="CcoCampaignProvince" context_function_id="RhoxExSlaveNeed.Total &gt; 0 | Format(&quot;%d%%&quot;, 100 - RhoxExSlaveInefficiency.Total)  | &quot;-&quot;">
 					<child_m_user_properties>
-						<property name="event0" value="RhoxDefSlavesUpdate" />
+						<property name="event0" value="RhoxKeyKeeperSlavesUpdate" />
 						<property name="event1" value="PooledResourceTransaction" />
 					</child_m_user_properties>
 				</callback_with_context>
 				<callback_with_context callback_id="ContextStateSetterConditional" context_object_id="CcoCampaignProvince">
 					<child_m_user_properties>
-						<property name="event0" value="RhoxDefSlavesUpdate" />
+						<property name="event0" value="RhoxKeyKeeperSlavesUpdate" />
 						<property name="event1" value="PooledResourceTransaction" />
 						<property name="fallback_state" value="green" />
 						<property name="invalid" value="RhoxExSlaveNeed.Total == 0" />
@@ -561,13 +561,13 @@
 						<property name="yellow" value="RhoxExSlaveNeed.Total &gt; 0 &amp;&amp; 100 - RhoxExSlaveInefficiency.Total &gt; 49 &amp;&amp; 100 - RhoxExSlaveInefficiency.Total &lt; 100" />
 					</child_m_user_properties>
 				</callback_with_context>
-				<callback_with_context callback_id="ContextVisibilitySetter" context_object_id="CcoCampaignProvince" context_function_id="RhoxDefSlaveEconomy.SlaveChangeWanted(this) == false || RhoxExSlaveNeed.Total == 0">
+				<callback_with_context callback_id="ContextVisibilitySetter" context_object_id="CcoCampaignProvince" context_function_id="RhoxKeyKeeperSlaveEconomy.SlaveChangeWanted(this) == false || RhoxExSlaveNeed.Total == 0">
 					<child_m_user_properties>
-						<property name="event0" value="RhoxDefSlavesUpdate" />
+						<property name="event0" value="RhoxKeyKeeperSlavesUpdate" />
 						<property name="event1" value="PooledResourceTransaction" />
 					</child_m_user_properties>
 				</callback_with_context>
-				<callback_with_context callback_id="ContextTooltipSetter" context_object_id="CcoStaticObject" context_function_id="Loc(&quot;rhox_def_slaves_tooltip_efficiency&quot;)" />
+				<callback_with_context callback_id="ContextTooltipSetter" context_object_id="CcoStaticObject" context_function_id="Loc(&quot;rhox_key_keeper_slaves_tooltip_efficiency&quot;)" />
 			</callbackwithcontextlist>
 			<userproperties>
 				<property name="MinValue" value="0" />
@@ -616,11 +616,11 @@
 			<callbackwithcontextlist>
 				<callback_with_context callback_id="ContextTextLabel" context_object_id="CcoCampaignProvince" context_function_id="RhoxExGoldOutput">
 					<child_m_user_properties>
-						<property name="event0" value="RhoxDefSlavesUpdate" />
+						<property name="event0" value="RhoxKeyKeeperSlavesUpdate" />
 						<property name="event1" value="PooledResourceTransaction" />
 					</child_m_user_properties>
 				</callback_with_context>
-				<callback_with_context callback_id="ContextTooltipSetter" context_object_id="CcoStaticObject" context_function_id="Loc(&quot;rhox_def_slaves_tooltip_output&quot;)" />
+				<callback_with_context callback_id="ContextTooltipSetter" context_object_id="CcoStaticObject" context_function_id="Loc(&quot;rhox_key_keeper_slaves_tooltip_output&quot;)" />
 			</callbackwithcontextlist>
 			<states>
 				<default this="57D1DD63-EB9C-437D-9B5019100B02E26E" name="default" width="100" height="40" interactive="true" disabled="true" uniqueguid="57D1DD63-EB9C-437D-9B5019100B02E26E">
@@ -632,11 +632,11 @@
 			<callbackwithcontextlist>
 				<callback_with_context callback_id="ContextTextLabel" context_object_id="CcoCampaignProvince" context_function_id="RhoxExSlaveFlatIncome">
 					<child_m_user_properties>
-						<property name="event0" value="RhoxDefSlavesUpdate" />
+						<property name="event0" value="RhoxKeyKeeperSlavesUpdate" />
 						<property name="event1" value="PooledResourceTransaction" />
 					</child_m_user_properties>
 				</callback_with_context>
-				<callback_with_context callback_id="ContextTooltipSetter" context_object_id="CcoStaticObject" context_function_id="Loc(&quot;rhox_def_slaves_tooltip_slave_income&quot;)" />
+				<callback_with_context callback_id="ContextTooltipSetter" context_object_id="CcoStaticObject" context_function_id="Loc(&quot;rhox_key_keeper_slaves_tooltip_slave_income&quot;)" />
 			</callbackwithcontextlist>
 			<states>
 				<default this="D6CED10D-6462-528C-912ABFD3336C2B07" name="default" width="100" height="40" interactive="true" disabled="true" uniqueguid="D6CED10D-6462-528C-912ABFD3336C2B07">
@@ -648,12 +648,12 @@
 			<callbackwithcontextlist>
 				<callback_with_context callback_id="ContextTextLabel" context_object_id="CcoCampaignProvince" context_function_id="RhoxGoldModifierText">
 					<child_m_user_properties>
-						<property name="event0" value="RhoxDefSlavesUpdate" />
-						<property name="event1" value="RhoxDefSlavesChanged" />
+						<property name="event0" value="RhoxKeyKeeperSlavesUpdate" />
+						<property name="event1" value="RhoxKeyKeeperSlavesChanged" />
 						<property name="event2" value="PooledResourceTransaction" />
 					</child_m_user_properties>
 				</callback_with_context>
-				<callback_with_context callback_id="ContextTooltipSetter" context_object_id="CcoStaticObject" context_function_id="Loc(&quot;rhox_def_slaves_tooltip_income_mod&quot;)" />
+				<callback_with_context callback_id="ContextTooltipSetter" context_object_id="CcoStaticObject" context_function_id="Loc(&quot;rhox_key_keeper_slaves_tooltip_income_mod&quot;)" />
 			</callbackwithcontextlist>
 			<states>
 				<default this="00359EEA-136D-52D0-AB913C631810CEA3" name="default" width="100" height="40" interactive="true" disabled="true" uniqueguid="00359EEA-136D-52D0-AB913C631810CEA3">
@@ -663,7 +663,7 @@
 		</dy_income_mod>
 		<dy_text this="D15DB237-8D66-5C9B-BDB4428999760C9E" id="dy_text" offset="5.00,9.00" docking="Center" component_anchor_point="0.50,0.50" priority="51" tooltipslocalised="true" component_level_text="Labour Economy" text_label="ComponentText_14a24010" uniqueguid="D15DB237-8D66-5C9B-BDB4428999760C9E" currentstate="574978D1-794D-48AD-9CBE10719A8BCA39" defaultstate="574978D1-794D-48AD-9CBE10719A8BCA39">
 			<callbackwithcontextlist>
-				<callback_with_context callback_id="ContextTextLabel" context_object_id="CcoStaticObject" context_function_id="Loc(&quot;rhox_def_slaves_panel_title&quot;)" />
+				<callback_with_context callback_id="ContextTextLabel" context_object_id="CcoStaticObject" context_function_id="Loc(&quot;rhox_key_keeper_slaves_panel_title&quot;)" />
 			</callbackwithcontextlist>
 			<states>
 				<newstate this="574978D1-794D-48AD-9CBE10719A8BCA39" name="NewState" width="282" height="27" interactive="true" uniqueguid="574978D1-794D-48AD-9CBE10719A8BCA39">
@@ -675,26 +675,26 @@
 			<callbackwithcontextlist>
 				<callback_with_context callback_id="ContextTextLabel" context_object_id="CcoCampaignFaction" context_function_id="(provinces = ProvinceList.Filter(RhoxExSlaveNeed.Total &gt; 0)) =&gt; Format(&quot;%d%%&quot;, RoundFloat(provinces.Sum(100 - RhoxExSlaveInefficiency.Total) / provinces.Size))">
 					<child_m_user_properties>
-						<property name="event0" value="RhoxDefSlavesUpdate" />
+						<property name="event0" value="RhoxKeyKeeperSlavesUpdate" />
 						<property name="event1" value="PooledResourceTransaction" />
 					</child_m_user_properties>
 				</callback_with_context>
 				<callback_with_context callback_id="ContextStateSetterConditional" context_object_id="CcoCampaignFaction">
 					<child_m_user_properties>
-						<property name="event0" value="RhoxDefSlavesUpdate" />
+						<property name="event0" value="RhoxKeyKeeperSlavesUpdate" />
 						<property name="event1" value="PooledResourceTransaction" />
 						<property name="fallback_state" value="green" />
 						<property name="red" value="(provinces = ProvinceList.Filter(RhoxExSlaveNeed.Total &gt; 0)) =&gt; RoundFloat(provinces.Sum(100 - RhoxExSlaveInefficiency.Total) / provinces.Size) &lt; 50" />
 						<property name="yellow" value="(provinces = ProvinceList.Filter(RhoxExSlaveNeed.Total &gt; 0)) =&gt; RoundFloat(provinces.Sum(100 - RhoxExSlaveInefficiency.Total) / provinces.Size) &gt; 49 &amp;&amp; RoundFloat(provinces.Sum(100 - RhoxExSlaveInefficiency.Total) / provinces.Size) &lt; 100" />
 					</child_m_user_properties>
 				</callback_with_context>
-				<callback_with_context callback_id="ContextVisibilitySetter" context_object_id="CcoCampaignFaction" context_function_id="RhoxDefSlaveEconomy.AnyMeaningfulChangeWanted == false">
+				<callback_with_context callback_id="ContextVisibilitySetter" context_object_id="CcoCampaignFaction" context_function_id="RhoxKeyKeeperSlaveEconomy.AnyMeaningfulChangeWanted == false">
 					<child_m_user_properties>
-						<property name="event0" value="RhoxDefSlavesUpdate" />
+						<property name="event0" value="RhoxKeyKeeperSlavesUpdate" />
 						<property name="event1" value="PooledResourceTransaction" />
 					</child_m_user_properties>
 				</callback_with_context>
-				<callback_with_context callback_id="ContextTooltipSetter" context_object_id="CcoStaticObject" context_function_id="Loc(&quot;rhox_def_slaves_tooltip_total_efficiency&quot;)" />
+				<callback_with_context callback_id="ContextTooltipSetter" context_object_id="CcoStaticObject" context_function_id="Loc(&quot;rhox_key_keeper_slaves_tooltip_total_efficiency&quot;)" />
 			</callbackwithcontextlist>
 			<states>
 				<green this="4B42BE26-F3CA-4CE0-9F5CF50A3E5E16BF" name="green" width="64" height="40" interactive="true" disabled="true" uniqueguid="4B42BE26-F3CA-4CE0-9F5CF50A3E5E16BF">
@@ -712,7 +712,7 @@
 			<callbackwithcontextlist>
 				<callback_with_context callback_id="ContextTextLabel" context_object_id="CcoCampaignFaction" context_function_id="RoundFloat(ProvinceList.Sum(RhoxExSlaves.Total))">
 					<child_m_user_properties>
-						<property name="event0" value="RhoxDefSlavesUpdate" />
+						<property name="event0" value="RhoxKeyKeeperSlavesUpdate" />
 						<property name="event1" value="PooledResourceTransaction" />
 					</child_m_user_properties>
 				</callback_with_context>
@@ -727,7 +727,7 @@
 			<callbackwithcontextlist>
 				<callback_with_context callback_id="ContextTextLabel" context_object_id="CcoCampaignFaction" context_function_id="RoundFloat(ProvinceList.Sum(RhoxExGoldOutput))">
 					<child_m_user_properties>
-						<property name="event0" value="RhoxDefSlavesUpdate" />
+						<property name="event0" value="RhoxKeyKeeperSlavesUpdate" />
 						<property name="event1" value="PooledResourceTransaction" />
 					</child_m_user_properties>
 				</callback_with_context>
@@ -742,7 +742,7 @@
 			<callbackwithcontextlist>
 				<callback_with_context callback_id="ContextTextLabel" context_object_id="CcoCampaignFaction" context_function_id="RoundFloat(ProvinceList.Sum(RhoxExSlaveFlatIncome))">
 					<child_m_user_properties>
-						<property name="event0" value="RhoxDefSlavesUpdate" />
+						<property name="event0" value="RhoxKeyKeeperSlavesUpdate" />
 						<property name="event1" value="PooledResourceTransaction" />
 					</child_m_user_properties>
 				</callback_with_context>
@@ -757,7 +757,7 @@
 			<callbackwithcontextlist>
 				<callback_with_context callback_id="ContextTextLabel" context_object_id="CcoCampaignFaction" context_function_id="RoundFloat(ProvinceList.Sum(RhoxExSlaveNeed.Total))">
 					<child_m_user_properties>
-						<property name="event0" value="RhoxDefSlavesUpdate" />
+						<property name="event0" value="RhoxKeyKeeperSlavesUpdate" />
 						<property name="event1" value="PooledResourceTransaction" />
 					</child_m_user_properties>
 				</callback_with_context>
@@ -770,9 +770,9 @@
 		</dy_total_workload>
 		<dy_value this="C9F9D381-A47B-5DC4-9962045099EF96B6" id="dy_value" offset="110.00,0.00" allowverticalresize="false" priority="51" tooltipslocalised="true" component_level_text="999999" text_label="ComponentText_a98cf29a" uniqueguid="C9F9D381-A47B-5DC4-9962045099EF96B6" currentstate="5DCA2368-B100-4913-B2BC2552F97A37CF" defaultstate="5DCA2368-B100-4913-B2BC2552F97A37CF">
 			<callbackwithcontextlist>
-				<callback_with_context callback_id="ContextTextLabel" context_object_id="CcoStaticObject" context_function_id="RhoxDefSlaveEconomy.Available">
+				<callback_with_context callback_id="ContextTextLabel" context_object_id="CcoStaticObject" context_function_id="RhoxKeyKeeperSlaveEconomy.Available">
 					<child_m_user_properties>
-						<property name="event0" value="RhoxDefSlavesUpdate" />
+						<property name="event0" value="RhoxKeyKeeperSlavesUpdate" />
 						<property name="event1" value="PooledResourceTransaction" />
 					</child_m_user_properties>
 				</callback_with_context>
@@ -882,7 +882,7 @@
 		</header_04>
 		<header_05 this="E326A195-1F72-5A7B-BBB131C493E8BD37" id="header_05" offset="0.00,-1.00" allowhorizontalresize="false" allowverticalresize="false" priority="51" tooltipslocalised="true" component_level_text="[[img:icon_labour]][[/img]] Labour / [[img:icon_workload]][[/img]] Workload" text_label="ComponentText_cff5554a" uniqueguid="E326A195-1F72-5A7B-BBB131C493E8BD37" currentstate="4A2EBDBA-D359-4E75-B94BC08A8BFC12D1" defaultstate="4A2EBDBA-D359-4E75-B94BC08A8BFC12D1">
 			<callbackwithcontextlist>
-				<callback_with_context callback_id="ContextTextLabel" context_object_id="CcoStaticObject" context_function_id="Loc(&quot;rhox_def_slaves_header_slaves_need&quot;)" />
+				<callback_with_context callback_id="ContextTextLabel" context_object_id="CcoStaticObject" context_function_id="Loc(&quot;rhox_key_keeper_slaves_header_slaves_need&quot;)" />
 			</callbackwithcontextlist>
 			<states>
 				<default this="4A2EBDBA-D359-4E75-B94BC08A8BFC12D1" name="default" width="224" height="39" uniqueguid="4A2EBDBA-D359-4E75-B94BC08A8BFC12D1">
@@ -902,7 +902,7 @@
 		</header_06>
 		<header_07 this="8C6B11B5-9FFC-5527-8BA643809474AC1E" id="header_07" offset="1095.00,-1.00" allowverticalresize="false" priority="51" tooltipslocalised="true" component_level_text="[[img:icon_raw_materials]][[/img]] Raw Materials" text_label="ComponentText_b8802614" uniqueguid="8C6B11B5-9FFC-5527-8BA643809474AC1E" currentstate="DEE3E2E0-F214-405D-ABF013DBA98B7C3F" defaultstate="DEE3E2E0-F214-405D-ABF013DBA98B7C3F">
 			<callbackwithcontextlist>
-				<callback_with_context callback_id="ContextTextLabel" context_object_id="CcoStaticObject" context_function_id="Loc(&quot;rhox_def_slaves_header_total_income&quot;)" />
+				<callback_with_context callback_id="ContextTextLabel" context_object_id="CcoStaticObject" context_function_id="Loc(&quot;rhox_key_keeper_slaves_header_total_income&quot;)" />
 			</callbackwithcontextlist>
 			<states>
 				<default this="DEE3E2E0-F214-405D-ABF013DBA98B7C3F" name="default" width="190" height="39" uniqueguid="DEE3E2E0-F214-405D-ABF013DBA98B7C3F">
@@ -912,7 +912,7 @@
 		</header_07>
 		<header_slave_income this="239C4F67-966C-5F65-96EEC5289788F391" id="header_slave_income" offset="950.00,-1.00" allowverticalresize="false" priority="51" tooltipslocalised="true" component_level_text="[[img:icon_raw_materials]][[/img]] Raw Materials" text_label="ComponentText_b8802614" uniqueguid="239C4F67-966C-5F65-96EEC5289788F391" currentstate="36633789-8E64-5134-B36EBD1AFD32AE24" defaultstate="36633789-8E64-5134-B36EBD1AFD32AE24">
 			<callbackwithcontextlist>
-				<callback_with_context callback_id="ContextTextLabel" context_object_id="CcoStaticObject" context_function_id="Loc(&quot;rhox_def_slaves_header_slave_income&quot;)" />
+				<callback_with_context callback_id="ContextTextLabel" context_object_id="CcoStaticObject" context_function_id="Loc(&quot;rhox_key_keeper_slaves_header_slave_income&quot;)" />
 			</callbackwithcontextlist>
 			<states>
 				<default this="36633789-8E64-5134-B36EBD1AFD32AE24" name="default" width="138" height="39" uniqueguid="36633789-8E64-5134-B36EBD1AFD32AE24">
@@ -922,7 +922,7 @@
 		</header_slave_income>
 		<header_income_mod this="F41E9FF8-4D93-5A47-BD5E4AE916E21282" id="header_income_mod" offset="815.00,-1.00" allowverticalresize="false" priority="51" tooltipslocalised="true" component_level_text="[[img:icon_raw_materials]][[/img]] Raw Materials" text_label="ComponentText_b8802614" uniqueguid="F41E9FF8-4D93-5A47-BD5E4AE916E21282" currentstate="30C073E7-3E29-5080-9F7566C278A0AC51" defaultstate="30C073E7-3E29-5080-9F7566C278A0AC51">
 			<callbackwithcontextlist>
-				<callback_with_context callback_id="ContextTextLabel" context_object_id="CcoStaticObject" context_function_id="Loc(&quot;rhox_def_slaves_header_income_mod&quot;)" />
+				<callback_with_context callback_id="ContextTextLabel" context_object_id="CcoStaticObject" context_function_id="Loc(&quot;rhox_key_keeper_slaves_header_income_mod&quot;)" />
 			</callbackwithcontextlist>
 			<states>
 				<default this="30C073E7-3E29-5080-9F7566C278A0AC51" name="default" width="138" height="39" uniqueguid="30C073E7-3E29-5080-9F7566C278A0AC51">
@@ -1044,14 +1044,14 @@
 				</unhappy>
 			</states>
 		</icon_public_order>
-		<rhox_def_slave_economy this="1E1BB838-A1C6-5158-A542066854C307E1" id="rhox_def_slave_economy" uniqueguid_in_template="049117DB-792B-4870-8CD1D183605BCADE" offset="0.00,0.00" allowhorizontalresize="false" allowverticalresize="false" docking="Center" component_anchor_point="0.50,0.50" tooltipslocalised="true" soundcategory="UI_CAM_HUD_DLC23_CHD_Labour_Economy" uniqueguid="1E1BB838-A1C6-5158-A542066854C307E1" currentstate="616A0C75-13CB-4C0D-AEC83AB48FA957F5" defaultstate="616A0C75-13CB-4C0D-AEC83AB48FA957F5">
+		<rhox_key_keeper_slave_economy this="1E1BB838-A1C6-5158-A542066854C307E1" id="rhox_key_keeper_slave_economy" uniqueguid_in_template="049117DB-792B-4870-8CD1D183605BCADE" offset="0.00,0.00" allowhorizontalresize="false" allowverticalresize="false" docking="Center" component_anchor_point="0.50,0.50" tooltipslocalised="true" soundcategory="UI_CAM_HUD_DLC23_CHD_Labour_Economy" uniqueguid="1E1BB838-A1C6-5158-A542066854C307E1" currentstate="616A0C75-13CB-4C0D-AEC83AB48FA957F5" defaultstate="616A0C75-13CB-4C0D-AEC83AB48FA957F5">
 			<callbackwithcontextlist>
 				<callback_with_context callback_id="AnimationReporter" />
 			</callbackwithcontextlist>
 			<states>
 				<default this="616A0C75-13CB-4C0D-AEC83AB48FA957F5" name="default" width="1311" height="819" interactive="true" uniqueguid="616A0C75-13CB-4C0D-AEC83AB48FA957F5" />
 			</states>
-		</rhox_def_slave_economy>
+		</rhox_key_keeper_slave_economy>
 		<labour_economy_panel this="AA4A4C5F-E8D5-54BD-A44CE8968DF61278" id="labour_economy_panel" offset="-2.00,19.00" allowhorizontalresize="false" allowverticalresize="false" docking="Bottom Center" component_anchor_point="0.50,1.00" priority="51" tooltipslocalised="true" soundcategory="UI_CAM_HUD_DLC13_Wulfhearts_Hunters_Panel" uniqueguid="AA4A4C5F-E8D5-54BD-A44CE8968DF61278" updatewhennotvisible="true" currentstate="5DB6941C-B9D5-42C1-B997AC5F0FB51C11" defaultstate="5DB6941C-B9D5-42C1-B997AC5F0FB51C11">
 			<callbackwithcontextlist>
 				<callback_with_context callback_id="ContextInitPlayerFaction" />
@@ -1090,9 +1090,9 @@
 						<property name="allow_none_selected" value="" />
 					</child_m_user_properties>
 				</callback_with_context>
-				<callback_with_context callback_id="ContextCommandEvent" context_function_id="Do(self.ChildList.ForEach(SetProperty(&quot;labour_diff&quot;, 0)), UiMsg(&quot;RhoxDefSlavesUpdate&quot;))">
+				<callback_with_context callback_id="ContextCommandEvent" context_function_id="Do(self.ChildList.ForEach(SetProperty(&quot;labour_diff&quot;, 0)), UiMsg(&quot;RhoxKeyKeeperSlavesUpdate&quot;))">
 					<child_m_user_properties>
-						<property name="event0" value="RhoxDefSlavesClearAll" />
+						<property name="event0" value="RhoxKeyKeeperSlavesClearAll" />
 					</child_m_user_properties>
 				</callback_with_context>
 			</callbackwithcontextlist>
@@ -1114,7 +1114,7 @@
 				</newstate>
 			</states>
 		</list_clip>
-		<rhox_def_list_provinces this="0DEAD58B-A643-5CAE-81E519637BBE07A7" id="rhox_def_list_provinces" uniqueguid_in_template="54C6DEFC-946D-4744-A48A8DD06EAC0B8F" offset="0.00,67.00" priority="45" tooltipslocalised="true" uniqueguid="0DEAD58B-A643-5CAE-81E519637BBE07A7" currentstate="EBA50FC8-C2D0-4813-8F7B15775E620D8B">
+		<rhox_key_keeper_list_provinces this="0DEAD58B-A643-5CAE-81E519637BBE07A7" id="rhox_key_keeper_list_provinces" uniqueguid_in_template="54C6DEFC-946D-4744-A48A8DD06EAC0B8F" offset="0.00,67.00" priority="45" tooltipslocalised="true" uniqueguid="0DEAD58B-A643-5CAE-81E519637BBE07A7" currentstate="EBA50FC8-C2D0-4813-8F7B15775E620D8B">
 			<callbackwithcontextlist>
 				<callback_with_context callback_id="Listview" />
 			</callbackwithcontextlist>
@@ -1123,7 +1123,7 @@
 					<component_text font_m_size="12" font_m_colour="#FFF8D7FF" font_m_leading="3" fontcat_name="body_12" />
 				</newstate>
 			</states>
-		</rhox_def_list_provinces>
+		</rhox_key_keeper_list_provinces>
 		<panel_background this="07C4BB2D-EB5A-5D83-98638CB7D00387C3" id="panel_background" offset="-3.00,0.00" visible="false" priority="60" tooltipslocalised="true" uniqueguid="07C4BB2D-EB5A-5D83-98638CB7D00387C3" currentstate="46B1B24A-46E9-4B02-AB653D3045D937A1">
 			<componentimages>
 				<component_image this="66EC646F-1F59-4848-9D149A6018D78DD5" uniqueguid="66EC646F-1F59-4848-9D149A6018D78DD5" imagepath="ui/skins/default/panel_back_tile.png" />
@@ -1252,9 +1252,9 @@
 		</root>
 		<template_entry this="7AFEE83E-1EC1-585F-B02648743BB3FD44" id="template_entry" tooltipslocalised="true" uniqueguid="7AFEE83E-1EC1-585F-B02648743BB3FD44" updatewhennotvisible="true" currentstate="600FC84E-3428-43FA-9DD9179FBB4CED99" defaultstate="600FC84E-3428-43FA-9DD9179FBB4CED99">
 			<callbackwithcontextlist>
-				<callback_with_context callback_id="ContextCommandEvent" context_object_id="CcoStaticObject" context_function_id="(RequestedLabour = Floor(ToNumber(self.ChildContext(&quot;holder_labour_workload&quot;).ChildContext(&quot;amount&quot;).CurrentText)), &#10; CurrentLabour = Floor(self.StoredContextRequired(&quot;CcoCampaignProvince&quot;).LocalPlayerProvinceManagerContext.PooledResourceContext(&quot;rhox_def_province&quot;).Total)) =&gt; {&#10;  Do(self.SetProperty(&quot;labour_diff&quot;,  RequestedLabour - CurrentLabour), UiMsg(&quot;RhoxDefSlavesUpdate&quot;))&#10;}">
+				<callback_with_context callback_id="ContextCommandEvent" context_object_id="CcoStaticObject" context_function_id="(RequestedLabour = Floor(ToNumber(self.ChildContext(&quot;holder_labour_workload&quot;).ChildContext(&quot;amount&quot;).CurrentText)), &#10; CurrentLabour = Floor(self.StoredContextRequired(&quot;CcoCampaignProvince&quot;).LocalPlayerProvinceManagerContext.PooledResourceContext(&quot;rhox_key_keeper_province&quot;).Total)) =&gt; {&#10;  Do(self.SetProperty(&quot;labour_diff&quot;,  RequestedLabour - CurrentLabour), UiMsg(&quot;RhoxKeyKeeperSlavesUpdate&quot;))&#10;}">
 					<child_m_user_properties>
-						<property name="event0" value="RhoxDefSlavesChanged" />
+						<property name="event0" value="RhoxKeyKeeperSlavesChanged" />
 					</child_m_user_properties>
 				</callback_with_context>
 				<callback_with_context callback_id="ContextObjectStore" context_object_id="CcoCampaignProvince" />
@@ -1277,26 +1277,26 @@
 			<callbackwithcontextlist>
 				<callback_with_context callback_id="ContextTextLabel" context_object_id="CcoCampaignProvince" context_function_id="Format(&quot;~%d%%&quot;, (value = RoundFloat(RhoxTempEfficiency * 100)) =&gt; value &lt; 100 | RoundFloat(RhoxTempEfficiency * 100) | 100)">
 					<child_m_user_properties>
-						<property name="event0" value="RhoxDefSlavesUpdate" />
+						<property name="event0" value="RhoxKeyKeeperSlavesUpdate" />
 						<property name="event1" value="PooledResourceTransaction" />
 					</child_m_user_properties>
 				</callback_with_context>
 				<callback_with_context callback_id="ContextStateSetterConditional" context_object_id="CcoCampaignProvince">
 					<child_m_user_properties>
-						<property name="event0" value="RhoxDefSlavesUpdate" />
+						<property name="event0" value="RhoxKeyKeeperSlavesUpdate" />
 						<property name="event1" value="PooledResourceTransaction" />
 						<property name="fallback_state" value="green" />
 						<property name="invalid" value="(100 - RhoxExSlaveInefficiency.Total) == RoundFloat(RhoxTempEfficiency * 100)" />
 						<property name="red" value="(100 - RhoxExSlaveInefficiency.Total) &gt; RoundFloat(RhoxTempEfficiency * 100)" />
 					</child_m_user_properties>
 				</callback_with_context>
-				<callback_with_context callback_id="ContextVisibilitySetter" context_object_id="CcoCampaignProvince" context_function_id="RhoxDefSlaveEconomy.SlaveChangeWanted(this) &amp;&amp; RhoxExSlaveNeed.Total &gt; 0">
+				<callback_with_context callback_id="ContextVisibilitySetter" context_object_id="CcoCampaignProvince" context_function_id="RhoxKeyKeeperSlaveEconomy.SlaveChangeWanted(this) &amp;&amp; RhoxExSlaveNeed.Total &gt; 0">
 					<child_m_user_properties>
-						<property name="event0" value="RhoxDefSlavesUpdate" />
+						<property name="event0" value="RhoxKeyKeeperSlavesUpdate" />
 						<property name="event1" value="PooledResourceTransaction" />
 					</child_m_user_properties>
 				</callback_with_context>
-				<callback_with_context callback_id="ContextTooltipSetter" context_object_id="CcoStaticObject" context_function_id="Loc(&quot;rhox_def_slaves_tooltip_efficiency&quot;)" />
+				<callback_with_context callback_id="ContextTooltipSetter" context_object_id="CcoStaticObject" context_function_id="Loc(&quot;rhox_key_keeper_slaves_tooltip_efficiency&quot;)" />
 			</callbackwithcontextlist>
 			<userproperties>
 				<property name="MinValue" value="0" />
@@ -1320,26 +1320,26 @@
 			<callbackwithcontextlist>
 				<callback_with_context callback_id="ContextTextLabel" context_object_id="CcoCampaignFaction" context_function_id="(provinces = ProvinceList.Filter(RhoxExSlaveNeed.Total &gt; 0)) =&gt; Format(&quot;%d%%&quot;, RoundFloat(provinces.Sum(MinNumericValue(RhoxTempEfficiency * 100, 100.0)) / provinces.Size))">
 					<child_m_user_properties>
-						<property name="event0" value="RhoxDefSlavesUpdate" />
+						<property name="event0" value="RhoxKeyKeeperSlavesUpdate" />
 						<property name="event1" value="PooledResourceTransaction" />
 					</child_m_user_properties>
 				</callback_with_context>
 				<callback_with_context callback_id="ContextStateSetterConditional" context_object_id="CcoCampaignFaction">
 					<child_m_user_properties>
-						<property name="event0" value="RhoxDefSlavesUpdate" />
+						<property name="event0" value="RhoxKeyKeeperSlavesUpdate" />
 						<property name="event1" value="PooledResourceTransaction" />
 						<property name="fallback_state" value="green" />
 						<property name="invalid" value="(provinces = ProvinceList.Filter(RhoxExSlaveNeed.Total &gt; 0)) =&gt;RoundFloat(provinces.Sum(MinNumericValue(RhoxTempEfficiency * 100, 100.0)) / provinces.Size) == RoundFloat(provinces.Sum(100 - RhoxExSlaveInefficiency.Total) / provinces.Size)" />
 						<property name="red" value="(provinces = ProvinceList.Filter(RhoxExSlaveNeed.Total &gt; 0)) =&gt;RoundFloat(provinces.Sum(MinNumericValue(RhoxTempEfficiency * 100, 100.0)) / provinces.Size) &lt; RoundFloat(provinces.Sum(100 - RhoxExSlaveInefficiency.Total) / provinces.Size)" />
 					</child_m_user_properties>
 				</callback_with_context>
-				<callback_with_context callback_id="ContextVisibilitySetter" context_object_id="CcoCampaignFaction" context_function_id="RhoxDefSlaveEconomy.AnyMeaningfulChangeWanted">
+				<callback_with_context callback_id="ContextVisibilitySetter" context_object_id="CcoCampaignFaction" context_function_id="RhoxKeyKeeperSlaveEconomy.AnyMeaningfulChangeWanted">
 					<child_m_user_properties>
-						<property name="event0" value="RhoxDefSlavesUpdate" />
+						<property name="event0" value="RhoxKeyKeeperSlavesUpdate" />
 						<property name="event1" value="PooledResourceTransaction" />
 					</child_m_user_properties>
 				</callback_with_context>
-				<callback_with_context callback_id="ContextTooltipSetter" context_object_id="CcoStaticObject" context_function_id="Loc(&quot;rhox_def_slaves_tooltip_total_efficiency&quot;)" />
+				<callback_with_context callback_id="ContextTooltipSetter" context_object_id="CcoStaticObject" context_function_id="Loc(&quot;rhox_key_keeper_slaves_tooltip_total_efficiency&quot;)" />
 			</callbackwithcontextlist>
 			<states>
 				<green this="A966293A-2B47-48CC-98285BF52D5756BB" name="green" width="64" height="40" interactive="true" disabled="true" uniqueguid="A966293A-2B47-48CC-98285BF52D5756BB">
@@ -1407,7 +1407,7 @@
 		</tx_division>
 		<tx_labour_surplus this="379ABD1F-EA3C-5B64-A9BC38FA2A03FA34" id="tx_labour_surplus" allowverticalresize="false" priority="51" tooltipslocalised="true" component_level_text="Labour Surplus:" text_label="ComponentText_328cd76e" uniqueguid="379ABD1F-EA3C-5B64-A9BC38FA2A03FA34" currentstate="23366DE3-9B6B-4EFD-A0A37536BBD1CA7B" defaultstate="23366DE3-9B6B-4EFD-A0A37536BBD1CA7B">
 			<callbackwithcontextlist>
-				<callback_with_context callback_id="ContextTextLabel" context_object_id="CcoStaticObject" context_function_id="Loc(&quot;rhox_def_slaves_available&quot;)" />
+				<callback_with_context callback_id="ContextTextLabel" context_object_id="CcoStaticObject" context_function_id="Loc(&quot;rhox_key_keeper_slaves_available&quot;)" />
 			</callbackwithcontextlist>
 			<states>
 				<default this="23366DE3-9B6B-4EFD-A0A37536BBD1CA7B" name="default" width="110" uniqueguid="23366DE3-9B6B-4EFD-A0A37536BBD1CA7B">

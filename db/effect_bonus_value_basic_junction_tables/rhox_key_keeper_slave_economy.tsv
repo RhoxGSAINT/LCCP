@@ -1,0 +1,4 @@
+effect	bonus_value_id
+#effect_bonus_value_basic_junction_tables;0;db/effect_bonus_value_basic_junction_tables/rhox_key_keeper_slave_economy	
+rhox_key_keeper_effect_gdp_mod_slaves	gdp_mod_all
+rhox_key_keeper_effect_gdp_slaves_flat	gdp_other
