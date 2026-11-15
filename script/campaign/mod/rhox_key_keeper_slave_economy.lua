@@ -1,11 +1,9 @@
--- The standalone Dark Elf slave distribution mod covers every human Dark Elf faction (Key Keepers included),
--- so this LCCP-only version stays completely inactive when it is installed.
+-- The standalone rhox_def_slaves mod covers every Dark Elf faction; this LCCP copy stands down when it is installed
 if vfs.exists("script/campaign/mod/rhox_def_slaves_economy.lua") then
 	return
 end
 
 local rhox_key_keeper_slaves = {
-    --currently, only one faction
 	faction_keys = {
 		rhox_def_key_keepers = true,
 	},
@@ -18,12 +16,10 @@ local rhox_key_keeper_slaves = {
 
 	need_resource_key = "rhox_def_slaves_province_need",
 
+	-- Stores the MISSING percentage (100 - efficiency), same as wh3_dlc23_chd_efficiency
 	inefficiency_resource_key = "rhox_def_slaves_province_inefficiency",
 	other_factor_key = "other",
 
-	-- Income is applied with a scripted region effect bundle:
-	--   every owned region: income from all buildings = efficiency - 50 (%), so -50% .. +50%
-	--   province capital (or first owned region): flat income = slaves * gold_per_slave
 	region_bundle_key = "rhox_def_slaves_region_income",
 	gdp_mod_effect_key = "rhox_def_slaves_effect_gdp_mod_slaves",
 	gdp_flat_effect_key = "rhox_def_slaves_effect_gdp_slaves_flat",
@@ -31,7 +27,6 @@ local rhox_key_keeper_slaves = {
 	gold_neutral_efficiency = 50,
 	gold_per_slave = 1,
 
-	-- per-turn loss of assigned slaves, copied from the Chaos Dwarf labour loss (wh3_dlc23_labour_loss.lua)
 	loss_factor_key = "rhox_def_slaves_loss",
 	loss_control_brackets = {
 		{min = -100, max = -75, loss_percent = 20},
@@ -42,10 +37,8 @@ local rhox_key_keeper_slaves = {
 		{min = 50, max = 74, loss_percent = 3},
 		{min = 75, max = 100, loss_percent = 3},
 	},
-	-- minimum loss per province per turn when the percentage is smaller than this
 	min_slave_loss = 5,
 
-	-- starting slaves for new games: faction -> province -> amount
 	starting_slaves = {
 		rhox_def_key_keepers = {
 			cr_combi_province_white_wastes = 100,
@@ -64,8 +57,8 @@ local rhox_key_keeper_slaves = {
 	hud_button_icon = "ui/skins/default/icon_slaves.png",
 }
 
+-- Human only: the AI cannot use the panel and would only get the penalty
 function rhox_key_keeper_slaves:is_valid_faction(faction)
-	-- AI factions cannot use the panel, so they would only ever receive the penalty
 	return faction and not faction:is_null_interface() and faction:is_human() and self.faction_keys[faction:name()] == true
 end
 
@@ -80,7 +73,6 @@ function rhox_key_keeper_slaves:get_faction_province(faction, province_key)
 	return false
 end
 
-
 function rhox_key_keeper_slaves:refresh_need(faction)
 	local faction_key = faction:name()
 	local province_list = faction:provinces()
@@ -88,7 +80,7 @@ function rhox_key_keeper_slaves:refresh_need(faction)
 		cm:apply_regular_reset_income(province_list:item_at(i):pooled_resource_manager())
 	end
 
-	-- the reset income is not visible in the same tick; the Chaos Dwarf script waits 0.5s as well
+	-- apply_regular_reset_income is not visible in the same tick; the CHD efficiency script also waits
 	cm:callback(
 		function()
 			local refreshed_faction = cm:get_faction(faction_key)
@@ -116,7 +108,6 @@ function rhox_key_keeper_slaves:update_all_factions()
 	end
 end
 
-
 function rhox_key_keeper_slaves:update_efficiency(faction_province)
 	local manager = faction_province:pooled_resource_manager()
 	local slaves = manager:resource(self.province_resource_key)
@@ -127,7 +118,6 @@ function rhox_key_keeper_slaves:update_efficiency(faction_province)
 		return
 	end
 
-	-- provinces without need get neither bonus nor penalty
 	local gdp_mod = 0
 	local target_inefficiency = 0
 	local need_value = need:value()
@@ -141,13 +131,15 @@ function rhox_key_keeper_slaves:update_efficiency(faction_province)
 	self:apply_region_income(faction_province, gdp_mod, slaves:value() * self.gold_per_slave)
 end
 
+-- Income goes through a scripted region bundle: pooled_resource_scaled_effects did not change gdp,
+-- and a gdp effect with a province target crashes the database.
+-- Flat income goes to one region only so it is not multiplied by the region count.
 function rhox_key_keeper_slaves:apply_region_income(faction_province, gdp_mod, flat_income)
 	local region_list = faction_province:regions()
 	if region_list:num_items() == 0 then
 		return
 	end
 
-	-- flat income goes to one region only, so it is not multiplied by the region count
 	local flat_region = region_list:item_at(0)
 	for i = 0, region_list:num_items() - 1 do
 		local region = region_list:item_at(i)
@@ -183,7 +175,6 @@ function rhox_key_keeper_slaves:apply_region_income(faction_province, gdp_mod, f
 	end
 end
 
--- Per-turn loss, same brackets as wh3_dlc23_labour_loss.lua: the lower the control, the more slaves die or escape.
 function rhox_key_keeper_slaves:apply_slave_loss(faction)
 	local province_list = faction:provinces()
 	for i = 0, province_list:num_items() - 1 do
@@ -230,7 +221,7 @@ function rhox_key_keeper_slaves:set_resource_value(resource, target)
 	end
 end
 
--- Positive amount: faction pool -> province. Negative amount: province -> faction pool.
+-- Positive amount: faction pool -> province, negative: province -> faction pool
 function rhox_key_keeper_slaves:move_slaves(faction, province_key, amount)
 	local faction_province = self:get_faction_province(faction, province_key)
 	if not faction_province then
@@ -340,7 +331,7 @@ function rhox_key_keeper_slaves:setup_ui()
 		true
 	)
 
-	-- The panel fires a local ContextTriggerEvent per province; relay it as a synced UITrigger.
+	-- TriggerScriptEvent from the cco only fires locally; relay it as a UITrigger so it is synced
 	core:add_listener(
 		"rhox_def_slaves_context_trigger",
 		"ContextTriggerEvent",
@@ -406,7 +397,6 @@ function rhox_key_keeper_slaves:setup_listeners()
 		true
 	)
 
-	-- the region bundle must not stay on a region that changed hands; the new province layout also moves the flat income
 	core:add_listener(
 		"rhox_def_slaves_region_owner_changed",
 		"RegionFactionChangeEvent",
@@ -417,7 +407,7 @@ function rhox_key_keeper_slaves:setup_listeners()
 				cm:remove_effect_bundle_from_region(self.region_bundle_key, region:name())
 			end
 
-			-- the need comes from settlement buildings, so both the old and the new owner must re-apply it
+			-- Need comes from settlement buildings, so both the new and the previous owner must refresh it
 			local refreshed = {}
 			for _, faction in ipairs({region:owning_faction(), context:previous_faction()}) do
 				if self:is_valid_faction(faction) and not refreshed[faction:name()] then
@@ -431,7 +421,6 @@ function rhox_key_keeper_slaves:setup_listeners()
 		true
 	)
 
-	-- new buildings change the need immediately instead of at the end of the round
 	core:add_listener(
 		"rhox_def_slaves_building_completed",
 		"BuildingCompleted",
