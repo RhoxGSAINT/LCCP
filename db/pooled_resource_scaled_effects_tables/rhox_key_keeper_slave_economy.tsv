@@ -1,3 +1,3 @@
 pooled_resource	amount_per_multiplier	effects	max_multiplier
 #pooled_resource_scaled_effects_tables;0;db/pooled_resource_scaled_effects_tables/rhox_key_keeper_slave_economy			
-rhox_key_keeper_province	100	rhox_key_keeper_slaves_per_100	0
+rhox_def_slaves_province	100	rhox_def_slaves_per_100	0

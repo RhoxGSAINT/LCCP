@@ -1,4 +1,4 @@
 key	is_hidden
 #pooled_resource_factors_tables;5;db/pooled_resource_factors_tables/rhox_key_keeper_slave_economy	
-rhox_key_keeper_slaves_distributed	false
-rhox_key_keeper_slaves_loss	false
+rhox_def_slaves_distributed	false
+rhox_def_slaves_loss	false

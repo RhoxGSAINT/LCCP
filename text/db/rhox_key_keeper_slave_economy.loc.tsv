@@ -1,41 +1,41 @@
 key	text	tooltip
 #Loc;1;text/db/rhox_key_keeper_slave_economy.loc		
-pooled_resources_display_name_rhox_key_keeper_province	Province Slaves	false
-pooled_resources_description_rhox_key_keeper_province	[[img:icon_slaves]][[/img]]Slaves assigned to this province from your faction's slave pool.	false
-pooled_resources_display_name_rhox_key_keeper_province_need	Slave Need	false
-pooled_resources_description_rhox_key_keeper_province_need	The number of [[img:icon_slaves]][[/img]]slaves this province needs. Increased by settlement buildings.	false
-pooled_resource_factors_display_name_positive_rhox_key_keeper_slaves_distributed	Distributed	false
-pooled_resource_factors_display_name_negative_rhox_key_keeper_slaves_distributed	Distributed	false
-effects_description_rhox_key_keeper_effect_province_slave_need	[[col:yellow]]Slave need: +%n\\n(You will need to assign this many slaves to the province)[[/col]]	false
-campaign_localised_strings_string_rhox_key_keeper_slaves_panel_title	Slave Distribution	false
-campaign_localised_strings_string_rhox_key_keeper_slaves_header_slaves_need	[[img:icon_slaves]][[/img]] Slaves / Need	false
-campaign_localised_strings_string_rhox_key_keeper_slaves_available	Available:	false
-campaign_localised_strings_string_rhox_key_keeper_slaves_tooltip_add	Assign [[img:icon_slaves]][[/img]]%d slaves to this province	false
-campaign_localised_strings_string_rhox_key_keeper_slaves_tooltip_remove	Return [[img:icon_slaves]][[/img]]%d slaves from this province to the faction pool	false
-campaign_localised_strings_string_rhox_key_keeper_slaves_tooltip_reset	Reset pending changes	false
-campaign_localised_strings_string_rhox_key_keeper_slaves_tooltip_close	Close	false
-campaign_localised_strings_string_rhox_key_keeper_slaves_tooltip_accept	Accept pending changes	false
-campaign_localised_strings_string_rhox_key_keeper_slaves_tooltip_accept_disabled	No changes have been made, or there are not enough slaves in the faction pool	false
-campaign_localised_strings_string_rhox_key_keeper_slaves_confirm_title	Distribute slaves	false
-campaign_localised_strings_string_rhox_key_keeper_slaves_confirm_body	Do you wish to confirm your changes?	false
-campaign_localised_strings_string_rhox_key_keeper_slaves_hud_button	Slave Distribution||Assign [[img:icon_slaves]][[/img]]slaves from your faction pool to your provinces.	false
-building_effect_context_expressions_display_text_RhoxKeyKeeperFactionCheck	Key Keepers only:	false
-pooled_resources_display_name_rhox_key_keeper_province_inefficiency	Slave Shortage	false
-pooled_resources_description_rhox_key_keeper_province_inefficiency	How far this province falls short of its [[img:icon_slaves]][[/img]]slave need, in percent.	false
-effects_description_rhox_key_keeper_effect_public_order_slaves	{{tr:public_order_effect}}: %+n	false
-effects_description_rhox_key_keeper_effect_gdp_mod_slaves	Income from all buildings (slave labour): %+n%	false
-public_order_providers_localised_breakdown_rhox_key_keeper_public_order_provider_slaves	Slave population	false
-campaign_localised_strings_string_rhox_key_keeper_slaves_tooltip_efficiency	Efficiency||How well this province's [[img:icon_slaves]][[/img]]slave need is met. At 50% income is unchanged; each 1% above or below changes income from all buildings in the province by 1% (from -50% at 0% to +50% at 100%).	false
-campaign_localised_strings_string_rhox_key_keeper_slaves_tooltip_total_efficiency	Average Efficiency||Average efficiency of all provinces that need slaves.	false
-campaign_localised_strings_string_rhox_key_keeper_slaves_tooltip_output	Total Province Income||Total gross [[img:icon_treasury]][[/img]]income of this province from all sources, including slave income and the slave labour modifier.\\n\\n[[col:yellow]]The game recalculates province income at the start of each turn, so changes to slave distribution appear here on the next turn.[[/col]]	false
-campaign_localised_strings_string_rhox_key_keeper_slaves_header_income_mod	Income Mod	false
-campaign_localised_strings_string_rhox_key_keeper_slaves_tooltip_income_mod	Slave Labour Income||Modifier to income from all buildings in this province from [[img:icon_slaves]][[/img]]slave efficiency. 50% efficiency = no change; each 1% above or below = +1% / -1%.	false
-effects_description_rhox_key_keeper_effect_gdp_slaves_flat	Income from [[img:icon_slaves]][[/img]]slave labour: %+n	false
-campaign_localised_strings_string_rhox_key_keeper_slaves_header_slave_income	Slave Income	false
-campaign_localised_strings_string_rhox_key_keeper_slaves_tooltip_slave_income	Slave Income||Flat [[img:icon_treasury]][[/img]]income from the [[img:icon_slaves]][[/img]]slaves assigned to this province (+1 per slave, paid in the province capital).	false
-campaign_localised_strings_string_rhox_key_keeper_slaves_header_total_income	Total Province Income	false
-effect_bundles_localised_title_rhox_key_keeper_slaves_region_income	Slave Labour	false
-effect_bundles_localised_description_rhox_key_keeper_slaves_region_income	Income from the [[img:icon_slaves]][[/img]]slaves assigned to this province.	false
+pooled_resources_display_name_rhox_def_slaves_province	Province Slaves	false
+pooled_resources_description_rhox_def_slaves_province	[[img:icon_slaves]][[/img]]Slaves assigned to this province from your faction's slave pool.	false
+pooled_resources_display_name_rhox_def_slaves_province_need	Slave Need	false
+pooled_resources_description_rhox_def_slaves_province_need	The number of [[img:icon_slaves]][[/img]]slaves this province needs. Increased by settlement buildings.	false
+pooled_resource_factors_display_name_positive_rhox_def_slaves_distributed	Distributed	false
+pooled_resource_factors_display_name_negative_rhox_def_slaves_distributed	Distributed	false
+effects_description_rhox_def_slaves_effect_province_slave_need	[[col:yellow]]Slave need: +%n\\n(You will need to assign this many slaves to the province)[[/col]]	false
+campaign_localised_strings_string_rhox_def_slaves_panel_title	Slave Distribution	false
+campaign_localised_strings_string_rhox_def_slaves_header_slaves_need	[[img:icon_slaves]][[/img]] Slaves / Need	false
+campaign_localised_strings_string_rhox_def_slaves_available	Available:	false
+campaign_localised_strings_string_rhox_def_slaves_tooltip_add	Assign [[img:icon_slaves]][[/img]]%d slaves to this province	false
+campaign_localised_strings_string_rhox_def_slaves_tooltip_remove	Return [[img:icon_slaves]][[/img]]%d slaves from this province to the faction pool	false
+campaign_localised_strings_string_rhox_def_slaves_tooltip_reset	Reset pending changes	false
+campaign_localised_strings_string_rhox_def_slaves_tooltip_close	Close	false
+campaign_localised_strings_string_rhox_def_slaves_tooltip_accept	Accept pending changes	false
+campaign_localised_strings_string_rhox_def_slaves_tooltip_accept_disabled	No changes have been made, or there are not enough slaves in the faction pool	false
+campaign_localised_strings_string_rhox_def_slaves_confirm_title	Distribute slaves	false
+campaign_localised_strings_string_rhox_def_slaves_confirm_body	Do you wish to confirm your changes?	false
+campaign_localised_strings_string_rhox_def_slaves_hud_button	Slave Distribution||Assign [[img:icon_slaves]][[/img]]slaves from your faction pool to your provinces.	false
+pooled_resources_display_name_rhox_def_slaves_province_inefficiency	Slave Shortage	false
+pooled_resources_description_rhox_def_slaves_province_inefficiency	How far this province falls short of its [[img:icon_slaves]][[/img]]slave need, in percent.	false
+effects_description_rhox_def_slaves_effect_public_order_slaves	{{tr:public_order_effect}}: %+n	false
+effects_description_rhox_def_slaves_effect_gdp_mod_slaves	Income from all buildings (slave labour): %+n%	false
+public_order_providers_localised_breakdown_rhox_def_slaves_public_order_provider_slaves	Slave population	false
+campaign_localised_strings_string_rhox_def_slaves_tooltip_efficiency	Efficiency||How well this province's [[img:icon_slaves]][[/img]]slave need is met. At 50% income is unchanged; each 1% above or below changes income from all buildings in the province by 1% (from -50% at 0% to +50% at 100%).	false
+campaign_localised_strings_string_rhox_def_slaves_tooltip_total_efficiency	Average Efficiency||Average efficiency of all provinces that need slaves.	false
+campaign_localised_strings_string_rhox_def_slaves_tooltip_output	Total Province Income||Total gross [[img:icon_treasury]][[/img]]income of this province from all sources, including slave income and the slave labour modifier.\\n\\n[[col:yellow]]The game recalculates province income at the start of each turn, so changes to slave distribution appear here on the next turn.[[/col]]	false
+campaign_localised_strings_string_rhox_def_slaves_header_income_mod	Income Mod	false
+campaign_localised_strings_string_rhox_def_slaves_tooltip_income_mod	Slave Labour Income||Modifier to income from all buildings in this province from [[img:icon_slaves]][[/img]]slave efficiency. 50% efficiency = no change; each 1% above or below = +1% / -1%.	false
+effects_description_rhox_def_slaves_effect_gdp_slaves_flat	Income from [[img:icon_slaves]][[/img]]slave labour: %+n	false
+campaign_localised_strings_string_rhox_def_slaves_header_slave_income	Slave Income	false
+campaign_localised_strings_string_rhox_def_slaves_tooltip_slave_income	Slave Income||Flat [[img:icon_treasury]][[/img]]income from the [[img:icon_slaves]][[/img]]slaves assigned to this province (+1 per slave, paid in the province capital).	false
+campaign_localised_strings_string_rhox_def_slaves_header_total_income	Total Province Income	false
+effect_bundles_localised_title_rhox_def_slaves_region_income	Slave Labour	false
+effect_bundles_localised_description_rhox_def_slaves_region_income	Income from the [[img:icon_slaves]][[/img]]slaves assigned to this province.	false
 effects_description_rhox_dorian_slave_distribution_dummy	[[col:yellow]]Slave Distribution:[[/col]] captured [[img:icon_slaves]][[/img]]slaves must be assigned to your provinces through the Slave Distribution panel\\n[[img:bullet_point_white]] Each province needs slaves according to its settlements\\n[[img:bullet_point_white]] At 50%% of the need, income from all buildings is unchanged\\n[[img:bullet_point_white]] Each 1%% above or below changes it by +1%% / -1%% (from -50%% to +50%%)\\n[[img:bullet_point_white]] Every assigned slave produces +1 [[img:icon_treasury]][[/img]]income\\n[[img:bullet_point_white]] Every 100 assigned slaves lower control in the province by 1\\n[[img:bullet_point_white]] Each turn a province loses 3-20%% of its assigned slaves depending on control (at least 5)	false
-pooled_resource_factors_display_name_negative_rhox_key_keeper_slaves_loss	Losses	false
-pooled_resource_factors_display_name_positive_rhox_key_keeper_slaves_loss	Losses	false
+pooled_resource_factors_display_name_negative_rhox_def_slaves_loss	Losses	false
+pooled_resource_factors_display_name_positive_rhox_def_slaves_loss	Losses	false
+building_effect_context_expressions_display_text_RhoxDefSlavesNeedCondition	Slave Distribution:	false
