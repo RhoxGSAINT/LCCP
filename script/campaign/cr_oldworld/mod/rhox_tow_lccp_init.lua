@@ -85,7 +85,7 @@ local rhox_tow_list={
         region="cr_oldworld_region_roezfels",
         how_they_play="rhox_iee_lccp_how_they_play_zach",
         pic=594,
-        faction_trait="rhox_zach_faction_trait",
+        faction_trait="rhox_zach_lord_trait",
         
         additional = function(faction, faction_key) 
         end,
@@ -107,7 +107,7 @@ local rhox_tow_list={
         region="cr_oldworld_region_se_athil",
         how_they_play="rhox_iee_lccp_how_they_play_duriath",
         pic=782,
-        faction_trait="rhox_duriath_faction_trait",
+        faction_trait="rhox_duriath_lord_trait",
         additional = function(faction, faction_key) 
             cm:add_building_to_force(faction:faction_leader():military_force():command_queue_index(), "rhox_duriath_black_ark_special_1")
         end,
@@ -129,7 +129,7 @@ local rhox_tow_list={
         region="cr_oldworld_region_tokmars_camp",
         how_they_play="rhox_iee_lccp_how_they_play_vroth",
         pic=800,
-        faction_trait="rhox_vroth_faction_trait",
+        faction_trait="rhox_vroth_lord_trait",
         additional = function(faction, faction_key) 
             for i, v in pairs(LenkBeastHunts.ai_units) do
                 cm:add_unit_to_faction_mercenary_pool(
@@ -167,7 +167,7 @@ local rhox_tow_list={
         region="cr_oldworld_region_deathtoll_hold",
         how_they_play="rhox_iee_lccp_how_they_play_hrothyogg",
         pic=16,
-        faction_trait="rhox_hrothyogg_faction_trait",
+        faction_trait="rhox_hrothyogg_lord_trait",
         enemy=nil,
         additional = function(faction, faction_key) 
         end,
@@ -191,7 +191,7 @@ local rhox_tow_list={
         region="cr_oldworld_region_khazags_camp",
         how_they_play="rhox_iee_lccp_how_they_play_thorgar",
         pic=800,
-        faction_trait="rhox_thorgar_faction_trait",
+        faction_trait="rhox_thorgar_lord_trait",
         enemy=nil,
         additional = function(faction, faction_key)
 		    cm:add_event_restricted_building_record_for_faction("rhox_thorgar_dae_advanced_1", faction_key, "rhox_thorgar_building_lock")
@@ -216,7 +216,7 @@ local rhox_tow_list={
         region="cr_oldworld_region_monolith_of_merroc",
         how_they_play="rhox_iee_lccp_how_they_play_engra",
         pic=595,
-        faction_trait="rhox_engra_faction_trait",
+        faction_trait="rhox_engra_lord_trait",
         enemy={
             key="cr_nor_schwarzvolf",
         },
@@ -351,7 +351,7 @@ local rhox_tow_list={
         region="cr_oldworld_region_monolith_of_valbrand_fireblade",
         how_they_play="rhox_iee_lccp_how_they_play_valbrand",
         pic=800,
-        faction_trait="rhox_valbrand_faction_trait",
+        faction_trait="rhox_valbrand_lord_trait",
         enemy=nil,--because they don't spawn enemy force for it
         additional = function(faction, faction_key)            
             cm:add_unit_to_faction_mercenary_pool(faction,"wh3_dlc26_kho_inf_wrathmongers_ror", "wh3_main_regiments_of_renown_pool", 1, 20, 1, 0.1, "", "", "", true,"wh3_dlc26_kho_inf_wrathmongers_ror")

@@ -1,0 +1,20 @@
+key	localised_description	localised_title	bundle_target	priority	ui_icon	is_global_effect	show_in_3d_space	owner_only
+#effect_bundles_tables;4;db/effect_bundles_tables/zzz_rhox_lccp_deleted_after_patch								
+rhox_aelfric_faction_trait			faction	0		true	false	true
+rhox_arbaal_faction_trait			faction	0		true	false	true
+rhox_burlok_faction_trait			faction	0		true	false	true
+rhox_dolmance_faction_trait			faction	0		true	false	true
+rhox_dorian_faction_trait			faction	0		true	false	true
+rhox_duriath_faction_trait			faction	0		true	false	true
+rhox_engra_faction_trait			faction	0		true	false	true
+rhox_hrothyogg_faction_trait			faction	0		true	false	true
+rhox_karitamen_faction_trait			faction	0		true	false	true
+rhox_orghotts_faction_trait			faction	0		true	false	true
+rhox_sceolan_faction_trait			faction	0		true	false	true
+rhox_slaurith_faction_trait			faction	0		true	false	true
+rhox_thorgar_faction_trait			faction	0		true	false	true
+rhox_torinubar_faction_trait			faction	0		true	false	true
+rhox_valbrand_faction_trait			faction	0		true	false	true
+rhox_volrik_faction_trait			faction	0		true	false	true
+rhox_vroth_faction_trait			faction	0		true	false	true
+rhox_zach_faction_trait			faction	0		true	false	true

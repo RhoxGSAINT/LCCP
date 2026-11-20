@@ -1,4 +1,6 @@
-2026/NOV/14 SCM
+2026/NOV/20 SCM
+- Made current faction bundle to invisible, and added new one with the lord_trait so that it shows up in the upper right.
+-- current effect bundle will be deleted after the save-breaking patch
 - Added occupation group to the key keepers
 - Slave thing to the key keepers
 

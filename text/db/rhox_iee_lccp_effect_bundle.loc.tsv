@@ -4,34 +4,34 @@ effect_bundles_localised_description_hkrul_sceolan_banner		false
 effect_bundles_localised_description_hkrul_valbrand_banner		false
 effect_bundles_localised_description_hkrul_volrik_banner		false
 effect_bundles_localised_description_hkrul_zach_banner		false
-effect_bundles_localised_description_rhox_valbrand_faction_trait		false
-effect_bundles_localised_title_rhox_valbrand_faction_trait	Fireblade's Slavers	false
-effect_bundles_localised_description_rhox_torinubar_faction_trait		false
-effect_bundles_localised_title_rhox_torinubar_faction_trait	Window to the East	false
+effect_bundles_localised_description_rhox_valbrand_lord_trait		false
+effect_bundles_localised_title_rhox_valbrand_lord_trait	Fireblade's Slavers	false
+effect_bundles_localised_description_rhox_torinubar_lord_trait		false
+effect_bundles_localised_title_rhox_torinubar_lord_trait	Window to the East	false
 effect_bundles_localised_description_rhox_torinubar_purchase_east		false
 effect_bundles_localised_title_rhox_torinubar_purchase_east	Eastern Equipment	false
 effect_bundles_localised_description_rhox_torinubar_purchase_west		false
 effect_bundles_localised_title_rhox_torinubar_purchase_west	Western Equipment	false
-effect_bundles_localised_description_rhox_sceolan_faction_trait	Far away from the High Realm of Atylwyth, the exiled warrior Sceolan plans his definitive return to the Oak Glades.	false
-effect_bundles_localised_title_rhox_sceolan_faction_trait	Exiles of Atylwyth	false
-effect_bundles_localised_description_rhox_volrik_faction_trait	Volrik Clawhand, touched by Tzeentch is a Kurgan Warlord dedicated to the ultimate schemer.	false
-effect_bundles_localised_title_rhox_volrik_faction_trait	The Ravenblessed	false
-effect_bundles_localised_description_rhox_zach_faction_trait	Far away from the Forest of Shadows, the defeated Zacharias plots his return to the Old World where he aims to destroy all that betrayed him prior to his demise.	false
-effect_bundles_localised_title_rhox_zach_faction_trait	The Everliving	false
+effect_bundles_localised_description_rhox_sceolan_lord_trait	Far away from the High Realm of Atylwyth, the exiled warrior Sceolan plans his definitive return to the Oak Glades.	false
+effect_bundles_localised_title_rhox_sceolan_lord_trait	Exiles of Atylwyth	false
+effect_bundles_localised_description_rhox_volrik_lord_trait	Volrik Clawhand, touched by Tzeentch is a Kurgan Warlord dedicated to the ultimate schemer.	false
+effect_bundles_localised_title_rhox_volrik_lord_trait	The Ravenblessed	false
+effect_bundles_localised_description_rhox_zach_lord_trait	Far away from the Forest of Shadows, the defeated Zacharias plots his return to the Old World where he aims to destroy all that betrayed him prior to his demise.	false
+effect_bundles_localised_title_rhox_zach_lord_trait	The Everliving	false
 effect_bundles_localised_description_rhox_valbrand_innate_effect_bundle	Used to set the mass bonus determined by the number of factions at war	false
 effect_bundles_localised_title_rhox_valbrand_innate_effect_bundle	HIDDEN	false
 effect_bundles_localised_description_rhox_volrik_cotw_hidden_effect_bundle	HIDDEN	false
 effect_bundles_localised_title_rhox_volrik_cotw_hidden_effect_bundle	HIDDEN	false
 effect_bundles_localised_description_rhox_volrik_wind_of_magic_high		false
 effect_bundles_localised_title_rhox_volrik_wind_of_magic_high	Winds of Magic Power Reserve (80+)	false
-effect_bundles_localised_description_rhox_orghotts_faction_trait		false
-effect_bundles_localised_title_rhox_orghotts_faction_trait	Tide of Defilement	false
-effect_bundles_localised_description_rhox_hrothyogg_faction_trait	Pay the toll, or pay the ultimate price - Hrothyogg the Terrible.	false
-effect_bundles_localised_title_rhox_hrothyogg_faction_trait	Deathtoll Tribe	false
-effect_bundles_localised_description_rhox_slaurith_faction_trait	Impatiently waiting his next challenger, Lord Slaurith seeks eternal glory on the steps of Bastion Stair.	false
-effect_bundles_localised_title_rhox_slaurith_faction_trait	Lord of Bastion Stair	false
-effect_bundles_localised_description_rhox_burlok_faction_trait	The Master Engineer of the Engineer's Guild seeks new and undiscovered elements for his next fabrication deep within the exotic jungles of Ind.	false
-effect_bundles_localised_title_rhox_burlok_faction_trait	Guildmaster of the Engineer's Guild	false
+effect_bundles_localised_description_rhox_orghotts_lord_trait		false
+effect_bundles_localised_title_rhox_orghotts_lord_trait	Tide of Defilement	false
+effect_bundles_localised_description_rhox_hrothyogg_lord_trait	Pay the toll, or pay the ultimate price - Hrothyogg the Terrible.	false
+effect_bundles_localised_title_rhox_hrothyogg_lord_trait	Deathtoll Tribe	false
+effect_bundles_localised_description_rhox_slaurith_lord_trait	Impatiently waiting his next challenger, Lord Slaurith seeks eternal glory on the steps of Bastion Stair.	false
+effect_bundles_localised_title_rhox_slaurith_lord_trait	Lord of Bastion Stair	false
+effect_bundles_localised_description_rhox_burlok_lord_trait	The Master Engineer of the Engineer's Guild seeks new and undiscovered elements for his next fabrication deep within the exotic jungles of Ind.	false
+effect_bundles_localised_title_rhox_burlok_lord_trait	Guildmaster of the Engineer's Guild	false
 effect_bundles_localised_description_rhox_burlok_effect_bundle_burlok_artifact_part_1a	Located here is one of the Experiment ingredient that will surely bring Skargel the Miner	false
 effect_bundles_localised_title_rhox_burlok_effect_bundle_burlok_artifact_part_1a	Serpent Fang	false
 effect_bundles_localised_description_rhox_burlok_effect_bundle_burlok_artifact_part_1b	Located here is one of the Experiment ingredient that will surely bring Skargel the Miner	false
@@ -68,10 +68,10 @@ effect_bundles_localised_description_rhox_burlok_payload_artifact_4_elixir_morni
 effect_bundles_localised_title_rhox_burlok_payload_artifact_4_elixir_morning_calm	Elixier of the Morning Calm	false
 effect_bundles_localised_description_rhox_burlok_payload_artifact_5_ethereal_fusion	Result of this experiment is a cloak that can shrouds the user in an ethereal aura. Making them nearly impossible to detect and allowing them to move through obstacles and enemies as if they were a ghost	false
 effect_bundles_localised_title_rhox_burlok_payload_artifact_5_ethereal_fusion	Ethereal Fusion	false
-effect_bundles_localised_description_rhox_dolmance_faction_trait	Lavish as ever, Alphonse Dolmancé lands with his group of cultists in the far lands of Ind, ready to plunge into excess.	false
-effect_bundles_localised_title_rhox_dolmance_faction_trait	The Revellers	false
-effect_bundles_localised_description_rhox_thorgar_faction_trait	On his quest to daemonic ascension, the Kurgan Zar, Thorgar the Blooded One, leads his warmongering Khazag tribe to eternal glory or inevitable demise.	false
-effect_bundles_localised_title_rhox_thorgar_faction_trait	The Khazags	false
+effect_bundles_localised_description_rhox_dolmance_lord_trait	Lavish as ever, Alphonse Dolmancé lands with his group of cultists in the far lands of Ind, ready to plunge into excess.	false
+effect_bundles_localised_title_rhox_dolmance_lord_trait	The Revellers	false
+effect_bundles_localised_description_rhox_thorgar_lord_trait	On his quest to daemonic ascension, the Kurgan Zar, Thorgar the Blooded One, leads his warmongering Khazag tribe to eternal glory or inevitable demise.	false
+effect_bundles_localised_title_rhox_thorgar_lord_trait	The Khazags	false
 effect_bundles_localised_description_rhox_sceolan_embrace_cold	This force has recently visited the Magical Forest or Frozen climate and is receiving bonuses	false
 effect_bundles_localised_title_rhox_sceolan_embrace_cold	Embrace the Cold	false
 effect_bundles_localised_description_cr_far_away_forest_minister_1	Frostblade Warden	false
@@ -90,8 +90,8 @@ effect_bundles_localised_description_rhox_sceolan_cathay_punished	Dragon Emperor
 effect_bundles_localised_title_rhox_sceolan_cathay_punished	Cathay Punished	false
 effect_bundles_localised_description_rhox_sceolan_cathay_spared	They're foolish enough to serve a lizard as a god. Spare them	false
 effect_bundles_localised_title_rhox_sceolan_cathay_spared	Cathay Spared	false
-effect_bundles_localised_description_rhox_arbaal_faction_trait	''More battle, more feats, more victories, more skulls!'' - Arbaal the Destroyer of Khorne	false
-effect_bundles_localised_title_rhox_arbaal_faction_trait	The Undefeated	false
+effect_bundles_localised_description_rhox_arbaal_lord_trait	''More battle, more feats, more victories, more skulls!'' - Arbaal the Destroyer of Khorne	false
+effect_bundles_localised_title_rhox_arbaal_lord_trait	The Undefeated	false
 effect_bundles_localised_description_rhox_slaurith_reward_1	Knight Hunted Down 1	false
 effect_bundles_localised_title_rhox_slaurith_reward_1	Knight Hunted Down 1	false
 effect_bundles_localised_description_rhox_slaurith_reward_2	Knight Hunted Down 2	false
@@ -108,12 +108,12 @@ effect_bundles_localised_description_rhox_slaurith_reward_7	Knight Hunted Down 7
 effect_bundles_localised_title_rhox_slaurith_reward_7	Knight Hunted Down 7	false
 effect_bundles_localised_description_rhox_slaurith_reward_8	Knight Hunted Down 8	false
 effect_bundles_localised_title_rhox_slaurith_reward_8	Knight Hunted Down 8	false
-effect_bundles_localised_description_rhox_engra_faction_trait	Server of not one, but three Everchosen. Engra Deathsword is the very catalyst of the End Times, wading through the steppes and wastes in search of potential armies and warlords to do the Everchosen's bidding.	false
-effect_bundles_localised_title_rhox_engra_faction_trait	The Everchosen's Headhunter	false
-effect_bundles_localised_description_rhox_vroth_faction_trait	Surtha Lenk leads his band of Tokmars hunters as they attempt to unite the Kurgan tribes, be it monster - beast or man.	false
-effect_bundles_localised_title_rhox_vroth_faction_trait	Revered Tokmars	false
-effect_bundles_localised_description_rhox_karitamen_faction_trait	Karitamen has landed with his band of cultists to serve in the ultimate plot of Phakth.	false
-effect_bundles_localised_title_rhox_karitamen_faction_trait	The Liche Lord	false
+effect_bundles_localised_description_rhox_engra_lord_trait	Server of not one, but three Everchosen. Engra Deathsword is the very catalyst of the End Times, wading through the steppes and wastes in search of potential armies and warlords to do the Everchosen's bidding.	false
+effect_bundles_localised_title_rhox_engra_lord_trait	The Everchosen's Headhunter	false
+effect_bundles_localised_description_rhox_vroth_lord_trait	Surtha Lenk leads his band of Tokmars hunters as they attempt to unite the Kurgan tribes, be it monster - beast or man.	false
+effect_bundles_localised_title_rhox_vroth_lord_trait	Revered Tokmars	false
+effect_bundles_localised_description_rhox_karitamen_lord_trait	Karitamen has landed with his band of cultists to serve in the ultimate plot of Phakth.	false
+effect_bundles_localised_title_rhox_karitamen_lord_trait	The Liche Lord	false
 effect_bundles_localised_description_rhox_engra_campaign_progress_opeation_set_1		false
 effect_bundles_localised_title_rhox_engra_campaign_progress_opeation_set_1	Archaon Hungry	false
 effect_bundles_localised_description_rhox_engra_campaign_progress_opeation_set_2		false
@@ -132,8 +132,8 @@ effect_bundles_localised_description_rhox_arbaal_resource_effects_4	I'm the Dest
 effect_bundles_localised_title_rhox_arbaal_resource_effects_4	Destroyer of Khorne	false
 effect_bundles_localised_description_rhox_arbaal_other_faction_curse	You're a disgrace	false
 effect_bundles_localised_title_rhox_arbaal_other_faction_curse	Disgrace of Khorne	false
-effect_bundles_localised_description_rhox_duriath_faction_trait	Duriath Helbane	false
-effect_bundles_localised_title_rhox_duriath_faction_trait	Duriath Helbane	false
+effect_bundles_localised_description_rhox_duriath_lord_trait	Duriath Helbane	false
+effect_bundles_localised_title_rhox_duriath_lord_trait	Duriath Helbane	false
 effect_bundles_localised_description_rhox_burlok_payload_artifact_1_ritual_dummy	Inspired by your milestone, Skargel the Miner will join you	false
 effect_bundles_localised_title_rhox_burlok_payload_artifact_1_ritual_dummy	Skargel the Miner	false
 effect_bundles_localised_description_rhox_burlok_payload_artifact_2_ritual_dummy	Inspired by your milestone, Thulgrim the Thief will join you	false
@@ -192,14 +192,14 @@ effect_bundles_localised_description_rhox_valbrand_settle	Sets up a defensive ca
 effect_bundles_localised_title_rhox_valbrand_settle	Stance: Encamp	false
 effect_bundles_localised_description_rhox_arbaal_hidden_first_turn	Hiddne only for first turn so he can reach the settlement	false
 effect_bundles_localised_title_rhox_arbaal_hidden_first_turn	Hiddne only for first turn so he can reach the settlement	false
-effect_bundles_localised_title_rhox_aelfric_faction_trait	High Zar of the Iron Wolves	false
-effect_bundles_localised_description_rhox_aelfric_faction_trait	Champion of Tzeentch and warlord of the Iron Wolves, Aelfric Cyenwulf drives his hardened tribesmen south, who will shattered the man's defiance.	false
+effect_bundles_localised_title_rhox_aelfric_lord_trait	High Zar of the Iron Wolves	false
+effect_bundles_localised_description_rhox_aelfric_lord_trait	Champion of Tzeentch and warlord of the Iron Wolves, Aelfric Cyenwulf drives his hardened tribesmen south, who will shattered the man's defiance.	false
 effect_bundles_localised_title_rhox_valbrand_raze_count	Dedication to Hound	false
 effect_bundles_localised_description_rhox_valbrand_raze_count		false
 effect_bundles_localised_title_rhox_lccp_vmp_ritual_confederate_lord_zach	Unlock Zacharias	false
 effect_bundles_localised_description_rhox_lccp_vmp_ritual_confederate_lord_zach	Zacharias' faction will be confederated!	false
-effect_bundles_localised_title_rhox_dorian_faction_trait	Keeper of the Iron Key	false
-effect_bundles_localised_description_rhox_dorian_faction_trait	Lord High Marshall of Naggaroth and master of the army of the north, Dorian Silverblade bears the Iron Key, the Witch King's own warrant over the endless tide of thralls that toil and die beneath the Druchii lash. Where lesser lords merely own slaves, the Keeper decides where they are sent, and how they are spent.	false
+effect_bundles_localised_title_rhox_dorian_lord_trait	Keeper of the Iron Key	false
+effect_bundles_localised_description_rhox_dorian_lord_trait	Lord High Marshall of Naggaroth and master of the army of the north, Dorian Silverblade bears the Iron Key, the Witch King's own warrant over the endless tide of thralls that toil and die beneath the Druchii lash. Where lesser lords merely own slaves, the Keeper decides where they are sent, and how they are spent.	false
 effect_bundles_localised_title_rhox_key_keepers_ritual_slave_work	{{tr:rituals_display_name_rhox_key_keepers_ritual_slave_work}}	false
 effect_bundles_localised_description_rhox_key_keepers_ritual_slave_work	{{tr:rituals_description_rhox_key_keepers_ritual_slave_work}}	false
 effect_bundles_localised_title_rhox_key_keepers_ritual_slave_levy	{{tr:rituals_display_name_rhox_key_keepers_ritual_slave_levy}}	false
